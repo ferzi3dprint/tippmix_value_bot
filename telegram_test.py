@@ -19,4 +19,5 @@ if last:
         lines += ["Legjobb EV-k (küszöbtől függetlenül):"] + [f"• {x}" for x in last["top_ev"][:3]]
 lines += ["", "🔗 Dashboard: https://ferzi3dprint.github.io/tippmix_value_bot/"]
 ok = notify.send("\n".join(lines))
-print("Elküldve" if ok else "NEM ment el (hiányzó TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID?)")
+print("Elküldve" if ok else "NEM ment el – lásd a fenti [Telegram] sort")
+raise SystemExit(0 if ok else 1)

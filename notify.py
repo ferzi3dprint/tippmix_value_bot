@@ -26,5 +26,14 @@ def send(text):
     for chunk in _split(text):
         r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
                           json={"chat_id": chat_id, "text": chunk, "disable_web_page_preview": True}, timeout=30)
-        r.raise_for_status()
+        if r.status_code != 200:
+            try:
+                desc = r.json().get("description")
+            except Exception:
+                desc = r.text[:200]
+            print(f"[Telegram] HIBA {r.status_code}: {desc}")
+            if "initiate conversation" in str(desc) or "chat not found" in str(desc):
+                print("[Telegram] Tipp: nyisd meg a botot a Telegramban és nyomd meg a START gombot (vagy küldj neki egy üzenetet), "
+                      "és ellenőrizd, hogy a TELEGRAM_CHAT_ID a saját chat-azonosítód (szám).")
+            return False
     return True
