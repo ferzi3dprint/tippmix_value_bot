@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Tippmix value-bot</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --surface-2: #f0efec; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,0.10);
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300;
+  --good: #0ca30c; --good-text: #006300; --warning: #fab219; --serious: #ec835a; --critical: #d03b3b;
+  --star-bg: #e8f1fc; --orange-bg: #fdeee6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --surface-2: #383835; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,0.10);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300;
+    --good-text: #0ca30c; --star-bg: #16263a; --orange-bg: #3a2216;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --surface-2: #383835; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,0.10);
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300;
+  --good-text: #0ca30c; --star-bg: #16263a; --orange-bg: #3a2216;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--page); color: var(--ink); }
+body { font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; -webkit-text-size-adjust: 100%; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 16px; }
+header.top { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+h1 { font-size: 20px; margin: 4px 0; }
+h2 { font-size: 17px; margin: 28px 0 10px; }
+h3 { font-size: 15px; margin: 0 0 6px; }
+.muted { color: var(--muted); } .ink2 { color: var(--ink-2); }
+.card { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 14px; }
+.grid { display: grid; gap: 12px; }
+.tiles { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.cards { grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
+.tile .lbl { font-size: 13px; color: var(--ink-2); }
+.tile .val { font-size: 24px; font-weight: 600; margin-top: 2px; }
+.tile .sub { font-size: 13px; color: var(--ink-2); }
+.up { color: var(--good-text); } .down { color: var(--critical); }
+button, .btn { font: inherit; border: 1px solid var(--ring); background: var(--surface); color: var(--ink); border-radius: 8px;
+  padding: 8px 12px; cursor: pointer; min-height: 40px; }
+button.primary { background: var(--s1); color: #fff; border-color: transparent; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+.chip[aria-pressed="true"] { background: var(--surface-2); font-weight: 600; }
+.chart-box { position: relative; height: 240px; }
+.donut-box { position: relative; height: 170px; }
+.legend-list { list-style: none; padding: 0; margin: 8px 0 0; font-size: 13px; }
+.legend-list li { display: flex; align-items: center; gap: 6px; padding: 2px 0; }
+.legend-list .sw { width: 10px; height: 10px; border-radius: 2px; flex: 0 0 auto; }
+.legend-list .pct { margin-left: auto; font-variant-numeric: tabular-nums; }
+.over { color: var(--critical); font-weight: 600; }
+.badge { display: inline-block; font-size: 12px; padding: 1px 7px; border-radius: 99px; border: 1px solid var(--ring); color: var(--ink-2); }
+.badge.crit { border-color: var(--critical); color: var(--critical); }
+.badge.warn { border-color: var(--serious); color: var(--ink); }
+.star { background: var(--star-bg); border-color: var(--s1); }
+.orange { background: var(--orange-bg); border-color: var(--s2); }
+.kv { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 13px; margin-top: 8px; }
+.kv dt { color: var(--ink-2); } .kv dd { margin: 0; font-variant-numeric: tabular-nums; }
+.band { margin: 10px 0 4px; }
+.band svg { width: 100%; height: 46px; display: block; }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th { color: var(--ink-2); font-weight: 600; cursor: pointer; user-select: none; position: sticky; top: 0; background: var(--surface); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.ai { white-space: pre-wrap; font-size: 14px; }
+input[type=password], input[type=search] { font: inherit; width: 100%; padding: 10px; border-radius: 8px;
+  border: 1px solid var(--axis); background: var(--surface); color: var(--ink); min-height: 44px; }
+#login { max-width: 380px; margin: 12vh auto; }
+#login label.chk { display: flex; gap: 8px; align-items: center; margin: 12px 0; }
+#err { color: var(--critical); min-height: 1.4em; margin-top: 8px; }
+footer { margin: 36px 0 24px; font-size: 13px; color: var(--ink-2); }
+.hidden { display: none !important; }
+.quicknav { position: sticky; top: 0; z-index: 5; display: flex; gap: 6px; overflow-x: auto; padding: 8px 0; margin: 8px 0 0;
+  background: var(--page); -webkit-overflow-scrolling: touch; }
+.quicknav a { flex: 0 0 auto; font-size: 13px; color: var(--ink-2); text-decoration: none; border: 1px solid var(--ring);
+  border-radius: 99px; padding: 5px 10px; background: var(--surface); }
+h2 { scroll-margin-top: 56px; }
+.hl .big { font-size: 28px; font-weight: 600; margin: 2px 0 6px; }
+.hl ul { margin: 4px 0 0; padding-left: 18px; font-size: 14px; }
+.hl.good { border-color: var(--good); } .hl.warn { border-color: var(--serious); } .hl.crit { border-color: var(--critical); }
+.chart-box.tall { height: 340px; }
+details.msg { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 10px 14px; margin-bottom: 8px; }
+details.msg summary { cursor: pointer; font-weight: 600; }
+details.msg pre, details.more pre { white-space: pre-wrap; font: 13px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; margin: 8px 0 0; }
+details.more { margin-top: 8px; font-size: 13px; } details.more summary { cursor: pointer; color: var(--ink-2); }
+.evlist li { margin: 2px 0; }
+
+.sig li { margin: 4px 0; }
+#searchResults:empty { display: none; }
+#searchResults { margin-top: 10px; display: grid; gap: 10px; }
+.sr { border: 1px solid var(--ring); border-radius: 10px; padding: 10px 12px; }
+.sr h3 { margin-bottom: 4px; }
+.sr-row { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; font-size: 14px; padding: 3px 0; }
+.sr-row .badge { flex: 0 0 auto; }
+.sr-row .sr-txt { flex: 1 1 200px; min-width: 0; color: var(--ink-2); }
+.sr-row a { font-size: 13px; color: var(--s1); text-decoration: none; white-space: nowrap; }
+.sr details.more .card { margin-top: 8px; }
+.res-win { color: var(--good-text); font-weight: 600; } .res-lose { color: var(--critical); font-weight: 600; } .res-void { color: var(--ink-2); }
+.demo-banner { background: var(--orange-bg); border: 1px solid var(--s2); border-radius: 12px; padding: 10px 14px; margin-top: 10px; font-size: 14px; }
+.toolbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+.toolbar input[type=search] { flex: 1 1 220px; width: auto; }
+td a { color: var(--s1); text-decoration: none; }
+.meter { height: 8px; background: var(--surface-2); border-radius: 99px; overflow: hidden; margin-top: 6px; }
+.meter > span { display: block; height: 100%; background: var(--s1); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section id="login" class="card">
+    <h1>Tippmix value-bot</h1>
+    <p class="ink2">Az adatok titkosítva vannak. Add meg a jelszót a megnyitáshoz.</p>
+    <form id="loginForm" autocomplete="on">
+      <input id="pw" type="password" autocomplete="current-password" placeholder="Jelszó" required>
+      <label class="chk"><input id="remember" type="checkbox"> Emlékezz rám ezen az eszközön</label>
+      <button class="primary" type="submit" id="openBtn">Megnyitás</button>
+      <div id="err" role="alert"></div>
+    </form>
+  </section>
+
+  <main id="app" class="hidden">
+    <header class="top">
+      <div><h1>🎯 Tippmix value-bot</h1><div class="muted" id="updated"></div></div>
+      <div class="chips">
+        <button id="themeBtn" type="button" aria-label="Világos/sötét mód">🌓 Mód</button>
+        <button id="logoutBtn" type="button">Kijelentkezés</button>
+      </div>
+    </header>
+    <div id="demo" class="demo-banner hidden">🧪 <b>Demó adatok</b> – kitalált meccsek és szintetikus oddsok, csak a működés bemutatására. A számok nem mondanak semmit a valódi Tippmixről.</div>
+
+    <nav class="quicknav" aria-label="Gyors navigáció">
+      <a href="#s-over">Áttekintés</a><a href="#s-curve">Görbe</a><a href="#s-days">Napok</a><a href="#s-open">Nyitott</a>
+      <a href="#s-settled">Lezárt</a><a href="#s-break">Bontás</a><a href="#s-set">Beállítások</a>
+    </nav>
+
+    <h2 id="s-over">Áttekintés</h2>
+    <div class="card hl" id="verdict"></div>
+    <div class="grid tiles" id="tiles" style="margin-top:12px"></div>
+
+    <h2 id="s-curve">Profit-görbe: tényleges vs. várt</h2>
+    <div class="card">
+      <div class="muted" style="font-size:13px">A „várt” vonal a fogadások EV-jéből (tét × várható érték) adódik. Ha a tényleges hosszú távon körülötte mozog, az előny valódi; a rövid távú eltérés szórás.</div>
+      <div class="chart-box tall"><canvas id="cumChart"></canvas></div>
+    </div>
+    <div class="grid cards" style="margin-top:12px">
+      <div class="card"><h3>Napi eredmény</h3><div class="chart-box"><canvas id="dayChart"></canvas></div></div>
+      <div class="card"><h3>Szimulált tőke</h3><div class="chart-box"><canvas id="brChart"></canvas></div></div>
+    </div>
+
+    <h2 id="s-days">Napi kimutatás</h2>
+    <div class="card table-wrap"><table id="daysTbl"></table></div>
+
+    <h2 id="s-open">Nyitott fogadások</h2>
+    <div class="card table-wrap"><table id="openTbl"></table><div id="openEmpty" class="muted hidden">Nincs nyitott fogadás.</div></div>
+
+    <h2 id="s-settled">Lezárt fogadások</h2>
+    <div class="card">
+      <div class="toolbar">
+        <input type="search" id="q" placeholder="🔍 Csapat, bajnokság vagy tipp" aria-label="Keresés a lezárt fogadásokban">
+        <div class="chips" id="resChips">
+          <button class="chip" data-f="all" aria-pressed="true">Mind</button>
+          <button class="chip" data-f="win" aria-pressed="false">✅ Bejött</button>
+          <button class="chip" data-f="lose" aria-pressed="false">❌ Nem jött be</button>
+        </div>
+      </div>
+      <div class="table-wrap"><table id="setTbl"></table></div>
+      <div class="muted" id="setMore" style="margin-top:8px;font-size:13px"></div>
+    </div>
+
+    <h2 id="s-break">Bontás</h2>
+    <div class="grid cards">
+      <div class="card"><h3>Odds-sávonként</h3><div class="table-wrap"><table id="bandTbl"></table></div></div>
+      <div class="card"><h3>Sportáganként</h3><div class="table-wrap"><table id="sportTbl"></table></div></div>
+    </div>
+    <div class="card" style="margin-top:12px"><h3>Piaconként</h3><div class="table-wrap"><table id="mktTbl"></table></div></div>
+
+    <h2 id="s-set">Beállítások és utolsó futás</h2>
+    <div class="grid cards">
+      <div class="card"><h3>Stratégia</h3><dl class="kv" id="settings"></dl></div>
+      <div class="card"><h3>Utolsó futás</h3><dl class="kv" id="lastRun"></dl></div>
+    </div>
+
+    <footer>Szimuláció: a bot nem fogad valódi pénzzel. Fair ár = a Pinnacle oddsai az árrés kivétele után; EV = Tippmix-odds × fair valószínűség − 1;
+      CLV = a Tippmix-odds a kezdés előtti utolsó Pinnacle fair árhoz mérve. Nem befektetési vagy fogadási tanács.</footer>
+  </main>
+</div>
+
+<script>
+/*PLAIN_DATA*/
+const b64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
+const toB64 = (buf) => btoa(String.fromCharCode(...new Uint8Array(buf)));
+async function deriveKey(password, saltB64, iterations, extractable) {
+  const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(password), "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey({ name: "PBKDF2", hash: "SHA-256", salt: b64(saltB64), iterations },
+    base, { name: "AES-GCM", length: 256 }, extractable, ["decrypt"]);
+}
+async function importRawKey(rawB64) { return crypto.subtle.importKey("raw", b64(rawB64), { name: "AES-GCM" }, false, ["decrypt"]); }
+async function decryptBlob(blob, key) {
+  const pt = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64(blob.iv) }, key, b64(blob.ct));
+  return JSON.parse(new TextDecoder().decode(pt));
+}
+
+const KEY_STORE = "tm_dash_key_v1", THEME_STORE = "tm_dash_theme";
+const store = {
+  get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+  set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
+  del(k) { try { localStorage.removeItem(k); } catch (e) {} },
+};
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const nf = (x, d = 0) => {
+  if (x == null || isNaN(x)) return "–";
+  const [i, f] = Math.abs(Number(x)).toFixed(d).split(".");
+  return (x < 0 && Number(Math.abs(x).toFixed(d)) !== 0 ? "−" : "") + i.replace(/\B(?=(\d{3})+(?!\d))/g, "\u00a0") + (f ? "," + f : "");
+};
+const ft = (x) => x == null ? "–" : nf(x) + " Ft";
+const sft = (x) => x == null ? "–" : (x > 0 ? "+" : "") + nf(x) + " Ft";
+const pc = (x, d = 1, sign = true) => x == null || isNaN(x) ? "–" : (sign && x > 0 ? "+" : "") + nf(x * 100, d) + "%";
+const cls = (x) => x == null ? "" : x > 0 ? "up" : x < 0 ? "down" : "";
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+let blob = null, DATA = null, charts = [], resFilter = "all", settledLimit = 50;
+const TZ = () => DATA.timezone || "Europe/Budapest";
+const dtf = (s, withDate = true) => s ? new Date(s).toLocaleString("hu-HU", { timeZone: TZ(), month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", ...(withDate ? {} : {}) }) : "–";
+const RES = { WIN: ["✅ nyert", "res-win"], HALFWIN: ["✅ fél-nyert", "res-win"], LOSE: ["❌ vesztett", "res-lose"], HALFLOSS: ["❌ fél-vesztett", "res-lose"],
+  PUSH: ["↩️ visszajár", "res-void"], CANCELLED: ["↩️ törölve", "res-void"], VOID: ["↩️ érvénytelen", "res-void"] };
+
+/* --- téma --- */
+function applyTheme(t) { if (t) document.documentElement.setAttribute("data-theme", t); else document.documentElement.removeAttribute("data-theme"); }
+applyTheme(store.get(THEME_STORE));
+$("themeBtn").addEventListener("click", () => {
+  const dark = document.documentElement.getAttribute("data-theme") === "dark" ||
+    (!document.documentElement.getAttribute("data-theme") && matchMedia("(prefers-color-scheme: dark)").matches);
+  const t = dark ? "light" : "dark"; store.set(THEME_STORE, t); applyTheme(t); if (DATA) show();
+});
+
+/* --- belépés --- */
+$("loginForm").addEventListener("submit", async (ev) => {
+  ev.preventDefault();
+  $("err").textContent = ""; $("openBtn").disabled = true; $("openBtn").textContent = "Megnyitás…";
+  try {
+    const remember = $("remember").checked;
+    const key = await deriveKey($("pw").value, blob.salt, blob.iterations, remember);
+    DATA = await decryptBlob(blob, key);
+    if (remember) store.set(KEY_STORE, toB64(await crypto.subtle.exportKey("raw", key)));
+    $("pw").value = ""; show();
+  } catch (e) { $("err").textContent = "Hibás jelszó, vagy az adatfájl nem olvasható."; }
+  finally { $("openBtn").disabled = false; $("openBtn").textContent = "Megnyitás"; }
+});
+$("logoutBtn").addEventListener("click", () => {
+  store.del(KEY_STORE); DATA = null; charts.forEach((c) => c.destroy()); charts = [];
+  $("app").classList.add("hidden"); $("login").classList.remove("hidden");
+});
+
+/* --- táblák --- */
+function table(el, cols, rows) {
+  let sortKey = null, dir = 1;
+  const render = () => {
+    const data = sortKey == null ? rows : [...rows].sort((a, b) => {
+      const c = cols[sortKey], x = c.sort ? c.sort(a) : a[c.k], y = c.sort ? c.sort(b) : b[c.k];
+      return (x == null) - (y == null) || (x > y ? 1 : x < y ? -1 : 0) * dir;
+    });
+    el.innerHTML = "<thead><tr>" + cols.map((c, i) => `<th class="${c.num ? "num" : ""}" data-i="${i}">${c.t}${sortKey === i ? (dir > 0 ? " ▲" : " ▼") : ""}</th>`).join("") +
+      "</tr></thead><tbody>" + data.map((r) => "<tr>" + cols.map((c) => `<td class="${c.num ? "num " : ""}${c.cls ? c.cls(r) : ""}">${c.f ? c.f(r) : esc(r[c.k])}</td>`).join("") + "</tr>").join("") + "</tbody>";
+    el.querySelectorAll("th").forEach((th) => th.addEventListener("click", () => {
+      const i = +th.dataset.i; dir = sortKey === i ? -dir : 1; sortKey = i; render();
+    }));
+  };
+  render();
+}
+const match = (r) => `<b>${esc(r.home)}</b> – ${esc(r.away)}<div class="muted" style="font-size:12px">${esc(r.tournament)}</div>`;
+const groupCols = (name) => [
+  { t: name, k: "key" }, { t: "Db", k: "n", num: 1 },
+  { t: "Találat", num: 1, sort: (r) => r.hit, f: (r) => r.counted ? `${r.won}/${r.counted} (${pc(r.hit, 0, false)})` : "–" },
+  { t: "Tét", num: 1, k: "staked", f: (r) => ft(r.staked) },
+  { t: "Profit", num: 1, k: "profit", f: (r) => sft(r.profit), cls: (r) => cls(r.profit) },
+  { t: "Várt", num: 1, k: "expected", f: (r) => sft(r.expected) },
+  { t: "ROI", num: 1, k: "roi", f: (r) => pc(r.roi), cls: (r) => cls(r.roi) },
+  { t: "CLV", num: 1, k: "clv", f: (r) => pc(r.clv), cls: (r) => cls(r.clv) }];
+
+function chartBase(extra = {}) {
+  const grid = css("--grid"), ink = css("--ink-2");
+  return { responsive: true, maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+    plugins: { legend: { labels: { color: ink, boxWidth: 12 } } },
+    scales: { x: { ticks: { color: ink, maxRotation: 0, autoSkip: true }, grid: { color: grid } },
+              y: { ticks: { color: ink, callback: (v) => nf(v) }, grid: { color: grid } } }, ...extra };
+}
+
+function show() {
+  $("login").classList.add("hidden"); $("app").classList.remove("hidden");
+  charts.forEach((c) => c.destroy()); charts = [];
+  const S = DATA.summary, ser = DATA.series || [];
+  $("updated").textContent = "Frissítve: " + new Date(DATA.generated).toLocaleString("hu-HU", { timeZone: TZ() });
+  $("demo").classList.toggle("hidden", !DATA.demo);
+
+  /* ítélet */
+  const n = S.won + S.lost, diffHit = S.hit_rate != null ? S.hit_rate - S.expected_hit_rate : null;
+  let tone = "", head = "Még nincs lezárt fogadás", notes = [];
+  if (S.settled) {
+    tone = S.profit >= 0 ? "good" : "warn";
+    head = `${sft(S.profit)} · ROI ${pc(S.roi)}`;
+    notes.push(`Bejött ${S.won} / ${n} fogadás (${pc(S.hit_rate, 0, false)}), a fair esélyek alapján várt: ${pc(S.expected_hit_rate, 0, false)}.`);
+    notes.push(`Várt profit az EV-k alapján: ${sft(S.expected_profit)}; az eltérés ${sft(S.profit - S.expected_profit)}.`);
+  }
+  if (S.avg_clv != null) notes.push(`CLV: átlag ${pc(S.avg_clv)}, a fogadások ${pc(S.clv_positive, 0, false)}-a verte a záró Pinnacle-árat. ${S.avg_clv > 0 ? "Ez arra utal, hogy az előny valódi." : "Negatív CLV mellett az előny kétséges."}`);
+  if (S.settled < 300) notes.push(`Csak ${S.settled} lezárt fogadás: a profit még nagyrészt szórás. Megbízható képhez néhány száz kell; addig a CLV a jobb jelző.`);
+  $("verdict").className = "card hl " + tone;
+  $("verdict").innerHTML = `<div class="muted">Indulás óta</div><div class="big ${cls(S.profit)}">${head}</div><ul>${notes.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
+
+  /* csempék */
+  const tiles = [
+    ["Szimulált tőke", ft(S.bankroll), `indulás: ${ft(S.start_bankroll)}`, cls(S.bankroll - S.start_bankroll)],
+    ["Profit", sft(S.profit), `feltett tét: ${ft(S.staked)}`, cls(S.profit)],
+    ["ROI", pc(S.roi), `várt: ${pc(S.staked ? S.expected_profit / S.staked : null)}`, cls(S.roi)],
+    ["Találati arány", pc(S.hit_rate, 0, false), `várt: ${pc(S.expected_hit_rate, 0, false)} · ${S.won}/${n}`, ""],
+    ["Átlag CLV", pc(S.avg_clv), `${S.clv_n} fogadásból`, cls(S.avg_clv)],
+    ["Fogadások", nf(S.bets), `lezárt ${S.settled} · nyitott ${S.open}`, ""],
+    ["Átlag odds", nf(S.avg_odds, 2), `átlag EV: ${pc(S.avg_ev)}`, ""],
+    ["Nyitott tét", ft(S.open_stake), `a tőke ${pc(S.bankroll ? S.open_stake / S.bankroll : null, 0, false)}-a`, ""],
+  ];
+  $("tiles").innerHTML = tiles.map(([l, v, s, c]) => `<div class="card tile"><div class="lbl">${l}</div><div class="val ${c}">${v}</div><div class="sub">${esc(s)}</div></div>`).join("");
+
+  /* grafikonok */
+  if (window.Chart && ser.length) {
+    const labels = ser.map((d) => d.date.slice(5));
+    charts.push(new Chart($("cumChart"), { type: "line", data: { labels, datasets: [
+      { label: "Tényleges profit", data: ser.map((d) => d.cum_profit), borderColor: css("--s1"), backgroundColor: css("--s1"), tension: 0.2, pointRadius: 2 },
+      { label: "Várt profit (EV)", data: ser.map((d) => d.cum_expected), borderColor: css("--s2"), borderDash: [6, 4], pointRadius: 0, tension: 0.2 },
+    ] }, options: chartBase() }));
+    charts.push(new Chart($("dayChart"), { type: "bar", data: { labels, datasets: [
+      { label: "Napi profit (Ft)", data: ser.map((d) => d.profit), backgroundColor: ser.map((d) => d.profit >= 0 ? css("--good") : css("--critical")) },
+    ] }, options: chartBase({ plugins: { legend: { display: false } } }) }));
+    charts.push(new Chart($("brChart"), { type: "line", data: { labels, datasets: [
+      { label: "Tőke", data: ser.map((d) => d.bankroll), borderColor: css("--s3"), backgroundColor: css("--s3"), pointRadius: 0, tension: 0.2, fill: false },
+    ] }, options: chartBase({ plugins: { legend: { display: false } } }) }));
+  }
+
+  /* napok */
+  table($("daysTbl"), [
+    { t: "Nap", k: "date" }, { t: "Ajánlott", k: "placed", num: 1 }, { t: "Lezárt", k: "settled", num: 1 },
+    { t: "✅", k: "won", num: 1 }, { t: "❌", k: "lost", num: 1 },
+    { t: "Találat", num: 1, sort: (r) => r.won / ((r.won + r.lost) || 1), f: (r) => r.won + r.lost ? pc(r.won / (r.won + r.lost), 0, false) : "–" },
+    { t: "Tét", k: "staked", num: 1, f: (r) => ft(r.staked) },
+    { t: "Profit", k: "profit", num: 1, f: (r) => sft(r.profit), cls: (r) => cls(r.profit) },
+    { t: "ROI", k: "roi", num: 1, f: (r) => pc(r.roi), cls: (r) => cls(r.roi) },
+    { t: "Tőke", k: "bankroll", num: 1, f: (r) => ft(r.bankroll) },
+  ], [...ser].reverse());
+
+  /* nyitott */
+  $("openEmpty").classList.toggle("hidden", DATA.open.length > 0);
+  $("openTbl").classList.toggle("hidden", !DATA.open.length);
+  table($("openTbl"), [
+    { t: "Kezdés", k: "start", f: (r) => dtf(r.start) }, { t: "Meccs", k: "home", f: match },
+    { t: "Tipp", k: "label", f: (r) => r.link && !DATA.demo ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.label)}</a>` : esc(r.label) },
+    { t: "Tippmix", k: "odds", num: 1, f: (r) => nf(r.odds, 2) }, { t: "Fair", k: "fair_odds", num: 1, f: (r) => nf(r.fair_odds, 2) },
+    { t: "EV", k: "ev", num: 1, f: (r) => pc(r.ev), cls: (r) => cls(r.ev) },
+    { t: "CLV most", k: "clv", num: 1, f: (r) => pc(r.clv), cls: (r) => cls(r.clv) },
+    { t: "Tét", k: "stake", num: 1, f: (r) => ft(r.stake) },
+  ], DATA.open);
+
+  renderSettled();
+
+  /* bontás */
+  table($("bandTbl"), groupCols("Odds"), DATA.bands);
+  table($("sportTbl"), groupCols("Sport"), DATA.sports);
+  table($("mktTbl"), groupCols("Piac"), DATA.markets);
+
+  /* beállítások */
+  const st = DATA.settings;
+  $("settings").innerHTML = [
+    ["Fogadóiroda", st.soft], ["Viszonyítás", `${st.sharp} (devig: ${st.devig})`], ["Sportágak", st.sports.join(", ")],
+    ["Odds-sáv", `${nf(st.min_odds, 2)} – ${nf(st.max_odds, 2)}`],
+    ["Min. EV", st.ev_bands.map((b) => `≤${nf(b.max_odds, 2)}: ${pc(b.min_ev, 0)}`).join(" · ")],
+    ["Tét", `${st.kelly}× Kelly, max. a tőke ${pc(st.max_stake_pct, 0, false)}-a`],
+  ].map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("");
+  const lr = DATA.last_run || {}, q = DATA.quota || {};
+  $("lastRun").innerHTML = [
+    ["Időpont", dtf(lr.time)], ["Meccsek (Tippmix ∩ Pinnacle)", lr.fixtures_both ?? "–"], ["Value-jelölt", lr.candidates ?? "–"],
+    ["Új fogadás / elszámolt", `${lr.placed ?? 0} / ${lr.settled ?? 0}`], ["API-hívás", lr.api_calls ?? "–"],
+    ["Futások (24 óra)", DATA.runs_24h], ["Kvóta", lr.quota || (q.limit ? `${q.limit - q.remaining}/${q.limit}` : "–")],
+    ...(lr.skipped ? [["Kihagyva", lr.skipped]] : []), ...(lr.error ? [["Hiba", lr.error]] : []),
+  ].map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("");
+}
+
+function renderSettled() {
+  const q = $("q").value.trim().toLowerCase();
+  const rows = DATA.settled.filter((r) =>
+    (resFilter === "all" || (resFilter === "win" ? /WIN/.test(r.result) : /LOSE|LOSS/.test(r.result))) &&
+    (!q || `${r.home} ${r.away} ${r.tournament} ${r.label}`.toLowerCase().includes(q)));
+  const LIMIT = settledLimit;
+  table($("setTbl"), [
+    { t: "Kezdés", k: "start", f: (r) => dtf(r.start) }, { t: "Meccs", k: "home", f: match }, { t: "Tipp", k: "label" },
+    { t: "Odds", k: "odds", num: 1, f: (r) => nf(r.odds, 2) }, { t: "EV", k: "ev", num: 1, f: (r) => pc(r.ev) },
+    { t: "CLV", k: "clv", num: 1, f: (r) => pc(r.clv), cls: (r) => cls(r.clv) }, { t: "Tét", k: "stake", num: 1, f: (r) => ft(r.stake) },
+    { t: "Eredmény", k: "result", f: (r) => (RES[r.result] || [r.result])[0], cls: (r) => (RES[r.result] || [0, ""])[1] },
+    { t: "Profit", k: "profit", num: 1, f: (r) => sft(r.profit), cls: (r) => cls(r.profit) },
+  ], rows.slice(0, LIMIT));
+  $("setMore").innerHTML = rows.length > LIMIT ? `Az első ${LIMIT} látszik a ${rows.length} fogadásból. <button type="button" id="moreBtn">Még 50</button>` : `${rows.length} fogadás`;
+  const mb = $("moreBtn"); if (mb) mb.addEventListener("click", () => { settledLimit += 50; renderSettled(); });
+}
+$("q").addEventListener("input", () => { settledLimit = 50; DATA && renderSettled(); });
+$("resChips").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  resFilter = b.dataset.f;
+  $("resChips").querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  renderSettled();
+});
+
+(async function start() {
+  if (window.PLAIN_DATA) { DATA = window.PLAIN_DATA; show(); return; }
+  try {
+    const r = await fetch("data.enc.json", { cache: "no-store" });
+    blob = await r.json();
+  } catch (e) { $("err").textContent = "Az adatfájl nem érhető el."; return; }
+  const raw = store.get(KEY_STORE);
+  if (raw) {
+    try { DATA = await decryptBlob(blob, await importRawKey(raw)); show(); return; } catch (e) { store.del(KEY_STORE); }
+  }
+})();
+</script>
+</body>
+</html>

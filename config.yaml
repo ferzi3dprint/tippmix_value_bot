@@ -1,0 +1,56 @@
+# Tippmix value-bet szimulátor – beállítások
+# Minden pénzösszeg forintban. A bot NEM fogad valódi pénzzel: csak szimulál és naplóz.
+
+timezone: Europe/Budapest
+
+api:
+  base_url: https://api.oddspapi.io
+  soft_book: tippmixpro        # amit "megfogadunk"
+  sharp_book: pinnacle         # a viszonyítási alap (fair ár)
+  # Kvótavédelem: a /v4/account (ingyenes hívás) alapján a havi keretet egyenletesen osztja el a hónap hátralévő napjaira.
+  quota_reserve: 50            # ennyi kérést mindig tartalékban hagy (pl. elszámolásra)
+  max_settlement_calls_per_run: 15
+  tournaments_refresh_hours: 6 # ilyen gyakran keresi újra, mely bajnokságokban van Tippmix + Pinnacle odds
+  tournaments_per_call: 10     # odds-by-tournaments: ennyi bajnokság egy kérésben
+
+scan:
+  sports: [Soccer, Tennis, Basketball, Ice Hockey]   # a /v4/sports sportName mezője szerint
+  lookahead_hours: 36          # ennyi órán belül kezdődő meccseket vizsgál
+  min_minutes_before_start: 20 # ennél közelebb a kezdéshez már nem "fogad"
+  max_sharp_overround: 1.08    # ha a Pinnacle árrése ennél nagyobb, a piac nem megbízható viszonyítási alap
+  devig_method: power          # power (pontosabb a favorit–esélytelen torzításnál) vagy multiplicative
+  skip_player_props: true
+
+filters:
+  min_odds: 1.30
+  max_odds: 2.50
+  # Odds-sávonkénti minimális várható érték (EV). Alacsony oddsnál kisebb a szórás, ezért kisebb küszöb is elég.
+  ev_bands:
+    - {max_odds: 1.60, min_ev: 0.02}
+    - {max_odds: 2.10, min_ev: 0.03}
+    - {max_odds: 99.0, min_ev: 0.04}
+  max_ev: 0.25                 # ennél nagyobb EV szinte mindig adathiba (pl. eltérő piacszabály) – kihagyja
+  max_bets_per_fixture: 1      # egy meccsre legfeljebb ennyi szimulált fogadás (korrelált fogadások kerülése)
+
+staking:
+  start_bankroll: 100000
+  kelly_fraction: 0.25         # negyed-Kelly: lassabb, de sokkal kisebb a visszaesés
+  max_stake_pct: 0.03          # egy fogadás legfeljebb a tőke 3%-a
+  min_stake: 200
+  round_to: 50
+  max_open_exposure_pct: 0.35  # a nyitott fogadások együtt legfeljebb a tőke 35%-a
+
+settlement:
+  settle_after_hours: 2.5      # a kezdés után ennyivel próbál először elszámolni
+  give_up_after_hours: 96      # ha addig sincs eredmény: visszajár a tét (érvénytelen)
+
+notify:
+  each_run_new_bets: true      # minden futás után egy üzenet az új ajánlásokról (ha van)
+  daily_report_hour: 23        # napi kimutatás ennyi órától (helyi idő), naponta egyszer
+
+dashboard:
+  enabled: true
+  repo: ferzi3dprint/tippmix-dashboard     # nyilvános repó GitHub Pages-szel (csak titkosított adat kerül bele)
+  url: https://ferzi3dprint.github.io/tippmix-dashboard/
+  branch: main
+  pbkdf2_iterations: 600000
