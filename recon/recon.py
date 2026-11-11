@@ -23,7 +23,7 @@ SKIP = re.compile(r"\.(png|jpe?g|gif|svg|webp|woff2?|ttf|css|ico|mp4)(\?|$)|goog
 async def visit(p, name, urls):
     os.makedirs(OUT, exist_ok=True)
     log = {"requests": [], "ws": [], "pages": []}
-    browser = await p.chromium.launch()
+    browser = await p.chromium.launch(channel="chrome")   # a GitHub-gépen előtelepített Chrome
     ctx = await browser.new_context(locale="hu-HU", timezone_id="Europe/Budapest", viewport={"width": 1366, "height": 900},
                                     user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
                                                "Chrome/130.0 Safari/537.36")

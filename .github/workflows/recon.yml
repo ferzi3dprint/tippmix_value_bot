@@ -14,12 +14,12 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install playwright && python -m playwright install --with-deps chromium
+      - run: pip install playwright
       - run: python recon/recon.py
       - name: Eredmény a recon ágra
         if: always()
         run: |
-          cd recon/out
+          mkdir -p recon/out && cd recon/out && date > run.txt
           git init -q -b recon
           git add -A
           git -c user.name=recon-bot -c user.email=recon-bot@users.noreply.github.com commit -q -m "Felderítés $(date -u +%FT%H:%M)"
