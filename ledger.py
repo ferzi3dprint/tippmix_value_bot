@@ -116,3 +116,19 @@ def summary(bets, cfg):
         "steam_bets": sum(1 for b in bets if b.get("trigger") == "steam"),
         "execution": execution_stats(allb),
     }
+
+
+def signal_stats(signals):
+    """Az összes value-jelzés (fogadás nélkül is) CLV-je – nagyobb minta az előny igazolására, díjmentesen."""
+    c = [x for x in signals if x.get("clv") is not None]
+    def grp(key):
+        out = {}
+        for x in c:
+            out.setdefault(key(x), []).append(x["clv"])
+        return [{"key": k, "n": len(v), "clv": sum(v) / len(v), "pos": sum(1 for y in v if y > 0) / len(v)} for k, v in sorted(out.items())]
+    return {"n": len(signals), "measured": len(c),
+            "avg_clv": sum(x["clv"] for x in c) / len(c) if c else None,
+            "clv_positive": sum(1 for x in c if x["clv"] > 0) / len(c) if c else None,
+            "bet": sum(1 for x in signals if x.get("bet")),
+            "by_trigger": grp(lambda x: "⚡ steam" if x.get("trigger") == "steam" else "normál"),
+            "by_band": grp(lambda x: x.get("band") or "?")}

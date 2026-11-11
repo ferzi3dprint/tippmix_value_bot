@@ -15,6 +15,7 @@ import ledger
 import notify
 import report
 from common import load_config, load_json, save_json, now_utc, parse_time, sleep_minutes, to_local
+from freefeed import snapshot, steam_from_history
 from valuefinder import devig, find_values, kelly_stake, market_prices, odds_band, outcome_label
 
 
@@ -43,7 +44,7 @@ def markets_meta(client, now):
 
 
 def sport_ids(client, cfg, now):
-    rows = cached("sports", 24 * 7, client.sports, now)
+    rows = cached("sports", 24 * 30, client.sports, now)
     want = {s.lower() for s in cfg["scan"]["sports"]}
     return {int(s["sportId"]): s.get("sportName") or s.get("sportSlug") for s in rows
             if str(s.get("sportName") or s.get("sportSlug") or "").lower() in want}
@@ -89,14 +90,31 @@ def quota_ok(client, cfg, now, planned_calls):
 
 # --- lépések ----------------------------------------------------------------
 
+def paid_calls_left(client, cfg):
+    """Ennyi fizetős kérés használható még a hónapban (a tartalék felett). A /v4/account hívás ingyenes."""
+    try:
+        acc = client.account()
+        left = acc["request_limit"] - acc["request_count"] - cfg["api"]["quota_reserve"]
+        save_json("quota.json", {**load_json("quota.json", {}), "limit": acc["request_limit"],
+                                 "remaining": acc["request_limit"] - acc["request_count"]})
+        return max(0, left)
+    except Exception:
+        return 10 ** 6
+
+
 def settle_due(client, bets, cfg, now):
     st = cfg["settlement"]
+    retry = dt.timedelta(hours=st.get("retry_hours", 2))
     due = sorted({b["fixture_id"]: b for b in bets if b["status"] == "open"
-                  and now >= ledger.start_time(b) + dt.timedelta(hours=st["settle_after_hours"])}.values(),
+                  and now >= ledger.start_time(b) + dt.timedelta(hours=st["settle_after_hours"])
+                  and (not b.get("settle_tried_at") or now - parse_time(b["settle_tried_at"]) >= retry)}.values(),
                  key=lambda b: b["start"])
     settled = []
-    for b0 in due[: cfg["api"]["max_settlement_calls_per_run"]]:
+    budget = min(cfg["api"]["max_settlement_calls_per_run"], paid_calls_left(client, cfg)) if due else 0
+    for b0 in due[:budget]:
         fid = b0["fixture_id"]
+        for b in ledger.bets_on_fixture(bets, fid):
+            b["settle_tried_at"] = now.isoformat()
         try:
             res = client.settlements(fid) or {}
         except Exception as e:
@@ -171,8 +189,9 @@ def steam_moves(hist, fid, mid, now, cfg):
     return {i: round(c / b - 1, 4) for i, (b, c) in enumerate(zip(base, cur)) if b > 0 and c / b - 1 >= sc["min_move"]}
 
 
-def evaluate(fx, so, ho, meta, hist, now, cfg):
-    """Egy meccs value-jelöltjei, steam-jelöléssel. Visszaad: (jelöltek, van-e steam a meccsen)."""
+def evaluate(fx, so, ho, meta, hist, now, cfg, steam_fn=None):
+    """Egy meccs value-jelöltjei, steam-jelöléssel. Visszaad: (jelöltek, van-e steam a meccsen).
+    steam_fn(market_id, outcome_ids) -> {index: mozgás}; alapból a saját előzményből (fizetős mód)."""
     sc = cfg["scan"]
     start = parse_time(fx["startTime"])
     mins = (start - now).total_seconds() / 60
@@ -181,7 +200,8 @@ def evaluate(fx, so, ho, meta, hist, now, cfg):
     sub = {mid: meta[mid] for mid in map(int, (so.get("markets") or {}).keys()) if mid in meta}
     cands, steamy = [], False
     for mid, m in sub.items():
-        mv = steam_moves(hist, fx["fixtureId"], mid, now, cfg)
+        oids = [o["outcomeId"] for o in m["outcomes"]]
+        mv = steam_fn(mid, oids) if steam_fn else steam_moves(hist, fx["fixtureId"], mid, now, cfg)
         steamy = steamy or bool(mv)
         for c in find_values(fx, so, ho, {mid: m}, cfg):
             idx = [o["outcomeId"] for o in m["outcomes"]].index(c["outcome_id"])
@@ -195,8 +215,13 @@ def place(cands, bets, cfg, now, tours):
     placed = []
     br = ledger.bankroll(bets, cfg)
     pending = "pending" if (cfg.get("execution") or {}).get("enabled") else "ok"
+    cap = (cfg.get("free") or {}).get("max_bets_per_day") if cfg["api"].get("mode") == "free" else None
+    tz = ZoneInfo(cfg["timezone"])
+    today = to_local(now, cfg).date()
     for fx, so, c in sorted(cands, key=lambda x: -x[2]["ev"]):
         fid = fx["fixtureId"]
+        if cap is not None and sum(1 for b in bets if b["status"] != "skipped" and ledger.placed_day(b, tz) == today) >= cap:
+            break
         if ledger.already_bet(bets, fid, c["market_id"], c["outcome_id"]):
             continue
         if len(ledger.active_on_fixture(bets, fid)) >= cfg["filters"]["max_bets_per_fixture"]:
@@ -219,23 +244,131 @@ def place(cands, bets, cfg, now, tours):
     return placed
 
 
-def update_closing(bets, sharp, meta, now, cfg):
-    """Záró ár (CLV) frissítése a még el nem kezdődött nyitott fogadásoknál."""
-    for b in bets:
-        if b["status"] == "open" and b["fixture_id"] in sharp and ledger.start_time(b) > now:
+def update_closing(rows, sharp, meta, now, cfg):
+    """Záró ár (CLV) frissítése a még el nem kezdődött nyitott fogadásoknál / jelzéseknél. sharp: {fixtureId: könyv}."""
+    for b in rows:
+        if b.get("status", "open") == "open" and b["fixture_id"] in sharp and ledger.start_time(b) > now:
             m = meta.get(b["market_id"])
             if not m:
                 continue
             oids = [o["outcomeId"] for o in m["outcomes"]]
             hp = market_prices(sharp[b["fixture_id"]], b["market_id"], oids)
-            if hp:
+            if hp and b["outcome_id"] in oids:
                 i = oids.index(b["outcome_id"])
                 p = devig(hp, cfg["scan"].get("devig_method", "power"))[i]
                 b.update({"closing_fair_prob": round(p, 5), "closing_fair_odds": round(1 / p, 3),
                           "closing_sharp_odds": hp[i], "closing_at": now.isoformat(), "clv": round(b["odds"] * p - 1, 5)})
 
 
-def scan(client, bets, cfg, now, stats, hist):
+# --- árnyék-jelzések: minden value-jelzés CLV-je, fogadástól függetlenül ------
+
+SIGNALS = "signals.json"
+
+
+def record_signals(signals, cands, bets, now):
+    have = {(x["fixture_id"], x["market_id"], x["outcome_id"]) for x in signals}
+    for fx, so, c in cands:
+        key = (fx["fixtureId"], c["market_id"], c["outcome_id"])
+        if key in have:
+            continue
+        have.add(key)
+        signals.append({"fixture_id": fx["fixtureId"], "market_id": c["market_id"], "outcome_id": c["outcome_id"],
+                        "first_at": now.isoformat(), "start": fx["startTime"], "home": fx.get("participant1Name"),
+                        "away": fx.get("participant2Name"), "tournament": fx.get("tournamentName"),
+                        "label": outcome_label(fx, c), "odds": c["odds"], "fair_prob": c["fair_prob"], "ev": c["ev"],
+                        "band": odds_band(c["odds"]), "trigger": "steam" if c.get("steam") else "normál"})
+    for x in signals:
+        x["bet"] = ledger.already_bet(bets, x["fixture_id"], x["market_id"], x["outcome_id"])
+
+
+def prune_signals(signals, now, days=60):
+    return [x for x in signals if now - parse_time(x["start"]) < dt.timedelta(days=days)]
+
+
+# --- ingyenes mód --------------------------------------------------------------
+
+def free_fixtures(client, cfg, now):
+    """Napi meccslista (sportáganként 1 fizetős kérés), gyorsítótárazva."""
+    fr = cfg["free"]
+
+    def fetch():
+        books = f"{cfg['api']['soft_book']},{cfg['api']['sharp_book']}"
+        end = now + dt.timedelta(hours=fr["discovery_window_hours"])
+        out = {}
+        for sid, sname in sport_ids(client, cfg, now).items():
+            for f in client.fixtures(sid, now, end, books) or []:
+                out[f["fixtureId"]] = {k: f.get(k) for k in ("fixtureId", "startTime", "participant1Name", "participant2Name",
+                                                              "tournamentId", "tournamentName", "sportName")}
+                out[f["fixtureId"]]["sportName"] = out[f["fixtureId"]].get("sportName") or sname
+        return out
+    c = load_json("cache/fixtures.json", None)
+    fresh_enough = c and now - parse_time(c["time"]) < dt.timedelta(hours=fr["discovery_hours"])
+    if not fresh_enough and paid_calls_left(client, cfg) < len(cfg["scan"]["sports"]) + 2:
+        print("[meccslista] a havi keret elfogyott – a régi listával megy tovább")
+        return (c or {}).get("data", {})
+    return cached("fixtures", fr["discovery_hours"], fetch, now)
+
+
+def pick_fixtures(fixtures, cfg, now):
+    """Melyik meccseket nézzük meg most (ingyenes kérések, 5 mp/kérés): a közelieket mindig, a távoliakat ritkábban."""
+    fr, sc = cfg["free"], cfg["scan"]
+    checked = load_json("cache/checked.json", {})
+    near, far = [], []
+    for fid, f in fixtures.items():
+        mins = (parse_time(f["startTime"]) - now).total_seconds() / 60
+        if mins < sc["min_minutes_before_start"] or mins > sc["lookahead_hours"] * 60:
+            continue
+        last = checked.get(fid)
+        if mins <= fr["near_start_hours"] * 60:
+            near.append((mins, fid))
+        elif not last or now - parse_time(last) >= dt.timedelta(minutes=fr["far_recheck_minutes"]):
+            far.append((parse_time(last) if last else dt.datetime.min.replace(tzinfo=dt.timezone.utc), fid))
+    return [fid for _, fid in sorted(near)] + [fid for _, fid in sorted(far)]
+
+
+def fetch_free(client, cfg, fid, fixtures, now):
+    """Egy meccs a díjmentes előzmény-végpontból: (fixture, tippmix-könyv, pinnacle-könyv, steam_fn)."""
+    api = cfg["api"]
+    r = client.historical_odds(fid, f"{api['soft_book']},{api['sharp_book']}") or {}
+    books = r.get("bookmakers") or {}
+    sh, sf = books.get(api["sharp_book"]), books.get(api["soft_book"])
+    fx = dict(fixtures.get(fid) or {"fixtureId": fid})
+    return fx, snapshot(sf), snapshot(sh), (lambda mid, oids: steam_from_history(sh, mid, oids, now, cfg))
+
+
+def scan_free(client, bets, cfg, now, stats, signals):
+    meta = markets_meta(client, now)
+    fixtures = free_fixtures(client, cfg, now)
+    order = pick_fixtures(fixtures, cfg, now)[: cfg["free"]["max_fixtures_per_run"]]
+    checked = {k: v for k, v in load_json("cache/checked.json", {}).items() if k in fixtures}
+    cands, hot, sharp_now, both = [], [], {}, 0
+    for fid in order:
+        try:
+            fx, so, ho, steam_fn = fetch_free(client, cfg, fid, fixtures, now)
+        except Exception as e:
+            print(f"[ingyenes odds] {fid}: {e}")
+            continue
+        checked[fid] = now.isoformat()
+        if ho:
+            sharp_now[fid] = ho
+        if not so or not ho:
+            continue
+        both += 1
+        cs, steamy = evaluate(fx, so, ho, meta, None, now, cfg, steam_fn)
+        cands += [(fx, so, c) for c in cs]
+        if steamy and len(ledger.active_on_fixture(bets, fid)) < cfg["filters"]["max_bets_per_fixture"]:
+            hot.append(fid)
+    save_json("cache/checked.json", checked)
+    update_closing(bets, sharp_now, meta, now, cfg)
+    update_closing(signals, sharp_now, meta, now, cfg)
+    stats.update({"fixtures_listed": len(fixtures), "fixtures_checked": len(order), "fixtures_both": both,
+                  "candidates": len(cands), "steam_fixtures": len(hot)})
+    new = place(cands, bets, cfg, now, {})
+    record_signals(signals, cands, bets, now)
+    return new, hot
+
+
+def scan(client, bets, cfg, now, stats, hist, signals):
     api = cfg["api"]
     meta = markets_meta(client, now)
     tours = tournaments(client, cfg, now)
@@ -257,6 +390,7 @@ def scan(client, bets, cfg, now, stats, hist):
     for fid, (fx, ho) in sharp.items():
         record_sharp(hist, fid, fx, ho, meta, now, cfg)
     update_closing(bets, {k: v[1] for k, v in sharp.items()}, meta, now, cfg)
+    update_closing(signals, {k: v[1] for k, v in sharp.items()}, meta, now, cfg)
 
     cands, hot = [], []
     for fid in common_ids:
@@ -267,7 +401,9 @@ def scan(client, bets, cfg, now, stats, hist):
             hot.append(fid)
     stats["candidates"] = len(cands)
     stats["steam_fixtures"] = len(hot)
-    return place(cands, bets, cfg, now, tours), hot
+    new = place(cands, bets, cfg, now, tours)
+    record_signals(signals, cands, bets, now)
+    return new, hot
 
 
 # --- végrehajthatóság és gyors újraellenőrzés -------------------------------
@@ -282,11 +418,16 @@ def recheck(client, bets, cfg, now, hot, hist, stats):
            and now - parse_time(b["placed_at"]) >= dt.timedelta(minutes=ex.get("confirm_after_minutes", 3))]
     fids = list(dict.fromkeys([b["fixture_id"] for b in due] + hot[: cfg["steam"]["recheck_fixtures"]]))
     fresh = {}
+    free = api.get("mode") == "free"
+    fixtures = load_json("cache/fixtures.json", {}).get("data", {}) if free else {}
     for fid in fids:
         try:
-            r = client.odds(fid, f"{api['soft_book']},{api['sharp_book']}")
-            bo = r.get("bookmakerOdds") or {}
-            fresh[fid] = (r, bo.get(api["soft_book"]), bo.get(api["sharp_book"]))
+            if free:   # díjmentes előzmény-végpont
+                fresh[fid] = fetch_free(client, cfg, fid, fixtures, now)
+            else:      # fizetős: 1 kérés meccsenként, mindkét iroda
+                r = client.odds(fid, f"{api['soft_book']},{api['sharp_book']}")
+                bo = r.get("bookmakerOdds") or {}
+                fresh[fid] = (r, bo.get(api["soft_book"]), bo.get(api["sharp_book"]), None)
         except Exception as e:
             print(f"[újraellenőrzés] {fid}: {e}")
     stats["rechecked"] = len(fresh)
@@ -295,7 +436,7 @@ def recheck(client, bets, cfg, now, hot, hist, stats):
     for b in due:
         if b["fixture_id"] not in fresh:
             continue
-        fx, so, ho = fresh[b["fixture_id"]]
+        fx, so, ho, _ = fresh[b["fixture_id"]]
         m = meta.get(b["market_id"])
         oids = [o["outcomeId"] for o in m["outcomes"]] if m else []
         sp = market_prices(so, b["market_id"], oids) if m else None
@@ -323,9 +464,10 @@ def recheck(client, bets, cfg, now, hot, hist, stats):
     for fid in hot[: cfg["steam"]["recheck_fixtures"]]:
         if fid not in fresh or not fresh[fid][1] or not fresh[fid][2]:
             continue
-        fx, so, ho = fresh[fid]
-        record_sharp(hist, fid, fx, ho, meta, now, cfg)
-        cs, _ = evaluate(fx, so, ho, meta, hist, now, cfg)
+        fx, so, ho, steam_fn = fresh[fid]
+        if not free:
+            record_sharp(hist, fid, fx, ho, meta, now, cfg)
+        cs, _ = evaluate(fx, so, ho, meta, hist, now, cfg, steam_fn)
         cands += [(fx, so, c) for c in cs]
     new = place(cands, bets, cfg, now, tours)
     for b in new:
@@ -352,7 +494,8 @@ def run(cfg):
     client = make_client(cfg)
     bets = ledger.load()
     hist = load_json(HIST, {})
-    stats = {"time": now.isoformat()}
+    signals = load_json(SIGNALS, [])
+    stats = {"time": now.isoformat(), "mode": cfg["api"].get("mode", "paid")}
     url = (cfg.get("dashboard") or {}).get("url") if (cfg.get("dashboard") or {}).get("enabled") else None
     new, gone = [], []
     try:
@@ -361,7 +504,10 @@ def run(cfg):
         if (cfg.get("execution") or {}).get("enabled"):
             _, g = recheck(client, bets, cfg, now, [], hist, stats)       # előző futásból maradt függő fogadások
             gone += g
-        new, hot = scan(client, bets, cfg, now, stats, hist)
+        if cfg["api"].get("mode") == "free":
+            new, hot = scan_free(client, bets, cfg, now, stats, signals)
+        else:
+            new, hot = scan(client, bets, cfg, now, stats, hist, signals)
         ledger.save(bets)
         if new and cfg["notify"]["each_run_new_bets"]:
             notify.send(report.new_bets_message(new, bets, cfg))
@@ -384,7 +530,9 @@ def run(cfg):
         ledger.save(bets)
         prune_history(hist, now, cfg)
         save_json(HIST, hist)
+        save_json(SIGNALS, prune_signals(signals, now))
     stats["api_calls"] = client.calls
+    stats["free_calls"] = getattr(client, "free_calls", 0)
     runs = load_json("runs.json", [])
     runs.append(stats)
     save_json("runs.json", runs[-300:])

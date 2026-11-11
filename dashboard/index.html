@@ -140,7 +140,7 @@ td a { color: var(--s1); text-decoration: none; }
     <div id="demo" class="demo-banner hidden">🧪 <b>Demó adatok</b> – kitalált meccsek és szintetikus oddsok, csak a működés bemutatására. A számok nem mondanak semmit a valódi Tippmixről.</div>
 
     <nav class="quicknav" aria-label="Gyors navigáció">
-      <a href="#s-over">Áttekintés</a><a href="#s-curve">Görbe</a><a href="#s-days">Napok</a><a href="#s-open">Nyitott</a>
+      <a href="#s-over">Áttekintés</a><a href="#s-curve">Görbe</a><a href="#s-sig">Jelzések</a><a href="#s-days">Napok</a><a href="#s-open">Nyitott</a>
       <a href="#s-settled">Lezárt</a><a href="#s-break">Bontás</a><a href="#s-gone">Elesett</a><a href="#s-set">Beállítások</a>
     </nav>
 
@@ -156,6 +156,17 @@ td a { color: var(--s1); text-decoration: none; }
     <div class="grid cards" style="margin-top:12px">
       <div class="card"><h3>Napi eredmény</h3><div class="chart-box"><canvas id="dayChart"></canvas></div></div>
       <div class="card"><h3>Szimulált tőke</h3><div class="chart-box"><canvas id="brChart"></canvas></div></div>
+    </div>
+
+    <h2 id="s-sig">📡 Összes value-jelzés (fogadás nélkül is)</h2>
+    <div class="card">
+      <div class="muted" style="font-size:13px">Minden jelzés CLV-jét mérjük, akkor is, ha a napi limit miatt nem lett belőle szimulált fogadás. Ez díjmentes, és sokkal nagyobb mintán mutatja meg, valódi-e az előny: ha az átlag CLV tartósan pozitív, a módszer működik.</div>
+      <div class="grid tiles" id="sigTiles" style="margin-top:10px"></div>
+      <div class="grid cards" style="margin-top:10px">
+        <div><h3>Kiváltó ok szerint</h3><div class="table-wrap"><table id="sigTrig"></table></div></div>
+        <div><h3>Odds-sávonként</h3><div class="table-wrap"><table id="sigBand"></table></div></div>
+      </div>
+      <details class="more"><summary>Legutóbbi jelzések</summary><div class="table-wrap"><table id="sigRows"></table></div></details>
     </div>
 
     <h2 id="s-days">Napi kimutatás</h2>
@@ -356,6 +367,23 @@ function show() {
     ] }, options: chartBase({ plugins: { legend: { display: false } } }) }));
   }
 
+  /* jelzések */
+  const SG = DATA.signals || { n: 0 };
+  $("sigTiles").innerHTML = [
+    ["Jelzés", nf(SG.n), `ebből fogadás: ${nf(SG.bet)}`, ""],
+    ["Átlag CLV", pc(SG.avg_clv), `${nf(SG.measured)} mért jelzésből`, cls(SG.avg_clv)],
+    ["Verte a záró árat", pc(SG.clv_positive, 0, false), "a mért jelzések közül", ""],
+  ].map(([l, v, s, c]) => `<div class="card tile"><div class="lbl">${l}</div><div class="val ${c}">${v}</div><div class="sub">${esc(s)}</div></div>`).join("");
+  const sigCols = (n) => [{ t: n, k: "key" }, { t: "Db", k: "n", num: 1 }, { t: "Átlag CLV", k: "clv", num: 1, f: (r) => pc(r.clv), cls: (r) => cls(r.clv) },
+    { t: "Verte", k: "pos", num: 1, f: (r) => pc(r.pos, 0, false) }];
+  table($("sigTrig"), sigCols("Ok"), SG.by_trigger || []);
+  table($("sigBand"), sigCols("Odds"), SG.by_band || []);
+  table($("sigRows"), [
+    { t: "Jelzés", k: "first_at", f: (r) => dtf(r.first_at) }, { t: "Meccs", k: "home", f: match }, { t: "Tipp", k: "label", f: tip },
+    { t: "Odds", k: "odds", num: 1, f: (r) => nf(r.odds, 2) }, { t: "EV", k: "ev", num: 1, f: (r) => pc(r.ev) },
+    { t: "CLV", k: "clv", num: 1, f: (r) => pc(r.clv), cls: (r) => cls(r.clv) }, { t: "Fogadás", k: "bet", f: (r) => r.bet ? "✓" : "" },
+  ], DATA.signal_rows || []);
+
   /* napok */
   table($("daysTbl"), [
     { t: "Nap", k: "date" }, { t: "Ajánlott", k: "placed", num: 1 }, { t: "Lezárt", k: "settled", num: 1 },
@@ -399,6 +427,7 @@ function show() {
   /* beállítások */
   const st = DATA.settings;
   $("settings").innerHTML = [
+    ["Üzemmód", st.mode === "free" ? `ingyenes (napi max. ${st.max_bets_per_day} szimulált fogadás)` : "fizetős"],
     ["Fogadóiroda", st.soft], ["Viszonyítás", `${st.sharp} (devig: ${st.devig})`], ["Sportágak", st.sports.join(", ")],
     ["Odds-sáv", `${nf(st.min_odds, 2)} – ${nf(st.max_odds, 2)}`],
     ["Min. EV", st.ev_bands.map((b) => `≤${nf(b.max_odds, 2)}: ${pc(b.min_ev, 0)}`).join(" · ")],
@@ -409,8 +438,8 @@ function show() {
   const lr = DATA.last_run || {}, q = DATA.quota || {};
   $("lastRun").innerHTML = [
     ["Időpont", dtf(lr.time)], ["Meccsek (Tippmix ∩ Pinnacle)", lr.fixtures_both ?? "–"], ["Value-jelölt", lr.candidates ?? "–"],
-    ["Új fogadás / elszámolt", `${lr.placed ?? 0} / ${lr.settled ?? 0}`], ["Steam-es meccs / újranézve", `${lr.steam_fixtures ?? 0} / ${lr.rechecked ?? 0}`], ["API-hívás", lr.api_calls ?? "–"],
-    ["Futások (24 óra)", DATA.runs_24h], ["Kvóta", lr.quota || (q.limit ? `${q.limit - q.remaining}/${q.limit}` : "–")],
+    ["Új fogadás / elszámolt", `${lr.placed ?? 0} / ${lr.settled ?? 0}`], ["Steam-es meccs / újranézve", `${lr.steam_fixtures ?? 0} / ${lr.rechecked ?? 0}`], ["API-hívás (fizetős / ingyenes)", `${lr.api_calls ?? "–"} / ${lr.free_calls ?? "–"}`], ["Meccsek (listán / most nézve)", `${lr.fixtures_listed ?? "–"} / ${lr.fixtures_checked ?? "–"}`],
+    ["Futások (24 óra)", DATA.runs_24h], ["Havi fizetős keret", q.limit ? `${q.limit - q.remaining} / ${q.limit} felhasználva` : (lr.quota || "–")],
     ...(lr.skipped ? [["Kihagyva", lr.skipped]] : []), ...(lr.error ? [["Hiba", lr.error]] : []),
   ].map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("");
 }

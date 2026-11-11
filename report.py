@@ -2,7 +2,7 @@
 from zoneinfo import ZoneInfo
 
 import ledger
-from common import huf, signed_huf, pct, parse_time, odds_fmt as o2
+from common import load_json, huf, signed_huf, pct, parse_time, odds_fmt as o2
 from valuefinder import odds_band
 
 ICON = {"WIN": "✅", "HALFWIN": "✅½", "LOSE": "❌", "HALFLOSS": "❌½", "PUSH": "↩️", "CANCELLED": "↩️", "VOID": "↩️"}
@@ -95,6 +95,10 @@ def daily_message(bets, cfg, day, dashboard_url=None):
                  f"(változatlan {ex['ok']}, rosszabb oddsszal {ex['moved']}, elesett {ex['gone']}); átlagos csúszás {pct(ex['avg_slippage'])}")
     if s["avg_clv"] is not None:
         L.append(f"CLV (záró Pinnacle-árhoz mérve): átlag {pct(s['avg_clv'])}, a fogadások {s['clv_positive'] * 100:.0f}%-a verte a záró árat ({s['clv_n']} db)")
+    ss = ledger.signal_stats(load_json("signals.json", []))
+    if ss["measured"]:
+        L.append(f"📡 Összes value-jelzés (fogadás nélkül is): {ss['n']} db, mért CLV {ss['measured']} db: átlag {pct(ss['avg_clv'])}, "
+                 f"{ss['clv_positive'] * 100:.0f}% verte a záró árat")
     steam_st = [b for b in bets if b["status"] == "settled" and b.get("trigger") == "steam"]
     norm_st = [b for b in bets if b["status"] == "settled" and b.get("trigger") != "steam"]
     if steam_st:

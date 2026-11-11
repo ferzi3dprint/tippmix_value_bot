@@ -129,6 +129,7 @@ def _public(f):
 class MockOddsPapi:
     def __init__(self, cfg=None, api_key=None):
         self.calls = 0
+        self.free_calls = 0
 
     def account(self):
         return {"request_limit": 100000, "request_count": 0}
@@ -156,6 +157,27 @@ class MockOddsPapi:
         self.calls += 1
         f, now = _fixture(fixture_id), now_utc()
         return {**_public(f), "bookmakerOdds": {b: _prices(f, b, now) for b in bookmakers.split(",")}}
+
+    def historical_odds(self, fixture_id, bookmakers):
+        """Ingyenes előzmény: az utolsó 4,5 óra félóránkénti állapota + a mostani, csak a változásokkal."""
+        self.free_calls += 1
+        f, now = _fixture(fixture_id), now_utc()
+        times = [now - dt.timedelta(minutes=30 * k) for k in range(9, 0, -1)] + [now]
+        out = {}
+        for book in bookmakers.split(","):
+            hist = {}
+            for t in times:
+                if t > f["startTime"]:
+                    continue
+                for mid, m in _prices(f, book, t)["markets"].items():
+                    for oid, o in m["outcomes"].items():
+                        rows = hist.setdefault(mid, {}).setdefault(oid, [])
+                        p = o["players"]["0"]["price"]
+                        if not rows or rows[-1]["price"] != p:
+                            rows.append({"createdAt": t.isoformat(), "price": p, "active": True, "limit": None})
+            out[book] = {"markets": {mid: {"outcomes": {oid: {"players": {"0": list(reversed(rows))}}
+                                                         for oid, rows in outs.items()}} for mid, outs in hist.items()}}
+        return {"fixtureId": fixture_id, "bookmakers": out}
 
     def settlements(self, fixture_id):
         self.calls += 1

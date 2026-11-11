@@ -13,6 +13,7 @@ COOLDOWN = {  # másodperc, a dokumentáció szerint
     "/v4/odds-by-tournaments": 1.0,
     "/v4/settlements": 2.0,
     "/v4/markets": 1.0,
+    "/v4/historical-odds": 5.0,
 }
 
 
@@ -25,6 +26,7 @@ class OddsPapi:
         self.base = cfg["api"]["base_url"].rstrip("/")
         self.key = api_key or os.environ["ODDSPAPI_KEY"]
         self.calls = 0          # ebben a futásban elhasznált (számlázott) kérések
+        self.free_calls = 0     # ingyenes (historical-odds) kérések
         self._last = {}
         self.s = requests.Session()
 
@@ -38,7 +40,7 @@ class OddsPapi:
             r = self.s.get(self.base + path, params=params, timeout=40)
             self._last[path] = time.monotonic()
             if path != "/v4/account":
-                self.calls += 1
+                self.calls += 1   # a historical_odds visszaírja ingyenesre
             if r.status_code == 429:
                 body = r.text[:300]
                 if "REQUEST_LIMIT_EXCEEDED" in body:
@@ -71,6 +73,13 @@ class OddsPapi:
     def odds(self, fixture_id, bookmakers):
         """Egy meccs oddsai több irodától egyetlen kérésben (gyors újraellenőrzéshez)."""
         return self._get("/v4/odds", fixtureId=fixture_id, bookmakers=bookmakers, oddsFormat="decimal", verbosity=2)
+
+    def historical_odds(self, fixture_id, bookmakers):
+        """INGYENES végpont (nem számít a havi keretbe): a meccs teljes odds-előzménye, legfeljebb 3 irodától."""
+        r = self._get("/v4/historical-odds", fixtureId=fixture_id, bookmakers=bookmakers)
+        self.calls -= 1
+        self.free_calls += 1
+        return r
 
     def settlements(self, fixture_id):
         return self._get("/v4/settlements", fixtureId=fixture_id)

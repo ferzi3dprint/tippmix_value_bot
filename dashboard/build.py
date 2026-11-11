@@ -101,12 +101,15 @@ def collect(cfg):
         "skipped": [slim(b) for b in sorted((b for b in bets if b["status"] == "skipped"), key=lambda b: b["placed_at"], reverse=True)[:100]],
         "open": [slim(b) for b in sorted((b for b in bets if b["status"] == "open"), key=lambda b: b["start"])],
         "settled": [slim(b) for b in sorted((b for b in bets if b["status"] == "settled"), key=lambda b: b["settled_at"], reverse=True)],
+        "signals": ledger.signal_stats(load_json("signals.json", [])),
+        "signal_rows": sorted(load_json("signals.json", []), key=lambda x: x["first_at"], reverse=True)[:150],
         "last_run": runs[-1] if runs else None,
         "runs_24h": len([r for r in runs if parse_time(r["time"]) > dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=24)]),
         "quota": load_json("quota.json", None),
         "settings": {"steam": cfg.get("steam"), "execution": cfg.get("execution"), "min_odds": cfg["filters"]["min_odds"], "max_odds": cfg["filters"]["max_odds"],
                      "ev_bands": cfg["filters"]["ev_bands"], "kelly": cfg["staking"]["kelly_fraction"],
                      "max_stake_pct": cfg["staking"]["max_stake_pct"], "sports": cfg["scan"]["sports"],
+                     "mode": cfg["api"].get("mode", "paid"), "max_bets_per_day": (cfg.get("free") or {}).get("max_bets_per_day"),
                      "soft": cfg["api"]["soft_book"], "sharp": cfg["api"]["sharp_book"], "devig": cfg["scan"]["devig_method"]},
         "demo": os.getenv("MOCK_API") == "1" or os.getenv("DATA_DIR", "data") != "data",
     }
@@ -149,9 +152,12 @@ def build(cfg, out_dir, password=None, plain=False):
     return out_dir
 
 
-def publish(cfg, out_dir, token):
+def publish(cfg, out_dir, token, plain):
+    """Force-push egyetlen committal. Alapból ugyanennek a repónak a gh-pages ágára (GITHUB_TOKEN-nel);
+    ha a configban külön repó van megadva, oda (ehhez DASHBOARD_TOKEN kell)."""
     dcfg = cfg["dashboard"]
-    repo_url = f"https://github.com/{dcfg['repo']}.git"
+    repo = dcfg.get("repo") or os.getenv("GITHUB_REPOSITORY")
+    branch = dcfg.get("branch") or "gh-pages"
     auth = base64.b64encode(f"x-access-token:{token}".encode()).decode()
     env = {**os.environ, "GIT_TERMINAL_PROMPT": "0"}
 
@@ -161,10 +167,10 @@ def publish(cfg, out_dir, token):
         if r.returncode != 0:
             raise RuntimeError(f"git {args[0]}: {(r.stderr or r.stdout).replace(token, '***').replace(auth, '***')[:300]}")
 
-    git("init", "-q", "-b", dcfg.get("branch", "main"))
-    git("add", "index.html", DATA_NAME, ".nojekyll")
+    git("init", "-q", "-b", branch)
+    git("add", "index.html", ".nojekyll", *([] if plain else [DATA_NAME]))
     git("-c", "user.name=dashboard-bot", "-c", "user.email=dashboard-bot@users.noreply.github.com", "commit", "-q", "-m", "Dashboard frissítés")
-    git("push", "-q", "--force", repo_url, f"HEAD:{dcfg.get('branch', 'main')}")
+    git("push", "-q", "--force", f"https://github.com/{repo}.git", f"HEAD:{branch}")
 
 
 def main():
@@ -174,18 +180,16 @@ def main():
         print("Előnézet:", build(cfg, out, plain=True))
         return
     pw = os.getenv("DASHBOARD_PASSWORD")
-    if not pw:
-        print("[dashboard] DASHBOARD_PASSWORD nincs beállítva – kihagyva.")
-        return
+    plain = not pw    # jelszó nélkül nyílt oldal (nyilvános repónál a napló amúgy is látható)
     out = tempfile.mkdtemp(prefix="dash_")
-    build(cfg, out, pw)
-    token = os.getenv("DASHBOARD_TOKEN")
+    build(cfg, out, pw, plain=plain)
+    token = os.getenv("DASHBOARD_TOKEN") if cfg["dashboard"].get("repo") else (os.getenv("DASHBOARD_TOKEN") or os.getenv("GITHUB_TOKEN"))
     if not token or os.getenv("DRY_RUN") == "1":
         print("[dashboard] helyi build, közzététel nélkül:", out)
         return
     try:
-        publish(cfg, out, token)
-        print("[dashboard] közzétéve:", cfg["dashboard"]["url"])
+        publish(cfg, out, token, plain)
+        print("[dashboard] közzétéve:", cfg["dashboard"].get("url"), "(jelszó nélkül)" if plain else "(jelszóval)")
     except Exception as e:
         print("[dashboard] közzététel sikertelen:", e)
 

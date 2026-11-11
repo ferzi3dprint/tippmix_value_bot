@@ -4,17 +4,29 @@
 timezone: Europe/Budapest
 
 api:
+  # free: az ingyenes OddsPapi-csomaghoz (havi 250 kérés). Az oddsokat a díjmentes historical-odds végpontból veszi,
+  #       a havi keretből csak a napi meccslista és az elszámolás fogy.
+  # paid: fizetős csomaghoz (odds-by-tournaments, sok bajnokság egyszerre).
+  mode: free
   base_url: https://api.oddspapi.io
   soft_book: tippmixpro        # amit "megfogadunk"
   sharp_book: pinnacle         # a viszonyítási alap (fair ár)
   # Kvótavédelem: a /v4/account (ingyenes hívás) alapján a havi keretet egyenletesen osztja el a hónap hátralévő napjaira.
-  quota_reserve: 50            # ennyi kérést mindig tartalékban hagy (pl. elszámolásra)
+  quota_reserve: 10            # ennyi kérést mindig tartalékban hagy
   max_settlement_calls_per_run: 15
   tournaments_refresh_hours: 6 # ilyen gyakran keresi újra, mely bajnokságokban van Tippmix + Pinnacle odds
   tournaments_per_call: 10     # odds-by-tournaments: ennyi bajnokság egy kérésben
 
+free:                          # csak mode: free esetén
+  discovery_hours: 24          # meccslista frissítése (sportáganként 1 fizetős kérés) – ennél gyakrabban ne
+  discovery_window_hours: 48   # a meccslista ennyi órára előre
+  max_fixtures_per_run: 90     # ingyenes kérések futásonként (5 mp várakozás kérésenként -> ~8 perc)
+  near_start_hours: 6          # az ennyin belül kezdődő meccseket minden futás nézi
+  far_recheck_minutes: 90      # a távolabbiakat ennyi percenként
+  max_bets_per_day: 5          # minden fogadás elszámolása 1 fizetős kérés -> a havi keret miatt naponta legfeljebb ennyi
+
 scan:
-  sports: [Soccer, Tennis, Basketball, Ice Hockey]   # a /v4/sports sportName mezője szerint
+  sports: [Soccer, Tennis]     # a /v4/sports sportName mezője szerint (ingyenes módban sportáganként napi 1 kérés)
   lookahead_hours: 36          # ennyi órán belül kezdődő meccseket vizsgál
   min_minutes_before_start: 20 # ennél közelebb a kezdéshez már nem "fogad"
   max_sharp_overround: 1.08    # ha a Pinnacle árrése ennél nagyobb, a piac nem megbízható viszonyítási alap
@@ -56,6 +68,7 @@ execution:                     # végrehajthatóság: megtehető lett volna-e a 
 
 settlement:
   settle_after_hours: 2.5      # a kezdés után ennyivel próbál először elszámolni
+  retry_hours: 2               # ha még nincs eredmény, ennyi óra múlva próbálja újra (minden próba 1 fizetős kérés)
   give_up_after_hours: 96      # ha addig sincs eredmény: visszajár a tét (érvénytelen)
 
 notify:
@@ -64,7 +77,9 @@ notify:
 
 dashboard:
   enabled: true
-  repo: ferzi3dprint/tippmix-dashboard     # nyilvános repó GitHub Pages-szel (csak titkosított adat kerül bele)
-  url: https://ferzi3dprint.github.io/tippmix-dashboard/
-  branch: main
-  pbkdf2_iterations: 600000
+  # Alapból ugyanennek a (nyilvános) repónak a gh-pages ágára megy, külön token nélkül.
+  # Settings → Pages → Deploy from a branch → gh-pages / (root).
+  repo: ""                     # külön repóhoz: "felhasznalo/repo" + DASHBOARD_TOKEN titok
+  branch: gh-pages
+  url: https://ferzi3dprint.github.io/tippmix_value_bot/
+  pbkdf2_iterations: 600000    # csak ha DASHBOARD_PASSWORD meg van adva (különben nyílt oldal)
