@@ -59,10 +59,7 @@ async def tm_calendar():
                     out[r["id"]] = r
                     n += 1
             print(f"  naptár {h:02d}-{h + 2:02d}h: {n} meccs")
-        for t in ("/sports/2901/hu/next-matches-aggregator-main/1/0/200/1", "/sports/2901/hu/next-matches-aggregator-main/1/0/200/2",
-                  "/sports/2901/hu/popular-matches-aggregator-main/1/0/1/3", "/sports/2901/hu/tournament-aggregator-main/1"):
-            recs = await call(t)
-            print("  próba", t, "->", None if recs is None else dict(collections.Counter(r.get("_type") for r in recs)))
+
     return list(out.values())
 
 
@@ -74,7 +71,7 @@ def main():
     now = dt.datetime.now(dt.timezone.utc)
     end = dt.datetime.now(TZ).replace(hour=23, minute=59).astimezone(dt.timezone.utc)
     for sport_id, tm_name in ((10, "Labdarúgás"), (12, "Tenisz")):
-        for lang in ("hu",):
+        for lang in ("en",):
             try:
                 fx = c._get("/v4/fixtures", sportId=sport_id, **{"from": now.strftime("%Y-%m-%dT%H:%M:%SZ"), "to": end.strftime("%Y-%m-%dT%H:%M:%SZ")},
                             statusId=0, hasOdds="true", bookmakers="pinnacle", language=lang)
@@ -90,7 +87,7 @@ def main():
                 score = (sim(m["homeParticipantName"], best["participant1Name"]) + sim(m["awayParticipantName"], best["participant2Name"])) / 2 if best else 0
                 ok = score >= 0.6
                 matched += ok
-                if len(examples) < 25:
+                if len(examples) < 70:
                     examples.append(f"{'✅' if ok else '❌'} {score:.2f} | {m['name']}  <->  {best['participant1Name'] + ' - ' + best['participant2Name'] if best else '-'} (jelöltek: {len(cands)})")
             print(f"Párosítva: {matched}/{len(tms)}")
             print("\n".join(examples))
