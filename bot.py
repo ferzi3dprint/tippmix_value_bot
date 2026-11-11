@@ -399,7 +399,9 @@ def scan_hu(client, bets, cfg, now, stats, signals):
     order = [f for _, f in sorted(near)] + [f for _, f in sorted(far)]
     order = order[: fr["max_fixtures_per_run"]]
 
-    cands, hot, sharp_now, both, rejected = [], [], {}, 0, 0
+    cands, hot, sharp_now, both, rejected, near_miss = [], [], {}, 0, 0, []
+    LOOSE = {**cfg, "filters": {**cfg["filters"], "min_odds": 1.01, "max_odds": 50, "max_ev": 0.25,
+                                "ev_bands": [{"max_odds": 999, "min_ev": -1.0}]}}
     for fid in order:
         try:
             fx, so, ho, steam_fn = fetch_hu(client, cfg, pairs[fid], now, meta)
@@ -419,7 +421,10 @@ def scan_hu(client, bets, cfg, now, stats, signals):
         cands += [(fx, so, c) for c in cs]
         if steamy and len(ledger.active_on_fixture(bets, fid)) < cfg["filters"]["max_bets_per_fixture"]:
             hot.append(fid)
+        for c in find_values(fx, so, ho, meta, LOOSE):          # átláthatóság: a legjobb EV-k küszöbtől függetlenül
+            near_miss.append((c["ev"], f"{fx['participant1Name']} – {fx['participant2Name']} · {outcome_label(fx, c)} @{c['odds']} (fair {c['fair_odds']})"))
     save_json("cache/checked.json", checked)
+    stats["top_ev"] = [f"{ev * 100:+.1f}% {txt}" for ev, txt in sorted(near_miss, reverse=True)[:5]]
     update_closing(bets, sharp_now, meta, now, cfg)
     update_closing(signals, sharp_now, meta, now, cfg)
     stats.update({"fixtures_checked": len(order), "fixtures_both": both, "rejected_mismatch": rejected,
@@ -502,7 +507,10 @@ def scan_free(client, bets, cfg, now, stats, signals):
         cands += [(fx, so, c) for c in cs]
         if steamy and len(ledger.active_on_fixture(bets, fid)) < cfg["filters"]["max_bets_per_fixture"]:
             hot.append(fid)
+        for c in find_values(fx, so, ho, meta, LOOSE):          # átláthatóság: a legjobb EV-k küszöbtől függetlenül
+            near_miss.append((c["ev"], f"{fx['participant1Name']} – {fx['participant2Name']} · {outcome_label(fx, c)} @{c['odds']} (fair {c['fair_odds']})"))
     save_json("cache/checked.json", checked)
+    stats["top_ev"] = [f"{ev * 100:+.1f}% {txt}" for ev, txt in sorted(near_miss, reverse=True)[:5]]
     update_closing(bets, sharp_now, meta, now, cfg)
     update_closing(signals, sharp_now, meta, now, cfg)
     stats.update({"fixtures_listed": len(fixtures), "fixtures_checked": len(order), "fixtures_both": both,
