@@ -40,6 +40,18 @@ Minden szabály a `config.yaml`-ban állítható.
 - **📊 Napi kimutatás** 23 órától: a nap lezárt fogadásai (✅/❌), találati arány a várthoz képest, napi profit és ROI,
   összesítés indulás óta, végrehajthatóság, CLV, steam vs. normál összevetés, bontás odds-sávonként, a dashboard linkje.
 
+## Magyar üzemmód (alapbeállítás: `api.mode: hu`)
+
+- **Tippmix-oddsok:** közvetlenül a tippmixpro.hu nyilvános sport-adatfolyamából (`tippmixfeed.py`). Ugyanazt olvassa, amit
+  a weboldal is betölt: csak olvasás, bejelentkezés nélkül.
+- **Pinnacle:** az OddsPapi díjmentes `historical-odds` végpontjából. Az ingyenes OddsPapi-csomag a Tippmixpro-t nem
+  tartalmazza, ezért kell a közvetlen olvasás.
+- **Csak a mai meccsek**, foci és tenisz. Piacok: 1X2 / győztes, gólszám / játékszám (minden vonal).
+- **Párosítás** (`matcher.py`): kezdési idő és név alapján (magyar országnevek, „Vezetéknév, Keresztnév”, tartalékcsapatok).
+  Biztonsági szűrő: ha a két iroda fő piaca 15 százalékpontnál jobban eltér, a párt elveti.
+- A futásnaplóban (`data/runs.json` → `top_ev`) a legjobb EV-k akkor is látszanak, ha egyik sem érte el a küszöböt.
+- **Vegas.hu:** csak magyar IP-ről érhető el, a GitHub gépeiről nem. Ehhez otthoni gépen futó végrehajtó kellene (később).
+
 ## Ingyenes üzemmód (alapbeállítás)
 
 Az OddsPapi ingyenes csomagja havi 250 kérés. A bot ezt így osztja be (`api.mode: free`):
