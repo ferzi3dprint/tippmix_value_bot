@@ -13,7 +13,8 @@ from playwright.async_api import async_playwright
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "out")
 SITES = {
-    "tippmixpro": ["https://www.tippmixpro.hu/", "https://www.tippmixpro.hu/hu/fogadas/i/labdarugas/1"],
+    "tippmixpro": ["https://www.tippmixpro.hu/hu/fogadas/i/labdarugas/1", "https://www.tippmixpro.hu/hu/fogadas/i/elo-naptar",
+                   "https://www.tippmixpro.hu/hu/fogadas/i/tenisz/3"],
     "vegas": ["https://www.vegas.hu/", "https://www.vegas.hu/sportfogadas"],
 }
 INTERESTING = re.compile(r"odd|price|market|event|match|sport|fixture|bet|coupon|offer|outcome|selection", re.I)
@@ -38,6 +39,14 @@ async def visit(p, name, urls):
             return
         entry = {"url": url[:400], "type": rt, "status": resp.status, "ct": resp.headers.get("content-type", ""),
                  "method": resp.request.method}
+        if rt == "script" and "tippmixpro" in url:
+            try:
+                js = await resp.text()
+                pats = set(re.findall(r"/sports/[^\"'`\s]{3,160}", js)) | set(re.findall(r"[\"'`][a-z\-]*aggregator[a-z\-]*[\"'`]", js))
+                if pats:
+                    log.setdefault("js_topics", []).extend(sorted(pats)[:400])
+            except Exception:
+                pass
         if rt in ("xhr", "fetch", "other") and ("json" in entry["ct"] or "text" in entry["ct"] or "proto" in entry["ct"]):
             try:
                 body = await resp.text()
@@ -58,7 +67,7 @@ async def visit(p, name, urls):
     def on_ws(ws):
         rec = {"url": ws.url, "sent": [], "recv": []}
         log["ws"].append(rec)
-        ws.on("framesent", lambda f: len(rec["sent"]) < 40 and rec["sent"].append(str(f)[:800]))
+        ws.on("framesent", lambda f: len(rec["sent"]) < 400 and rec["sent"].append(str(f)[:800]))
         ws.on("framereceived", lambda f: len(rec["recv"]) < 60 and rec["recv"].append(str(f)[:1500]))
 
     page.on("response", lambda r: asyncio.ensure_future(on_response(r)))
@@ -74,8 +83,15 @@ async def visit(p, name, urls):
                     break
                 except Exception:
                     pass
-            await page.mouse.wheel(0, 2500)
-            await page.wait_for_timeout(5000)
+            for _ in range(4):
+                await page.mouse.wheel(0, 2500)
+                await page.wait_for_timeout(2500)
+            # kattintás az első meccs/bajnokság linkre, hogy a részletes lekérdezések is látszódjanak
+            try:
+                await page.click("text=/Ma|Mai|Holnap/", timeout=2000)
+                await page.wait_for_timeout(4000)
+            except Exception:
+                pass
             await page.screenshot(path=os.path.join(OUT, f"{name}_{i}.png"))
             text = await page.inner_text("body")
             links = await page.eval_on_selector_all("a[href]", "els => els.map(e => e.href).slice(0, 400)")

@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install playwright
-      - run: python recon/recon.py
+      - run: python recon/recon.py tippmixpro
       - name: Eredmény a recon ágra
         if: always()
         run: |
