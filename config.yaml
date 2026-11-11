@@ -7,7 +7,9 @@ api:
   # free: az ingyenes OddsPapi-csomaghoz (havi 250 kérés). Az oddsokat a díjmentes historical-odds végpontból veszi,
   #       a havi keretből csak a napi meccslista és az elszámolás fogy.
   # paid: fizetős csomaghoz (odds-by-tournaments, sok bajnokság egyszerre).
-  mode: free
+  # hu:   magyar mód (alapbeállítás) – a Tippmix-oddsokat közvetlenül a tippmixpro.hu nyilvános adatfolyamából olvassa,
+  #       a Pinnacle-t az OddsPapi díjmentes végpontjából; csak a mai meccsek.
+  mode: hu
   base_url: https://api.oddspapi.io
   soft_book: tippmixpro        # amit "megfogadunk"
   sharp_book: pinnacle         # a viszonyítási alap (fair ár)
@@ -17,7 +19,11 @@ api:
   tournaments_refresh_hours: 6 # ilyen gyakran keresi újra, mely bajnokságokban van Tippmix + Pinnacle odds
   tournaments_per_call: 10     # odds-by-tournaments: ennyi bajnokság egy kérésben
 
-free:                          # csak mode: free esetén
+hu:                            # csak mode: hu esetén
+  match_threshold: 0.72        # Tippmix ↔ Pinnacle névegyezés küszöbe (0–1)
+  max_prob_diff: 0.15          # ha a két iroda fő piaca ennél jobban eltér, a párosítás valószínűleg téves -> kihagyja
+
+free:                          # mode: free és hu esetén
   discovery_hours: 24          # meccslista frissítése (sportáganként 1 fizetős kérés) – ennél gyakrabban ne
   discovery_window_hours: 48   # a meccslista ennyi órára előre
   max_fixtures_per_run: 90     # ingyenes kérések futásonként (5 mp várakozás kérésenként -> ~8 perc)

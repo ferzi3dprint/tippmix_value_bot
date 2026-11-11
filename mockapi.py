@@ -15,11 +15,11 @@ MARKETS = [
     {"marketId": 101, "marketName": "Full Time Result", "marketLength": 3, "playerProp": False, "sportId": 10,
      "handicap": 0, "period": "fulltime", "marketType": "1x2",
      "outcomes": [{"outcomeId": 101, "outcomeName": "1"}, {"outcomeId": 102, "outcomeName": "X"}, {"outcomeId": 103, "outcomeName": "2"}]},
-    {"marketId": 1010, "marketName": "Over Under 2.5", "marketLength": 2, "playerProp": False, "sportId": 10,
+    {"marketId": 1010, "marketName": "Over Under Full Time", "marketLength": 2, "playerProp": False, "sportId": 10,
      "handicap": 2.5, "period": "fulltime", "marketType": "totals",
      "outcomes": [{"outcomeId": 1010, "outcomeName": "Over"}, {"outcomeId": 1011, "outcomeName": "Under"}]},
     {"marketId": 121, "marketName": "Winner", "marketLength": 2, "playerProp": False, "sportId": 12,
-     "handicap": 0, "period": "fulltime", "marketType": "12",
+     "handicap": 0, "period": "result", "marketType": "moneyline",
      "outcomes": [{"outcomeId": 121, "outcomeName": "1"}, {"outcomeId": 122, "outcomeName": "2"}]},
 ]
 TOURNAMENTS = {  # tournamentId -> (sportId, név, meccs/nap)
@@ -194,3 +194,27 @@ class MockOddsPapi:
             markets[str(mid)] = {"outcomes": {str(o["outcomeId"]): {"players": {"0": {"result": "WIN" if k == win else "LOSE"}}}
                                               for k, o in enumerate(outs)}}
         return {"fixtureId": fixture_id, "markets": markets}
+
+
+class MockTippmix:
+    """A Tippmix-adatfolyam utánzata: ugyanazokat a kitalált meccseket adja magyar sportnévvel, a "tippmixpro" árakkal."""
+    calls = 0
+
+    def today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz")):
+        from zoneinfo import ZoneInfo
+        end = now.astimezone(ZoneInfo(tz)).replace(hour=23, minute=59, second=59).astimezone(UTC)
+        hu = {10: "Labdarúgás", 12: "Tenisz"}
+        return [{"id": "tm-" + f["fixtureId"], "sport": hu[f["sportId"]], "name": f"{f['participant1Name']} - {f['participant2Name']}",
+                 "home": f["participant1Name"], "away": f["participant2Name"], "home_pid": "h", "away_pid": "a",
+                 "tournament": f["tournamentName"], "start": f["startTime"], "_fid": f["fixtureId"]}
+                for f in _fixtures_between(now, end) if f["startTime"] > now and hu[f["sportId"]] in sports]
+
+    def match_markets(self, match):
+        f = _fixture(match["id"][3:])
+        book = _prices(f, "tippmixpro", now_utc())
+        out = {}
+        keys = {101: ("main", 0.0, ["home", "draw", "away"]), 1010: ("ou", 2.5, ["over", "under"]), 121: ("main", 0.0, ["home", "away"])}
+        for mid, m in book["markets"].items():
+            kind, line, names = keys[int(mid)]
+            out[(kind, line)] = {n: o["players"]["0"]["price"] for n, o in zip(names, m["outcomes"].values())}
+        return out

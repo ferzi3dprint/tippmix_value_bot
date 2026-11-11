@@ -115,13 +115,16 @@ def find_values(fixture, soft, sharp, markets_meta, cfg):
             ev = so * p - 1
             if ev < min_ev_for(so, cfg) or ev > flt["max_ev"]:
                 continue
-            out.append({"market_id": int(mid), "market": meta["marketName"], "outcome_id": int(oid), "outcome": oname,
+            mname = meta["marketName"]
+            if str(meta.get("marketType", "")).startswith("totals") and meta.get("handicap"):
+                mname = f"{mname} {float(meta['handicap']):g}"
+            out.append({"market_id": int(mid), "market": mname, "outcome_id": int(oid), "outcome": oname,
                         "odds": so, "sharp_odds": ho, "fair_prob": round(p, 5), "fair_odds": round(1 / p, 3),
                         "ev": round(ev, 5), "sharp_overround": round(ovr, 4)})
     return sorted(out, key=lambda x: -x["ev"])
 
 
-MARKET_HU = [("Full Time Result", "1X2"), ("Both Teams To Score", "Mindkét csapat szerez gólt"), ("Over Under Full Time", "Gólszám"),
+MARKET_HU = [("Full Time Result", "1X2"), ("Over Under Full Time", "Gólszám"), ("Total Games Over Under", "Játékszám"), ("Both Teams To Score", "Mindkét csapat szerez gólt"), ("Over Under Full Time", "Gólszám"),
              ("Over Under", "Gólszám"), ("Double Chance", "Kétesély"), ("Draw No Bet", "Döntetlennél visszajár"),
              ("Asian Handicap", "Ázsiai hendikep"), ("Handicap", "Hendikep"), ("Winner", "Győztes"), ("Moneyline", "Győztes"),
              ("Totals", "Összpontszám")]
