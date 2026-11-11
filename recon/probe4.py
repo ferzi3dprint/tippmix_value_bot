@@ -44,7 +44,7 @@ async def tm_fetch(match_ids_for_odds):
                 if r.get("_type") == "MATCH":
                     seen[r["id"]] = r
         res["matches"] = list(seen.values())
-        tennis = [m for m in res["matches"] if m["sportName"] == "Tenisz"][:1]
+        tennis = []
         for m in tennis:
             res["odds"][m["id"]] = await call(f"/sports/{OP}/{LANG}/{m['id']}/match-odds/market-group/Main_BannerMatrix")
     return res
@@ -64,12 +64,17 @@ def main():
         print("  kimenetel-kódok:", sorted({(o.get("typeId"), o.get("code")[:3]) for o in outs.values()})[:20])
     # OddsPapi piacok
     mk = c.markets()
-    for sid in (10, 12):
-        rows = [m for m in mk if m.get("sportId") == sid and not m.get("playerProp") and m.get("period") in ("fulltime", "match", None)]
-        print(f"\n== OddsPapi piacok sport {sid} (fulltime, első 60):")
-        for m in rows[:60]:
-            print("  ", m["marketId"], m.get("marketType"), m.get("handicap"), m.get("period"), m.get("marketName"), [o["outcomeName"] for o in m["outcomes"]])
-    json.dump(mk, open(os.path.join(os.path.dirname(__file__), "out", "oddspapi_markets.json"), "w"), ensure_ascii=False)
+    for sid in (12,):
+        rows = [m for m in mk if m.get("sportId") == sid and not m.get("playerProp")]
+        print(f"\n== OddsPapi piacok sport {sid} (első 40):")
+        for m in rows[:40]:
+            print("  ", m["marketId"], m.get("marketType"), m.get("handicap"), m.get("period"), m.get("marketName"), [(o["outcomeId"], o["outcomeName"]) for o in m["outcomes"]])
+    m101 = next(m for m in mk if m["marketId"] == 101)
+    print("  101 kimenetelek:", [(o["outcomeId"], o["outcomeName"]) for o in m101["outcomes"]])
+    m1010 = next(m for m in mk if m["marketId"] == 1010)
+    print("  1010 kimenetelek:", [(o["outcomeId"], o["outcomeName"]) for o in m1010["outcomes"]])
+    os.makedirs(os.path.join(os.path.dirname(os.path.abspath(__file__)), "out"), exist_ok=True)
+    json.dump(mk, open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "out", "oddspapi_markets.json"), "w"), ensure_ascii=False)
     # párosítás
     now = dt.datetime.now(dt.timezone.utc)
     end = dt.datetime.now(TZ).replace(hour=23, minute=59).astimezone(dt.timezone.utc)
