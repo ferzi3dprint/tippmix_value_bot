@@ -1,0 +1,26 @@
+name: Felderítés (magyar irodák)
+# Kézi indítás. Headless böngészővel megnyitja a tippmixpro.hu és vegas.hu oldalakat (bejelentkezés nélkül),
+# rögzíti a hálózati forgalmat, és az eredményt a "recon" ágra teszi.
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright && python -m playwright install --with-deps chromium
+      - run: python recon/recon.py
+      - name: Eredmény a recon ágra
+        if: always()
+        run: |
+          cd recon/out
+          git init -q -b recon
+          git add -A
+          git -c user.name=recon-bot -c user.email=recon-bot@users.noreply.github.com commit -q -m "Felderítés $(date -u +%FT%H:%M)"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:recon
