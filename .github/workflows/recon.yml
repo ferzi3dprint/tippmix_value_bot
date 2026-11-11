@@ -14,8 +14,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install playwright
-      - run: python recon/recon.py tippmixpro
+      - run: pip install playwright websockets
+      - run: python recon/probe_tm.py
       - name: Eredmény a recon ágra
         if: always()
         run: |
