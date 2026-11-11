@@ -47,6 +47,11 @@ def bets_on_fixture(bets, fixture_id):
     return [b for b in bets if b["fixture_id"] == fixture_id]
 
 
+def active_on_fixture(bets, fixture_id):
+    """A meccs élő (nem kimaradt) fogadásai – a meccsenkénti korláthoz."""
+    return [b for b in bets if b["fixture_id"] == fixture_id and b["status"] != "skipped"]
+
+
 def already_bet(bets, fixture_id, market_id, outcome_id):
     return any(b["fixture_id"] == fixture_id and b["market_id"] == market_id and b["outcome_id"] == outcome_id for b in bets)
 
@@ -72,8 +77,22 @@ def placed_day(b, tz):
     return parse_time(b["placed_at"]).astimezone(tz).date()
 
 
+def execution_stats(bets):
+    """Végrehajthatóság: a jelzések közül hány volt még megtehető pár perccel később, és mennyit csúszott az odds."""
+    chk = [b for b in bets if b.get("exec_status") in ("ok", "moved", "gone")]
+    if not chk:
+        return {"checked": 0}
+    done = [b for b in chk if b["exec_status"] != "gone"]
+    slip = [b["odds"] / b["signal_odds"] - 1 for b in done if b.get("signal_odds")]
+    return {"checked": len(chk), "ok": sum(b["exec_status"] == "ok" for b in chk),
+            "moved": sum(b["exec_status"] == "moved" for b in chk), "gone": sum(b["exec_status"] == "gone" for b in chk),
+            "rate": len(done) / len(chk), "avg_slippage": sum(slip) / len(slip) if slip else 0.0}
+
+
 def summary(bets, cfg):
-    """Összesített mutatók az elszámolt fogadásokra."""
+    """Összesített mutatók. A „nem volt megtehető” (skipped) jelzések nem számítanak bele, csak a végrehajthatóságba."""
+    allb = bets
+    bets = [b for b in bets if b["status"] != "skipped"]
     st = [b for b in bets if b["status"] == "settled"]
     counted = [b for b in st if is_counted(b)]
     staked = sum(b["stake"] for b in st)
@@ -94,4 +113,6 @@ def summary(bets, cfg):
         "clv_n": len(clv),
         "bankroll": round(br, 2), "start_bankroll": cfg["staking"]["start_bankroll"],
         "open_stake": round(open_stake(bets), 2),
+        "steam_bets": sum(1 for b in bets if b.get("trigger") == "steam"),
+        "execution": execution_stats(allb),
     }

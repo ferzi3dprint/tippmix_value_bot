@@ -23,6 +23,16 @@ def now_utc():
     return dt.datetime.fromisoformat(fake).astimezone(UTC) if fake else dt.datetime.now(UTC)
 
 
+def sleep_minutes(m):
+    """Várakozás a futáson belül. A demóban/tesztben (FAKE_NOW) csak az órát tekeri előre."""
+    fake = os.getenv("FAKE_NOW")
+    if fake:
+        os.environ["FAKE_NOW"] = (dt.datetime.fromisoformat(fake) + dt.timedelta(minutes=m)).isoformat()
+        return
+    import time
+    time.sleep(m * 60)
+
+
 def to_local(t, cfg):
     return t.astimezone(ZoneInfo(cfg["timezone"]))
 

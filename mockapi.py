@@ -74,18 +74,45 @@ def _fixture(fid):
     return next(f for f in _day_fixtures(dt.date(int(y), int(m), int(d))) if f["fixtureId"] == fid)
 
 
+def _news(f):
+    """A meccsek ~35%-ánál a kezdés előtt 1–10 órával "hír" jön (sérülés, kezdőcsapat): a valódi esély elmozdul.
+    A Pinnacle azonnal követi; a Tippmix 0–90 perc késéssel (vagy a következő rendszeres frissítéskor)."""
+    r = _rng("news", f["fixtureId"])
+    if r.random() > 0.35:
+        return None
+    t = f["startTime"] - dt.timedelta(hours=r.uniform(1, 10))
+    shift = {}
+    for mid, true in f["_true"].items():
+        k = r.randrange(len(true))
+        new = list(true)
+        new[k] = min(0.92, true[k] + r.uniform(0.05, 0.10))
+        shift[mid] = _norm([p if i == k else max(0.03, p - (new[k] - true[k]) / (len(true) - 1)) for i, p in enumerate(new)])
+    return {"time": t, "true": shift, "tm_delay": dt.timedelta(minutes=r.uniform(0, 90))}
+
+
+def _true_at(f, t):
+    n = _news(f)
+    return n["true"] if n and t >= n["time"] else f["_true"]
+
+
 def _prices(f, book, now):
     hours_left = max(0.0, (f["startTime"] - now).total_seconds() / 3600)
     markets = {}
-    for mid, true in f["_true"].items():
+    truth_now = _true_at(f, now)
+    n = _news(f)
+    for mid in f["_true"]:
         if book == "pinnacle":
             sd = 0.004 + 0.02 * min(hours_left, 36) / 36           # a kezdéshez közeledve pontosodik
             r = _rng("pin", f["fixtureId"], mid, int(hours_left))
-            est = _norm([max(0.02, p + r.gauss(0, sd)) for p in true])
+            est = _norm([max(0.02, p + r.gauss(0, sd)) for p in truth_now[mid]])
             odds = [round(1 / (p * 1.025), 3) for p in est]
         else:
-            r = _rng("tm", f["fixtureId"], mid, int(hours_left // 8))  # ritkán frissül
-            est = _norm([max(0.03, p + r.gauss(0, 0.035)) for p in true])
+            k = int(hours_left // 8)                                  # rendszeres frissítés 8 óránként
+            last_update = f["startTime"] - dt.timedelta(hours=(k + 1) * 8)
+            if n and now >= n["time"] + n["tm_delay"]:
+                last_update = max(last_update, n["time"] + n["tm_delay"])
+            r = _rng("tm", f["fixtureId"], mid, k)
+            est = _norm([max(0.03, p + r.gauss(0, 0.03)) for p in _true_at(f, last_update)[mid]])
             odds = [max(1.01, round(1 / (p * 1.075), 2)) for p in est]
         outs = [o["outcomeId"] for o in next(m for m in MARKETS if m["marketId"] == mid)["outcomes"]]
         markets[str(mid)] = {"marketActive": True, "outcomes": {
@@ -125,6 +152,11 @@ class MockOddsPapi:
               if f["tournamentId"] in set(map(int, tournament_ids)) and f["startTime"] > now]
         return [{**_public(f), "bookmakerOdds": {bookmaker: _prices(f, bookmaker, now)}} for f in fx]
 
+    def odds(self, fixture_id, bookmakers):
+        self.calls += 1
+        f, now = _fixture(fixture_id), now_utc()
+        return {**_public(f), "bookmakerOdds": {b: _prices(f, b, now) for b in bookmakers.split(",")}}
+
     def settlements(self, fixture_id):
         self.calls += 1
         f = _fixture(fixture_id)
@@ -134,7 +166,7 @@ class MockOddsPapi:
                 outs = next(m for m in MARKETS if m["marketId"] == mid)["outcomes"]
                 markets[str(mid)] = {"outcomes": {str(o["outcomeId"]): {"players": {"0": {"result": "UNDECIDED"}}} for o in outs}}
             return {"fixtureId": fixture_id, "markets": markets}
-        for mid, true in f["_true"].items():
+        for mid, true in _true_at(f, f["startTime"]).items():
             outs = next(m for m in MARKETS if m["marketId"] == mid)["outcomes"]
             win = _rng("res", fixture_id, mid).choices(range(len(true)), weights=true)[0]
             markets[str(mid)] = {"outcomes": {str(o["outcomeId"]): {"players": {"0": {"result": "WIN" if k == win else "LOSE"}}}

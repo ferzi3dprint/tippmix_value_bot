@@ -1,4 +1,5 @@
-"""Egy futás: elszámolás → odds-letöltés → value-keresés → szimulált fogadás → értesítés → (este) napi kimutatás.
+"""Egy futás: elszámolás → odds-letöltés → value- és steam-keresés → szimulált fogadás → értesítés →
+ pár perc múlva végrehajthatóság-ellenőrzés + steam-es meccsek újranézése → (este) napi kimutatás.
 
 Futtatás:  python bot.py            (éles adat, ODDSPAPI_KEY kell)
            MOCK_API=1 python bot.py (szintetikus adat, kulcs nélkül)
@@ -13,7 +14,7 @@ from zoneinfo import ZoneInfo
 import ledger
 import notify
 import report
-from common import load_config, load_json, save_json, now_utc, parse_time, to_local
+from common import load_config, load_json, save_json, now_utc, parse_time, sleep_minutes, to_local
 from valuefinder import devig, find_values, kelly_stake, market_prices, odds_band, outcome_label
 
 
@@ -125,8 +126,117 @@ def _index(rows, slug):
     return out
 
 
-def scan(client, bets, cfg, now, stats):
-    api, sc = cfg["api"], cfg["scan"]
+# --- ⚡ steam: a Pinnacle fair árának előzménye ------------------------------
+
+HIST = "cache/sharp_history.json"
+
+
+def record_sharp(hist, fid, fx, sharp_odds, meta, now, cfg):
+    """Elmenti a meccs piacainak aktuális Pinnacle fair valószínűségeit (a steam-felismeréshez)."""
+    e = hist.setdefault(fid, {"start": fx["startTime"], "m": {}})
+    for mid in map(int, (sharp_odds.get("markets") or {}).keys()):
+        m = meta.get(mid)
+        if not m:
+            continue
+        hp = market_prices(sharp_odds, mid, [o["outcomeId"] for o in m["outcomes"]])
+        if hp and 0.98 <= sum(1 / o for o in hp) <= cfg["scan"]["max_sharp_overround"]:
+            pts = e["m"].setdefault(str(mid), [])
+            if not pts or pts[-1][0] != now.isoformat():
+                pts.append([now.isoformat(), [round(p, 5) for p in devig(hp, cfg["scan"].get("devig_method", "power"))]])
+
+
+def prune_history(hist, now, cfg):
+    keep = dt.timedelta(hours=cfg["steam"]["window_hours"] + 1)
+    for fid in list(hist):
+        if parse_time(hist[fid]["start"]) < now:
+            del hist[fid]
+            continue
+        for mid, pts in hist[fid]["m"].items():
+            hist[fid]["m"][mid] = [p for p in pts if now - parse_time(p[0]) <= keep]
+
+
+def steam_moves(hist, fid, mid, now, cfg):
+    """Kimenetelenként a fair valószínűség relatív emelkedése az ablak legrégebbi pontjához képest (ha ≥ min_move)."""
+    sc = cfg.get("steam") or {}
+    if not sc.get("enabled"):
+        return {}
+    pts = ((hist.get(fid) or {}).get("m") or {}).get(str(mid)) or []
+    if len(pts) < 2:
+        return {}
+    win, min_age = dt.timedelta(hours=sc["window_hours"]), dt.timedelta(minutes=sc["min_age_minutes"])
+    old = [p for p in pts if win >= now - parse_time(p[0]) >= min_age]
+    if not old:
+        return {}
+    base, cur = old[0][1], pts[-1][1]
+    return {i: round(c / b - 1, 4) for i, (b, c) in enumerate(zip(base, cur)) if b > 0 and c / b - 1 >= sc["min_move"]}
+
+
+def evaluate(fx, so, ho, meta, hist, now, cfg):
+    """Egy meccs value-jelöltjei, steam-jelöléssel. Visszaad: (jelöltek, van-e steam a meccsen)."""
+    sc = cfg["scan"]
+    start = parse_time(fx["startTime"])
+    mins = (start - now).total_seconds() / 60
+    if mins < sc["min_minutes_before_start"] or mins > sc["lookahead_hours"] * 60:
+        return [], False
+    sub = {mid: meta[mid] for mid in map(int, (so.get("markets") or {}).keys()) if mid in meta}
+    cands, steamy = [], False
+    for mid, m in sub.items():
+        mv = steam_moves(hist, fx["fixtureId"], mid, now, cfg)
+        steamy = steamy or bool(mv)
+        for c in find_values(fx, so, ho, {mid: m}, cfg):
+            idx = [o["outcomeId"] for o in m["outcomes"]].index(c["outcome_id"])
+            c["steam"] = mv.get(idx)
+            cands.append(c)
+    return cands, steamy
+
+
+def place(cands, bets, cfg, now, tours):
+    """Szimulált fogadás a jelöltekre (EV szerint), a tőke- és meccskorlátokkal."""
+    placed = []
+    br = ledger.bankroll(bets, cfg)
+    pending = "pending" if (cfg.get("execution") or {}).get("enabled") else "ok"
+    for fx, so, c in sorted(cands, key=lambda x: -x[2]["ev"]):
+        fid = fx["fixtureId"]
+        if ledger.already_bet(bets, fid, c["market_id"], c["outcome_id"]):
+            continue
+        if len(ledger.active_on_fixture(bets, fid)) >= cfg["filters"]["max_bets_per_fixture"]:
+            continue
+        open_st = ledger.open_stake(bets)
+        available = min(br - open_st, br * cfg["staking"]["max_open_exposure_pct"] - open_st)
+        stake = kelly_stake(c["fair_prob"], c["odds"], br, available, cfg)
+        if stake <= 0:
+            continue
+        b = {"id": uuid.uuid4().hex[:10], "placed_at": now.isoformat(), "status": "open", "exec_status": pending,
+             "fixture_id": fid, "sport": tours.get(str(fx.get("tournamentId"))) or fx.get("sportName") or "",
+             "tournament": fx.get("tournamentName") or str(fx.get("tournamentId")),
+             "home": fx.get("participant1Name"), "away": fx.get("participant2Name"), "start": fx["startTime"],
+             "label": outcome_label(fx, c), "band": odds_band(c["odds"]), "stake": stake,
+             "signal_odds": c["odds"], "signal_ev": c["ev"], "link": so.get("fixturePath"), **c}
+        b["trigger"] = "steam" if c.get("steam") else "normál"
+        b["expected_profit"] = round(stake * c["ev"], 2)
+        bets.append(b)
+        placed.append(b)
+    return placed
+
+
+def update_closing(bets, sharp, meta, now, cfg):
+    """Záró ár (CLV) frissítése a még el nem kezdődött nyitott fogadásoknál."""
+    for b in bets:
+        if b["status"] == "open" and b["fixture_id"] in sharp and ledger.start_time(b) > now:
+            m = meta.get(b["market_id"])
+            if not m:
+                continue
+            oids = [o["outcomeId"] for o in m["outcomes"]]
+            hp = market_prices(sharp[b["fixture_id"]], b["market_id"], oids)
+            if hp:
+                i = oids.index(b["outcome_id"])
+                p = devig(hp, cfg["scan"].get("devig_method", "power"))[i]
+                b.update({"closing_fair_prob": round(p, 5), "closing_fair_odds": round(1 / p, 3),
+                          "closing_sharp_odds": hp[i], "closing_at": now.isoformat(), "clv": round(b["odds"] * p - 1, 5)})
+
+
+def scan(client, bets, cfg, now, stats, hist):
+    api = cfg["api"]
     meta = markets_meta(client, now)
     tours = tournaments(client, cfg, now)
     ids = sorted(tours, key=int)
@@ -136,7 +246,7 @@ def scan(client, bets, cfg, now, stats):
     stats["quota"] = qtxt
     if not ok:
         stats["skipped"] = "napi kvótakeret elfogyott"
-        return []
+        return [], []
     soft, sharp = {}, {}
     for ch in chunks:
         soft.update(_index(client.odds_by_tournaments(ch, api["soft_book"]), api["soft_book"]))
@@ -144,55 +254,83 @@ def scan(client, bets, cfg, now, stats):
     common_ids = soft.keys() & sharp.keys()
     stats["fixtures_soft"], stats["fixtures_sharp"], stats["fixtures_both"] = len(soft), len(sharp), len(common_ids)
 
-    # záró ár (CLV) frissítése a még el nem kezdődött nyitott fogadásoknál
-    for b in bets:
-        if b["status"] == "open" and b["fixture_id"] in sharp and ledger.start_time(b) > now:
-            m = meta.get(b["market_id"])
-            if not m:
-                continue
-            oids = [o["outcomeId"] for o in m["outcomes"]]
-            hp = market_prices(sharp[b["fixture_id"]][1], b["market_id"], oids)
-            if hp:
-                p = devig(hp, sc.get("devig_method", "power"))[oids.index(b["outcome_id"])]
-                b.update({"closing_fair_prob": round(p, 5), "closing_fair_odds": round(1 / p, 3),
-                          "closing_sharp_odds": hp[oids.index(b["outcome_id"])], "closing_at": now.isoformat(),
-                          "clv": round(b["odds"] * p - 1, 5)})
+    for fid, (fx, ho) in sharp.items():
+        record_sharp(hist, fid, fx, ho, meta, now, cfg)
+    update_closing(bets, {k: v[1] for k, v in sharp.items()}, meta, now, cfg)
 
-    cands = []
+    cands, hot = [], []
     for fid in common_ids:
         fx, so = soft[fid]
-        _, ho = sharp[fid]
-        start = parse_time(fx["startTime"])
-        mins = (start - now).total_seconds() / 60
-        if mins < sc["min_minutes_before_start"] or mins > sc["lookahead_hours"] * 60:
-            continue
-        sub = {mid: meta[mid] for mid in map(int, (so.get("markets") or {}).keys()) if mid in meta}
-        for c in find_values(fx, so, ho, sub, cfg):
-            cands.append((fx, so, c))
+        cs, steamy = evaluate(fx, so, sharp[fid][1], meta, hist, now, cfg)
+        cands += [(fx, so, c) for c in cs]
+        if steamy and len(ledger.active_on_fixture(bets, fid)) < cfg["filters"]["max_bets_per_fixture"]:
+            hot.append(fid)
     stats["candidates"] = len(cands)
+    stats["steam_fixtures"] = len(hot)
+    return place(cands, bets, cfg, now, tours), hot
 
-    placed = []
-    br = ledger.bankroll(bets, cfg)
-    for fx, so, c in sorted(cands, key=lambda x: -x[2]["ev"]):
-        fid = fx["fixtureId"]
-        if ledger.already_bet(bets, fid, c["market_id"], c["outcome_id"]):
+
+# --- végrehajthatóság és gyors újraellenőrzés -------------------------------
+
+def recheck(client, bets, cfg, now, hot, hist, stats):
+    """A jelzés után pár perccel: (1) megerősíti a függő fogadásokat a friss Tippmix-oddsszal,
+    (2) újranézi a steam-es meccseket (meccsenként 1 kérés, mindkét iroda). Visszaad: (új fogadások, elesett fogadások)."""
+    api, ex = cfg["api"], cfg.get("execution") or {}
+    meta = markets_meta(client, now)
+    tours = load_json("cache/tournaments.json", {}).get("data", {})
+    due = [b for b in bets if b.get("exec_status") == "pending" and b["status"] == "open"
+           and now - parse_time(b["placed_at"]) >= dt.timedelta(minutes=ex.get("confirm_after_minutes", 3))]
+    fids = list(dict.fromkeys([b["fixture_id"] for b in due] + hot[: cfg["steam"]["recheck_fixtures"]]))
+    fresh = {}
+    for fid in fids:
+        try:
+            r = client.odds(fid, f"{api['soft_book']},{api['sharp_book']}")
+            bo = r.get("bookmakerOdds") or {}
+            fresh[fid] = (r, bo.get(api["soft_book"]), bo.get(api["sharp_book"]))
+        except Exception as e:
+            print(f"[újraellenőrzés] {fid}: {e}")
+    stats["rechecked"] = len(fresh)
+
+    gone = []
+    for b in due:
+        if b["fixture_id"] not in fresh:
             continue
-        if len(ledger.bets_on_fixture(bets, fid)) >= cfg["filters"]["max_bets_per_fixture"]:
+        fx, so, ho = fresh[b["fixture_id"]]
+        m = meta.get(b["market_id"])
+        oids = [o["outcomeId"] for o in m["outcomes"]] if m else []
+        sp = market_prices(so, b["market_id"], oids) if m else None
+        hp = market_prices(ho, b["market_id"], oids) if m else None
+        i = oids.index(b["outcome_id"]) if m else 0
+        p_now = devig(hp, cfg["scan"].get("devig_method", "power"))[i] if hp else b["fair_prob"]
+        exec_odds = sp[i] if sp else None
+        b["exec_checked_at"], b["exec_odds"] = now.isoformat(), exec_odds
+        if exec_odds is not None and exec_odds >= b["signal_odds"]:
+            b["exec_status"] = "ok"
+        elif exec_odds is not None and exec_odds * p_now - 1 >= ex.get("min_ev_after_move", 0.0):
+            b["exec_status"] = "moved"
+            b["odds"] = exec_odds
+            b["ev"] = round(exec_odds * b["fair_prob"] - 1, 5)
+            b["band"] = odds_band(exec_odds)
+            b["expected_profit"] = round(b["stake"] * b["ev"], 2)
+            if b.get("clv") is not None and b.get("closing_fair_prob"):
+                b["clv"] = round(exec_odds * b["closing_fair_prob"] - 1, 5)
+        else:
+            b["exec_status"], b["status"] = "gone", "skipped"
+            gone.append(b)
+
+    # steam-es meccsek újranézése: lehet, hogy a Pinnacle tovább mozdult, a Tippmix még nem
+    cands = []
+    for fid in hot[: cfg["steam"]["recheck_fixtures"]]:
+        if fid not in fresh or not fresh[fid][1] or not fresh[fid][2]:
             continue
-        open_st = ledger.open_stake(bets)
-        available = min(br - open_st, br * cfg["staking"]["max_open_exposure_pct"] - open_st)
-        stake = kelly_stake(c["fair_prob"], c["odds"], br, available, cfg)
-        if stake <= 0:
-            continue
-        b = {"id": uuid.uuid4().hex[:10], "placed_at": now.isoformat(), "status": "open",
-             "fixture_id": fid, "sport": tours.get(str(fx.get("tournamentId"))) or fx.get("sportName") or "",
-             "tournament": fx.get("tournamentName") or str(fx.get("tournamentId")),
-             "home": fx.get("participant1Name"), "away": fx.get("participant2Name"), "start": fx["startTime"],
-             "label": outcome_label(fx, c), "band": odds_band(c["odds"]), "stake": stake,
-             "expected_profit": round(stake * c["ev"], 2), "link": so.get("fixturePath"), **c}
-        bets.append(b)
-        placed.append(b)
-    return placed
+        fx, so, ho = fresh[fid]
+        record_sharp(hist, fid, fx, ho, meta, now, cfg)
+        cs, _ = evaluate(fx, so, ho, meta, hist, now, cfg)
+        cands += [(fx, so, c) for c in cs]
+    new = place(cands, bets, cfg, now, tours)
+    for b in new:
+        b["exec_status"] = "pending"   # a következő futás erősíti meg
+    return new, gone
 
 
 def daily_due(cfg, now):
@@ -213,27 +351,45 @@ def run(cfg):
     now = now_utc()
     client = make_client(cfg)
     bets = ledger.load()
+    hist = load_json(HIST, {})
     stats = {"time": now.isoformat()}
+    url = (cfg.get("dashboard") or {}).get("url") if (cfg.get("dashboard") or {}).get("enabled") else None
+    new, gone = [], []
     try:
         settled = settle_due(client, bets, cfg, now)
         stats["settled"] = len(settled)
-        new = scan(client, bets, cfg, now, stats)
+        if (cfg.get("execution") or {}).get("enabled"):
+            _, g = recheck(client, bets, cfg, now, [], hist, stats)       # előző futásból maradt függő fogadások
+            gone += g
+        new, hot = scan(client, bets, cfg, now, stats, hist)
+        ledger.save(bets)
+        if new and cfg["notify"]["each_run_new_bets"]:
+            notify.send(report.new_bets_message(new, bets, cfg))
+        if (cfg.get("execution") or {}).get("enabled") and (new or hot):
+            sleep_minutes(cfg["execution"]["confirm_after_minutes"])
+            now = now_utc()
+            more, g = recheck(client, bets, cfg, now, hot, hist, stats)
+            gone += g
+            if more and cfg["notify"]["each_run_new_bets"]:
+                notify.send(report.new_bets_message(more, bets, cfg, rechecked=True))
+            new += more
         stats["placed"] = len(new)
+        stats["not_executable"] = len(gone)
+        if gone and cfg["notify"]["each_run_new_bets"]:
+            notify.send(report.gone_message(gone))
     except Exception as e:
         stats["error"] = f"{e.__class__.__name__}: {str(e)[:200]}"
         traceback.print_exc()
-        new = []
     finally:
         ledger.save(bets)
+        prune_history(hist, now, cfg)
+        save_json(HIST, hist)
     stats["api_calls"] = client.calls
     runs = load_json("runs.json", [])
     runs.append(stats)
     save_json("runs.json", runs[-300:])
     print("[futás]", stats)
 
-    url = (cfg.get("dashboard") or {}).get("url") if (cfg.get("dashboard") or {}).get("enabled") else None
-    if new and cfg["notify"]["each_run_new_bets"]:
-        notify.send(report.new_bets_message(new, bets, cfg))
     day = daily_due(cfg, now)
     if day:
         sent = notify.send(report.daily_message(bets, cfg, day, url))

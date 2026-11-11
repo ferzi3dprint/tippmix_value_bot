@@ -19,15 +19,26 @@ Nem fogadási vagy befektetési tanács.
    legfeljebb a tőke 35%-a.
 5. **CLV:** amíg a meccs nem kezdődik el, minden futás frissíti a Pinnacle fair árát. A kezdés előtti utolsó árhoz mért
    EV a CLV. Ez néhány hét alatt megmutatja, valódi-e az előny, akkor is, ha a profit még a szórás miatt ugrál.
-6. **Elszámolás:** a kezdés után 2,5 órától az OddsPapi `settlements` végpontjából (nyert / vesztett / fél / visszajár).
+6. **⚡ Steam (odds-mozgás):** a bot megjegyzi a Pinnacle fair árait. Ha egy kimenetel fair valószínűsége az elmúlt 3 órában
+   legalább 4%-kal (relatívan) nőtt, az steam: valami hír (sérülés, kezdőcsapat) mozgatta a piacot, a Tippmix pedig gyakran
+   késve követi. Ezek a fogadások ⚡ jelet kapnak az üzenetben és a dashboardon. A futás végén a bot meccsenként egy
+   kéréssel újranézi a steam-es meccseket, mert a mozgás gyakran folytatódik.
+7. **Végrehajthatóság:** az ajánlás után 3 perccel a bot újra lekéri a Tippmix-oddsot, mintha akkor nyitnád meg az appot.
+   - Ha az odds nem esett: a fogadás marad.
+   - Ha esett, de még megéri: az új, rosszabb oddsszal számol.
+   - Ha már nem éri meg, vagy a piac lezárt: „nem volt megtehető”, kimarad az eredményből, de a statisztikában látszik
+     (végrehajthatósági arány, átlagos csúszás).
+8. **Elszámolás:** a kezdés után 2,5 órától az OddsPapi `settlements` végpontjából (nyert / vesztett / fél / visszajár).
 
 Minden szabály a `config.yaml`-ban állítható.
 
 ## Üzenetek
 
-- **🎯 Új ajánlások:** futásonként egy üzenet, ha van új szimulált fogadás. Tartalma: meccs, tipp, Tippmix- és fair odds, EV, tét.
+- **🎯 Új ajánlások:** futásonként egy üzenet, ha van új szimulált fogadás. Tartalma: meccs, tipp, Tippmix- és fair odds,
+  EV, tét; a ⚡ steam-es tételeknél a gyorsaság számít.
+- **⌛ Nem volt megtehető:** ha egy ajánlásnál 3 perc múlva már esett az odds.
 - **📊 Napi kimutatás** 23 órától: a nap lezárt fogadásai (✅/❌), találati arány a várthoz képest, napi profit és ROI,
-  összesítés indulás óta, CLV, bontás odds-sávonként, a dashboard linkje.
+  összesítés indulás óta, végrehajthatóság, CLV, steam vs. normál összevetés, bontás odds-sávonként, a dashboard linkje.
 
 ## Beállítás
 
@@ -50,6 +61,13 @@ a bajnokságlista frissítésére, és meccsenként 1 kérés elszámoláskor. 3
 kérés naponta, vagyis havonta több ezer. **Az ingyenes csomag ehhez kevés.** A bot a `/v4/account` alapján a havi keretet
 egyenletesen osztja el a hónap napjaira, és ha a napi rész elfogy, kihagyja a keresést (az elszámolás tovább megy).
 Kevesebb kérést a `scan.sports` szűkítésével vagy ritkább cronnal (`.github/workflows/bot.yml`) érhetsz el.
+
+## GitHub Actions percek
+
+Ha egy futásban van új ajánlás vagy steam, a futás 3 percet vár a végrehajthatóság-ellenőrzésig. Privát repónál a GitHub
+havi ingyenes kerete 2000 perc. Félórás futással a bot nagyjából 1000–2000 percet használ havonta, ami szoros lehet. Három
+lehetőség: a repó nyilvános (a fogadási napló nem érzékeny, a dashboard adata titkosított, és nyilvános repónál nincs
+percdíj), vagy a `confirm_after_minutes` 2-re csökkentése, vagy ritkább cron.
 
 ## Helyi kipróbálás kulcs nélkül
 

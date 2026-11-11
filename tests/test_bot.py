@@ -81,10 +81,10 @@ def test_full_mock_simulation(tmp_path, monkeypatch):
     assert bets, "a szimuláció nem adott le fogadást"
     assert any(b["status"] == "settled" for b in bets)
     for b in bets:
-        assert CFG["filters"]["min_odds"] <= b["odds"] <= CFG["filters"]["max_odds"]
-        assert b["ev"] >= vf.min_ev_for(b["odds"], CFG)
+        assert CFG["filters"]["min_odds"] <= b["signal_odds"] <= CFG["filters"]["max_odds"]
+        assert b["signal_ev"] >= vf.min_ev_for(b["signal_odds"], CFG) and b["odds"] <= b["signal_odds"]
         assert b["stake"] <= CFG["staking"]["start_bankroll"] * 2 * CFG["staking"]["max_stake_pct"]
-        assert sum(1 for x in bets if x["fixture_id"] == b["fixture_id"]) <= CFG["filters"]["max_bets_per_fixture"]
+        assert len(ledger.active_on_fixture(bets, b["fixture_id"])) <= CFG["filters"]["max_bets_per_fixture"]
     # napi kimutatás és dashboard-adat elkészül
     import report
     from zoneinfo import ZoneInfo
@@ -93,7 +93,9 @@ def test_full_mock_simulation(tmp_path, monkeypatch):
     assert "Ma lezárult" in txt and "Tőke" in txt
     from dashboard import build
     d = build.collect(CFG)
-    assert d["summary"]["bets"] == len(bets) and d["series"]
+    live = [b for b in bets if b["status"] != "skipped"]
+    assert d["summary"]["bets"] == len(live) and d["series"]
+    assert d["summary"]["execution"]["checked"] > 0 and any(b.get("trigger") == "steam" for b in bets)
 
 
 def test_dashboard_encryption_roundtrip(tmp_path, monkeypatch):
@@ -124,3 +126,51 @@ def test_quota_throttle(tmp_path, monkeypatch):
     assert ok
     ok, _ = bot.quota_ok(C(520), CFG, now_utc(), 4)       # ma már 20 elment, +4 > 22
     assert not ok
+
+
+def test_steam_detection():
+    import bot
+    now = dt.datetime(2026, 11, 11, 12, tzinfo=dt.timezone.utc)
+    t = lambda m: (now - dt.timedelta(minutes=m)).isoformat()
+    hist = {"f1": {"start": (now + dt.timedelta(hours=3)).isoformat(),
+                   "m": {"101": [[t(90), [0.50, 0.28, 0.22]], [t(30), [0.51, 0.27, 0.22]], [t(0), [0.54, 0.25, 0.21]]]}}}
+    mv = bot.steam_moves(hist, "f1", 101, now, CFG)
+    assert list(mv) == [0] and mv[0] == pytest.approx(0.08)          # 0.50 -> 0.54 = +8%
+    hist["f1"]["m"]["101"] = [[t(10), [0.50, 0.28, 0.22]], [t(0), [0.56, 0.24, 0.20]]]
+    assert bot.steam_moves(hist, "f1", 101, now, CFG) == {}           # túl friss viszonyítási pont
+
+
+class _Client:
+    """Minimális kliens a végrehajthatóság teszteléséhez."""
+    calls = 0
+
+    def __init__(self, soft):
+        self.soft = soft
+
+    def markets(self):
+        return list(META_ROWS)
+
+    def odds(self, fid, books):
+        return {"fixtureId": fid, "startTime": "2030-01-01T18:00:00+00:00",
+                "bookmakerOdds": {"tippmixpro": _book(self.soft), "pinnacle": _book([1.80, 3.80, 4.80])}}
+
+
+META_ROWS = [{"marketId": 101, "marketName": "Full Time Result", "playerProp": False,
+              "outcomes": [{"outcomeId": 101, "outcomeName": "1"}, {"outcomeId": 102, "outcomeName": "X"}, {"outcomeId": 103, "outcomeName": "2"}]}]
+
+
+@pytest.mark.parametrize("soft,status,odds", [([2.05, 3.4, 4.2], "ok", 2.00), ([1.92, 3.4, 4.2], "moved", 1.92),
+                                              ([1.75, 3.4, 4.2], "gone", 2.00)])
+def test_execution_check(tmp_path, monkeypatch, soft, status, odds):
+    monkeypatch.setenv("DATA_DIR", str(tmp_path))
+    import bot
+    now = dt.datetime(2026, 11, 11, 12, tzinfo=dt.timezone.utc)
+    bet = {"fixture_id": "f1", "market_id": 101, "outcome_id": 101, "status": "open", "exec_status": "pending",
+           "placed_at": (now - dt.timedelta(minutes=5)).isoformat(), "signal_odds": 2.00, "odds": 2.00,
+           "fair_prob": 0.54, "ev": 0.08, "stake": 1000, "start": "2030-01-01T18:00:00+00:00", "home": "A", "away": "B", "label": "x"}
+    bets = [bet]
+    _, gone = bot.recheck(_Client(soft), bets, CFG, now, [], {}, {})
+    assert bet["exec_status"] == status and bet["odds"] == odds
+    assert (bet["status"] == "skipped") == (status == "gone") and bool(gone) == (status == "gone")
+    s = ledger.summary(bets, CFG)
+    assert s["execution"]["checked"] == 1 and s["bets"] == (0 if status == "gone" else 1)

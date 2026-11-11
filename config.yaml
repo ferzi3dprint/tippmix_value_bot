@@ -40,6 +40,20 @@ staking:
   round_to: 50
   max_open_exposure_pct: 0.35  # a nyitott fogadások együtt legfeljebb a tőke 35%-a
 
+steam:                         # ⚡ Pinnacle odds-mozgás: a Tippmix ilyenkor gyakran késve követi a piacot
+  enabled: true
+  window_hours: 3              # ennyi időn belüli mozgást figyel
+  min_age_minutes: 20          # a viszonyítási pont legalább ennyi perces legyen
+  min_move: 0.04               # a fair valószínűség legalább ennyivel (relatív) nőtt -> steam (pl. 50% -> 52%)
+  recheck_fixtures: 6          # futásonként legfeljebb ennyi steam-es meccset néz újra a futás végén (meccsenként 1 kérés)
+
+execution:                     # végrehajthatóság: megtehető lett volna-e a fogadás, mire odaérsz a Tippmixhez?
+  enabled: true
+  confirm_after_minutes: 3     # a jelzés után ennyi perccel újra lekéri a Tippmix-oddsot (a futáson belül vár)
+  # Ha addigra esett az odds, de még pozitív az EV: a fogadás az új (rosszabb) oddsszal számít.
+  # Ha már nem pozitív, vagy a piac lezárt: "nem volt megtehető", kimarad az eredményből (de a statisztikában látszik).
+  min_ev_after_move: 0.0
+
 settlement:
   settle_after_hours: 2.5      # a kezdés után ennyivel próbál először elszámolni
   give_up_after_hours: 96      # ha addig sincs eredmény: visszajár a tét (érvénytelen)

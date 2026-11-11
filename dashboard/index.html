@@ -141,7 +141,7 @@ td a { color: var(--s1); text-decoration: none; }
 
     <nav class="quicknav" aria-label="Gyors navigáció">
       <a href="#s-over">Áttekintés</a><a href="#s-curve">Görbe</a><a href="#s-days">Napok</a><a href="#s-open">Nyitott</a>
-      <a href="#s-settled">Lezárt</a><a href="#s-break">Bontás</a><a href="#s-set">Beállítások</a>
+      <a href="#s-settled">Lezárt</a><a href="#s-break">Bontás</a><a href="#s-gone">Elesett</a><a href="#s-set">Beállítások</a>
     </nav>
 
     <h2 id="s-over">Áttekintés</h2>
@@ -183,7 +183,13 @@ td a { color: var(--s1); text-decoration: none; }
       <div class="card"><h3>Odds-sávonként</h3><div class="table-wrap"><table id="bandTbl"></table></div></div>
       <div class="card"><h3>Sportáganként</h3><div class="table-wrap"><table id="sportTbl"></table></div></div>
     </div>
-    <div class="card" style="margin-top:12px"><h3>Piaconként</h3><div class="table-wrap"><table id="mktTbl"></table></div></div>
+    <div class="grid cards" style="margin-top:12px">
+      <div class="card"><h3>Kiváltó ok szerint</h3><div class="muted" style="font-size:13px">⚡ steam = a Pinnacle fair ára az elmúlt órákban érezhetően a kimenetel felé mozdult, a Tippmix még nem követte.</div><div class="table-wrap"><table id="trigTbl"></table></div></div>
+      <div class="card"><h3>Piaconként</h3><div class="table-wrap"><table id="mktTbl"></table></div></div>
+    </div>
+    <h2 id="s-gone">Nem volt megtehető</h2>
+    <div class="card"><div class="muted" style="font-size:13px">Jelzések, amelyeknél pár perccel később az odds már annyit esett (vagy a piac lezárt), hogy nem érte meg. Ezek kimaradnak az eredményből.</div>
+      <div class="table-wrap"><table id="goneTbl"></table></div><div id="goneEmpty" class="muted hidden">Eddig minden jelzés megtehető volt.</div></div>
 
     <h2 id="s-set">Beállítások és utolsó futás</h2>
     <div class="grid cards">
@@ -278,6 +284,8 @@ function table(el, cols, rows) {
   };
   render();
 }
+const tip = (r) => (r.trigger === "steam" ? `<span class="badge warn" title="Pinnacle +${nf((r.steam || 0) * 100, 0)}%">⚡ steam</span> ` : "") + esc(r.label);
+const EXEC = { ok: ["✓", ""], moved: ["↓ csúszott", "warn"], pending: ["⏱️ ellenőrzésre vár", ""] };
 const match = (r) => `<b>${esc(r.home)}</b> – ${esc(r.away)}<div class="muted" style="font-size:12px">${esc(r.tournament)}</div>`;
 const groupCols = (name) => [
   { t: name, k: "key" }, { t: "Db", k: "n", num: 1 },
@@ -327,6 +335,9 @@ function show() {
     ["Fogadások", nf(S.bets), `lezárt ${S.settled} · nyitott ${S.open}`, ""],
     ["Átlag odds", nf(S.avg_odds, 2), `átlag EV: ${pc(S.avg_ev)}`, ""],
     ["Nyitott tét", ft(S.open_stake), `a tőke ${pc(S.bankroll ? S.open_stake / S.bankroll : null, 0, false)}-a`, ""],
+    ["Végrehajthatóság", S.execution && S.execution.checked ? pc(S.execution.rate, 0, false) : "–",
+      S.execution && S.execution.checked ? `${S.execution.gone} elesett · csúszás ${pc(S.execution.avg_slippage)}` : "még nincs ellenőrzés", ""],
+    ["⚡ Steam-fogadás", nf(S.steam_bets), `a fogadások ${pc(S.bets ? S.steam_bets / S.bets : null, 0, false)}-a`, ""],
   ];
   $("tiles").innerHTML = tiles.map(([l, v, s, c]) => `<div class="card tile"><div class="lbl">${l}</div><div class="val ${c}">${v}</div><div class="sub">${esc(s)}</div></div>`).join("");
 
@@ -361,7 +372,8 @@ function show() {
   $("openTbl").classList.toggle("hidden", !DATA.open.length);
   table($("openTbl"), [
     { t: "Kezdés", k: "start", f: (r) => dtf(r.start) }, { t: "Meccs", k: "home", f: match },
-    { t: "Tipp", k: "label", f: (r) => r.link && !DATA.demo ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">${esc(r.label)}</a>` : esc(r.label) },
+    { t: "Tipp", k: "label", f: (r) => r.link && !DATA.demo ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">${tip(r)}</a>` : tip(r) },
+    { t: "Megtehető?", k: "exec_status", f: (r) => r.exec_status === "moved" ? `↓ ${nf(r.signal_odds, 2)} → ${nf(r.exec_odds, 2)}` : (EXEC[r.exec_status] || ["–"])[0] },
     { t: "Tippmix", k: "odds", num: 1, f: (r) => nf(r.odds, 2) }, { t: "Fair", k: "fair_odds", num: 1, f: (r) => nf(r.fair_odds, 2) },
     { t: "EV", k: "ev", num: 1, f: (r) => pc(r.ev), cls: (r) => cls(r.ev) },
     { t: "CLV most", k: "clv", num: 1, f: (r) => pc(r.clv), cls: (r) => cls(r.clv) },
@@ -374,6 +386,15 @@ function show() {
   table($("bandTbl"), groupCols("Odds"), DATA.bands);
   table($("sportTbl"), groupCols("Sport"), DATA.sports);
   table($("mktTbl"), groupCols("Piac"), DATA.markets);
+  table($("trigTbl"), groupCols("Ok"), DATA.triggers || []);
+  const gone = DATA.skipped || [];
+  $("goneEmpty").classList.toggle("hidden", gone.length > 0); $("goneTbl").classList.toggle("hidden", !gone.length);
+  table($("goneTbl"), [
+    { t: "Jelzés", k: "placed_at", f: (r) => dtf(r.placed_at) }, { t: "Meccs", k: "home", f: match }, { t: "Tipp", f: tip, k: "label" },
+    { t: "Jelzett odds", k: "signal_odds", num: 1, f: (r) => nf(r.signal_odds, 2) },
+    { t: "Pár perc múlva", k: "exec_odds", num: 1, f: (r) => r.exec_odds ? nf(r.exec_odds, 2) : "lezárt" },
+    { t: "Fair", k: "fair_odds", num: 1, f: (r) => nf(r.fair_odds, 2) },
+  ], gone);
 
   /* beállítások */
   const st = DATA.settings;
@@ -382,11 +403,13 @@ function show() {
     ["Odds-sáv", `${nf(st.min_odds, 2)} – ${nf(st.max_odds, 2)}`],
     ["Min. EV", st.ev_bands.map((b) => `≤${nf(b.max_odds, 2)}: ${pc(b.min_ev, 0)}`).join(" · ")],
     ["Tét", `${st.kelly}× Kelly, max. a tőke ${pc(st.max_stake_pct, 0, false)}-a`],
+    ["Steam", st.steam && st.steam.enabled ? `fair valószínűség +${nf(st.steam.min_move * 100, 0)}% (relatív) ${st.steam.window_hours} órán belül` : "ki"],
+    ["Végrehajthatóság", st.execution && st.execution.enabled ? `${st.execution.confirm_after_minutes} perc múlva újraellenőrzés` : "ki"],
   ].map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("");
   const lr = DATA.last_run || {}, q = DATA.quota || {};
   $("lastRun").innerHTML = [
     ["Időpont", dtf(lr.time)], ["Meccsek (Tippmix ∩ Pinnacle)", lr.fixtures_both ?? "–"], ["Value-jelölt", lr.candidates ?? "–"],
-    ["Új fogadás / elszámolt", `${lr.placed ?? 0} / ${lr.settled ?? 0}`], ["API-hívás", lr.api_calls ?? "–"],
+    ["Új fogadás / elszámolt", `${lr.placed ?? 0} / ${lr.settled ?? 0}`], ["Steam-es meccs / újranézve", `${lr.steam_fixtures ?? 0} / ${lr.rechecked ?? 0}`], ["API-hívás", lr.api_calls ?? "–"],
     ["Futások (24 óra)", DATA.runs_24h], ["Kvóta", lr.quota || (q.limit ? `${q.limit - q.remaining}/${q.limit}` : "–")],
     ...(lr.skipped ? [["Kihagyva", lr.skipped]] : []), ...(lr.error ? [["Hiba", lr.error]] : []),
   ].map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("");
@@ -399,7 +422,7 @@ function renderSettled() {
     (!q || `${r.home} ${r.away} ${r.tournament} ${r.label}`.toLowerCase().includes(q)));
   const LIMIT = settledLimit;
   table($("setTbl"), [
-    { t: "Kezdés", k: "start", f: (r) => dtf(r.start) }, { t: "Meccs", k: "home", f: match }, { t: "Tipp", k: "label" },
+    { t: "Kezdés", k: "start", f: (r) => dtf(r.start) }, { t: "Meccs", k: "home", f: match }, { t: "Tipp", k: "label", f: tip },
     { t: "Odds", k: "odds", num: 1, f: (r) => nf(r.odds, 2) }, { t: "EV", k: "ev", num: 1, f: (r) => pc(r.ev) },
     { t: "CLV", k: "clv", num: 1, f: (r) => pc(r.clv), cls: (r) => cls(r.clv) }, { t: "Tét", k: "stake", num: 1, f: (r) => ft(r.stake) },
     { t: "Eredmény", k: "result", f: (r) => (RES[r.result] || [r.result])[0], cls: (r) => (RES[r.result] || [0, ""])[1] },

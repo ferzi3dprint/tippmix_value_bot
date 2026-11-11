@@ -12,19 +12,34 @@ def _match(b):
     return f"{b['home']} – {b['away']}"
 
 
-def new_bets_message(new, bets, cfg):
+SPORT_ICON = {"Soccer": "⚽", "Tennis": "🎾", "Basketball": "🏀", "Ice Hockey": "🏒"}
+
+
+def new_bets_message(new, bets, cfg, rechecked=False):
     tz = ZoneInfo(cfg["timezone"])
-    lines = [f"🎯 {len(new)} új value-ajánlás (szimulált fogadás)", ""]
+    steam = sum(1 for b in new if b.get("trigger") == "steam")
+    head = f"🎯 {len(new)} új value-ajánlás (szimulált fogadás)" + (" – steam-újraellenőrzésből" if rechecked else "")
+    lines = [head + (f"\n⚡ {steam} db odds-mozgás miatt: ezeknél a gyorsaság számít" if steam else ""), ""]
     for b in new:
         t = parse_time(b["start"]).astimezone(tz).strftime("%m.%d %H:%M")
-        lines += [f"⚽ {_match(b)} ({b['tournament']}, {t})" if b["sport"] == "Soccer" else
-                  f"🎾 {_match(b)} ({b['tournament']}, {t})" if b["sport"] == "Tennis" else f"🏟️ {_match(b)} ({b['tournament']}, {t})",
-                  f"   {b['label']}",
+        tag = f"⚡ STEAM (Pinnacle +{b['steam'] * 100:.0f}%) · " if b.get("trigger") == "steam" else ""
+        lines += [f"{SPORT_ICON.get(b['sport'], '🏟️')} {_match(b)} ({b['tournament']}, {t})",
+                  f"   {tag}{b['label']}",
                   f"   Tippmix {o2(b['odds'])} | fair {o2(b['fair_odds'])} (Pinnacle {o2(b['sharp_odds'])}) | EV {pct(b['ev'])}",
                   f"   Tét: {huf(b['stake'])}", ""]
     s = ledger.summary(bets, cfg)
     lines.append(f"💰 Szimulált tőke: {huf(s['bankroll'])} | nyitott: {s['open']} db, {huf(s['open_stake'])}")
+    if (cfg.get("execution") or {}).get("enabled") and not rechecked:
+        lines.append(f"⏱️ {cfg['execution']['confirm_after_minutes']} perc múlva ellenőrzöm, megtehető-e még.")
     return "\n".join(lines)
+
+
+def gone_message(gone):
+    L = [f"⌛ {len(gone)} ajánlás már nem volt megtehető (az odds esett vagy a piac lezárt) – kimarad az eredményből:"]
+    for b in gone:
+        now = o2(b["exec_odds"]) if b.get("exec_odds") else "nincs"
+        L.append(f"• {_match(b)} · {b['label']}: {o2(b['signal_odds'])} → {now}")
+    return "\n".join(L)
 
 
 def _band_rows(bets):
@@ -45,7 +60,7 @@ def _band_rows(bets):
 def daily_message(bets, cfg, day, dashboard_url=None):
     tz = ZoneInfo(cfg["timezone"])
     today_settled = [b for b in bets if b["status"] == "settled" and ledger.settle_day(b, tz) == day]
-    today_placed = [b for b in bets if ledger.placed_day(b, tz) == day]
+    today_placed = [b for b in bets if ledger.placed_day(b, tz) == day and b["status"] != "skipped"]
     counted = [b for b in today_settled if ledger.is_counted(b)]
     won = sum(1 for b in counted if ledger.is_win(b))
     staked = sum(b["stake"] for b in today_settled)
@@ -74,8 +89,18 @@ def daily_message(bets, cfg, day, dashboard_url=None):
                  + (f" ({s['hit_rate'] * 100:.0f}%, várt {s['expected_hit_rate'] * 100:.0f}%)" if s["hit_rate"] is not None else ""))
         L.append(f"Profit: {signed_huf(s['profit'])} | ROI {pct(s['roi'])} | várt profit: {signed_huf(s['expected_profit'])}")
     L.append(f"Tőke: {huf(s['start_bankroll'])} → {huf(s['bankroll'])}")
+    ex = s["execution"]
+    if ex.get("checked"):
+        L.append(f"Végrehajthatóság: a jelzések {ex['rate'] * 100:.0f}%-a volt megtehető {ex['checked']}-ből "
+                 f"(változatlan {ex['ok']}, rosszabb oddsszal {ex['moved']}, elesett {ex['gone']}); átlagos csúszás {pct(ex['avg_slippage'])}")
     if s["avg_clv"] is not None:
         L.append(f"CLV (záró Pinnacle-árhoz mérve): átlag {pct(s['avg_clv'])}, a fogadások {s['clv_positive'] * 100:.0f}%-a verte a záró árat ({s['clv_n']} db)")
+    steam_st = [b for b in bets if b["status"] == "settled" and b.get("trigger") == "steam"]
+    norm_st = [b for b in bets if b["status"] == "settled" and b.get("trigger") != "steam"]
+    if steam_st:
+        roi = lambda xs: pct(sum(b["profit"] for b in xs) / sum(b["stake"] for b in xs)) if xs else "–"
+        clv = lambda xs: (lambda c: pct(sum(c) / len(c)) if c else "–")([b["clv"] for b in xs if b.get("clv") is not None])
+        L.append(f"⚡ Steam: {len(steam_st)} db, ROI {roi(steam_st)}, CLV {clv(steam_st)} | normál: {len(norm_st)} db, ROI {roi(norm_st)}, CLV {clv(norm_st)}")
     bands = _band_rows(bets)
     if bands:
         L += ["", "🎚️ Odds-sávonként (lezárt)"]

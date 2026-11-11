@@ -68,5 +68,9 @@ class OddsPapi:
         return self._get("/v4/odds-by-tournaments", tournamentIds=",".join(map(str, tournament_ids)),
                          bookmaker=bookmaker, oddsFormat="decimal", verbosity=2)
 
+    def odds(self, fixture_id, bookmakers):
+        """Egy meccs oddsai több irodától egyetlen kérésben (gyors újraellenőrzéshez)."""
+        return self._get("/v4/odds", fixtureId=fixture_id, bookmakers=bookmakers, oddsFormat="decimal", verbosity=2)
+
     def settlements(self, fixture_id):
         return self._get("/v4/settlements", fixtureId=fixture_id)

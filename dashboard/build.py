@@ -86,7 +86,8 @@ def collect(cfg):
                        "roi": d["profit"] / d["staked"] if d["staked"] else None})
     slim = lambda b: {k: b.get(k) for k in ("id", "placed_at", "status", "sport", "tournament", "home", "away", "start", "label",
                                              "market", "odds", "sharp_odds", "fair_odds", "fair_prob", "ev", "stake", "result",
-                                             "profit", "clv", "closing_fair_odds", "settled_at", "band", "link")}
+                                             "profit", "clv", "closing_fair_odds", "settled_at", "band", "link",
+                                             "trigger", "steam", "signal_odds", "exec_odds", "exec_status")}
     runs = load_json("runs.json", [])
     return {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
@@ -96,12 +97,14 @@ def collect(cfg):
         "bands": _group(bets, lambda b: b["band"]),
         "sports": _group(bets, lambda b: SPORT_HU.get(b.get("sport"), b.get("sport") or "?")),
         "markets": _group(bets, lambda b: market_hu(b.get("market") or "?")),
+        "triggers": _group(bets, lambda b: "⚡ steam" if b.get("trigger") == "steam" else "normál"),
+        "skipped": [slim(b) for b in sorted((b for b in bets if b["status"] == "skipped"), key=lambda b: b["placed_at"], reverse=True)[:100]],
         "open": [slim(b) for b in sorted((b for b in bets if b["status"] == "open"), key=lambda b: b["start"])],
         "settled": [slim(b) for b in sorted((b for b in bets if b["status"] == "settled"), key=lambda b: b["settled_at"], reverse=True)],
         "last_run": runs[-1] if runs else None,
         "runs_24h": len([r for r in runs if parse_time(r["time"]) > dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=24)]),
         "quota": load_json("quota.json", None),
-        "settings": {"min_odds": cfg["filters"]["min_odds"], "max_odds": cfg["filters"]["max_odds"],
+        "settings": {"steam": cfg.get("steam"), "execution": cfg.get("execution"), "min_odds": cfg["filters"]["min_odds"], "max_odds": cfg["filters"]["max_odds"],
                      "ev_bands": cfg["filters"]["ev_bands"], "kelly": cfg["staking"]["kelly_fraction"],
                      "max_stake_pct": cfg["staking"]["max_stake_pct"], "sports": cfg["scan"]["sports"],
                      "soft": cfg["api"]["soft_book"], "sharp": cfg["api"]["sharp_book"], "devig": cfg["scan"]["devig_method"]},
