@@ -15,7 +15,9 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install playwright websockets
-      - run: python recon/probe_tm.py
+      - run: pip install -r requirements.txt && python recon/probe_match.py
+        env:
+          ODDSPAPI_KEY: ${{ secrets.ODDSPAPI_KEY }}
       - name: Eredmény a recon ágra
         if: always()
         run: |
