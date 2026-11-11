@@ -74,7 +74,9 @@ Ha később fizetős csomagra váltasz: `api.mode: paid`, és a `free.max_bets_p
    - Címe: `https://ferzi3dprint.github.io/tippmix_value_bot/`
    - Ha megadsz egy `DASHBOARD_PASSWORD` titkot, az oldal jelszóval védett lesz. Nyilvános repóban viszont a
      `data/` mappa (a fogadási napló) amúgy is látható, ezért a jelszó elhagyható.
-5. **Indítás:** *Actions → Tippmix value-bot → Run workflow*. Ezután 20 percenként magától fut, reggeltől éjfélig.
+5. **API-teszt:** *Actions → API-teszt → Run workflow*. Kiírja a keretet, és hogy jön-e Tippmix + Pinnacle odds az
+   ingyenes végpontból (legfeljebb 3 fizetős kérés). Ha a vége „✅ az ingyenes mód működik”, mehet az éles futás.
+6. **Indítás:** *Actions → Tippmix value-bot → Run workflow*. Ezután 20 percenként magától fut, reggeltől éjfélig.
 
 Megjegyzés: a GitHub 60 nap inaktivitás után leállítja az időzített futásokat, de a bot minden futásnál commitol,
 így ez nem fordul elő.
