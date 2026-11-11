@@ -29,10 +29,14 @@ async def main():
         async def call(topic, label):
             rid[0] += 1
             await ws.send(json.dumps([48, rid[0], {}, "/sports#initialDump", [], {"topic": topic}]))
-            while True:
-                msg = json.loads(await asyncio.wait_for(ws.recv(), 60))
-                if msg[0] in (50, 8) and msg[1] == rid[0]:
-                    break
+            try:
+                while True:
+                    msg = json.loads(await asyncio.wait_for(ws.recv(), 25))
+                    if msg[0] in (50, 8) and msg[1] == rid[0]:
+                        break
+            except asyncio.TimeoutError:
+                print(f"⏱️ {label}: nincs válasz [{topic}]")
+                return None
             if msg[0] == 8:
                 print(f"❌ {label}: {str(msg)[:300]}")
                 return None
@@ -43,20 +47,21 @@ async def main():
             return recs
 
         cal = await call(f"/sports/{OP}/{LANG}/live-calendar-matches-by-timestamp/all-disciplines/{day0}-{day1}/500", "calendar")
-        for loc in ("0", "all", "1"):
-            await call(f"/sports/{OP}/{LANG}/next-matches-aggregator-main/1/{loc}/50/3", f"next_foci_{loc}")
-        await call(f"/sports/{OP}/{LANG}/popular-matches-aggregator-main/1/0/1/3", "popular_foci")
         tours = await call(f"/sports/{OP}/{LANG}/tournaments/1", "tournaments_foci")
         # egy mai foci-meccs részletes oddsai
-        matches = [r for r in (cal or []) if r.get("_type") == "MATCH" and r.get("sportId") == "1"]
+        allm = [r for r in (cal or []) if r.get("_type") == "MATCH"]
+        print("Naptár sportáganként:", dict(collections.Counter(r.get("sportName") for r in allm)))
+        print("Naptár első/utolsó kezdés:", min((r["startTime"] for r in allm), default=None), max((r["startTime"] for r in allm), default=None))
+        matches = [r for r in allm if r.get("sportId") == "1" and r.get("startTime", 0) / 1000 > now.timestamp() + 1800]
         if matches:
             m = matches[0]
             print("Minta meccs:", m.get("name"), m.get("startTime"), m.get("parentId"))
             await call(f"/sports/{OP}/{LANG}/{m['id']}/match-odds/", "match_odds")
-            for a, b in (("7", "1"), ("1", "1"), ("0", "0")):
+            await call(f"/sports/{OP}/{LANG}/{m['id']}/match-odds/market-group/Main_BannerMatrix", "match_odds_main")
+            for a, b in (("7", "1"), ("1", "1")):
                 await call(f"/sports/{OP}/{LANG}/{m['parentId']}/tournament-odds/{a}/{b}", f"tournament_odds_{a}_{b}")
         # összefoglaló a piac-szerkezetről
-        for f in ("match_odds", "tournament_odds_7_1"):
+        for f in ("match_odds", "match_odds_main", "tournament_odds_7_1", "tournament_odds_1_1"):
             p = os.path.join(OUT, f"tm_{f}.json")
             if not os.path.exists(p):
                 continue
