@@ -491,6 +491,9 @@ def daily_due(cfg, now):
 
 def run(cfg):
     now = now_utc()
+    if os.getenv("MOCK_API") != "1" and not os.getenv("ODDSPAPI_KEY"):
+        print("[bot] ODDSPAPI_KEY nincs beállítva (Settings → Secrets → Actions) – a futás kimarad.")
+        return {"time": now.isoformat(), "skipped": "nincs API-kulcs"}
     client = make_client(cfg)
     bets = ledger.load()
     hist = load_json(HIST, {})
