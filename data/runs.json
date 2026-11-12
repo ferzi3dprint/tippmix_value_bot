@@ -720,5 +720,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 142
+ },
+ {
+  "time": "2026-11-12T12:15:45.683679+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 3,
+  "top_ev": [
+   "-1.1% U21Izland – U21Görögország · Gólszám 4.5: Kevesebb @1.14 (fair 1.153)",
+   "-1.4% U21Izland – U21Görögország · Gólszám 1.5: Több @1.27 (fair 1.288)",
+   "-2.4% U21Izland – U21Görögország · Gólszám 2: Több @1.4 (fair 1.434)",
+   "-2.9% U19Németország – U19Svédország · 1X2: U19Németország győz @1.49 (fair 1.535)",
+   "-3.1% U21Izland – U21Görögország · Gólszám 3.5: Kevesebb @1.36 (fair 1.404)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 14,
+  "fixtures_both": 14,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 3,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 17
+ },
+ {
+  "time": "2026-11-12T12:20:45.684072+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 720,
+  "pinnacle_fixtures": 601,
+  "paired": 413,
+  "by_sport": {
+   "Soccer": [
+    209,
+    155
+   ],
+   "Tennis": [
+    225,
+    41
+   ],
+   "Basketball": [
+    155,
+    114
+   ],
+   "Ice Hockey": [
+    131,
+    103
+   ]
+  },
+  "top_ev": [
+   "+1.6% Samson L./Zidansek T. – Mediorreal Arias V./Perez Garcia M.P. · Győztes: Samson L./Zidansek T. győz @1.16 (fair 1.142)",
+   "+0.3% Färjestad – Djurgarden · Győztes (hosszabbítással): Färjestad győz @1.25 (fair 1.247)",
+   "+0.1% Ghána – Szomália · 1X2: Ghána győz @1.08 (fair 1.079)",
+   "-0.2% U21Skócia – U21Ukrajna · 1X2: U21Ukrajna győz @2.36 (fair 2.365)",
+   "-0.5% Frölunda – Malmö · 1X2 (rendes játékidő): Döntetlen @4.2 (fair 4.223)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 21,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 107,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 23,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
