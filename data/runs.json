@@ -234,5 +234,59 @@
   "not_executable": 0,
   "api_calls": 4,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T08:35:09.845794+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 7,
+  "tippmix_matches": 800,
+  "pinnacle_fixtures": 601,
+  "paired": 441,
+  "by_sport": {
+   "Soccer": [
+    224,
+    156
+   ],
+   "Tennis": [
+    288,
+    60
+   ],
+   "Basketball": [
+    156,
+    121
+   ],
+   "Ice Hockey": [
+    132,
+    104
+   ]
+  },
+  "top_ev": [
+   "+2.4% San Marino – Fehéroroszország · 1X2: Fehéroroszország győz @1.17 (fair 1.142)",
+   "+2.3% Albánia – Finnország · 1X2: Albánia győz @2.28 (fair 2.228)",
+   "+1.9% Albánia – Finnország · Ázsiai hendikep: Albánia (+0) @1.56 (fair 1.53)",
+   "+1.5% Albánia – Finnország · Ázsiai hendikep: Albánia (+0.25) @1.41 (fair 1.39)",
+   "+1.2% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.22 (fair 1.206)"
+  ],
+  "rejected_examples": [
+   "Marc van Der Merwe - Alejandro Turriziani Alvarez <-> van der Merwe, Marc - Turriziani Alvarez, Alejandro [1.0] TM [2.3, 1.52] / ref None",
+   "Piotr Galus - Noah Merre <-> Galus, Piotr - Merre, Noah [1.0] TM [1.54, 2.24] / ref None",
+   "Xenia Bandurowska - Oliwia Szymczuch <-> Bandurowska, Xenia - Szymczuch, Oliwia [1.0] TM [3.4, 1.25] / ref None",
+   "Ewa Czapulak - Oliwia Drozdz <-> Czapulak, Ewa - Drozdz, Oliwia [1.0] TM [2.05, 1.65] / ref None",
+   "Dominik Kellovsky - Ondrej Hujo <-> Kellovsky, Dominik - Hujo, Ondrej [1.0] TM [1.09, 5.5] / ref None",
+   "Dominik Guzmicky - Radovan Michalik <-> Guzmicky, Dominik - Michalik, Radovan [1.0] TM [1.38, 2.7] / ref None",
+   "Latinovic S./Molchanov D. - Paul J./Vocel M. <-> Latinovic S / Molchanov D - Paul J / Vocel M [1.0] TM [3.2, 1.27] / ref None",
+   "Elizabeth Jurna - Ristola Eeva <-> Jurna, Elizabeth - Ristola, Eeva [1.0] TM [2.52, 1.44] / ref None"
+  ],
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 71,
+  "rejected_mismatch": 24,
+  "candidates": 1,
+  "steam_fixtures": 21,
+  "placed": 1,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 157
  }
 ]
