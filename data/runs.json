@@ -1728,5 +1728,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 155
+ },
+ {
+  "time": "2026-11-12T17:43:46.589553+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "top_ev": [
+   "-0.0% Iserlohn – Mannheim · Győztes (hosszabbítással): Mannheim győz @1.45 (fair 1.45)",
+   "-0.4% Szenegál – Szudán · Mindkét csapat szerez gólt: Nem @1.35 (fair 1.355)",
+   "-0.6% Iserlohn – Mannheim · Hendikep (rendes játékidő): Mannheim (-1.5) @2.16 (fair 2.173)",
+   "-1.0% Iserlohn – Mannheim · 1X2 (rendes játékidő): Mannheim győz @1.72 (fair 1.737)",
+   "-1.1% Cerrito – Colon FC · Ázsiai hendikep: Colon FC (-0) @1.46 (fair 1.476)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": true,
+  "fixtures_checked": 28,
+  "fixtures_both": 18,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 8,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 32
+ },
+ {
+  "time": "2026-11-12T17:49:37.920168+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 703,
+  "pinnacle_fixtures": 601,
+  "paired": 325,
+  "by_sport": {
+   "Soccer": [
+    192,
+    121
+   ],
+   "Tennis": [
+    203,
+    11
+   ],
+   "Basketball": [
+    182,
+    100
+   ],
+   "Ice Hockey": [
+    126,
+    93
+   ]
+  },
+  "top_ev": [
+   "+1.0% Andorra – Gibraltár · 1X2: Andorra győz @1.83 (fair 1.812)",
+   "+0.8% Szlovákia – Feröer-szigetek · Gólszám 4.5: Kevesebb @1.15 (fair 1.141)",
+   "+0.5% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.154)",
+   "+0.5% Glentoran – Bangor · Gólszám 4.5: Kevesebb @1.21 (fair 1.204)",
+   "+0.4% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.205)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 9,
+  "fast": false,
+  "fixtures_checked": 142,
+  "fixtures_both": 87,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 25,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 148
  }
 ]
