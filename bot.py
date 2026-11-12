@@ -417,6 +417,25 @@ def main_consistent(so, ho, meta, cfg):
     return None     # a fő piac nem összevethető (pl. a viszonyítás nem árazza) – a piaconkénti szűrő véd
 
 
+def check_boosts(cfg, now, stats):
+    """Oddsrakéta-figyelő: új emelt odds esetén Telegram-értesítés (egyszer ajánlatonként)."""
+    items, raw = tm_session().boosts()
+    seen = load_json("cache/boosts_seen.json", {})
+    new = [b for b in items if b["key"] not in seen]
+    stats["boosts"] = len(items)
+    if raw and not load_json("cache/boost_sample.json", None):
+        save_json("cache/boost_sample.json", raw[:2])      # szerkezet-minta a későbbi EV-számításhoz
+    if new:
+        lines = ["🚀 Új Oddsrakéta (Tippmixpro odds-emelés):"]
+        for b in new[:10]:
+            lines.append(f"• {b['title']}\n   {b['market'] or ''} → {b['tip']} @ {str(b['odds']).replace('.', ',')}")
+        lines.append("ℹ️ Az emelt odds gyakran a fair ár fölött van, de jellemzően alacsony a maximális tét. EV-t még nem számolok hozzá.")
+        notify.send("\n".join(lines), buttons=[("🟢 Oddsrakéta a Tippmixpro-n", "https://www.tippmixpro.hu/hu/fogadas/i/oddsraketa/101")])
+        for b in new:
+            seen[b["key"]] = now.isoformat()
+        save_json("cache/boosts_seen.json", seen)
+
+
 def scan_hu(client, bets, cfg, now, stats, signals, fast=False):
     meta = markets_meta(client, now)
     if fast:
@@ -755,6 +774,12 @@ def run(cfg):
         if (cfg.get("execution") or {}).get("enabled"):
             _, g = recheck(client, bets, cfg, now, [], hist, stats)       # előző futásból maradt függő fogadások
             gone += g
+        if cfg["api"].get("mode") == "hu" and not quick and (cfg.get("hu") or {}).get("watch_boosts", True) \
+                and os.getenv("MOCK_API") != "1":
+            try:
+                check_boosts(cfg, now, stats)
+            except Exception as e:
+                print(f"[oddsrakéta] {e.__class__.__name__}: {str(e)[:150]}")
         if cfg["api"].get("mode") == "hu":
             last_full = load_json("cache/last_full.json", {}).get("time")
             fast = bool(last_full) and now - parse_time(last_full) < dt.timedelta(minutes=cfg["hu"].get("full_every_minutes", 20) - 1) \

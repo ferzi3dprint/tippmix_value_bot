@@ -152,6 +152,32 @@ class Session:
                                     "start": dt.datetime.fromtimestamp(r["startTime"] / 1000, dt.timezone.utc)}
         return list(out.values())
 
+    def boosts(self):
+        """Oddsrakéta (Tippmixpro odds-emelés, 101-es kategória): [{key, title, tip, odds, start}] – bármelyik ismert helyről."""
+        out, raw = [], []
+        for t in self.dump(f"/sports/{OP}/{LANG}/tournaments/101") or []:
+            if t.get("_type") != "TOURNAMENT":
+                continue
+            recs = []
+            for m in self.dump(f"/sports/{OP}/{LANG}/matches/{t['id']}") or []:
+                if m.get("_type") == "MATCH":
+                    recs += self.dump(f"/sports/{OP}/{LANG}/{m['id']}/match-odds/") or []
+            recs += self.dump(f"/sports/{OP}/{LANG}/{t['id']}/tournament-odds/7/1") or []
+            if recs:
+                raw.append({"tournament": t, "records": recs[:200]})
+            outs = {r["id"]: r for r in recs if r.get("_type") == "OUTCOME"}
+            mk_of = {x["outcomeId"]: x["marketId"] for x in recs if x.get("_type") == "MARKET_OUTCOME_RELATION"}
+            mks = {r["id"]: r for r in recs if r.get("_type") == "MARKET"}
+            for b in recs:
+                if b.get("_type") != "BETTING_OFFER" or not b.get("odds") or b.get("isAvailable") is False:
+                    continue
+                o = outs.get(b["outcomeId"], {})
+                mk = mks.get(mk_of.get(b["outcomeId"]), {})
+                out.append({"key": f"{t['id']}:{b['outcomeId']}", "title": t.get("name"), "market": mk.get("name"),
+                            "tip": str(o.get("translatedName") or o.get("name") or "").strip(), "odds": float(b["odds"]),
+                            "start": t.get("startTime")})
+        return out, raw
+
     def match_markets(self, match, names=None):
         recs = self.dump(f"/sports/{OP}/{LANG}/{match['id']}/match-odds/market-group/Main_BannerMatrix")
         return parse_markets(recs or [], match, names)
