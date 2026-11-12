@@ -1,57 +1,14 @@
 {
  "date": "2026-11-12",
- "time": "2026-11-12T06:41:58.255432+00:00",
+ "time": "2026-11-12T08:15:09.215415+00:00",
  "sports": [
   "Labdarúgás",
   "Tenisz",
   "Kosárlabda",
   "Jégkorong"
  ],
+ "days": 1,
  "data": [
-  {
-   "id": "319254724213809152",
-   "sport": "Labdarúgás",
-   "name": "U23Thaiföld - U23Katar",
-   "home": "U23Thaiföld",
-   "away": "U23Katar",
-   "home_pid": "152628631703703552",
-   "away_pid": "199133925652721664",
-   "tournament": "U23 válogatott mérkőzés",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319587248259538944",
-   "sport": "Tenisz",
-   "name": "Lorenzo Carboni - Ioannis Xilas",
-   "home": "Lorenzo Carboni",
-   "away": "Ioannis Xilas",
-   "home_pid": "218014889405468672",
-   "away_pid": "9030327738175488",
-   "tournament": "Herszonisszosz, férfi egyes",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319603077007089664",
-   "sport": "Tenisz",
-   "name": "Michele Ribecai - Carlo Alberto Caniato",
-   "home": "Michele Ribecai",
-   "away": "Carlo Alberto Caniato",
-   "home_pid": "193770240456421376",
-   "away_pid": "156407379898978304",
-   "tournament": "Herszonisszosz, férfi egyes",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "318936817370996736",
-   "sport": "Kosárlabda",
-   "name": "Tasmania Jewels - Southside Flyers",
-   "home": "Tasmania Jewels",
-   "away": "Southside Flyers",
-   "home_pid": "315960894713569280",
-   "away_pid": "10617730745110528",
-   "tournament": "Ausztrál bajnokság, női",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
   {
    "id": "318484731134025728",
    "sport": "Labdarúgás",
@@ -152,17 +109,6 @@
    "start": "2026-11-12T10:05:00+00:00"
   },
   {
-   "id": "318936799770648576",
-   "sport": "Kosárlabda",
-   "name": "Shiga - Chiba Jets",
-   "home": "Shiga",
-   "away": "Chiba Jets",
-   "home_pid": "118997",
-   "away_pid": "614324",
-   "tournament": "Japán bajnokság",
-   "start": "2026-11-12T10:05:00+00:00"
-  },
-  {
    "id": "318936798961147904",
    "sport": "Kosárlabda",
    "name": "Altiri Chiba - Yokohama B-Corsairs",
@@ -170,6 +116,17 @@
    "away": "Yokohama B-Corsairs",
    "home_pid": "151936969894580224",
    "away_pid": "614327",
+   "tournament": "Japán bajnokság",
+   "start": "2026-11-12T10:05:00+00:00"
+  },
+  {
+   "id": "318936799770648576",
+   "sport": "Kosárlabda",
+   "name": "Shiga - Chiba Jets",
+   "home": "Shiga",
+   "away": "Chiba Jets",
+   "home_pid": "118997",
+   "away_pid": "614324",
    "tournament": "Japán bajnokság",
    "start": "2026-11-12T10:05:00+00:00"
   },
@@ -636,6 +593,17 @@
    "start": "2026-11-12T16:00:00+00:00"
   },
   {
+   "id": "319614440142086144",
+   "sport": "Tenisz",
+   "name": "Alan Magadan - Alex Barrena",
+   "home": "Alan Magadan",
+   "away": "Alex Barrena",
+   "home_pid": "307642430744391680",
+   "away_pid": "10357838672433152",
+   "tournament": "Lima, férfi egyes",
+   "start": "2026-11-12T16:00:00+00:00"
+  },
+  {
    "id": "318936788209049600",
    "sport": "Kosárlabda",
    "name": "Vytis VDU - Kretinga",
@@ -1054,6 +1022,17 @@
    "start": "2026-11-12T18:00:00+00:00"
   },
   {
+   "id": "319667089013022720",
+   "sport": "Labdarúgás",
+   "name": "Godoy Cruz 2 - Gimnasia LP 2",
+   "home": "Godoy Cruz 2",
+   "away": "Gimnasia LP 2",
+   "home_pid": "1284812",
+   "away_pid": "1278205",
+   "tournament": "Argentin tartalékbajnokság",
+   "start": "2026-11-12T18:00:00+00:00"
+  },
+  {
    "id": "319667081289211904",
    "sport": "Labdarúgás",
    "name": "Colon 2 - Central Cordoba SDE 2",
@@ -1072,17 +1051,6 @@
    "away": "River Plate 2",
    "home_pid": "1401156",
    "away_pid": "163731667055333376",
-   "tournament": "Argentin tartalékbajnokság",
-   "start": "2026-11-12T18:00:00+00:00"
-  },
-  {
-   "id": "319667089013022720",
-   "sport": "Labdarúgás",
-   "name": "Godoy Cruz 2 - Gimnasia LP 2",
-   "home": "Godoy Cruz 2",
-   "away": "Gimnasia LP 2",
-   "home_pid": "1284812",
-   "away_pid": "1278205",
    "tournament": "Argentin tartalékbajnokság",
    "start": "2026-11-12T18:00:00+00:00"
   },
@@ -1458,6 +1426,17 @@
    "home_pid": "10719",
    "away_pid": "308879418818523136",
    "tournament": "Európa Kupa, B csoport",
+   "start": "2026-11-12T19:00:00+00:00"
+  },
+  {
+   "id": "319543102769537024",
+   "sport": "Jégkorong",
+   "name": "Norvégia - Franciaország",
+   "home": "Norvégia",
+   "away": "Franciaország",
+   "home_pid": "168007885162336256",
+   "away_pid": "154224294729142272",
+   "tournament": "Válogatott mérkőzés, női",
    "start": "2026-11-12T19:00:00+00:00"
   },
   {
@@ -1956,6 +1935,2217 @@
    "start": "2026-11-12T22:30:00+00:00"
   },
   {
+   "id": "319678348480552960",
+   "sport": "Labdarúgás",
+   "name": "Antigua és Barbuda - Trinidad és Tobago",
+   "home": "Antigua és Barbuda",
+   "away": "Trinidad és Tobago",
+   "home_pid": "19863",
+   "away_pid": "1385",
+   "tournament": "CONCACAF Nations League - Play-In",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "319413250420711424",
+   "sport": "Labdarúgás",
+   "name": "Estudiantes LP - Independiente Rivadavia Mendoza",
+   "home": "Estudiantes LP",
+   "away": "Independiente Rivadavia Mendoza",
+   "home_pid": "689",
+   "away_pid": "2081435033300992",
+   "tournament": "Argentin Szuper Kupa",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "319673504705355776",
+   "sport": "Labdarúgás",
+   "name": "Real Potosi - Nacional Potosi",
+   "home": "Real Potosi",
+   "away": "Nacional Potosi",
+   "home_pid": "7038",
+   "away_pid": "147231",
+   "tournament": "Bolíviai Liga-kupa",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "318707479483588608",
+   "sport": "Labdarúgás",
+   "name": "Sao Bernardo FC - Athletic Club MG",
+   "home": "Sao Bernardo FC",
+   "away": "Athletic Club MG",
+   "home_pid": "825711602331648",
+   "away_pid": "8286841984032768",
+   "tournament": "Brazil 2.",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "319205764458684416",
+   "sport": "Labdarúgás",
+   "name": "Cerro Largo Melo - CA Progreso Montevideo",
+   "home": "Cerro Largo Melo",
+   "away": "CA Progreso Montevideo",
+   "home_pid": "119877",
+   "away_pid": "139094554209996800",
+   "tournament": "Uruguayi bajnokság",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "319711436609757184",
+   "sport": "Kosárlabda",
+   "name": "Bradley Braves - Coppin State Eagles",
+   "home": "Bradley Braves",
+   "away": "Coppin State Eagles",
+   "home_pid": "187678202238390272",
+   "away_pid": "186959551979900928",
+   "tournament": "NCAA",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "319710762970980352",
+   "sport": "Kosárlabda",
+   "name": "University of Maryland Baltimore County Retrievers - Morgan State Bears",
+   "home": "University of Maryland Baltimore County Retrievers",
+   "away": "Morgan State Bears",
+   "home_pid": "154095734709342208",
+   "away_pid": "186935130088067072",
+   "tournament": "NCAA",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "318936787091267584",
+   "sport": "Kosárlabda",
+   "name": "Osasco - Mogi Das Cruzes",
+   "home": "Osasco",
+   "away": "Mogi Das Cruzes",
+   "home_pid": "178344801795625472",
+   "away_pid": "804795",
+   "tournament": "Brazil bajnokság",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "318936740153860096",
+   "sport": "Kosárlabda",
+   "name": "Botafogo - Franca SP",
+   "home": "Botafogo",
+   "away": "Franca SP",
+   "home_pid": "164942880111120384",
+   "away_pid": "143607",
+   "tournament": "Brazil bajnokság",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "318936740218871808",
+   "sport": "Kosárlabda",
+   "name": "Corinthians Paulista - Pinheiros SP",
+   "home": "Corinthians Paulista",
+   "away": "Pinheiros SP",
+   "home_pid": "4087708596176896",
+   "away_pid": "829510",
+   "tournament": "Brazil bajnokság",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "319643235698941952",
+   "sport": "Tenisz",
+   "name": "Perez E./Schuurs D. - Errani S./Paolini J.",
+   "home": "Perez E./Schuurs D.",
+   "away": "Errani S./Paolini J.",
+   "home_pid": "292059256144039936",
+   "away_pid": "204010465255387136",
+   "tournament": "WTA-vb, női páros, B csoport",
+   "start": "2026-11-12T23:30:00+00:00"
+  },
+  {
+   "id": "319719208090935296",
+   "sport": "Tenisz",
+   "name": "Lammons N./Smith J.P. - Barton H./Kasnikowski M.",
+   "home": "Lammons N./Smith J.P.",
+   "away": "Barton H./Kasnikowski M.",
+   "home_pid": "319344961367646208",
+   "away_pid": "318069301593579520",
+   "tournament": "Knoxville, férfi páros",
+   "start": "2026-11-12T23:30:00+00:00"
+  },
+  {
+   "id": "319711709215399936",
+   "sport": "Kosárlabda",
+   "name": "Penn State Nittany Lions - Mercyhurst Lakers",
+   "home": "Penn State Nittany Lions",
+   "away": "Mercyhurst Lakers",
+   "home_pid": "38505",
+   "away_pid": "92851208746696704",
+   "tournament": "NCAA",
+   "start": "2026-11-12T23:30:00+00:00"
+  },
+  {
+   "id": "319711436696788992",
+   "sport": "Kosárlabda",
+   "name": "Indiana Hoosiers - Tennessee Tech Golden Eagles",
+   "home": "Indiana Hoosiers",
+   "away": "Tennessee Tech Golden Eagles",
+   "home_pid": "38254",
+   "away_pid": "186961951252860928",
+   "tournament": "NCAA",
+   "start": "2026-11-12T23:30:00+00:00"
+  },
+  {
+   "id": "318936784409010176",
+   "sport": "Kosárlabda",
+   "name": "Espanol Osorno - Deportivo Valdivia",
+   "home": "Espanol Osorno",
+   "away": "Deportivo Valdivia",
+   "home_pid": "173406647262171136",
+   "away_pid": "1382820",
+   "tournament": "Chilei bajnokság",
+   "start": "2026-11-12T23:30:00+00:00"
+  },
+  {
+   "id": "319630934310723584",
+   "sport": "Tenisz",
+   "name": "Genaro Alberto Olivieri - Juan Pablo Varillas",
+   "home": "Genaro Alberto Olivieri",
+   "away": "Juan Pablo Varillas",
+   "home_pid": "1171219",
+   "away_pid": "307641996856225792",
+   "tournament": "Lima, férfi egyes",
+   "start": "2026-11-12T23:40:00+00:00"
+  },
+  {
+   "id": "318896529876262912",
+   "sport": "Labdarúgás",
+   "name": "Llaneros FC - Boyaca Chico",
+   "home": "Llaneros FC",
+   "away": "Boyaca Chico",
+   "home_pid": "609871",
+   "away_pid": "19670",
+   "tournament": "Kolumbiai bajnokság",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936846797185024",
+   "sport": "Kosárlabda",
+   "name": "Washington - Detroit",
+   "home": "Washington",
+   "away": "Detroit",
+   "home_pid": "2182",
+   "away_pid": "2194",
+   "tournament": "NBA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936742610673664",
+   "sport": "Kosárlabda",
+   "name": "Philadelphia - Toronto",
+   "home": "Philadelphia",
+   "away": "Toronto",
+   "home_pid": "2181",
+   "away_pid": "2197",
+   "tournament": "NBA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319711709305577472",
+   "sport": "Kosárlabda",
+   "name": "Bowling Green Falcons - Niagara Purple Eagles",
+   "home": "Bowling Green Falcons",
+   "away": "Niagara Purple Eagles",
+   "home_pid": "38764",
+   "away_pid": "186961496783245312",
+   "tournament": "NCAA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319711840640770048",
+   "sport": "Kosárlabda",
+   "name": "Brown Bears - Canisius Golden Griffins",
+   "home": "Brown Bears",
+   "away": "Canisius Golden Griffins",
+   "home_pid": "154340627090296832",
+   "away_pid": "186960555722985472",
+   "tournament": "NCAA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319712937757450240",
+   "sport": "Kosárlabda",
+   "name": "Western Illinois Leathernecks - California State Bakersfield Roadrunners",
+   "home": "Western Illinois Leathernecks",
+   "away": "California State Bakersfield Roadrunners",
+   "home_pid": "186962097360392192",
+   "away_pid": "188308380544192512",
+   "tournament": "NCAA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319714586096902144",
+   "sport": "Kosárlabda",
+   "name": "Quinnipiac Bobcats - Monmouth Hawks",
+   "home": "Quinnipiac Bobcats",
+   "away": "Monmouth Hawks",
+   "home_pid": "186961727877861376",
+   "away_pid": "187125857147473920",
+   "tournament": "NCAA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319714586237411328",
+   "sport": "Kosárlabda",
+   "name": "Howard Bison - Stetson Hatters",
+   "home": "Howard Bison",
+   "away": "Stetson Hatters",
+   "home_pid": "329877",
+   "away_pid": "186961921591791616",
+   "tournament": "NCAA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319714037260689408",
+   "sport": "Kosárlabda",
+   "name": "Towson Tigers - Loyola Maryland Greyhounds",
+   "home": "Towson Tigers",
+   "away": "Loyola Maryland Greyhounds",
+   "home_pid": "186962019482652672",
+   "away_pid": "186961403534430208",
+   "tournament": "NCAA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319714037063557120",
+   "sport": "Kosárlabda",
+   "name": "West Virginia Mountaineers - Mercer Bears",
+   "home": "West Virginia Mountaineers",
+   "away": "Mercer Bears",
+   "home_pid": "38063",
+   "away_pid": "187033549405212672",
+   "tournament": "NCAA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319712385305747456",
+   "sport": "Kosárlabda",
+   "name": "Rhode Island Rams - Maryland Eastern Shore Hawks",
+   "home": "Rhode Island Rams",
+   "away": "Maryland Eastern Shore Hawks",
+   "home_pid": "38643",
+   "away_pid": "154095743276208128",
+   "tournament": "NCAA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319714037151637504",
+   "sport": "Kosárlabda",
+   "name": "High Point Panthers - Southern Utah Thunderbirds",
+   "home": "High Point Panthers",
+   "away": "Southern Utah Thunderbirds",
+   "home_pid": "187408142934528000",
+   "away_pid": "186961909180846080",
+   "tournament": "NCAA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319711840928079872",
+   "sport": "Kosárlabda",
+   "name": "Sacred Heart University Pioneers - Central Connecticut Blue Devils",
+   "home": "Sacred Heart University Pioneers",
+   "away": "Central Connecticut Blue Devils",
+   "home_pid": "187032885493026816",
+   "away_pid": "186960568138125312",
+   "tournament": "NCAA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936768659398656",
+   "sport": "Kosárlabda",
+   "name": "Asociacion Deportiva Atenas Cordoba - San Lorenzo de Almagro",
+   "home": "Asociacion Deportiva Atenas Cordoba",
+   "away": "San Lorenzo de Almagro",
+   "home_pid": "163165675086594048",
+   "away_pid": "1239713",
+   "tournament": "Argentin bajnokság",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319347420684165120",
+   "sport": "Kosárlabda",
+   "name": "Criollos de Caguas - Explosivas de Moca",
+   "home": "Criollos de Caguas",
+   "away": "Explosivas de Moca",
+   "home_pid": "279823724939710464",
+   "away_pid": "151206457142099968",
+   "tournament": "Puerto Ricó-i bajnokság, női",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319347424809263104",
+   "sport": "Kosárlabda",
+   "name": "Pollitas de Isabela - Leonas de Ponce",
+   "home": "Pollitas de Isabela",
+   "away": "Leonas de Ponce",
+   "home_pid": "211782737154166784",
+   "away_pid": "279823734008844288",
+   "tournament": "Puerto Ricó-i bajnokság, női",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319347424722231296",
+   "sport": "Kosárlabda",
+   "name": "Osos de Manati - Monarcas de Juan Diaz",
+   "home": "Osos de Manati",
+   "away": "Monarcas de Juan Diaz",
+   "home_pid": "151115810185887744",
+   "away_pid": "279750120741933056",
+   "tournament": "Puerto Ricó-i bajnokság, női",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936544529424384",
+   "sport": "Jégkorong",
+   "name": "Boston - Montreal",
+   "home": "Boston",
+   "away": "Montreal",
+   "home_pid": "37427",
+   "away_pid": "37432",
+   "tournament": "NHL (alapszakasz)",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936545929273344",
+   "sport": "Jégkorong",
+   "name": "Toronto - Minnesota",
+   "home": "Toronto",
+   "away": "Minnesota",
+   "home_pid": "37429",
+   "away_pid": "37450",
+   "tournament": "NHL (alapszakasz)",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936545064198144",
+   "sport": "Jégkorong",
+   "name": "Ottawa - Colorado",
+   "home": "Ottawa",
+   "away": "Colorado",
+   "home_pid": "37430",
+   "away_pid": "37444",
+   "tournament": "NHL (alapszakasz)",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936622661967872",
+   "sport": "Jégkorong",
+   "name": "New Jersey - Washington",
+   "home": "New Jersey",
+   "away": "Washington",
+   "home_pid": "37431",
+   "away_pid": "37439",
+   "tournament": "NHL (alapszakasz)",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936545782472704",
+   "sport": "Jégkorong",
+   "name": "Columbus - Tampa Bay",
+   "home": "Columbus",
+   "away": "Tampa Bay",
+   "home_pid": "37454",
+   "away_pid": "37426",
+   "tournament": "NHL (alapszakasz)",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936585008652288",
+   "sport": "Jégkorong",
+   "name": "Notre Dame Fighting Irish - Michigan State Spartans",
+   "home": "Notre Dame Fighting Irish",
+   "away": "Michigan State Spartans",
+   "home_pid": "160803762303193088",
+   "away_pid": "160803703015657472",
+   "tournament": "NCAA",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "319572710632005632",
+   "sport": "Labdarúgás",
+   "name": "Curacao - Panama",
+   "home": "Curacao",
+   "away": "Panama",
+   "home_pid": "182450742253371648",
+   "away_pid": "2035",
+   "tournament": "CONCACAF Nemzetek Ligája, A Divízió,  rájátszás",
+   "start": "2026-11-13T00:30:00+00:00"
+  },
+  {
+   "id": "318936745379962880",
+   "sport": "Kosárlabda",
+   "name": "Club Nacional - Urunday Universitario",
+   "home": "Club Nacional",
+   "away": "Urunday Universitario",
+   "home_pid": "185261826411384832",
+   "away_pid": "185261846616395776",
+   "tournament": "Uruguayi bajnokság",
+   "start": "2026-11-13T00:30:00+00:00"
+  },
+  {
+   "id": "318936545460559872",
+   "sport": "Jégkorong",
+   "name": "Florida - Detroit",
+   "home": "Florida",
+   "away": "Detroit",
+   "home_pid": "37437",
+   "away_pid": "37441",
+   "tournament": "NHL (alapszakasz)",
+   "start": "2026-11-13T00:30:00+00:00"
+  },
+  {
+   "id": "319667047211540480",
+   "sport": "Tenisz",
+   "name": "Sebastian Gorzny - Alex Bolt",
+   "home": "Sebastian Gorzny",
+   "away": "Alex Bolt",
+   "home_pid": "284766680664805376",
+   "away_pid": "708887",
+   "tournament": "Brisbane, férfi egyes",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "318936742785785856",
+   "sport": "Kosárlabda",
+   "name": "Minnesota - Dallas",
+   "home": "Minnesota",
+   "away": "Dallas",
+   "home_pid": "2186",
+   "away_pid": "2555507963883520",
+   "tournament": "NBA",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "319711841021403136",
+   "sport": "Kosárlabda",
+   "name": "Southern Illinois Salukis - Richmond Spiders",
+   "home": "Southern Illinois Salukis",
+   "away": "Richmond Spiders",
+   "home_pid": "186961859231928320",
+   "away_pid": "186961738820800512",
+   "tournament": "NCAA",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "319696536315437056",
+   "sport": "Kosárlabda",
+   "name": "Texas A&M Aggies - Oklahoma State Cowboys",
+   "home": "Texas A&M Aggies",
+   "away": "Oklahoma State Cowboys",
+   "home_pid": "38706",
+   "away_pid": "38062",
+   "tournament": "NCAA",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "319711840817979392",
+   "sport": "Kosárlabda",
+   "name": "South Alabama Jaguars - Loyola-Marymount Lions",
+   "home": "South Alabama Jaguars",
+   "away": "Loyola-Marymount Lions",
+   "home_pid": "187320846113624064",
+   "away_pid": "38227",
+   "tournament": "NCAA",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "319714586320248832",
+   "sport": "Kosárlabda",
+   "name": "Alabama A&M Bulldogs - West Florida Argonauts",
+   "home": "Alabama A&M Bulldogs",
+   "away": "West Florida Argonauts",
+   "home_pid": "187242709155631104",
+   "away_pid": "253291458921357312",
+   "tournament": "NCAA",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "319711841106337792",
+   "sport": "Kosárlabda",
+   "name": "Minnesota Golden Gophers - Southern University Jaguars",
+   "home": "Minnesota Golden Gophers",
+   "away": "Southern University Jaguars",
+   "home_pid": "38702",
+   "away_pid": "186961902149095424",
+   "tournament": "NCAA",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "318936545695440896",
+   "sport": "Jégkorong",
+   "name": "Dallas - Winnipeg",
+   "home": "Dallas",
+   "away": "Winnipeg",
+   "home_pid": "37445",
+   "away_pid": "37435",
+   "tournament": "NHL (alapszakasz)",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "318936547204341760",
+   "sport": "Jégkorong",
+   "name": "Chicago - Buffalo",
+   "home": "Chicago",
+   "away": "Buffalo",
+   "home_pid": "37455",
+   "away_pid": "37434",
+   "tournament": "NHL (alapszakasz)",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "319538332718669824",
+   "sport": "Kosárlabda",
+   "name": "Salvadorenos BC - A Lobos BKB Chalchuapa",
+   "home": "Salvadorenos BC",
+   "away": "A Lobos BKB Chalchuapa",
+   "home_pid": "232077814574518272",
+   "away_pid": "182257912985473024",
+   "tournament": "Salvadori bajnokság",
+   "start": "2026-11-13T01:15:00+00:00"
+  },
+  {
+   "id": "319477776831815680",
+   "sport": "Labdarúgás",
+   "name": "Atl. Morelia - Leones Negros UdeG",
+   "home": "Atl. Morelia",
+   "away": "Leones Negros UdeG",
+   "home_pid": "114664507633094656",
+   "away_pid": "372730",
+   "tournament": "Mexikói 2., rájátszás",
+   "start": "2026-11-13T02:00:00+00:00"
+  },
+  {
+   "id": "319645072316506112",
+   "sport": "Tenisz",
+   "name": "YU Hsiou Hsu - Jay Dylan Hara Friend",
+   "home": "YU Hsiou Hsu",
+   "away": "Jay Dylan Hara Friend",
+   "home_pid": "1328131",
+   "away_pid": "167364724202323968",
+   "tournament": "Matsuyama, férfi egyes",
+   "start": "2026-11-13T02:00:00+00:00"
+  },
+  {
+   "id": "318936742167126016",
+   "sport": "Kosárlabda",
+   "name": "Phoenix - Charlotte",
+   "home": "Phoenix",
+   "away": "Charlotte",
+   "home_pid": "2201",
+   "away_pid": "1138623",
+   "tournament": "NBA",
+   "start": "2026-11-13T02:00:00+00:00"
+  },
+  {
+   "id": "319711709384220672",
+   "sport": "Kosárlabda",
+   "name": "Texas El Paso Miners - New Mexico State Aggies",
+   "home": "Texas El Paso Miners",
+   "away": "New Mexico State Aggies",
+   "home_pid": "797966",
+   "away_pid": "38045",
+   "tournament": "NCAA",
+   "start": "2026-11-13T02:00:00+00:00"
+  },
+  {
+   "id": "319711709481738240",
+   "sport": "Kosárlabda",
+   "name": "Brigham Young Cougars - Montana State Bobcats",
+   "home": "Brigham Young Cougars",
+   "away": "Montana State Bobcats",
+   "home_pid": "38192",
+   "away_pid": "186961465646829568",
+   "tournament": "NCAA",
+   "start": "2026-11-13T02:00:00+00:00"
+  },
+  {
+   "id": "318936544343826432",
+   "sport": "Jégkorong",
+   "name": "Utah - St. Louis",
+   "home": "Utah",
+   "away": "St. Louis",
+   "home_pid": "240877360616214528",
+   "away_pid": "37447",
+   "tournament": "NHL (alapszakasz)",
+   "start": "2026-11-13T02:00:00+00:00"
+  },
+  {
+   "id": "318936632127463424",
+   "sport": "Jégkorong",
+   "name": "Air Force Falcons - Bentley Falcons",
+   "home": "Air Force Falcons",
+   "away": "Bentley Falcons",
+   "home_pid": "160803159827075072",
+   "away_pid": "160803544400711680",
+   "tournament": "NCAA",
+   "start": "2026-11-13T02:05:00+00:00"
+  },
+  {
+   "id": "319657795168313344",
+   "sport": "Tenisz",
+   "name": "Bernard Tomic - August Holmgren",
+   "home": "Bernard Tomic",
+   "away": "August Holmgren",
+   "home_pid": "87065",
+   "away_pid": "141813668995190784",
+   "tournament": "Brisbane, férfi egyes",
+   "start": "2026-11-13T03:00:00+00:00"
+  },
+  {
+   "id": "319711709119979520",
+   "sport": "Kosárlabda",
+   "name": "San Jose State Spartans - California Riverside Highlanders",
+   "home": "San Jose State Spartans",
+   "away": "California Riverside Highlanders",
+   "home_pid": "187033686731968512",
+   "away_pid": "186960540990492672",
+   "tournament": "NCAA",
+   "start": "2026-11-13T03:00:00+00:00"
+  },
+  {
+   "id": "318936546534301696",
+   "sport": "Jégkorong",
+   "name": "Los Angeles - NY Islanders",
+   "home": "Los Angeles",
+   "away": "NY Islanders",
+   "home_pid": "37451",
+   "away_pid": "37433",
+   "tournament": "NHL (alapszakasz)",
+   "start": "2026-11-13T03:00:00+00:00"
+  },
+  {
+   "id": "318936630353272832",
+   "sport": "Jégkorong",
+   "name": "Henderson Silver Knights - Calgary Wranglers",
+   "home": "Henderson Silver Knights",
+   "away": "Calgary Wranglers",
+   "home_pid": "129604095599235072",
+   "away_pid": "185064188896399360",
+   "tournament": "AHL",
+   "start": "2026-11-13T03:00:00+00:00"
+  },
+  {
+   "id": "318936581598683136",
+   "sport": "Jégkorong",
+   "name": "Coachella Valley Firebirds - SJ Barracuda",
+   "home": "Coachella Valley Firebirds",
+   "away": "SJ Barracuda",
+   "home_pid": "185064161978404864",
+   "away_pid": "1390575",
+   "tournament": "AHL",
+   "start": "2026-11-13T03:00:00+00:00"
+  },
+  {
+   "id": "319650084006469632",
+   "sport": "Tenisz",
+   "name": "Kaichi Uchida - Billy Harris",
+   "home": "Kaichi Uchida",
+   "away": "Billy Harris",
+   "home_pid": "757856",
+   "away_pid": "966465",
+   "tournament": "Matsuyama, férfi egyes",
+   "start": "2026-11-13T03:10:00+00:00"
+  },
+  {
+   "id": "319192927432679424",
+   "sport": "Kosárlabda",
+   "name": "Soles - Astros de Jalisco",
+   "home": "Soles",
+   "away": "Astros de Jalisco",
+   "home_pid": "61260",
+   "away_pid": "10401367669739520",
+   "tournament": "Mexikói LNBP",
+   "start": "2026-11-13T04:00:00+00:00"
+  },
+  {
+   "id": "318936728760033280",
+   "sport": "Kosárlabda",
+   "name": "NZ Breakers - Brisbane",
+   "home": "NZ Breakers",
+   "away": "Brisbane",
+   "home_pid": "16700",
+   "away_pid": "2290708009742336",
+   "tournament": "Ausztrál bajnokság",
+   "start": "2026-11-13T06:30:00+00:00"
+  },
+  {
+   "id": "318936807266918400",
+   "sport": "Kosárlabda",
+   "name": "Southern Hoiho - Mid-North Whai",
+   "home": "Southern Hoiho",
+   "away": "Mid-North Whai",
+   "home_pid": "175053154199588864",
+   "away_pid": "175329274285314048",
+   "tournament": "Új-zélandi bajnokság, női",
+   "start": "2026-11-13T06:30:00+00:00"
+  },
+  {
+   "id": "319667432308416512",
+   "sport": "Tenisz",
+   "name": "Massimo Giunta - Henry Searle",
+   "home": "Massimo Giunta",
+   "away": "Henry Searle",
+   "home_pid": "172252221600223232",
+   "away_pid": "160840261640966144",
+   "tournament": "Herszonisszosz, férfi egyes",
+   "start": "2026-11-13T08:00:00+00:00"
+  },
+  {
+   "id": "318936749114990592",
+   "sport": "Kosárlabda",
+   "name": "Geelong Supercats - Perth Lynx",
+   "home": "Geelong Supercats",
+   "away": "Perth Lynx",
+   "home_pid": "135925620877086720",
+   "away_pid": "186427818554478592",
+   "tournament": "Ausztrál bajnokság, női",
+   "start": "2026-11-13T08:00:00+00:00"
+  },
+  {
+   "id": "318936728670904320",
+   "sport": "Kosárlabda",
+   "name": "Cairns - Sydney Kings",
+   "home": "Cairns",
+   "away": "Sydney Kings",
+   "home_pid": "6596",
+   "away_pid": "440447",
+   "tournament": "Ausztrál bajnokság",
+   "start": "2026-11-13T08:30:00+00:00"
+  },
+  {
+   "id": "319528437355192320",
+   "sport": "Labdarúgás",
+   "name": "Prikarpattya Ivano Frankivszk - Kolos Kovalivka 2",
+   "home": "Prikarpattya Ivano Frankivszk",
+   "away": "Kolos Kovalivka 2",
+   "home_pid": "2147432175923200",
+   "away_pid": "250830828857233408",
+   "tournament": "Ukrán 2.",
+   "start": "2026-11-13T10:00:00+00:00"
+  },
+  {
+   "id": "319701649040941056",
+   "sport": "Tenisz",
+   "name": "Piros Zsombor - Daniel Altmaier",
+   "home": "Piros Zsombor",
+   "away": "Daniel Altmaier",
+   "home_pid": "1336745",
+   "away_pid": "959628",
+   "tournament": "Orleans, férfi egyes",
+   "start": "2026-11-13T10:00:00+00:00"
+  },
+  {
+   "id": "318682862937251840",
+   "sport": "Labdarúgás",
+   "name": "Szingapúr - Paraguay",
+   "home": "Szingapúr",
+   "away": "Paraguay",
+   "home_pid": "19842",
+   "away_pid": "1526",
+   "tournament": "Válogatott mérkőzés",
+   "start": "2026-11-13T12:00:00+00:00"
+  },
+  {
+   "id": "319579625212682240",
+   "sport": "Labdarúgás",
+   "name": "Ismaily - El Mansoura",
+   "home": "Ismaily",
+   "away": "El Mansoura",
+   "home_pid": "60776",
+   "away_pid": "6280360784838656",
+   "tournament": "Egyiptomi 2.",
+   "start": "2026-11-13T12:30:00+00:00"
+  },
+  {
+   "id": "319578228035493888",
+   "sport": "Labdarúgás",
+   "name": "Haras El Hodood - El Dakhleya SC",
+   "home": "Haras El Hodood",
+   "away": "El Dakhleya SC",
+   "home_pid": "77707",
+   "away_pid": "630305",
+   "tournament": "Egyiptomi 2.",
+   "start": "2026-11-13T12:30:00+00:00"
+  },
+  {
+   "id": "319575476175708160",
+   "sport": "Labdarúgás",
+   "name": "Kafr El Zayat - Team FC Cairo",
+   "home": "Kafr El Zayat",
+   "away": "Team FC Cairo",
+   "home_pid": "220088551597035520",
+   "away_pid": "220198044513226752",
+   "tournament": "Egyiptomi 2.",
+   "start": "2026-11-13T12:30:00+00:00"
+  },
+  {
+   "id": "319572410154164224",
+   "sport": "Labdarúgás",
+   "name": "Tanta - La Viena",
+   "home": "Tanta",
+   "away": "La Viena",
+   "home_pid": "1364753",
+   "away_pid": "128693866022883328",
+   "tournament": "Egyiptomi 2.",
+   "start": "2026-11-13T12:30:00+00:00"
+  },
+  {
+   "id": "319232682142801920",
+   "sport": "Labdarúgás",
+   "name": "Comore-szigetek - Kongói Köztársaság",
+   "home": "Comore-szigetek",
+   "away": "Kongói Köztársaság",
+   "home_pid": "1129174",
+   "away_pid": "1368",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, G csoport",
+   "start": "2026-11-13T13:00:00+00:00"
+  },
+  {
+   "id": "319233118934474752",
+   "sport": "Labdarúgás",
+   "name": "Zambia - Burundi",
+   "home": "Zambia",
+   "away": "Burundi",
+   "home_pid": "1929",
+   "away_pid": "182485708146003968",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, I csoport",
+   "start": "2026-11-13T13:00:00+00:00"
+  },
+  {
+   "id": "319233174076989440",
+   "sport": "Labdarúgás",
+   "name": "Mozambik - Etiópia",
+   "home": "Mozambik",
+   "away": "Etiópia",
+   "home_pid": "13788",
+   "away_pid": "5494",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, J csoport",
+   "start": "2026-11-13T13:00:00+00:00"
+  },
+  {
+   "id": "318674013669892096",
+   "sport": "Labdarúgás",
+   "name": "Shilong Lajong - Sreenidi Deccan",
+   "home": "Shilong Lajong",
+   "away": "Sreenidi Deccan",
+   "home_pid": "174982928913190912",
+   "away_pid": "158387523236712448",
+   "tournament": "Indiai I-Liga",
+   "start": "2026-11-13T13:00:00+00:00"
+  },
+  {
+   "id": "318684760500150272",
+   "sport": "Labdarúgás",
+   "name": "Egyesült Arab Emirátusok - Honduras",
+   "home": "Egyesült Arab Emirátusok",
+   "away": "Honduras",
+   "home_pid": "1393",
+   "away_pid": "1528",
+   "tournament": "Válogatott mérkőzés",
+   "start": "2026-11-13T14:10:00+00:00"
+  },
+  {
+   "id": "318682863170035712",
+   "sport": "Labdarúgás",
+   "name": "Szaúd-Arábia - Dél-Korea",
+   "home": "Szaúd-Arábia",
+   "away": "Dél-Korea",
+   "home_pid": "3441",
+   "away_pid": "1384",
+   "tournament": "Válogatott mérkőzés",
+   "start": "2026-11-13T14:30:00+00:00"
+  },
+  {
+   "id": "317390093801299968",
+   "sport": "Labdarúgás",
+   "name": "Katar - Ausztrália",
+   "home": "Katar",
+   "away": "Ausztrália",
+   "home_pid": "1392",
+   "away_pid": "1391",
+   "tournament": "Válogatott mérkőzés",
+   "start": "2026-11-13T14:45:00+00:00"
+  },
+  {
+   "id": "319411328202645504",
+   "sport": "Labdarúgás",
+   "name": "Etehad Al Reef - Umm Al Hassam",
+   "home": "Etehad Al Reef",
+   "away": "Umm Al Hassam",
+   "home_pid": "182586453048479744",
+   "away_pid": "182513197180309504",
+   "tournament": "Bahreini 2.",
+   "start": "2026-11-13T15:00:00+00:00"
+  },
+  {
+   "id": "319676509286637568",
+   "sport": "Labdarúgás",
+   "name": "Al-Shabbab - Bahrain SC",
+   "home": "Al-Shabbab",
+   "away": "Bahrain SC",
+   "home_pid": "761591",
+   "away_pid": "624898",
+   "tournament": "Bahreini 2.",
+   "start": "2026-11-13T15:00:00+00:00"
+  },
+  {
+   "id": "319585494707019776",
+   "sport": "Labdarúgás",
+   "name": "U21Törökország - U21Csehország",
+   "home": "U21Törökország",
+   "away": "U21Csehország",
+   "home_pid": "19450",
+   "away_pid": "19419",
+   "tournament": "U21 Eb-selejtező",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "317995524548534272",
+   "sport": "Labdarúgás",
+   "name": "Gabon - Lesotho",
+   "home": "Gabon",
+   "away": "Lesotho",
+   "home_pid": "1365",
+   "away_pid": "2263",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, A csoport",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "319136919856422912",
+   "sport": "Labdarúgás",
+   "name": "Dél-Afrika - Kenya",
+   "home": "Dél-Afrika",
+   "away": "Kenya",
+   "home_pid": "1322",
+   "away_pid": "2260",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, D csoport",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "319136885830131712",
+   "sport": "Labdarúgás",
+   "name": "Burkina Faso - Mauritánia",
+   "home": "Burkina Faso",
+   "away": "Mauritánia",
+   "home_pid": "2014",
+   "away_pid": "932927",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, F csoport",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "319233054006648832",
+   "sport": "Labdarúgás",
+   "name": "Tunézia - Líbia",
+   "home": "Tunézia",
+   "away": "Líbia",
+   "home_pid": "1367",
+   "away_pid": "1936",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, H csoport",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "319233223446044672",
+   "sport": "Labdarúgás",
+   "name": "Zöld-foki-szigetek - Libéria",
+   "home": "Zöld-foki-szigetek",
+   "away": "Libéria",
+   "home_pid": "13785",
+   "away_pid": "140088457893564416",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, K csoport",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "317995485033996288",
+   "sport": "Labdarúgás",
+   "name": "Nigéria - Tanzánia",
+   "home": "Nigéria",
+   "away": "Tanzánia",
+   "home_pid": "1366",
+   "away_pid": "13790",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, L csoport",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "318745980140855296",
+   "sport": "Labdarúgás",
+   "name": "Primorje Ajdovscina - NK Jesenice",
+   "home": "Primorje Ajdovscina",
+   "away": "NK Jesenice",
+   "home_pid": "482758009450496",
+   "away_pid": "212112222432940032",
+   "tournament": "Szlovén 2.",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "319714421321572352",
+   "sport": "Tenisz",
+   "name": "Liam Draxl - Clement Chidekh",
+   "home": "Liam Draxl",
+   "away": "Clement Chidekh",
+   "home_pid": "1453185",
+   "away_pid": "6061861939593216",
+   "tournament": "Knoxville, férfi egyes",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "319704172226224128",
+   "sport": "Tenisz",
+   "name": "Tristan Boyer - Max Alcala Gurri",
+   "home": "Tristan Boyer",
+   "away": "Max Alcala Gurri",
+   "home_pid": "1498929",
+   "away_pid": "4160719275689984",
+   "tournament": "Lima, férfi egyes",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "318936604195495936",
+   "sport": "Jégkorong",
+   "name": "Trinec - Liberec",
+   "home": "Trinec",
+   "away": "Liberec",
+   "home_pid": "37346",
+   "away_pid": "37339",
+   "tournament": "Cseh bajnokság",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "319585494851723264",
+   "sport": "Labdarúgás",
+   "name": "U21Finnország - U21Írország",
+   "home": "U21Finnország",
+   "away": "U21Írország",
+   "home_pid": "19425",
+   "away_pid": "19821",
+   "tournament": "U21 Eb-selejtező",
+   "start": "2026-11-13T16:15:00+00:00"
+  },
+  {
+   "id": "318735982993154048",
+   "sport": "Labdarúgás",
+   "name": "Kuvait - Szíria",
+   "home": "Kuvait",
+   "away": "Szíria",
+   "home_pid": "161346000429043712",
+   "away_pid": "19846",
+   "tournament": "Válogatott mérkőzés",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "319721836715778048",
+   "sport": "Labdarúgás",
+   "name": "U21Norvégia - U21Lengyelország",
+   "home": "U21Norvégia",
+   "away": "U21Lengyelország",
+   "home_pid": "19704",
+   "away_pid": "22886",
+   "tournament": "U21 válogatott mérkőzés",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "319417099506229248",
+   "sport": "Labdarúgás",
+   "name": "Al-Hala Muharraq - Budaiya",
+   "home": "Al-Hala Muharraq",
+   "away": "Budaiya",
+   "home_pid": "68311",
+   "away_pid": "1348358",
+   "tournament": "Bahreini 2.",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318794415081594880",
+   "sport": "Labdarúgás",
+   "name": "Dravinja Kostroj - NK Krka",
+   "home": "Dravinja Kostroj",
+   "away": "NK Krka",
+   "home_pid": "381098",
+   "away_pid": "815933",
+   "tournament": "Szlovén 2.",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936603291623424",
+   "sport": "Jégkorong",
+   "name": "Litvínov - Motor Ceske Budejovice",
+   "home": "Litvínov",
+   "away": "Motor Ceske Budejovice",
+   "home_pid": "37338",
+   "away_pid": "43853",
+   "tournament": "Cseh bajnokság",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936603560058880",
+   "sport": "Jégkorong",
+   "name": "Mladá Boleslav - Vitkovice",
+   "home": "Mladá Boleslav",
+   "away": "Vitkovice",
+   "home_pid": "56654",
+   "away_pid": "37341",
+   "tournament": "Cseh bajnokság",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936578576687104",
+   "sport": "Jégkorong",
+   "name": "Tappara - HIFK",
+   "home": "Tappara",
+   "away": "HIFK",
+   "home_pid": "37289",
+   "away_pid": "37286",
+   "tournament": "Finn bajnokság",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936578764382208",
+   "sport": "Jégkorong",
+   "name": "Kookoo - JYP",
+   "home": "Kookoo",
+   "away": "JYP",
+   "home_pid": "37734",
+   "away_pid": "37291",
+   "tournament": "Finn bajnokság",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936629595152384",
+   "sport": "Jégkorong",
+   "name": "SaiPa - Ilves",
+   "home": "SaiPa",
+   "away": "Ilves",
+   "home_pid": "37294",
+   "away_pid": "37292",
+   "tournament": "Finn bajnokság",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936578857705472",
+   "sport": "Jégkorong",
+   "name": "KalPa - Kiekko-Espoo",
+   "home": "KalPa",
+   "away": "Kiekko-Espoo",
+   "home_pid": "37725",
+   "away_pid": "116930555729203200",
+   "tournament": "Finn bajnokság",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936577943347200",
+   "sport": "Jégkorong",
+   "name": "Hämeenlinna - Jukurit",
+   "home": "Hämeenlinna",
+   "away": "Jukurit",
+   "home_pid": "37285",
+   "away_pid": "37727",
+   "tournament": "Finn bajnokság",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936578313494528",
+   "sport": "Jégkorong",
+   "name": "Turku PS - Jokerit",
+   "home": "Turku PS",
+   "away": "Jokerit",
+   "home_pid": "37287",
+   "away_pid": "37283",
+   "tournament": "Finn bajnokság",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936600735195136",
+   "sport": "Jégkorong",
+   "name": "Kiekko-Vantaa - IPK",
+   "home": "Kiekko-Vantaa",
+   "away": "IPK",
+   "home_pid": "566531",
+   "away_pid": "1191419",
+   "tournament": "Finn 2.",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936613119926272",
+   "sport": "Jégkorong",
+   "name": "Kosice - Liptovsky Mikulas",
+   "home": "Kosice",
+   "away": "Liptovsky Mikulas",
+   "home_pid": "37403",
+   "away_pid": "37406",
+   "tournament": "Szlovák bajnokság",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936611489390592",
+   "sport": "Jégkorong",
+   "name": "Spisska Nova Ves - Trencin",
+   "home": "Spisska Nova Ves",
+   "away": "Trencin",
+   "home_pid": "56646",
+   "away_pid": "37402",
+   "tournament": "Szlovák bajnokság",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936612379631616",
+   "sport": "Jégkorong",
+   "name": "Poprad - B. Bystrica",
+   "home": "Poprad",
+   "away": "B. Bystrica",
+   "home_pid": "37407",
+   "away_pid": "56649",
+   "tournament": "Szlovák bajnokság",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "319729513377374208",
+   "sport": "Labdarúgás",
+   "name": "U21Németország - U21Belgium",
+   "home": "U21Németország",
+   "away": "U21Belgium",
+   "home_pid": "19449",
+   "away_pid": "19705",
+   "tournament": "U21 válogatott mérkőzés",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "317008013775937536",
+   "sport": "Labdarúgás",
+   "name": "Moldova - Kazahsztán",
+   "home": "Moldova",
+   "away": "Kazahsztán",
+   "home_pid": "1045",
+   "away_pid": "1359",
+   "tournament": "Nemzetek Ligája, C divízió, 3. csoport",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "319294888980062208",
+   "sport": "Labdarúgás",
+   "name": "Saoura - USM Khenchela",
+   "home": "Saoura",
+   "away": "USM Khenchela",
+   "home_pid": "629762",
+   "away_pid": "1529747",
+   "tournament": "Algériai bajnokság",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318607112253022208",
+   "sport": "Labdarúgás",
+   "name": "Znicz Pruszkow - Sokol Kleczew",
+   "home": "Znicz Pruszkow",
+   "away": "Sokol Kleczew",
+   "home_pid": "62116",
+   "away_pid": "596267",
+   "tournament": "Lengyel 3.",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318607112172281856",
+   "sport": "Labdarúgás",
+   "name": "Resovia Rzeszow - OKS Swit Skolwin",
+   "home": "Resovia Rzeszow",
+   "away": "OKS Swit Skolwin",
+   "home_pid": "1236366",
+   "away_pid": "1472211",
+   "tournament": "Lengyel 3.",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936795404378112",
+   "sport": "Kosárlabda",
+   "name": "BK Ogre - Keila Kervpallikool",
+   "home": "BK Ogre",
+   "away": "Keila Kervpallikool",
+   "home_pid": "267238743483748352",
+   "away_pid": "183578191632322560",
+   "tournament": "Észt-Lett Liga",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936619774189568",
+   "sport": "Jégkorong",
+   "name": "Újpest - BJA",
+   "home": "Újpest",
+   "away": "BJA",
+   "home_pid": "990310",
+   "away_pid": "116487142304174080",
+   "tournament": "Erste Liga",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936603232903168",
+   "sport": "Jégkorong",
+   "name": "Pardubice - Brno",
+   "home": "Pardubice",
+   "away": "Brno",
+   "home_pid": "112845736221233152",
+   "away_pid": "55004",
+   "tournament": "Cseh bajnokság",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936603977392128",
+   "sport": "Jégkorong",
+   "name": "Mountfield HK - Plzen",
+   "home": "Mountfield HK",
+   "away": "Plzen",
+   "home_pid": "1026668",
+   "away_pid": "37340",
+   "tournament": "Cseh bajnokság",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936603381800960",
+   "sport": "Jégkorong",
+   "name": "Olomouc - Kladno",
+   "home": "Olomouc",
+   "away": "Kladno",
+   "home_pid": "56657",
+   "away_pid": "37337",
+   "tournament": "Cseh bajnokság",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936604047646720",
+   "sport": "Jégkorong",
+   "name": "Karlovy Vary - Sparta Praha",
+   "home": "Karlovy Vary",
+   "away": "Sparta Praha",
+   "home_pid": "37345",
+   "away_pid": "37334",
+   "tournament": "Cseh bajnokság",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936621366976512",
+   "sport": "Jégkorong",
+   "name": "Comarch Cracovia - GKS Tychy",
+   "home": "Comarch Cracovia",
+   "away": "GKS Tychy",
+   "home_pid": "37416",
+   "away_pid": "37411",
+   "tournament": "Lengyel bajnokság",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936611782991872",
+   "sport": "Jégkorong",
+   "name": "Presov - Zvolen",
+   "home": "Presov",
+   "away": "Zvolen",
+   "home_pid": "149182471595937792",
+   "away_pid": "37401",
+   "tournament": "Szlovák bajnokság",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936613220589568",
+   "sport": "Jégkorong",
+   "name": "Nitra - Michalovce",
+   "home": "Nitra",
+   "away": "Michalovce",
+   "home_pid": "37405",
+   "away_pid": "125536",
+   "tournament": "Szlovák bajnokság",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "319042540367060992",
+   "sport": "Labdarúgás",
+   "name": "U21Franciaország - U21Olaszország",
+   "home": "U21Franciaország",
+   "away": "U21Olaszország",
+   "home_pid": "19429",
+   "away_pid": "19448",
+   "tournament": "U21 válogatott mérkőzés",
+   "start": "2026-11-13T17:30:00+00:00"
+  },
+  {
+   "id": "319585577930399744",
+   "sport": "Labdarúgás",
+   "name": "U21Dánia - U21Hollandia",
+   "home": "U21Dánia",
+   "away": "U21Hollandia",
+   "home_pid": "19447",
+   "away_pid": "19423",
+   "tournament": "U21 Eb-selejtező",
+   "start": "2026-11-13T17:30:00+00:00"
+  },
+  {
+   "id": "318609006980571136",
+   "sport": "Labdarúgás",
+   "name": "Hamburg - Mainz",
+   "home": "Hamburg",
+   "away": "Mainz",
+   "home_pid": "179783650307526656",
+   "away_pid": "10263038028943360",
+   "tournament": "Német bajnokság, női",
+   "start": "2026-11-13T17:30:00+00:00"
+  },
+  {
+   "id": "318936803010748416",
+   "sport": "Kosárlabda",
+   "name": "Anadolu Efes - Virtus Bologna",
+   "home": "Anadolu Efes",
+   "away": "Virtus Bologna",
+   "home_pid": "12534",
+   "away_pid": "1034485",
+   "tournament": "Euroliga",
+   "start": "2026-11-13T17:30:00+00:00"
+  },
+  {
+   "id": "319224898845220864",
+   "sport": "Kosárlabda",
+   "name": "Cibona Zágráb - FMP",
+   "home": "Cibona Zágráb",
+   "away": "FMP",
+   "home_pid": "6373",
+   "away_pid": "181362959994376192",
+   "tournament": "ABA Liga, A csoport",
+   "start": "2026-11-13T17:30:00+00:00"
+  },
+  {
+   "id": "318936619711275008",
+   "sport": "Jégkorong",
+   "name": "DEAC - Dunaújváros",
+   "home": "DEAC",
+   "away": "Dunaújváros",
+   "home_pid": "113125654637203456",
+   "away_pid": "153893544742043648",
+   "tournament": "Erste Liga",
+   "start": "2026-11-13T17:30:00+00:00"
+  },
+  {
+   "id": "318936619390410752",
+   "sport": "Jégkorong",
+   "name": "Diósgyőr - FEHA",
+   "home": "Diósgyőr",
+   "away": "FEHA",
+   "home_pid": "990309",
+   "away_pid": "196617456405606400",
+   "tournament": "Erste Liga",
+   "start": "2026-11-13T17:30:00+00:00"
+  },
+  {
+   "id": "318936602614243328",
+   "sport": "Jégkorong",
+   "name": "FTC - Fehérvár",
+   "home": "FTC",
+   "away": "Fehérvár",
+   "home_pid": "183806492915322880",
+   "away_pid": "1386919",
+   "tournament": "Osztrák bajnokság",
+   "start": "2026-11-13T17:30:00+00:00"
+  },
+  {
+   "id": "318936579354730496",
+   "sport": "Jégkorong",
+   "name": "Lahti Pelicans - Ässät",
+   "home": "Lahti Pelicans",
+   "away": "Ässät",
+   "home_pid": "37295",
+   "away_pid": "1191292",
+   "tournament": "Finn bajnokság",
+   "start": "2026-11-13T17:30:00+00:00"
+  },
+  {
+   "id": "318936620882534400",
+   "sport": "Jégkorong",
+   "name": "Torun - Zaglebie Sosnowiec",
+   "home": "Torun",
+   "away": "Zaglebie Sosnowiec",
+   "home_pid": "5825984079521792",
+   "away_pid": "5862972318738432",
+   "tournament": "Lengyel bajnokság",
+   "start": "2026-11-13T17:30:00+00:00"
+  },
+  {
+   "id": "319721995998666752",
+   "sport": "Labdarúgás",
+   "name": "U21Albánia - U21Luxemburg",
+   "home": "U21Albánia",
+   "away": "U21Luxemburg",
+   "home_pid": "22872",
+   "away_pid": "22884",
+   "tournament": "U21 válogatott mérkőzés",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "319584155921883136",
+   "sport": "Labdarúgás",
+   "name": "Ponferradina - Cacereno",
+   "home": "Ponferradina",
+   "away": "Cacereno",
+   "home_pid": "36489",
+   "away_pid": "9538",
+   "tournament": "Spanyol 3., 1. csoport",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318698008105525248",
+   "sport": "Labdarúgás",
+   "name": "Nantes - Lens",
+   "home": "Nantes",
+   "away": "Lens",
+   "home_pid": "153891933449670656",
+   "away_pid": "182991997927215104",
+   "tournament": "Francia bajnokság, női",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318610899275423744",
+   "sport": "Labdarúgás",
+   "name": "Hellerup - B93 Köbenhavn",
+   "home": "Hellerup",
+   "away": "B93 Köbenhavn",
+   "home_pid": "100352",
+   "away_pid": "613089",
+   "tournament": "Dán 3.",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318610899349872640",
+   "sport": "Labdarúgás",
+   "name": "Skive - Thisted",
+   "home": "Skive",
+   "away": "Thisted",
+   "home_pid": "269",
+   "away_pid": "3903",
+   "tournament": "Dán 3.",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318610899419078656",
+   "sport": "Labdarúgás",
+   "name": "Roskilde - Nyköbing",
+   "home": "Roskilde",
+   "away": "Nyköbing",
+   "home_pid": "270",
+   "away_pid": "1166775",
+   "tournament": "Dán 3.",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318610899192586240",
+   "sport": "Labdarúgás",
+   "name": "Helsingör - Holstebro",
+   "home": "Helsingör",
+   "away": "Holstebro",
+   "home_pid": "62502",
+   "away_pid": "279",
+   "tournament": "Dán 4.",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936620954886144",
+   "sport": "Jégkorong",
+   "name": "Jastrzebie - Unia Oswiecim",
+   "home": "Jastrzebie",
+   "away": "Unia Oswiecim",
+   "home_pid": "102657",
+   "away_pid": "81375",
+   "tournament": "Lengyel bajnokság",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936602099392512",
+   "sport": "Jégkorong",
+   "name": "Vienna Capitals - Linz",
+   "home": "Vienna Capitals",
+   "away": "Linz",
+   "home_pid": "291985",
+   "away_pid": "37423",
+   "tournament": "Osztrák bajnokság",
+   "start": "2026-11-13T18:15:00+00:00"
+  },
+  {
+   "id": "318881964081881088",
+   "sport": "Jégkorong",
+   "name": "Wolfsburg - Eisbären Berlin",
+   "home": "Wolfsburg",
+   "away": "Eisbären Berlin",
+   "home_pid": "37305",
+   "away_pid": "37300",
+   "tournament": "Német bajnokság",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318881963662450688",
+   "sport": "Jégkorong",
+   "name": "Augsburg - München",
+   "home": "Augsburg",
+   "away": "München",
+   "home_pid": "37303",
+   "away_pid": "53175",
+   "tournament": "Német bajnokság",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318881963068956672",
+   "sport": "Jégkorong",
+   "name": "Krefeld - Nürnberg",
+   "home": "Krefeld",
+   "away": "Nürnberg",
+   "home_pid": "37304",
+   "away_pid": "37296",
+   "tournament": "Német bajnokság",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318881962932641792",
+   "sport": "Jégkorong",
+   "name": "Ingolstadt - Straubing",
+   "home": "Ingolstadt",
+   "away": "Straubing",
+   "home_pid": "37299",
+   "away_pid": "37310",
+   "tournament": "Német bajnokság",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318881962837221376",
+   "sport": "Jégkorong",
+   "name": "Schwenningen - Köln",
+   "home": "Schwenningen",
+   "away": "Köln",
+   "home_pid": "101377",
+   "away_pid": "37297",
+   "tournament": "Német bajnokság",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318881963343683584",
+   "sport": "Jégkorong",
+   "name": "Frankfurt Löwen - Bremerhaven",
+   "home": "Frankfurt Löwen",
+   "away": "Bremerhaven",
+   "home_pid": "37298",
+   "away_pid": "53173",
+   "tournament": "Német bajnokság",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936602025992192",
+   "sport": "Jégkorong",
+   "name": "Südtirol Bolzano - Graz",
+   "home": "Südtirol Bolzano",
+   "away": "Graz",
+   "home_pid": "112223",
+   "away_pid": "1512570",
+   "tournament": "Osztrák bajnokság",
+   "start": "2026-11-13T18:45:00+00:00"
+  },
+  {
+   "id": "318936610503729152",
+   "sport": "Jégkorong",
+   "name": "Bern - Fribourg",
+   "home": "Bern",
+   "away": "Fribourg",
+   "home_pid": "37365",
+   "away_pid": "37369",
+   "tournament": "Svájci bajnokság",
+   "start": "2026-11-13T18:45:00+00:00"
+  },
+  {
+   "id": "318936609857806336",
+   "sport": "Jégkorong",
+   "name": "Lugano - Langnau Tigers",
+   "home": "Lugano",
+   "away": "Langnau Tigers",
+   "home_pid": "37358",
+   "away_pid": "37368",
+   "tournament": "Svájci bajnokság",
+   "start": "2026-11-13T18:45:00+00:00"
+  },
+  {
+   "id": "318936609699471360",
+   "sport": "Jégkorong",
+   "name": "Zug - Rapperswil",
+   "home": "Zug",
+   "away": "Rapperswil",
+   "home_pid": "37362",
+   "away_pid": "37361",
+   "tournament": "Svájci bajnokság",
+   "start": "2026-11-13T18:45:00+00:00"
+  },
+  {
+   "id": "318936609554767872",
+   "sport": "Jégkorong",
+   "name": "Davos - Ambri",
+   "home": "Davos",
+   "away": "Ambri",
+   "home_pid": "37359",
+   "away_pid": "37363",
+   "tournament": "Svájci bajnokság",
+   "start": "2026-11-13T18:45:00+00:00"
+  },
+  {
+   "id": "319728828430753792",
+   "sport": "Labdarúgás",
+   "name": "U20Lengyelország - U20Németország",
+   "home": "U20Lengyelország",
+   "away": "U20Németország",
+   "home_pid": "148346927463845888",
+   "away_pid": "23040",
+   "tournament": "U20 válogatott mérkőzés",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "319741445582954496",
+   "sport": "Labdarúgás",
+   "name": "St Philbert de Grandlieu - La Roche",
+   "home": "St Philbert de Grandlieu",
+   "away": "La Roche",
+   "home_pid": "155000429900517376",
+   "away_pid": "217014900558548992",
+   "tournament": "Francia Kupa",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "319741424590462976",
+   "sport": "Labdarúgás",
+   "name": "Dijon - Orleans",
+   "home": "Dijon",
+   "away": "Orleans",
+   "home_pid": "12643",
+   "away_pid": "58326",
+   "tournament": "Francia Kupa",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "319232460117319680",
+   "sport": "Labdarúgás",
+   "name": "Egyiptom - Malawi",
+   "home": "Egyiptom",
+   "away": "Malawi",
+   "home_pid": "1377",
+   "away_pid": "1935",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, B csoport",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "319233230645567488",
+   "sport": "Labdarúgás",
+   "name": "Mali - Ruanda",
+   "home": "Mali",
+   "away": "Ruanda",
+   "home_pid": "6759",
+   "away_pid": "13783",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, K csoport",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "319665915328274432",
+   "sport": "Labdarúgás",
+   "name": "Puerto Rico - Dominikai Közösség",
+   "home": "Puerto Rico",
+   "away": "Dominikai Közösség",
+   "home_pid": "1244472",
+   "away_pid": "182450725021073408",
+   "tournament": "CONCACAF Nemzetek Ligája, B Divízió, A csoport",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "319560259684343808",
+   "sport": "Labdarúgás",
+   "name": "Bermuda - St. Lucia",
+   "home": "Bermuda",
+   "away": "St. Lucia",
+   "home_pid": "182450727772537088",
+   "away_pid": "182450734957379584",
+   "tournament": "CONCACAF Nemzetek Ligája, B Divízió, B csoport",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936783275499520",
+   "sport": "Kosárlabda",
+   "name": "Phoenix Hagen - Ludwigsburg",
+   "home": "Phoenix Hagen",
+   "away": "Ludwigsburg",
+   "home_pid": "182947399874957312",
+   "away_pid": "10720",
+   "tournament": "Német bajnokság",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936775405936640",
+   "sport": "Kosárlabda",
+   "name": "Pau Orthez - Strasbourg",
+   "home": "Pau Orthez",
+   "away": "Strasbourg",
+   "home_pid": "6382",
+   "away_pid": "38127",
+   "tournament": "Francia bajnokság",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936728898445312",
+   "sport": "Kosárlabda",
+   "name": "Panathinaikosz - Barcelona",
+   "home": "Panathinaikosz",
+   "away": "Barcelona",
+   "home_pid": "174618946243186688",
+   "away_pid": "6371",
+   "tournament": "Euroliga",
+   "start": "2026-11-13T19:15:00+00:00"
+  },
+  {
+   "id": "319042540277932032",
+   "sport": "Labdarúgás",
+   "name": "U21Anglia - U21Portugália",
+   "home": "U21Anglia",
+   "away": "U21Portugália",
+   "home_pid": "19427",
+   "away_pid": "19426",
+   "tournament": "U21 válogatott mérkőzés",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "318617207340867584",
+   "sport": "Labdarúgás",
+   "name": "Leganes - Burgos",
+   "home": "Leganes",
+   "away": "Burgos",
+   "home_pid": "404",
+   "away_pid": "3561",
+   "tournament": "Spanyol 2.",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "318617207677460480",
+   "sport": "Labdarúgás",
+   "name": "Ospitaletto - Dolomiti Bellunesi",
+   "home": "Ospitaletto",
+   "away": "Dolomiti Bellunesi",
+   "home_pid": "244850451136770048",
+   "away_pid": "148809877827932160",
+   "tournament": "Olasz C, A csoport",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "318617207491862528",
+   "sport": "Labdarúgás",
+   "name": "Latina - Campobasso",
+   "home": "Latina",
+   "away": "Campobasso",
+   "home_pid": "358621",
+   "away_pid": "1172613",
+   "tournament": "Olasz C, B csoport",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "319313711513804800",
+   "sport": "Labdarúgás",
+   "name": "Pure Swansea - Treowen Stars",
+   "home": "Pure Swansea",
+   "away": "Treowen Stars",
+   "home_pid": "242139356740358400",
+   "away_pid": "274806564812099584",
+   "tournament": "Walesi 2., Dél",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "319233066227802112",
+   "sport": "Labdarúgás",
+   "name": "Denbigh Town - Gresford Athletic",
+   "home": "Denbigh Town",
+   "away": "Gresford Athletic",
+   "home_pid": "144805372995096576",
+   "away_pid": "1200948",
+   "tournament": "Walesi 2., Észak",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "318936803237240832",
+   "sport": "Kosárlabda",
+   "name": "ASVEL Lyon-Villeurbanne - Besiktas",
+   "home": "ASVEL Lyon-Villeurbanne",
+   "away": "Besiktas",
+   "home_pid": "9797",
+   "away_pid": "12531",
+   "tournament": "Euroliga",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "318936815521308672",
+   "sport": "Kosárlabda",
+   "name": "Krka Novo Mesto - Siroki Brijeg",
+   "home": "Krka Novo Mesto",
+   "away": "Siroki Brijeg",
+   "home_pid": "76787",
+   "away_pid": "185057083485376512",
+   "tournament": "ABA Liga, A csoport",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "316264012792799232",
+   "sport": "Labdarúgás",
+   "name": "Szerbia - Németország",
+   "home": "Szerbia",
+   "away": "Németország",
+   "home_pid": "756",
+   "away_pid": "771",
+   "tournament": "Nemzetek Ligája, A divízió, 2. csoport",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "316495542165250048",
+   "sport": "Labdarúgás",
+   "name": "Hollandia - Görögország",
+   "home": "Hollandia",
+   "away": "Görögország",
+   "home_pid": "786",
+   "away_pid": "761",
+   "tournament": "Nemzetek Ligája, A divízió, 2. csoport",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "316495542097092608",
+   "sport": "Labdarúgás",
+   "name": "Szlovénia - Svájc",
+   "home": "Szlovénia",
+   "away": "Svájc",
+   "home_pid": "780",
+   "away_pid": "773",
+   "tournament": "Nemzetek Ligája, B divízió, 1. csoport",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "317010122022920192",
+   "sport": "Labdarúgás",
+   "name": "Skócia - Észak-Macedónia",
+   "home": "Skócia",
+   "away": "Észak-Macedónia",
+   "home_pid": "783",
+   "away_pid": "789",
+   "tournament": "Nemzetek Ligája, B divízió, 1. csoport",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "316316025984458752",
+   "sport": "Labdarúgás",
+   "name": "Szlovákia - Feröer-szigetek",
+   "home": "Szlovákia",
+   "away": "Feröer-szigetek",
+   "home_pid": "782",
+   "away_pid": "766",
+   "tournament": "Nemzetek Ligája, C divízió, 3. csoport",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "317010121919111168",
+   "sport": "Labdarúgás",
+   "name": "Bulgária - Izland",
+   "home": "Bulgária",
+   "away": "Izland",
+   "home_pid": "767",
+   "away_pid": "795",
+   "tournament": "Nemzetek Ligája, C divízió, 4. csoport",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "317010121843613696",
+   "sport": "Labdarúgás",
+   "name": "Luxemburg - Észtország",
+   "home": "Luxemburg",
+   "away": "Észtország",
+   "home_pid": "792",
+   "away_pid": "765",
+   "tournament": "Nemzetek Ligája, C divízió, 4. csoport",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "317010121676890112",
+   "sport": "Labdarúgás",
+   "name": "Andorra - Gibraltár",
+   "home": "Andorra",
+   "away": "Gibraltár",
+   "home_pid": "181229286697521152",
+   "away_pid": "1034830",
+   "tournament": "Nemzetek Ligája, D divízió, 1. csoport",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "317010122112049152",
+   "sport": "Labdarúgás",
+   "name": "Liechtenstein - Azerbajdzsán",
+   "home": "Liechtenstein",
+   "away": "Azerbajdzsán",
+   "home_pid": "797",
+   "away_pid": "790",
+   "tournament": "Nemzetek Ligája, D divízió, 2. csoport",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "318617838849957888",
+   "sport": "Labdarúgás",
+   "name": "Coleraine FC - Portadown FC",
+   "home": "Coleraine FC",
+   "away": "Portadown FC",
+   "home_pid": "1982",
+   "away_pid": "457",
+   "tournament": "Észak-Ír bajnokság",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "318617838767120384",
+   "sport": "Labdarúgás",
+   "name": "Glentoran - Bangor",
+   "home": "Glentoran",
+   "away": "Bangor",
+   "home_pid": "2001",
+   "away_pid": "58286",
+   "tournament": "Észak-Ír bajnokság",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "318617839034507264",
+   "sport": "Labdarúgás",
+   "name": "Crusaders - Carrick Rangers",
+   "home": "Crusaders",
+   "away": "Carrick Rangers",
+   "home_pid": "19405",
+   "away_pid": "100202",
+   "tournament": "Észak-Ír bajnokság",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "319321435512315904",
+   "sport": "Labdarúgás",
+   "name": "Larne - Dungannon",
+   "home": "Larne",
+   "away": "Dungannon",
+   "home_pid": "19283",
+   "away_pid": "19284",
+   "tournament": "Észak-Ír bajnokság",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "318617838942232576",
+   "sport": "Labdarúgás",
+   "name": "Limavady Utd. - Cliftonville",
+   "home": "Limavady Utd.",
+   "away": "Cliftonville",
+   "home_pid": "146477451479928832",
+   "away_pid": "5466",
+   "tournament": "Észak-Ír bajnokság",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "318617839124684800",
+   "sport": "Labdarúgás",
+   "name": "Ballymena - Linfield",
+   "home": "Ballymena",
+   "away": "Linfield",
+   "home_pid": "19282",
+   "away_pid": "492",
+   "tournament": "Észak-Ír bajnokság",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "318809020984008704",
+   "sport": "Labdarúgás",
+   "name": "Salamanca CF UDS - Celta Vigo",
+   "home": "Salamanca CF UDS",
+   "away": "Celta Vigo",
+   "home_pid": "1616402236207104",
+   "away_pid": "290",
+   "tournament": "Spanyol Kupa",
+   "start": "2026-11-13T20:00:00+00:00"
+  },
+  {
+   "id": "317995485227982848",
+   "sport": "Labdarúgás",
+   "name": "Marokkó - Niger",
+   "home": "Marokkó",
+   "away": "Niger",
+   "home_pid": "1040",
+   "away_pid": "68332",
+   "tournament": "Afrikai Nemzetek Kupája-selejtező, A csoport",
+   "start": "2026-11-13T20:00:00+00:00"
+  },
+  {
+   "id": "319664670142177280",
+   "sport": "Labdarúgás",
+   "name": "Grenada - Saint Kitts és Nevis",
+   "home": "Grenada",
+   "away": "Saint Kitts és Nevis",
+   "home_pid": "182450724823941120",
+   "away_pid": "182450735760588800",
+   "tournament": "CONCACAF Nemzetek Ligája, B Divízió, C csoport",
+   "start": "2026-11-13T20:00:00+00:00"
+  },
+  {
+   "id": "319534473088671744",
+   "sport": "Labdarúgás",
+   "name": "Racing Club - Independiente Avellaneda",
+   "home": "Racing Club",
+   "away": "Independiente Avellaneda",
+   "home_pid": "6314413038649344",
+   "away_pid": "6441106976030720",
+   "tournament": "Argentin bajnokság, női",
+   "start": "2026-11-13T20:00:00+00:00"
+  },
+  {
+   "id": "319205764100071424",
+   "sport": "Labdarúgás",
+   "name": "Montevideo City Torque - Racing Montevideo",
+   "home": "Montevideo City Torque",
+   "away": "Racing Montevideo",
+   "home_pid": "879902",
+   "away_pid": "1398471",
+   "tournament": "Uruguayi bajnokság",
+   "start": "2026-11-13T20:00:00+00:00"
+  },
+  {
+   "id": "319719924237934592",
+   "sport": "Tenisz",
+   "name": "Mirra Andreeva - Karolina Muchova",
+   "home": "Mirra Andreeva",
+   "away": "Karolina Muchova",
+   "home_pid": "163021627214319616",
+   "away_pid": "792410",
+   "tournament": "WTA-vb, női egyes, B csoport",
+   "start": "2026-11-13T20:00:00+00:00"
+  },
+  {
+   "id": "319584996845232128",
+   "sport": "Labdarúgás",
+   "name": "Gimnastic - Real Madrid 2",
+   "home": "Gimnastic",
+   "away": "Real Madrid 2",
+   "home_pid": "3554",
+   "away_pid": "36278",
+   "tournament": "Spanyol 3., 2. csoport",
+   "start": "2026-11-13T20:15:00+00:00"
+  },
+  {
+   "id": "319719924162437120",
+   "sport": "Tenisz",
+   "name": "Aryna Sabalenka - Elina Svitolina",
+   "home": "Aryna Sabalenka",
+   "away": "Elina Svitolina",
+   "home_pid": "1134171",
+   "away_pid": "404169",
+   "tournament": "WTA-vb, női egyes, B csoport",
+   "start": "2026-11-13T21:10:00+00:00"
+  },
+  {
+   "id": "319685625240428544",
+   "sport": "Labdarúgás",
+   "name": "Irak - Libanon",
+   "home": "Irak",
+   "away": "Libanon",
+   "home_pid": "3437",
+   "away_pid": "1529",
+   "tournament": "Válogatott mérkőzés 2026",
+   "start": "2026-11-13T15:00:00+00:00"
+  },
+  {
    "id": "319672833079844864",
    "sport": "Labdarúgás",
    "name": "Gornik Zabrze - Polonia Bytom",
@@ -1987,6 +4177,28 @@
    "away_pid": "19822",
    "tournament": "U21 válogatott mérkőzés 2026",
    "start": "2026-11-12T09:00:00+00:00"
+  },
+  {
+   "id": "319725943574831104",
+   "sport": "Labdarúgás",
+   "name": "U21Montenegró - U21Bosznia-Hercegovina",
+   "home": "U21Montenegró",
+   "away": "U21Bosznia-Hercegovina",
+   "home_pid": "77961",
+   "away_pid": "22876",
+   "tournament": "U21 válogatott mérkőzés 2026",
+   "start": "2026-11-13T13:00:00+00:00"
+  },
+  {
+   "id": "319722066238578688",
+   "sport": "Labdarúgás",
+   "name": "U21Spanyolország - U21Japán",
+   "home": "U21Spanyolország",
+   "away": "U21Japán",
+   "home_pid": "19445",
+   "away_pid": "305296475600678912",
+   "tournament": "U21 válogatott mérkőzés 2026",
+   "start": "2026-11-13T18:00:00+00:00"
   },
   {
    "id": "319669615917604864",
@@ -2121,6 +4333,17 @@
    "start": "2026-11-12T15:00:00+00:00"
   },
   {
+   "id": "319670858135183360",
+   "sport": "Labdarúgás",
+   "name": "Sturm Graz - FC Vienna",
+   "home": "Sturm Graz",
+   "away": "FC Vienna",
+   "home_pid": "1400404",
+   "away_pid": "147452360303628288",
+   "tournament": "Osztrák bajnokság, női 2026/2027",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
    "id": "319674341961834496",
    "sport": "Labdarúgás",
    "name": "Ceara - FC Atletico Cearense",
@@ -2132,6 +4355,17 @@
    "start": "2026-11-12T18:00:00+00:00"
   },
   {
+   "id": "319682813957840896",
+   "sport": "Labdarúgás",
+   "name": "Flugoiania - Anapolina Saf GO",
+   "home": "Flugoiania",
+   "away": "Anapolina Saf GO",
+   "home_pid": "244457638750449664",
+   "away_pid": "281519971972026368",
+   "tournament": "Brazil Goiano, női 2026/2026",
+   "start": "2026-11-12T19:00:00+00:00"
+  },
+  {
    "id": "319696869662990336",
    "sport": "Labdarúgás",
    "name": "Paysandu - Tiradentes",
@@ -2141,6 +4375,17 @@
    "away_pid": "220218535572557824",
    "tournament": "Brazil Paraense, női 2026/2026",
    "start": "2026-11-12T18:30:00+00:00"
+  },
+  {
+   "id": "319727324546277376",
+   "sport": "Labdarúgás",
+   "name": "U19Zlín - U19Dukla Praha",
+   "home": "U19Zlín",
+   "away": "U19Dukla Praha",
+   "home_pid": "493279",
+   "away_pid": "168269651029053440",
+   "tournament": "U19 Cseh bajnokság 2027",
+   "start": "2026-11-13T12:00:00+00:00"
   },
   {
    "id": "319700924674154496",
@@ -2165,15 +4410,15 @@
    "start": "2026-11-12T13:00:00+00:00"
   },
   {
-   "id": "319648860362317824",
+   "id": "319738682586243072",
    "sport": "Labdarúgás",
-   "name": "Bengaluru FC B - Rebels",
-   "home": "Bengaluru FC B",
-   "away": "Rebels",
-   "home_pid": "184030126688751616",
-   "away_pid": "2713698086682624",
-   "tournament": "Indiai Bangalore Super Division 2026/2026",
-   "start": "2026-11-12T08:00:00+00:00"
+   "name": "Levels FC - Gezira SC",
+   "home": "Levels FC",
+   "away": "Gezira SC",
+   "home_pid": "281535101324627968",
+   "away_pid": "313974595387027456",
+   "tournament": "Egyiptomi 3. 2026/2027",
+   "start": "2026-11-13T11:30:00+00:00"
   },
   {
    "id": "319691327070609408",
@@ -2187,6 +4432,17 @@
    "start": "2026-11-12T10:30:00+00:00"
   },
   {
+   "id": "319745453529833472",
+   "sport": "Labdarúgás",
+   "name": "Kodagu - Technico FF",
+   "home": "Kodagu",
+   "away": "Technico FF",
+   "home_pid": "152861427175211008",
+   "away_pid": "314575053690400768",
+   "tournament": "Indiai Bangalore Super Division 2026/2026",
+   "start": "2026-11-13T06:00:00+00:00"
+  },
+  {
    "id": "319671986574925824",
    "sport": "Labdarúgás",
    "name": "Al-Ahli (JOR) - Amman FC",
@@ -2196,6 +4452,28 @@
    "away_pid": "3957899293624320",
    "tournament": "Jordán 2. 2026",
    "start": "2026-11-12T15:00:00+00:00"
+  },
+  {
+   "id": "319736370207727616",
+   "sport": "Labdarúgás",
+   "name": "Jerash SC - Ittihad AL Ramtha",
+   "home": "Jerash SC",
+   "away": "Ittihad AL Ramtha",
+   "home_pid": "145719089380249600",
+   "away_pid": "1165667",
+   "tournament": "Jordán 2. 2026",
+   "start": "2026-11-13T15:00:00+00:00"
+  },
+  {
+   "id": "319739435679817728",
+   "sport": "Labdarúgás",
+   "name": "Al Hashemeya - Sama Al Sarhan",
+   "home": "Al Hashemeya",
+   "away": "Sama Al Sarhan",
+   "home_pid": "146371205716299776",
+   "away_pid": "7434848712683520",
+   "tournament": "Jordán 2. 2026",
+   "start": "2026-11-13T15:00:00+00:00"
   },
   {
    "id": "319677504388407296",
@@ -2253,28 +4531,6 @@
    "start": "2026-11-12T16:15:00+00:00"
   },
   {
-   "id": "319688162603507712",
-   "sport": "Labdarúgás",
-   "name": "U20Tianjin - U20Shandong Taishan",
-   "home": "U20Tianjin",
-   "away": "U20Shandong Taishan",
-   "home_pid": "303890464382873600",
-   "away_pid": "286513255926763520",
-   "tournament": "U20 Kínai bajnokság 2026/2027",
-   "start": "2026-11-12T07:00:00+00:00"
-  },
-  {
-   "id": "319670080180920320",
-   "sport": "Labdarúgás",
-   "name": "U20Wuhan Three Towns - U20Liaoning",
-   "home": "U20Wuhan Three Towns",
-   "away": "U20Liaoning",
-   "home_pid": "302349750899085312",
-   "away_pid": "286679393175375872",
-   "tournament": "U20 Kínai bajnokság 2026/2027",
-   "start": "2026-11-12T07:00:00+00:00"
-  },
-  {
    "id": "319670257020116992",
    "sport": "Labdarúgás",
    "name": "U20Kuala Lumpur City - U20Kuching City",
@@ -2295,6 +4551,17 @@
    "away_pid": "256438251640184832",
    "tournament": "Máltai bajnokság, női 2026/2027",
    "start": "2026-11-12T19:15:00+00:00"
+  },
+  {
+   "id": "319736639919300608",
+   "sport": "Labdarúgás",
+   "name": "Tritones Vallarta - H20 Purepechas FC",
+   "home": "Tritones Vallarta",
+   "away": "H20 Purepechas FC",
+   "home_pid": "151649275924762624",
+   "away_pid": "219824992632852480",
+   "tournament": "Mexikói 3. 2026/2027",
+   "start": "2026-11-12T16:00:00+00:00"
   },
   {
    "id": "319687135657533440",
@@ -2330,6 +4597,17 @@
    "start": "2026-11-12T18:00:00+00:00"
   },
   {
+   "id": "319478524583944192",
+   "sport": "Labdarúgás",
+   "name": "Triglav Gorenjska - NK Bilje",
+   "home": "Triglav Gorenjska",
+   "away": "NK Bilje",
+   "home_pid": "416410",
+   "away_pid": "2735341991129088",
+   "tournament": "Szlovén 2. 2026/2027",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
    "id": "319666146887409664",
    "sport": "Labdarúgás",
    "name": "Esan Fighter - Yasothon FC",
@@ -2363,17 +4641,6 @@
    "start": "2026-11-12T10:00:00+00:00"
   },
   {
-   "id": "319627208710758400",
-   "sport": "Labdarúgás",
-   "name": "U21Suphanburi - U21Kanchanaburi Power",
-   "home": "U21Suphanburi",
-   "away": "U21Kanchanaburi Power",
-   "home_pid": "284235870351167488",
-   "away_pid": "283429799792513024",
-   "tournament": "U21 Thaiföldi bajnokság 2026/2027",
-   "start": "2026-11-12T09:00:00+00:00"
-  },
-  {
    "id": "319627208803033088",
    "sport": "Labdarúgás",
    "name": "U21Bangkok Utd. - U21Nong Bua Pitchaya",
@@ -2381,6 +4648,17 @@
    "away": "U21Nong Bua Pitchaya",
    "home_pid": "283789555637981184",
    "away_pid": "283789561577115648",
+   "tournament": "U21 Thaiföldi bajnokság 2026/2027",
+   "start": "2026-11-12T09:00:00+00:00"
+  },
+  {
+   "id": "319627208710758400",
+   "sport": "Labdarúgás",
+   "name": "U21Suphanburi - U21Kanchanaburi Power",
+   "home": "U21Suphanburi",
+   "away": "U21Kanchanaburi Power",
+   "home_pid": "284235870351167488",
+   "away_pid": "283429799792513024",
    "tournament": "U21 Thaiföldi bajnokság 2026/2027",
    "start": "2026-11-12T09:00:00+00:00"
   },
@@ -2393,6 +4671,39 @@
    "home_pid": "10798511423229952",
    "away_pid": "1195204",
    "tournament": "Ugandai bajnokság 2026/2027",
+   "start": "2026-11-12T13:00:00+00:00"
+  },
+  {
+   "id": "319734102399983616",
+   "sport": "Labdarúgás",
+   "name": "Deportivo Lara - Zamora Barinas 2",
+   "home": "Deportivo Lara",
+   "away": "Zamora Barinas 2",
+   "home_pid": "295837719460089856",
+   "away_pid": "296314097148137984",
+   "tournament": "Venezuelai 2. 2026",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "319743603667705856",
+   "sport": "Labdarúgás",
+   "name": "Nifas Silk Lafto Ketema - Arba Minch",
+   "home": "Nifas Silk Lafto Ketema",
+   "away": "Arba Minch",
+   "home_pid": "291840382281748480",
+   "away_pid": "192562531554979840",
+   "tournament": "Etiópiai bajnokság, női 2026/2027",
+   "start": "2026-11-12T11:00:00+00:00"
+  },
+  {
+   "id": "319743610638639104",
+   "sport": "Labdarúgás",
+   "name": "Fasil Ketema - Kirkos",
+   "home": "Fasil Ketema",
+   "away": "Kirkos",
+   "home_pid": "291840378439766016",
+   "away_pid": "252795153836707840",
+   "tournament": "Etiópiai bajnokság, női 2026/2027",
    "start": "2026-11-12T13:00:00+00:00"
   },
   {
@@ -2473,6 +4784,17 @@
    "start": "2026-11-12T13:50:00+00:00"
   },
   {
+   "id": "319732241874886656",
+   "sport": "Tenisz",
+   "name": "Bayldon B./Fancutt T. - Ellis B./Tu L.",
+   "home": "Bayldon B./Fancutt T.",
+   "away": "Ellis B./Tu L.",
+   "home_pid": "315388042586779648",
+   "away_pid": "317571362307776512",
+   "tournament": "Brisbane, férfi páros 2026",
+   "start": "2026-11-13T03:20:00+00:00"
+  },
+  {
    "id": "319681837385457664",
    "sport": "Tenisz",
    "name": "Latinovic S./Molchanov D. - Paul J./Vocel M.",
@@ -2482,6 +4804,28 @@
    "away_pid": "238332364654546944",
    "tournament": "Orleans, férfi páros",
    "start": "2026-11-12T10:00:00+00:00"
+  },
+  {
+   "id": "319691636695179264",
+   "sport": "Tenisz",
+   "name": "Escobar G./Kaliyanda Poonacha N. - Cervantes Huegun I./Martinez P.",
+   "home": "Escobar G./Kaliyanda Poonacha N.",
+   "away": "Cervantes Huegun I./Martinez P.",
+   "home_pid": "309860967610126336",
+   "away_pid": "262941425795084288",
+   "tournament": "Orleans, férfi páros",
+   "start": "2026-11-13T10:00:00+00:00"
+  },
+  {
+   "id": "319703553151148032",
+   "sport": "Tenisz",
+   "name": "Liutarevich I./Pieczonka F. - Cukierman D./Romboli F.",
+   "home": "Liutarevich I./Pieczonka F.",
+   "away": "Cukierman D./Romboli F.",
+   "home_pid": "295237619134271488",
+   "away_pid": "314873061691781120",
+   "tournament": "Orleans, férfi páros",
+   "start": "2026-11-13T10:00:00+00:00"
   },
   {
    "id": "319705584458866688",
@@ -2506,17 +4850,6 @@
    "start": "2026-11-12T18:40:00+00:00"
   },
   {
-   "id": "319663782047588352",
-   "sport": "Tenisz",
-   "name": "Cornea V.V./Wehnelt K. - Ganchev A./Maes S.",
-   "home": "Cornea V.V./Wehnelt K.",
-   "away": "Ganchev A./Maes S.",
-   "home_pid": "317408039405690880",
-   "away_pid": "305555787346571264",
-   "tournament": "Herszonisszosz, férfi páros 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
    "id": "319676979004645376",
    "sport": "Tenisz",
    "name": "Tsitsipas P./Tsitsipas P. - Fomin S./Krutykh O.",
@@ -2526,6 +4859,28 @@
    "away_pid": "319310547639148544",
    "tournament": "Herszonisszosz, férfi páros 2026",
    "start": "2026-11-12T10:20:00+00:00"
+  },
+  {
+   "id": "319741404141133824",
+   "sport": "Tenisz",
+   "name": "Reynolds F./Watt J. - Kusuhara Y./Nakagawa S.",
+   "home": "Reynolds F./Watt J.",
+   "away": "Kusuhara Y./Nakagawa S.",
+   "home_pid": "266077246258810880",
+   "away_pid": "231346872445734912",
+   "tournament": "Matsuyama, férfi páros 2026",
+   "start": "2026-11-13T04:20:00+00:00"
+  },
+  {
+   "id": "319737608217370624",
+   "sport": "Tenisz",
+   "name": "Isaro P./Shimizu Y. - Kadhe A./Wang A.",
+   "home": "Isaro P./Shimizu Y.",
+   "away": "Kadhe A./Wang A.",
+   "home_pid": "319285850403840000",
+   "away_pid": "319285860418789376",
+   "tournament": "Matsuyama, férfi páros 2026",
+   "start": "2026-11-13T04:20:00+00:00"
   },
   {
    "id": "319699249030832128",
@@ -2548,6 +4903,17 @@
    "away_pid": "112637361241870336",
    "tournament": "Lima, férfi páros 2026",
    "start": "2026-11-12T19:00:00+00:00"
+  },
+  {
+   "id": "319742157326983168",
+   "sport": "Tenisz",
+   "name": "Hidalgo D./Molteni A. - Rincon D./Roca Batalla O.",
+   "home": "Hidalgo D./Molteni A.",
+   "away": "Rincon D./Roca Batalla O.",
+   "home_pid": "318690548122722304",
+   "away_pid": "221137468692516864",
+   "tournament": "Lima, férfi páros 2026",
+   "start": "2026-11-12T20:00:00+00:00"
   },
   {
    "id": "319682238191050752",
@@ -2590,7 +4956,7 @@
    "away": "McAdoo R./Rogers A.",
    "home_pid": "319693981978009600",
    "away_pid": "313895854109519872",
-   "tournament": "WTA 125K Sopo Doubles 2026",
+   "tournament": "Sopo, női páros 2026",
    "start": "2026-11-12T15:00:00+00:00"
   },
   {
@@ -2601,7 +4967,7 @@
    "away": "McGiffin T./Osborne A.",
    "home_pid": "319693986825576448",
    "away_pid": "318972663560216576",
-   "tournament": "WTA 125K Sopo Doubles 2026",
+   "tournament": "Sopo, női páros 2026",
    "start": "2026-11-12T16:10:00+00:00"
   },
   {
@@ -2612,7 +4978,7 @@
    "away": "Monnet C./Pigossi L.",
    "home_pid": "269457140907905024",
    "away_pid": "286008103701614592",
-   "tournament": "WTA 125K Sopo Doubles 2026",
+   "tournament": "Sopo, női páros 2026",
    "start": "2026-11-12T17:20:00+00:00"
   },
   {
@@ -2623,7 +4989,7 @@
    "away": "Mediorreal Arias V./Perez Garcia M.P.",
    "home_pid": "318972670071873536",
    "away_pid": "266154785329254400",
-   "tournament": "WTA 125K Sopo Doubles 2026",
+   "tournament": "Sopo, női páros 2026",
    "start": "2026-11-12T17:20:00+00:00"
   },
   {
@@ -2671,17 +5037,6 @@
    "start": "2026-11-12T17:00:00+00:00"
   },
   {
-   "id": "319717876622761984",
-   "sport": "Tenisz",
-   "name": "Aidan Kim - Jack Anthrop",
-   "home": "Aidan Kim",
-   "away": "Jack Anthrop",
-   "home_pid": "126707681088032768",
-   "away_pid": "140008919959392256",
-   "tournament": "Columbus, férfi egyes 2026",
-   "start": "2026-11-12T17:00:00+00:00"
-  },
-  {
    "id": "319702720290299904",
    "sport": "Tenisz",
    "name": "Rishvanth Krishna - Ofek Shimanov",
@@ -2689,6 +5044,17 @@
    "away": "Ofek Shimanov",
    "home_pid": "242095446065319936",
    "away_pid": "153238066669080576",
+   "tournament": "Columbus, férfi egyes 2026",
+   "start": "2026-11-12T17:00:00+00:00"
+  },
+  {
+   "id": "319717876622761984",
+   "sport": "Tenisz",
+   "name": "Aidan Kim - Jack Anthrop",
+   "home": "Aidan Kim",
+   "away": "Jack Anthrop",
+   "home_pid": "126707681088032768",
+   "away_pid": "140008919959392256",
    "tournament": "Columbus, férfi egyes 2026",
    "start": "2026-11-12T17:00:00+00:00"
   },
@@ -2812,6 +5178,127 @@
    "away_pid": "271322675664785408",
    "tournament": "Las Palmas, férfi egyes 2026",
    "start": "2026-11-12T11:30:00+00:00"
+  },
+  {
+   "id": "319744894362001408",
+   "sport": "Tenisz",
+   "name": "Aunion P./Palomar X. - Garcia Longo N./Miletich I.",
+   "home": "Aunion P./Palomar X.",
+   "away": "Garcia Longo N./Miletich I.",
+   "home_pid": "294137173750616064",
+   "away_pid": "290387739079380992",
+   "tournament": "Las Palmas, férfi páros 2026",
+   "start": "2026-11-12T13:45:00+00:00"
+  },
+  {
+   "id": "319744894466859008",
+   "sport": "Tenisz",
+   "name": "Cordoba C./Fita Juan S. - Naharro D./Pujol Navarro B.",
+   "home": "Cordoba C./Fita Juan S.",
+   "away": "Naharro D./Pujol Navarro B.",
+   "home_pid": "319512638593769472",
+   "away_pid": "319507463093166080",
+   "tournament": "Las Palmas, férfi páros 2026",
+   "start": "2026-11-12T13:45:00+00:00"
+  },
+  {
+   "id": "319744894547599360",
+   "sport": "Tenisz",
+   "name": "Gonzalez-Galino V./Ponce de Leon Gomila M. - Barroso Campos A./Schiavone P.",
+   "home": "Gonzalez-Galino V./Ponce de Leon Gomila M.",
+   "away": "Barroso Campos A./Schiavone P.",
+   "home_pid": "319513118158954496",
+   "away_pid": "306194406249820160",
+   "tournament": "Las Palmas, férfi páros 2026",
+   "start": "2026-11-12T13:45:00+00:00"
+  },
+  {
+   "id": "319742557996261376",
+   "sport": "Tenisz",
+   "name": "Juan Ignacio Gallego - Tomás Martinez",
+   "home": "Juan Ignacio Gallego",
+   "away": "Tomás Martinez",
+   "home_pid": "219187145758363648",
+   "away_pid": "155137302607220736",
+   "tournament": "Roldan, férfi egyes 2026",
+   "start": "2026-11-12T12:30:00+00:00"
+  },
+  {
+   "id": "319742557739360256",
+   "sport": "Tenisz",
+   "name": "Murkel Alejandro Dellien Velasco - Francisco Crosio",
+   "home": "Murkel Alejandro Dellien Velasco",
+   "away": "Francisco Crosio",
+   "home_pid": "139997776675131392",
+   "away_pid": "207765544398647296",
+   "tournament": "Roldan, férfi egyes 2026",
+   "start": "2026-11-12T12:30:00+00:00"
+  },
+  {
+   "id": "319742557830586368",
+   "sport": "Tenisz",
+   "name": "Nicolas Bruna - Thiago Cigarran",
+   "home": "Nicolas Bruna",
+   "away": "Thiago Cigarran",
+   "home_pid": "1459866",
+   "away_pid": "9496402894393344",
+   "tournament": "Roldan, férfi egyes 2026",
+   "start": "2026-11-12T12:30:00+00:00"
+  },
+  {
+   "id": "319742558133624832",
+   "sport": "Tenisz",
+   "name": "Valentin Garay - Fermin Tenti",
+   "home": "Valentin Garay",
+   "away": "Fermin Tenti",
+   "home_pid": "192556466831519744",
+   "away_pid": "1432755",
+   "tournament": "Roldan, férfi egyes 2026",
+   "start": "2026-11-12T14:00:00+00:00"
+  },
+  {
+   "id": "319742557629259776",
+   "sport": "Tenisz",
+   "name": "Juan Estevez - Valentin Basel",
+   "home": "Juan Estevez",
+   "away": "Valentin Basel",
+   "home_pid": "151324912235106304",
+   "away_pid": "183660076092936192",
+   "tournament": "Roldan, férfi egyes 2026",
+   "start": "2026-11-12T14:00:00+00:00"
+  },
+  {
+   "id": "319742557273792512",
+   "sport": "Tenisz",
+   "name": "Dante Pagani - Felipe De Dios",
+   "home": "Dante Pagani",
+   "away": "Felipe De Dios",
+   "home_pid": "254696936230477824",
+   "away_pid": "155136820763480064",
+   "tournament": "Roldan, férfi egyes 2026",
+   "start": "2026-11-12T14:00:00+00:00"
+  },
+  {
+   "id": "319742557454147584",
+   "sport": "Tenisz",
+   "name": "Rocco Valente - Lucio Ratti",
+   "home": "Rocco Valente",
+   "away": "Lucio Ratti",
+   "home_pid": "186301968826814464",
+   "away_pid": "158905096915177472",
+   "tournament": "Roldan, férfi egyes 2026",
+   "start": "2026-11-12T15:00:00+00:00"
+  },
+  {
+   "id": "319742557332512768",
+   "sport": "Tenisz",
+   "name": "Tobia Grandinetti - Hernan Casanova",
+   "home": "Tobia Grandinetti",
+   "away": "Hernan Casanova",
+   "home_pid": "166522716617232384",
+   "away_pid": "678100",
+   "tournament": "Roldan, férfi egyes 2026",
+   "start": "2026-11-12T15:00:00+00:00"
   },
   {
    "id": "319696381016088576",
@@ -2946,48 +5433,15 @@
    "start": "2026-11-12T22:30:00+00:00"
   },
   {
-   "id": "319690562692259840",
+   "id": "319705866295123968",
    "sport": "Tenisz",
-   "name": "Filiberto Fumagalli - Saba Purtseladze",
-   "home": "Filiberto Fumagalli",
-   "away": "Saba Purtseladze",
-   "home_pid": "141414195788828672",
-   "away_pid": "1231126401544192",
+   "name": "Karim Ibrahim - Artur Kukasian",
+   "home": "Karim Ibrahim",
+   "away": "Artur Kukasian",
+   "home_pid": "122245916996456448",
+   "away_pid": "216602296421863424",
    "tournament": "Sharm El Sheikh, férfi egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319690563049824256",
-   "sport": "Tenisz",
-   "name": "Aleksandre Bakshi - Hazem Naw",
-   "home": "Aleksandre Bakshi",
-   "away": "Hazem Naw",
-   "home_pid": "1480620",
-   "away_pid": "1550239020773376",
-   "tournament": "Sharm El Sheikh, férfi egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319690562840109056",
-   "sport": "Tenisz",
-   "name": "Lorenzo Bocchi - John Bothma",
-   "home": "Lorenzo Bocchi",
-   "away": "John Bothma",
-   "home_pid": "1353797",
-   "away_pid": "240235273721909248",
-   "tournament": "Sharm El Sheikh, férfi egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319690562598936576",
-   "sport": "Tenisz",
-   "name": "Marek Gengel - Ole Bredschneijder",
-   "home": "Marek Gengel",
-   "away": "Ole Bredschneijder",
-   "home_pid": "1316900",
-   "away_pid": "158916685769789440",
-   "tournament": "Sharm El Sheikh, férfi egyes 2026",
-   "start": "2026-11-12T09:00:00+00:00"
+   "start": "2026-11-12T09:06:00+00:00"
   },
   {
    "id": "319690562974326784",
@@ -2998,7 +5452,7 @@
    "home_pid": "276890289229139968",
    "away_pid": "176143831554641920",
    "tournament": "Sharm El Sheikh, férfi egyes 2026",
-   "start": "2026-11-12T09:00:00+00:00"
+   "start": "2026-11-12T09:07:00+00:00"
   },
   {
    "id": "319691452600885248",
@@ -3009,18 +5463,18 @@
    "home_pid": "208363322610970624",
    "away_pid": "296038620276756480",
    "tournament": "Sharm El Sheikh, férfi egyes 2026",
-   "start": "2026-11-12T09:00:00+00:00"
+   "start": "2026-11-12T09:07:00+00:00"
   },
   {
-   "id": "319705866295123968",
+   "id": "319690562598936576",
    "sport": "Tenisz",
-   "name": "Karim Ibrahim - Artur Kukasian",
-   "home": "Karim Ibrahim",
-   "away": "Artur Kukasian",
-   "home_pid": "122245916996456448",
-   "away_pid": "216602296421863424",
+   "name": "Marek Gengel - Ole Bredschneijder",
+   "home": "Marek Gengel",
+   "away": "Ole Bredschneijder",
+   "home_pid": "1316900",
+   "away_pid": "158916685769789440",
    "tournament": "Sharm El Sheikh, férfi egyes 2026",
-   "start": "2026-11-12T09:00:00+00:00"
+   "start": "2026-11-12T09:10:00+00:00"
   },
   {
    "id": "319692795972493312",
@@ -3031,7 +5485,7 @@
    "home_pid": "318930037211471872",
    "away_pid": "319508813651714048",
    "tournament": "Sharm El Sheikh, férfi páros 2026",
-   "start": "2026-11-12T10:00:00+00:00"
+   "start": "2026-11-12T10:07:00+00:00"
   },
   {
    "id": "319692795692523520",
@@ -3067,39 +5521,6 @@
    "start": "2026-11-12T22:00:00+00:00"
   },
   {
-   "id": "319690005109874688",
-   "sport": "Tenisz",
-   "name": "Conor Gannon - Miles Jones",
-   "home": "Conor Gannon",
-   "away": "Miles Jones",
-   "home_pid": "172883031825108992",
-   "away_pid": "129276380566310912",
-   "tournament": "Heraklion, férfi egyes 2026",
-   "start": "2026-11-12T07:30:00+00:00"
-  },
-  {
-   "id": "319689818165551104",
-   "sport": "Tenisz",
-   "name": "Arthur Weber - Mickael Kaouk",
-   "home": "Arthur Weber",
-   "away": "Mickael Kaouk",
-   "home_pid": "150269592714924032",
-   "away_pid": "246568463504109568",
-   "tournament": "Heraklion, férfi egyes 2026",
-   "start": "2026-11-12T07:30:00+00:00"
-  },
-  {
-   "id": "319689431864909824",
-   "sport": "Tenisz",
-   "name": "Josip Simundza - Brand Dan",
-   "home": "Josip Simundza",
-   "away": "Brand Dan",
-   "home_pid": "135561726098722816",
-   "away_pid": "285908924804403200",
-   "tournament": "Heraklion, férfi egyes 2026",
-   "start": "2026-11-12T07:30:00+00:00"
-  },
-  {
    "id": "319705000965120000",
    "sport": "Tenisz",
    "name": "Dominique Rolland - Thomas Flynn",
@@ -3108,7 +5529,7 @@
    "home_pid": "132302162047848448",
    "away_pid": "198306378982518784",
    "tournament": "Heraklion, férfi egyes 2026",
-   "start": "2026-11-12T07:30:00+00:00"
+   "start": "2026-11-12T10:00:00+00:00"
   },
   {
    "id": "319689818072227840",
@@ -3177,17 +5598,6 @@
    "start": "2026-11-12T12:00:00+00:00"
   },
   {
-   "id": "319693071395659776",
-   "sport": "Tenisz",
-   "name": "Jones A./Jones M. - Dimitriou G./Reyniak M.",
-   "home": "Jones A./Jones M.",
-   "away": "Dimitriou G./Reyniak M.",
-   "home_pid": "220627001958092800",
-   "away_pid": "319527096975171584",
-   "tournament": "Heraklion, férfi páros 2026",
-   "start": "2026-11-12T12:00:00+00:00"
-  },
-  {
    "id": "319694962936586240",
    "sport": "Tenisz",
    "name": "Brand D./Thomas F. - Visser M./Wagenaar L.",
@@ -3199,6 +5609,17 @@
    "start": "2026-11-12T12:00:00+00:00"
   },
   {
+   "id": "319693071395659776",
+   "sport": "Tenisz",
+   "name": "Jones A./Jones M. - Dimitriou G./Reyniak M.",
+   "home": "Jones A./Jones M.",
+   "away": "Dimitriou G./Reyniak M.",
+   "home_pid": "220627001958092800",
+   "away_pid": "319527096975171584",
+   "tournament": "Heraklion, férfi páros 2026",
+   "start": "2026-11-12T12:00:00+00:00"
+  },
+  {
    "id": "319709836858171392",
    "sport": "Tenisz",
    "name": "Jannik Opitz - Amit Vales",
@@ -3206,17 +5627,6 @@
    "away": "Amit Vales",
    "home_pid": "1305724",
    "away_pid": "185560428912365568",
-   "tournament": "Montreal, férfi egyes 2026",
-   "start": "2026-11-12T15:00:00+00:00"
-  },
-  {
-   "id": "319709770114211840",
-   "sport": "Tenisz",
-   "name": "Oskar Brostrom Poulsen - Nikola Slavic",
-   "home": "Oskar Brostrom Poulsen",
-   "away": "Nikola Slavic",
-   "home_pid": "186933194061303808",
-   "away_pid": "241342344785727488",
    "tournament": "Montreal, férfi egyes 2026",
    "start": "2026-11-12T15:00:00+00:00"
   },
@@ -3239,6 +5649,17 @@
    "away": "Alexander Sasha Rozin",
    "home_pid": "585567",
    "away_pid": "195309251544117248",
+   "tournament": "Montreal, férfi egyes 2026",
+   "start": "2026-11-12T15:00:00+00:00"
+  },
+  {
+   "id": "319709770114211840",
+   "sport": "Tenisz",
+   "name": "Oskar Brostrom Poulsen - Nikola Slavic",
+   "home": "Oskar Brostrom Poulsen",
+   "away": "Nikola Slavic",
+   "home_pid": "186933194061303808",
+   "away_pid": "241342344785727488",
    "tournament": "Montreal, férfi egyes 2026",
    "start": "2026-11-12T15:00:00+00:00"
   },
@@ -3331,15 +5752,15 @@
    "start": "2026-11-12T17:00:00+00:00"
   },
   {
-   "id": "319688569654419456",
+   "id": "319688667282087936",
    "sport": "Tenisz",
-   "name": "Dong Z./Yang X. - Jin Y./Sun Q.",
-   "home": "Dong Z./Yang X.",
-   "away": "Jin Y./Sun Q.",
-   "home_pid": "285267472121368576",
-   "away_pid": "304898704874893312",
+   "name": "Connel J./Hongyu Y. - Liu S./Xiao L.",
+   "home": "Connel J./Hongyu Y.",
+   "away": "Liu S./Xiao L.",
+   "home_pid": "319493455767216128",
+   "away_pid": "317586633987792896",
    "tournament": "Maanshan, férfi páros 2026",
-   "start": "2026-11-12T07:08:00+00:00"
+   "start": "2026-11-12T08:28:00+00:00"
   },
   {
    "id": "319688667413159936",
@@ -3350,7 +5771,7 @@
    "home_pid": "318928092479430656",
    "away_pid": "319493517410902016",
    "tournament": "Maanshan, férfi páros 2026",
-   "start": "2026-11-12T08:00:00+00:00"
+   "start": "2026-11-12T08:32:00+00:00"
   },
   {
    "id": "319688667189813248",
@@ -3361,18 +5782,7 @@
    "home_pid": "319512498684370944",
    "away_pid": "318928044811165696",
    "tournament": "Maanshan, férfi páros 2026",
-   "start": "2026-11-12T08:02:00+00:00"
-  },
-  {
-   "id": "319688667282087936",
-   "sport": "Tenisz",
-   "name": "Connel J./Hongyu Y. - Liu S./Xiao L.",
-   "home": "Connel J./Hongyu Y.",
-   "away": "Liu S./Xiao L.",
-   "home_pid": "319493455767216128",
-   "away_pid": "317586633987792896",
-   "tournament": "Maanshan, férfi páros 2026",
-   "start": "2026-11-12T08:08:00+00:00"
+   "start": "2026-11-12T09:13:00+00:00"
   },
   {
    "id": "319677577101910016",
@@ -3573,6 +5983,17 @@
    "start": "2026-11-12T13:00:00+00:00"
   },
   {
+   "id": "319592680326766592",
+   "sport": "Tenisz",
+   "name": "Goncalo Marques - Tiago Cacao",
+   "home": "Goncalo Marques",
+   "away": "Tiago Cacao",
+   "home_pid": "186846756524314624",
+   "away_pid": "278433039491665920",
+   "tournament": "Vale do Lobo, férfi egyes 2026",
+   "start": "2026-11-13T10:00:00+00:00"
+  },
+  {
    "id": "319525866338066432",
    "sport": "Tenisz",
    "name": "Johns G./Rodenas P. - Maia H./Valdoleiros G.",
@@ -3617,17 +6038,6 @@
    "start": "2026-11-12T14:30:00+00:00"
   },
   {
-   "id": "319682545663942656",
-   "sport": "Tenisz",
-   "name": "Alan Wazny - Matyas Cerny",
-   "home": "Alan Wazny",
-   "away": "Matyas Cerny",
-   "home_pid": "242187250158702592",
-   "away_pid": "9030380946329600",
-   "tournament": "Antalya, férfi egyes 2026",
-   "start": "2026-11-12T06:48:00+00:00"
-  },
-  {
    "id": "319692963793936384",
    "sport": "Tenisz",
    "name": "Andrea Paolini - Antoni Fabre",
@@ -3636,7 +6046,29 @@
    "home_pid": "226118637500649472",
    "away_pid": "154609368311058432",
    "tournament": "Antalya, férfi egyes 2026",
-   "start": "2026-11-12T07:47:00+00:00"
+   "start": "2026-11-12T08:16:00+00:00"
+  },
+  {
+   "id": "319742133058740224",
+   "sport": "Tenisz",
+   "name": "Basile A./Van Der Meerschen M. - Andreescu S.A./Petre S.I.B.",
+   "home": "Basile A./Van Der Meerschen M.",
+   "away": "Andreescu S.A./Petre S.I.B.",
+   "home_pid": "318926967607992320",
+   "away_pid": "319515305014534144",
+   "tournament": "Antalya, férfi páros 2026",
+   "start": "2026-11-12T09:30:00+00:00"
+  },
+  {
+   "id": "319742133132140544",
+   "sport": "Tenisz",
+   "name": "Saritas G./Yazdani A. - Aytekin M./Kucukhuseyin C.C.",
+   "home": "Saritas G./Yazdani A.",
+   "away": "Aytekin M./Kucukhuseyin C.C.",
+   "home_pid": "289272034840842240",
+   "away_pid": "295408161597460480",
+   "tournament": "Antalya, férfi páros 2026",
+   "start": "2026-11-12T09:30:00+00:00"
   },
   {
    "id": "319689288159666176",
@@ -3683,17 +6115,6 @@
    "start": "2026-11-12T08:30:00+00:00"
   },
   {
-   "id": "319690048365731840",
-   "sport": "Tenisz",
-   "name": "Mathieu Scaglia - Frydrych Viktor",
-   "home": "Mathieu Scaglia",
-   "away": "Frydrych Viktor",
-   "home_pid": "1269698",
-   "away_pid": "175341485132140544",
-   "tournament": "Monasztir, férfi egyes 2026",
-   "start": "2026-11-12T09:30:00+00:00"
-  },
-  {
    "id": "319689288429150208",
    "sport": "Tenisz",
    "name": "Adam Lynch - Julien Penzlin",
@@ -3701,6 +6122,17 @@
    "away": "Julien Penzlin",
    "home_pid": "214138899306532864",
    "away_pid": "211745054603235328",
+   "tournament": "Monasztir, férfi egyes 2026",
+   "start": "2026-11-12T09:30:00+00:00"
+  },
+  {
+   "id": "319690048365731840",
+   "sport": "Tenisz",
+   "name": "Mathieu Scaglia - Frydrych Viktor",
+   "home": "Mathieu Scaglia",
+   "away": "Frydrych Viktor",
+   "home_pid": "1269698",
+   "away_pid": "175341485132140544",
    "tournament": "Monasztir, férfi egyes 2026",
    "start": "2026-11-12T09:30:00+00:00"
   },
@@ -3735,7 +6167,62 @@
    "home_pid": "319510993551040512",
    "away_pid": "319510974065352704",
    "tournament": "Monasztir, férfi páros 2026",
-   "start": "2026-11-12T09:00:00+00:00"
+   "start": "2026-11-12T12:35:00+00:00"
+  },
+  {
+   "id": "319744208126681088",
+   "sport": "Tenisz",
+   "name": "Maurice H./Raynel A. - Batsabaken Y./Denitto J.",
+   "home": "Maurice H./Raynel A.",
+   "away": "Batsabaken Y./Denitto J.",
+   "home_pid": "319510999220690944",
+   "away_pid": "319521469628489728",
+   "tournament": "Monasztir, férfi páros 2026",
+   "start": "2026-11-12T12:35:00+00:00"
+  },
+  {
+   "id": "319744208216858624",
+   "sport": "Tenisz",
+   "name": "Cossu M./Martinez L.D. - Abderrahman W./van Wyk K.",
+   "home": "Cossu M./Martinez L.D.",
+   "away": "Abderrahman W./van Wyk K.",
+   "home_pid": "319521485365518336",
+   "away_pid": "319510967979417600",
+   "tournament": "Monasztir, férfi páros 2026",
+   "start": "2026-11-12T12:35:00+00:00"
+  },
+  {
+   "id": "319734364872187904",
+   "sport": "Tenisz",
+   "name": "Himeno Sakatsume - Zhuoxuan Bai",
+   "home": "Himeno Sakatsume",
+   "away": "Zhuoxuan Bai",
+   "home_pid": "3526517308944384",
+   "away_pid": "150965165232279552",
+   "tournament": "Brisbane, női egyes 2026",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "319729310821851136",
+   "sport": "Tenisz",
+   "name": "Joanna Garland - Olivia Gadecki",
+   "home": "Joanna Garland",
+   "away": "Olivia Gadecki",
+   "home_pid": "1490315",
+   "away_pid": "1502658",
+   "tournament": "Brisbane, női egyes 2026",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "319739477218107392",
+   "sport": "Tenisz",
+   "name": "Carol Young Suh Lee - Hayu Kinoshita",
+   "home": "Carol Young Suh Lee",
+   "away": "Hayu Kinoshita",
+   "home_pid": "143753497708384256",
+   "away_pid": "160745529026859008",
+   "tournament": "Brisbane, női egyes 2026",
+   "start": "2026-11-13T02:00:00+00:00"
   },
   {
    "id": "319690820059996160",
@@ -3936,17 +6423,6 @@
    "start": "2026-11-12T18:00:00+00:00"
   },
   {
-   "id": "319622726835838976",
-   "sport": "Tenisz",
-   "name": "Black B./Jauffret C. - Hu V./Lahey A.",
-   "home": "Black B./Jauffret C.",
-   "away": "Hu V./Lahey A.",
-   "home_pid": "318931509721505792",
-   "away_pid": "319562108405620736",
-   "tournament": "Weston, női páros 2026",
-   "start": "2026-11-12T20:00:00+00:00"
-  },
-  {
    "id": "319622726928113664",
    "sport": "Tenisz",
    "name": "Hossam Salah J./Korpanec Davies A. - Evtimova D./Harding C.",
@@ -3954,6 +6430,17 @@
    "away": "Evtimova D./Harding C.",
    "home_pid": "317652978109587456",
    "away_pid": "319018926216388608",
+   "tournament": "Weston, női páros 2026",
+   "start": "2026-11-12T20:00:00+00:00"
+  },
+  {
+   "id": "319622726835838976",
+   "sport": "Tenisz",
+   "name": "Black B./Jauffret C. - Hu V./Lahey A.",
+   "home": "Black B./Jauffret C.",
+   "away": "Hu V./Lahey A.",
+   "home_pid": "318931509721505792",
+   "away_pid": "319562108405620736",
    "tournament": "Weston, női páros 2026",
    "start": "2026-11-12T20:00:00+00:00"
   },
@@ -4046,6 +6533,28 @@
    "start": "2026-11-12T13:00:00+00:00"
   },
   {
+   "id": "319742351442518016",
+   "sport": "Tenisz",
+   "name": "Brune A./Sziedat F. - Ferrer Perez C./Rojas S.C.",
+   "home": "Brune A./Sziedat F.",
+   "away": "Ferrer Perez C./Rojas S.C.",
+   "home_pid": "319522676816289792",
+   "away_pid": "319522207261859840",
+   "tournament": "Nules, női páros",
+   "start": "2026-11-12T13:15:00+00:00"
+  },
+  {
+   "id": "319742351340806144",
+   "sport": "Tenisz",
+   "name": "Adrover Gallego I./Sagrista Bermejo M. - Fornasieri C./Vallega Montebruno G.P.",
+   "home": "Adrover Gallego I./Sagrista Bermejo M.",
+   "away": "Fornasieri C./Vallega Montebruno G.P.",
+   "home_pid": "319522183114203136",
+   "away_pid": "279551561784496128",
+   "tournament": "Nules, női páros",
+   "start": "2026-11-12T13:15:00+00:00"
+  },
+  {
    "id": "319707718808051712",
    "sport": "Tenisz",
    "name": "Isadora Sigrist - Marjorie Souza",
@@ -4123,48 +6632,26 @@
    "start": "2026-11-12T17:15:00+00:00"
   },
   {
-   "id": "319681558346801152",
+   "id": "319744395926642688",
    "sport": "Tenisz",
-   "name": "Yasmin Ezzat - Iveta Dapkute",
-   "home": "Yasmin Ezzat",
-   "away": "Iveta Dapkute",
-   "home_pid": "4555113425668096",
-   "away_pid": "6459295714263040",
-   "tournament": "Sharm El Sheikh, női egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
+   "name": "Konishi Silva J./Souza M. - Kawano Cho G./Meabe S.",
+   "home": "Konishi Silva J./Souza M.",
+   "away": "Kawano Cho G./Meabe S.",
+   "home_pid": "318330030113497088",
+   "away_pid": "319528033287479296",
+   "tournament": "Sao Carlos, női páros 2026",
+   "start": "2026-11-12T19:15:00+00:00"
   },
   {
-   "id": "319682300918964224",
+   "id": "319744395998994432",
    "sport": "Tenisz",
-   "name": "Coco Bosman - Lamis Alhussein Abdel Aziz",
-   "home": "Coco Bosman",
-   "away": "Lamis Alhussein Abdel Aziz",
-   "home_pid": "212790858270003200",
-   "away_pid": "991060",
-   "tournament": "Sharm El Sheikh, női egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319698821013643264",
-   "sport": "Tenisz",
-   "name": "Tzeng Mu-Jie - Irem Kurt",
-   "home": "Tzeng Mu-Jie",
-   "away": "Irem Kurt",
-   "home_pid": "210267556060221440",
-   "away_pid": "153236184245522432",
-   "tournament": "Sharm El Sheikh, női egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319696738800705536",
-   "sport": "Tenisz",
-   "name": "Yekaterina Dmitrichenko - Alexandra Chapurina",
-   "home": "Yekaterina Dmitrichenko",
-   "away": "Alexandra Chapurina",
-   "home_pid": "277733891020820480",
-   "away_pid": "319524712708382720",
-   "tournament": "Sharm El Sheikh, női egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
+   "name": "Bernardes B./Dourado J.R. - Boyden M./Hrda L.",
+   "home": "Bernardes B./Dourado J.R.",
+   "away": "Boyden M./Hrda L.",
+   "home_pid": "283411978072133632",
+   "away_pid": "319576096665313280",
+   "tournament": "Sao Carlos, női páros 2026",
+   "start": "2026-11-12T19:15:00+00:00"
   },
   {
    "id": "319698821106966528",
@@ -4220,50 +6707,6 @@
    "away_pid": "319523518765146112",
    "tournament": "Sharm El Sheikh, női páros 2026",
    "start": "2026-11-12T12:30:00+00:00"
-  },
-  {
-   "id": "319672053505531904",
-   "sport": "Tenisz",
-   "name": "Marianna Argyrokastriti - Anastasija Cvetkovic",
-   "home": "Marianna Argyrokastriti",
-   "away": "Anastasija Cvetkovic",
-   "home_pid": "265080971066478592",
-   "away_pid": "206458169329872896",
-   "tournament": "Heraklion, női egyes 2026",
-   "start": "2026-11-12T07:30:00+00:00"
-  },
-  {
-   "id": "319657409070047232",
-   "sport": "Tenisz",
-   "name": "Matilde Paoletti - Jennifer Ruggeri",
-   "home": "Matilde Paoletti",
-   "away": "Jennifer Ruggeri",
-   "home_pid": "299935932824719360",
-   "away_pid": "132937896143409152",
-   "tournament": "Heraklion, női egyes 2026",
-   "start": "2026-11-12T07:30:00+00:00"
-  },
-  {
-   "id": "319668974237327360",
-   "sport": "Tenisz",
-   "name": "Elena Ruxandra Bertea - Sapfo Sakellaridi ",
-   "home": "Elena Ruxandra Bertea",
-   "away": "Sapfo Sakellaridi ",
-   "home_pid": "148246308588670976",
-   "away_pid": "201236984918016",
-   "tournament": "Heraklion, női egyes 2026",
-   "start": "2026-11-12T07:30:00+00:00"
-  },
-  {
-   "id": "319677379778781184",
-   "sport": "Tenisz",
-   "name": "Lucia Cortez Llorca - Giulia Safina Popa",
-   "home": "Lucia Cortez Llorca",
-   "away": "Giulia Safina Popa",
-   "home_pid": "1316579",
-   "away_pid": "239071981003509760",
-   "tournament": "Heraklion, női egyes 2026",
-   "start": "2026-11-12T07:30:00+00:00"
   },
   {
    "id": "319581608269127680",
@@ -4332,37 +6775,59 @@
    "start": "2026-11-12T12:00:00+00:00"
   },
   {
-   "id": "319690322404777984",
+   "id": "319591911796056064",
    "sport": "Tenisz",
-   "name": "Wang J./Yuchi G. - Guo M./Lin F.A.",
-   "home": "Wang J./Yuchi G.",
-   "away": "Guo M./Lin F.A.",
-   "home_pid": "315040349393940480",
-   "away_pid": "319498706412969984",
-   "tournament": "Maanshan, női páros",
-   "start": "2026-11-12T07:00:00+00:00"
+   "name": "Karatancheva L./Shapatava S. - Argyrokastriti M./Cortez Llorca L.",
+   "home": "Karatancheva L./Shapatava S.",
+   "away": "Argyrokastriti M./Cortez Llorca L.",
+   "home_pid": "319510605485645824",
+   "away_pid": "317620131059539968",
+   "tournament": "Heraklion, női páros 2026",
+   "start": "2026-11-12T12:00:00+00:00"
   },
   {
-   "id": "319689025191485440",
+   "id": "319730776298037248",
    "sport": "Tenisz",
-   "name": "Cai J./Yang A. - Im H./Shin J.",
-   "home": "Cai J./Yang A.",
-   "away": "Im H./Shin J.",
-   "home_pid": "317587249210400768",
-   "away_pid": "285252416967053312",
-   "tournament": "Maanshan, női páros",
-   "start": "2026-11-12T07:05:00+00:00"
+   "name": "Yeon Woo Ku - Kanon Sawashiro",
+   "home": "Yeon Woo Ku",
+   "away": "Kanon Sawashiro",
+   "home_pid": "127338766062899200",
+   "away_pid": "196099127307825152",
+   "tournament": "Jokohama, női egyes 2026",
+   "start": "2026-11-13T01:00:00+00:00"
   },
   {
-   "id": "319688911826788352",
+   "id": "319734831273549824",
    "sport": "Tenisz",
-   "name": "Liu L. Y./Lu J. - Cao Y./Tikhonova A.",
-   "home": "Liu L. Y./Lu J.",
-   "away": "Cao Y./Tikhonova A.",
-   "home_pid": "319498716545359872",
-   "away_pid": "303087794293272576",
-   "tournament": "Maanshan, női páros",
-   "start": "2026-11-12T07:05:00+00:00"
+   "name": "Tsao Chia-yi - Sara Saito",
+   "home": "Tsao Chia-yi",
+   "away": "Sara Saito",
+   "home_pid": "296787393947930624",
+   "away_pid": "160745403240730624",
+   "tournament": "Jokohama, női egyes 2026",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "319733633495670784",
+   "sport": "Tenisz",
+   "name": "Kyoka Okamura - Rinko Matsuda",
+   "home": "Kyoka Okamura",
+   "away": "Rinko Matsuda",
+   "home_pid": "1032893",
+   "away_pid": "160205691475251200",
+   "tournament": "Jokohama, női egyes 2026",
+   "start": "2026-11-13T02:00:00+00:00"
+  },
+  {
+   "id": "319732702758641664",
+   "sport": "Tenisz",
+   "name": "Berfu Cengiz - Heather Watson",
+   "home": "Berfu Cengiz",
+   "away": "Heather Watson",
+   "home_pid": "1130393",
+   "away_pid": "295300",
+   "tournament": "Jokohama, női egyes 2026",
+   "start": "2026-11-13T02:00:00+00:00"
   },
   {
    "id": "319706247953719296",
@@ -4398,70 +6863,26 @@
    "start": "2026-11-12T21:00:00+00:00"
   },
   {
-   "id": "319693269381488640",
+   "id": "319731706216128512",
    "sport": "Tenisz",
-   "name": "Ilay Yoruk - Mariia Drobysheva",
-   "home": "Ilay Yoruk",
-   "away": "Mariia Drobysheva",
-   "home_pid": "1398453",
-   "away_pid": "252759313041362944",
-   "tournament": "Antalya, női egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
+   "name": "Miriana Tona - Vivian Wolff",
+   "home": "Miriana Tona",
+   "away": "Vivian Wolff",
+   "home_pid": "151504963179171840",
+   "away_pid": "986744",
+   "tournament": "Chihuahua, női egyes 2026",
+   "start": "2026-11-13T01:00:00+00:00"
   },
   {
-   "id": "319693443470270464",
+   "id": "319719074935414784",
    "sport": "Tenisz",
-   "name": "Daria Yesypchuk - Jana Bojovic",
-   "home": "Daria Yesypchuk",
-   "away": "Jana Bojovic",
-   "home_pid": "170411967988682752",
-   "away_pid": "292744634895208448",
-   "tournament": "Antalya, női egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319693269595398144",
-   "sport": "Tenisz",
-   "name": "Anais Gabriel - Lorena Solar Donoso",
-   "home": "Anais Gabriel",
-   "away": "Lorena Solar Donoso",
-   "home_pid": "148902527442669568",
-   "away_pid": "204549213300879360",
-   "tournament": "Antalya, női egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319693269529337856",
-   "sport": "Tenisz",
-   "name": "Julia Stamatova - Marija Lauva",
-   "home": "Julia Stamatova",
-   "away": "Marija Lauva",
-   "home_pid": "470499",
-   "away_pid": "285986354126688256",
-   "tournament": "Antalya, női egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319693269285019648",
-   "sport": "Tenisz",
-   "name": "Sara Victoria Balan - Valeriya Yushchenko",
-   "home": "Sara Victoria Balan",
-   "away": "Valeriya Yushchenko",
-   "home_pid": "236259807795253248",
-   "away_pid": "1182071",
-   "tournament": "Antalya, női egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319693269687672832",
-   "sport": "Tenisz",
-   "name": "Simionescu Diana-Ioana - Ekaterina Agureeva",
-   "home": "Simionescu Diana-Ioana",
-   "away": "Ekaterina Agureeva",
-   "home_pid": "209536266887385088",
-   "away_pid": "234359029153304576",
-   "tournament": "Antalya, női egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
+   "name": "Strakhova V./Tikhonova A. - Hinojosa Gomez J./Tran D.",
+   "home": "Strakhova V./Tikhonova A.",
+   "away": "Hinojosa Gomez J./Tran D.",
+   "home_pid": "283411126873788416",
+   "away_pid": "319454418745499648",
+   "tournament": "Chihuahua, női páros 2026",
+   "start": "2026-11-13T01:00:00+00:00"
   },
   {
    "id": "319699278603821056",
@@ -4486,6 +6907,17 @@
    "start": "2026-11-12T09:00:00+00:00"
   },
   {
+   "id": "319743330835570688",
+   "sport": "Tenisz",
+   "name": "Gomez O'Hayon V./Solar Donoso L. - Boehner L./Prisacariu A.",
+   "home": "Gomez O'Hayon V./Solar Donoso L.",
+   "away": "Boehner L./Prisacariu A.",
+   "home_pid": "319508446603976704",
+   "away_pid": "319512423790878720",
+   "tournament": "Antalya, női páros 2026",
+   "start": "2026-11-12T09:00:00+00:00"
+  },
+  {
    "id": "319696504628518912",
    "sport": "Tenisz",
    "name": "Arystanbekova A./Yesypchuk D. - Agureeva E./Kartseva A.",
@@ -4494,7 +6926,7 @@
    "home_pid": "319508437738266624",
    "away_pid": "319512377571745792",
    "tournament": "Antalya, női páros 2026",
-   "start": "2026-11-12T11:00:00+00:00"
+   "start": "2026-11-12T11:22:00+00:00"
   },
   {
    "id": "319689521005404160",
@@ -4618,6 +7050,72 @@
    "start": "2026-11-12T13:00:00+00:00"
   },
   {
+   "id": "319734763774615552",
+   "sport": "Tenisz",
+   "name": "Scott Jones - Noah Brownrigg",
+   "home": "Scott Jones",
+   "away": "Noah Brownrigg",
+   "home_pid": "87289145847709696",
+   "away_pid": "241404489944698880",
+   "tournament": "Gold Coast, férfi egyes 2026",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "319734763679195136",
+   "sport": "Tenisz",
+   "name": "Cody Atkinson - Mathieu Perchicot",
+   "home": "Cody Atkinson",
+   "away": "Mathieu Perchicot",
+   "home_pid": "256509089454350336",
+   "away_pid": "291330382846267392",
+   "tournament": "Gold Coast, férfi egyes 2026",
+   "start": "2026-11-13T00:15:00+00:00"
+  },
+  {
+   "id": "319721505215815680",
+   "sport": "Tenisz",
+   "name": "Jonas Hahn - Alexey Shtengelov",
+   "home": "Jonas Hahn",
+   "away": "Alexey Shtengelov",
+   "home_pid": "196360554537971712",
+   "away_pid": "165870053026222080",
+   "tournament": "Gold Coast, férfi egyes 2026",
+   "start": "2026-11-13T00:15:00+00:00"
+  },
+  {
+   "id": "319730015210119168",
+   "sport": "Tenisz",
+   "name": "James Girdler - Oscar Andrews",
+   "home": "James Girdler",
+   "away": "Oscar Andrews",
+   "home_pid": "271547080221265920",
+   "away_pid": "302098480389984256",
+   "tournament": "Gold Coast, férfi egyes 2026",
+   "start": "2026-11-13T01:45:00+00:00"
+  },
+  {
+   "id": "319729094777446400",
+   "sport": "Tenisz",
+   "name": "Amelia Zylberman - Chiara Di Tommaso",
+   "home": "Amelia Zylberman",
+   "away": "Chiara Di Tommaso",
+   "home_pid": "196360745338957824",
+   "away_pid": "286676517209280512",
+   "tournament": "Gold Coast, női egyes 2026",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "319724041161220096",
+   "sport": "Tenisz",
+   "name": "Katy Dunne - Kaylah Mcphee",
+   "home": "Katy Dunne",
+   "away": "Kaylah Mcphee",
+   "home_pid": "487026",
+   "away_pid": "172990655966007296",
+   "tournament": "Gold Coast, női egyes 2026",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
    "id": "319716719258050560",
    "sport": "Tenisz",
    "name": "Junior Tavarez Pichardo - Clement Mayoral",
@@ -4684,17 +7182,6 @@
    "start": "2026-11-12T18:00:00+00:00"
   },
   {
-   "id": "319716720769048576",
-   "sport": "Tenisz",
-   "name": "Nathan Mansfield - Ben Stecker",
-   "home": "Nathan Mansfield",
-   "away": "Ben Stecker",
-   "home_pid": "283367082440298496",
-   "away_pid": "291978548460425216",
-   "tournament": "Houston, férfi egyes 2026",
-   "start": "2026-11-12T17:00:00+00:00"
-  },
-  {
    "id": "319716720678871040",
    "sport": "Tenisz",
    "name": "Imran Daniel Abdul Hazli - Andrew Li",
@@ -4717,6 +7204,17 @@
    "start": "2026-11-12T17:00:00+00:00"
   },
   {
+   "id": "319716720769048576",
+   "sport": "Tenisz",
+   "name": "Nathan Mansfield - Ben Stecker",
+   "home": "Nathan Mansfield",
+   "away": "Ben Stecker",
+   "home_pid": "283367082440298496",
+   "away_pid": "291978548460425216",
+   "tournament": "Houston, férfi egyes 2026",
+   "start": "2026-11-12T17:00:00+00:00"
+  },
+  {
    "id": "319716720507953152",
    "sport": "Tenisz",
    "name": "Francisco Salmain - Otso Martikainen",
@@ -4726,6 +7224,17 @@
    "away_pid": "172340966239293440",
    "tournament": "Houston, férfi egyes 2026",
    "start": "2026-11-12T17:00:00+00:00"
+  },
+  {
+   "id": "319722489352626176",
+   "sport": "Tenisz",
+   "name": "Botran Neutze Rafael - Timeo Bretin",
+   "home": "Botran Neutze Rafael",
+   "away": "Timeo Bretin",
+   "home_pid": "239471917862916096",
+   "away_pid": "207185587667628032",
+   "tournament": "Houston, férfi egyes 2026",
+   "start": "2026-11-12T18:10:00+00:00"
   },
   {
    "id": "319721276220448768",
@@ -4746,17 +7255,6 @@
    "away": "Arin Pallegar",
    "home_pid": "212252534324219904",
    "away_pid": "234433478062936064",
-   "tournament": "Houston, férfi egyes 2026",
-   "start": "2026-11-12T18:10:00+00:00"
-  },
-  {
-   "id": "319722489352626176",
-   "sport": "Tenisz",
-   "name": "Botran Neutze Rafael - Timeo Bretin",
-   "home": "Botran Neutze Rafael",
-   "away": "Timeo Bretin",
-   "home_pid": "239471917862916096",
-   "away_pid": "207185587667628032",
    "tournament": "Houston, férfi egyes 2026",
    "start": "2026-11-12T18:10:00+00:00"
   },
@@ -4869,17 +7367,6 @@
    "away_pid": "280906424072146944",
    "tournament": "Oxford, női egyes 2026",
    "start": "2026-11-12T17:00:00+00:00"
-  },
-  {
-   "id": "319692030092582912",
-   "sport": "Tenisz",
-   "name": "Aliaksandra Skapets - Julia Kolodziejska",
-   "home": "Aliaksandra Skapets",
-   "away": "Julia Kolodziejska",
-   "home_pid": "239523844305883136",
-   "away_pid": "306247529504927744",
-   "tournament": "Krakkó, női egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
   },
   {
    "id": "319692030175420416",
@@ -5102,28 +7589,6 @@
    "start": "2026-11-12T15:00:00+00:00"
   },
   {
-   "id": "319680283057135616",
-   "sport": "Tenisz",
-   "name": "Kisantal Botond - Tobias Cank",
-   "home": "Kisantal Botond",
-   "away": "Tobias Cank",
-   "home_pid": "205824470461607936",
-   "away_pid": "265225825286230016",
-   "tournament": "Nagyszombat, férfi egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
-   "id": "319626123511144448",
-   "sport": "Tenisz",
-   "name": "Cas de Ruiter - Jakub Vrtilka",
-   "home": "Cas de Ruiter",
-   "away": "Jakub Vrtilka",
-   "home_pid": "281821807974158336",
-   "away_pid": "275676753240920064",
-   "tournament": "Nagyszombat, férfi egyes 2026",
-   "start": "2026-11-12T08:00:00+00:00"
-  },
-  {
    "id": "319626123591884800",
    "sport": "Tenisz",
    "name": "Dominik Kellovsky - Ondrej Hujo",
@@ -5146,17 +7611,6 @@
    "start": "2026-11-12T09:10:00+00:00"
   },
   {
-   "id": "319626123877097472",
-   "sport": "Tenisz",
-   "name": "Sallay Péter - Tomas Talajka",
-   "home": "Sallay Péter",
-   "away": "Tomas Talajka",
-   "home_pid": "188777483427958784",
-   "away_pid": "232551825763897600",
-   "tournament": "Nagyszombat, férfi egyes 2026",
-   "start": "2026-11-12T10:30:00+00:00"
-  },
-  {
    "id": "319687826350350336",
    "sport": "Tenisz",
    "name": "Karol Filar - Tadeas Paroulek",
@@ -5164,6 +7618,17 @@
    "away": "Tadeas Paroulek",
    "home_pid": "202058652630282240",
    "away_pid": "1512605",
+   "tournament": "Nagyszombat, férfi egyes 2026",
+   "start": "2026-11-12T10:30:00+00:00"
+  },
+  {
+   "id": "319626123877097472",
+   "sport": "Tenisz",
+   "name": "Sallay Péter - Tomas Talajka",
+   "home": "Sallay Péter",
+   "away": "Tomas Talajka",
+   "home_pid": "188777483427958784",
+   "away_pid": "232551825763897600",
    "tournament": "Nagyszombat, férfi egyes 2026",
    "start": "2026-11-12T10:30:00+00:00"
   },
@@ -5179,6 +7644,28 @@
    "start": "2026-11-12T12:00:00+00:00"
   },
   {
+   "id": "319626124119318528",
+   "sport": "Tenisz",
+   "name": "Michael Savano - Max Frohlich",
+   "home": "Michael Savano",
+   "away": "Max Frohlich",
+   "home_pid": "287760612567846912",
+   "away_pid": "305475024385175552",
+   "tournament": "Nagyszombat, férfi egyes 2026",
+   "start": "2026-11-12T12:00:00+00:00"
+  },
+  {
+   "id": "318936730204971008",
+   "sport": "Kosárlabda",
+   "name": "Kortrijk Spurs HSE - Mons",
+   "home": "Kortrijk Spurs HSE",
+   "away": "Mons",
+   "home_pid": "152541034918920192",
+   "away_pid": "45154",
+   "tournament": "BNXT Liga 2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
    "id": "319710556323913728",
    "sport": "Kosárlabda",
    "name": "George Mason Patriots - Kansas City Roos",
@@ -5188,6 +7675,226 @@
    "away_pid": "187125784442359808",
    "tournament": "NCAA 2026/2027",
    "start": "2026-11-12T20:00:00+00:00"
+  },
+  {
+   "id": "319711840719413248",
+   "sport": "Kosárlabda",
+   "name": "Indiana Purdue Fort Wayne Mastodons - Western Michigan Broncos",
+   "home": "Indiana Purdue Fort Wayne Mastodons",
+   "away": "Western Michigan Broncos",
+   "home_pid": "186959584540282880",
+   "away_pid": "186962110323937280",
+   "tournament": "NCAA 2026/2027",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936780153888768",
+   "sport": "Kosárlabda",
+   "name": "Tizona Burgos - Gran Canaria",
+   "home": "Tizona Burgos",
+   "away": "Gran Canaria",
+   "home_pid": "10291380240257024",
+   "away_pid": "760751",
+   "tournament": "Spanyol 2. 2026/2027",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  {
+   "id": "318936728514666496",
+   "sport": "Kosárlabda",
+   "name": "Bayreuth - Heidelberg",
+   "home": "Bayreuth",
+   "away": "Heidelberg",
+   "home_pid": "53625",
+   "away_pid": "53623",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936773115846656",
+   "sport": "Kosárlabda",
+   "name": "Göttingen - ETB Miners Essen",
+   "home": "Göttingen",
+   "away": "ETB Miners Essen",
+   "home_pid": "53593",
+   "away_pid": "258435803854004224",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936772673347584",
+   "sport": "Kosárlabda",
+   "name": "Orange Academy - Tübingen",
+   "home": "Orange Academy",
+   "away": "Tübingen",
+   "home_pid": "165034999464247296",
+   "away_pid": "183542439981666304",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936772736262144",
+   "sport": "Kosárlabda",
+   "name": "Koblenz - Bochum",
+   "home": "Koblenz",
+   "away": "Bochum",
+   "home_pid": "165034999218880512",
+   "away_pid": "149349791273373696",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936728288174080",
+   "sport": "Kosárlabda",
+   "name": "Wolmirstedt - Bremerhaven",
+   "home": "Wolmirstedt",
+   "away": "Bremerhaven",
+   "home_pid": "165034994304204800",
+   "away_pid": "50957",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936772595752960",
+   "sport": "Kosárlabda",
+   "name": "Artland - Paderborn",
+   "home": "Artland",
+   "away": "Paderborn",
+   "home_pid": "6041799587151872",
+   "away_pid": "763605",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936728448606208",
+   "sport": "Kosárlabda",
+   "name": "Crailsheim - Köln",
+   "home": "Crailsheim",
+   "away": "Köln",
+   "home_pid": "614330",
+   "away_pid": "127892952489971712",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936728591212544",
+   "sport": "Kosárlabda",
+   "name": "Kirchheim - PS Karlsruhe",
+   "home": "Kirchheim",
+   "away": "PS Karlsruhe",
+   "home_pid": "68179",
+   "away_pid": "183542567560859648",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936772815953920",
+   "sport": "Kosárlabda",
+   "name": "Giessen - Nürnberg",
+   "home": "Giessen",
+   "away": "Nürnberg",
+   "home_pid": "27127",
+   "away_pid": "183542455116812288",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936797725925376",
+   "sport": "Kosárlabda",
+   "name": "Evreux - Orleans",
+   "home": "Evreux",
+   "away": "Orleans",
+   "home_pid": "182526880423923712",
+   "away_pid": "44908",
+   "tournament": "Francia 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936798128578560",
+   "sport": "Kosárlabda",
+   "name": "Aix-Maurienne - Nantes",
+   "home": "Aix-Maurienne",
+   "away": "Nantes",
+   "home_pid": "182527140177170432",
+   "away_pid": "44911",
+   "tournament": "Francia 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936722573434880",
+   "sport": "Kosárlabda",
+   "name": "STB Le Havre - Levallois Metropolitans",
+   "home": "STB Le Havre",
+   "away": "Levallois Metropolitans",
+   "home_pid": "38144",
+   "away_pid": "89740",
+   "tournament": "Francia 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936722658369536",
+   "sport": "Kosárlabda",
+   "name": "Rouen - Poitiers",
+   "home": "Rouen",
+   "away": "Poitiers",
+   "home_pid": "182527022839418880",
+   "away_pid": "182527010391773184",
+   "tournament": "Francia 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936798205124608",
+   "sport": "Kosárlabda",
+   "name": "La Rochelle - Antibes",
+   "home": "La Rochelle",
+   "away": "Antibes",
+   "home_pid": "182526963820318720",
+   "away_pid": "183250178130628608",
+   "tournament": "Francia 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936798048886784",
+   "sport": "Kosárlabda",
+   "name": "Denain-Voltaire - Caen",
+   "home": "Denain-Voltaire",
+   "away": "Caen",
+   "home_pid": "182526867710988288",
+   "away_pid": "151274546338676736",
+   "tournament": "Francia 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936797961854976",
+   "sport": "Kosárlabda",
+   "name": "Vichy-Clermont - UJAP Quimper",
+   "home": "Vichy-Clermont",
+   "away": "UJAP Quimper",
+   "home_pid": "182686695239503872",
+   "away_pid": "152154436332998656",
+   "tournament": "Francia 2. 2026/2027",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "318936722722332672",
+   "sport": "Kosárlabda",
+   "name": "ASA Gries - Hyeres-Toulon",
+   "home": "ASA Gries",
+   "away": "Hyeres-Toulon",
+   "home_pid": "149374963518853120",
+   "away_pid": "182712544158339072",
+   "tournament": "Francia 2. 2026/2027",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "318936797890551808",
+   "sport": "Kosárlabda",
+   "name": "Saint-Chamond - Blois",
+   "home": "Saint-Chamond",
+   "away": "Blois",
+   "home_pid": "182527107050557440",
+   "away_pid": "1185858",
+   "tournament": "Francia 2. 2026/2027",
+   "start": "2026-11-13T19:30:00+00:00"
   },
   {
    "id": "319690088736956416",
@@ -5234,6 +7941,17 @@
    "start": "2026-11-12T20:00:00+00:00"
   },
   {
+   "id": "319719352063565824",
+   "sport": "Kosárlabda",
+   "name": "SK Tirana - BC Flamurtari Vlore",
+   "home": "SK Tirana",
+   "away": "BC Flamurtari Vlore",
+   "home_pid": "187511534211092480",
+   "away_pid": "163052154701135872",
+   "tournament": "Albán bajnokság 2027",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
    "id": "319673513860472832",
    "sport": "Kosárlabda",
    "name": "CRB Dar Beida - WA Boufarik",
@@ -5243,6 +7961,215 @@
    "away_pid": "150796496972861440",
    "tournament": "Algériai bajnokság 2026/2027",
    "start": "2026-11-12T17:00:00+00:00"
+  },
+  {
+   "id": "318936773814198272",
+   "sport": "Kosárlabda",
+   "name": "London Lions - Surrey",
+   "home": "London Lions",
+   "away": "Surrey",
+   "home_pid": "1215361",
+   "away_pid": "182853163821355008",
+   "tournament": "Brit Liga 2026/2027",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "318936778893500416",
+   "sport": "Kosárlabda",
+   "name": "Kufstein - Basket Swans Gmunden",
+   "home": "Kufstein",
+   "away": "Basket Swans Gmunden",
+   "home_pid": "152806955627528192",
+   "away_pid": "182152452070494208",
+   "tournament": "Osztrák bajnokság 2026/2027",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936731750572032",
+   "sport": "Kosárlabda",
+   "name": "St. Pölten - Wels",
+   "home": "St. Pölten",
+   "away": "Wels",
+   "home_pid": "183525872797536256",
+   "away_pid": "38196",
+   "tournament": "Osztrák bajnokság 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936778807517184",
+   "sport": "Kosárlabda",
+   "name": "UBSC Graz - Nord Dragonz",
+   "home": "UBSC Graz",
+   "away": "Nord Dragonz",
+   "home_pid": "60793",
+   "away_pid": "182894078967468032",
+   "tournament": "Osztrák bajnokság 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936731427610624",
+   "sport": "Kosárlabda",
+   "name": "Arkadia Traiskirchen Lions - Kapfenberg",
+   "home": "Arkadia Traiskirchen Lions",
+   "away": "Kapfenberg",
+   "home_pid": "282535074302398464",
+   "away_pid": "36784",
+   "tournament": "Osztrák bajnokság 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936778726776832",
+   "sport": "Kosárlabda",
+   "name": "United Woluwe - Kontich Wolves",
+   "home": "United Woluwe",
+   "away": "Kontich Wolves",
+   "home_pid": "248183230961414144",
+   "away_pid": "152542727257669632",
+   "tournament": "Belga 2. 2026/2027",
+   "start": "2026-11-13T20:00:00+00:00"
+  },
+  {
+   "id": "318936778533838848",
+   "sport": "Kosárlabda",
+   "name": "Antwerpen 2 - Avanti Brugge 2015",
+   "home": "Antwerpen 2",
+   "away": "Avanti Brugge 2015",
+   "home_pid": "187492787607883776",
+   "away_pid": "248183202684465152",
+   "tournament": "Belga 2. 2026/2027",
+   "start": "2026-11-13T20:00:00+00:00"
+  },
+  {
+   "id": "318936787163619328",
+   "sport": "Kosárlabda",
+   "name": "Sao Jose Dos Campos - Paulistano SP",
+   "home": "Sao Jose Dos Campos",
+   "away": "Paulistano SP",
+   "home_pid": "315030331643817984",
+   "away_pid": "143609",
+   "tournament": "Brazil bajnokság 2026/2027",
+   "start": "2026-11-13T22:30:00+00:00"
+  },
+  {
+   "id": "318936740441169920",
+   "sport": "Kosárlabda",
+   "name": "Cruzeiro - UNIFACISA",
+   "home": "Cruzeiro",
+   "away": "UNIFACISA",
+   "home_pid": "198902285779234816",
+   "away_pid": "183884507726794752",
+   "tournament": "Brazil bajnokság 2026/2027",
+   "start": "2026-11-13T22:30:00+00:00"
+  },
+  {
+   "id": "318936779200733184",
+   "sport": "Kosárlabda",
+   "name": "Balkan Botevgrad - Lokomotív Plovdiv",
+   "home": "Balkan Botevgrad",
+   "away": "Lokomotív Plovdiv",
+   "home_pid": "60286",
+   "away_pid": "254719597677502464",
+   "tournament": "Bolgár bajnokság 2026/2027",
+   "start": "2026-11-13T16:00:00+00:00"
+  },
+  {
+   "id": "319457449690079232",
+   "sport": "Kosárlabda",
+   "name": "Gimnastico - Colegio Los Leones",
+   "home": "Gimnastico",
+   "away": "Colegio Los Leones",
+   "home_pid": "155548707915354112",
+   "away_pid": "241322063904018432",
+   "tournament": "Chilei bajnokság, női 2026/2026",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "318936793790619648",
+   "sport": "Kosárlabda",
+   "name": "Novy Jicin - Opava 2",
+   "home": "Novy Jicin",
+   "away": "Opava 2",
+   "home_pid": "163233267005440000",
+   "away_pid": "179957898032500736",
+   "tournament": "Cseh 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936793998237696",
+   "sport": "Kosárlabda",
+   "name": "Olomouc - Svitavy",
+   "home": "Olomouc",
+   "away": "Svitavy",
+   "home_pid": "162031726504419328",
+   "away_pid": "447389",
+   "tournament": "Cseh 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936793865068544",
+   "sport": "Kosárlabda",
+   "name": "Lynx Liberec - USK Praha 2",
+   "home": "Lynx Liberec",
+   "away": "USK Praha 2",
+   "home_pid": "179957954072596480",
+   "away_pid": "151181872018440192",
+   "tournament": "Cseh 2. 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936745972408320",
+   "sport": "Kosárlabda",
+   "name": "Pardubice 2 - MS Academy",
+   "home": "Pardubice 2",
+   "away": "MS Academy",
+   "home_pid": "230331895601598464",
+   "away_pid": "281532483394211840",
+   "tournament": "Cseh 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936770894962688",
+   "sport": "Kosárlabda",
+   "name": "Holbaek-Stenhus - Köbenhavn",
+   "home": "Holbaek-Stenhus",
+   "away": "Köbenhavn",
+   "home_pid": "182947561405992960",
+   "away_pid": "182778026920038400",
+   "tournament": "Dán bajnokság 2026/2027",
+   "start": "2026-11-13T17:30:00+00:00"
+  },
+  {
+   "id": "318936725159223296",
+   "sport": "Kosárlabda",
+   "name": "Vejen - Bakken Aarhus",
+   "home": "Vejen",
+   "away": "Bakken Aarhus",
+   "home_pid": "281347316335644672",
+   "away_pid": "39513",
+   "tournament": "Dán bajnokság 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936721464041472",
+   "sport": "Kosárlabda",
+   "name": "Helsinki Seagulls - Kipina",
+   "home": "Helsinki Seagulls",
+   "away": "Kipina",
+   "home_pid": "183387879662211072",
+   "away_pid": "153892743159009280",
+   "tournament": "Finn bajnokság 2026/2027",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936721540587520",
+   "sport": "Kosárlabda",
+   "name": "Tapiolan Honka - Bisons Loimaa",
+   "home": "Tapiolan Honka",
+   "away": "Bisons Loimaa",
+   "home_pid": "118834246448107520",
+   "away_pid": "150902612776140800",
+   "tournament": "Finn bajnokság 2026/2027",
+   "start": "2026-11-13T16:30:00+00:00"
   },
   {
    "id": "319600391714054144",
@@ -5256,6 +8183,193 @@
    "start": "2026-11-12T11:00:00+00:00"
   },
   {
+   "id": "319223102895628288",
+   "sport": "Kosárlabda",
+   "name": "TSU Tbilisi - CIU Kavkasia Tbilisi",
+   "home": "TSU Tbilisi",
+   "away": "CIU Kavkasia Tbilisi",
+   "home_pid": "185133574529273856",
+   "away_pid": "185143618588168192",
+   "tournament": "Georgiai bajnokság 2026/2027",
+   "start": "2026-11-13T10:00:00+00:00"
+  },
+  {
+   "id": "318936743812341760",
+   "sport": "Kosárlabda",
+   "name": "Rustavi - Kutaisi",
+   "home": "Rustavi",
+   "away": "Kutaisi",
+   "home_pid": "185143626487091200",
+   "away_pid": "185133467284066304",
+   "tournament": "Georgiai bajnokság 2026/2027",
+   "start": "2026-11-13T14:30:00+00:00"
+  },
+  {
+   "id": "318936725021859840",
+   "sport": "Kosárlabda",
+   "name": "Maccabi Petah Tikva Elitzur - Elitzur Yavne",
+   "home": "Maccabi Petah Tikva Elitzur",
+   "away": "Elitzur Yavne",
+   "home_pid": "272757209829609472",
+   "away_pid": "247926180817793024",
+   "tournament": "Izraeli 2. 2026/2027",
+   "start": "2026-11-13T11:00:00+00:00"
+  },
+  {
+   "id": "318936746470481920",
+   "sport": "Kosárlabda",
+   "name": "Tokyo Utd. - Kumamoto",
+   "home": "Tokyo Utd.",
+   "away": "Kumamoto",
+   "home_pid": "183497473660080128",
+   "away_pid": "183602903948251136",
+   "tournament": "Japán 2. 2026/2027",
+   "start": "2026-11-13T10:05:00+00:00"
+  },
+  {
+   "id": "318936804525940736",
+   "sport": "Kosárlabda",
+   "name": "Start Lublin - Gliwice",
+   "home": "Start Lublin",
+   "away": "Gliwice",
+   "home_pid": "824922",
+   "away_pid": "1503470",
+   "tournament": "Lengyel bajnokság 2026/2027",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936804843659264",
+   "sport": "Kosárlabda",
+   "name": "Anwil Wloclawek - Arka Gdynia",
+   "home": "Anwil Wloclawek",
+   "away": "Arka Gdynia",
+   "home_pid": "16883",
+   "away_pid": "824929",
+   "tournament": "Lengyel bajnokság 2026/2027",
+   "start": "2026-11-13T19:15:00+00:00"
+  },
+  {
+   "id": "319740929590239232",
+   "sport": "Kosárlabda",
+   "name": "UVAQ Morelia - Anahuac Norte",
+   "home": "UVAQ Morelia",
+   "away": "Anahuac Norte",
+   "home_pid": "282416853599522816",
+   "away_pid": "262138508722843648",
+   "tournament": "Mexikói ABE Liga, női 2027",
+   "start": "2026-11-13T01:00:00+00:00"
+  },
+  {
+   "id": "318936745006669824",
+   "sport": "Kosárlabda",
+   "name": "Vitoria Guimaraes - Porto",
+   "home": "Vitoria Guimaraes",
+   "away": "Porto",
+   "home_pid": "118553",
+   "away_pid": "1350013",
+   "tournament": "Portugál bajnokság 2026/2027",
+   "start": "2026-11-13T20:30:00+00:00"
+  },
+  {
+   "id": "318936784807469056",
+   "sport": "Kosárlabda",
+   "name": "CSU Sibiu - Voluntari",
+   "home": "CSU Sibiu",
+   "away": "Voluntari",
+   "home_pid": "54062",
+   "away_pid": "6280553781542912",
+   "tournament": "Román bajnokság 2026/2027",
+   "start": "2026-11-13T17:45:00+00:00"
+  },
+  {
+   "id": "318936806505652224",
+   "sport": "Kosárlabda",
+   "name": "Slovan Bratislava - Nitra Blue Wings",
+   "home": "Slovan Bratislava",
+   "away": "Nitra Blue Wings",
+   "home_pid": "598562",
+   "away_pid": "247385384642277376",
+   "tournament": "Szlovák bajnokság 2026/2027",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "319255485555482624",
+   "sport": "Kosárlabda",
+   "name": "Klokani Ivanka Pri Dunaji - UMB B. Bystrica",
+   "home": "Klokani Ivanka Pri Dunaji",
+   "away": "UMB B. Bystrica",
+   "home_pid": "248809609776197632",
+   "away_pid": "183485761643925504",
+   "tournament": "Szlovák bajnokság, női 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936735408005120",
+   "sport": "Kosárlabda",
+   "name": "Zlatorog Lasko - Hopsi Polzela",
+   "home": "Zlatorog Lasko",
+   "away": "Hopsi Polzela",
+   "home_pid": "36783",
+   "away_pid": "84958",
+   "tournament": "Szlovén bajnokság 2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936769350410240",
+   "sport": "Kosárlabda",
+   "name": "Uppsala - Umea",
+   "home": "Uppsala",
+   "away": "Umea",
+   "home_pid": "154429905397039104",
+   "away_pid": "1148691",
+   "tournament": "Svéd bajnokság 2026/2027",
+   "start": "2026-11-13T18:04:00+00:00"
+  },
+  {
+   "id": "318936769443733504",
+   "sport": "Kosárlabda",
+   "name": "Jämtland - Högsbo",
+   "home": "Jämtland",
+   "away": "Högsbo",
+   "home_pid": "10897",
+   "away_pid": "182526991806812160",
+   "tournament": "Svéd bajnokság 2026/2027",
+   "start": "2026-11-13T18:04:00+00:00"
+  },
+  {
+   "id": "318936769080926208",
+   "sport": "Kosárlabda",
+   "name": "Boras - Köping",
+   "home": "Boras",
+   "away": "Köping",
+   "home_pid": "82936",
+   "away_pid": "2418418574585856",
+   "tournament": "Svéd bajnokság 2026/2027",
+   "start": "2026-11-13T18:04:00+00:00"
+  },
+  {
+   "id": "318936722314436608",
+   "sport": "Kosárlabda",
+   "name": "Nassjö - Norrköping",
+   "home": "Nassjö",
+   "away": "Norrköping",
+   "home_pid": "760752",
+   "away_pid": "10903",
+   "tournament": "Svéd bajnokság 2026/2027",
+   "start": "2026-11-13T18:04:00+00:00"
+  },
+  {
+   "id": "318936769258135552",
+   "sport": "Kosárlabda",
+   "name": "Lulea - Södertälje",
+   "home": "Lulea",
+   "away": "Södertälje",
+   "home_pid": "450275",
+   "away_pid": "10895",
+   "tournament": "Svéd bajnokság 2026/2027",
+   "start": "2026-11-13T18:04:00+00:00"
+  },
+  {
    "id": "318936796819955712",
    "sport": "Kosárlabda",
    "name": "Kyiv Basket - Volynbasket Lutsk",
@@ -5265,6 +8379,611 @@
    "away_pid": "315850211625869312",
    "tournament": "Ukrán bajnokság 2026/2027",
    "start": "2026-11-12T15:00:00+00:00"
+  },
+  {
+   "id": "318936793065005056",
+   "sport": "Kosárlabda",
+   "name": "Aguada - Hebraica Macabi",
+   "home": "Aguada",
+   "away": "Hebraica Macabi",
+   "home_pid": "184690751222894592",
+   "away_pid": "185330361228644352",
+   "tournament": "Uruguayi bajnokság 2026/2027",
+   "start": "2026-11-13T22:15:00+00:00"
+  },
+  {
+   "id": "319708569741107200",
+   "sport": "Jégkorong",
+   "name": "Japán - Ausztria",
+   "home": "Japán",
+   "away": "Ausztria",
+   "home_pid": "195537543864938496",
+   "away_pid": "168832310412627968",
+   "tournament": "vb, női 2026",
+   "start": "2026-11-13T10:00:00+00:00"
+  },
+  {
+   "id": "319707906328043520",
+   "sport": "Jégkorong",
+   "name": "Kanada - Csehország",
+   "home": "Kanada",
+   "away": "Csehország",
+   "home_pid": "200271857191120896",
+   "away_pid": "142931967185309696",
+   "tournament": "vb, női 2026",
+   "start": "2026-11-13T14:00:00+00:00"
+  },
+  {
+   "id": "319707906155028480",
+   "sport": "Jégkorong",
+   "name": "Németország - Finnország",
+   "home": "Németország",
+   "away": "Finnország",
+   "home_pid": "195538727687319552",
+   "away_pid": "145712584580976640",
+   "tournament": "vb, női 2026",
+   "start": "2026-11-13T14:00:00+00:00"
+  },
+  {
+   "id": "319707906239963136",
+   "sport": "Jégkorong",
+   "name": "Svédország - Svájc",
+   "home": "Svédország",
+   "away": "Svájc",
+   "home_pid": "168007895952183296",
+   "away_pid": "145712617876410368",
+   "tournament": "vb, női 2026",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "319707906062753792",
+   "sport": "Jégkorong",
+   "name": "USA - Dánia",
+   "home": "USA",
+   "away": "Dánia",
+   "home_pid": "200271867374891008",
+   "away_pid": "195351156886761472",
+   "tournament": "vb, női 2026",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936543600386048",
+   "sport": "Jégkorong",
+   "name": "Jesenice - Merano",
+   "home": "Jesenice",
+   "away": "Merano",
+   "home_pid": "2284663610699776",
+   "away_pid": "149370487706800128",
+   "tournament": "Alpok Liga 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936602843881472",
+   "sport": "Jégkorong",
+   "name": "Klagenfurt - Innsbruck",
+   "home": "Klagenfurt",
+   "away": "Innsbruck",
+   "home_pid": "37420",
+   "away_pid": "37422",
+   "tournament": "Osztrák bajnokság 2026/2027",
+   "start": "2026-11-13T18:15:00+00:00"
+  },
+  {
+   "id": "318936602401382400",
+   "sport": "Jégkorong",
+   "name": "Olimpija Ljubljana - Salzburg",
+   "home": "Olimpija Ljubljana",
+   "away": "Salzburg",
+   "home_pid": "79545",
+   "away_pid": "37425",
+   "tournament": "Osztrák bajnokság 2026/2027",
+   "start": "2026-11-13T18:15:00+00:00"
+  },
+  {
+   "id": "318936602674012160",
+   "sport": "Jégkorong",
+   "name": "Vorarlberg - Val Pusteria",
+   "home": "Vorarlberg",
+   "away": "Val Pusteria",
+   "home_pid": "182212354857029632",
+   "away_pid": "112222",
+   "tournament": "Osztrák bajnokság 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936601403138048",
+   "sport": "Jégkorong",
+   "name": "Odense - Esbjerg",
+   "home": "Odense",
+   "away": "Esbjerg",
+   "home_pid": "37245",
+   "away_pid": "37243",
+   "tournament": "Dán bajnokság 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936601846685696",
+   "sport": "Jégkorong",
+   "name": "Aalborg - Rungsted",
+   "home": "Aalborg",
+   "away": "Rungsted",
+   "home_pid": "37240",
+   "away_pid": "972840",
+   "tournament": "Dán bajnokság 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936601248997376",
+   "sport": "Jégkorong",
+   "name": "Sönderjyske - Herning",
+   "home": "Sönderjyske",
+   "away": "Herning",
+   "home_pid": "37247",
+   "away_pid": "37239",
+   "tournament": "Dán bajnokság 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936597094539264",
+   "sport": "Jégkorong",
+   "name": "Landshut - EV Regensburg",
+   "home": "Landshut",
+   "away": "EV Regensburg",
+   "home_pid": "37316",
+   "away_pid": "183771080948764672",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936597225611264",
+   "sport": "Jégkorong",
+   "name": "Bad Nauheim - Lausitzer Füchse",
+   "home": "Bad Nauheim",
+   "away": "Lausitzer Füchse",
+   "home_pid": "435659",
+   "away_pid": "37314",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936597360877568",
+   "sport": "Jégkorong",
+   "name": "Crimmitschau - Blue Devils Weiden",
+   "home": "Crimmitschau",
+   "away": "Blue Devils Weiden",
+   "home_pid": "58975",
+   "away_pid": "166030694633492480",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936597170036736",
+   "sport": "Jégkorong",
+   "name": "Bietigheim/Bissingen - Rosenheim",
+   "home": "Bietigheim/Bissingen",
+   "away": "Rosenheim",
+   "home_pid": "117619",
+   "away_pid": "166030672852471808",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936597717393408",
+   "sport": "Jégkorong",
+   "name": "Kassel - Freiburg",
+   "home": "Kassel",
+   "away": "Freiburg",
+   "home_pid": "37308",
+   "away_pid": "754330",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936596915232768",
+   "sport": "Jégkorong",
+   "name": "Memmingen Indians - Düsseldorf",
+   "home": "Memmingen Indians",
+   "away": "Düsseldorf",
+   "home_pid": "165949311198347264",
+   "away_pid": "37306",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936597573738496",
+   "sport": "Jégkorong",
+   "name": "Ravensburg - Dresden",
+   "home": "Ravensburg",
+   "away": "Dresden",
+   "home_pid": "1501962",
+   "away_pid": "53174",
+   "tournament": "Német 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936588738437120",
+   "sport": "Jégkorong",
+   "name": "Cardiff Devils - Nottingham Panthers",
+   "home": "Cardiff Devils",
+   "away": "Nottingham Panthers",
+   "home_pid": "325173",
+   "away_pid": "184071128576217088",
+   "tournament": "Brit Liga 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936588565422080",
+   "sport": "Jégkorong",
+   "name": "Glasgow Clan - Fife Flyers",
+   "home": "Glasgow Clan",
+   "away": "Fife Flyers",
+   "home_pid": "156434031061291008",
+   "away_pid": "153000105436303360",
+   "tournament": "Brit Liga 2026/2027",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "318936618330300416",
+   "sport": "Jégkorong",
+   "name": "Briancon - Gap",
+   "home": "Briancon",
+   "away": "Gap",
+   "home_pid": "181511371998941184",
+   "away_pid": "182492560376254464",
+   "tournament": "Francia bajnokság 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936617364561920",
+   "sport": "Jégkorong",
+   "name": "Nice - Chamonix",
+   "home": "Nice",
+   "away": "Chamonix",
+   "home_pid": "181947309137907712",
+   "away_pid": "53433",
+   "tournament": "Francia bajnokság 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936617850052608",
+   "sport": "Jégkorong",
+   "name": "Spartiates de Marseille - Grenoble",
+   "home": "Spartiates de Marseille",
+   "away": "Grenoble",
+   "home_pid": "164868052022902784",
+   "away_pid": "42528",
+   "tournament": "Francia bajnokság 2026/2027",
+   "start": "2026-11-13T19:15:00+00:00"
+  },
+  {
+   "id": "318936618128973824",
+   "sport": "Jégkorong",
+   "name": "Cergy-Pontoise - Amiens",
+   "home": "Cergy-Pontoise",
+   "away": "Amiens",
+   "home_pid": "5988335559960576",
+   "away_pid": "42524",
+   "tournament": "Francia bajnokság 2026/2027",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "318936617431670784",
+   "sport": "Jégkorong",
+   "name": "Bordeaux - Angers",
+   "home": "Bordeaux",
+   "away": "Angers",
+   "home_pid": "1024853",
+   "away_pid": "179873956516384768",
+   "tournament": "Francia bajnokság 2026/2027",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  {
+   "id": "318936558613897216",
+   "sport": "Jégkorong",
+   "name": "North Bay Battalion - Sarnia Sting",
+   "home": "North Bay Battalion",
+   "away": "Sarnia Sting",
+   "home_pid": "152987828550160384",
+   "away_pid": "151840534825222144",
+   "tournament": "OHL 2026/2027",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936558833049600",
+   "sport": "Jégkorong",
+   "name": "Peterborough Petes - Kingston Frontenacs",
+   "home": "Peterborough Petes",
+   "away": "Kingston Frontenacs",
+   "home_pid": "152021723128217600",
+   "away_pid": "151206360456052736",
+   "tournament": "OHL 2026/2027",
+   "start": "2026-11-13T00:05:00+00:00"
+  },
+  {
+   "id": "318936560528596992",
+   "sport": "Jégkorong",
+   "name": "Windsor Spitfires - Niagara IceDogs",
+   "home": "Windsor Spitfires",
+   "away": "Niagara IceDogs",
+   "home_pid": "152987952962654208",
+   "away_pid": "151115760116383744",
+   "tournament": "OHL 2026/2027",
+   "start": "2026-11-13T00:05:00+00:00"
+  },
+  {
+   "id": "318936558521622528",
+   "sport": "Jégkorong",
+   "name": "Saginaw Spirit - Ottawa 67s",
+   "home": "Saginaw Spirit",
+   "away": "Ottawa 67s",
+   "home_pid": "154552146912821248",
+   "away_pid": "151206360314494976",
+   "tournament": "OHL 2026/2027",
+   "start": "2026-11-13T00:05:00+00:00"
+  },
+  {
+   "id": "318936551893573632",
+   "sport": "Jégkorong",
+   "name": "Saint John Sea Dogs - Quebec Remparts",
+   "home": "Saint John Sea Dogs",
+   "away": "Quebec Remparts",
+   "home_pid": "184071759290486784",
+   "away_pid": "184071740710768640",
+   "tournament": "QMJHL 2026/2027",
+   "start": "2026-11-12T23:00:00+00:00"
+  },
+  {
+   "id": "318936552730337280",
+   "sport": "Jégkorong",
+   "name": "Blainville-Boisbriand Armada - Baie-Comeau Drakkar",
+   "home": "Blainville-Boisbriand Armada",
+   "away": "Baie-Comeau Drakkar",
+   "home_pid": "184071694314426368",
+   "away_pid": "184071654659379200",
+   "tournament": "QMJHL 2026/2027",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936624674185216",
+   "sport": "Jégkorong",
+   "name": "Shawinigan Cataractes - Drummondville Voltigeurs",
+   "home": "Shawinigan Cataractes",
+   "away": "Drummondville Voltigeurs",
+   "home_pid": "184071820421419008",
+   "away_pid": "184071713389072384",
+   "tournament": "QMJHL 2026/2027",
+   "start": "2026-11-13T00:00:00+00:00"
+  },
+  {
+   "id": "318936613857075200",
+   "sport": "Jégkorong",
+   "name": "Bejbarisz Atirau - Gornyak Rudnyij",
+   "home": "Bejbarisz Atirau",
+   "away": "Gornyak Rudnyij",
+   "home_pid": "1082833",
+   "away_pid": "1019800",
+   "tournament": "Kazah bajnokság 2027",
+   "start": "2026-11-13T14:00:00+00:00"
+  },
+  {
+   "id": "318936614062596096",
+   "sport": "Jégkorong",
+   "name": "Almaty - Kulager Petropavlovszk",
+   "home": "Almaty",
+   "away": "Kulager Petropavlovszk",
+   "home_pid": "1016808",
+   "away_pid": "1366495",
+   "tournament": "Kazah bajnokság 2027",
+   "start": "2026-11-13T14:30:00+00:00"
+  },
+  {
+   "id": "318936581142552576",
+   "sport": "Jégkorong",
+   "name": "Visp - Basel",
+   "home": "Visp",
+   "away": "Basel",
+   "home_pid": "37376",
+   "away_pid": "179955916427284480",
+   "tournament": "Svájci 2. 2026/2027",
+   "start": "2026-11-13T18:30:00+00:00"
+  },
+  {
+   "id": "318936580085587968",
+   "sport": "Jégkorong",
+   "name": "Chaux-de-Fonds - Olten",
+   "home": "Chaux-de-Fonds",
+   "away": "Olten",
+   "home_pid": "37378",
+   "away_pid": "37380",
+   "tournament": "Svájci 2. 2026/2027",
+   "start": "2026-11-13T18:45:00+00:00"
+  },
+  {
+   "id": "318936579740606464",
+   "sport": "Jégkorong",
+   "name": "Sierre - Thurgau",
+   "home": "Sierre",
+   "away": "Thurgau",
+   "home_pid": "10321993022050304",
+   "away_pid": "37381",
+   "tournament": "Svájci 2. 2026/2027",
+   "start": "2026-11-13T18:45:00+00:00"
+  },
+  {
+   "id": "318936580849999872",
+   "sport": "Jégkorong",
+   "name": "EHC Chur - EHC Arosa",
+   "home": "EHC Chur",
+   "away": "EHC Arosa",
+   "home_pid": "247479185725583360",
+   "away_pid": "214387146453307392",
+   "tournament": "Svájci 2. 2026/2027",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  {
+   "id": "318936580774502400",
+   "sport": "Jégkorong",
+   "name": "Bellinzona - GCK Lions",
+   "home": "Bellinzona",
+   "away": "GCK Lions",
+   "home_pid": "247915768655245312",
+   "away_pid": "37375",
+   "tournament": "Svájci 2. 2026/2027",
+   "start": "2026-11-13T19:15:00+00:00"
+  },
+  {
+   "id": "318936591651381248",
+   "sport": "Jégkorong",
+   "name": "MODO - Östersund",
+   "home": "MODO",
+   "away": "Östersund",
+   "home_pid": "37254",
+   "away_pid": "182412542696542208",
+   "tournament": "Svéd 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936591407063040",
+   "sport": "Jégkorong",
+   "name": "Södertälje - Almtuna",
+   "home": "Södertälje",
+   "away": "Almtuna",
+   "home_pid": "37258",
+   "away_pid": "37279",
+   "tournament": "Svéd 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936591747850240",
+   "sport": "Jégkorong",
+   "name": "Västeras - Leksand",
+   "home": "Västeras",
+   "away": "Leksand",
+   "home_pid": "181493",
+   "away_pid": "37271",
+   "tournament": "Svéd 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936592675840000",
+   "sport": "Jégkorong",
+   "name": "Oskarshamn - Vimmerby",
+   "home": "Oskarshamn",
+   "away": "Vimmerby",
+   "home_pid": "37261",
+   "away_pid": "184508881946333184",
+   "tournament": "Svéd 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936592588808192",
+   "sport": "Jégkorong",
+   "name": "Nybro - Kalmar",
+   "home": "Nybro",
+   "away": "Kalmar",
+   "home_pid": "37268",
+   "away_pid": "184508860146438144",
+   "tournament": "Svéd 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936591846416384",
+   "sport": "Jégkorong",
+   "name": "Visby-Roma - Mora",
+   "home": "Visby-Roma",
+   "away": "Mora",
+   "home_pid": "185877534469050368",
+   "away_pid": "182412488925564928",
+   "tournament": "Svéd 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936592152600576",
+   "sport": "Jégkorong",
+   "name": "Karlskoga - AIK",
+   "home": "Karlskoga",
+   "away": "AIK",
+   "home_pid": "182412324465856512",
+   "away_pid": "68479",
+   "tournament": "Svéd 2. 2026/2027",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  {
+   "id": "318936607788965888",
+   "sport": "Jégkorong",
+   "name": "U20AIK - U20Sollentuna",
+   "home": "U20AIK",
+   "away": "U20Sollentuna",
+   "home_pid": "214591980134617088",
+   "away_pid": "313593459701870592",
+   "tournament": "U20 Svéd bajnokság 2026/2027",
+   "start": "2026-11-12T18:30:00+00:00"
+  },
+  {
+   "id": "318936604966199296",
+   "sport": "Jégkorong",
+   "name": "MHC Mountfield Martin - Skalica",
+   "home": "MHC Mountfield Martin",
+   "away": "Skalica",
+   "home_pid": "53342",
+   "away_pid": "182616300305043456",
+   "tournament": "Szlovák 2. 2026/2027",
+   "start": "2026-11-13T16:30:00+00:00"
+  },
+  {
+   "id": "318936605722222592",
+   "sport": "Jégkorong",
+   "name": "Detva - Topolcany",
+   "home": "Detva",
+   "away": "Topolcany",
+   "home_pid": "246636188081451008",
+   "away_pid": "183339713570066432",
+   "tournament": "Szlovák 2. 2026/2027",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936605488390144",
+   "sport": "Jégkorong",
+   "name": "Humenne - TEBS Bratislava",
+   "home": "Humenne",
+   "away": "TEBS Bratislava",
+   "home_pid": "97996367253733376",
+   "away_pid": "249642454621392896",
+   "tournament": "Szlovák 2. 2026/2027",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936605261897728",
+   "sport": "Jégkorong",
+   "name": "Povazska Bystrica - Nove Zamky",
+   "home": "Povazska Bystrica",
+   "away": "Nove Zamky",
+   "home_pid": "56643",
+   "away_pid": "976277",
+   "tournament": "Szlovák 2. 2026/2027",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936605572276224",
+   "sport": "Jégkorong",
+   "name": "Dubnica - Levice",
+   "home": "Dubnica",
+   "away": "Levice",
+   "home_pid": "1522409",
+   "away_pid": "181980543791976448",
+   "tournament": "Szlovák 2. 2026/2027",
+   "start": "2026-11-13T17:00:00+00:00"
+  },
+  {
+   "id": "318936605181157376",
+   "sport": "Jégkorong",
+   "name": "Ziar nad Hronom - Trnava",
+   "home": "Ziar nad Hronom",
+   "away": "Trnava",
+   "home_pid": "150342052693987328",
+   "away_pid": "182616308818432000",
+   "tournament": "Szlovák 2. 2026/2027",
+   "start": "2026-11-13T17:00:00+00:00"
   }
  ]
 }
