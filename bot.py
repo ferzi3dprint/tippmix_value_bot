@@ -212,12 +212,27 @@ def evaluate(fx, so, ho, meta, hist, now, cfg, steam_fn=None):
     return cands, steamy
 
 
+def daily_bet_cap(cfg, now):
+    """Napi szimulált-fogadás plafon: a hónapban megmaradt fizetős keretet osztja el a hátralévő napokra
+    (minden fogadás elszámolása 1 kérés, a meccslista sportáganként napi 1). Legalább a configban megadott alap."""
+    base = (cfg.get("free") or {}).get("max_bets_per_day", 3)
+    q = load_json("quota.json", {})
+    if not q.get("limit") or q.get("remaining") is None:
+        return base
+    local = to_local(now, cfg)
+    next_month = (local.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
+    days_left = max(1, (next_month.date() - local.date()).days)
+    fixed = len(cfg["scan"]["sports"]) * days_left + 6          # meccslisták + piaclista-frissítés
+    spare = q["remaining"] - cfg["api"]["quota_reserve"] - fixed
+    return max(base, int(spare / days_left))
+
+
 def place(cands, bets, cfg, now, tours):
     """Szimulált fogadás a jelöltekre (EV szerint), a tőke- és meccskorlátokkal."""
     placed = []
     br = ledger.bankroll(bets, cfg)
     pending = "pending" if (cfg.get("execution") or {}).get("enabled") else "ok"
-    cap = (cfg.get("free") or {}).get("max_bets_per_day") if cfg["api"].get("mode") in ("free", "hu") else None
+    cap = daily_bet_cap(cfg, now) if cfg["api"].get("mode") in ("free", "hu") else None
     tz = ZoneInfo(cfg["timezone"])
     today = to_local(now, cfg).date()
     for fx, so, c in sorted(cands, key=lambda x: -x[2]["ev"]):
@@ -770,6 +785,8 @@ def run(cfg):
         quick = cfg["api"].get("mode") == "hu" and bool(last_full) and \
             now - parse_time(last_full) < dt.timedelta(minutes=cfg["hu"].get("full_every_minutes", 20) - 1)
         settled = [] if quick else settle_due(client, bets, cfg, now)
+        if not quick and os.getenv("MOCK_API") != "1":
+            paid_calls_left(client, cfg)         # kvóta-állapot frissítése (ingyenes hívás) a napi plafonhoz
         stats["settled"] = len(settled)
         if (cfg.get("execution") or {}).get("enabled"):
             _, g = recheck(client, bets, cfg, now, [], hist, stats)       # előző futásból maradt függő fogadások

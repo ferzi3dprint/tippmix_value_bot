@@ -36,7 +36,7 @@ free:                          # mode: free és hu esetén
   max_fixtures_per_run: 150    # ingyenes Pinnacle-kérések futásonként (5 mp/kérés -> ~12 perc, belefér a 20 perces körbe)
   near_start_hours: 6          # az ennyin belül kezdődő meccseket minden futás nézi
   far_recheck_minutes: 90      # a távolabbiakat ennyi percenként
-  max_bets_per_day: 3          # minden fogadás elszámolása 1 fizetős kérés -> a havi keret miatt naponta legfeljebb ennyi
+  max_bets_per_day: 3          # legalább ennyi/nap; ha a havi keretből több maradt, a bot automatikusan többet enged
                                # (4 sportág meccslistája ~120/hó + 3 fogadás/nap ~90/hó + piaclista ≈ 220 a 250-ből)
 
 scan:

@@ -217,7 +217,7 @@ def test_free_mode_daily_cap_and_signals(tmp_path, monkeypatch):
     for b in bets:
         if b["status"] != "skipped":
             per_day[ledger.placed_day(b, tz)] = per_day.get(ledger.placed_day(b, tz), 0) + 1
-    assert per_day and max(per_day.values()) <= CFG["free"]["max_bets_per_day"]
+    assert per_day      # a napi plafon a (demóban korlátlan) havi keretből számol – külön teszt ellenőrzi
     sig = json.load(open(tmp_path / "signals.json"))
     assert len(sig) > len(bets) and any(x.get("clv") is not None for x in sig)
     runs = json.load(open(tmp_path / "runs.json"))
@@ -352,3 +352,14 @@ def test_tippmix_tip_names():
     mk = tippmixfeed.parse_markets(recs, match, names)
     book = tippmixfeed.to_op_book(mk, "Labdarúgás", {("Labdarúgás", "ou", 2.5): (1010, {"over": 1010, "under": 1011})}, names)
     assert book["markets"]["1010"]["outcomes"]["1010"]["tm"] == "Gólszám 2.5 - Rendes játékidő → Több, mint 2.5"
+
+
+def test_daily_bet_cap_uses_spare_quota(tmp_path, monkeypatch):
+    monkeypatch.setenv("DATA_DIR", str(tmp_path))
+    import bot
+    from common import save_json
+    now = dt.datetime(2026, 11, 12, 12, tzinfo=dt.timezone.utc)
+    assert bot.daily_bet_cap(CFG, now) == CFG["free"]["max_bets_per_day"]          # nincs kvóta-adat
+    save_json("quota.json", {"limit": 250, "remaining": 230})
+    cap = bot.daily_bet_cap(CFG, now)                                               # 19 nap van hátra
+    assert cap >= CFG["free"]["max_bets_per_day"] and cap <= 12
