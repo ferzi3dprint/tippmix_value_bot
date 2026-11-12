@@ -15,11 +15,11 @@
   "band": "1.00–1.30",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.88192,
+  "closing_fair_prob": 0.88206,
   "closing_fair_odds": 1.134,
   "closing_sharp_odds": 1.123,
-  "closing_at": "2026-11-12T15:45:11.951874+00:00",
-  "clv": 0.03185
+  "closing_at": "2026-11-12T16:10:43.551865+00:00",
+  "clv": 0.032
  },
  {
   "fixture_id": "id1000184875802240",
@@ -62,7 +62,7 @@
   "closing_fair_prob": 0.8733,
   "closing_fair_odds": 1.145,
   "closing_sharp_odds": 1.12,
-  "closing_at": "2026-11-12T15:45:11.951874+00:00",
+  "closing_at": "2026-11-12T16:10:43.551865+00:00",
   "clv": 0.14402
  },
  {
@@ -106,7 +106,7 @@
   "closing_fair_prob": 0.90725,
   "closing_fair_odds": 1.102,
   "closing_sharp_odds": 1.087,
-  "closing_at": "2026-11-12T15:45:11.951874+00:00",
+  "closing_at": "2026-11-12T16:10:43.551865+00:00",
   "clv": 0.0252
  },
  {
@@ -124,6 +124,23 @@
   "ev": 0.03004,
   "band": "1.80–2.10",
   "trigger": "normál",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1002375568932422",
+  "market_id": 10166,
+  "outcome_id": 10166,
+  "first_at": "2026-11-12T16:10:43.551865+00:00",
+  "start": "2026-11-12T17:00:00.000Z",
+  "home": "Örményország",
+  "away": "Ciprus",
+  "tournament": "Nemzetek Ligája, C divízió, 2. csoport",
+  "label": "Gólszám 1.75: Több",
+  "odds": 1.58,
+  "fair_prob": 0.64741,
+  "ev": 0.02291,
+  "band": "1.50–1.80",
+  "trigger": "steam",
   "bet": false
  }
 ]
