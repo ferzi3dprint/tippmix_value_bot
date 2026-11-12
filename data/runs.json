@@ -1656,5 +1656,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T17:19:08.638675+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-0.1% Frölunda – Malmö · 1X2 (rendes játékidő): Döntetlen @4.2 (fair 4.205)",
+   "-0.2% Färjestad – Djurgarden · Győztes (hosszabbítással): Färjestad győz @1.25 (fair 1.252)",
+   "-0.9% EC KAC Future Team – Kitzbühel · Hendikep (rendes játékidő): EC KAC Future Team (+1.5) @2.0 (fair 2.018)",
+   "-1.1% Szenegál – Szudán · Mindkét csapat szerez gólt: Nem @1.34 (fair 1.355)",
+   "-1.2% Norvégia – Franciaország · Hendikep (rendes játékidő): Franciaország (-0.5) @1.71 (fair 1.73)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 4,
+  "fast": true,
+  "fixtures_checked": 49,
+  "fixtures_both": 38,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 9,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 55
+ },
+ {
+  "time": "2026-11-12T17:26:55.561559+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 716,
+  "pinnacle_fixtures": 601,
+  "paired": 333,
+  "by_sport": {
+   "Soccer": [
+    195,
+    124
+   ],
+   "Tennis": [
+    209,
+    13
+   ],
+   "Basketball": [
+    183,
+    100
+   ],
+   "Ice Hockey": [
+    129,
+    96
+   ]
+  },
+  "top_ev": [
+   "+1.1% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.197)",
+   "+1.0% Mali – Ruanda · Gólszám 3.25: Kevesebb @1.39 (fair 1.377)",
+   "+0.7% Mali – Ruanda · Gólszám 3: Kevesebb @1.47 (fair 1.46)",
+   "+0.5% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.154)",
+   "+0.4% St Philbert de Grandlieu – La Roche · Gólszám 3: Kevesebb @2.16 (fair 2.151)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 8,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 97,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 28,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 155
  }
 ]
