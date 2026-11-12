@@ -1,0 +1,28 @@
+name: Vegas.hu felderítés (NordVPN, magyar IP)
+on:
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  recon:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install playwright websockets
+      - name: NordVPN – magyar szerver
+        run: bash scripts/nordvpn_hu.sh
+        env:
+          NORD_USER: ${{ secrets.NORD_USER }}
+          NORD_PASS: ${{ secrets.NORD_PASS }}
+      - run: python recon/recon.py vegas
+      - name: Eredmény a recon ágra
+        if: always()
+        run: |
+          mkdir -p recon/out && cd recon/out && date > run.txt
+          git init -q -b recon && git add -A
+          git -c user.name=recon-bot -c user.email=recon-bot@users.noreply.github.com commit -q -m "Vegas felderítés"
+          git push -q --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:recon

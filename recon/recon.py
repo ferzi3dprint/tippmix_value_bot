@@ -15,7 +15,7 @@ OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "out")
 SITES = {
     "tippmixpro": ["https://www.tippmixpro.hu/hu/fogadas/i/labdarugas/1", "https://www.tippmixpro.hu/hu/fogadas/i/elo-naptar",
                    "https://www.tippmixpro.hu/hu/fogadas/i/tenisz/3"],
-    "vegas": ["https://www.vegas.hu/", "https://www.vegas.hu/sportfogadas"],
+    "vegas": ["https://www.vegas.hu/", "https://www.vegas.hu/sportfogadas", "https://www.vegas.hu/sport"],
 }
 INTERESTING = re.compile(r"odd|price|market|event|match|sport|fixture|bet|coupon|offer|outcome|selection", re.I)
 SKIP = re.compile(r"\.(png|jpe?g|gif|svg|webp|woff2?|ttf|css|ico|mp4)(\?|$)|google|facebook|doubleclick|hotjar|analytics|gtm|onetrust|cookie", re.I)
