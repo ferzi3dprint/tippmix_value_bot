@@ -18,13 +18,15 @@ async def js_scan():
                 js = await r.text()
             except Exception:
                 continue
-            for m in re.finditer(r"[^\"'`\s]{0,60}(boost|Boost|BOOST|szorzonovel|oddsnovel|super-?odds|enhanced|promo-odds|special-odds)[^\"'`\s]{0,60}", js):
-                out.add(m.group(0)[:120])
+            for m in re.finditer(r".{0,80}PriceBoost.{0,80}", js):
+                out.add(m.group(0)[:160])
         await b.close()
     return sorted(out)
 
 pats = asyncio.run(js_scan())
-print("JS-minták (boost):", pats[:80])
+print("JS-minták (PriceBoost):")
+for p_ in pats[:40]:
+    print("   ", p_)
 now = dt.datetime.now(dt.timezone.utc)
 with tippmixfeed.Session() as s:
     ms = s.today_matches(now, sports=("Labdarúgás", "Kosárlabda", "Tenisz", "Jégkorong"), days_ahead=1)
@@ -42,6 +44,10 @@ with tippmixfeed.Session() as s:
     print("Boost-gyanús rekordok:", boosted)
     for t in [p for p in pats if p.startswith("/sports") or "aggregator" in p][:10]:
         print("próba-téma:", t)
+    for topic in ("/sports/2901/hu/disciplines/BOTH/BOTH", "/sports/2901/hu/disciplines/PREMATCH/BOTH"):
+        r = s.dump(topic) or []
+        sp = [(x.get("id"), x.get("name")) for x in r if x.get("_type") in ("SPORT", "DISCIPLINE")]
+        print(topic, "->", sp[:80])
     for topic in ("/sports/2901/hu/boosted-odds", "/sports/2901/hu/odds-boost", "/sports/2901/hu/boosted-matches-aggregator-main/0/0/50",
                   "/sports/2901/hu/super-odds", "/sports/2901/hu/promotions"):
         r = s.dump(topic)
