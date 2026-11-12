@@ -1224,5 +1224,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T14:52:49.140073+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-0.1% Madagaszkár – Bissau-Guinea · Gólszám 1.25: Több @1.33 (fair 1.332)",
+   "-0.4% Madagaszkár – Bissau-Guinea · Gólszám 1.5: Több @1.5 (fair 1.506)",
+   "-0.5% Madagaszkár – Bissau-Guinea · Gólszám 1.75: Több @1.64 (fair 1.649)",
+   "-1.6% Egyenlítői-Guinea – Zimbabwe · Gólszám 1.25: Több @1.34 (fair 1.362)",
+   "-1.7% Egyenlítői-Guinea – Zimbabwe · Ázsiai hendikep: Egyenlítői-Guinea (+0.75) @1.25 (fair 1.272)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 18,
+  "fixtures_both": 13,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 19
+ },
+ {
+  "time": "2026-11-12T14:57:49.140464+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 717,
+  "pinnacle_fixtures": 601,
+  "paired": 384,
+  "by_sport": {
+   "Soccer": [
+    201,
+    140
+   ],
+   "Tennis": [
+    209,
+    30
+   ],
+   "Basketball": [
+    176,
+    112
+   ],
+   "Ice Hockey": [
+    131,
+    102
+   ]
+  },
+  "top_ev": [
+   "+3.0% Egyesült Arab Emirátusok – Honduras · Mindkét csapat szerez gólt: Nem @1.94 (fair 1.883)",
+   "+1.8% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.189)",
+   "+1.7% U21Finnország – U21Írország · Gólszám 1.5: Több @1.37 (fair 1.347)",
+   "+1.5% U21Finnország – U21Írország · Gólszám 2: Több @1.58 (fair 1.557)",
+   "+1.1% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.148)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 23,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 121,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 25,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]

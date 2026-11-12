@@ -15,11 +15,11 @@
   "band": "1.00–1.30",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.87778,
-  "closing_fair_odds": 1.139,
-  "closing_sharp_odds": 1.128,
-  "closing_at": "2026-11-12T14:35:38.804217+00:00",
-  "clv": 0.02701
+  "closing_fair_prob": 0.87871,
+  "closing_fair_odds": 1.138,
+  "closing_sharp_odds": 1.127,
+  "closing_at": "2026-11-12T14:57:49.140464+00:00",
+  "clv": 0.02809
  },
  {
   "fixture_id": "id1000184875802240",
@@ -62,7 +62,7 @@
   "closing_fair_prob": 0.8733,
   "closing_fair_odds": 1.145,
   "closing_sharp_odds": 1.12,
-  "closing_at": "2026-11-12T14:35:38.804217+00:00",
+  "closing_at": "2026-11-12T14:57:49.140464+00:00",
   "clv": 0.14402
  },
  {
@@ -81,11 +81,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": true,
-  "closing_fair_prob": 0.64064,
-  "closing_fair_odds": 1.561,
-  "closing_sharp_odds": 1.495,
-  "closing_at": "2026-11-12T13:04:51.933412+00:00",
-  "clv": 0.01863
+  "closing_fair_prob": 0.64214,
+  "closing_fair_odds": 1.557,
+  "closing_sharp_odds": 1.492,
+  "closing_at": "2026-11-12T14:57:49.140464+00:00",
+  "clv": 0.02099
  },
  {
   "fixture_id": "id1000184875802296",
@@ -103,10 +103,27 @@
   "band": "1.00–1.30",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.91283,
-  "closing_fair_odds": 1.095,
-  "closing_sharp_odds": 1.081,
-  "closing_at": "2026-11-12T14:35:38.804217+00:00",
-  "clv": 0.0315
+  "closing_fair_prob": 0.90717,
+  "closing_fair_odds": 1.102,
+  "closing_sharp_odds": 1.087,
+  "closing_at": "2026-11-12T14:57:49.140464+00:00",
+  "clv": 0.02511
+ },
+ {
+  "fixture_id": "id1000085176438758",
+  "market_id": 104,
+  "outcome_id": 105,
+  "first_at": "2026-11-12T14:57:49.140464+00:00",
+  "start": "2026-11-13T14:10:00.000Z",
+  "home": "Egyesült Arab Emirátusok",
+  "away": "Honduras",
+  "tournament": "Válogatott mérkőzés",
+  "label": "Mindkét csapat szerez gólt: Nem",
+  "odds": 1.94,
+  "fair_prob": 0.53095,
+  "ev": 0.03004,
+  "band": "1.80–2.10",
+  "trigger": "normál",
+  "bet": false
  }
 ]
