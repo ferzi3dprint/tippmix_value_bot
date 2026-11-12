@@ -256,3 +256,44 @@ def test_matcher_examples():
     assert team_sim("Taylor Harry Fritz", "Fritz, Taylor") == 1.0
     assert team_sim("Hearts", "Avro FC") < 0.6
     assert odds_consistent([1.8, 3.6, 4.5], [1.85, 3.5, 4.4]) and not odds_consistent([1.3, 5, 9], [3.0, 3.3, 2.4])
+
+
+def test_asian_handicap_and_btts_parsing():
+    import tippmixfeed
+    match = {"sport": "Labdarúgás", "home_pid": "11", "away_pid": "22", }
+    recs = [
+        {"_type": "MARKET", "id": "a", "bettingTypeId": "48", "eventPartId": "3", "name": "Ázsiai hendikep -1.5 - Rendes játékidő", "paramFloat1": -1.5},
+        {"_type": "MARKET", "id": "b", "bettingTypeId": "76", "eventPartId": "3", "name": "Mindkét csapat szerez gólt - Rendes játékidő"},
+        {"_type": "OUTCOME", "id": "o1", "code": "#P22 (+1.5)"}, {"_type": "OUTCOME", "id": "o2", "code": "#P11 (-1.5)"},
+        {"_type": "OUTCOME", "id": "o3", "code": "#Y"}, {"_type": "OUTCOME", "id": "o4", "code": "#N"},
+        *[{"_type": "MARKET_OUTCOME_RELATION", "marketId": m, "outcomeId": o} for m, o in [("a", "o1"), ("a", "o2"), ("b", "o3"), ("b", "o4")]],
+        *[{"_type": "BETTING_OFFER", "outcomeId": o, "odds": p} for o, p in [("o1", 1.7), ("o2", 2.1), ("o3", 1.8), ("o4", 1.95)]],
+    ]
+    mk = tippmixfeed.parse_markets(recs, match)
+    assert mk[("ah", -1.5)] == {"home": 2.1, "away": 1.7}
+    assert mk[("btts", 0.0)] == {"yes": 1.8, "no": 1.95}
+    fx = {"participant1Name": "Hazai", "participant2Name": "Vendég"}
+    c = {"outcome": "2", "market": "Asian Handicap", "mtype": "spreads", "line": -1.5}
+    assert vf.outcome_label(fx, c) == "Ázsiai hendikep: Vendég (+1.5)"
+
+
+def test_market_prob_diff_guard():
+    fx = {}
+    sharp = _book([1.80, 3.80, 4.80])
+    # a fő kimenetel 2,70 a 1,80-as Pinnacle mellett: valószínűleg rossz párosítás -> az egész piac kimarad
+    assert vf.find_values(fx, _book([2.70, 3.0, 3.0]), sharp, META, CFG) == []
+
+
+def test_fast_round_after_full(tmp_path, monkeypatch):
+    monkeypatch.setenv("DATA_DIR", str(tmp_path))
+    monkeypatch.setenv("MOCK_API", "1")
+    monkeypatch.setenv("NOTIFY_SILENT", "1")
+    import bot
+    monkeypatch.setenv("FAKE_NOW", "2026-11-12T10:00:00+00:00")
+    s1 = bot.run(CFG)
+    monkeypatch.setenv("FAKE_NOW", "2026-11-12T10:05:00+00:00")
+    s2 = bot.run(CFG)
+    monkeypatch.setenv("FAKE_NOW", "2026-11-12T10:25:00+00:00")
+    s3 = bot.run(CFG)
+    assert s1.get("fast") is False and s2.get("fast") is True and s3.get("fast") is False
+    assert s2.get("api_calls", 0) == 0          # gyors körben nincs fizetős kérés

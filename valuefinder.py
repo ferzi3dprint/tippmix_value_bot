@@ -114,6 +114,11 @@ def find_values(fixture, soft, sharp, markets_meta, cfg):
         if ovr > sc["max_sharp_overround"] or ovr < 0.98:
             continue
         fair = devig(hp, sc.get("devig_method", "power"))
+        lim = flt.get("max_market_prob_diff")
+        if lim is not None:      # piaconkénti védelem: rossz előjel/vonal vagy eltérő szabály esetén az egész piac kimarad
+            soft_p = devig_multiplicative(sp)
+            if max(abs(a - b) for a, b in zip(soft_p, fair)) > lim:
+                continue
         for oid, oname, so, p, ho in zip(oids, [o["outcomeName"] for o in meta["outcomes"]], sp, fair, hp):
             if not (flt["min_odds"] <= so <= flt["max_odds"]):
                 continue
@@ -121,17 +126,21 @@ def find_values(fixture, soft, sharp, markets_meta, cfg):
             if ev < min_ev_for(so, cfg) or ev > flt["max_ev"]:
                 continue
             mname = meta["marketName"]
-            if str(meta.get("marketType", "")).startswith("totals") and meta.get("handicap"):
+            mtype = str(meta.get("marketType", ""))
+            if mtype.startswith("totals") and meta.get("handicap"):
                 mname = f"{mname} {float(meta['handicap']):g}"
             out.append({"market_id": int(mid), "market": mname, "outcome_id": int(oid), "outcome": oname,
                         "odds": so, "sharp_odds": ho, "fair_prob": round(p, 5), "fair_odds": round(1 / p, 3),
-                        "ev": round(ev, 5), "sharp_overround": round(ovr, 4)})
+                        "ev": round(ev, 5), "sharp_overround": round(ovr, 4),
+                        "line": float(meta.get("handicap") or 0), "mtype": mtype})
     return sorted(out, key=lambda x: -x["ev"])
 
 
 MARKET_HU = [("Full Time Result", "1X2"), ("Over Under Full Time", "Gólszám"), ("Total Games Over Under", "Játékszám"),
              ("Winner (incl. overtime and penalties)", "Győztes (hosszabbítással)"), ("Winner (incl. overtime)", "Győztes (hosszabbítással)"),
              ("Regular Time Result", "1X2 (rendes játékidő)"), ("Over Under (incl. overtime)", "Összpontszám (hosszabbítással)"),
+             ("Handicap (incl. overtime)", "Hendikep (hosszabbítással)"), ("Handicap", "Hendikep (rendes játékidő)"),
+             ("Both Teams To Score", "Mindkét csapat szerez gólt"),
              ("Total", "Gólszám"), ("Both Teams To Score", "Mindkét csapat szerez gólt"), ("Over Under Full Time", "Gólszám"),
              ("Over Under", "Gólszám"), ("Double Chance", "Kétesély"), ("Draw No Bet", "Döntetlennél visszajár"),
              ("Asian Handicap", "Ázsiai hendikep"), ("Handicap", "Hendikep"), ("Winner", "Győztes"), ("Moneyline", "Győztes"),
@@ -149,6 +158,10 @@ def market_hu(name):
 def outcome_label(fixture, cand):
     """Olvasható kimenetel: '1' -> hazai csapat neve stb."""
     o = str(cand["outcome"])
+    if cand.get("mtype") == "spreads":           # hendikep: a vonal a hazai csapaté
+        h = cand.get("line", 0.0)
+        team, hh = (fixture.get("participant1Name"), h) if o == "1" else (fixture.get("participant2Name"), -h)
+        return f"{market_hu(cand['market'])}: {team} ({hh:+g})"
     o = OUTCOME_HU.get(o.lower(), o)
     if o == "1":
         o = f"{fixture.get('participant1Name')} győz"

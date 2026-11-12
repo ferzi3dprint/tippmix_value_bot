@@ -367,8 +367,10 @@ def main_consistent(so, ho, meta, cfg):
     return False
 
 
-def scan_hu(client, bets, cfg, now, stats, signals):
+def scan_hu(client, bets, cfg, now, stats, signals, fast=False):
     meta = markets_meta(client, now)
+    if fast:
+        return scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, load_json("cache/pairs_hu.json", {}), fast=True)
     fixtures = hu_fixtures(client, cfg, now)
     sports_hu = [tippmixfeed.SPORT_HU.get(s, s) for s in cfg["scan"]["sports"]]
     c = load_json("cache/tm_matches.json", None)
@@ -394,6 +396,10 @@ def scan_hu(client, bets, cfg, now, stats, signals):
                   "by_sport": {sp: [sum(1 for m in tm if m["sport"] == tippmixfeed.SPORT_HU.get(sp, sp)),
                                     sum(1 for p in pairs.values() if p["fx"]["sportName"] == sp)] for sp in cfg["scan"]["sports"]}})
 
+    return scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs)
+
+
+def scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs, fast=False):
     # melyik párokat nézzük most (Pinnacle-előzmény: 5 mp/kérés)
     fr, sc = cfg["free"], cfg["scan"]
     checked = {k: v for k, v in load_json("cache/checked.json", {}).items() if k in pairs}
@@ -401,6 +407,10 @@ def scan_hu(client, bets, cfg, now, stats, signals):
     for fid, p in pairs.items():
         mins = (parse_time(p["fx"]["startTime"]) - now).total_seconds() / 60
         if mins < sc["min_minutes_before_start"]:
+            continue
+        if fast:      # gyors kör: csak a hamarosan kezdődők
+            if mins <= cfg["hu"]["fast_window_hours"] * 60:
+                near.append((mins, fid))
             continue
         last = checked.get(fid)
         if mins <= fr["near_start_hours"] * 60:
@@ -438,7 +448,7 @@ def scan_hu(client, bets, cfg, now, stats, signals):
     stats["top_ev"] = [f"{ev * 100:+.1f}% {txt}" for ev, txt in sorted(near_miss, reverse=True)[:5]]
     update_closing(bets, sharp_now, meta, now, cfg)
     update_closing(signals, sharp_now, meta, now, cfg)
-    stats.update({"fixtures_checked": len(order), "fixtures_both": both, "rejected_mismatch": rejected,
+    stats.update({"fast": fast, "fixtures_checked": len(order), "fixtures_both": both, "rejected_mismatch": rejected,
                   "candidates": len(cands), "steam_fixtures": len(hot)})
     new = place(cands, bets, cfg, now, {})
     record_signals(signals, cands, bets, now)
@@ -671,13 +681,21 @@ def run(cfg):
     url = (cfg.get("dashboard") or {}).get("url") if (cfg.get("dashboard") or {}).get("enabled") else None
     new, gone = [], []
     try:
-        settled = settle_due(client, bets, cfg, now)
+        last_full = load_json("cache/last_full.json", {}).get("time")
+        quick = cfg["api"].get("mode") == "hu" and bool(last_full) and \
+            now - parse_time(last_full) < dt.timedelta(minutes=cfg["hu"].get("full_every_minutes", 20) - 1)
+        settled = [] if quick else settle_due(client, bets, cfg, now)
         stats["settled"] = len(settled)
         if (cfg.get("execution") or {}).get("enabled"):
             _, g = recheck(client, bets, cfg, now, [], hist, stats)       # előző futásból maradt függő fogadások
             gone += g
         if cfg["api"].get("mode") == "hu":
-            new, hot = scan_hu(client, bets, cfg, now, stats, signals)
+            last_full = load_json("cache/last_full.json", {}).get("time")
+            fast = bool(last_full) and now - parse_time(last_full) < dt.timedelta(minutes=cfg["hu"].get("full_every_minutes", 20) - 1) \
+                and os.getenv("FORCE_FULL") != "1"
+            new, hot = scan_hu(client, bets, cfg, now, stats, signals, fast=fast)
+            if not fast:
+                save_json("cache/last_full.json", {"time": now.isoformat()})
         elif cfg["api"].get("mode") == "free":
             new, hot = scan_free(client, bets, cfg, now, stats, signals)
         else:

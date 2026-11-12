@@ -12,6 +12,7 @@ A Tippmix a piacokat "bettingTypeId" + "eventPartId" párral azonosítja (a reco
          játékszám:            47 / 20
 """
 import asyncio
+import re
 import datetime as dt
 import json
 from zoneinfo import ZoneInfo
@@ -23,6 +24,8 @@ TM_SPORT_ID = {"Labdarúgás": "1", "Tenisz": "3", "Jégkorong": "6", "Kosárlab
 MARKETS = {  # (sportName, bettingTypeId, eventPartId) -> fajta  (foci és tenisz: a felderítés alapján)
     ("Labdarúgás", "69", "3"): "main",
     ("Labdarúgás", "47", "3"): "ou",
+    ("Labdarúgás", "76", "3"): "btts",
+    ("Labdarúgás", "48", "3"): "ah",
     ("Tenisz", "466", "20"): "main",
     ("Tenisz", "47", "20"): "ou",
 }
@@ -31,9 +34,11 @@ NAMED = {
     ("Jégkorong", "69", "Rendes játékidő"): "1x2reg",
     ("Jégkorong", "466", "Teljes esemény"): "main",
     ("Jégkorong", "47", "Rendes játékidő"): "ou",
+    ("Jégkorong", "48", "Rendes játékidő"): "ah",
     ("Kosárlabda", "466", "Teljes esemény"): "main",
     ("Kosárlabda", "69", "Rendes játékidő"): "1x2reg",
     ("Kosárlabda", "47", "Teljes esemény"): "ou",
+    ("Kosárlabda", "48", "Teljes esemény"): "ah",
 }
 
 
@@ -160,6 +165,16 @@ def parse_markets(recs, match):
             code = str(o.get("code") or "")
             if kind == "ou":
                 key = "over" if code.startswith("#O") else "under" if code.startswith("#U") else None
+            elif kind == "btts":
+                key = "yes" if code == "#Y" else "no" if code == "#N" else None
+            elif kind == "ah":
+                # „#P<id> (-1.5)”: a zárójelben az adott csapat hendikepe; a vonal = a hazai csapat hendikepe
+                mm = re.match(r"#P(\d+) \(([+-]?[\d.]+)\)$", code)
+                key = None
+                if mm and mm.group(1) == str(match.get("home_pid")):
+                    key, line = "home", float(mm.group(2))
+                elif mm and mm.group(1) == str(match.get("away_pid")):
+                    key = "away"
             elif code == "#D":
                 key = "draw"
             elif code == f"#P{match.get('home_pid')}":
@@ -170,6 +185,8 @@ def parse_markets(recs, match):
                 key = None
             if key:
                 prices[key] = float(b["odds"])
+        if kind == "ah" and not ("home" in prices and "away" in prices):
+            continue        # hendikepnél csak teljes pár (a vonalat a hazai kimenetel adja)
         if prices:
             out[(kind, line)] = prices
     return out
@@ -178,7 +195,7 @@ def parse_markets(recs, match):
 # --- OddsPapi-szerkezet -------------------------------------------------------
 
 OP_SPORT = {"Labdarúgás": 10, "Kosárlabda": 11, "Tenisz": 12, "Jégkorong": 15}
-NAME_KEY = {"1": "home", "X": "draw", "2": "away", "Over": "over", "Under": "under"}
+NAME_KEY = {"1": "home", "X": "draw", "2": "away", "Over": "over", "Under": "under", "Yes": "yes", "No": "no"}
 
 
 def op_index(markets_meta):
@@ -192,9 +209,15 @@ def op_index(markets_meta):
             continue
         line = float(m.get("handicap") or 0)
         kind = None
-        if sid == 10:
+        if mt == "spreads" and ((sid == 10 and per == "fulltime" and name == "Asian Handicap") or
+                                (sid == 15 and per == "fulltime" and name == "Handicap") or
+                                (sid == 11 and per == "result" and name == "Handicap (incl. overtime)")):
+            kind = "ah"
+        elif sid == 10:
             if m["marketId"] == 101:
                 kind = "main"
+            elif m["marketId"] == 104:
+                kind = "btts"
             elif mt == "totals" and per == "fulltime" and name.startswith("Over Under Full Time"):
                 kind = "ou"
         elif sid == 12:

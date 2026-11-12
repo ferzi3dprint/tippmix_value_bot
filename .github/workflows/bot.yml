@@ -26,11 +26,11 @@ jobs:
           python-version: "3.12"
           cache: pip
       - run: pip install -r requirements.txt
-      - name: Bot 20 percenként (kb. 5,5 óra)
+      - name: Bot 5 percenként gyors kör, 20 percenként teljes kör (kb. 5,5 óra)
         run: python loop.py
         env:
           LOOP_MINUTES: "325"
-          INTERVAL_MINUTES: "20"
+          INTERVAL_MINUTES: "5"
           ODDSPAPI_KEY: ${{ secrets.ODDSPAPI_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}

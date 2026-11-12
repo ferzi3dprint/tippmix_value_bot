@@ -40,17 +40,21 @@ def main():
         start = time.monotonic()
         n += 1
         print(f"\n===== {n}. kör {dt.datetime.utcnow():%H:%M} UTC =====", flush=True)
+        st = {}
         try:
-            bot.run(load_config())
+            st = bot.run(load_config()) or {}
         except Exception:
             traceback.print_exc()
-        commit_data()
-        sh(f"{sys.executable} -m dashboard.build")
-        commit_data()           # első titkosított buildnél a salt-fájl
+        changed = not st.get("fast") or st.get("placed") or st.get("settled") or st.get("not_executable") or st.get("candidates")
+        if changed:             # gyors körben csak akkor commitol/frissít dashboardot, ha történt valami
+            commit_data()
+            sh(f"{sys.executable} -m dashboard.build")
+            commit_data()       # első titkosított buildnél a salt-fájl
         nxt = start + every
         if nxt + 60 > t_end:
             break
         time.sleep(max(0, nxt - time.monotonic()))
+    commit_data()
     print(f"[loop] vége, {n} kör.")
 
 

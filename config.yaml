@@ -22,6 +22,9 @@ api:
 hu:                            # csak mode: hu esetén
   match_threshold: 0.72        # Tippmix ↔ Pinnacle névegyezés küszöbe (0–1)
   max_prob_diff: 0.15          # ha a két iroda fő piaca ennél jobban eltér, a párosítás valószínűleg téves -> kihagyja
+  fast_minutes: 5              # gyors kör: a hamarosan kezdődő meccsek ilyen gyakran (a teljes kör marad 20 percenként)
+  fast_window_hours: 2         # ennyin belül kezdődő meccsekre vonatkozik a gyors kör
+  full_every_minutes: 20
   full_list_hours: 3           # a teljes Tippmix-kínálat (bajnokságonként) frissítése ilyen gyakran
 
 free:                          # mode: free és hu esetén
@@ -49,6 +52,7 @@ filters:
     - {max_odds: 1.60, min_ev: 0.02}
     - {max_odds: 2.10, min_ev: 0.03}
     - {max_odds: 99.0, min_ev: 0.04}
+  max_market_prob_diff: 0.12   # ha egy piacon a két iroda valószínűségei ennél jobban eltérnek: hibás párosítás/vonal -> kihagyja
   max_ev: 0.25                 # ennél nagyobb EV szinte mindig adathiba (pl. eltérő piacszabály) – kihagyja
   max_bets_per_fixture: 1      # egy meccsre legfeljebb ennyi szimulált fogadás (korrelált fogadások kerülése)
 
