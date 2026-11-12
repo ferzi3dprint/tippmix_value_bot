@@ -1008,5 +1008,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T13:45:51.020599+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "+0.8% U19Portugália – U19Litvánia · 1X2: U19Portugália győz @1.04 (fair 1.032)",
+   "-1.1% Ghána – Szomália · Gólszám 4: Kevesebb @1.37 (fair 1.386)",
+   "-2.6% Ghána – Szomália · Mindkét csapat szerez gólt: Nem @1.32 (fair 1.355)",
+   "-2.8% Ghána – Szomália · Ázsiai hendikep: Szomália (+3) @1.52 (fair 1.564)",
+   "-3.3% Ghána – Szomália · 1X2: Ghána győz @1.06 (fair 1.096)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": true,
+  "fixtures_checked": 8,
+  "fixtures_both": 6,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 10
+ },
+ {
+  "time": "2026-11-12T13:50:51.024152+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 741,
+  "pinnacle_fixtures": 601,
+  "paired": 386,
+  "by_sport": {
+   "Soccer": [
+    208,
+    141
+   ],
+   "Tennis": [
+    226,
+    31
+   ],
+   "Basketball": [
+    176,
+    112
+   ],
+   "Ice Hockey": [
+    131,
+    102
+   ]
+  },
+  "top_ev": [
+   "+1.3% Albánia – Finnország · Ázsiai hendikep: Albánia (+0) @1.51 (fair 1.49)",
+   "+1.1% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.2 (fair 1.187)",
+   "+1.1% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.148)",
+   "+1.0% Albánia – Finnország · Ázsiai hendikep: Albánia (+0.5) @1.29 (fair 1.277)",
+   "+0.9% Albánia – Finnország · Ázsiai hendikep: Albánia (+0.25) @1.37 (fair 1.357)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 16,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 111,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 31,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
