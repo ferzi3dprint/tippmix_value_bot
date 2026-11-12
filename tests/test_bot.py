@@ -329,4 +329,4 @@ def test_bet_card_min_odds_and_button():
          "ref": "Pinnacle", "min_odds": round(1.01 * 1.74, 2), "tm_id": "319679098261676032", "trigger": "normál"}
     txt, btn = report.bet_card(b, CFG)
     assert "Tét: 1 250 Ft" in txt and "legalább 1,76" in txt
-    assert btn and btn[0][1].endswith("/esemeny/319679098261676032")
+    assert btn and btn[0][1].startswith("https://www.tippmixpro.hu/")

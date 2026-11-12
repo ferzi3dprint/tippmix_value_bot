@@ -15,7 +15,8 @@ def _match(b):
 SPORT_ICON = {"Soccer": "⚽", "Tennis": "🎾", "Basketball": "🏀", "Ice Hockey": "🏒"}
 
 
-TM_URL = "https://www.tippmixpro.hu/hu/fogadas/i/esemeny/{}"
+TM_URL = None      # a meccsoldal pontos címformátuma még nincs meg – addig a főoldal
+TM_HOME = "https://www.tippmixpro.hu/hu/fogadas"
 
 
 def bet_card(b, cfg):
@@ -30,7 +31,10 @@ def bet_card(b, cfg):
               f"📈 Tippmix-odds most: {o2(b['odds'])}  (fair: {o2(b['fair_odds'])}, {b.get('ref') or 'Pinnacle'}, EV {pct(b['ev'])})"]
     if b.get("min_odds"):
         lines.append(f"✅ Megéri legalább {o2(b['min_odds'])}-es oddsig. Ha ennél kisebb, hagyd ki.")
-    buttons = [("🟢 Megnyitás a Tippmixpro-n", TM_URL.format(b["tm_id"]))] if b.get("tm_id") and not str(b["tm_id"]).startswith("tm-") else None
+    if TM_URL and b.get("tm_id") and not str(b["tm_id"]).startswith("tm-"):
+        buttons = [("🟢 Megnyitás a Tippmixpro-n", TM_URL.format(b["tm_id"]))]
+    else:
+        buttons = [("🟢 Tippmixpro megnyitása", TM_HOME)]
     return "\n".join(lines), buttons
 
 
