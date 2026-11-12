@@ -2185,5 +2185,102 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 72
+ },
+ {
+  "time": "2026-11-12T19:52:09.756352+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-6.2% Atletico Balboa – CD Inca-Aruba · Gólszám 2.25: Több @1.4 (fair 1.493)",
+   "-6.3% Atletico Balboa – CD Inca-Aruba · Ázsiai hendikep: CD Inca-Aruba (+1.75) @1.35 (fair 1.441)",
+   "-7.5% Atletico Balboa – CD Inca-Aruba · Gólszám 2.5: Több @1.56 (fair 1.686)",
+   "-7.6% Atletico Balboa – CD Inca-Aruba · Ázsiai hendikep: CD Inca-Aruba (+1.5) @1.47 (fair 1.591)",
+   "-7.9% Atletico Balboa – CD Inca-Aruba · Ázsiai hendikep: CD Inca-Aruba (+1) @1.8 (fair 1.955)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 2,
+  "fixtures_both": 2,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 3
+ },
+ {
+  "time": "2026-11-12T19:57:09.756575+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-6.4% Atletico Balboa – CD Inca-Aruba · Ázsiai hendikep: CD Inca-Aruba (+1.75) @1.35 (fair 1.443)",
+   "-6.6% Atletico Balboa – CD Inca-Aruba · Gólszám 2.25: Több @1.39 (fair 1.488)",
+   "-7.7% Atletico Balboa – CD Inca-Aruba · Gólszám 2.5: Több @1.55 (fair 1.679)",
+   "-7.8% Atletico Balboa – CD Inca-Aruba · Gólszám 3.5: Kevesebb @1.45 (fair 1.573)",
+   "-7.9% Atletico Balboa – CD Inca-Aruba · Ázsiai hendikep: CD Inca-Aruba (+1.5) @1.47 (fair 1.595)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 2,
+  "fixtures_both": 2,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 3
+ },
+ {
+  "time": "2026-11-12T20:02:09.756598+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 647,
+  "pinnacle_fixtures": 601,
+  "paired": 260,
+  "by_sport": {
+   "Soccer": [
+    171,
+    85
+   ],
+   "Tennis": [
+    193,
+    5
+   ],
+   "Basketball": [
+    171,
+    87
+   ],
+   "Ice Hockey": [
+    112,
+    83
+   ]
+  },
+  "top_ev": [
+   "+1.7% U21Finnország – U21Írország · Gólszám 1.5: Több @1.37 (fair 1.347)",
+   "+1.5% U21Finnország – U21Írország · Gólszám 2: Több @1.58 (fair 1.557)",
+   "+0.5% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.5 (fair 1.492)",
+   "+0.1% Dél-Afrika – Kenya · Ázsiai hendikep: Kenya (+2) @1.47 (fair 1.469)",
+   "-0.3% Tunézia – Líbia · Gólszám 3: Kevesebb @1.38 (fair 1.385)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 9,
+  "fast": false,
+  "fixtures_checked": 114,
+  "fixtures_both": 74,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 16,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 120
  }
 ]
