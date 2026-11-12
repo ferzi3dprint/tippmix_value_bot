@@ -1584,5 +1584,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 155
+ },
+ {
+  "time": "2026-11-12T16:55:09.784831+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "-0.1% Frölunda – Malmö · 1X2 (rendes játékidő): Döntetlen @4.2 (fair 4.205)",
+   "-0.4% Barcelona – Arsenal · 1X2: Barcelona győz @1.18 (fair 1.185)",
+   "-1.0% Färjestad – Djurgarden · Győztes (hosszabbítással): Färjestad győz @1.24 (fair 1.252)",
+   "-2.1% Frölunda – Malmö · Hendikep (rendes játékidő): Frölunda (+0.5) @1.28 (fair 1.308)",
+   "-2.2% Filip Jeff Planinsek – Alastair Gray · Győztes: Alastair Gray győz @1.33 (fair 1.36)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 40,
+  "fixtures_both": 35,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 45
+ },
+ {
+  "time": "2026-11-12T17:02:13.187096+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 726,
+  "pinnacle_fixtures": 601,
+  "paired": 336,
+  "by_sport": {
+   "Soccer": [
+    194,
+    124
+   ],
+   "Tennis": [
+    219,
+    16
+   ],
+   "Basketball": [
+    184,
+    100
+   ],
+   "Ice Hockey": [
+    129,
+    96
+   ]
+  },
+  "top_ev": [
+   "+1.1% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.197)",
+   "+0.8% Moldova – Kazahsztán · Gólszám 1.5: Több @1.52 (fair 1.507)",
+   "+0.8% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.151)",
+   "+0.3% San Marino – Fehéroroszország · 1X2: Fehéroroszország győz @1.13 (fair 1.126)",
+   "+0.0% Spisska Nova Ves – Trencin · Győztes (hosszabbítással): Spisska Nova Ves győz @1.48 (fair 1.48)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 7,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 116,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 24,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
