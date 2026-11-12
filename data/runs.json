@@ -792,5 +792,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T12:37:48.555832+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "-1.0% U21Izland – U21Görögország · Gólszám 2: Több @1.42 (fair 1.435)",
+   "-1.4% U21Izland – U21Görögország · Gólszám 1.5: Több @1.27 (fair 1.288)",
+   "-1.8% U21Izland – U21Görögország · 1X2: U21Izland győz @2.9 (fair 2.954)",
+   "-1.9% U21Izland – U21Görögország · Ázsiai hendikep: U21Izland (+1) @1.24 (fair 1.264)",
+   "-2.4% U21Izland – U21Görögország · Ázsiai hendikep: U21Izland (+0.75) @1.4 (fair 1.434)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 14,
+  "fixtures_both": 14,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 19
+ },
+ {
+  "time": "2026-11-12T12:42:48.555744+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 702,
+  "pinnacle_fixtures": 601,
+  "paired": 407,
+  "by_sport": {
+   "Soccer": [
+    204,
+    150
+   ],
+   "Tennis": [
+    210,
+    40
+   ],
+   "Basketball": [
+    157,
+    114
+   ],
+   "Ice Hockey": [
+    131,
+    103
+   ]
+  },
+  "top_ev": [
+   "-0.5% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.39 (fair 1.397)",
+   "-0.5% Frölunda – Malmö · 1X2 (rendes játékidő): Döntetlen @4.2 (fair 4.223)",
+   "-0.5% Färjestad – Djurgarden · Győztes (hosszabbítással): Färjestad győz @1.24 (fair 1.247)",
+   "-0.6% Madagaszkár – Bissau-Guinea · Gólszám 1.25: Több @1.32 (fair 1.329)",
+   "-0.7% Ottawa – Colorado · Hendikep (rendes játékidő): Ottawa (+1) @1.48 (fair 1.491)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 26,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 116,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 24,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
