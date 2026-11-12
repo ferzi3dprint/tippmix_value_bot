@@ -297,3 +297,26 @@ def test_fast_round_after_full(tmp_path, monkeypatch):
     s3 = bot.run(CFG)
     assert s1.get("fast") is False and s2.get("fast") is True and s3.get("fast") is False
     assert s2.get("api_calls", 0) == 0          # gyors körben nincs fizetős kérés
+
+
+def test_consensus_reference_when_pinnacle_missing():
+    import bot
+    cfg = {**CFG, "hu": {**CFG["hu"], "consensus_books": ["sbobet", "betfair-ex"], "consensus_min_books": 2}}
+    t = "2026-11-12T10:00:00+00:00"
+    def hist(prices):
+        return {"markets": {"101": {"outcomes": {str(o): {"players": {"0": [{"createdAt": t, "price": p, "active": True}]}}
+                                                 for o, p in zip((101, 102, 103), prices)}}}}
+    books = {"sbobet": hist([1.90, 3.60, 4.30]), "betfair-ex": hist([1.95, 3.70, 4.40])}
+    ref = bot.reference_book(books, {101: META[101] | {"outcomes": META[101]["outcomes"]}}, cfg)
+    m = ref["markets"]["101"]
+    assert m["consensus"] == 2
+    fair = vf.market_prices(ref, 101, [101, 102, 103])
+    assert abs(sum(1 / x for x in fair) - 1) < 1e-6
+    # csak egy iroda: nincs konszenzus
+    assert "101" not in bot.reference_book({"sbobet": hist([1.9, 3.6, 4.3])}, {101: META[101]}, cfg)["markets"]
+    # konszenzusnál szigorúbb küszöb: ugyanaz az ár Pinnacle-lel jelzés, konszenzussal nem
+    soft = _book([2.00, 3.40, 4.20])
+    pin = _book([1.92, 3.80, 4.80])
+    assert vf.find_values({}, soft, pin, META, CFG)
+    cons = {"bookmakerIsActive": True, "markets": {"101": {**pin["markets"]["101"], "consensus": 2}}}
+    assert vf.find_values({}, soft, cons, META, CFG) == [] or vf.find_values({}, soft, cons, META, CFG)[0]["ev"] >= 0.035

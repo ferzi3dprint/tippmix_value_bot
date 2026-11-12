@@ -200,17 +200,17 @@ class MockTippmix:
     """A Tippmix-adatfolyam utánzata: ugyanazokat a kitalált meccseket adja magyar sportnévvel, a "tippmixpro" árakkal."""
     calls = 0
 
-    def today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz")):
+    def today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz"), days_ahead=0):
         from zoneinfo import ZoneInfo
-        end = now.astimezone(ZoneInfo(tz)).replace(hour=23, minute=59, second=59).astimezone(UTC)
+        end = (now.astimezone(ZoneInfo(tz)).replace(hour=23, minute=59, second=59) + dt.timedelta(days=days_ahead)).astimezone(UTC)
         hu = {10: "Labdarúgás", 12: "Tenisz"}
         return [{"id": "tm-" + f["fixtureId"], "sport": hu[f["sportId"]], "name": f"{f['participant1Name']} - {f['participant2Name']}",
                  "home": f["participant1Name"], "away": f["participant2Name"], "home_pid": "h", "away_pid": "a",
                  "tournament": f["tournamentName"], "start": f["startTime"], "_fid": f["fixtureId"]}
                 for f in _fixtures_between(now, end) if f["startTime"] > now and hu[f["sportId"]] in sports]
 
-    def all_today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz")):
-        return self.today_matches(now, tz, sports)
+    def all_today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz"), days_ahead=0):
+        return self.today_matches(now, tz, sports, days_ahead)
 
     def match_markets(self, match):
         f = _fixture(match["id"][3:])

@@ -119,11 +119,13 @@ def find_values(fixture, soft, sharp, markets_meta, cfg):
             soft_p = devig_multiplicative(sp)
             if max(abs(a - b) for a, b in zip(soft_p, fair)) > lim:
                 continue
+        cons = ((sharp.get("markets") or {}).get(str(mid)) or {}).get("consensus")
+        extra = flt.get("consensus_extra_ev", 0.015) if cons else 0.0
         for oid, oname, so, p, ho in zip(oids, [o["outcomeName"] for o in meta["outcomes"]], sp, fair, hp):
             if not (flt["min_odds"] <= so <= flt["max_odds"]):
                 continue
             ev = so * p - 1
-            if ev < min_ev_for(so, cfg) or ev > flt["max_ev"]:
+            if ev < min_ev_for(so, cfg) + extra or ev > flt["max_ev"]:
                 continue
             mname = meta["marketName"]
             mtype = str(meta.get("marketType", ""))
@@ -132,7 +134,8 @@ def find_values(fixture, soft, sharp, markets_meta, cfg):
             out.append({"market_id": int(mid), "market": mname, "outcome_id": int(oid), "outcome": oname,
                         "odds": so, "sharp_odds": ho, "fair_prob": round(p, 5), "fair_odds": round(1 / p, 3),
                         "ev": round(ev, 5), "sharp_overround": round(ovr, 4),
-                        "line": float(meta.get("handicap") or 0), "mtype": mtype})
+                        "line": float(meta.get("handicap") or 0), "mtype": mtype,
+                        "ref": f"konszenzus ({cons} iroda)" if cons else "Pinnacle"})
     return sorted(out, key=lambda x: -x["ev"])
 
 

@@ -25,7 +25,7 @@ def new_bets_message(new, bets, cfg, rechecked=False):
         tag = f"⚡ STEAM (Pinnacle +{b['steam'] * 100:.0f}%) · " if b.get("trigger") == "steam" else ""
         lines += [f"{SPORT_ICON.get(b['sport'], '🏟️')} {_match(b)} ({b['tournament']}, {t})",
                   f"   {tag}{b['label']}",
-                  f"   Tippmix {o2(b['odds'])} | fair {o2(b['fair_odds'])} (Pinnacle {o2(b['sharp_odds'])}) | EV {pct(b['ev'])}",
+                  f"   Tippmix {o2(b['odds'])} | fair {o2(b['fair_odds'])} ({b.get('ref') or 'Pinnacle'}) | EV {pct(b['ev'])}",
                   f"   Tét: {huf(b['stake'])}", ""]
     s = ledger.summary(bets, cfg)
     lines.append(f"💰 Szimulált tőke: {huf(s['bankroll'])} | nyitott: {s['open']} db, {huf(s['open_stake'])}")

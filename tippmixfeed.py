@@ -96,10 +96,10 @@ class Session:
             return None
 
     # --- lekérdezések ---
-    def today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz")):
+    def today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz"), days_ahead=0):
         local = now.astimezone(ZoneInfo(tz))
         t0 = int(now.timestamp())
-        t1 = int(local.replace(hour=23, minute=59, second=59, microsecond=0).timestamp())
+        t1 = int((local.replace(hour=23, minute=59, second=59, microsecond=0) + dt.timedelta(days=days_ahead)).timestamp())
         seen = {}
         for a in range(t0, t1 + 1, 7200):    # 2 órás ablakok (egy válasz legfeljebb 300 meccs)
             recs = self.dump(f"/sports/{OP}/{LANG}/live-calendar-matches-by-timestamp/all-disciplines/{a}-{min(a + 7199, t1)}/500")
@@ -112,10 +112,10 @@ class Session:
                                      "start": dt.datetime.fromtimestamp(r["startTime"] / 1000, dt.timezone.utc)}
         return list(seen.values())
 
-    def all_today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz")):
-        """A teljes mai kínálat bajnokságonként (a naptár csak az élőben is fogadható meccseket adja)."""
-        end = now.astimezone(ZoneInfo(tz)).replace(hour=23, minute=59, second=59, microsecond=0)
-        out = {m["id"]: m for m in self.today_matches(now, tz, sports)}
+    def all_today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz"), days_ahead=0):
+        """A teljes kínálat bajnokságonként (a naptár csak az élőben is fogadható meccseket adja)."""
+        end = now.astimezone(ZoneInfo(tz)).replace(hour=23, minute=59, second=59, microsecond=0) + dt.timedelta(days=days_ahead)
+        out = {m["id"]: m for m in self.today_matches(now, tz, sports, days_ahead)}
         for sport in sports:
             sid = TM_SPORT_ID.get(sport)
             if not sid:
