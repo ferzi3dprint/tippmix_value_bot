@@ -212,7 +212,7 @@ class MockTippmix:
     def all_today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz"), days_ahead=0):
         return self.today_matches(now, tz, sports, days_ahead)
 
-    def match_markets(self, match):
+    def match_markets(self, match, names=None):
         f = _fixture(match["id"][3:])
         book = _prices(f, "tippmixpro", now_utc())
         out = {}

@@ -26,7 +26,7 @@ def bet_card(b, cfg):
     lines = [f"{SPORT_ICON.get(b['sport'], '🏟️')} {_match(b)}", f"   {b['tournament']} · kezdés {t}"]
     if b.get("trigger") == "steam":
         lines.append(f"⚡ STEAM: a Pinnacle-ár mozog (+{(b.get('steam') or 0) * 100:.0f}%) – siess")
-    lines += [f"🎯 Tipp: {b['label']}",
+    lines += [f"🎯 Tipp: {b['label']}"] + ([f"🔎 A Tippmixpro-n: {b['tm_tip']}"] if b.get("tm_tip") else []) + [
               f"💵 Tét: {huf(b['stake'])}",
               f"📈 Tippmix-odds most: {o2(b['odds'])}  (fair: {o2(b['fair_odds'])}, {b.get('ref') or 'Pinnacle'}, EV {pct(b['ev'])})"]
     if b.get("min_odds"):

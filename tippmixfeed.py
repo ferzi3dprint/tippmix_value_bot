@@ -152,12 +152,12 @@ class Session:
                                     "start": dt.datetime.fromtimestamp(r["startTime"] / 1000, dt.timezone.utc)}
         return list(out.values())
 
-    def match_markets(self, match):
+    def match_markets(self, match, names=None):
         recs = self.dump(f"/sports/{OP}/{LANG}/{match['id']}/match-odds/market-group/Main_BannerMatrix")
-        return parse_markets(recs or [], match)
+        return parse_markets(recs or [], match, names)
 
 
-def parse_markets(recs, match):
+def parse_markets(recs, match, names=None):
     """{(fajta, vonal): {"home"/"draw"/"away"/"over"/"under": odds}} – csak elérhető, nyitott ajánlatok."""
     by_type = {}
     for r in recs:
@@ -174,7 +174,7 @@ def parse_markets(recs, match):
         if not kind or m.get("isClosed") or m.get("isAvailable") is False:
             continue
         line = float(m["paramFloat1"]) if kind == "ou" and m.get("paramFloat1") is not None else 0.0
-        prices = {}
+        prices, tip_names = {}, {}
         for oid in rel.get(m["id"], []):
             o, b = outcomes.get(oid), offers.get(oid)
             if not o or not b or not b.get("odds"):
@@ -202,10 +202,14 @@ def parse_markets(recs, match):
                 key = None
             if key:
                 prices[key] = float(b["odds"])
+                if names is not None:
+                    tip_names[key] = f"{m.get('name')} → {str(o.get('translatedName') or o.get('name') or '').strip()}"
         if kind == "ah" and not ("home" in prices and "away" in prices):
             continue        # hendikepnél csak teljes pár (a vonalat a hazai kimenetel adja)
         if prices:
             out[(kind, line)] = prices
+            if names is not None:
+                names[(kind, line)] = tip_names
     return out
 
 
@@ -264,7 +268,7 @@ def op_index(markets_meta):
     return idx
 
 
-def to_op_book(tm_markets, sport, index):
+def to_op_book(tm_markets, sport, index, names=None):
     """A Tippmix-piacok OddsPapi-szerkezetben (markets → outcomes → players['0'].price), hogy a meglévő logika használja."""
     markets = {}
     for (kind, line), prices in tm_markets.items():
@@ -273,5 +277,6 @@ def to_op_book(tm_markets, sport, index):
             continue
         mid, outs = hit
         markets[str(mid)] = {"marketActive": True, "outcomes": {
-            str(outs[k]): {"players": {"0": {"price": p, "active": True}}} for k, p in prices.items() if k in outs}}
+            str(outs[k]): {"players": {"0": {"price": p, "active": True}},
+                           "tm": ((names or {}).get((kind, line)) or {}).get(k)} for k, p in prices.items() if k in outs}}
     return {"bookmakerIsActive": True, "suspended": False, "markets": markets}

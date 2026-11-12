@@ -240,6 +240,8 @@ def place(cands, bets, cfg, now, tours):
              "label": outcome_label(fx, c), "band": odds_band(c["odds"]), "stake": stake,
              "signal_odds": c["odds"], "signal_ev": c["ev"], "link": fx.get("tm_url") or so.get("fixturePath"), "tm_id": fx.get("tm_id"), "tm_url": fx.get("tm_url"), **c}
         b["trigger"] = "steam" if c.get("steam") else "normál"
+        b["tm_tip"] = ((((so.get("markets") or {}).get(str(c["market_id"])) or {}).get("outcomes") or {})
+                       .get(str(c["outcome_id"])) or {}).get("tm")
         b["min_odds"] = round((1 + (cfg.get("execution") or {}).get("min_ev_after_move", 0.01)) / c["fair_prob"], 2)
         b["expected_profit"] = round(stake * c["ev"], 2)
         bets.append(b)
@@ -383,8 +385,9 @@ def fetch_hu(client, cfg, pair, now, meta):
     sess = tm_session()
     m, fx = pair["tm"], pair["fx"]
     tm_sport = tippmixfeed.SPORT_HU.get(fx["sportName"], fx["sportName"])
-    tm_markets = sess.match_markets({**m, "sport": tm_sport})
-    so = tippmixfeed.to_op_book(tm_markets, tm_sport, tippmixfeed.op_index(meta))
+    names = {}
+    tm_markets = sess.match_markets({**m, "sport": tm_sport}, names)
+    so = tippmixfeed.to_op_book(tm_markets, tm_sport, tippmixfeed.op_index(meta), names)
     try:
         h = client.historical_odds(fx["fixtureId"], ",".join(ref_books(cfg))) or {}
     except RuntimeError as e:

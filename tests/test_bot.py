@@ -338,3 +338,17 @@ def test_tippmix_match_url():
                                  "tournament": "Válogatott mérkőzés", "name": "Málta - Eswatini"})
     assert url == ("https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/vilag/valogatott-merkozes/"
                    "malta-eswatini/318827872579035136/nepszeru")
+
+
+def test_tippmix_tip_names():
+    import tippmixfeed
+    match = {"sport": "Labdarúgás", "home_pid": "1", "away_pid": "2"}
+    recs = [{"_type": "MARKET", "id": "m", "bettingTypeId": "47", "eventPartId": "3", "name": "Gólszám 2.5 - Rendes játékidő", "paramFloat1": 2.5},
+            {"_type": "OUTCOME", "id": "o1", "code": "#O 2.5", "translatedName": "Több, mint 2.5 "},
+            {"_type": "OUTCOME", "id": "o2", "code": "#U 2.5", "translatedName": "Kevesebb, mint 2.5 "},
+            {"_type": "MARKET_OUTCOME_RELATION", "marketId": "m", "outcomeId": "o1"}, {"_type": "MARKET_OUTCOME_RELATION", "marketId": "m", "outcomeId": "o2"},
+            {"_type": "BETTING_OFFER", "outcomeId": "o1", "odds": 1.9}, {"_type": "BETTING_OFFER", "outcomeId": "o2", "odds": 1.9}]
+    names = {}
+    mk = tippmixfeed.parse_markets(recs, match, names)
+    book = tippmixfeed.to_op_book(mk, "Labdarúgás", {("Labdarúgás", "ou", 2.5): (1010, {"over": 1010, "under": 1011})}, names)
+    assert book["markets"]["1010"]["outcomes"]["1010"]["tm"] == "Gólszám 2.5 - Rendes játékidő → Több, mint 2.5"
