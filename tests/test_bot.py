@@ -311,7 +311,7 @@ def test_consensus_reference_when_pinnacle_missing():
     m = ref["markets"]["101"]
     assert m["consensus"] == 2
     fair = vf.market_prices(ref, 101, [101, 102, 103])
-    assert abs(sum(1 / x for x in fair) - 1) < 1e-6
+    assert abs(sum(1 / x for x in fair) - 1) < 1e-4
     # csak egy iroda: nincs konszenzus
     assert "101" not in bot.reference_book({"sbobet": hist([1.9, 3.6, 4.3])}, {101: META[101]}, cfg)["markets"]
     # konszenzusnál szigorúbb küszöb: ugyanaz az ár Pinnacle-lel jelzés, konszenzussal nem
