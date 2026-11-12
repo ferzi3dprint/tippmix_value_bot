@@ -60,5 +60,48 @@
   "not_executable": 0,
   "api_calls": 2,
   "free_calls": 88
+ },
+ {
+  "time": "2026-11-12T06:41:58.255432+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "tippmix_matches": 478,
+  "pinnacle_fixtures": 193,
+  "paired": 147,
+  "by_sport": {
+   "Soccer": [
+    132,
+    68
+   ],
+   "Tennis": [
+    272,
+    23
+   ],
+   "Basketball": [
+    50,
+    37
+   ],
+   "Ice Hockey": [
+    24,
+    19
+   ]
+  },
+  "top_ev": [
+   "+2.5% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.22 (fair 1.191)",
+   "+1.9% Ghána – Szomália · 1X2: Ghána győz @1.11 (fair 1.089)",
+   "+1.7% Örményország – Ciprus · Gólszám 2: Több @1.59 (fair 1.564)",
+   "+1.4% Örményország – Ciprus · Gólszám 1.5: Több @1.37 (fair 1.351)",
+   "+0.9% Färjestad – Djurgarden · Győztes (hosszabbítással): Färjestad győz @1.28 (fair 1.268)"
+  ],
+  "fixtures_checked": 147,
+  "fixtures_both": 105,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 13,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 8,
+  "free_calls": 149
  }
 ]

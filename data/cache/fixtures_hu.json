@@ -1,34 +1,13 @@
 {
  "date": "2026-11-12",
- "time": "2026-11-12T02:51:45.491003+00:00",
+ "time": "2026-11-12T06:41:58.255432+00:00",
+ "sports": [
+  "Soccer",
+  "Tennis",
+  "Basketball",
+  "Ice Hockey"
+ ],
  "data": {
-  "id1002895376595258": {
-   "fixtureId": "id1002895376595258",
-   "startTime": "2026-11-12T03:00:00.000Z",
-   "participant1Name": "CF Pachuca",
-   "participant2Name": "CF Monterrey",
-   "tournamentId": 28953,
-   "tournamentName": "Liga MX, Women",
-   "sportName": "Soccer"
-  },
-  "id1000085173686224": {
-   "fixtureId": "id1000085173686224",
-   "startTime": "2026-11-12T06:00:00.000Z",
-   "participant1Name": "New Zealand",
-   "participant2Name": "India",
-   "tournamentId": 851,
-   "tournamentName": "Int. Friendly Games",
-   "sportName": "Soccer"
-  },
-  "id1005413276634500": {
-   "fixtureId": "id1005413276634500",
-   "startTime": "2026-11-12T06:15:00.000Z",
-   "participant1Name": "Northeast United FC",
-   "participant2Name": "Mawlai SC",
-   "tournamentId": 54132,
-   "tournamentName": "U21 Development League",
-   "sportName": "Soccer"
-  },
   "id1000107276367116": {
    "fixtureId": "id1000107276367116",
    "startTime": "2026-11-12T08:00:00.000Z",
@@ -54,6 +33,24 @@
    "participant2Name": "Gyeongju FC",
    "tournamentId": 1772,
    "tournamentName": "WK-League",
+   "sportName": "Soccer"
+  },
+  "id1005369476014108": {
+   "fixtureId": "id1005369476014108",
+   "startTime": "2026-11-12T10:00:00.000Z",
+   "participant1Name": "Royal Dagon FC",
+   "participant2Name": "Nay Pyi Taw",
+   "tournamentId": 53694,
+   "tournamentName": "National League 2",
+   "sportName": "Soccer"
+  },
+  "id1005370074952520": {
+   "fixtureId": "id1005370074952520",
+   "startTime": "2026-11-12T10:00:00.000Z",
+   "participant1Name": "Khon Kaen Mor Dindaeng FC",
+   "participant2Name": "Korat City FC",
+   "tournamentId": 53700,
+   "tournamentName": "Thai League 3",
    "sportName": "Soccer"
   },
   "id1000085376233346": {
@@ -155,6 +152,15 @@
    "tournamentName": "U21 Friendly Games",
    "sportName": "Soccer"
   },
+  "id1001486476579164": {
+   "fixtureId": "id1001486476579164",
+   "startTime": "2026-11-12T13:00:00.000Z",
+   "participant1Name": "Kigezi Homeboyz FC",
+   "participant2Name": "Vipers SC",
+   "tournamentId": 14864,
+   "tournamentName": "Premier League",
+   "sportName": "Soccer"
+  },
   "id1002407374205870": {
    "fixtureId": "id1002407374205870",
    "startTime": "2026-11-12T13:00:00.000Z",
@@ -198,6 +204,24 @@
    "participant2Name": "Somalia",
    "tournamentId": 1848,
    "tournamentName": "Africa Cup of Nations Qualification",
+   "sportName": "Soccer"
+  },
+  "id1002407374205868": {
+   "fixtureId": "id1002407374205868",
+   "startTime": "2026-11-12T15:00:00.000Z",
+   "participant1Name": "Al-Ahly Amman",
+   "participant2Name": "Amman FC",
+   "tournamentId": 24073,
+   "tournamentName": "First Division",
+   "sportName": "Soccer"
+  },
+  "id1002407374205872": {
+   "fixtureId": "id1002407374205872",
+   "startTime": "2026-11-12T15:00:00.000Z",
+   "participant1Name": "Al Aqaba",
+   "participant2Name": "Hay AL Amir Hassan",
+   "tournamentId": 24073,
+   "tournamentName": "First Division",
    "sportName": "Soccer"
   },
   "id1000085576558294": {
@@ -252,6 +276,15 @@
    "participant2Name": "Guinea-Bissau",
    "tournamentId": 1848,
    "tournamentName": "Africa Cup of Nations Qualification",
+   "sportName": "Soccer"
+  },
+  "id1005307076708846": {
+   "fixtureId": "id1005307076708846",
+   "startTime": "2026-11-12T16:00:00.000Z",
+   "participant1Name": "Tritones Vallarta MFC",
+   "participant2Name": "Purepechas FC",
+   "tournamentId": 53070,
+   "tournamentName": "Liga Primera Premier",
    "sportName": "Soccer"
   },
   "id1000085176354526": {
@@ -423,6 +456,24 @@
    "participant2Name": "Estudiantes de Rio Cuarto Reserve",
    "tournamentId": 36945,
    "tournamentName": "Primera LPF, Reserves",
+   "sportName": "Soccer"
+  },
+  "id1004005774835678": {
+   "fixtureId": "id1004005774835678",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "Ceara SC CE",
+   "participant2Name": "FC Atletico CE",
+   "tournamentId": 40057,
+   "tournamentName": "Taca Fares Lopes",
+   "sportName": "Soccer"
+  },
+  "id1004834375935738": {
+   "fixtureId": "id1004834375935738",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "Elche CF",
+   "participant2Name": "Patacona CF",
+   "tournamentId": 48343,
+   "tournamentName": "U19 Division de Honor Juvenil",
    "sportName": "Soccer"
   },
   "id1000184875802242": {
@@ -668,38 +719,425 @@
    "tournamentName": "Primera LPF, Reserves",
    "sportName": "Soccer"
   },
+  "id1100150672704674": {
+   "fixtureId": "id1100150672704674",
+   "startTime": "2026-11-12T08:00:00.000Z",
+   "participant1Name": "Tasmania Jewels",
+   "participant2Name": "Southside Flyers",
+   "tournamentId": 1506,
+   "tournamentName": "WNBL",
+   "sportName": "Basketball"
+  },
+  "id1100152472016880": {
+   "fixtureId": "id1100152472016880",
+   "startTime": "2026-11-12T08:30:00.000Z",
+   "participant1Name": "Adelaide 36ers",
+   "participant2Name": "Melbourne United",
+   "tournamentId": 1524,
+   "tournamentName": "NBL",
+   "sportName": "Basketball"
+  },
+  "id1100154073657548": {
+   "fixtureId": "id1100154073657548",
+   "startTime": "2026-11-12T10:00:00.000Z",
+   "participant1Name": "Daegu Pegasus",
+   "participant2Name": "Goyang Skygunners",
+   "tournamentId": 1540,
+   "tournamentName": "KBL",
+   "sportName": "Basketball"
+  },
+  "id1100150272696288": {
+   "fixtureId": "id1100150272696288",
+   "startTime": "2026-11-12T10:05:00.000Z",
+   "participant1Name": "Altiri Chiba",
+   "participant2Name": "Yokohama B-Corsairs",
+   "tournamentId": 1502,
+   "tournamentName": "B League Premier",
+   "sportName": "Basketball"
+  },
+  "id1100150272696290": {
+   "fixtureId": "id1100150272696290",
+   "startTime": "2026-11-12T10:05:00.000Z",
+   "participant1Name": "Toyama Grouses",
+   "participant2Name": "Osaka Evessa",
+   "tournamentId": 1502,
+   "tournamentName": "B League Premier",
+   "sportName": "Basketball"
+  },
+  "id1100150272696292": {
+   "fixtureId": "id1100150272696292",
+   "startTime": "2026-11-12T10:05:00.000Z",
+   "participant1Name": "Shiga Lakestars",
+   "participant2Name": "Chiba Jets Funabashi",
+   "tournamentId": 1502,
+   "tournamentName": "B League Premier",
+   "sportName": "Basketball"
+  },
+  "id1100152472016882": {
+   "fixtureId": "id1100152472016882",
+   "startTime": "2026-11-12T10:30:00.000Z",
+   "participant1Name": "Perth Wildcats",
+   "participant2Name": "Tasmania Jackjumpers",
+   "tournamentId": 1524,
+   "tournamentName": "NBL",
+   "sportName": "Basketball"
+  },
+  "id1100150272696294": {
+   "fixtureId": "id1100150272696294",
+   "startTime": "2026-11-12T10:35:00.000Z",
+   "participant1Name": "Ryukyu Golden Kings Okinawa",
+   "participant2Name": "Tokyo Sunrockers",
+   "tournamentId": 1502,
+   "tournamentName": "B League Premier",
+   "sportName": "Basketball"
+  },
+  "id1100238875108324": {
+   "fixtureId": "id1100238875108324",
+   "startTime": "2026-11-12T15:00:00.000Z",
+   "participant1Name": "Gence BC",
+   "participant2Name": "Esenler Erokspor",
+   "tournamentId": 2388,
+   "tournamentName": "Europe Cup",
+   "sportName": "Basketball"
+  },
+  "id1103332174496912": {
+   "fixtureId": "id1103332174496912",
+   "startTime": "2026-11-12T15:00:00.000Z",
+   "participant1Name": "Kupol-Rodniki Izhevsk",
+   "participant2Name": "BC Khimki Moscow",
+   "tournamentId": 33321,
+   "tournamentName": "Super League",
+   "sportName": "Basketball"
+  },
+  "id1104922275830092": {
+   "fixtureId": "id1104922275830092",
+   "startTime": "2026-11-12T15:00:00.000Z",
+   "participant1Name": "AL Sadd",
+   "participant2Name": "AL Shamal",
+   "tournamentId": 49222,
+   "tournamentName": "QBL",
+   "sportName": "Basketball"
+  },
+  "id1102645075109912": {
+   "fixtureId": "id1102645075109912",
+   "startTime": "2026-11-12T16:00:00.000Z",
+   "participant1Name": "Suduva Mantinga Marijampole",
+   "participant2Name": "Palangos Olimpas",
+   "tournamentId": 26450,
+   "tournamentName": "NKL",
+   "sportName": "Basketball"
+  },
+  "id1102645075109916": {
+   "fixtureId": "id1102645075109916",
+   "startTime": "2026-11-12T16:00:00.000Z",
+   "participant1Name": "Sakiu Vytis-VDU",
+   "participant2Name": "Kretingos Kretinga",
+   "tournamentId": 26450,
+   "tournamentName": "NKL",
+   "sportName": "Basketball"
+  },
+  "id1102645075109920": {
+   "fixtureId": "id1102645075109920",
+   "startTime": "2026-11-12T16:00:00.000Z",
+   "participant1Name": "BC Telsiai",
+   "participant2Name": "Alytaus Patriotai",
+   "tournamentId": 26450,
+   "tournamentName": "NKL",
+   "sportName": "Basketball"
+  },
+  "id1102645075109922": {
+   "fixtureId": "id1102645075109922",
+   "startTime": "2026-11-12T16:00:00.000Z",
+   "participant1Name": "Mazeikiai M Basket",
+   "participant2Name": "KK Vilkaviskio Perlas",
+   "tournamentId": 26450,
+   "tournamentName": "NKL",
+   "sportName": "Basketball"
+  },
+  "id1103332174496914": {
+   "fixtureId": "id1103332174496914",
+   "startTime": "2026-11-12T16:00:00.000Z",
+   "participant1Name": "BK Dynamo Grozny",
+   "participant2Name": "Temp-Sumz Revda",
+   "tournamentId": 33321,
+   "tournamentName": "Super League",
+   "sportName": "Basketball"
+  },
+  "id1103332174496916": {
+   "fixtureId": "id1103332174496916",
+   "startTime": "2026-11-12T16:00:00.000Z",
+   "participant1Name": "CSKA-2 Moscow",
+   "participant2Name": "Dynamo UFA",
+   "tournamentId": 33321,
+   "tournamentName": "Super League",
+   "sportName": "Basketball"
+  },
+  "id1103332174496918": {
+   "fixtureId": "id1103332174496918",
+   "startTime": "2026-11-12T16:00:00.000Z",
+   "participant1Name": "BC Tambov",
+   "participant2Name": "Universitet Yugra Surgut",
+   "tournamentId": 33321,
+   "tournamentName": "Super League",
+   "sportName": "Basketball"
+  },
+  "id1100107063682023": {
+   "fixtureId": "id1100107063682023",
+   "startTime": "2026-11-12T16:30:00.000Z",
+   "participant1Name": "Lithuania",
+   "participant2Name": "Finland",
+   "tournamentId": 1070,
+   "tournamentName": "Eurobasket, Women, Qualification",
+   "sportName": "Basketball"
+  },
+  "id1103541673063614": {
+   "fixtureId": "id1103541673063614",
+   "startTime": "2026-11-12T16:30:00.000Z",
+   "participant1Name": "Lappeenrannan Nmky",
+   "participant2Name": "Pyrinto Akatemia",
+   "tournamentId": 35416,
+   "tournamentName": "1 Division",
+   "sportName": "Basketball"
+  },
+  "id1103567973053292": {
+   "fixtureId": "id1103567973053292",
+   "startTime": "2026-11-12T16:30:00.000Z",
+   "participant1Name": "KTP Basket Kotka II",
+   "participant2Name": "Puhu Juniorit",
+   "tournamentId": 35679,
+   "tournamentName": "1. Division B",
+   "sportName": "Basketball"
+  },
+  "id1103567973053294": {
+   "fixtureId": "id1103567973053294",
+   "startTime": "2026-11-12T16:30:00.000Z",
+   "participant1Name": "Tapiolan Honka II",
+   "participant2Name": "BC Nokia",
+   "tournamentId": 35679,
+   "tournamentName": "1. Division B",
+   "sportName": "Basketball"
+  },
+  "id1100238875200582": {
+   "fixtureId": "id1100238875200582",
+   "startTime": "2026-11-12T17:00:00.000Z",
+   "participant1Name": "BC Parnu",
+   "participant2Name": "Keravnos Strovolou Nicosia",
+   "tournamentId": 2388,
+   "tournamentName": "Europe Cup",
+   "sportName": "Basketball"
+  },
+  "id1102645075109924": {
+   "fixtureId": "id1102645075109924",
+   "startTime": "2026-11-12T17:00:00.000Z",
+   "participant1Name": "BC Jurbarkas-Karys",
+   "participant2Name": "Plunges Olimpas",
+   "tournamentId": 26450,
+   "tournamentName": "NKL",
+   "sportName": "Basketball"
+  },
+  "id1102645075109926": {
+   "fixtureId": "id1102645075109926",
+   "startTime": "2026-11-12T17:00:00.000Z",
+   "participant1Name": "Ukmerges Stekas",
+   "participant2Name": "Vilnius Rytas-2",
+   "tournamentId": 26450,
+   "tournamentName": "NKL",
+   "sportName": "Basketball"
+  },
+  "id1102645075109928": {
+   "fixtureId": "id1102645075109928",
+   "startTime": "2026-11-12T17:00:00.000Z",
+   "participant1Name": "Kedainiu Sporto Centras",
+   "participant2Name": "Neptunas Klaipeda 2",
+   "tournamentId": 26450,
+   "tournamentName": "NKL",
+   "sportName": "Basketball"
+  },
+  "id1104922275830042": {
+   "fixtureId": "id1104922275830042",
+   "startTime": "2026-11-12T17:00:00.000Z",
+   "participant1Name": "Al Rayyan",
+   "participant2Name": "AL Gharafa",
+   "tournamentId": 49222,
+   "tournamentName": "QBL",
+   "sportName": "Basketball"
+  },
+  "id1100084372663206": {
+   "fixtureId": "id1100084372663206",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "BMS Herlev Wolfpack",
+   "participant2Name": "Svendborg Rabbits",
+   "tournamentId": 843,
+   "tournamentName": "Basketligaen",
+   "sportName": "Basketball"
+  },
+  "id1100084372663208": {
+   "fixtureId": "id1100084372663208",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "Randers Cimbria",
+   "participant2Name": "Team Fog Naestved",
+   "tournamentId": 843,
+   "tournamentName": "Basketligaen",
+   "sportName": "Basketball"
+  },
+  "id1103058076112416": {
+   "fixtureId": "id1103058076112416",
+   "startTime": "2026-11-12T18:30:00.000Z",
+   "participant1Name": "Beirut SC",
+   "participant2Name": "Club Jeunesse Sportif Batroun",
+   "tournamentId": 30580,
+   "tournamentName": "First Division",
+   "sportName": "Basketball"
+  },
+  "id1100014172902308": {
+   "fixtureId": "id1100014172902308",
+   "startTime": "2026-11-12T19:00:00.000Z",
+   "participant1Name": "Skyliners Frankfurt",
+   "participant2Name": "Maxima Roma",
+   "tournamentId": 141,
+   "tournamentName": "Eurocup",
+   "sportName": "Basketball"
+  },
+  "id1100013873263142": {
+   "fixtureId": "id1100013873263142",
+   "startTime": "2026-11-12T19:05:00.000Z",
+   "participant1Name": "Maccabi Tel-Aviv",
+   "participant2Name": "Hapoel Tel-Aviv",
+   "tournamentId": 138,
+   "tournamentName": "Euroleague",
+   "sportName": "Basketball"
+  },
+  "id1100013873263144": {
+   "fixtureId": "id1100013873263144",
+   "startTime": "2026-11-12T19:15:00.000Z",
+   "participant1Name": "BC Olympiakos Piraeus",
+   "participant2Name": "Dubai Basketball",
+   "tournamentId": 138,
+   "tournamentName": "Euroleague",
+   "sportName": "Basketball"
+  },
+  "id1101445572467032": {
+   "fixtureId": "id1101445572467032",
+   "startTime": "2026-11-12T19:15:00.000Z",
+   "participant1Name": "KR Reykjavik",
+   "participant2Name": "Hottur",
+   "tournamentId": 14455,
+   "tournamentName": "Urvalsdeild",
+   "sportName": "Basketball"
+  },
+  "id1101445572467034": {
+   "fixtureId": "id1101445572467034",
+   "startTime": "2026-11-12T19:15:00.000Z",
+   "participant1Name": "Valur Reykjavik",
+   "participant2Name": "Alftanes",
+   "tournamentId": 14455,
+   "tournamentName": "Urvalsdeild",
+   "sportName": "Basketball"
+  },
+  "id1101445572467038": {
+   "fixtureId": "id1101445572467038",
+   "startTime": "2026-11-12T19:15:00.000Z",
+   "participant1Name": "UMFN Njardvik",
+   "participant2Name": "Armann",
+   "tournamentId": 14455,
+   "tournamentName": "Urvalsdeild",
+   "sportName": "Basketball"
+  },
+  "id1101445572467040": {
+   "fixtureId": "id1101445572467040",
+   "startTime": "2026-11-12T19:15:00.000Z",
+   "participant1Name": "Stjarnan",
+   "participant2Name": "Keflavik",
+   "tournamentId": 14455,
+   "tournamentName": "Urvalsdeild",
+   "sportName": "Basketball"
+  },
+  "id1104111874765630": {
+   "fixtureId": "id1104111874765630",
+   "startTime": "2026-11-12T19:15:00.000Z",
+   "participant1Name": "UMF Tindastoll",
+   "participant2Name": "BBC Lausanne",
+   "tournamentId": 41118,
+   "tournamentName": "European North Basketball League",
+   "sportName": "Basketball"
+  },
+  "id1100013873263146": {
+   "fixtureId": "id1100013873263146",
+   "startTime": "2026-11-12T19:30:00.000Z",
+   "participant1Name": "Olimpia Milano",
+   "participant2Name": "BC Zalgiris Kaunas",
+   "tournamentId": 138,
+   "tournamentName": "Euroleague",
+   "sportName": "Basketball"
+  },
+  "id1100013873263148": {
+   "fixtureId": "id1100013873263148",
+   "startTime": "2026-11-12T19:30:00.000Z",
+   "participant1Name": "Valencia Basket",
+   "participant2Name": "Bayern Munich",
+   "tournamentId": 138,
+   "tournamentName": "Euroleague",
+   "sportName": "Basketball"
+  },
+  "id1100107063681985": {
+   "fixtureId": "id1100107063681985",
+   "startTime": "2026-11-12T19:30:00.000Z",
+   "participant1Name": "Belgium",
+   "participant2Name": "Sweden",
+   "tournamentId": 1070,
+   "tournamentName": "Eurobasket, Women, Qualification",
+   "sportName": "Basketball"
+  },
+  "id1100013873263150": {
+   "fixtureId": "id1100013873263150",
+   "startTime": "2026-11-12T20:00:00.000Z",
+   "participant1Name": "Real Madrid",
+   "participant2Name": "KK Crvena zvezda Belgrade",
+   "tournamentId": 138,
+   "tournamentName": "Euroleague",
+   "sportName": "Basketball"
+  },
+  "id1100064873715334": {
+   "fixtureId": "id1100064873715334",
+   "startTime": "2026-11-12T20:00:00.000Z",
+   "participant1Name": "George Mason Patriots",
+   "participant2Name": "Kansas City Roos",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
+   "sportName": "Basketball"
+  },
+  "id1103057473440372": {
+   "fixtureId": "id1103057473440372",
+   "startTime": "2026-11-12T20:00:00.000Z",
+   "participant1Name": "Cestistica Citta Di San Severo",
+   "participant2Name": "Pielle Livorno",
+   "tournamentId": 30574,
+   "tournamentName": "Serie B",
+   "sportName": "Basketball"
+  },
+  "id1101998075452302": {
+   "fixtureId": "id1101998075452302",
+   "startTime": "2026-11-12T22:15:00.000Z",
+   "participant1Name": "Club Union Atletica",
+   "participant2Name": "Club Bigua de Villa Biarritz",
+   "tournamentId": 19980,
+   "tournamentName": "LUB",
+   "sportName": "Basketball"
+  },
+  "id1100156274320746": {
+   "fixtureId": "id1100156274320746",
+   "startTime": "2026-11-12T22:30:00.000Z",
+   "participant1Name": "Caxias Do Sul",
+   "participant2Name": "Pato Basquete",
+   "tournamentId": 1562,
+   "tournamentName": "NBB",
+   "sportName": "Basketball"
+  },
   "id1204838976431686": {
    "fixtureId": "id1204838976431686",
-   "startTime": "2026-11-12T03:00:00.000Z",
+   "startTime": "2026-11-12T07:20:00.000Z",
    "participant1Name": "Hewitt, Cruz",
    "participant2Name": "Santillan, Akira",
-   "tournamentId": 48389,
-   "tournamentName": "ATP Challenger Brisbane 3, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "id1203182376431424": {
-   "fixtureId": "id1203182376431424",
-   "startTime": "2026-11-12T03:10:00.000Z",
-   "participant1Name": "Schoenhaus, Max",
-   "participant2Name": "Daniel, Taro",
-   "tournamentId": 31823,
-   "tournamentName": "ATP Challenger Matsuyama, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "id1203182376431454": {
-   "fixtureId": "id1203182376431454",
-   "startTime": "2026-11-12T03:10:00.000Z",
-   "participant1Name": "Sakamoto, Rei",
-   "participant2Name": "Samrej, Kasidit",
-   "tournamentId": 31823,
-   "tournamentName": "ATP Challenger Matsuyama, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "id1204838976431684": {
-   "fixtureId": "id1204838976431684",
-   "startTime": "2026-11-12T03:40:00.000Z",
-   "participant1Name": "Overbeck, Carl Emil",
-   "participant2Name": "Shang, Juncheng",
    "tournamentId": 48389,
    "tournamentName": "ATP Challenger Brisbane 3, Australia Men Singles",
    "sportName": "Tennis"
@@ -785,6 +1223,15 @@
    "tournamentName": "ATP Challenger Monastir, Tunisia Men Singles",
    "sportName": "Tennis"
   },
+  "id1200391576417326": {
+   "fixtureId": "id1200391576417326",
+   "startTime": "2026-11-12T13:40:00.000Z",
+   "participant1Name": "Martinez, Pedro",
+   "participant2Name": "Martineau, Matteo",
+   "tournamentId": 3915,
+   "tournamentName": "ATP Challenger Orleans, France Men Singles",
+   "sportName": "Tennis"
+  },
   "id1200309176430184": {
    "fixtureId": "id1200309176430184",
    "startTime": "2026-11-12T14:00:00.000Z",
@@ -810,6 +1257,15 @@
    "participant2Name": "Lazaro Garcia, Andrea",
    "tournamentId": 53480,
    "tournamentName": "WTA 125K Sopo, Colombia Women Singles",
+   "sportName": "Tennis"
+  },
+  "id1205348276709730": {
+   "fixtureId": "id1205348276709730",
+   "startTime": "2026-11-12T15:00:00.000Z",
+   "participant1Name": "Costoulas S / Zamarripa A",
+   "participant2Name": "McAdoo R / Rogers A",
+   "tournamentId": 53482,
+   "tournamentName": "WTA 125K Sopo, Colombia Women Doubles",
    "sportName": "Tennis"
   },
   "id1200779376431540": {
@@ -839,6 +1295,15 @@
    "tournamentName": "WTA 125K Sopo, Colombia Women Singles",
    "sportName": "Tennis"
   },
+  "id1205348276709732": {
+   "fixtureId": "id1205348276709732",
+   "startTime": "2026-11-12T16:10:00.000Z",
+   "participant1Name": "Erjavec V / Kulambayeva Z",
+   "participant2Name": "McGiffin T / Osborne A",
+   "tournamentId": 53482,
+   "tournamentName": "WTA 125K Sopo, Colombia Women Doubles",
+   "sportName": "Tennis"
+  },
   "id1200395176430860": {
    "fixtureId": "id1200395176430860",
    "startTime": "2026-11-12T17:10:00.000Z",
@@ -855,6 +1320,24 @@
    "participant2Name": "Comesana, Francisco",
    "tournamentId": 7793,
    "tournamentName": "ATP Challenger Lima, Peru Men Singles",
+   "sportName": "Tennis"
+  },
+  "id1205348276709734": {
+   "fixtureId": "id1205348276709734",
+   "startTime": "2026-11-12T17:20:00.000Z",
+   "participant1Name": "Samson L / Zidansek T",
+   "participant2Name": "Mediorreal Arias V / Perez Garcia M P",
+   "tournamentId": 53482,
+   "tournamentName": "WTA 125K Sopo, Colombia Women Doubles",
+   "sportName": "Tennis"
+  },
+  "id1205348276709736": {
+   "fixtureId": "id1205348276709736",
+   "startTime": "2026-11-12T17:20:00.000Z",
+   "participant1Name": "Jakupovic D / Radisic N",
+   "participant2Name": "Monnet C / Pigossi L",
+   "tournamentId": 53482,
+   "tournamentName": "WTA 125K Sopo, Colombia Women Doubles",
    "sportName": "Tennis"
   },
   "id1200309176430120": {
@@ -946,6 +1429,321 @@
    "tournamentId": 7793,
    "tournamentName": "ATP Challenger Lima, Peru Men Singles",
    "sportName": "Tennis"
+  },
+  "id1500115973686902": {
+   "fixtureId": "id1500115973686902",
+   "startTime": "2026-11-12T09:00:00.000Z",
+   "participant1Name": "HC Taifun",
+   "participant2Name": "SKA-1946 Saint Petersburg",
+   "tournamentId": 1159,
+   "tournamentName": "MHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1501920072416538": {
+   "fixtureId": "id1501920072416538",
+   "startTime": "2026-11-12T10:00:00.000Z",
+   "participant1Name": "Anyang Halla",
+   "participant2Name": "Yokohama Grits",
+   "tournamentId": 19200,
+   "tournamentName": "Asia League",
+   "sportName": "Ice Hockey"
+  },
+  "id1500114173708464": {
+   "fixtureId": "id1500114173708464",
+   "startTime": "2026-11-12T12:00:00.000Z",
+   "participant1Name": "Dinamo-Altai Barnaul",
+   "participant2Name": "Ska-Vmf",
+   "tournamentId": 1141,
+   "tournamentName": "VHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026872166594": {
+   "fixtureId": "id1500026872166594",
+   "startTime": "2026-11-12T14:00:00.000Z",
+   "participant1Name": "Metallurg Magnitogorsk",
+   "participant2Name": "HK Avangard Omsk",
+   "tournamentId": 268,
+   "tournamentName": "KHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026872166596": {
+   "fixtureId": "id1500026872166596",
+   "startTime": "2026-11-12T14:00:00.000Z",
+   "participant1Name": "Avtomobilist Yekaterinburg",
+   "participant2Name": "Shanghai Dragons",
+   "tournamentId": 268,
+   "tournamentName": "KHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026872166598": {
+   "fixtureId": "id1500026872166598",
+   "startTime": "2026-11-12T14:00:00.000Z",
+   "participant1Name": "Salavat Yulaev UFA",
+   "participant2Name": "Ak Bars Kazan",
+   "tournamentId": 268,
+   "tournamentName": "KHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500114173708466": {
+   "fixtureId": "id1500114173708466",
+   "startTime": "2026-11-12T14:00:00.000Z",
+   "participant1Name": "HC Yugra Khanty-Mansiysk",
+   "participant2Name": "Gornyak-UGMK Verkhnyaya Pyshma",
+   "tournamentId": 1141,
+   "tournamentName": "VHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026872166592": {
+   "fixtureId": "id1500026872166592",
+   "startTime": "2026-11-12T14:30:00.000Z",
+   "participant1Name": "HC Barys",
+   "participant2Name": "Admiral Vladivostok",
+   "tournamentId": 268,
+   "tournamentName": "KHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500114173708468": {
+   "fixtureId": "id1500114173708468",
+   "startTime": "2026-11-12T14:30:00.000Z",
+   "participant1Name": "Kristall Saratov",
+   "participant2Name": "HK Molot",
+   "tournamentId": 1141,
+   "tournamentName": "VHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500115973686898": {
+   "fixtureId": "id1500115973686898",
+   "startTime": "2026-11-12T15:30:00.000Z",
+   "participant1Name": "Loko Yaroslavl",
+   "participant2Name": "Krasnaya Armiya",
+   "tournamentId": 1159,
+   "tournamentName": "MHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500115973686904": {
+   "fixtureId": "id1500115973686904",
+   "startTime": "2026-11-12T15:30:00.000Z",
+   "participant1Name": "Chaika Nizhny Novgorod",
+   "participant2Name": "JHC Molot",
+   "tournamentId": 1159,
+   "tournamentName": "MHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500115973686896": {
+   "fixtureId": "id1500115973686896",
+   "startTime": "2026-11-12T16:00:00.000Z",
+   "participant1Name": "Mikhaylov Academy Novomoskovsk",
+   "participant2Name": "Dinamo Shinnik Bobruysk",
+   "tournamentId": 1159,
+   "tournamentName": "MHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500145472180944": {
+   "fixtureId": "id1500145472180944",
+   "startTime": "2026-11-12T16:00:00.000Z",
+   "participant1Name": "Erie Otters",
+   "participant2Name": "Kitchener Rangers",
+   "tournamentId": 1454,
+   "tournamentName": "OHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500025972117442": {
+   "fixtureId": "id1500025972117442",
+   "startTime": "2026-11-12T16:30:00.000Z",
+   "participant1Name": "Rovaniemen Kiekko",
+   "participant2Name": "Imatran Kettera",
+   "tournamentId": 259,
+   "tournamentName": "Mestis",
+   "sportName": "Ice Hockey"
+  },
+  "id1500025972117444": {
+   "fixtureId": "id1500025972117444",
+   "startTime": "2026-11-12T16:30:00.000Z",
+   "participant1Name": "TuTo Hockey Turku",
+   "participant2Name": "Kiekko-Pojat Joensuu",
+   "tournamentId": 259,
+   "tournamentName": "Mestis",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026872166600": {
+   "fixtureId": "id1500026872166600",
+   "startTime": "2026-11-12T16:30:00.000Z",
+   "participant1Name": "Spartak Moscow",
+   "participant2Name": "Amur Khabarovsk",
+   "tournamentId": 268,
+   "tournamentName": "KHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500023472909460": {
+   "fixtureId": "id1500023472909460",
+   "startTime": "2026-11-12T17:00:00.000Z",
+   "participant1Name": "Seattle Kraken",
+   "participant2Name": "Carolina Hurricanes",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026072122158": {
+   "fixtureId": "id1500026072122158",
+   "startTime": "2026-11-12T17:30:00.000Z",
+   "participant1Name": "Nidaros Hockey",
+   "participant2Name": "Vaalerenga IF Oslo",
+   "tournamentId": 260,
+   "tournamentName": "EHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026072122162": {
+   "fixtureId": "id1500026072122162",
+   "startTime": "2026-11-12T17:30:00.000Z",
+   "participant1Name": "Stavanger Oilers",
+   "participant2Name": "Lillehammer IK",
+   "tournamentId": 260,
+   "tournamentName": "EHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026072122164": {
+   "fixtureId": "id1500026072122164",
+   "startTime": "2026-11-12T17:30:00.000Z",
+   "participant1Name": "Stjernen Hockey Fredrikstad",
+   "participant2Name": "Ringerike IHK Hoenefoss",
+   "tournamentId": 260,
+   "tournamentName": "EHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026072122166": {
+   "fixtureId": "id1500026072122166",
+   "startTime": "2026-11-12T17:30:00.000Z",
+   "participant1Name": "Storhamar Hockey",
+   "participant2Name": "Narvik Ishockeyklubb",
+   "tournamentId": 260,
+   "tournamentName": "EHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1501945274117362": {
+   "fixtureId": "id1501945274117362",
+   "startTime": "2026-11-12T17:30:00.000Z",
+   "participant1Name": "Hockey Punks Vilnius",
+   "participant2Name": "HS Riga",
+   "tournamentId": 19452,
+   "tournamentName": "Latvian Hockey League",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026171696554": {
+   "fixtureId": "id1500026171696554",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "Farjestads BK",
+   "participant2Name": "Djurgardens IF",
+   "tournamentId": 261,
+   "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026171696556": {
+   "fixtureId": "id1500026171696556",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "IF Bjorkloven",
+   "participant2Name": "HC Orebro",
+   "tournamentId": 261,
+   "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026171696558": {
+   "fixtureId": "id1500026171696558",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "Frolunda HC",
+   "participant2Name": "Malmo IF",
+   "tournamentId": 261,
+   "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026171696560": {
+   "fixtureId": "id1500026171696560",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "Brynas IF",
+   "participant2Name": "Skelleftea AIK",
+   "tournamentId": 261,
+   "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026171696562": {
+   "fixtureId": "id1500026171696562",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "HV71",
+   "participant2Name": "Lulea Hockey",
+   "tournamentId": 261,
+   "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026171696564": {
+   "fixtureId": "id1500026171696564",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "Linkopings HC",
+   "participant2Name": "Rogle BK",
+   "tournamentId": 261,
+   "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1500026171696566": {
+   "fixtureId": "id1500026171696566",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "Vaxjo Lakers",
+   "participant2Name": "Timraa IK",
+   "tournamentId": 261,
+   "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "id1501400573579820": {
+   "fixtureId": "id1501400573579820",
+   "startTime": "2026-11-12T18:00:00.000Z",
+   "participant1Name": "EC KAC Future Team",
+   "participant2Name": "EC Die Adler Kitzbuhel",
+   "tournamentId": 14005,
+   "tournamentName": "Alps Hockey League",
+   "sportName": "Ice Hockey"
+  },
+  "id1501400573579822": {
+   "fixtureId": "id1501400573579822",
+   "startTime": "2026-11-12T18:15:00.000Z",
+   "participant1Name": "Red Bull Hockey Juniors",
+   "participant2Name": "WSV Broncos",
+   "tournamentId": 14005,
+   "tournamentName": "Alps Hockey League",
+   "sportName": "Ice Hockey"
+  },
+  "id1500022572484082": {
+   "fixtureId": "id1500022572484082",
+   "startTime": "2026-11-12T18:30:00.000Z",
+   "participant1Name": "Iserlohn Roosters",
+   "participant2Name": "Adler Mannheim",
+   "tournamentId": 225,
+   "tournamentName": "DEL",
+   "sportName": "Ice Hockey"
+  },
+  "id1501400573579824": {
+   "fixtureId": "id1501400573579824",
+   "startTime": "2026-11-12T18:30:00.000Z",
+   "participant1Name": "EK Zeller Eisbaren",
+   "participant2Name": "Hockey Unterland Cavaliers",
+   "tournamentId": 14005,
+   "tournamentName": "Alps Hockey League",
+   "sportName": "Ice Hockey"
+  },
+  "id1501400573579826": {
+   "fixtureId": "id1501400573579826",
+   "startTime": "2026-11-12T18:30:00.000Z",
+   "participant1Name": "Khl Sisak",
+   "participant2Name": "SG Cortina",
+   "tournamentId": 14005,
+   "tournamentName": "Alps Hockey League",
+   "sportName": "Ice Hockey"
+  },
+  "id1500012872123524": {
+   "fixtureId": "id1500012872123524",
+   "startTime": "2026-11-12T19:00:00.000Z",
+   "participant1Name": "EHC Biel",
+   "participant2Name": "ZSC Lions Zurich",
+   "tournamentId": 128,
+   "tournamentName": "National League",
+   "sportName": "Ice Hockey"
   }
  }
 }
