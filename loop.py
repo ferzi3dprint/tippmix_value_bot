@@ -26,12 +26,17 @@ def commit_data():
        f'commit -q -m "Napló: {dt.datetime.utcnow():%Y-%m-%dT%H:%M}"')
     for i in range(5):
         if sh("git pull -q --rebase -X theirs origin main") and sh("git push -q origin HEAD:main"):
+            print("[loop] napló mentve")
             return
         sh("git rebase --abort")
         time.sleep(5 * (i + 1))
+    print("[loop] FIGYELEM: a napló mentése nem sikerült – a következő kör újrapróbálja")
 
 
 def main():
+    # git-identitás a rebase-hez is (enélkül a napló-commit elbukik, ha közben új kód került a repóba)
+    sh("git config user.name tippmix-bot")
+    sh("git config user.email 41898282+github-actions[bot]@users.noreply.github.com")
     total = float(os.getenv("LOOP_MINUTES", "325")) * 60
     every = float(os.getenv("INTERVAL_MINUTES", "20")) * 60
     t_end = time.monotonic() + total
