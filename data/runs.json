@@ -2016,5 +2016,102 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 115
+ },
+ {
+  "time": "2026-11-12T19:10:44.076711+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+1.6% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.22 (fair 1.201)",
+   "+0.5% Olaszország – Franciaország · 1X2: Franciaország győz @1.96 (fair 1.949)",
+   "+0.5% Olaszország – Franciaország · Ázsiai hendikep: Franciaország (+0.5) @1.29 (fair 1.283)",
+   "+0.4% Olaszország – Franciaország · Ázsiai hendikep: Franciaország (+0.25) @1.35 (fair 1.344)",
+   "+0.1% Olaszország – Franciaország · Ázsiai hendikep: Franciaország (-0) @1.44 (fair 1.439)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 13,
+  "fixtures_both": 10,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 6,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 19
+ },
+ {
+  "time": "2026-11-12T19:15:44.077103+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+1.6% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.22 (fair 1.201)",
+   "+0.2% Olaszország – Franciaország · Ázsiai hendikep: Franciaország (+0.5) @1.29 (fair 1.287)",
+   "+0.2% Olaszország – Franciaország · 1X2: Franciaország győz @1.96 (fair 1.957)",
+   "-0.1% Marta Kostyuk – Coco Gauff · Győztes: Coco Gauff győz @1.29 (fair 1.292)",
+   "-0.3% Olaszország – Franciaország · Ázsiai hendikep: Franciaország (-0) @1.44 (fair 1.444)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 13,
+  "fixtures_both": 10,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 19
+ },
+ {
+  "time": "2026-11-12T19:20:44.076932+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 603,
+  "pinnacle_fixtures": 601,
+  "paired": 277,
+  "by_sport": {
+   "Soccer": [
+    165,
+    97
+   ],
+   "Tennis": [
+    158,
+    7
+   ],
+   "Basketball": [
+    171,
+    91
+   ],
+   "Ice Hockey": [
+    109,
+    82
+   ]
+  },
+  "top_ev": [
+   "+3.9% Anglia – Horvátország · Ázsiai hendikep: Horvátország (+2) @1.74 (fair 1.675)",
+   "+1.4% Anglia – Horvátország · Ázsiai hendikep: Horvátország (+1.75) @1.95 (fair 1.922)",
+   "+1.0% Andorra – Gibraltár · 1X2: Andorra győz @1.83 (fair 1.812)",
+   "+0.9% Anglia – Horvátország · Ázsiai hendikep: Horvátország (+2.75) @1.34 (fair 1.328)",
+   "+0.8% Anglia – Horvátország · Ázsiai hendikep: Horvátország (+2.25) @1.55 (fair 1.538)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 6,
+  "fast": false,
+  "fixtures_checked": 138,
+  "fixtures_both": 77,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 17,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 144
  }
 ]

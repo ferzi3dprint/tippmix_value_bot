@@ -15,11 +15,11 @@
   "band": "1.00–1.30",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.89973,
-  "closing_fair_odds": 1.111,
-  "closing_sharp_odds": 1.102,
-  "closing_at": "2026-11-12T18:57:22.347050+00:00",
-  "clv": 0.05269
+  "closing_fair_prob": 0.89704,
+  "closing_fair_odds": 1.115,
+  "closing_sharp_odds": 1.105,
+  "closing_at": "2026-11-12T19:20:44.076932+00:00",
+  "clv": 0.04954
  },
  {
   "fixture_id": "id1000184875802240",
@@ -168,6 +168,23 @@
   "ev": 0.02124,
   "band": "1.50–1.80",
   "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1002375568931756",
+  "market_id": 1056,
+  "outcome_id": 1057,
+  "first_at": "2026-11-12T19:20:44.076932+00:00",
+  "start": "2026-11-12T19:45:00.000Z",
+  "home": "Anglia",
+  "away": "Horvátország",
+  "tournament": "Nemzetek Ligája, A divízió, 3. csoport",
+  "label": "Ázsiai hendikep: Horvátország (+2)",
+  "odds": 1.74,
+  "fair_prob": 0.59699,
+  "ev": 0.03876,
+  "band": "1.50–1.80",
+  "trigger": "normál",
   "bet": false
  }
 ]
