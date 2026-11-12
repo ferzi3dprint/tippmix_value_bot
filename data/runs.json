@@ -407,5 +407,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T10:49:28.310378+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "top_ev": [
+   "-2.4% Delta United – Al-Sekka · Gólszám 1.75: Több @1.51 (fair 1.547)",
+   "-2.4% Delta United – Al-Sekka · Gólszám 1.5: Több @1.4 (fair 1.435)",
+   "-2.5% Delta United – Al-Sekka · Gólszám 2: Több @1.69 (fair 1.734)",
+   "-2.8% Alex Michelsen – Alejandro Tabilo · Győztes: Alex Michelsen győz @1.24 (fair 1.275)",
+   "-3.1% Al Nasr Cairo – Pharco FC · Gólszám 1.25: Több @1.29 (fair 1.331)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 10,
+  "fixtures_both": 9,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 4,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 14
+ },
+ {
+  "time": "2026-11-12T10:54:28.310846+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 7,
+  "boosts": 0,
+  "tippmix_matches": 769,
+  "pinnacle_fixtures": 601,
+  "paired": 418,
+  "by_sport": {
+   "Soccer": [
+    216,
+    156
+   ],
+   "Tennis": [
+    266,
+    44
+   ],
+   "Basketball": [
+    156,
+    115
+   ],
+   "Ice Hockey": [
+    131,
+    103
+   ]
+  },
+  "top_ev": [
+   "+3.8% U21Finnország – U21Írország · Gólszám 2: Több @1.59 (fair 1.531)",
+   "+2.0% Ghána – Szomália · 1X2: Ghána győz @1.1 (fair 1.078)",
+   "+1.6% Moldova – Kazahsztán · Gólszám 1.5: Több @1.53 (fair 1.506)",
+   "+1.5% U21Finnország – U21Írország · Gólszám 2.25: Több @1.84 (fair 1.813)",
+   "+0.6% Costoulas S./Zamarripa A. – McAdoo R./Rogers A. · Győztes: Costoulas S./Zamarripa A. győz @1.51 (fair 1.501)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 23,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 116,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 15,
+  "placed": 1,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 157
  }
 ]
