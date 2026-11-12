@@ -936,5 +936,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T13:21:52.740424+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 3,
+  "top_ev": [
+   "-0.4% Ghána – Szomália · Gólszám 4: Kevesebb @1.38 (fair 1.386)",
+   "-1.2% U19Portugália – U19Litvánia · 1X2: U19Portugália győz @1.02 (fair 1.032)",
+   "-2.6% Ghána – Szomália · Mindkét csapat szerez gólt: Nem @1.32 (fair 1.355)",
+   "-3.3% Ghána – Szomália · 1X2: Ghána győz @1.06 (fair 1.096)",
+   "-3.4% U19Portugália – U19Litvánia · Gólszám 4: Több @1.87 (fair 1.936)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 5,
+  "fast": true,
+  "fixtures_checked": 13,
+  "fixtures_both": 11,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 3,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 16
+ },
+ {
+  "time": "2026-11-12T13:26:52.740782+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 753,
+  "pinnacle_fixtures": 601,
+  "paired": 387,
+  "by_sport": {
+   "Soccer": [
+    212,
+    141
+   ],
+   "Tennis": [
+    233,
+    31
+   ],
+   "Basketball": [
+    176,
+    112
+   ],
+   "Ice Hockey": [
+    132,
+    103
+   ]
+  },
+  "top_ev": [
+   "+1.5% Örményország – Ciprus · Gólszám 1.5: Több @1.46 (fair 1.439)",
+   "+1.2% Örményország – Ciprus · Gólszám 1.75: Több @1.57 (fair 1.551)",
+   "+0.6% Örményország – Ciprus · Gólszám 2: Több @1.75 (fair 1.739)",
+   "+0.4% Szenegál – Szudán · 1X2: Szenegál győz @1.11 (fair 1.106)",
+   "+0.1% Madagaszkár – Bissau-Guinea · Gólszám 1.25: Több @1.33 (fair 1.329)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 14,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 111,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 20,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
