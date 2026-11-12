@@ -1393,5 +1393,52 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 54
+ },
+ {
+  "time": "2026-11-12T15:45:11.951874+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "boosts": 0,
+  "tippmix_matches": 688,
+  "pinnacle_fixtures": 601,
+  "paired": 376,
+  "by_sport": {
+   "Soccer": [
+    197,
+    137
+   ],
+   "Tennis": [
+    186,
+    27
+   ],
+   "Basketball": [
+    174,
+    110
+   ],
+   "Ice Hockey": [
+    131,
+    102
+   ]
+  },
+  "top_ev": [
+   "+1.6% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.191)",
+   "+0.8% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.151)",
+   "+0.5% San Marino – Fehéroroszország · Gólszám 3.5: Kevesebb @1.52 (fair 1.513)",
+   "-0.2% Färjestad – Djurgarden · Győztes (hosszabbítással): Färjestad győz @1.25 (fair 1.252)",
+   "-0.2% Albánia – Finnország · Ázsiai hendikep: Albánia (+0.5) @1.28 (fair 1.282)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 14,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 101,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 32,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 154
  }
 ]
