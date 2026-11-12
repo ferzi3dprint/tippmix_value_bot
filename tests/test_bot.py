@@ -216,3 +216,36 @@ def test_free_mode_daily_cap_and_signals(tmp_path, monkeypatch):
     runs = json.load(open(tmp_path / "runs.json"))
     paid = sum(r["api_calls"] for r in runs)
     assert paid / 5 < 250 / 30 + 3, f"túl sok fizetős kérés: {paid} 5 nap alatt"
+
+
+def test_tippmix_market_parsing_hockey_and_soccer():
+    import tippmixfeed
+    match = {"sport": "Jégkorong", "home_pid": "H", "away_pid": "A"}
+    recs = [
+        {"_type": "MARKET", "id": "m1", "bettingTypeId": "466", "eventPartId": "40", "name": "Ki nyeri? - Teljes esemény"},
+        {"_type": "MARKET", "id": "m2", "bettingTypeId": "47", "eventPartId": "41", "name": "Gólszám 5.5 - Rendes játékidő", "paramFloat1": 5.5},
+        {"_type": "MARKET", "id": "m3", "bettingTypeId": "69", "eventPartId": "41", "name": "1X2 - Rendes játékidő"},
+        {"_type": "OUTCOME", "id": "o1", "code": "#PH"}, {"_type": "OUTCOME", "id": "o2", "code": "#PA"},
+        {"_type": "OUTCOME", "id": "o3", "code": "#O 5.5"}, {"_type": "OUTCOME", "id": "o4", "code": "#U 5.5"},
+        {"_type": "OUTCOME", "id": "o5", "code": "#PH"}, {"_type": "OUTCOME", "id": "o6", "code": "#D"}, {"_type": "OUTCOME", "id": "o7", "code": "#PA"},
+        *[{"_type": "MARKET_OUTCOME_RELATION", "marketId": m, "outcomeId": o} for m, o in
+          [("m1", "o1"), ("m1", "o2"), ("m2", "o3"), ("m2", "o4"), ("m3", "o5"), ("m3", "o6"), ("m3", "o7")]],
+        *[{"_type": "BETTING_OFFER", "outcomeId": o, "odds": p, "isAvailable": True, "statusId": "1"} for o, p in
+          [("o1", 1.8), ("o2", 2.0), ("o3", 1.9), ("o4", 1.9), ("o5", 2.2), ("o6", 4.0), ("o7", 2.6)]],
+    ]
+    mk = tippmixfeed.parse_markets(recs, match)
+    assert mk[("main", 0.0)] == {"home": 1.8, "away": 2.0}
+    assert mk[("ou", 5.5)] == {"over": 1.9, "under": 1.9}
+    assert mk[("1x2reg", 0.0)] == {"home": 2.2, "draw": 4.0, "away": 2.6}
+    idx = {("Jégkorong", "main", 0.0): (151, {"home": 151, "away": 152}), ("Jégkorong", "ou", 5.5): (1526, {"over": 1526, "under": 1527})}
+    book = tippmixfeed.to_op_book(mk, "Jégkorong", idx)
+    assert vf.market_prices(book, 151, [151, 152]) == [1.8, 2.0]
+    assert vf.market_prices(book, 1526, [1526, 1527]) == [1.9, 1.9]
+
+
+def test_matcher_examples():
+    from matcher import team_sim, odds_consistent
+    assert team_sim("U19Spanyolország", "Spain") == 1.0
+    assert team_sim("Taylor Harry Fritz", "Fritz, Taylor") == 1.0
+    assert team_sim("Hearts", "Avro FC") < 0.6
+    assert odds_consistent([1.8, 3.6, 4.5], [1.85, 3.5, 4.4]) and not odds_consistent([1.3, 5, 9], [3.0, 3.3, 2.4])

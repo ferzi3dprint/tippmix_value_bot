@@ -124,7 +124,10 @@ def find_values(fixture, soft, sharp, markets_meta, cfg):
     return sorted(out, key=lambda x: -x["ev"])
 
 
-MARKET_HU = [("Full Time Result", "1X2"), ("Over Under Full Time", "Gólszám"), ("Total Games Over Under", "Játékszám"), ("Both Teams To Score", "Mindkét csapat szerez gólt"), ("Over Under Full Time", "Gólszám"),
+MARKET_HU = [("Full Time Result", "1X2"), ("Over Under Full Time", "Gólszám"), ("Total Games Over Under", "Játékszám"),
+             ("Winner (incl. overtime and penalties)", "Győztes (hosszabbítással)"), ("Winner (incl. overtime)", "Győztes (hosszabbítással)"),
+             ("Regular Time Result", "1X2 (rendes játékidő)"), ("Over Under (incl. overtime)", "Összpontszám (hosszabbítással)"),
+             ("Total", "Gólszám"), ("Both Teams To Score", "Mindkét csapat szerez gólt"), ("Over Under Full Time", "Gólszám"),
              ("Over Under", "Gólszám"), ("Double Chance", "Kétesély"), ("Draw No Bet", "Döntetlennél visszajár"),
              ("Asian Handicap", "Ázsiai hendikep"), ("Handicap", "Hendikep"), ("Winner", "Győztes"), ("Moneyline", "Győztes"),
              ("Totals", "Összpontszám")]

@@ -19,12 +19,30 @@ from zoneinfo import ZoneInfo
 URL, OP, LANG = "wss://sportsapi.tippmixpro.hu/v2", "2901", "hu"
 ORIGIN = "https://www.tippmixpro.hu"
 SPORT_HU = {"Soccer": "Labdarúgás", "Tennis": "Tenisz", "Basketball": "Kosárlabda", "Ice Hockey": "Jégkorong"}
-MARKETS = {  # (sportName, bettingTypeId, eventPartId) -> fajta
+TM_SPORT_ID = {"Labdarúgás": "1", "Tenisz": "3", "Jégkorong": "6", "Kosárlabda": "8"}
+MARKETS = {  # (sportName, bettingTypeId, eventPartId) -> fajta  (foci és tenisz: a felderítés alapján)
     ("Labdarúgás", "69", "3"): "main",
     ("Labdarúgás", "47", "3"): "ou",
     ("Tenisz", "466", "20"): "main",
     ("Tenisz", "47", "20"): "ou",
 }
+# jégkorong és kosár: a piac neve alapján („… - Rendes játékidő” / „… - Teljes esemény”)
+NAMED = {
+    ("Jégkorong", "69", "Rendes játékidő"): "1x2reg",
+    ("Jégkorong", "466", "Teljes esemény"): "main",
+    ("Jégkorong", "47", "Rendes játékidő"): "ou",
+    ("Kosárlabda", "466", "Teljes esemény"): "main",
+    ("Kosárlabda", "69", "Rendes játékidő"): "1x2reg",
+    ("Kosárlabda", "47", "Teljes esemény"): "ou",
+}
+
+
+def market_kind(sport, m):
+    k = MARKETS.get((sport, str(m.get("bettingTypeId")), str(m.get("eventPartId"))))
+    if k:
+        return k
+    part = str(m.get("name") or "").rsplit(" - ", 1)[-1].strip()
+    return NAMED.get((sport, str(m.get("bettingTypeId")), part))
 
 
 class Session:
@@ -89,6 +107,29 @@ class Session:
                                      "start": dt.datetime.fromtimestamp(r["startTime"] / 1000, dt.timezone.utc)}
         return list(seen.values())
 
+    def all_today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz")):
+        """A teljes mai kínálat bajnokságonként (a naptár csak az élőben is fogadható meccseket adja)."""
+        end = now.astimezone(ZoneInfo(tz)).replace(hour=23, minute=59, second=59, microsecond=0)
+        out = {m["id"]: m for m in self.today_matches(now, tz, sports)}
+        for sport in sports:
+            sid = TM_SPORT_ID.get(sport)
+            if not sid:
+                continue
+            for tr in self.dump(f"/sports/{OP}/{LANG}/tournaments/{sid}") or []:
+                if tr.get("_type") != "TOURNAMENT" or not tr.get("numberOfUpcomingMatches"):
+                    continue
+                for r in self.dump(f"/sports/{OP}/{LANG}/matches/{tr['id']}") or []:
+                    if r.get("_type") != "MATCH" or r["id"] in out:
+                        continue
+                    if not (now.timestamp() < r["startTime"] / 1000 <= end.timestamp()):
+                        continue
+                    out[r["id"]] = {"id": r["id"], "sport": sport, "name": r.get("name"),
+                                    "home": r.get("homeParticipantName"), "away": r.get("awayParticipantName"),
+                                    "home_pid": r.get("homeParticipantId"), "away_pid": r.get("awayParticipantId"),
+                                    "tournament": tr.get("name"),
+                                    "start": dt.datetime.fromtimestamp(r["startTime"] / 1000, dt.timezone.utc)}
+        return list(out.values())
+
     def match_markets(self, match):
         recs = self.dump(f"/sports/{OP}/{LANG}/{match['id']}/match-odds/market-group/Main_BannerMatrix")
         return parse_markets(recs or [], match)
@@ -107,7 +148,7 @@ def parse_markets(recs, match):
         rel.setdefault(x["marketId"], []).append(x["outcomeId"])
     out = {}
     for m in by_type.get("MARKET", []):
-        kind = MARKETS.get((match["sport"], str(m.get("bettingTypeId")), str(m.get("eventPartId"))))
+        kind = market_kind(match["sport"], m)
         if not kind or m.get("isClosed") or m.get("isAvailable") is False:
             continue
         line = float(m["paramFloat1"]) if kind == "ou" and m.get("paramFloat1") is not None else 0.0
@@ -136,30 +177,50 @@ def parse_markets(recs, match):
 
 # --- OddsPapi-szerkezet -------------------------------------------------------
 
-OP_SPORT = {"Labdarúgás": 10, "Tenisz": 12}
+OP_SPORT = {"Labdarúgás": 10, "Kosárlabda": 11, "Tenisz": 12, "Jégkorong": 15}
 NAME_KEY = {"1": "home", "X": "draw", "2": "away", "Over": "over", "Under": "under"}
 
 
 def op_index(markets_meta):
     """(tippmix-sportnév, fajta, vonal) -> (OddsPapi marketId, {kimenetel: outcomeId}) a /v4/markets listából."""
     idx = {}
+    by_id = {v: k for k, v in OP_SPORT.items()}
     for m in markets_meta.values():
-        sid, mt, per = m.get("sportId"), m.get("marketType"), m.get("period")
-        sport = {10: "Labdarúgás", 12: "Tenisz"}.get(sid)
+        sid, mt, per, name = m.get("sportId"), m.get("marketType"), m.get("period"), str(m.get("marketName", ""))
+        sport = by_id.get(sid)
         if not sport or m.get("playerProp"):
             continue
+        line = float(m.get("handicap") or 0)
         kind = None
-        if sid == 10 and m["marketId"] == 101:
-            kind, line = "main", 0.0
-        elif sid == 12 and mt == "moneyline" and per == "result":
-            kind, line = "main", 0.0
-        elif sid == 10 and mt == "totals" and per == "fulltime" and str(m.get("marketName", "")).startswith("Over Under Full Time"):
-            kind, line = "ou", float(m.get("handicap") or 0)
-        elif sid == 12 and mt == "totals-games" and per == "result":
-            kind, line = "ou", float(m.get("handicap") or 0)
+        if sid == 10:
+            if m["marketId"] == 101:
+                kind = "main"
+            elif mt == "totals" and per == "fulltime" and name.startswith("Over Under Full Time"):
+                kind = "ou"
+        elif sid == 12:
+            if mt == "moneyline" and per == "result":
+                kind = "main"
+            elif mt == "totals-games" and per == "result":
+                kind = "ou"
+        elif sid == 11:
+            if mt == "moneyline" and per == "result":
+                kind = "main"
+            elif mt == "1x2" and per == "fulltime":
+                kind = "1x2reg"
+            elif mt == "totals" and per == "result" and "incl. overtime" in name:
+                kind = "ou"
+        elif sid == 15:
+            if mt == "moneyline" and per == "result":
+                kind = "main"
+            elif mt == "1x2" and per == "fulltime":
+                kind = "1x2reg"
+            elif mt == "totals" and per == "fulltime" and name == "Total":
+                kind = "ou"
         if kind:
+            if kind in ("main", "1x2reg") and line:
+                continue
             outs = {NAME_KEY.get(o["outcomeName"]): o["outcomeId"] for o in m["outcomes"] if NAME_KEY.get(o["outcomeName"])}
-            idx[(sport, kind, line)] = (int(m["marketId"]), outs)
+            idx.setdefault((sport, kind, line), (int(m["marketId"]), outs))
     return idx
 
 

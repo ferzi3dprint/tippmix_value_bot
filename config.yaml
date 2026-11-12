@@ -22,17 +22,19 @@ api:
 hu:                            # csak mode: hu esetén
   match_threshold: 0.72        # Tippmix ↔ Pinnacle névegyezés küszöbe (0–1)
   max_prob_diff: 0.15          # ha a két iroda fő piaca ennél jobban eltér, a párosítás valószínűleg téves -> kihagyja
+  full_list_hours: 3           # a teljes Tippmix-kínálat (bajnokságonként) frissítése ilyen gyakran
 
 free:                          # mode: free és hu esetén
   discovery_hours: 24          # meccslista frissítése (sportáganként 1 fizetős kérés) – ennél gyakrabban ne
   discovery_window_hours: 48   # a meccslista ennyi órára előre
-  max_fixtures_per_run: 90     # ingyenes kérések futásonként (5 mp várakozás kérésenként -> ~8 perc)
+  max_fixtures_per_run: 150    # ingyenes Pinnacle-kérések futásonként (5 mp/kérés -> ~12 perc, belefér a 20 perces körbe)
   near_start_hours: 6          # az ennyin belül kezdődő meccseket minden futás nézi
   far_recheck_minutes: 90      # a távolabbiakat ennyi percenként
-  max_bets_per_day: 5          # minden fogadás elszámolása 1 fizetős kérés -> a havi keret miatt naponta legfeljebb ennyi
+  max_bets_per_day: 3          # minden fogadás elszámolása 1 fizetős kérés -> a havi keret miatt naponta legfeljebb ennyi
+                               # (4 sportág meccslistája ~120/hó + 3 fogadás/nap ~90/hó + piaclista ≈ 220 a 250-ből)
 
 scan:
-  sports: [Soccer, Tennis]     # a /v4/sports sportName mezője szerint (ingyenes módban sportáganként napi 1 kérés)
+  sports: [Soccer, Tennis, Basketball, Ice Hockey]   # sportáganként napi 1 fizetős kérés (Pinnacle meccslista)
   lookahead_hours: 36          # ennyi órán belül kezdődő meccseket vizsgál
   min_minutes_before_start: 20 # ennél közelebb a kezdéshez már nem "fogad"
   max_sharp_overround: 1.08    # ha a Pinnacle árrése ennél nagyobb, a piac nem megbízható viszonyítási alap
@@ -73,7 +75,7 @@ execution:                     # végrehajthatóság: megtehető lett volna-e a 
   min_ev_after_move: 0.0
 
 settlement:
-  settle_after_hours: 2.5      # a kezdés után ennyivel próbál először elszámolni
+  settle_after_hours: 3      # a kezdés után ennyivel próbál először elszámolni
   retry_hours: 2               # ha még nincs eredmény, ennyi óra múlva próbálja újra (minden próba 1 fizetős kérés)
   give_up_after_hours: 96      # ha addig sincs eredmény: visszajár a tét (érvénytelen)
 

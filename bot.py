@@ -356,7 +356,7 @@ def fetch_hu(client, cfg, pair, now, meta):
 
 def main_consistent(so, ho, meta, cfg):
     """Téves párosítás elleni védelem a fő piacon (1X2 / győztes)."""
-    for mid in (101, 121):
+    for mid in (101, 121, 111, 151, 113, 153):
         m = meta.get(mid)
         if not m:
             continue
@@ -371,7 +371,16 @@ def scan_hu(client, bets, cfg, now, stats, signals):
     meta = markets_meta(client, now)
     fixtures = hu_fixtures(client, cfg, now)
     sports_hu = [tippmixfeed.SPORT_HU.get(s, s) for s in cfg["scan"]["sports"]]
-    tm = tm_session().today_matches(now, cfg["timezone"], sports_hu)
+    c = load_json("cache/tm_matches.json", None)
+    if c and c.get("date") == to_local(now, cfg).date().isoformat() and \
+            now - parse_time(c["time"]) < dt.timedelta(hours=cfg["hu"].get("full_list_hours", 3)) and c.get("sports") == sports_hu:
+        tm = [{**m, "start": parse_time(m["start"])} for m in c["data"] if parse_time(m["start"]) > now]
+        tm_ids = {m["id"] for m in tm}
+        tm += [m for m in tm_session().today_matches(now, cfg["timezone"], sports_hu) if m["id"] not in tm_ids]
+    else:   # teljes lista bajnokságonként (kb. 1 perc), néhány óránként
+        tm = tm_session().all_today_matches(now, cfg["timezone"], sports_hu)
+        save_json("cache/tm_matches.json", {"date": to_local(now, cfg).date().isoformat(), "time": now.isoformat(),
+                                            "sports": sports_hu, "data": [{**m, "start": m["start"].isoformat()} for m in tm]})
     pairs = {}
     for sp_en in cfg["scan"]["sports"]:
         sp_hu = tippmixfeed.SPORT_HU.get(sp_en, sp_en)
@@ -381,7 +390,9 @@ def scan_hu(client, bets, cfg, now, stats, signals):
             m = next(x for x in tms if x["id"] == tid)
             pairs[f["fixtureId"]] = {"tm": {**m, "start": m["start"].isoformat()}, "fx": f, "score": score}
     save_json("cache/pairs_hu.json", pairs)
-    stats.update({"tippmix_matches": len(tm), "pinnacle_fixtures": len(fixtures), "paired": len(pairs)})
+    stats.update({"tippmix_matches": len(tm), "pinnacle_fixtures": len(fixtures), "paired": len(pairs),
+                  "by_sport": {sp: [sum(1 for m in tm if m["sport"] == tippmixfeed.SPORT_HU.get(sp, sp)),
+                                    sum(1 for p in pairs.values() if p["fx"]["sportName"] == sp)] for sp in cfg["scan"]["sports"]}})
 
     # melyik párokat nézzük most (Pinnacle-előzmény: 5 mp/kérés)
     fr, sc = cfg["free"], cfg["scan"]

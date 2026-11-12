@@ -209,6 +209,9 @@ class MockTippmix:
                  "tournament": f["tournamentName"], "start": f["startTime"], "_fid": f["fixtureId"]}
                 for f in _fixtures_between(now, end) if f["startTime"] > now and hu[f["sportId"]] in sports]
 
+    def all_today_matches(self, now, tz="Europe/Budapest", sports=("Labdarúgás", "Tenisz")):
+        return self.today_matches(now, tz, sports)
+
     def match_markets(self, match):
         f = _fixture(match["id"][3:])
         book = _prices(f, "tippmixpro", now_utc())
