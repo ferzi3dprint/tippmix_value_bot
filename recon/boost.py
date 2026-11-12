@@ -6,8 +6,28 @@ import tippmixfeed
 with tippmixfeed.Session() as s:
     tours = [r for r in (s.dump("/sports/2901/hu/tournaments/101") or []) if r.get("_type") == "TOURNAMENT"]
     print("Oddsrakéta-bajnokságok:", [(t["id"], t.get("name"), t.get("numberOfUpcomingMatches")) for t in tours])
-    n = 0
     for t in tours:
+        for topic in (f"/sports/2901/hu/{t['id']}/tournament-odds/7/1", f"/sports/2901/hu/{t['id']}/tournament-odds/1/1",
+                      f"/sports/2901/hu/{t['id']}/tournament-odds/0/1"):
+            recs = s.dump(topic) or []
+            if not recs:
+                continue
+            print(f"\n== {t.get('name')} [{topic.split('/')[-3:]}]:", dict(collections.Counter(r.get("_type") for r in recs)))
+            outs = {r["id"]: r for r in recs if r.get("_type") == "OUTCOME"}
+            offs = {r["outcomeId"]: r for r in recs if r.get("_type") == "BETTING_OFFER"}
+            rel = collections.defaultdict(list)
+            for x in recs:
+                if x.get("_type") == "MARKET_OUTCOME_RELATION":
+                    rel[x["marketId"]].append(x["outcomeId"])
+            for mk in [r for r in recs if r.get("_type") == "MARKET"]:
+                print("   PIAC", mk.get("bettingTypeId"), mk.get("eventPartId"), mk.get("name"), "|",
+                      [(outs.get(o, {}).get("translatedName"), outs.get(o, {}).get("code"), offs.get(o, {}).get("odds")) for o in rel.get(mk["id"], [])])
+            ex = next(iter(outs.values()), {})
+            print("   OUTCOME minta:", json.dumps(ex, ensure_ascii=False)[:700])
+            print("   TOURNAMENT:", json.dumps(t, ensure_ascii=False)[:500])
+            break
+    n = 0
+    for t in []:
         ms = [r for r in (s.dump(f"/sports/2901/hu/matches/{t['id']}") or []) if r.get("_type") == "MATCH"]
         for m in ms[:6]:
             print(f"\n== {t.get('name')} | MATCH: {m.get('name')} | start {dt.datetime.fromtimestamp(m['startTime']/1000)} | "
