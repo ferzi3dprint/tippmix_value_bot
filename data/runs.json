@@ -2282,5 +2282,102 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 120
+ },
+ {
+  "time": "2026-11-12T20:15:51.206122+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-1.9% Ponte Preta – Operario PR · 1X2: Operario PR győz @1.67 (fair 1.702)",
+   "-2.0% Ponte Preta – Operario PR · Gólszám 4.5: Kevesebb @1.14 (fair 1.163)",
+   "-3.2% Ponte Preta – Operario PR · Gólszám 3.5: Kevesebb @1.4 (fair 1.446)",
+   "-3.2% Aurora FC – Deportivo Mixco · Gólszám 3: Kevesebb @1.43 (fair 1.478)",
+   "-3.5% Aurora FC – Deportivo Mixco · Gólszám 3.25: Kevesebb @1.34 (fair 1.388)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 7,
+  "fixtures_both": 6,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 8
+ },
+ {
+  "time": "2026-11-12T20:20:51.206323+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-1.9% Ponte Preta – Operario PR · 1X2: Operario PR győz @1.67 (fair 1.702)",
+   "-2.0% Ponte Preta – Operario PR · Gólszám 4.5: Kevesebb @1.14 (fair 1.163)",
+   "-3.2% Ponte Preta – Operario PR · Gólszám 3.5: Kevesebb @1.4 (fair 1.446)",
+   "-3.2% Aurora FC – Deportivo Mixco · Gólszám 3: Kevesebb @1.43 (fair 1.478)",
+   "-3.5% Aurora FC – Deportivo Mixco · Gólszám 3.25: Kevesebb @1.34 (fair 1.388)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 8,
+  "fixtures_both": 7,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 10
+ },
+ {
+  "time": "2026-11-12T20:25:51.206304+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 638,
+  "pinnacle_fixtures": 601,
+  "paired": 260,
+  "by_sport": {
+   "Soccer": [
+    171,
+    85
+   ],
+   "Tennis": [
+    184,
+    5
+   ],
+   "Basketball": [
+    171,
+    87
+   ],
+   "Ice Hockey": [
+    112,
+    83
+   ]
+  },
+  "top_ev": [
+   "+0.8% Moldova – Kazahsztán · Gólszám 1.5: Több @1.52 (fair 1.507)",
+   "+0.0% Spisska Nova Ves – Trencin · Győztes (hosszabbítással): Spisska Nova Ves győz @1.48 (fair 1.48)",
+   "-0.0% Moldova – Kazahsztán · Gólszám 1.75: Több @1.65 (fair 1.651)",
+   "-0.3% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.5 (fair 1.505)",
+   "-0.3% Columbus – Tampa Bay · Hendikep (rendes játékidő): Tampa Bay (+1) @1.42 (fair 1.425)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": false,
+  "fixtures_checked": 122,
+  "fixtures_both": 75,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 9,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 126
  }
 ]
