@@ -323,7 +323,7 @@ def hu_fixtures(client, cfg, now):
     """A mai Pinnacle-meccsek (sportáganként napi 1 fizetős kérés)."""
     today = to_local(now, cfg).date().isoformat()
     c = load_json("cache/fixtures_hu.json", None)
-    if c and c.get("date") == today:
+    if c and c.get("date") == today and c.get("sports") == cfg["scan"]["sports"]:
         return c["data"]
     if paid_calls_left(client, cfg) < len(cfg["scan"]["sports"]) + 2:
         print("[meccslista] a havi keret elfogyott – a régi listával megy tovább")
@@ -334,7 +334,7 @@ def hu_fixtures(client, cfg, now):
             out[f["fixtureId"]] = {k: f.get(k) for k in ("fixtureId", "startTime", "participant1Name", "participant2Name",
                                                           "tournamentId", "tournamentName")}
             out[f["fixtureId"]]["sportName"] = sname
-    save_json("cache/fixtures_hu.json", {"date": today, "time": now.isoformat(), "data": out})
+    save_json("cache/fixtures_hu.json", {"date": today, "time": now.isoformat(), "sports": cfg["scan"]["sports"], "data": out})
     return out
 
 
