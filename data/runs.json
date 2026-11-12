@@ -2548,5 +2548,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 131
+ },
+ {
+  "time": "2026-11-12T21:22:49.649073+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 3,
+  "top_ev": [
+   "-1.3% Cerro Largo Melo – CA Progreso Montevideo · 1X2: Cerro Largo Melo győz @1.83 (fair 1.853)",
+   "-2.1% Cerro Largo Melo – CA Progreso Montevideo · Gólszám 1.5: Több @1.39 (fair 1.42)",
+   "-2.2% Ponte Preta – Operario PR · 1X2: Operario PR győz @1.67 (fair 1.707)",
+   "-2.5% Ponte Preta – Operario PR · Gólszám 4.5: Kevesebb @1.14 (fair 1.17)",
+   "-2.7% Antigua és Barbuda – Trinidad és Tobago · Gólszám 4.5: Kevesebb @1.19 (fair 1.223)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 19,
+  "fixtures_both": 13,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 3,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 22
+ },
+ {
+  "time": "2026-11-12T21:27:49.648067+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 625,
+  "pinnacle_fixtures": 601,
+  "paired": 262,
+  "by_sport": {
+   "Soccer": [
+    170,
+    87
+   ],
+   "Tennis": [
+    172,
+    5
+   ],
+   "Basketball": [
+    171,
+    87
+   ],
+   "Ice Hockey": [
+    112,
+    83
+   ]
+  },
+  "top_ev": [
+   "+0.3% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.51 (fair 1.505)",
+   "-0.1% Columbus – Tampa Bay · Hendikep (rendes játékidő): Tampa Bay (+1) @1.43 (fair 1.431)",
+   "-0.9% Los Angeles – NY Islanders · Hendikep (rendes játékidő): NY Islanders (+1) @1.49 (fair 1.503)",
+   "-1.2% Real Potosi – Nacional Potosi · Gólszám 2.5: Kevesebb @1.92 (fair 1.943)",
+   "-1.2% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+1) @1.37 (fair 1.387)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 73,
+  "fixtures_both": 35,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 12,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 79
  }
 ]
