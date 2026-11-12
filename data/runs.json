@@ -2113,5 +2113,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 144
+ },
+ {
+  "time": "2026-11-12T19:36:36.269061+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 3,
+  "top_ev": [
+   "-1.5% Benfica – Austria Wien · Gólszám 2: Több @1.32 (fair 1.34)",
+   "-2.5% Marta Kostyuk – Coco Gauff · Győztes: Coco Gauff győz @1.27 (fair 1.303)",
+   "-3.7% Benfica – Austria Wien · Gólszám 2.25: Több @1.49 (fair 1.548)",
+   "-4.0% Mount Pleasant FC – Portmore Utd. · Ázsiai hendikep: Portmore Utd. (-0) @1.48 (fair 1.542)",
+   "-4.1% Mount Pleasant FC – Portmore Utd. · Gólszám 1.5: Több @1.33 (fair 1.386)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 9,
+  "fixtures_both": 5,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 3,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 12
+ },
+ {
+  "time": "2026-11-12T19:41:36.264688+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "boosts": 0,
+  "tippmix_matches": 670,
+  "pinnacle_fixtures": 601,
+  "paired": 271,
+  "by_sport": {
+   "Soccer": [
+    178,
+    92
+   ],
+   "Tennis": [
+    205,
+    6
+   ],
+   "Basketball": [
+    175,
+    90
+   ],
+   "Ice Hockey": [
+    112,
+    83
+   ]
+  },
+  "top_ev": [
+   "-0.3% Columbus – Tampa Bay · Hendikep (rendes játékidő): Tampa Bay (+1) @1.42 (fair 1.425)",
+   "-0.4% Cerro Largo Melo – CA Progreso Montevideo · 1X2: Cerro Largo Melo győz @1.84 (fair 1.848)",
+   "-0.8% Ottawa – Colorado · Hendikep (rendes játékidő): Ottawa (+1) @1.43 (fair 1.442)",
+   "-1.5% Dallas – Winnipeg · Győztes (hosszabbítással): Dallas győz @1.59 (fair 1.614)",
+   "-1.5% Ottawa – Colorado · Hendikep (rendes játékidő): Colorado (+1) @1.45 (fair 1.473)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": false,
+  "fixtures_checked": 68,
+  "fixtures_both": 32,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 72
  }
 ]
