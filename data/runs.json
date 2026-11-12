@@ -2717,5 +2717,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 117
+ },
+ {
+  "time": "2026-11-12T22:02:16.507951+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+4.3% Blainville-Boisbriand Armada – Baie-Comeau Drakkar · 1X2 (rendes játékidő): Baie-Comeau Drakkar győz @4.1 (fair 3.929)",
+   "-0.7% Columbus – Tampa Bay · Hendikep (rendes játékidő): Tampa Bay (+1) @1.43 (fair 1.44)",
+   "-0.8% Ottawa – Colorado · Hendikep (rendes játékidő): Ottawa (+1) @1.43 (fair 1.442)",
+   "-1.5% Columbus – Tampa Bay · Hendikep (rendes játékidő): Columbus (+1) @1.45 (fair 1.472)",
+   "-1.5% Ottawa – Colorado · Hendikep (rendes játékidő): Colorado (+1) @1.45 (fair 1.473)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 42,
+  "fixtures_both": 18,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 8,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 48
+ },
+ {
+  "time": "2026-11-12T22:09:32.445864+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 611,
+  "pinnacle_fixtures": 601,
+  "paired": 255,
+  "by_sport": {
+   "Soccer": [
+    163,
+    81
+   ],
+   "Tennis": [
+    165,
+    4
+   ],
+   "Basketball": [
+    171,
+    87
+   ],
+   "Ice Hockey": [
+    112,
+    83
+   ]
+  },
+  "top_ev": [
+   "+5.1% Sao Bernardo FC – Athletic Club MG · 1X2: Athletic Club MG győz @3.8 (fair 3.615)",
+   "+3.1% Blainville-Boisbriand Armada – Baie-Comeau Drakkar · 1X2 (rendes játékidő): Baie-Comeau Drakkar győz @4.05 (fair 3.929)",
+   "+2.5% Sao Bernardo FC – Athletic Club MG · Ázsiai hendikep: Athletic Club MG (+0.25) @2.08 (fair 2.029)",
+   "+1.9% Sao Bernardo FC – Athletic Club MG · Ázsiai hendikep: Athletic Club MG (+1) @1.37 (fair 1.344)",
+   "+1.7% Sao Bernardo FC – Athletic Club MG · Ázsiai hendikep: Athletic Club MG (+0.5) @1.78 (fair 1.75)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 118,
+  "fixtures_both": 72,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 15,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 124
  }
 ]
