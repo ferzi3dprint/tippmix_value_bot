@@ -96,7 +96,8 @@ async def visit(p, name, urls):
             text = await page.inner_text("body")
             links = await page.eval_on_selector_all("a[href]", "els => els.map(e => e.href).slice(0, 400)")
             log["pages"].append({"url": url, "final_url": page.url, "title": await page.title(), "text_head": text[:3000],
-                                 "links": [l for l in links if re.search(r"sport|fogad|labda|foci|futball|tenisz", l, re.I)][:120]})
+                                 "links": [l for l in links if re.search(r"sport|fogad|labda|foci|futball|tenisz", l, re.I)][:120],
+                                 "match_links": [l for l in links if re.search(r"\d{15,}", l)][:40]})
         except Exception as e:
             log["pages"].append({"url": url, "error": str(e)[:300]})
     await browser.close()
@@ -105,8 +106,8 @@ async def visit(p, name, urls):
     for r in log["requests"]:
         if r.get("interesting"):
             print("  *", r["status"], r["type"], r.get("size"), r["url"][:200])
-    for w in log["ws"]:
-        print("  WS", w["url"][:200], "küldött:", len(w["sent"]), "fogadott:", len(w["recv"]))
+    for pg in log["pages"]:
+        print("  OLDAL", pg.get("final_url"), "| meccs-linkek:", pg.get("match_links", [])[:8])
 
 
 async def main():
