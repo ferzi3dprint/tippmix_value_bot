@@ -1512,5 +1512,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T16:27:45.846899+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "+0.8% Punks Vilnius – HS Riga · Győztes (hosszabbítással): Punks Vilnius győz @1.91 (fair 1.894)",
+   "+0.7% Örményország – Ciprus · Gólszám 1.75: Több @1.51 (fair 1.5)",
+   "+0.6% Örményország – Ciprus · Gólszám 1.5: Több @1.41 (fair 1.401)",
+   "+0.5% Örményország – Ciprus · Gólszám 2: Több @1.67 (fair 1.661)",
+   "+0.1% Örményország – Ciprus · Ázsiai hendikep: Ciprus (+0.5) @1.4 (fair 1.399)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 8,
+  "fast": true,
+  "fixtures_checked": 58,
+  "fixtures_both": 49,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 10,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 63
+ },
+ {
+  "time": "2026-11-12T16:36:25.038754+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 764,
+  "pinnacle_fixtures": 601,
+  "paired": 352,
+  "by_sport": {
+   "Soccer": [
+    201,
+    129
+   ],
+   "Tennis": [
+    244,
+    21
+   ],
+   "Basketball": [
+    189,
+    105
+   ],
+   "Ice Hockey": [
+    130,
+    97
+   ]
+  },
+  "top_ev": [
+   "+1.7% U21Finnország – U21Írország · Gólszám 1.5: Több @1.37 (fair 1.347)",
+   "+1.7% Örményország – Ciprus · Gólszám 1.75: Több @1.51 (fair 1.484)",
+   "+1.4% Örményország – Ciprus · Gólszám 1.5: Több @1.41 (fair 1.391)",
+   "+1.2% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.195)",
+   "+0.8% U21Finnország – U21Írország · Gólszám 2: Több @1.57 (fair 1.557)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 18,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 120,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 23,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 155
  }
 ]
