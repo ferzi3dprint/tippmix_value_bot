@@ -238,7 +238,7 @@ def place(cands, bets, cfg, now, tours):
              "tournament": fx.get("tournamentName") or str(fx.get("tournamentId")),
              "home": fx.get("participant1Name"), "away": fx.get("participant2Name"), "start": fx["startTime"],
              "label": outcome_label(fx, c), "band": odds_band(c["odds"]), "stake": stake,
-             "signal_odds": c["odds"], "signal_ev": c["ev"], "link": so.get("fixturePath"), "tm_id": fx.get("tm_id"), **c}
+             "signal_odds": c["odds"], "signal_ev": c["ev"], "link": fx.get("tm_url") or so.get("fixturePath"), "tm_id": fx.get("tm_id"), "tm_url": fx.get("tm_url"), **c}
         b["trigger"] = "steam" if c.get("steam") else "normál"
         b["min_odds"] = round((1 + (cfg.get("execution") or {}).get("min_ev_after_move", 0.01)) / c["fair_prob"], 2)
         b["expected_profit"] = round(stake * c["ev"], 2)
@@ -396,7 +396,8 @@ def fetch_hu(client, cfg, pair, now, meta):
     ho = reference_book(books, meta, cfg)
     fxb = {"fixtureId": fx["fixtureId"], "startTime": fx["startTime"], "participant1Name": m["home"],
            "participant2Name": m["away"], "tournamentName": m.get("tournament") or fx.get("tournamentName"),
-           "tournamentId": fx.get("tournamentId"), "sportName": fx["sportName"], "tm_id": m["id"]}
+           "tournamentId": fx.get("tournamentId"), "sportName": fx["sportName"], "tm_id": m["id"],
+           "tm_url": tippmixfeed.match_url({**m, "sport": tm_sport})}
     return fxb, so, ho, (lambda mid, oids: steam_from_history(sh, mid, oids, now, cfg))
 
 
@@ -423,14 +424,14 @@ def scan_hu(client, bets, cfg, now, stats, signals, fast=False):
     c = load_json("cache/tm_matches.json", None)
     if c and c.get("date") == to_local(now, cfg).date().isoformat() and \
             now - parse_time(c["time"]) < dt.timedelta(hours=cfg["hu"].get("full_list_hours", 3)) and c.get("sports") == sports_hu \
-            and c.get("days") == days:
+            and c.get("days") == days and c.get("v") == 2:
         tm = [{**m, "start": parse_time(m["start"])} for m in c["data"] if parse_time(m["start"]) > now]
         tm_ids = {m["id"] for m in tm}
         tm += [m for m in tm_session().today_matches(now, cfg["timezone"], sports_hu, days) if m["id"] not in tm_ids]
     else:   # teljes lista bajnokságonként (kb. 1 perc), néhány óránként
         tm = tm_session().all_today_matches(now, cfg["timezone"], sports_hu, days)
         save_json("cache/tm_matches.json", {"date": to_local(now, cfg).date().isoformat(), "time": now.isoformat(),
-                                            "sports": sports_hu, "days": days, "data": [{**m, "start": m["start"].isoformat()} for m in tm]})
+                                            "sports": sports_hu, "days": days, "v": 2, "data": [{**m, "start": m["start"].isoformat()} for m in tm]})
     pairs = {}
     for sp_en in cfg["scan"]["sports"]:
         sp_hu = tippmixfeed.SPORT_HU.get(sp_en, sp_en)

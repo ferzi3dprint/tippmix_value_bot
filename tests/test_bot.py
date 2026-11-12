@@ -330,3 +330,11 @@ def test_bet_card_min_odds_and_button():
     txt, btn = report.bet_card(b, CFG)
     assert "Tét: 1 250 Ft" in txt and "legalább 1,76" in txt
     assert btn and btn[0][1].startswith("https://www.tippmixpro.hu/")
+
+
+def test_tippmix_match_url():
+    import tippmixfeed
+    url = tippmixfeed.match_url({"id": "318827872579035136", "tm_sport_id": "1", "sport": "Labdarúgás", "category": "Világ",
+                                 "tournament": "Válogatott mérkőzés", "name": "Málta - Eswatini"})
+    assert url == ("https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/vilag/valogatott-merkozes/"
+                   "malta-eswatini/318827872579035136/nepszeru")

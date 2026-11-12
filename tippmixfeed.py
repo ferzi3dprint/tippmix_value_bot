@@ -50,6 +50,21 @@ def market_kind(sport, m):
     return NAMED.get((sport, str(m.get("bettingTypeId")), part))
 
 
+def slug(text):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", str(text or "")).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-") or "x"
+
+
+def match_url(m):
+    """A Tippmixpro meccsoldala, pl. /hu/fogadas/i/esemenyek/1/labdarugas/vilag/valogatott-merkozes/malta-eswatini/<id>/nepszeru"""
+    if not m.get("tm_sport_id") or not m.get("id"):
+        return None
+    return ("https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/{}/{}/{}/{}/{}/{}/nepszeru"
+            .format(m["tm_sport_id"], slug(m.get("sport")), slug(m.get("category")), slug(m.get("tournament")),
+                    slug(m.get("name") or f"{m.get('home')} - {m.get('away')}"), m["id"]))
+
+
 class Session:
     """Egy websocket-kapcsolat a futás idejére (szinkron felülettel)."""
 
@@ -109,6 +124,7 @@ class Session:
                                      "home": r.get("homeParticipantName"), "away": r.get("awayParticipantName"),
                                      "home_pid": r.get("homeParticipantId"), "away_pid": r.get("awayParticipantId"),
                                      "tournament": r.get("shortParentName") or r.get("parentName"),
+                                     "category": r.get("categoryName") or r.get("venueName"), "tm_sport_id": r.get("sportId"),
                                      "start": dt.datetime.fromtimestamp(r["startTime"] / 1000, dt.timezone.utc)}
         return list(seen.values())
 
@@ -131,7 +147,8 @@ class Session:
                     out[r["id"]] = {"id": r["id"], "sport": sport, "name": r.get("name"),
                                     "home": r.get("homeParticipantName"), "away": r.get("awayParticipantName"),
                                     "home_pid": r.get("homeParticipantId"), "away_pid": r.get("awayParticipantId"),
-                                    "tournament": tr.get("name"),
+                                    "tournament": r.get("shortParentName") or tr.get("name"),
+                                    "category": r.get("categoryName") or r.get("venueName"), "tm_sport_id": r.get("sportId") or sid,
                                     "start": dt.datetime.fromtimestamp(r["startTime"] / 1000, dt.timezone.utc)}
         return list(out.values())
 

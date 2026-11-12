@@ -1,23 +1,18 @@
-"""Telegram-próba: rövid üzenet a botról és az utolsó futásról (Actions → Telegram-teszt)."""
-import json
-import os
+"""Telegram-próba: egy ajánlás-kártya formájú üzenet egy valódi mai meccs Tippmixpro-linkjével (a gomb tesztelésére)."""
+import datetime as dt
 
 import notify
+import tippmixfeed
 
-runs = []
-try:
-    runs = json.load(open(os.path.join("data", "runs.json"), encoding="utf-8"))
-except Exception:
-    pass
-last = runs[-1] if runs else {}
-lines = ["✅ A Tippmix value-bot csatlakozott a Telegramhoz.", "",
-         "Mostantól innen jönnek az ajánlások (szimulált fogadások), és este 23 órakor a napi kimutatás."]
-if last:
-    lines += ["", f"Utolsó futás: {last.get('tippmix_matches', '?')} mai Tippmix-meccs, ebből {last.get('paired', '?')} párosítva a Pinnacle-lel, "
-              f"{last.get('fixtures_both', '?')} részletesen összevetve, value-jelölt: {last.get('candidates', 0)}."]
-    if last.get("top_ev"):
-        lines += ["Legjobb EV-k (küszöbtől függetlenül):"] + [f"• {x}" for x in last["top_ev"][:3]]
-lines += ["", "🔗 Dashboard: https://ferzi3dprint.github.io/tippmix_value_bot/"]
-ok = notify.send("\n".join(lines))
-print("Elküldve" if ok else "NEM ment el – lásd a fenti [Telegram] sort")
-raise SystemExit(0 if ok else 1)
+now = dt.datetime.now(dt.timezone.utc)
+with tippmixfeed.Session() as s:
+    ms = sorted(s.today_matches(now, sports=("Labdarúgás",), days_ahead=1), key=lambda m: m["start"])
+m = next((x for x in ms if x["start"] > now + dt.timedelta(hours=1)), ms[0] if ms else None)
+if m:
+    url = tippmixfeed.match_url(m)
+    txt = (f"🧪 PRÓBA – a meccsgomb tesztje (nem ajánlás)\n\n⚽ {m['home']} – {m['away']}\n   {m['tournament']}\n\n"
+           f"Nyomd meg a gombot: ha a Tippmixpro-n ennek a meccsnek az oldala nyílik meg, a link jó.")
+    ok = notify.send(txt, buttons=[("🟢 Meccs megnyitása a Tippmixpro-n", url)])
+    print("Elküldve:" if ok else "NEM ment el:", url)
+    raise SystemExit(0 if ok else 1)
+print("Nincs mai meccs a listán")

@@ -31,8 +31,8 @@ def bet_card(b, cfg):
               f"📈 Tippmix-odds most: {o2(b['odds'])}  (fair: {o2(b['fair_odds'])}, {b.get('ref') or 'Pinnacle'}, EV {pct(b['ev'])})"]
     if b.get("min_odds"):
         lines.append(f"✅ Megéri legalább {o2(b['min_odds'])}-es oddsig. Ha ennél kisebb, hagyd ki.")
-    if TM_URL and b.get("tm_id") and not str(b["tm_id"]).startswith("tm-"):
-        buttons = [("🟢 Megnyitás a Tippmixpro-n", TM_URL.format(b["tm_id"]))]
+    if b.get("tm_url"):
+        buttons = [("🟢 Meccs megnyitása a Tippmixpro-n", b["tm_url"])]
     else:
         buttons = [("🟢 Tippmixpro megnyitása", TM_HOME)]
     return "\n".join(lines), buttons
