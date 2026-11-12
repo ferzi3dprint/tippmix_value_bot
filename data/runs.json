@@ -335,5 +335,77 @@
   "not_executable": 1,
   "api_calls": 0,
   "free_calls": 158
+ },
+ {
+  "time": "2026-11-12T10:27:28.976111+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-2.8% Alex Michelsen – Alejandro Tabilo · Győztes: Alex Michelsen győz @1.24 (fair 1.275)",
+   "-3.6% Mektic N./Roger-Vasselin E. – Rojer J-J./Winegar T. · Győztes: Rojer J-J./Winegar T. győz @2.53 (fair 2.625)",
+   "-5.6% Alex Michelsen – Alejandro Tabilo · Játékszám 21.5: Több @1.73 (fair 1.833)",
+   "-6.6% Alex Michelsen – Alejandro Tabilo · Játékszám 22.5: Kevesebb @1.74 (fair 1.862)",
+   "-7.0% Alex Michelsen – Alejandro Tabilo · Játékszám 22.5: Több @2.01 (fair 2.16)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 5,
+  "fixtures_both": 4,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 6
+ },
+ {
+  "time": "2026-11-12T10:32:28.975853+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 768,
+  "pinnacle_fixtures": 601,
+  "paired": 417,
+  "by_sport": {
+   "Soccer": [
+    215,
+    155
+   ],
+   "Tennis": [
+    267,
+    44
+   ],
+   "Basketball": [
+    155,
+    115
+   ],
+   "Ice Hockey": [
+    131,
+    103
+   ]
+  },
+  "top_ev": [
+   "+2.9% Ghána – Szomália · 1X2: Ghána győz @1.11 (fair 1.079)",
+   "-0.0% U21Izland – U21Görögország · Gólszám 1.5: Több @1.28 (fair 1.28)",
+   "-0.2% Szingapúr – Paraguay · 1X2: Paraguay győz @1.09 (fair 1.092)",
+   "-0.4% Chicago – Buffalo · Győztes (hosszabbítással): Buffalo győz @1.66 (fair 1.666)",
+   "-0.4% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+1) @1.37 (fair 1.375)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 18,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 98,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 25,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
