@@ -33,6 +33,13 @@ def test_kelly_caps_and_rounding():
     assert vf.kelly_stake(0.6, 2.0, 100000, 120, CFG) == 0     # nincs szabad keret
 
 
+def test_low_odds_get_bigger_stake():
+    # ugyanaz a +3% EV: 1.20-as oddson nagyobb tét, mint 2.00-n
+    lo = vf.kelly_stake(1.03 / 1.20, 1.20, 100000, 100000, CFG)
+    hi = vf.kelly_stake(1.03 / 2.00, 2.00, 100000, 100000, CFG)
+    assert lo > hi and lo <= 6000 and hi <= 3000
+
+
 def test_min_ev_bands():
     assert vf.min_ev_for(1.4, CFG) == 0.02 and vf.min_ev_for(2.0, CFG) == 0.03 and vf.min_ev_for(2.4, CFG) == 0.04
 

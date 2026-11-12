@@ -42,7 +42,7 @@ scan:
   skip_player_props: true
 
 filters:
-  min_odds: 1.30
+  min_odds: 1.10
   max_odds: 2.50
   # Odds-sávonkénti minimális várható érték (EV). Alacsony oddsnál kisebb a szórás, ezért kisebb küszöb is elég.
   ev_bands:
@@ -55,7 +55,12 @@ filters:
 staking:
   start_bankroll: 100000
   kelly_fraction: 0.25         # negyed-Kelly: lassabb, de sokkal kisebb a visszaesés
-  max_stake_pct: 0.03          # egy fogadás legfeljebb a tőke 3%-a
+  max_stake_pct: 0.03          # egy fogadás legfeljebb a tőke 3%-a (ha a sáv nem mond mást)
+  # Alacsony oddsnál a Kelly ugyanakkora előnyre nagyobb tétet ad (a nyerés valószínűbb) – a plafon is nagyobb:
+  max_stake_bands:
+    - {max_odds: 1.30, pct: 0.06}
+    - {max_odds: 1.60, pct: 0.045}
+    - {max_odds: 99.0, pct: 0.03}
   min_stake: 200
   round_to: 50
   max_open_exposure_pct: 0.35  # a nyitott fogadások együtt legfeljebb a tőke 35%-a

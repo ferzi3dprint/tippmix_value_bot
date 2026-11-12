@@ -51,7 +51,7 @@ def min_ev_for(odds, cfg):
 
 
 def odds_band(odds):
-    for lo, hi in ((1.0, 1.5), (1.5, 1.8), (1.8, 2.1), (2.1, 2.5), (2.5, 99)):
+    for lo, hi in ((1.0, 1.3), (1.3, 1.5), (1.5, 1.8), (1.8, 2.1), (2.1, 2.5), (2.5, 99)):
         if lo < odds <= hi:
             return f"{lo:.2f}–{hi:.2f}" if hi < 99 else f"{lo:.2f}+"
     return "?"
@@ -63,7 +63,12 @@ def kelly_stake(prob, odds, bankroll, available, cfg):
     if f <= 0:
         return 0
     stake = bankroll * f * st["kelly_fraction"]
-    stake = min(stake, bankroll * st["max_stake_pct"], available)
+    cap = st["max_stake_pct"]
+    for band in st.get("max_stake_bands") or []:
+        if odds <= band["max_odds"]:
+            cap = band["pct"]
+            break
+    stake = min(stake, bankroll * cap, available)
     stake = math.floor(stake / st["round_to"]) * st["round_to"]
     return stake if stake >= st["min_stake"] else 0
 
