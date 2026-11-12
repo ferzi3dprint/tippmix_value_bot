@@ -385,7 +385,12 @@ def fetch_hu(client, cfg, pair, now, meta):
     tm_sport = tippmixfeed.SPORT_HU.get(fx["sportName"], fx["sportName"])
     tm_markets = sess.match_markets({**m, "sport": tm_sport})
     so = tippmixfeed.to_op_book(tm_markets, tm_sport, tippmixfeed.op_index(meta))
-    h = client.historical_odds(fx["fixtureId"], ",".join(ref_books(cfg))) or {}
+    try:
+        h = client.historical_odds(fx["fixtureId"], ",".join(ref_books(cfg))) or {}
+    except RuntimeError as e:
+        if "HTTP 400" not in str(e):
+            raise
+        h = client.historical_odds(fx["fixtureId"], cfg["api"]["sharp_book"]) or {}
     books = h.get("bookmakers") or {}
     sh = books.get(cfg["api"]["sharp_book"])
     ho = reference_book(books, meta, cfg)

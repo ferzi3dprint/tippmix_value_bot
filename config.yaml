@@ -26,7 +26,7 @@ hu:                            # csak mode: hu esetén
   fast_window_hours: 2         # ennyin belül kezdődő meccsekre vonatkozik a gyors kör
   full_every_minutes: 20
   days_ahead: 1                # 0 = csak a mai meccsek, 1 = ma és holnap (a korai, „nyitó” Tippmix-oddsok miatt)
-  consensus_books: [sbobet, betfair-ex]   # ha a Pinnacle nem árazza a piacot: ezek árrés-mentes átlaga a fair ár
+  consensus_books: [sbobet, marathonbet]  # ha a Pinnacle nem árazza a piacot: ezek árrés-mentes átlaga a fair ár
   consensus_min_books: 2
   full_list_hours: 3           # a teljes Tippmix-kínálat (bajnokságonként) frissítése ilyen gyakran
 
