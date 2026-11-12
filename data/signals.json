@@ -15,11 +15,11 @@
   "band": "1.00–1.30",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.87713,
-  "closing_fair_odds": 1.14,
-  "closing_sharp_odds": 1.129,
-  "closing_at": "2026-11-12T10:08:53.720356+00:00",
-  "clv": 0.02624
+  "closing_fair_prob": 0.87213,
+  "closing_fair_odds": 1.147,
+  "closing_sharp_odds": 1.135,
+  "closing_at": "2026-11-12T11:59:49.605544+00:00",
+  "clv": 0.0204
  },
  {
   "fixture_id": "id1000184875802240",
@@ -40,7 +40,7 @@
   "closing_fair_prob": 0.92723,
   "closing_fair_odds": 1.078,
   "closing_sharp_odds": 1.066,
-  "closing_at": "2026-11-12T11:38:30.440348+00:00",
+  "closing_at": "2026-11-12T11:59:49.605544+00:00",
   "clv": 0.02923
  },
  {
@@ -59,11 +59,11 @@
   "band": "1.30–1.50",
   "trigger": "steam",
   "bet": true,
-  "closing_fair_prob": 0.77981,
-  "closing_fair_odds": 1.282,
-  "closing_sharp_odds": 1.241,
-  "closing_at": "2026-11-12T11:38:30.440348+00:00",
-  "clv": 0.02155
+  "closing_fair_prob": 0.88097,
+  "closing_fair_odds": 1.135,
+  "closing_sharp_odds": 1.11,
+  "closing_at": "2026-11-12T11:59:49.605544+00:00",
+  "clv": 0.15407
  },
  {
   "fixture_id": "id1000002675439648",
@@ -81,5 +81,22 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": true
+ },
+ {
+  "fixture_id": "id1000184875802296",
+  "market_id": 101,
+  "outcome_id": 101,
+  "first_at": "2026-11-12T11:59:49.605544+00:00",
+  "start": "2026-11-12T19:00:00.000Z",
+  "home": "Szenegál",
+  "away": "Szudán",
+  "tournament": "Afrikai Nemzetek Kupája-selejtező, J csoport",
+  "label": "1X2: Szenegál győz",
+  "odds": 1.13,
+  "fair_prob": 0.90536,
+  "ev": 0.02305,
+  "band": "1.00–1.30",
+  "trigger": "normál",
+  "bet": false
  }
 ]

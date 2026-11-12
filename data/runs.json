@@ -623,5 +623,102 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 88
+ },
+ {
+  "time": "2026-11-12T11:49:34.663505+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-0.7% U21Izland – U21Görögország · Gólszám 1.5: Több @1.27 (fair 1.279)",
+   "-2.0% U21Izland – U21Görögország · 1X2: U21Görögország győz @2.27 (fair 2.317)",
+   "-2.1% Dayrout – Proxy · Ázsiai hendikep: Proxy (-0) @1.29 (fair 1.318)",
+   "-2.3% U21Izland – U21Görögország · Gólszám 2.25: Több @1.61 (fair 1.649)",
+   "-2.4% Delta United – Al-Sekka · Gólszám 1.75: Több @1.51 (fair 1.547)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 18,
+  "fixtures_both": 18,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 8,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 24
+ },
+ {
+  "time": "2026-11-12T11:54:36.783956+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+0.3% FC Masar – Tersana SC · 1X2: FC Masar győz @1.54 (fair 1.535)",
+   "-0.7% U21Izland – U21Görögország · Gólszám 1.5: Több @1.27 (fair 1.279)",
+   "-1.8% FC Masar – Tersana SC · Ázsiai hendikep: FC Masar (-0.5) @1.5 (fair 1.527)",
+   "-2.0% U21Izland – U21Görögország · 1X2: U21Görögország győz @2.27 (fair 2.317)",
+   "-2.1% Dayrout – Proxy · Ázsiai hendikep: Proxy (-0) @1.29 (fair 1.318)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 18,
+  "fixtures_both": 18,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 8,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 24
+ },
+ {
+  "time": "2026-11-12T11:59:49.605544+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "tippmix_matches": 738,
+  "pinnacle_fixtures": 601,
+  "paired": 416,
+  "by_sport": {
+   "Soccer": [
+    213,
+    155
+   ],
+   "Tennis": [
+    240,
+    43
+   ],
+   "Basketball": [
+    154,
+    115
+   ],
+   "Ice Hockey": [
+    131,
+    103
+   ]
+  },
+  "top_ev": [
+   "+3.1% Samson L./Zidansek T. – Mediorreal Arias V./Perez Garcia M.P. · Győztes: Samson L./Zidansek T. győz @1.17 (fair 1.135)",
+   "+2.3% Szenegál – Szudán · 1X2: Szenegál győz @1.13 (fair 1.105)",
+   "+2.0% Ghána – Szomália · 1X2: Ghána győz @1.1 (fair 1.078)",
+   "+2.0% Elefántcsontpart – Gambia · 1X2: Elefántcsontpart győz @1.28 (fair 1.255)",
+   "+1.9% Guinea – Eritrea · 1X2: Guinea győz @1.28 (fair 1.256)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 20,
+  "fast": false,
+  "fixtures_checked": 142,
+  "fixtures_both": 116,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 25,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 142
  }
 ]
