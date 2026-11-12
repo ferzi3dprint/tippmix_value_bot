@@ -864,5 +864,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T12:59:51.933418+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-3.8% Pedro Martinez Portero – Matteo Martineau · Győztes: Matteo Martineau győz @1.53 (fair 1.59)",
+   "-4.6% Pedro Martinez Portero – Matteo Martineau · Játékszám 22.5: Kevesebb @1.81 (fair 1.898)",
+   "-5.0% Thiago Tirante – Alexander Shevchenko · Játékszám 22.5: Több @1.68 (fair 1.768)",
+   "-5.3% Thiago Tirante – Alexander Shevchenko · Győztes: Thiago Tirante győz @1.95 (fair 2.059)",
+   "-5.4% Boca Juniors – Social Atletico · Gólszám 2.5: Kevesebb @1.62 (fair 1.713)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 5,
+  "fast": true,
+  "fixtures_checked": 9,
+  "fixtures_both": 9,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 10
+ },
+ {
+  "time": "2026-11-12T13:04:51.933412+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 683,
+  "pinnacle_fixtures": 601,
+  "paired": 399,
+  "by_sport": {
+   "Soccer": [
+    192,
+    142
+   ],
+   "Tennis": [
+    203,
+    40
+   ],
+   "Basketball": [
+    157,
+    114
+   ],
+   "Ice Hockey": [
+    131,
+    103
+   ]
+  },
+  "top_ev": [
+   "+1.6% Moldova – Kazahsztán · Gólszám 1.5: Több @1.53 (fair 1.506)",
+   "+0.8% U21Finnország – U21Írország · Gólszám 1.5: Több @1.36 (fair 1.349)",
+   "+0.6% U21Finnország – U21Írország · Gólszám 2: Több @1.57 (fair 1.561)",
+   "+0.4% Moldova – Kazahsztán · Gólszám 1.75: Több @1.66 (fair 1.653)",
+   "+0.4% Szenegál – Szudán · 1X2: Szenegál győz @1.11 (fair 1.106)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 26,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 127,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 15,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
