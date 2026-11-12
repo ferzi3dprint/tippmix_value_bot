@@ -288,5 +288,52 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 157
+ },
+ {
+  "time": "2026-11-12T10:08:53.720356+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 8,
+  "boosts": 0,
+  "tippmix_matches": 781,
+  "pinnacle_fixtures": 601,
+  "paired": 420,
+  "by_sport": {
+   "Soccer": [
+    216,
+    155
+   ],
+   "Tennis": [
+    278,
+    46
+   ],
+   "Basketball": [
+    156,
+    116
+   ],
+   "Ice Hockey": [
+    131,
+    103
+   ]
+  },
+  "top_ev": [
+   "+2.9% Ghána – Szomália · 1X2: Ghána győz @1.11 (fair 1.079)",
+   "+2.2% Samson L./Zidansek T. – Mediorreal Arias V./Perez Garcia M.P. · Győztes: Samson L./Zidansek T. győz @1.31 (fair 1.282)",
+   "+1.8% Elefántcsontpart – Gambia · 1X2: Elefántcsontpart győz @1.28 (fair 1.257)",
+   "+1.7% San Marino – Fehéroroszország · 1X2: Fehéroroszország győz @1.16 (fair 1.14)",
+   "+1.4% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.2 (fair 1.183)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 24,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 122,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 29,
+  "placed": 2,
+  "not_executable": 1,
+  "api_calls": 0,
+  "free_calls": 158
  }
 ]
