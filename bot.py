@@ -468,7 +468,7 @@ def scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs, fast=Fals
     order = [f for _, f in sorted(near)] + [f for _, f in sorted(far)]
     order = order[: fr["max_fixtures_per_run"]]
 
-    cands, hot, sharp_now, both, rejected, near_miss = [], [], {}, 0, 0, []
+    cands, hot, sharp_now, both, rejected, near_miss, rej_ex = [], [], {}, 0, 0, [], []
     LOOSE = {**cfg, "filters": {**cfg["filters"], "min_odds": 1.01, "max_odds": 50, "max_ev": 0.25,
                                 "ev_bands": [{"max_odds": 999, "min_ev": -1.0}]}}
     for fid in order:
@@ -484,6 +484,13 @@ def scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs, fast=Fals
             continue
         if not main_consistent(so, ho, meta, cfg):
             rejected += 1
+            if len(rej_ex) < 8:
+                tmm = pairs[fid]["tm"]
+                fx0 = pairs[fid]["fx"]
+                mk = next((mid for mid in (101, 121, 111, 151) if str(mid) in (so.get("markets") or {})), None)
+                oids = [o["outcomeId"] for o in meta[mk]["outcomes"]] if mk in meta else []
+                rej_ex.append(f"{tmm.get('name')} <-> {fx0.get('participant1Name')} - {fx0.get('participant2Name')} "
+                              f"[{pairs[fid].get('score')}] TM {market_prices(so, mk, oids) if mk else '-'} / ref {market_prices(ho, mk, oids) if mk else '-'}")
             continue
         both += 1
         cs, steamy = evaluate(fx, so, ho, meta, None, now, cfg, steam_fn)
@@ -494,6 +501,7 @@ def scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs, fast=Fals
             near_miss.append((c["ev"], f"{fx['participant1Name']} – {fx['participant2Name']} · {outcome_label(fx, c)} @{c['odds']} (fair {c['fair_odds']})"))
     save_json("cache/checked.json", checked)
     stats["top_ev"] = [f"{ev * 100:+.1f}% {txt}" for ev, txt in sorted(near_miss, reverse=True)[:5]]
+    stats["rejected_examples"] = rej_ex
     update_closing(bets, sharp_now, meta, now, cfg)
     update_closing(signals, sharp_now, meta, now, cfg)
     stats.update({"fast": fast, "fixtures_checked": len(order), "fixtures_both": both, "rejected_mismatch": rejected,
@@ -580,6 +588,7 @@ def scan_free(client, bets, cfg, now, stats, signals):
             near_miss.append((c["ev"], f"{fx['participant1Name']} – {fx['participant2Name']} · {outcome_label(fx, c)} @{c['odds']} (fair {c['fair_odds']})"))
     save_json("cache/checked.json", checked)
     stats["top_ev"] = [f"{ev * 100:+.1f}% {txt}" for ev, txt in sorted(near_miss, reverse=True)[:5]]
+    stats["rejected_examples"] = rej_ex
     update_closing(bets, sharp_now, meta, now, cfg)
     update_closing(signals, sharp_now, meta, now, cfg)
     stats.update({"fixtures_listed": len(fixtures), "fixtures_checked": len(order), "fixtures_both": both,
