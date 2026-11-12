@@ -2861,5 +2861,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 104
+ },
+ {
+  "time": "2026-11-12T22:43:34.756831+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "-0.6% Llaneros FC – Boyaca Chico · Gólszám 2: Több @1.46 (fair 1.469)",
+   "-0.9% Ottawa – Colorado · Hendikep (rendes játékidő): Ottawa (+1) @1.43 (fair 1.443)",
+   "-1.1% Columbus – Tampa Bay · Hendikep (rendes játékidő): Tampa Bay (+1) @1.43 (fair 1.445)",
+   "-1.2% Columbus – Tampa Bay · Hendikep (rendes játékidő): Columbus (+1) @1.45 (fair 1.467)",
+   "-1.5% Ottawa – Colorado · Hendikep (rendes játékidő): Colorado (+1) @1.45 (fair 1.472)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 35,
+  "fixtures_both": 15,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 40
+ },
+ {
+  "time": "2026-11-12T22:50:11.959957+00:00",
+  "mode": "hu",
+  "settled": 1,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 652,
+  "pinnacle_fixtures": 601,
+  "paired": 250,
+  "by_sport": {
+   "Soccer": [
+    168,
+    81
+   ],
+   "Tennis": [
+    198,
+    1
+   ],
+   "Basketball": [
+    172,
+    85
+   ],
+   "Ice Hockey": [
+    114,
+    83
+   ]
+  },
+  "top_ev": [
+   "+4.3% Marokkó – Niger · Ázsiai hendikep: Niger (+3) @1.61 (fair 1.544)",
+   "+3.2% Marokkó – Niger · Ázsiai hendikep: Niger (+2.75) @1.82 (fair 1.764)",
+   "+0.6% Szlovákia – Feröer-szigetek · Gólszám 4.5: Kevesebb @1.15 (fair 1.143)",
+   "+0.2% Andorra – Gibraltár · 1X2: Andorra győz @1.74 (fair 1.736)",
+   "+0.1% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.52 (fair 1.519)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": false,
+  "fixtures_checked": 103,
+  "fixtures_both": 51,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 13,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 109
  }
 ]
