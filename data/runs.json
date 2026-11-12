@@ -1800,5 +1800,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 148
+ },
+ {
+  "time": "2026-11-12T18:05:52.957871+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+0.6% Olaszország – Franciaország · Ázsiai hendikep: Franciaország (+0.25) @1.4 (fair 1.392)",
+   "+0.4% San Marino – Fehéroroszország · 1X2: Fehéroroszország győz @1.13 (fair 1.125)",
+   "+0.4% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.205)",
+   "+0.3% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.157)",
+   "+0.1% Montenegró – Lettország · 1X2: Montenegró győz @1.26 (fair 1.258)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": true,
+  "fixtures_checked": 39,
+  "fixtures_both": 26,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 12,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 45
+ },
+ {
+  "time": "2026-11-12T18:12:52.642208+00:00",
+  "mode": "hu",
+  "settled": 1,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 662,
+  "pinnacle_fixtures": 601,
+  "paired": 299,
+  "by_sport": {
+   "Soccer": [
+    177,
+    105
+   ],
+   "Tennis": [
+    188,
+    10
+   ],
+   "Basketball": [
+    180,
+    98
+   ],
+   "Ice Hockey": [
+    117,
+    86
+   ]
+  },
+  "top_ev": [
+   "+2.2% Biel – Zürich Lions · Hendikep (rendes játékidő): Biel (+0) @2.75 (fair 2.692)",
+   "+2.1% Egyesült Arab Emirátusok – Honduras · Ázsiai hendikep: Egyesült Arab Emirátusok (+0) @1.53 (fair 1.498)",
+   "+1.7% U21Finnország – U21Írország · Gólszám 1.5: Több @1.37 (fair 1.347)",
+   "+1.4% Biel – Zürich Lions · Hendikep (rendes játékidő): Biel (+0.5) @2.01 (fair 1.982)",
+   "+1.3% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.22 (fair 1.205)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 11,
+  "fast": false,
+  "fixtures_checked": 135,
+  "fixtures_both": 93,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 24,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 141
  }
 ]

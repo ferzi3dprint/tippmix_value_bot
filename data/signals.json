@@ -15,11 +15,11 @@
   "band": "1.00–1.30",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.8886,
+  "closing_fair_prob": 0.88874,
   "closing_fair_odds": 1.125,
   "closing_sharp_odds": 1.115,
-  "closing_at": "2026-11-12T17:49:37.920168+00:00",
-  "clv": 0.03966
+  "closing_at": "2026-11-12T18:12:52.642208+00:00",
+  "clv": 0.03982
  },
  {
   "fixture_id": "id1000184875802240",
@@ -84,7 +84,7 @@
   "closing_fair_prob": 0.64214,
   "closing_fair_odds": 1.557,
   "closing_sharp_odds": 1.492,
-  "closing_at": "2026-11-12T16:36:25.038754+00:00",
+  "closing_at": "2026-11-12T18:12:52.642208+00:00",
   "clv": 0.02099
  },
  {
@@ -103,11 +103,11 @@
   "band": "1.00–1.30",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.90589,
-  "closing_fair_odds": 1.104,
-  "closing_sharp_odds": 1.091,
-  "closing_at": "2026-11-12T17:49:37.920168+00:00",
-  "clv": 0.02365
+  "closing_fair_prob": 0.90854,
+  "closing_fair_odds": 1.101,
+  "closing_sharp_odds": 1.088,
+  "closing_at": "2026-11-12T18:12:52.642208+00:00",
+  "clv": 0.02665
  },
  {
   "fixture_id": "id1000085176438758",
@@ -125,11 +125,11 @@
   "band": "1.80–2.10",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.53145,
-  "closing_fair_odds": 1.882,
-  "closing_sharp_odds": 1.775,
-  "closing_at": "2026-11-12T16:36:25.038754+00:00",
-  "clv": 0.03101
+  "closing_fair_prob": 0.52356,
+  "closing_fair_odds": 1.91,
+  "closing_sharp_odds": 1.8,
+  "closing_at": "2026-11-12T18:12:52.642208+00:00",
+  "clv": 0.01571
  },
  {
   "fixture_id": "id1002375568932422",
@@ -152,5 +152,22 @@
   "closing_sharp_odds": 1.438,
   "closing_at": "2026-11-12T16:36:25.038754+00:00",
   "clv": 0.06436
+ },
+ {
+  "fixture_id": "id1000085176438758",
+  "market_id": 1072,
+  "outcome_id": 1072,
+  "first_at": "2026-11-12T18:12:52.642208+00:00",
+  "start": "2026-11-13T14:10:00.000Z",
+  "home": "Egyesült Arab Emirátusok",
+  "away": "Honduras",
+  "tournament": "Válogatott mérkőzés",
+  "label": "Ázsiai hendikep: Egyesült Arab Emirátusok (+0)",
+  "odds": 1.53,
+  "fair_prob": 0.66748,
+  "ev": 0.02124,
+  "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false
  }
 ]
