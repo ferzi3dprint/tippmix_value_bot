@@ -2451,5 +2451,102 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 110
+ },
+ {
+  "time": "2026-11-12T20:57:57.392817+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-2.2% Ponte Preta – Operario PR · 1X2: Operario PR győz @1.67 (fair 1.707)",
+   "-2.5% Ponte Preta – Operario PR · Gólszám 4.5: Kevesebb @1.14 (fair 1.17)",
+   "-3.2% Ponte Preta – Operario PR · Gólszám 1.5: Több @1.22 (fair 1.26)",
+   "-3.2% Aurora FC – Deportivo Mixco · Gólszám 3: Kevesebb @1.43 (fair 1.478)",
+   "-3.5% Aurora FC – Deportivo Mixco · Gólszám 3.25: Kevesebb @1.34 (fair 1.388)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 10,
+  "fixtures_both": 8,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 11
+ },
+ {
+  "time": "2026-11-12T21:02:57.392421+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-1.3% Cerro Largo Melo – CA Progreso Montevideo · 1X2: Cerro Largo Melo győz @1.83 (fair 1.853)",
+   "-1.5% Academia Puerto Cabello – Monagas SC · Ázsiai hendikep: Academia Puerto Cabello (-0.25) @1.34 (fair 1.361)",
+   "-1.8% Academia Puerto Cabello – Monagas SC · Ázsiai hendikep: Academia Puerto Cabello (-0.75) @1.65 (fair 1.681)",
+   "-1.9% Academia Puerto Cabello – Monagas SC · Ázsiai hendikep: Academia Puerto Cabello (-1) @1.88 (fair 1.917)",
+   "-2.0% Academia Puerto Cabello – Monagas SC · Gólszám 2: Több @1.38 (fair 1.409)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 20,
+  "fixtures_both": 14,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 3,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 22
+ },
+ {
+  "time": "2026-11-12T21:07:57.392513+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 627,
+  "pinnacle_fixtures": 601,
+  "paired": 263,
+  "by_sport": {
+   "Soccer": [
+    170,
+    87
+   ],
+   "Tennis": [
+    174,
+    6
+   ],
+   "Basketball": [
+    171,
+    87
+   ],
+   "Ice Hockey": [
+    112,
+    83
+   ]
+  },
+  "top_ev": [
+   "+4.3% Marokkó – Niger · Ázsiai hendikep: Niger (+3) @1.61 (fair 1.544)",
+   "+0.8% Andorra – Gibraltár · 1X2: Andorra győz @1.74 (fair 1.726)",
+   "+0.6% Szlovákia – Feröer-szigetek · Gólszám 4.5: Kevesebb @1.15 (fair 1.143)",
+   "+0.5% Szerbia – Németország · 1X2: Németország győz @1.28 (fair 1.273)",
+   "+0.3% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.51 (fair 1.505)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": false,
+  "fixtures_checked": 125,
+  "fixtures_both": 67,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 18,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 131
  }
 ]
