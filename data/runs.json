@@ -551,5 +551,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 154
+ },
+ {
+  "time": "2026-11-12T11:33:17.647117+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+2.1% FC Masar – Tersana SC · 1X2: FC Masar győz @1.74 (fair 1.704)",
+   "+1.8% FC Masar – Tersana SC · Ázsiai hendikep: FC Masar (-1) @2.4 (fair 2.356)",
+   "+0.7% FC Masar – Tersana SC · Ázsiai hendikep: FC Masar (+0) @1.25 (fair 1.241)",
+   "+0.3% FC Masar – Tersana SC · Ázsiai hendikep: FC Masar (-0.75) @1.93 (fair 1.924)",
+   "+0.1% FC Masar – Tersana SC · Ázsiai hendikep: FC Masar (-0.25) @1.47 (fair 1.469)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 20,
+  "fixtures_both": 19,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 9,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 26
+ },
+ {
+  "time": "2026-11-12T11:38:30.440348+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 738,
+  "pinnacle_fixtures": 601,
+  "paired": 416,
+  "by_sport": {
+   "Soccer": [
+    213,
+    155
+   ],
+   "Tennis": [
+    240,
+    43
+   ],
+   "Basketball": [
+    154,
+    115
+   ],
+   "Ice Hockey": [
+    131,
+    103
+   ]
+  },
+  "top_ev": [
+   "+2.0% Ghána – Szomália · 1X2: Ghána győz @1.1 (fair 1.078)",
+   "+0.3% Örményország – Ciprus · Ázsiai hendikep: Ciprus (+0.75) @1.31 (fair 1.306)",
+   "+0.1% Örményország – Ciprus · Ázsiai hendikep: Ciprus (+0.5) @1.45 (fair 1.448)",
+   "-0.6% Madagaszkár – Bissau-Guinea · Gólszám 1.25: Több @1.32 (fair 1.329)",
+   "-0.7% Örményország – Ciprus · 1X2: Döntetlen @3.05 (fair 3.072)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 16,
+  "fast": false,
+  "fixtures_checked": 82,
+  "fixtures_both": 69,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 16,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 88
  }
 ]
