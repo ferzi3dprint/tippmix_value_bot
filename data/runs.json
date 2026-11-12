@@ -479,5 +479,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 157
+ },
+ {
+  "time": "2026-11-12T11:11:28.847268+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-0.0% U21Izland – U21Görögország · Gólszám 1.5: Több @1.28 (fair 1.28)",
+   "-1.1% U21Izland – U21Görögország · Gólszám 2.25: Több @1.63 (fair 1.649)",
+   "-1.6% U21Izland – U21Görögország · 1X2: U21Görögország győz @2.29 (fair 2.328)",
+   "-2.2% U19Németország – U19Svédország · 1X2: U19Németország győz @1.45 (fair 1.483)",
+   "-2.4% Delta United – Al-Sekka · Gólszám 1.75: Több @1.51 (fair 1.547)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 17,
+  "fixtures_both": 16,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 23
+ },
+ {
+  "time": "2026-11-12T11:16:28.846939+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 751,
+  "pinnacle_fixtures": 601,
+  "paired": 416,
+  "by_sport": {
+   "Soccer": [
+    213,
+    155
+   ],
+   "Tennis": [
+    252,
+    43
+   ],
+   "Basketball": [
+    155,
+    115
+   ],
+   "Ice Hockey": [
+    131,
+    103
+   ]
+  },
+  "top_ev": [
+   "+2.0% Ghána – Szomália · 1X2: Ghána győz @1.1 (fair 1.078)",
+   "+1.2% Örményország – Ciprus · Gólszám 1.75: Több @1.47 (fair 1.453)",
+   "+1.0% Andorra – Gibraltár · 1X2: Andorra győz @1.83 (fair 1.811)",
+   "+1.0% Örményország – Ciprus · Gólszám 1.5: Több @1.38 (fair 1.366)",
+   "+1.0% Mali – Ruanda · Gólszám 3.25: Kevesebb @1.39 (fair 1.377)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 18,
+  "fast": false,
+  "fixtures_checked": 148,
+  "fixtures_both": 114,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 20,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 154
  }
 ]
