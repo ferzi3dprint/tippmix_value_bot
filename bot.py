@@ -809,6 +809,8 @@ def run(cfg):
         else:
             new, hot = scan(client, bets, cfg, now, stats, hist, signals)
         ledger.save(bets)
+        for b in new:
+            print(f"[fogadás] {b.get('home')} – {b.get('away')} | {b.get('market')} {b.get('outcome')} @{b.get('odds')} tét {b.get('stake')}")
         if new and cfg["notify"]["each_run_new_bets"]:
             notify.send(report.new_bets_message(new, bets, cfg))
             for b in new:
