@@ -410,7 +410,7 @@ def main_consistent(so, ho, meta, cfg):
         sp, hp = market_prices(so, mid, oids), market_prices(ho, mid, oids)
         if sp and hp:
             return odds_consistent(sp, hp, cfg["hu"]["max_prob_diff"])
-    return False
+    return None     # a fő piac nem összevethető (pl. a viszonyítás nem árazza) – a piaconkénti szűrő véd
 
 
 def scan_hu(client, bets, cfg, now, stats, signals, fast=False):
@@ -468,7 +468,7 @@ def scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs, fast=Fals
     order = [f for _, f in sorted(near)] + [f for _, f in sorted(far)]
     order = order[: fr["max_fixtures_per_run"]]
 
-    cands, hot, sharp_now, both, rejected, near_miss, rej_ex = [], [], {}, 0, 0, [], []
+    cands, hot, sharp_now, both, rejected, near_miss, rej_ex, no_main = [], [], {}, 0, 0, [], [], 0
     LOOSE = {**cfg, "filters": {**cfg["filters"], "min_odds": 1.01, "max_odds": 50, "max_ev": 0.25,
                                 "ev_bands": [{"max_odds": 999, "min_ev": -1.0}]}}
     for fid in order:
@@ -482,7 +482,10 @@ def scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs, fast=Fals
             sharp_now[fid] = ho
         if not so or not ho or not so.get("markets"):
             continue
-        if not main_consistent(so, ho, meta, cfg):
+        ok_main = main_consistent(so, ho, meta, cfg)
+        if ok_main is None:
+            no_main += 1
+        if ok_main is False:
             rejected += 1
             if len(rej_ex) < 8:
                 tmm = pairs[fid]["tm"]
@@ -502,6 +505,7 @@ def scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs, fast=Fals
     save_json("cache/checked.json", checked)
     stats["top_ev"] = [f"{ev * 100:+.1f}% {txt}" for ev, txt in sorted(near_miss, reverse=True)[:5]]
     stats["rejected_examples"] = rej_ex
+    stats["no_main_market"] = no_main
     update_closing(bets, sharp_now, meta, now, cfg)
     update_closing(signals, sharp_now, meta, now, cfg)
     stats.update({"fast": fast, "fixtures_checked": len(order), "fixtures_both": both, "rejected_mismatch": rejected,
@@ -589,6 +593,7 @@ def scan_free(client, bets, cfg, now, stats, signals):
     save_json("cache/checked.json", checked)
     stats["top_ev"] = [f"{ev * 100:+.1f}% {txt}" for ev, txt in sorted(near_miss, reverse=True)[:5]]
     stats["rejected_examples"] = rej_ex
+    stats["no_main_market"] = no_main
     update_closing(bets, sharp_now, meta, now, cfg)
     update_closing(signals, sharp_now, meta, now, cfg)
     stats.update({"fixtures_listed": len(fixtures), "fixtures_checked": len(order), "fixtures_both": both,
