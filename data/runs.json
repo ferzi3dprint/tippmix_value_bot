@@ -2814,5 +2814,52 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 49
+ },
+ {
+  "time": "2026-11-12T22:31:07.463793+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 602,
+  "pinnacle_fixtures": 601,
+  "paired": 251,
+  "by_sport": {
+   "Soccer": [
+    162,
+    81
+   ],
+   "Tennis": [
+    160,
+    2
+   ],
+   "Basketball": [
+    168,
+    85
+   ],
+   "Ice Hockey": [
+    112,
+    83
+   ]
+  },
+  "top_ev": [
+   "+0.1% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.51 (fair 1.508)",
+   "+0.1% Llaneros FC – Boyaca Chico · Gólszám 2: Több @1.48 (fair 1.479)",
+   "-0.3% Atl. Morelia – Leones Negros UdeG · 1X2: Atl. Morelia győz @1.72 (fair 1.726)",
+   "-0.4% Columbus – Tampa Bay · Hendikep (rendes játékidő): Tampa Bay (+1) @1.43 (fair 1.436)",
+   "-0.5% Leganes – Burgos · Gólszám 1.5: Több @1.43 (fair 1.437)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 98,
+  "fixtures_both": 53,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 15,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 104
  }
 ]
