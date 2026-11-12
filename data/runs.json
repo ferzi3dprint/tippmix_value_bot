@@ -103,5 +103,48 @@
   "not_executable": 0,
   "api_calls": 8,
   "free_calls": 149
+ },
+ {
+  "time": "2026-11-12T07:05:00.910606+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "tippmix_matches": 473,
+  "pinnacle_fixtures": 193,
+  "paired": 148,
+  "by_sport": {
+   "Soccer": [
+    130,
+    68
+   ],
+   "Tennis": [
+    269,
+    24
+   ],
+   "Basketball": [
+    50,
+    37
+   ],
+   "Ice Hockey": [
+    24,
+    19
+   ]
+  },
+  "top_ev": [
+   "+0.7% U23Thaiföld – U23Katar · 1X2: U23Katar győz @2.08 (fair 2.067)",
+   "-1.1% U19Németország – U19Svédország · 1X2: U19Németország győz @1.51 (fair 1.527)",
+   "-1.2% U21Izland – U21Görögország · Gólszám 4.5: Kevesebb @1.14 (fair 1.154)",
+   "-1.6% U21Izland – U21Görögország · Gólszám 1.5: Több @1.27 (fair 1.29)",
+   "-1.8% Delta United – Al-Sekka · Gólszám 1.5: Több @1.41 (fair 1.436)"
+  ],
+  "fixtures_checked": 34,
+  "fixtures_both": 22,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 4,
+  "free_calls": 31
  }
 ]
