@@ -15,18 +15,29 @@ def _match(b):
 SPORT_ICON = {"Soccer": "⚽", "Tennis": "🎾", "Basketball": "🏀", "Ice Hockey": "🏒"}
 
 
-def new_bets_message(new, bets, cfg, rechecked=False):
+TM_URL = "https://www.tippmixpro.hu/hu/fogadas/i/esemeny/{}"
+
+
+def bet_card(b, cfg):
+    """Egy ajánlás „kész szelvényként”: mit, mekkora téttel, és meddig éri meg. + gomb a Tippmixpro meccsoldalára."""
     tz = ZoneInfo(cfg["timezone"])
+    t = parse_time(b["start"]).astimezone(tz).strftime("%m.%d %H:%M")
+    lines = [f"{SPORT_ICON.get(b['sport'], '🏟️')} {_match(b)}", f"   {b['tournament']} · kezdés {t}"]
+    if b.get("trigger") == "steam":
+        lines.append(f"⚡ STEAM: a Pinnacle-ár mozog (+{(b.get('steam') or 0) * 100:.0f}%) – siess")
+    lines += [f"🎯 Tipp: {b['label']}",
+              f"💵 Tét: {huf(b['stake'])}",
+              f"📈 Tippmix-odds most: {o2(b['odds'])}  (fair: {o2(b['fair_odds'])}, {b.get('ref') or 'Pinnacle'}, EV {pct(b['ev'])})"]
+    if b.get("min_odds"):
+        lines.append(f"✅ Megéri legalább {o2(b['min_odds'])}-es oddsig. Ha ennél kisebb, hagyd ki.")
+    buttons = [("🟢 Megnyitás a Tippmixpro-n", TM_URL.format(b["tm_id"]))] if b.get("tm_id") and not str(b["tm_id"]).startswith("tm-") else None
+    return "\n".join(lines), buttons
+
+
+def new_bets_message(new, bets, cfg, rechecked=False):
     steam = sum(1 for b in new if b.get("trigger") == "steam")
-    head = f"🎯 {len(new)} új value-ajánlás (szimulált fogadás)" + (" – steam-újraellenőrzésből" if rechecked else "")
-    lines = [head + (f"\n⚡ {steam} db odds-mozgás miatt: ezeknél a gyorsaság számít" if steam else ""), ""]
-    for b in new:
-        t = parse_time(b["start"]).astimezone(tz).strftime("%m.%d %H:%M")
-        tag = f"⚡ STEAM (Pinnacle +{b['steam'] * 100:.0f}%) · " if b.get("trigger") == "steam" else ""
-        lines += [f"{SPORT_ICON.get(b['sport'], '🏟️')} {_match(b)} ({b['tournament']}, {t})",
-                  f"   {tag}{b['label']}",
-                  f"   Tippmix {o2(b['odds'])} | fair {o2(b['fair_odds'])} ({b.get('ref') or 'Pinnacle'}) | EV {pct(b['ev'])}",
-                  f"   Tét: {huf(b['stake'])}", ""]
+    head = f"🎯 {len(new)} új value-ajánlás" + (" (steam-újraellenőrzésből)" if rechecked else "")
+    lines = [head + (f" – ebből ⚡ {steam} gyors" if steam else "")]
     s = ledger.summary(bets, cfg)
     lines.append(f"💰 Szimulált tőke: {huf(s['bankroll'])} | nyitott: {s['open']} db, {huf(s['open_stake'])}")
     if (cfg.get("execution") or {}).get("enabled") and not rechecked:

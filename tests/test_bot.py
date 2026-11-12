@@ -320,3 +320,13 @@ def test_consensus_reference_when_pinnacle_missing():
     assert vf.find_values({}, soft, pin, META, CFG)
     cons = {"bookmakerIsActive": True, "markets": {"101": {**pin["markets"]["101"], "consensus": 2}}}
     assert vf.find_values({}, soft, cons, META, CFG) == [] or vf.find_values({}, soft, cons, META, CFG)[0]["ev"] >= 0.035
+
+
+def test_bet_card_min_odds_and_button():
+    import report
+    b = {"sport": "Soccer", "home": "A", "away": "B", "tournament": "Liga", "start": "2026-11-12T19:45:00+00:00",
+         "label": "1X2: A győz", "stake": 1250, "odds": 1.85, "fair_odds": 1.74, "fair_prob": 1 / 1.74, "ev": 0.063,
+         "ref": "Pinnacle", "min_odds": round(1.01 * 1.74, 2), "tm_id": "319679098261676032", "trigger": "normál"}
+    txt, btn = report.bet_card(b, CFG)
+    assert "Tét: 1 250 Ft" in txt and "legalább 1,76" in txt
+    assert btn and btn[0][1].endswith("/esemeny/319679098261676032")

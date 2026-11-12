@@ -47,7 +47,8 @@ def _remember(chat_id):
     json.dump({"chat_id": chat_id}, open(CHAT_FILE, "w", encoding="utf-8"))
 
 
-def send(text, _retry=True):
+def send(text, _retry=True, buttons=None):
+    """buttons: [(felirat, url), …] – Telegram-gombok az üzenet alatt (soronként egy)."""
     if os.getenv("NOTIFY_SILENT") == "1":  # demó: se küldés, se kiírás
         return False
     token = os.getenv("TELEGRAM_BOT_TOKEN")
@@ -60,8 +61,10 @@ def send(text, _retry=True):
         print("----- [Telegram] -----\n" + text + "\n----------------------")
         return False
     for chunk in _split(text):
-        r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
-                          json={"chat_id": chat_id, "text": chunk, "disable_web_page_preview": True}, timeout=30)
+        body = {"chat_id": chat_id, "text": chunk, "disable_web_page_preview": True}
+        if buttons:
+            body["reply_markup"] = {"inline_keyboard": [[{"text": t, "url": u}] for t, u in buttons]}
+        r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage", json=body, timeout=30)
         if r.status_code != 200:
             try:
                 desc = r.json().get("description")
@@ -72,7 +75,7 @@ def send(text, _retry=True):
                 if found and str(found) != str(chat_id):
                     print("[Telegram] a beállított chat ID nem jó – a botnak írt üzenetből megvan a helyes, azzal küldöm")
                     _remember(found)
-                    return send(text, _retry=False)
+                    return send(text, _retry=False, buttons=buttons)
             print(f"[Telegram] HIBA {r.status_code}: {desc}")
             if any(b in str(desc) for b in BAD_CHAT):
                 print("[Telegram] Tipp: nyisd meg a botot a Telegramban és küldj neki egy üzenetet – a következő futás megtalálja a chat-azonosítódat.")

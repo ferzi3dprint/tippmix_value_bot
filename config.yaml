@@ -85,7 +85,7 @@ execution:                     # végrehajthatóság: megtehető lett volna-e a 
   confirm_after_minutes: 3     # a jelzés után ennyi perccel újra lekéri a Tippmix-oddsot (a futáson belül vár)
   # Ha addigra esett az odds, de még pozitív az EV: a fogadás az új (rosszabb) oddsszal számít.
   # Ha már nem pozitív, vagy a piac lezárt: "nem volt megtehető", kimarad az eredményből (de a statisztikában látszik).
-  min_ev_after_move: 0.0
+  min_ev_after_move: 0.01      # „megéri legalább X oddsig”: az az odds, ahol az EV még +1% (az üzenetben is ez szerepel)
 
 settlement:
   settle_after_hours: 3      # a kezdés után ennyivel próbál először elszámolni

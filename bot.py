@@ -240,6 +240,7 @@ def place(cands, bets, cfg, now, tours):
              "label": outcome_label(fx, c), "band": odds_band(c["odds"]), "stake": stake,
              "signal_odds": c["odds"], "signal_ev": c["ev"], "link": so.get("fixturePath"), "tm_id": fx.get("tm_id"), **c}
         b["trigger"] = "steam" if c.get("steam") else "normál"
+        b["min_odds"] = round((1 + (cfg.get("execution") or {}).get("min_ev_after_move", 0.01)) / c["fair_prob"], 2)
         b["expected_profit"] = round(stake * c["ev"], 2)
         bets.append(b)
         placed.append(b)
@@ -745,6 +746,9 @@ def run(cfg):
         ledger.save(bets)
         if new and cfg["notify"]["each_run_new_bets"]:
             notify.send(report.new_bets_message(new, bets, cfg))
+            for b in new:
+                txt, btn = report.bet_card(b, cfg)
+                notify.send(txt, buttons=btn)
         if (cfg.get("execution") or {}).get("enabled") and (new or hot):
             sleep_minutes(cfg["execution"]["confirm_after_minutes"])
             now = now_utc()
@@ -752,6 +756,9 @@ def run(cfg):
             gone += g
             if more and cfg["notify"]["each_run_new_bets"]:
                 notify.send(report.new_bets_message(more, bets, cfg, rechecked=True))
+                for b in more:
+                    txt, btn = report.bet_card(b, cfg)
+                    notify.send(txt, buttons=btn)
             new += more
         stats["placed"] = len(new)
         stats["not_executable"] = len(gone)
