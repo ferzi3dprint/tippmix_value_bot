@@ -1,29 +1,4 @@
 {
- "id1003917376644046": {
-  "tm": {
-   "id": "319683561026297856",
-   "sport": "Labdarúgás",
-   "name": "AD Izalco - AD Forfut",
-   "home": "AD Izalco",
-   "away": "AD Forfut",
-   "home_pid": "301263804803878912",
-   "away_pid": "314540460323008512",
-   "tournament": "Salvadori 2.",
-   "category": "Salvador",
-   "tm_sport_id": "1",
-   "start": "2026-11-12T20:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003917376644046",
-   "startTime": "2026-11-12T20:30:00.000Z",
-   "participant1Name": "AD Izalco",
-   "participant2Name": "AD Forfut",
-   "tournamentId": 39173,
-   "tournamentName": "Liga de Ascenso",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002708873075394": {
   "tm": {
    "id": "319344953881862144",
@@ -1770,6 +1745,56 @@
    "participant2Name": "Racing Club Montevideo",
    "tournamentId": 278,
    "tournamentName": "Primera Division",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004850774827368": {
+  "tm": {
+   "id": "318574941801881600",
+   "sport": "Labdarúgás",
+   "name": "Preston Lions - Queensland Lions",
+   "home": "Preston Lions",
+   "away": "Queensland Lions",
+   "home_pid": "133393849636671488",
+   "away_pid": "667342",
+   "tournament": "Ausztrál Championship",
+   "category": "Ausztrália",
+   "tm_sport_id": "1",
+   "start": "2026-11-13T08:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004850774827368",
+   "startTime": "2026-11-13T08:30:00.000Z",
+   "participant1Name": "Preston Lions FC",
+   "participant2Name": "Lions FC",
+   "tournamentId": 48507,
+   "tournamentName": "Australian Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004850774827344": {
+  "tm": {
+   "id": "318574941714849792",
+   "sport": "Labdarúgás",
+   "name": "Oakleigh Cannons - Marconi Stallions",
+   "home": "Oakleigh Cannons",
+   "away": "Marconi Stallions",
+   "home_pid": "50715",
+   "away_pid": "1261",
+   "tournament": "Ausztrál Championship",
+   "category": "Ausztrália",
+   "tm_sport_id": "1",
+   "start": "2026-11-13T08:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004850774827344",
+   "startTime": "2026-11-13T08:30:00.000Z",
+   "participant1Name": "Oakleigh Cannons",
+   "participant2Name": "Marconi Stallions",
+   "tournamentId": 48507,
+   "tournamentName": "Australian Championship",
    "sportName": "Soccer"
   },
   "score": 1.0

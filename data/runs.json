@@ -2379,5 +2379,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 126
+ },
+ {
+  "time": "2026-11-12T20:40:07.834909+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 3,
+  "top_ev": [
+   "-1.9% Ponte Preta – Operario PR · 1X2: Operario PR győz @1.67 (fair 1.702)",
+   "-2.4% Ponte Preta – Operario PR · Gólszám 4.5: Kevesebb @1.14 (fair 1.168)",
+   "-3.2% Aurora FC – Deportivo Mixco · Gólszám 3: Kevesebb @1.43 (fair 1.478)",
+   "-3.3% Ponte Preta – Operario PR · Gólszám 1.5: Több @1.22 (fair 1.261)",
+   "-3.5% Aurora FC – Deportivo Mixco · Gólszám 3.25: Kevesebb @1.34 (fair 1.388)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 10,
+  "fixtures_both": 8,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 3,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 13
+ },
+ {
+  "time": "2026-11-12T20:45:07.835475+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 635,
+  "pinnacle_fixtures": 601,
+  "paired": 261,
+  "by_sport": {
+   "Soccer": [
+    172,
+    86
+   ],
+   "Tennis": [
+    180,
+    5
+   ],
+   "Basketball": [
+    171,
+    87
+   ],
+   "Ice Hockey": [
+    112,
+    83
+   ]
+  },
+  "top_ev": [
+   "+0.5% Dijon – Orleans · Gólszám 3: Kevesebb @1.91 (fair 1.9)",
+   "+0.3% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.51 (fair 1.505)",
+   "+0.1% Dijon – Orleans · Gólszám 3.25: Kevesebb @1.7 (fair 1.698)",
+   "+0.1% Dijon – Orleans · Gólszám 3.5: Kevesebb @1.57 (fair 1.569)",
+   "+0.0% Mali – Ruanda · Gólszám 3: Kevesebb @1.36 (fair 1.36)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": false,
+  "fixtures_checked": 104,
+  "fixtures_both": 58,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 11,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 110
  }
 ]
