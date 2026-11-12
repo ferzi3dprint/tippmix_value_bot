@@ -132,7 +132,11 @@ class MockOddsPapi:
         self.free_calls = 0
 
     def account(self):
-        return {"request_limit": 100000, "request_count": 0}
+        """Valósághű ingyenes keret: 250 kérés/hó; az eddigi fogyás a futásnaplóból (runs.json) + az aktuális futás."""
+        from common import load_json, now_utc
+        month = now_utc().strftime("%Y-%m")
+        used = sum(r.get("api_calls") or 0 for r in load_json("runs.json", []) if str(r.get("time", "")).startswith(month))
+        return {"request_limit": 250, "request_count": used + self.calls}
 
     def sports(self):
         self.calls += 1
