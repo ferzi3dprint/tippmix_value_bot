@@ -1152,5 +1152,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T14:30:15.236053+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-0.1% Madagaszkár – Bissau-Guinea · Gólszám 1.25: Több @1.33 (fair 1.332)",
+   "-0.4% Madagaszkár – Bissau-Guinea · Gólszám 1.5: Több @1.5 (fair 1.506)",
+   "-0.4% U19Portugália – U19Litvánia · 1X2: U19Portugália győz @1.03 (fair 1.035)",
+   "-0.5% Madagaszkár – Bissau-Guinea · Gólszám 1.75: Több @1.64 (fair 1.649)",
+   "-0.7% Ghána – Szomália · Mindkét csapat szerez gólt: Nem @1.32 (fair 1.329)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 26,
+  "fixtures_both": 19,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 28
+ },
+ {
+  "time": "2026-11-12T14:35:38.804217+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 721,
+  "pinnacle_fixtures": 601,
+  "paired": 384,
+  "by_sport": {
+   "Soccer": [
+    201,
+    140
+   ],
+   "Tennis": [
+    213,
+    30
+   ],
+   "Basketball": [
+    176,
+    112
+   ],
+   "Ice Hockey": [
+    131,
+    102
+   ]
+  },
+  "top_ev": [
+   "+1.8% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.188)",
+   "+1.1% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.148)",
+   "+0.9% San Marino – Fehéroroszország · Gólszám 3.5: Kevesebb @1.52 (fair 1.506)",
+   "+0.4% Szenegál – Szudán · 1X2: Szenegál győz @1.1 (fair 1.095)",
+   "+0.4% Kamerun – Namíbia · Ázsiai hendikep: Namíbia (+2) @1.49 (fair 1.484)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 18,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 107,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 24,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
