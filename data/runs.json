@@ -3005,5 +3005,77 @@
   "not_executable": 0,
   "api_calls": 4,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T23:30:41.721926+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-0.0% Columbus – Tampa Bay · Hendikep (rendes játékidő): Tampa Bay (+1) @1.46 (fair 1.461)",
+   "-0.7% Florida – Detroit · Hendikep (rendes játékidő): Florida (+0) @1.49 (fair 1.501)",
+   "-1.0% Florida – Detroit · Győztes (hosszabbítással): Florida győz @1.54 (fair 1.556)",
+   "-1.7% Boston – Montreal · Hendikep (rendes játékidő): Boston (+1) @1.37 (fair 1.394)",
+   "-1.8% Ottawa – Colorado · Győztes (hosszabbítással): Ottawa győz @1.87 (fair 1.905)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 5,
+  "fast": true,
+  "fixtures_checked": 51,
+  "fixtures_both": 23,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 57
+ },
+ {
+  "time": "2026-11-12T23:38:42.529772+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1196,
+  "pinnacle_fixtures": 1111,
+  "paired": 758,
+  "by_sport": {
+   "Soccer": [
+    450,
+    344
+   ],
+   "Tennis": [
+    188,
+    35
+   ],
+   "Basketball": [
+    367,
+    236
+   ],
+   "Ice Hockey": [
+    191,
+    143
+   ]
+  },
+  "top_ev": [
+   "+1.8% U21Finnország – U21Írország · Gólszám 1.5: Több @1.37 (fair 1.346)",
+   "+1.0% U21Finnország – U21Írország · Gólszám 2: Több @1.57 (fair 1.554)",
+   "+0.6% U21Finnország – U21Írország · 1X2: U21Finnország győz @2.03 (fair 2.018)",
+   "+0.5% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.52 (fair 1.513)",
+   "+0.1% Dél-Afrika – Kenya · Ázsiai hendikep: Kenya (+2) @1.47 (fair 1.469)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 14,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 97,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 19,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
