@@ -3678,5 +3678,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 4
+ },
+ {
+  "time": "2026-11-13T02:55:18.612659+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [
+   "-2.8% Rei Sakamoto – Ognjen Milic · Győztes: Rei Sakamoto győz @1.14 (fair 1.173)",
+   "-8.1% Rei Sakamoto – Ognjen Milic · Játékszám 20.5: Több @1.76 (fair 1.915)",
+   "-8.4% Rei Sakamoto – Ognjen Milic · Játékszám 21.5: Kevesebb @1.71 (fair 1.867)",
+   "-8.7% Rei Sakamoto – Ognjen Milic · Játékszám 20.5: Kevesebb @1.91 (fair 2.093)",
+   "-9.0% Rei Sakamoto – Ognjen Milic · Játékszám 21.5: Több @1.96 (fair 2.154)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 4,
+  "fixtures_both": 1,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 4
+ },
+ {
+  "time": "2026-11-13T03:00:18.612273+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "boosts": 0,
+  "tippmix_matches": 1155,
+  "pinnacle_fixtures": 1111,
+  "paired": 700,
+  "by_sport": {
+   "Soccer": [
+    461,
+    345
+   ],
+   "Tennis": [
+    190,
+    27
+   ],
+   "Basketball": [
+    333,
+    204
+   ],
+   "Ice Hockey": [
+    171,
+    124
+   ]
+  },
+  "top_ev": [
+   "+1.4% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.47 (fair 1.45)",
+   "+1.1% U21Finnország – U21Írország · Gólszám 1.5: Több @1.36 (fair 1.346)",
+   "+1.0% U21Finnország – U21Írország · Gólszám 2: Több @1.57 (fair 1.554)",
+   "+0.6% U21Finnország – U21Írország · 1X2: U21Finnország győz @2.03 (fair 2.018)",
+   "+0.1% Dél-Afrika – Kenya · Ázsiai hendikep: Kenya (+2) @1.47 (fair 1.469)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 62,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 126,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 151
  }
 ]
