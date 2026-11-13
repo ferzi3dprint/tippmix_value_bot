@@ -4657,5 +4657,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T08:02:11.267945+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 3,
+  "top_ev": [
+   "-2.8% Oakleigh Cannons – Marconi Stallions · 1X2: Oakleigh Cannons győz @1.48 (fair 1.523)",
+   "-3.1% Japán – Ausztria · Győztes (hosszabbítással): Ausztria győz @2.25 (fair 2.322)",
+   "-3.5% Japán – Ausztria · Hendikep (rendes játékidő): Ausztria (+1.5) @1.38 (fair 1.429)",
+   "-3.8% Japán – Ausztria · Hendikep (rendes játékidő): Ausztria (+1) @1.48 (fair 1.538)",
+   "-3.9% Japán – Ausztria · Hendikep (rendes játékidő): Ausztria (+0.5) @1.72 (fair 1.79)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 4,
+  "fast": true,
+  "fixtures_checked": 12,
+  "fixtures_both": 9,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 3,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 15
+ },
+ {
+  "time": "2026-11-13T08:07:11.268321+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1218,
+  "pinnacle_fixtures": 1111,
+  "paired": 727,
+  "by_sport": {
+   "Soccer": [
+    494,
+    357
+   ],
+   "Tennis": [
+    171,
+    22
+   ],
+   "Basketball": [
+    355,
+    207
+   ],
+   "Ice Hockey": [
+    198,
+    141
+   ]
+  },
+  "top_ev": [
+   "+2.3% Loughgall – Glenavon · Ázsiai hendikep: Loughgall (+0.5) @2.18 (fair 2.131)",
+   "+1.0% Németország – Finnország · Hendikep (rendes játékidő): Németország (+2.5) @1.62 (fair 1.604)",
+   "+0.9% Annagh Utd. – Ballinamallard United · Gólszám 2.75: Kevesebb @1.92 (fair 1.904)",
+   "+0.8% Loughgall – Glenavon · Gólszám 3: Kevesebb @1.99 (fair 1.974)",
+   "-0.1% Svédország – Svájc · Győztes (hosszabbítással): Svédország győz @1.18 (fair 1.181)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 40,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 110,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 15,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
