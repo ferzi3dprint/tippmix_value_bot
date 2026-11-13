@@ -7874,6 +7874,81 @@
   },
   "score": 1.0
  },
+ "id1002627872594662": {
+  "tm": {
+   "id": "318610898733309952",
+   "sport": "Labdarúgás",
+   "name": "Kloetinge - Hoek",
+   "home": "Kloetinge",
+   "away": "Hoek",
+   "home_pid": "212016988543930368",
+   "away_pid": "997753",
+   "tournament": "Holland 3.",
+   "category": "Hollandia",
+   "tm_sport_id": "1",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002627872594662",
+   "startTime": "2026-11-13T18:00:00.000Z",
+   "participant1Name": "VV Kloetinge",
+   "participant2Name": "Hoek",
+   "tournamentId": 26278,
+   "tournamentName": "Tweede Divisie",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002583973074638": {
+  "tm": {
+   "id": "319518809389080576",
+   "sport": "Labdarúgás",
+   "name": "Polonia Nysa - Gornik Polkowice",
+   "home": "Polonia Nysa",
+   "away": "Gornik Polkowice",
+   "home_pid": "109139069807775744",
+   "away_pid": "9014",
+   "tournament": "Lengyel 4., 3. csoport",
+   "category": "Lengyelország",
+   "tm_sport_id": "1",
+   "start": "2026-11-13T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002583973074638",
+   "startTime": "2026-11-13T18:00:00.000Z",
+   "participant1Name": "KS Polonia Nysa",
+   "participant2Name": "KS Gornik Polkowice",
+   "tournamentId": 25839,
+   "tournamentName": "III Liga, Group 3",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004053374063598": {
+  "tm": {
+   "id": "318637421231153152",
+   "sport": "Labdarúgás",
+   "name": "Guerreros del Pacifico - FC Santiago",
+   "home": "Guerreros del Pacifico",
+   "away": "FC Santiago",
+   "home_pid": "312801716318400512",
+   "away_pid": "182137492003147776",
+   "tournament": "Mexikói 3.",
+   "category": "Mexikó",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T01:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004053374063598",
+   "startTime": "2026-11-14T01:00:00.000Z",
+   "participant1Name": "Guerreros Del Pacífico FC",
+   "participant2Name": "Santiago FC",
+   "tournamentId": 40533,
+   "tournamentName": "Liga Premier Serie A",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000069172550324": {
   "tm": {
    "id": "319662863404834816",
@@ -17320,6 +17395,106 @@
    "participant2Name": "HC TEBS Bratislava",
    "tournamentId": 1490,
    "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1500084472734720": {
+  "tm": {
+   "id": "318936582787768320",
+   "sport": "Jégkorong",
+   "name": "Hershey Bears - Wilkes-Barre/scranton Penguins",
+   "home": "Hershey Bears",
+   "away": "Wilkes-Barre/scranton Penguins",
+   "home_pid": "37757",
+   "away_pid": "37753",
+   "tournament": "AHL",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-14T00:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500084472734720",
+   "startTime": "2026-11-14T00:00:00.000Z",
+   "participant1Name": "Hershey Bears",
+   "participant2Name": "Wilkes-Barre/Scranton Penguins",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1500084472734722": {
+  "tm": {
+   "id": "318936583588880384",
+   "sport": "Jégkorong",
+   "name": "Syracuse Crunch - Toronto Marlies",
+   "home": "Syracuse Crunch",
+   "away": "Toronto Marlies",
+   "home_pid": "37762",
+   "away_pid": "54176",
+   "tournament": "AHL",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-14T00:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500084472734722",
+   "startTime": "2026-11-14T00:00:00.000Z",
+   "participant1Name": "Syracuse Crunch",
+   "participant2Name": "Toronto Marlies",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1500084472734724": {
+  "tm": {
+   "id": "318936581991899136",
+   "sport": "Jégkorong",
+   "name": "Providence Bruins - Springfield Thunderbirds",
+   "home": "Providence Bruins",
+   "away": "Springfield Thunderbirds",
+   "home_pid": "37747",
+   "away_pid": "151860705693323264",
+   "tournament": "AHL",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-14T00:05:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500084472734724",
+   "startTime": "2026-11-14T00:05:00.000Z",
+   "participant1Name": "Providence Bruins",
+   "participant2Name": "Springfield Thunderbirds",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1500084472734728": {
+  "tm": {
+   "id": "318936630495879168",
+   "sport": "Jégkorong",
+   "name": "Rochester Americans - Laval Rocket Roster",
+   "home": "Rochester Americans",
+   "away": "Laval Rocket Roster",
+   "home_pid": "37760",
+   "away_pid": "2336084822880256",
+   "tournament": "AHL",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-14T00:05:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500084472734728",
+   "startTime": "2026-11-14T00:05:00.000Z",
+   "participant1Name": "Rochester Americans",
+   "participant2Name": "Laval Rocket",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
    "sportName": "Ice Hockey"
   },
   "score": 1.0
