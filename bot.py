@@ -681,6 +681,9 @@ def scan(client, bets, cfg, now, stats, hist, signals):
 
 # --- végrehajthatóság és gyors újraellenőrzés -------------------------------
 
+MOVED = []   # a 3 perces ellenőrzésnél módosult (de még megérő) ajánlások – Telegram-frissítéshez
+
+
 def recheck(client, bets, cfg, now, hot, hist, stats):
     """A jelzés után pár perccel: (1) megerősíti a függő fogadásokat a friss Tippmix-oddsszal,
     (2) újranézi a steam-es meccseket (meccsenként 1 kérés, mindkét iroda). Visszaad: (új fogadások, elesett fogadások)."""
@@ -729,7 +732,12 @@ def recheck(client, bets, cfg, now, hot, hist, stats):
         elif exec_odds is not None and exec_odds * p_now - 1 >= ex.get("min_ev_after_move", 0.0):
             b["exec_status"] = "moved"
             b["odds"] = exec_odds
-            b["ev"] = round(exec_odds * b["fair_prob"] - 1, 5)
+            # friss Pinnacle-valószínűség (steamnél a fair ár is elmozdul) – különben elavult, akár negatív EV-t mutatna
+            b["fair_prob"] = round(p_now, 5)
+            b["fair_odds"] = round(1 / p_now, 3)
+            b["min_odds"] = round((1 + ex.get("min_ev_after_move", 0.01)) / p_now, 2)
+            b["ev"] = round(exec_odds * p_now - 1, 5)
+            MOVED.append(b)
             b["band"] = odds_band(exec_odds)
             b["expected_profit"] = round(b["stake"] * b["ev"], 2)
             if b.get("clv") is not None and b.get("closing_fair_prob"):
@@ -780,6 +788,7 @@ def run(cfg):
     stats = {"time": now.isoformat(), "mode": cfg["api"].get("mode", "paid")}
     url = (cfg.get("dashboard") or {}).get("url") if (cfg.get("dashboard") or {}).get("enabled") else None
     new, gone = [], []
+    MOVED.clear()
     try:
         last_full = load_json("cache/last_full.json", {}).get("time")
         quick = cfg["api"].get("mode") == "hu" and bool(last_full) and \
@@ -828,6 +837,9 @@ def run(cfg):
                     notify.send(txt, buttons=btn)
             new += more
         stats["placed"] = len(new)
+        if MOVED and cfg["notify"]["each_run_new_bets"]:
+            notify.send(report.moved_message(MOVED, cfg))
+        MOVED.clear()
         stats["not_executable"] = len(gone)
         if gone and cfg["notify"]["each_run_new_bets"]:
             notify.send(report.gone_message(gone))

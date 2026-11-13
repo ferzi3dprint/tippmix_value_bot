@@ -57,6 +57,15 @@ def gone_message(gone):
     return "\n".join(L)
 
 
+def moved_message(moved, cfg):
+    L = ["🔄 Módosult ajánlás – a Tippmix lejjebb vitte az oddsot, de a friss piaci ár alapján még megéri:"]
+    for b in moved:
+        L.append(f"• {_match(b)}\n  🎯 {b.get('tm_tip') or b['label']}\n"
+                 f"  odds {o2(b['signal_odds'])} → {o2(b['odds'])} · új fair {o2(b['fair_odds'])} · EV {b['ev']*100:+.1f}%\n"
+                 f"  ✅ Most már legalább {o2(b['min_odds'])}-es oddsig éri meg")
+    return "\n".join(L)
+
+
 def _band_rows(bets):
     rows = {}
     for b in bets:
