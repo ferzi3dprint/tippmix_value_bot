@@ -7749,31 +7749,6 @@
   },
   "score": 1.0
  },
- "id1000180076480880": {
-  "tm": {
-   "id": "319788620283191296",
-   "sport": "Labdarúgás",
-   "name": "Uttarpalli Milan Sangha - Barisha SC",
-   "home": "Uttarpalli Milan Sangha",
-   "away": "Barisha SC",
-   "home_pid": "283687222775156736",
-   "away_pid": "310694423182340096",
-   "tournament": "Indiai Calcutta League",
-   "category": "India",
-   "tm_sport_id": "1",
-   "start": "2026-11-13T09:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000180076480880",
-   "startTime": "2026-11-13T09:00:00.000Z",
-   "participant1Name": "Uttarpalli Milan Sangha",
-   "participant2Name": "Barisha SC",
-   "tournamentId": 1800,
-   "tournamentName": "Calcutta 1st Division",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1001423176679008": {
   "tm": {
    "id": "319765248540221440",
@@ -8924,31 +8899,6 @@
   },
   "score": 0.74
  },
- "id1204760676415496": {
-  "tm": {
-   "id": "319667432308416512",
-   "sport": "Tenisz",
-   "name": "Massimo Giunta - Henry Searle",
-   "home": "Massimo Giunta",
-   "away": "Henry Searle",
-   "home_pid": "172252221600223232",
-   "away_pid": "160840261640966144",
-   "tournament": "Herszonisszosz, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T09:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204760676415496",
-   "startTime": "2026-11-13T09:20:00.000Z",
-   "participant1Name": "Giunta, Massimo",
-   "participant2Name": "Searle, Henry",
-   "tournamentId": 47606,
-   "tournamentName": "ATP Challenger Hersonissos 3, Greece Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
  "id1200309376430636": {
   "tm": {
    "id": "319766643025715200",
@@ -9174,31 +9124,6 @@
   },
   "score": 1.0
  },
- "id1204959676704924": {
-  "tm": {
-   "id": "319762554083680256",
-   "sport": "Tenisz",
-   "name": "Victoria Chramcova - Denise Hrdinkova",
-   "home": "Victoria Chramcova",
-   "away": "Denise Hrdinkova",
-   "home_pid": "143717465924358144",
-   "away_pid": "129132494573326336",
-   "tournament": "Krakkó, női egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T09:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204959676704924",
-   "startTime": "2026-11-13T09:10:00.000Z",
-   "participant1Name": "Chramcova, Victoria",
-   "participant2Name": "Hrdinkova, Denise",
-   "tournamentId": 49596,
-   "tournamentName": "UTR PTT Krakow Women 03",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
  "id1204988076505936": {
   "tm": {
    "id": "319444919026524160",
@@ -9324,27 +9249,27 @@
   },
   "score": 1.0
  },
- "id1205404276511062": {
+ "id1204760676415496": {
   "tm": {
-   "id": "319626123664236544",
+   "id": "319667432308416512",
    "sport": "Tenisz",
-   "name": "Miko Wassermann - Tomas Talajka",
-   "home": "Miko Wassermann",
-   "away": "Tomas Talajka",
-   "home_pid": "131035272541425664",
-   "away_pid": "232551825763897600",
-   "tournament": "Nagyszombat, férfi egyes",
-   "category": "UTR Pro Tennis",
+   "name": "Massimo Giunta - Henry Searle",
+   "home": "Massimo Giunta",
+   "away": "Henry Searle",
+   "home_pid": "172252221600223232",
+   "away_pid": "160840261640966144",
+   "tournament": "Herszonisszosz, férfi egyes",
+   "category": "Challenger",
    "tm_sport_id": "3",
-   "start": "2026-11-13T09:10:00+00:00"
+   "start": "2026-11-13T09:20:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1205404276511062",
-   "startTime": "2026-11-13T09:10:00.000Z",
-   "participant1Name": "Wassermann, Miko",
-   "participant2Name": "Talajka, Tomas",
-   "tournamentId": 54042,
-   "tournamentName": "UTR PTT Trnava Men 05",
+   "fixtureId": "id1204760676415496",
+   "startTime": "2026-11-13T09:20:00.000Z",
+   "participant1Name": "Giunta, Massimo",
+   "participant2Name": "Searle, Henry",
+   "tournamentId": 47606,
+   "tournamentName": "ATP Challenger Hersonissos 3, Greece Men Singles",
    "sportName": "Tennis"
   },
   "score": 1.0
@@ -17720,6 +17645,31 @@
    "participant2Name": "HC TEBS Bratislava",
    "tournamentId": 1490,
    "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1500084472733756": {
+  "tm": {
+   "id": "318936583984193536",
+   "sport": "Jégkorong",
+   "name": "Bakersfield Condors - San Diego Gulls",
+   "home": "Bakersfield Condors",
+   "away": "San Diego Gulls",
+   "home_pid": "1389675",
+   "away_pid": "1389463",
+   "tournament": "AHL",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-14T03:10:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500084472733756",
+   "startTime": "2026-11-14T03:10:00.000Z",
+   "participant1Name": "Bakersfield Condors",
+   "participant2Name": "San Diego Gulls",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
    "sportName": "Ice Hockey"
   },
   "score": 1.0

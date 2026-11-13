@@ -4873,5 +4873,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T09:09:43.816307+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-3.1% Japán – Ausztria · Győztes (hosszabbítással): Ausztria győz @2.25 (fair 2.322)",
+   "-3.5% Japán – Ausztria · Hendikep (rendes játékidő): Ausztria (+1.5) @1.38 (fair 1.429)",
+   "-3.8% Japán – Ausztria · Hendikep (rendes játékidő): Ausztria (+1) @1.48 (fair 1.538)",
+   "-3.9% Japán – Ausztria · Hendikep (rendes játékidő): Ausztria (+0.5) @1.72 (fair 1.79)",
+   "-4.6% Japán – Ausztria · Gólszám 4: Több @1.68 (fair 1.76)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 19,
+  "fixtures_both": 8,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 21
+ },
+ {
+  "time": "2026-11-13T09:14:43.816276+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1246,
+  "pinnacle_fixtures": 1111,
+  "paired": 723,
+  "by_sport": {
+   "Soccer": [
+    489,
+    356
+   ],
+   "Tennis": [
+    177,
+    16
+   ],
+   "Basketball": [
+    369,
+    208
+   ],
+   "Ice Hockey": [
+    211,
+    143
+   ]
+  },
+  "top_ev": [
+   "+1.2% Moldova – Kazahsztán · Gólszám 1.5: Több @1.52 (fair 1.502)",
+   "+1.0% Németország – Finnország · Hendikep (rendes játékidő): Németország (+2.5) @1.62 (fair 1.604)",
+   "+0.5% Moldova – Kazahsztán · Gólszám 1.75: Több @1.65 (fair 1.642)",
+   "+0.2% Vienna Capitals – Linz · Győztes (hosszabbítással): Vienna Capitals győz @1.82 (fair 1.816)",
+   "+0.0% Spisska Nova Ves – Trencin · Győztes (hosszabbítással): Spisska Nova Ves győz @1.53 (fair 1.53)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 18,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 114,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 20,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
