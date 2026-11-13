@@ -1,29 +1,4 @@
 {
- "id1004795272880634": {
-  "tm": {
-   "id": "319739350953828352",
-   "sport": "Labdarúgás",
-   "name": "Budaörs - Érd",
-   "home": "Budaörs",
-   "away": "Érd",
-   "home_pid": "119013",
-   "away_pid": "1475696",
-   "tournament": "NB III",
-   "category": "Magyarország",
-   "tm_sport_id": "1",
-   "start": "2026-11-13T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004795272880634",
-   "startTime": "2026-11-13T12:00:00.000Z",
-   "participant1Name": "Budaorsi SC",
-   "participant2Name": "Erdi VSE",
-   "tournamentId": 47952,
-   "tournamentName": "NB III",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1001949276124648": {
   "tm": {
    "id": "319572410154164224",
@@ -7699,31 +7674,6 @@
   },
   "score": 1.0
  },
- "id1001423176679008": {
-  "tm": {
-   "id": "319765248540221440",
-   "sport": "Labdarúgás",
-   "name": "KF Tefik Canga - KF Vjosa",
-   "home": "KF Tefik Canga",
-   "away": "KF Vjosa",
-   "home_pid": "268474817389400064",
-   "away_pid": "166562662342377472",
-   "tournament": "Koszovói 2.",
-   "category": "Koszovó",
-   "tm_sport_id": "1",
-   "start": "2026-11-13T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001423176679008",
-   "startTime": "2026-11-13T12:00:00.000Z",
-   "participant1Name": "KF Tefik Canga",
-   "participant2Name": "KF Vjosa",
-   "tournamentId": 14231,
-   "tournamentName": "Liga e Pare",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000136573050910": {
   "tm": {
    "id": "319654856508907520",
@@ -7870,6 +7820,81 @@
    "participant2Name": "Old Edwardians FC",
    "tournamentId": 51180,
    "tournamentName": "Premier League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004337372595210": {
+  "tm": {
+   "id": "318705587688906752",
+   "sport": "Labdarúgás",
+   "name": "Union Rochefortoise - Tubize",
+   "home": "Union Rochefortoise",
+   "away": "Tubize",
+   "home_pid": "118285711822606336",
+   "away_pid": "18062",
+   "tournament": "Belga 3., Vallónia",
+   "category": "Belgium",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004337372595210",
+   "startTime": "2026-11-14T19:00:00.000Z",
+   "participant1Name": "Union Rochefortoise",
+   "participant2Name": "Royale Union Tubize-Braine",
+   "tournamentId": 43373,
+   "tournamentName": "Nationale 1 ACFF",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004337372595206": {
+  "tm": {
+   "id": "318705587769647104",
+   "sport": "Labdarúgás",
+   "name": "Meux - Royal Olympic Charleroi",
+   "home": "Meux",
+   "away": "Royal Olympic Charleroi",
+   "home_pid": "6850411646812160",
+   "away_pid": "116720408329244672",
+   "tournament": "Belga 3., Vallónia",
+   "category": "Belgium",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004337372595206",
+   "startTime": "2026-11-14T19:00:00.000Z",
+   "participant1Name": "RFC Meux",
+   "participant2Name": "Olympic Club De Charleroi",
+   "tournamentId": 43373,
+   "tournamentName": "Nationale 1 ACFF",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004337372595208": {
+  "tm": {
+   "id": "318705587619700736",
+   "sport": "Labdarúgás",
+   "name": "RWDM Brussels - RSC Habay",
+   "home": "RWDM Brussels",
+   "away": "RSC Habay",
+   "home_pid": "6850411621384192",
+   "away_pid": "146198589823045632",
+   "tournament": "Belga 3., Vallónia",
+   "category": "Belgium",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004337372595208",
+   "startTime": "2026-11-14T19:00:00.000Z",
+   "participant1Name": "RWDM Brussels",
+   "participant2Name": "RSC Habay",
+   "tournamentId": 43373,
+   "tournamentName": "Nationale 1 ACFF",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -8099,56 +8124,6 @@
   },
   "score": 0.86
  },
- "id1000082272575904": {
-  "tm": {
-   "id": "319727324546277376",
-   "sport": "Labdarúgás",
-   "name": "U19Zlín - U19Dukla Praha",
-   "home": "U19Zlín",
-   "away": "U19Dukla Praha",
-   "home_pid": "493279",
-   "away_pid": "168269651029053440",
-   "tournament": "U19 Cseh bajnokság",
-   "category": "Csehország",
-   "tm_sport_id": "1",
-   "start": "2026-11-13T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000082272575904",
-   "startTime": "2026-11-13T12:00:00.000Z",
-   "participant1Name": "FC Zlin",
-   "participant2Name": "Dukla Prague",
-   "tournamentId": 822,
-   "tournamentName": "U19 1. Liga",
-   "sportName": "Soccer"
-  },
-  "score": 0.848
- },
- "id1000085176123772": {
-  "tm": {
-   "id": "318682862937251840",
-   "sport": "Labdarúgás",
-   "name": "Szingapúr - Paraguay",
-   "home": "Szingapúr",
-   "away": "Paraguay",
-   "home_pid": "19842",
-   "away_pid": "1526",
-   "tournament": "Válogatott mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "1",
-   "start": "2026-11-13T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000085176123772",
-   "startTime": "2026-11-13T12:00:00.000Z",
-   "participant1Name": "Singapore",
-   "participant2Name": "Paraguay",
-   "tournamentId": 851,
-   "tournamentName": "Int. Friendly Games",
-   "sportName": "Soccer"
-  },
-  "score": 0.844
- },
  "id1000184875802298": {
   "tm": {
    "id": "319233174076989440",
@@ -8223,31 +8198,6 @@
    "sportName": "Soccer"
   },
   "score": 0.838
- },
- "id1002583972516774": {
-  "tm": {
-   "id": "319518809313583104",
-   "sport": "Labdarúgás",
-   "name": "LKS Goczalkowice Zdroj - Stilon Gorzow Wielkopolski",
-   "home": "LKS Goczalkowice Zdroj",
-   "away": "Stilon Gorzow Wielkopolski",
-   "home_pid": "1406137",
-   "away_pid": "180402674395566080",
-   "tournament": "Lengyel 4., 3. csoport",
-   "category": "Lengyelország",
-   "tm_sport_id": "1",
-   "start": "2026-11-13T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002583972516774",
-   "startTime": "2026-11-13T12:00:00.000Z",
-   "participant1Name": "LKS Goczalkowice-Zdroj",
-   "participant2Name": "KS Stilon Gorzow Wlkp",
-   "tournamentId": 25839,
-   "tournamentName": "III Liga, Group 3",
-   "sportName": "Soccer"
-  },
-  "score": 0.836
  },
  "id1000136573050902": {
   "tm": {
@@ -8674,31 +8624,6 @@
   },
   "score": 0.74
  },
- "id1200391576417300": {
-  "tm": {
-   "id": "319701649040941056",
-   "sport": "Tenisz",
-   "name": "Piros Zsombor - Daniel Altmaier",
-   "home": "Piros Zsombor",
-   "away": "Daniel Altmaier",
-   "home_pid": "1336745",
-   "away_pid": "959628",
-   "tournament": "Orleans, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200391576417300",
-   "startTime": "2026-11-13T12:00:00.000Z",
-   "participant1Name": "Piros, Zsombor",
-   "participant2Name": "Altmaier, Daniel",
-   "tournamentId": 3915,
-   "tournamentName": "ATP Challenger Orleans, France Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
  "id1200309176430188": {
   "tm": {
    "id": "319781797931065344",
@@ -8870,31 +8795,6 @@
    "participant2Name": "Pankin S / Perego G",
    "tournamentId": 48383,
    "tournamentName": "ATP Challenger Monastir, Tunisia Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
- "id1204988076505936": {
-  "tm": {
-   "id": "319444919026524160",
-   "sport": "Tenisz",
-   "name": "Charlie Penman - Edouard Villoslada",
-   "home": "Charlie Penman",
-   "away": "Edouard Villoslada",
-   "home_pid": "270651724155457536",
-   "away_pid": "124784436022661120",
-   "tournament": "Carvoeiro, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204988076505936",
-   "startTime": "2026-11-13T12:00:00.000Z",
-   "participant1Name": "Penman, Charlie",
-   "participant2Name": "Villoslada, Edouard",
-   "tournamentId": 49880,
-   "tournamentName": "UTR PTT Carvoeiro Men 08",
    "sportName": "Tennis"
   },
   "score": 1.0

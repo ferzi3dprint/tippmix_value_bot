@@ -5474,5 +5474,52 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 25
+ },
+ {
+  "time": "2026-11-13T12:15:21.288605+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1257,
+  "pinnacle_fixtures": 1111,
+  "paired": 691,
+  "by_sport": {
+   "Soccer": [
+    523,
+    345
+   ],
+   "Tennis": [
+    155,
+    9
+   ],
+   "Basketball": [
+    373,
+    198
+   ],
+   "Ice Hockey": [
+    206,
+    139
+   ]
+  },
+  "top_ev": [
+   "+6.3% Olomouc 2 – Zbrojovka Brno 2 · Ázsiai hendikep: Olomouc 2 (-1) @1.73 (fair 1.627)",
+   "+5.6% Olomouc 2 – Zbrojovka Brno 2 · Ázsiai hendikep: Olomouc 2 (-1.25) @1.96 (fair 1.856)",
+   "+4.3% Olomouc 2 – Zbrojovka Brno 2 · Ázsiai hendikep: Olomouc 2 (-1.5) @2.18 (fair 2.09)",
+   "+3.9% Olomouc 2 – Zbrojovka Brno 2 · Ázsiai hendikep: Olomouc 2 (-1.75) @2.52 (fair 2.426)",
+   "+3.6% Olomouc 2 – Zbrojovka Brno 2 · Ázsiai hendikep: Olomouc 2 (-0.75) @1.56 (fair 1.506)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 17,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 120,
+  "rejected_mismatch": 0,
+  "candidates": 4,
+  "steam_fixtures": 28,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]

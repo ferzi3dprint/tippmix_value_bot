@@ -84,7 +84,7 @@
   "closing_fair_prob": 0.65973,
   "closing_fair_odds": 1.516,
   "closing_sharp_odds": 1.467,
-  "closing_at": "2026-11-13T11:51:32.730729+00:00",
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
   "clv": 0.04897
  },
  {
@@ -128,7 +128,7 @@
   "closing_fair_prob": 0.53423,
   "closing_fair_odds": 1.872,
   "closing_sharp_odds": 1.787,
-  "closing_at": "2026-11-13T12:10:08.037510+00:00",
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
   "clv": 0.03641
  },
  {
@@ -169,11 +169,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.65045,
-  "closing_fair_odds": 1.537,
-  "closing_sharp_odds": 1.49,
-  "closing_at": "2026-11-13T12:10:08.037510+00:00",
-  "clv": -0.00482
+  "closing_fair_prob": 0.65301,
+  "closing_fair_odds": 1.531,
+  "closing_sharp_odds": 1.485,
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
+  "clv": -0.0009
  },
  {
   "fixture_id": "id1002375568931756",
@@ -274,11 +274,11 @@
   "band": "1.50–1.80",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.65732,
-  "closing_fair_odds": 1.521,
-  "closing_sharp_odds": 1.48,
-  "closing_at": "2026-11-13T11:51:32.730729+00:00",
-  "clv": 0.00569
+  "closing_fair_prob": 0.6548,
+  "closing_fair_odds": 1.527,
+  "closing_sharp_odds": 1.485,
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
+  "clv": 0.00184
  },
  {
   "fixture_id": "id1500013472116494",
@@ -299,7 +299,7 @@
   "closing_fair_prob": 0.57402,
   "closing_fair_odds": 1.742,
   "closing_sharp_odds": 1.675,
-  "closing_at": "2026-11-13T11:51:32.730729+00:00",
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
   "clv": 0.09064
  },
  {
@@ -321,7 +321,7 @@
   "closing_fair_prob": 0.58976,
   "closing_fair_odds": 1.696,
   "closing_sharp_odds": 1.617,
-  "closing_at": "2026-11-13T11:51:32.730729+00:00",
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
   "clv": 0.05568
  },
  {
@@ -343,7 +343,7 @@
   "closing_fair_prob": 0.69906,
   "closing_fair_odds": 1.43,
   "closing_sharp_odds": 1.375,
-  "closing_at": "2026-11-13T11:51:32.730729+00:00",
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
   "clv": 0.0416
  },
  {
@@ -365,7 +365,7 @@
   "closing_fair_prob": 0.47882,
   "closing_fair_odds": 2.088,
   "closing_sharp_odds": 1.943,
-  "closing_at": "2026-11-13T11:51:32.730729+00:00",
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
   "clv": 0.12524
  },
  {
@@ -387,7 +387,7 @@
   "closing_fair_prob": 0.55468,
   "closing_fair_odds": 1.803,
   "closing_sharp_odds": 1.699,
-  "closing_at": "2026-11-13T11:51:32.730729+00:00",
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
   "clv": 0.07609
  },
  {
@@ -405,7 +405,12 @@
   "ev": 0.0525,
   "band": "2.10–2.50",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.53884,
+  "closing_fair_odds": 1.856,
+  "closing_sharp_odds": 1.746,
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
+  "clv": 0.19083
  },
  {
   "fixture_id": "id1001414772597858",
@@ -422,7 +427,12 @@
   "ev": 0.06256,
   "band": "1.80–2.10",
   "trigger": "steam",
-  "bet": true
+  "bet": true,
+  "closing_fair_prob": 0.61462,
+  "closing_fair_odds": 1.627,
+  "closing_sharp_odds": 1.54,
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
+  "clv": 0.19237
  },
  {
   "fixture_id": "id1001414772597858",
@@ -439,6 +449,28 @@
   "ev": 0.03157,
   "band": "1.50–1.80",
   "trigger": "steam",
+  "bet": false,
+  "closing_fair_prob": 0.66389,
+  "closing_fair_odds": 1.506,
+  "closing_sharp_odds": 1.436,
+  "closing_at": "2026-11-13T12:15:21.288605+00:00",
+  "clv": 0.12862
+ },
+ {
+  "fixture_id": "id1001414772597858",
+  "market_id": 1060,
+  "outcome_id": 1060,
+  "first_at": "2026-11-13T12:15:21.288605+00:00",
+  "start": "2026-11-13T13:00:00.000Z",
+  "home": "Olomouc 2",
+  "away": "Zbrojovka Brno 2",
+  "tournament": "Cseh 3., MSFL",
+  "label": "Ázsiai hendikep: Olomouc 2 (-1.5)",
+  "odds": 2.18,
+  "fair_prob": 0.47854,
+  "ev": 0.04323,
+  "band": "2.10–2.50",
+  "trigger": "normál",
   "bet": false
  }
 ]
