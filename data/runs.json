@@ -3901,5 +3901,71 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 155
+ },
+ {
+  "time": "2026-11-13T04:01:37.215331+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 0,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-13T04:06:37.215571+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1143,
+  "pinnacle_fixtures": 1111,
+  "paired": 697,
+  "by_sport": {
+   "Soccer": [
+    461,
+    346
+   ],
+   "Tennis": [
+    181,
+    26
+   ],
+   "Basketball": [
+    330,
+    201
+   ],
+   "Ice Hockey": [
+    171,
+    124
+   ]
+  },
+  "top_ev": [
+   "-0.4% Pesaro – Pianese · Gólszám 1.75: Több @1.34 (fair 1.345)",
+   "-0.4% Koszovó – Izrael · Gólszám 1.5: Több @1.3 (fair 1.305)",
+   "-0.9% Pesaro – Pianese · Gólszám 2: Több @1.43 (fair 1.443)",
+   "-0.9% Koszovó – Izrael · Gólszám 2: Több @1.45 (fair 1.464)",
+   "-0.9% Versailles 78 – Rodez Aveyron · Gólszám 1.75: Több @1.37 (fair 1.383)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 28,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 105,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
