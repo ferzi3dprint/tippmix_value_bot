@@ -6495,5 +6495,99 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T18:07:12.981561+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+0.6% U21Peterborough – U21Newcastle · Ázsiai hendikep: U21Peterborough (-1.5) @1.76 (fair 1.749)",
+   "+0.6% U21Peterborough – U21Newcastle · Ázsiai hendikep: U21Peterborough (-2) @2.21 (fair 2.197)",
+   "+0.5% U21Peterborough – U21Newcastle · Ázsiai hendikep: U21Peterborough (-1.75) @1.93 (fair 1.92)",
+   "+0.2% Hollandia – Görögország · Gólszám 4: Kevesebb @1.37 (fair 1.368)",
+   "+0.1% U21Peterborough – U21Newcastle · Ázsiai hendikep: U21Peterborough (-1.25) @1.59 (fair 1.588)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 107,
+  "fixtures_both": 66,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 26,
+  "classic_checked": 52,
+  "classic_candidates": 2,
+  "top_ev_classic": [
+   "+4.3% Szlovénia – Svájc · Gólszám 2: Kevesebb @2.01 (fair 1.926)",
+   "+2.4% Hollandia – Görögország · Gólszám 4: Kevesebb @1.4 (fair 1.368)",
+   "+2.3% Szlovénia – Svájc · Gólszám 2.25: Kevesebb @1.71 (fair 1.671)",
+   "+1.4% Salamanca CF UDS – Celta Vigo · Gólszám 4: Kevesebb @1.5 (fair 1.479)",
+   "+1.2% Szlovénia – Svájc · Gólszám 1.75: Kevesebb @2.33 (fair 2.302)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 110
+ },
+ {
+  "time": "2026-11-13T18:20:12.111962+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 553,
+   "paired": 261
+  },
+  "tippmix_matches": 1211,
+  "pinnacle_fixtures": 1111,
+  "paired": 552,
+  "by_sport": {
+   "Soccer": [
+    540,
+    288
+   ],
+   "Tennis": [
+    133,
+    3
+   ],
+   "Basketball": [
+    402,
+    181
+   ],
+   "Ice Hockey": [
+    136,
+    80
+   ]
+  },
+  "top_ev": [
+   "+0.0% Skócia – Észak-Macedónia · Gólszám 4.5: Kevesebb @1.23 (fair 1.23)",
+   "-0.0% Coleraine FC – Portadown FC · 1X2: Coleraine FC győz @1.2 (fair 1.2)",
+   "-0.2% Marokkó – Niger · Ázsiai hendikep: Niger (+3) @1.55 (fair 1.552)",
+   "-0.3% Luxemburg – Észtország · Gólszám 1.5: Több @1.53 (fair 1.534)",
+   "-0.3% Hollandia – Görögország · Gólszám 4: Kevesebb @1.37 (fair 1.374)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 103,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 34,
+  "classic_checked": 74,
+  "classic_candidates": 3,
+  "top_ev_classic": [
+   "+5.7% Szlovénia – Svájc · Gólszám 2: Kevesebb @2.0 (fair 1.893)",
+   "+3.6% Szlovénia – Svájc · Gólszám 2.25: Kevesebb @1.71 (fair 1.651)",
+   "+2.8% Szlovénia – Svájc · Gólszám 1.75: Kevesebb @2.33 (fair 2.267)",
+   "+2.0% Szlovénia – Svájc · Gólszám 2.5: Kevesebb @1.54 (fair 1.509)",
+   "+1.9% Hollandia – Görögország · Gólszám 4: Kevesebb @1.4 (fair 1.374)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
