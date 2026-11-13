@@ -3293,5 +3293,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 154
+ },
+ {
+  "time": "2026-11-13T01:02:24.967073+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-0.1% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.52 (fair 1.521)",
+   "-0.5% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+1) @1.38 (fair 1.387)",
+   "-1.1% Utah – St. Louis · 1X2 (rendes játékidő): St. Louis győz @2.27 (fair 2.296)",
+   "-1.2% Utah – St. Louis · Győztes (hosszabbítással): St. Louis győz @1.79 (fair 1.812)",
+   "-1.6% Los Angeles – NY Islanders · Hendikep (rendes játékidő): NY Islanders (+1) @1.48 (fair 1.503)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 14,
+  "fixtures_both": 8,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 15
+ },
+ {
+  "time": "2026-11-13T01:07:24.967423+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "boosts": 0,
+  "tippmix_matches": 1138,
+  "pinnacle_fixtures": 1111,
+  "paired": 710,
+  "by_sport": {
+   "Soccer": [
+    451,
+    343
+   ],
+   "Tennis": [
+    174,
+    29
+   ],
+   "Basketball": [
+    339,
+    210
+   ],
+   "Ice Hockey": [
+    174,
+    128
+   ]
+  },
+  "top_ev": [
+   "-0.1% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.52 (fair 1.521)",
+   "-0.1% Carpi – Giana Erminio · Gólszám 2: Több @1.4 (fair 1.402)",
+   "-0.4% Real Sociedad 2 – Sp. Gijon · Gólszám 1.5: Több @1.32 (fair 1.325)",
+   "-0.5% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+1) @1.38 (fair 1.387)",
+   "-0.5% Real Sociedad 2 – Sp. Gijon · Gólszám 2: Több @1.51 (fair 1.518)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 53,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 99,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 4,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 154
  }
 ]
