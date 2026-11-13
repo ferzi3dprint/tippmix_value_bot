@@ -4033,5 +4033,71 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 154
+ },
+ {
+  "time": "2026-11-13T04:44:58.556825+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 1,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 1
+ },
+ {
+  "time": "2026-11-13T04:49:58.556758+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1152,
+  "pinnacle_fixtures": 1111,
+  "paired": 697,
+  "by_sport": {
+   "Soccer": [
+    461,
+    346
+   ],
+   "Tennis": [
+    180,
+    26
+   ],
+   "Basketball": [
+    340,
+    201
+   ],
+   "Ice Hockey": [
+    171,
+    124
+   ]
+  },
+  "top_ev": [
+   "+1.4% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.47 (fair 1.45)",
+   "+1.0% U21Finnország – U21Írország · Gólszám 2: Több @1.57 (fair 1.554)",
+   "+1.0% U21Finnország – U21Írország · Gólszám 1.5: Több @1.36 (fair 1.347)",
+   "+0.5% U21Finnország – U21Írország · 1X2: U21Finnország győz @2.03 (fair 2.02)",
+   "-0.1% Turku PS – Jokerit · Hendikep (rendes játékidő): Jokerit (+1) @1.52 (fair 1.521)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 50,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 122,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 9,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
