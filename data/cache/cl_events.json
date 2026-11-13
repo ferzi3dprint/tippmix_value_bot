@@ -1,1612 +1,25 @@
 {
- "time": "2026-11-13T17:16:48.942502+00:00",
+ "time": "2026-11-13T19:39:03.515313+00:00",
  "sports": [
+  "Asztalitenisz",
+  "Counter-Strike",
+  "Darts",
+  "Dota 2",
+  "E-Labdarúgás",
+  "Futsal",
   "Jégkorong",
   "Kosárlabda",
+  "Krikett",
+  "Kézilabda",
   "Labdarúgás",
-  "Tenisz"
+  "League of Legends (LOL)",
+  "NBA2k",
+  "Röplabda",
+  "Tenisz",
+  "Tollaslabda",
+  "Vízilabda"
  ],
  "data": [
-  {
-   "id": 5644201,
-   "home": "V. Avdeeva",
-   "away": "P. Ordonez Anduiza",
-   "start": "2026-11-13T17:20:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Carvoeiro, női egyes",
-   "name": "V. Avdeeva - P. Ordonez Anduiza",
-   "betradar": 76506160
-  },
-  {
-   "id": 5644356,
-   "home": "M. van der Merwe",
-   "away": "Noah Merre",
-   "start": "2026-11-13T17:20:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Carvoeiro, férfi egyes",
-   "name": "M. van der Merwe - Noah Merre",
-   "betradar": 76505938
-  },
-  {
-   "id": 5553443,
-   "home": "Lahti Pelicans",
-   "away": "Ässät",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Finn bajnokság",
-   "name": "Lahti Pelicans - Ässät",
-   "betradar": 72116500
-  },
-  {
-   "id": 5553487,
-   "home": "Torun",
-   "away": "Zaglebie Sosnowiec",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Lengyel bajnokság",
-   "name": "Torun - Zaglebie Sosnowiec",
-   "betradar": 73739480
-  },
-  {
-   "id": 5553451,
-   "home": "Diósgyőr",
-   "away": "FEHA",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Erste Liga",
-   "name": "Diósgyőr - FEHA",
-   "betradar": 73737372
-  },
-  {
-   "id": 5553452,
-   "home": "DEAC",
-   "away": "Dunaújváros",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Erste Liga",
-   "name": "DEAC - Dunaújváros",
-   "betradar": 73737370
-  },
-  {
-   "id": 5553477,
-   "home": "FTC",
-   "away": "Fehérvár",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Osztrák bajnokság",
-   "name": "FTC - Fehérvár",
-   "betradar": 73238542
-  },
-  {
-   "id": 5553430,
-   "home": "Anadolu Efes",
-   "away": "Virtus Bologna",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Euroliga",
-   "name": "Anadolu Efes - Virtus Bologna",
-   "betradar": 73263152
-  },
-  {
-   "id": 5610238,
-   "home": "Felician Golden Falcons",
-   "away": "Assumption Greyhounds",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Felician Golden Falcons - Assumption Greyhounds",
-   "betradar": 76004390
-  },
-  {
-   "id": 5649160,
-   "home": "U21Franciaország",
-   "away": "U21Olaszország",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "U21 válogatott mérkőzés",
-   "name": "U21Franciaország - U21Olaszország",
-   "betradar": 76688608
-  },
-  {
-   "id": 5553352,
-   "home": "Hamburg",
-   "away": "Mainz",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Német bajnokság, női",
-   "name": "Hamburg - Mainz",
-   "betradar": 72961080
-  },
-  {
-   "id": 5592891,
-   "home": "U21Dánia",
-   "away": "U21Hollandia",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "U21 Eb-selejtező, rájátszás",
-   "name": "U21Dánia - U21Hollandia",
-   "betradar": 75439644
-  },
-  {
-   "id": 5553423,
-   "home": "Holbaek-Stenhus",
-   "away": "Köbenhavn",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Dán bajnokság",
-   "name": "Holbaek-Stenhus - Köbenhavn",
-   "betradar": 72663210
-  },
-  {
-   "id": 5553429,
-   "home": "Cibona Zágráb",
-   "away": "FMP",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "ABA Liga, A csoport",
-   "name": "Cibona Zágráb - FMP",
-   "betradar": 74131766
-  },
-  {
-   "id": 5652825,
-   "home": "T. Czaplinski",
-   "away": "B. Stecker",
-   "start": "2026-11-13T17:30:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Houston, férfi egyes",
-   "name": "T. Czaplinski - B. Stecker",
-   "betradar": 76743836
-  },
-  {
-   "id": 5554499,
-   "home": "CSU Sibiu",
-   "away": "Voluntari",
-   "start": "2026-11-13T17:45:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Román bajnokság",
-   "name": "CSU Sibiu - Voluntari",
-   "betradar": 73833414
-  },
-  {
-   "id": 5553478,
-   "home": "Odense",
-   "away": "Esbjerg",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Dán bajnokság",
-   "name": "Odense - Esbjerg",
-   "betradar": 73350464
-  },
-  {
-   "id": 5553488,
-   "home": "Jastrzebie",
-   "away": "Unia Oswiecim",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Lengyel bajnokság",
-   "name": "Jastrzebie - Unia Oswiecim",
-   "betradar": 73739482
-  },
-  {
-   "id": 5554861,
-   "home": "Nis 1996",
-   "away": "Vojvodina",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Szerb bajnokság",
-   "name": "Nis 1996 - Vojvodina",
-   "betradar": 75120398
-  },
-  {
-   "id": 5592920,
-   "home": "Palm Beach Atlantic Sailf",
-   "away": "Trevecca Nazarene Trojans",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Palm Beach Atlantic Sailfish - Trevecca Nazarene Trojans",
-   "betradar": 75924210
-  },
-  {
-   "id": 5592922,
-   "home": "Lee University Flames",
-   "away": "Tampa Spartans",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Lee University Flames - Tampa Spartans",
-   "betradar": 75916062
-  },
-  {
-   "id": 5592923,
-   "home": "Lynn Fighting Knights",
-   "away": "Albany State Golden Rams",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Lynn Fighting Knights - Albany State Golden Rams",
-   "betradar": 75916060
-  },
-  {
-   "id": 5610235,
-   "home": "Arkansas Fort Smith Lions",
-   "away": "East Central Tigers",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Arkansas Fort Smith Lions - East Central Tigers",
-   "betradar": 76085018
-  },
-  {
-   "id": 5652316,
-   "home": "Malone Pioneers",
-   "away": "Maryville Saints",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Malone Pioneers - Maryville Saints",
-   "betradar": 76741182
-  },
-  {
-   "id": 5553470,
-   "home": "Visby-Roma",
-   "away": "Mora",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svéd 2.",
-   "name": "Visby-Roma - Mora",
-   "betradar": 72005208
-  },
-  {
-   "id": 5553471,
-   "home": "Oskarshamn",
-   "away": "Vimmerby",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svéd 2.",
-   "name": "Oskarshamn - Vimmerby",
-   "betradar": 72005216
-  },
-  {
-   "id": 5553472,
-   "home": "Västeras",
-   "away": "Leksand",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svéd 2.",
-   "name": "Västeras - Leksand",
-   "betradar": 72005204
-  },
-  {
-   "id": 5553473,
-   "home": "Karlskoga",
-   "away": "AIK",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svéd 2.",
-   "name": "Karlskoga - AIK",
-   "betradar": 72005214
-  },
-  {
-   "id": 5553474,
-   "home": "MODO",
-   "away": "Östersund",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svéd 2.",
-   "name": "MODO - Östersund",
-   "betradar": 72005212
-  },
-  {
-   "id": 5553475,
-   "home": "Nybro",
-   "away": "Kalmar",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svéd 2.",
-   "name": "Nybro - Kalmar",
-   "betradar": 72005206
-  },
-  {
-   "id": 5553476,
-   "home": "Södertälje",
-   "away": "Almtuna",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svéd 2.",
-   "name": "Södertälje - Almtuna",
-   "betradar": 72005210
-  },
-  {
-   "id": 5651125,
-   "home": "U20Svájc",
-   "away": "U20Románia",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "U20 válogatott mérkőzés",
-   "name": "U20Svájc - U20Románia",
-   "betradar": 76689022
-  },
-  {
-   "id": 5621073,
-   "home": "U21Albánia",
-   "away": "U21Luxemburg",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "U21 válogatott mérkőzés",
-   "name": "U21Albánia - U21Luxemburg",
-   "betradar": 76170232
-  },
-  {
-   "id": 5643312,
-   "home": "U21Spanyolország",
-   "away": "U21Japán",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "U21 válogatott mérkőzés",
-   "name": "U21Spanyolország - U21Japán",
-   "betradar": 76454720
-  },
-  {
-   "id": 5649747,
-   "home": "USA",
-   "away": "Dánia",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "vb, női",
-   "name": "USA - Dánia",
-   "betradar": 76710838
-  },
-  {
-   "id": 5649748,
-   "home": "Svédország",
-   "away": "Svájc",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "vb, női",
-   "name": "Svédország - Svájc",
-   "betradar": 76710840
-  },
-  {
-   "id": 5553454,
-   "home": "Jesenice",
-   "away": "Merano",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Alpok Liga",
-   "name": "Jesenice - Merano",
-   "betradar": 73579828
-  },
-  {
-   "id": 5554782,
-   "home": "Nantes",
-   "away": "Lens",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Francia bajnokság, női",
-   "name": "Nantes - Lens",
-   "betradar": 72700292
-  },
-  {
-   "id": 5553431,
-   "home": "Göttingen",
-   "away": "ETB Miners Essen",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Német 2.",
-   "name": "Göttingen - ETB Miners Essen",
-   "betradar": 72658482
-  },
-  {
-   "id": 5553432,
-   "home": "Bayreuth",
-   "away": "Heidelberg",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Német 2.",
-   "name": "Bayreuth - Heidelberg",
-   "betradar": 72658480
-  },
-  {
-   "id": 5553433,
-   "home": "Orange Academy",
-   "away": "Tübingen",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Német 2.",
-   "name": "Orange Academy - Tübingen",
-   "betradar": 72658484
-  },
-  {
-   "id": 5553372,
-   "home": "Traiskirchen",
-   "away": "Kapfenberg",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Osztrák bajnokság",
-   "name": "Traiskirchen - Kapfenberg",
-   "betradar": 72653732
-  },
-  {
-   "id": 5553373,
-   "home": "St. Pölten",
-   "away": "Wels",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Osztrák bajnokság",
-   "name": "St. Pölten - Wels",
-   "betradar": 72653730
-  },
-  {
-   "id": 5553374,
-   "home": "UBSC Graz",
-   "away": "Nord Dragonz",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Osztrák bajnokság",
-   "name": "UBSC Graz - Nord Dragonz",
-   "betradar": 72653728
-  },
-  {
-   "id": 5547304,
-   "home": "Grindavik",
-   "away": "Sindri",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Izlandi bajnokság",
-   "name": "Grindavik - Sindri",
-   "betradar": 72467036
-  },
-  {
-   "id": 5553422,
-   "home": "Vejen",
-   "away": "Bakken Aarhus",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Dán bajnokság",
-   "name": "Vejen - Bakken Aarhus",
-   "betradar": 72663212
-  },
-  {
-   "id": 5556148,
-   "home": "Ponferradina",
-   "away": "Cacereno",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Spanyol 3., 1. csoport",
-   "name": "Ponferradina - Cacereno",
-   "betradar": 72559240
-  },
-  {
-   "id": 5644340,
-   "home": "S. Gueymard Wayenburg",
-   "away": "O. Virtanen",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Orleans, férfi egyes",
-   "name": "S. Gueymard Wayenburg - O. Virtanen",
-   "betradar": 76417312
-  },
-  {
-   "id": 5644788,
-   "home": "Monnet C / Pigossi L",
-   "away": "Samson L / Zidansek T",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Sopo, női páros",
-   "name": "Monnet C / Pigossi L - Samson L / Zidansek T",
-   "betradar": 76430758
-  },
-  {
-   "id": 5649097,
-   "home": "Mar. Pazdera",
-   "away": "C. Mayoral",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Boca Raton, férfi egyes",
-   "name": "Mar. Pazdera - C. Mayoral",
-   "betradar": 76640468
-  },
-  {
-   "id": 5652819,
-   "home": "T. Cariov",
-   "away": "H. Didier",
-   "start": "2026-11-13T18:00:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Boca Raton, férfi egyes",
-   "name": "T. Cariov - H. Didier",
-   "betradar": 76743862
-  },
-  {
-   "id": 5553635,
-   "home": "Boras",
-   "away": "Köping",
-   "start": "2026-11-13T18:04:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Svéd bajnokság",
-   "name": "Boras - Köping",
-   "betradar": 72016390
-  },
-  {
-   "id": 5553636,
-   "home": "Lulea",
-   "away": "Södertälje",
-   "start": "2026-11-13T18:04:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Svéd bajnokság",
-   "name": "Lulea - Södertälje",
-   "betradar": 72016388
-  },
-  {
-   "id": 5553637,
-   "home": "Nässjö",
-   "away": "Norrköping",
-   "start": "2026-11-13T18:04:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Svéd bajnokság",
-   "name": "Nässjö - Norrköping",
-   "betradar": 72016384
-  },
-  {
-   "id": 5553638,
-   "home": "Uppsala",
-   "away": "Umea",
-   "start": "2026-11-13T18:04:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Svéd bajnokság",
-   "name": "Uppsala - Umea",
-   "betradar": 72016386
-  },
-  {
-   "id": 5553639,
-   "home": "Jamtland",
-   "away": "Hogsbo",
-   "start": "2026-11-13T18:04:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Svéd bajnokság",
-   "name": "Jamtland - Hogsbo",
-   "betradar": 72016382
-  },
-  {
-   "id": 5644241,
-   "home": "V. Borodulina",
-   "away": "S. La Cerra",
-   "start": "2026-11-13T18:05:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Carvoeiro, női egyes",
-   "name": "V. Borodulina - S. La Cerra",
-   "betradar": 76506128
-  },
-  {
-   "id": 5651053,
-   "home": "M.H. Rehberg",
-   "away": "D. Milavsky",
-   "start": "2026-11-13T18:10:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Knoxville, férfi egyes",
-   "name": "M.H. Rehberg - D. Milavsky",
-   "betradar": 76430850
-  },
-  {
-   "id": 5649120,
-   "home": "Barrientos N / Gomez J S",
-   "away": "Drzewiecki K / Matuszewsk",
-   "start": "2026-11-13T18:10:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Lima, férfi páros",
-   "name": "Barrientos N / Gomez J S - Drzewiecki K / Matuszewski P",
-   "betradar": 76431568
-  },
-  {
-   "id": 5649115,
-   "home": "Lammons N / Smith J-P",
-   "away": "Jans J / Vliegen J",
-   "start": "2026-11-13T18:10:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Knoxville, férfi páros",
-   "name": "Lammons N / Smith J-P - Jans J / Vliegen J",
-   "betradar": 76430894
-  },
-  {
-   "id": 5553676,
-   "home": "Olimpija Ljubljana",
-   "away": "Salzburg",
-   "start": "2026-11-13T18:15:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Osztrák bajnokság",
-   "name": "Olimpija Ljubljana - Salzburg",
-   "betradar": 73238546
-  },
-  {
-   "id": 5553677,
-   "home": "Klagenfurt",
-   "away": "Innsbruck",
-   "start": "2026-11-13T18:15:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Osztrák bajnokság",
-   "name": "Klagenfurt - Innsbruck",
-   "betradar": 73238544
-  },
-  {
-   "id": 5553680,
-   "home": "Vienna Capitals",
-   "away": "Linz",
-   "start": "2026-11-13T18:15:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Osztrák bajnokság",
-   "name": "Vienna Capitals - Linz",
-   "betradar": 73238548
-  },
-  {
-   "id": 5553681,
-   "home": "Sönderjyske",
-   "away": "Herning",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Dán bajnokság",
-   "name": "Sönderjyske - Herning",
-   "betradar": 73350466
-  },
-  {
-   "id": 5553682,
-   "home": "Aalborg",
-   "away": "Rungsted",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Dán bajnokság",
-   "name": "Aalborg - Rungsted",
-   "betradar": 73350468
-  },
-  {
-   "id": 5553661,
-   "home": "Frankfurt Löwen",
-   "away": "Bremerhaven",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német bajnokság",
-   "name": "Frankfurt Löwen - Bremerhaven",
-   "betradar": 72484088
-  },
-  {
-   "id": 5553665,
-   "home": "Krefeld",
-   "away": "Nürnberg",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német bajnokság",
-   "name": "Krefeld - Nürnberg",
-   "betradar": 72484086
-  },
-  {
-   "id": 5553668,
-   "home": "Augsburg",
-   "away": "München",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német bajnokság",
-   "name": "Augsburg - München",
-   "betradar": 72484090
-  },
-  {
-   "id": 5553669,
-   "home": "Schwenningen",
-   "away": "Köln",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német bajnokság",
-   "name": "Schwenningen - Köln",
-   "betradar": 72484094
-  },
-  {
-   "id": 5553670,
-   "home": "Wolfsburg",
-   "away": "Eisbären Berlin",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német bajnokság",
-   "name": "Wolfsburg - Eisbären Berlin",
-   "betradar": 72484084
-  },
-  {
-   "id": 5553671,
-   "home": "Ingolstadt",
-   "away": "Straubing",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német bajnokság",
-   "name": "Ingolstadt - Straubing",
-   "betradar": 72484092
-  },
-  {
-   "id": 5553678,
-   "home": "Vorarlberg",
-   "away": "Val Pusteria",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Osztrák bajnokság",
-   "name": "Vorarlberg - Val Pusteria",
-   "betradar": 73238550
-  },
-  {
-   "id": 5553662,
-   "home": "Landshut",
-   "away": "EV Regensburg",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német 2.",
-   "name": "Landshut - EV Regensburg",
-   "betradar": 72677564
-  },
-  {
-   "id": 5553666,
-   "home": "Bietigheim/Bissingen",
-   "away": "Rosenheim",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német 2.",
-   "name": "Bietigheim/Bissingen - Rosenheim",
-   "betradar": 72677562
-  },
-  {
-   "id": 5553667,
-   "home": "Crimmitschau",
-   "away": "Blue Devils Weiden",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német 2.",
-   "name": "Crimmitschau - Blue Devils Weiden",
-   "betradar": 72677570
-  },
-  {
-   "id": 5553672,
-   "home": "Bad Nauheim",
-   "away": "Lausitzer Füchse",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német 2.",
-   "name": "Bad Nauheim - Lausitzer Füchse",
-   "betradar": 72677566
-  },
-  {
-   "id": 5553673,
-   "home": "Kassel",
-   "away": "Freiburg",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német 2.",
-   "name": "Kassel - Freiburg",
-   "betradar": 72677568
-  },
-  {
-   "id": 5553648,
-   "home": "Koblenz",
-   "away": "Bochum",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Német 2.",
-   "name": "Koblenz - Bochum",
-   "betradar": 72658488
-  },
-  {
-   "id": 5553650,
-   "home": "Artland",
-   "away": "Paderborn",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Német 2.",
-   "name": "Artland - Paderborn",
-   "betradar": 72658486
-  },
-  {
-   "id": 5553651,
-   "home": "Wolmirstedt",
-   "away": "Bremerhaven",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Német 2.",
-   "name": "Wolmirstedt - Bremerhaven",
-   "betradar": 72658490
-  },
-  {
-   "id": 5553684,
-   "home": "Visp",
-   "away": "Basel",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svájci 2.",
-   "name": "Visp - Basel",
-   "betradar": 72710478
-  },
-  {
-   "id": 5644218,
-   "home": "N. Koppova",
-   "away": "A. Hrastar",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Oxford, női egyes",
-   "name": "N. Koppova - A. Hrastar",
-   "betradar": 76511370
-  },
-  {
-   "id": 5644188,
-   "home": "N. Schlagenhauf",
-   "away": "N. Tcherniack",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Oxford, férfi egyes",
-   "name": "N. Schlagenhauf - N. Tcherniack",
-   "betradar": 76511300
-  },
-  {
-   "id": 5644193,
-   "home": "Peter Hatton",
-   "away": "D. Jeanne-Grandinot",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Carvoeiro, férfi egyes",
-   "name": "Peter Hatton - D. Jeanne-Grandinot",
-   "betradar": 76505934
-  },
-  {
-   "id": 5644290,
-   "home": "L. Thomas Iglesias",
-   "away": "E.M. Ansorge",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Oxford, női egyes",
-   "name": "L. Thomas Iglesias - E.M. Ansorge",
-   "betradar": 76511274
-  },
-  {
-   "id": 5644378,
-   "home": "N. Linhartova",
-   "away": "A. Soulie",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Oxford, női egyes",
-   "name": "N. Linhartova - A. Soulie",
-   "betradar": 76511250
-  },
-  {
-   "id": 5644675,
-   "home": "Tom Garcia",
-   "away": "C. Melgosa",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Oxford, férfi egyes",
-   "name": "Tom Garcia - C. Melgosa",
-   "betradar": 76511336
-  },
-  {
-   "id": 5652823,
-   "home": "T. Bretin",
-   "away": "Andrew Li",
-   "start": "2026-11-13T18:30:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Houston, férfi egyes",
-   "name": "T. Bretin - Andrew Li",
-   "betradar": 76743838
-  },
-  {
-   "id": 5644383,
-   "home": "M. Hlahola",
-   "away": "V. Bokova",
-   "start": "2026-11-13T18:40:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Carvoeiro, női egyes",
-   "name": "M. Hlahola - V. Bokova",
-   "betradar": 76506148
-  },
-  {
-   "id": 5644596,
-   "home": "Jul. Alias",
-   "away": "J. Dominguez Alonso",
-   "start": "2026-11-13T18:40:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Carvoeiro, férfi egyes",
-   "name": "Jul. Alias - J. Dominguez Alonso",
-   "betradar": 76549138
-  },
-  {
-   "id": 5553679,
-   "home": "Südtirol Bolzano",
-   "away": "Graz",
-   "start": "2026-11-13T18:45:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Osztrák bajnokság",
-   "name": "Südtirol Bolzano - Graz",
-   "betradar": 73238552
-  },
-  {
-   "id": 5553683,
-   "home": "Zug",
-   "away": "Rapperswil",
-   "start": "2026-11-13T18:45:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svájci bajnokság",
-   "name": "Zug - Rapperswil",
-   "betradar": 72123532
-  },
-  {
-   "id": 5553689,
-   "home": "Bern",
-   "away": "Fribourg",
-   "start": "2026-11-13T18:45:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svájci bajnokság",
-   "name": "Bern - Fribourg",
-   "betradar": 72123526
-  },
-  {
-   "id": 5553690,
-   "home": "Lugano",
-   "away": "Langnau Tigers",
-   "start": "2026-11-13T18:45:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svájci bajnokság",
-   "name": "Lugano - Langnau Tigers",
-   "betradar": 72123530
-  },
-  {
-   "id": 5553691,
-   "home": "Davos",
-   "away": "Ambri",
-   "start": "2026-11-13T18:45:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svájci bajnokság",
-   "name": "Davos - Ambri",
-   "betradar": 72123528
-  },
-  {
-   "id": 5553685,
-   "home": "Chaux-de-Fonds",
-   "away": "Olten",
-   "start": "2026-11-13T18:45:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svájci 2.",
-   "name": "Chaux-de-Fonds - Olten",
-   "betradar": 72710482
-  },
-  {
-   "id": 5553688,
-   "home": "Sierre",
-   "away": "Thurgau",
-   "start": "2026-11-13T18:45:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svájci 2.",
-   "name": "Sierre - Thurgau",
-   "betradar": 72710480
-  },
-  {
-   "id": 5553647,
-   "home": "Hagen",
-   "away": "Ludwigsburg",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Német bajnokság",
-   "name": "Hagen - Ludwigsburg",
-   "betradar": 73451860
-  },
-  {
-   "id": 5553701,
-   "home": "Nice",
-   "away": "Chamonix",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Francia bajnokság",
-   "name": "Nice - Chamonix",
-   "betradar": 72178148
-  },
-  {
-   "id": 5553705,
-   "home": "Briancon",
-   "away": "Gap",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Francia bajnokság",
-   "name": "Briancon - Gap",
-   "betradar": 72178146
-  },
-  {
-   "id": 5553627,
-   "home": "Pau Orthez",
-   "away": "Strasbourg",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Francia bajnokság",
-   "name": "Pau Orthez - Strasbourg",
-   "betradar": 74295750
-  },
-  {
-   "id": 5553663,
-   "home": "Ravensburg",
-   "away": "Dresden",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német 2.",
-   "name": "Ravensburg - Dresden",
-   "betradar": 72677572
-  },
-  {
-   "id": 5553664,
-   "home": "Memmingen Indians",
-   "away": "Düsseldorf",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Német 2.",
-   "name": "Memmingen Indians - Düsseldorf",
-   "betradar": 72677574
-  },
-  {
-   "id": 5592919,
-   "home": "Ohio Dominican Panthers",
-   "away": "Lincoln Missouri Blue Tig",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Ohio Dominican Panthers - Lincoln Missouri Blue Tigers",
-   "betradar": 75924214
-  },
-  {
-   "id": 5592947,
-   "home": "Western Colorado Mountain",
-   "away": "Texas Permian Basin Falco",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Western Colorado Mountaineers - Texas Permian Basin Falcons",
-   "betradar": 75922292
-  },
-  {
-   "id": 5592948,
-   "home": "Missouri Western State Gr",
-   "away": "St. Cloud State Huskies",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Missouri Western State Griffons - St. Cloud State Huskies",
-   "betradar": 75916064
-  },
-  {
-   "id": 5592949,
-   "home": "Adams State Grizzlies",
-   "away": "Angelo State Rams",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Adams State Grizzlies - Angelo State Rams",
-   "betradar": 75922290
-  },
-  {
-   "id": 5592950,
-   "home": "Union TN Bulldogs",
-   "away": "Southwest Baptist Bearcat",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Union TN Bulldogs - Southwest Baptist Bearcats",
-   "betradar": 75924314
-  },
-  {
-   "id": 5610242,
-   "home": "Missouri St. Louis Triton",
-   "away": "Northern Michigan Wildcat",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Missouri St. Louis Tritons - Northern Michigan Wildcats",
-   "betradar": 76090486
-  },
-  {
-   "id": 5610243,
-   "home": "Arkansas Monticello Boll ",
-   "away": "Augustana (SD) Vikings",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Arkansas Monticello Boll Weevils - Augustana (SD) Vikings",
-   "betradar": 76097172
-  },
-  {
-   "id": 5619485,
-   "home": "Dijon",
-   "away": "Orleans",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Francia Kupa",
-   "name": "Dijon - Orleans",
-   "betradar": 76171186
-  },
-  {
-   "id": 5643316,
-   "home": "Norvégia",
-   "away": "Franciaország",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Válogatott mérkőzés, női",
-   "name": "Norvégia - Franciaország",
-   "betradar": 76484580
-  },
-  {
-   "id": 5651215,
-   "home": "U20Lengyelország",
-   "away": "U20Németország",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "U20 válogatott mérkőzés",
-   "name": "U20Lengyelország - U20Németország",
-   "betradar": 76689362
-  },
-  {
-   "id": 5592944,
-   "home": "Egyiptom",
-   "away": "Malawi",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Afrikai Nemzetek Kupája-sel.,B",
-   "name": "Egyiptom - Malawi",
-   "betradar": 75802232
-  },
-  {
-   "id": 5592945,
-   "home": "Mali",
-   "away": "Ruanda",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Afrikai Nemzetek Kupája-sel.,K",
-   "name": "Mali - Ruanda",
-   "betradar": 75802306
-  },
-  {
-   "id": 5553675,
-   "home": "Cardiff",
-   "away": "Nottingham",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Brit Liga",
-   "name": "Cardiff - Nottingham",
-   "betradar": 72730838
-  },
-  {
-   "id": 5553623,
-   "home": "Denain",
-   "away": "Caen",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Francia 2.",
-   "name": "Denain - Caen",
-   "betradar": 73062848
-  },
-  {
-   "id": 5553624,
-   "home": "Fos-sur-Mer",
-   "away": "Chalons-Reims",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Francia 2.",
-   "name": "Fos-sur-Mer - Chalons-Reims",
-   "betradar": 74835032
-  },
-  {
-   "id": 5553625,
-   "home": "Stade Rochelais",
-   "away": "Antibes",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Francia 2.",
-   "name": "Stade Rochelais - Antibes",
-   "betradar": 73062854
-  },
-  {
-   "id": 5553626,
-   "home": "Evreux",
-   "away": "Orleans",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Francia 2.",
-   "name": "Evreux - Orleans",
-   "betradar": 73062850
-  },
-  {
-   "id": 5553628,
-   "home": "Le Havre",
-   "away": "Levallois",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Francia 2.",
-   "name": "Le Havre - Levallois",
-   "betradar": 73062856
-  },
-  {
-   "id": 5553629,
-   "home": "Aix-Maurienne",
-   "away": "Nantes",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Francia 2.",
-   "name": "Aix-Maurienne - Nantes",
-   "betradar": 73062858
-  },
-  {
-   "id": 5553632,
-   "home": "Rouen",
-   "away": "Poitiers",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Francia 2.",
-   "name": "Rouen - Poitiers",
-   "betradar": 73062860
-  },
-  {
-   "id": 5553645,
-   "home": "Giessen",
-   "away": "Nürnberg",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Német 2.",
-   "name": "Giessen - Nürnberg",
-   "betradar": 72658492
-  },
-  {
-   "id": 5553646,
-   "home": "Crailsheim",
-   "away": "Köln",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Német 2.",
-   "name": "Crailsheim - Köln",
-   "betradar": 72658494
-  },
-  {
-   "id": 5553649,
-   "home": "Kirchheim",
-   "away": "PS Karlsruhe",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Német 2.",
-   "name": "Kirchheim - PS Karlsruhe",
-   "betradar": 72658496
-  },
-  {
-   "id": 5553595,
-   "home": "BC Vienna",
-   "away": "Klosterneuburg",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Osztrák bajnokság",
-   "name": "BC Vienna - Klosterneuburg",
-   "betradar": 72653734
-  },
-  {
-   "id": 5553686,
-   "home": "Chur",
-   "away": "Arosa",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svájci 2.",
-   "name": "Chur - Arosa",
-   "betradar": 72710484
-  },
-  {
-   "id": 5586737,
-   "home": "Bermuda",
-   "away": "St. Lucia",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "CONCACAF Nemz.Ligája B div.Bcs",
-   "name": "Bermuda - St. Lucia",
-   "betradar": 75468314
-  },
-  {
-   "id": 5586739,
-   "home": "Puerto Rico",
-   "away": "Dominikai Közösség",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "CONCACAF Nemz.Ligája B div.Acs",
-   "name": "Puerto Rico - Dominikai Közösség",
-   "betradar": 75468290
-  },
-  {
-   "id": 5586741,
-   "home": "Grenada",
-   "away": "Saint Kitts és Nevis",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "CONCACAF Nemz.Ligája B div.Ccs",
-   "name": "Grenada - Saint Kitts és Nevis",
-   "betradar": 75468428
-  },
-  {
-   "id": 5643317,
-   "home": "GKS Katowice",
-   "away": "Rouen",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Kontinentális Kupa, C csoport",
-   "name": "GKS Katowice - Rouen",
-   "betradar": 76437794
-  },
-  {
-   "id": 5647316,
-   "home": "Asiago",
-   "away": "Nomad",
-   "start": "2026-11-13T19:00:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Kontinentális Kupa, D csoport",
-   "name": "Asiago - Nomad",
-   "betradar": 76437810
-  },
-  {
-   "id": 5650804,
-   "home": "Escobar G / Kaliyanda Poo",
-   "away": "Cervantes I / Martinez P",
-   "start": "2026-11-13T19:10:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Orleans, férfi páros",
-   "name": "Escobar G / Kaliyanda Poonacha N - Cervantes I / Martinez P",
-   "betradar": 76420498
-  },
-  {
-   "id": 5553703,
-   "home": "Marseille",
-   "away": "Grenoble",
-   "start": "2026-11-13T19:15:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Francia bajnokság",
-   "name": "Marseille - Grenoble",
-   "betradar": 72178144
-  },
-  {
-   "id": 5553641,
-   "home": "Panathinaikosz",
-   "away": "Barcelona",
-   "start": "2026-11-13T19:15:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Euroliga",
-   "name": "Panathinaikosz - Barcelona",
-   "betradar": 73263154
-  },
-  {
-   "id": 5553634,
-   "home": "Anwil Wloclawek",
-   "away": "Arka Gdynia",
-   "start": "2026-11-13T19:15:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Lengyel bajnokság",
-   "name": "Anwil Wloclawek - Arka Gdynia",
-   "betradar": 72676966
-  },
-  {
-   "id": 5553687,
-   "home": "Bellinzona",
-   "away": "GCK Lions",
-   "start": "2026-11-13T19:15:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Svájci 2.",
-   "name": "Bellinzona - GCK Lions",
-   "betradar": 72710486
-  },
-  {
-   "id": 5644208,
-   "home": "C. Pikkaart",
-   "away": "Z. Veljacic",
-   "start": "2026-11-13T19:15:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Carvoeiro, női egyes",
-   "name": "C. Pikkaart - Z. Veljacic",
-   "betradar": 76506138
-  },
-  {
-   "id": 5651913,
-   "home": "A. Shelbayh",
-   "away": "Ala. Gray",
-   "start": "2026-11-13T19:20:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Knoxville, férfi egyes",
-   "name": "A. Shelbayh - Ala. Gray",
-   "betradar": 76430864
-  },
-  {
-   "id": 5553700,
-   "home": "Bordeaux",
-   "away": "Angers",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Francia bajnokság",
-   "name": "Bordeaux - Angers",
-   "betradar": 72178152
-  },
-  {
-   "id": 5553702,
-   "home": "Cergy-Pontoise",
-   "away": "Amiens",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Francia bajnokság",
-   "name": "Cergy-Pontoise - Amiens",
-   "betradar": 72178150
-  },
-  {
-   "id": 5637823,
-   "home": "Montevideo City Torque",
-   "away": "Racing Montevideo",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Uruguayi bajnokság",
-   "name": "Montevideo City Torque - Racing Montevideo",
-   "betradar": 76455614
-  },
-  {
-   "id": 5553640,
-   "home": "ASVEL Lyon-Villeurbanne",
-   "away": "Besiktas",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Euroliga",
-   "name": "ASVEL Lyon-Villeurbanne - Besiktas",
-   "betradar": 73263156
-  },
-  {
-   "id": 5556510,
-   "home": "Leganes",
-   "away": "Burgos",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Spanyol 2.",
-   "name": "Leganes - Burgos",
-   "betradar": 72477592
-  },
-  {
-   "id": 5592974,
-   "home": "Georgian Court Lions",
-   "away": "District Of Columbia Fire",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "NCAA",
-   "name": "Georgian Court Lions - District Of Columbia Firebirds",
-   "betradar": 75916066
-  },
-  {
-   "id": 5553594,
-   "home": "Ospitaletto",
-   "away": "Dolomiti Bellunesi",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Olasz C, A csoport",
-   "name": "Ospitaletto - Dolomiti Bellunesi",
-   "betradar": 73293348
-  },
-  {
-   "id": 5553593,
-   "home": "Latina",
-   "away": "Campobasso",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Olasz C, B csoport",
-   "name": "Latina - Campobasso",
-   "betradar": 73294084
-  },
-  {
-   "id": 5649180,
-   "home": "U21Anglia",
-   "away": "U21Portugália",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "U21 válogatott mérkőzés",
-   "name": "U21Anglia - U21Portugália",
-   "betradar": 76689882
-  },
-  {
-   "id": 5553674,
-   "home": "Glasgow",
-   "away": "Fife",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Jégkorong",
-   "tournament": "Brit Liga",
-   "name": "Glasgow - Fife",
-   "betradar": 72730840
-  },
-  {
-   "id": 5553630,
-   "home": "ASA Gries",
-   "away": "Hyeres-Toulon",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Francia 2.",
-   "name": "ASA Gries - Hyeres-Toulon",
-   "betradar": 73062852
-  },
-  {
-   "id": 5553631,
-   "home": "St-Chamond",
-   "away": "Blois",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Francia 2.",
-   "name": "St-Chamond - Blois",
-   "betradar": 73062846
-  },
-  {
-   "id": 5553633,
-   "home": "Vichy-Clermont",
-   "away": "Quimper",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Francia 2.",
-   "name": "Vichy-Clermont - Quimper",
-   "betradar": 74345686
-  },
-  {
-   "id": 5643314,
-   "home": "Denbigh Town",
-   "away": "Gresford",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Walesi 2., Északi csoport",
-   "name": "Denbigh Town - Gresford",
-   "betradar": 76488288
-  },
-  {
-   "id": 5643315,
-   "home": "Swansea Univ.",
-   "away": "Treowen Stars",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Walesi 2., Déli csoport",
-   "name": "Swansea Univ. - Treowen Stars",
-   "betradar": 76488396
-  },
-  {
-   "id": 5553642,
-   "home": "Charleroi Spirou",
-   "away": "CB Liege",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "BNXT Liga",
-   "name": "Charleroi Spirou - CB Liege",
-   "betradar": 72319216
-  },
-  {
-   "id": 5553619,
-   "home": "London Lions",
-   "away": "Surrey 89ers",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "Brit Liga",
-   "name": "London Lions - Surrey 89ers",
-   "betradar": 73810002
-  },
-  {
-   "id": 5553427,
-   "home": "Krka Novo Mesto",
-   "away": "Siroki Brijeg",
-   "start": "2026-11-13T19:30:00+00:00",
-   "sport": "Kosárlabda",
-   "tournament": "ABA Liga, A csoport",
-   "name": "Krka Novo Mesto - Siroki Brijeg",
-   "betradar": 74131768
-  },
-  {
-   "id": 5644226,
-   "home": "Ich. Horikawa",
-   "away": "N. Oliveras",
-   "start": "2026-11-13T19:40:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Oxford, női egyes",
-   "name": "Ich. Horikawa - N. Oliveras",
-   "betradar": 76511356
-  },
-  {
-   "id": 5644465,
-   "home": "M. Landreth",
-   "away": "E. Ndumbe",
-   "start": "2026-11-13T19:40:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Oxford, férfi egyes",
-   "name": "M. Landreth - E. Ndumbe",
-   "betradar": 76511310
-  },
   {
    "id": 5553351,
    "home": "Larne",
@@ -1808,34 +221,34 @@
    "betradar": 73575280
   },
   {
-   "id": 5644168,
-   "home": "J. Trainauskas",
-   "away": "Ama. Admiraal",
+   "id": 5644226,
+   "home": "Ich. Horikawa",
+   "away": "N. Oliveras",
+   "start": "2026-11-13T19:45:00+00:00",
+   "sport": "Tenisz",
+   "tournament": "Oxford, női egyes",
+   "name": "Ich. Horikawa - N. Oliveras",
+   "betradar": 76511356
+  },
+  {
+   "id": 5644356,
+   "home": "M. van der Merwe",
+   "away": "Noah Merre",
    "start": "2026-11-13T19:50:00+00:00",
    "sport": "Tenisz",
    "tournament": "Carvoeiro, férfi egyes",
-   "name": "J. Trainauskas - Ama. Admiraal",
-   "betradar": 76506102
+   "name": "M. van der Merwe - Noah Merre",
+   "betradar": 76505938
   },
   {
-   "id": 5644179,
-   "home": "M.A. Coman",
-   "away": "J. McGloughlin",
-   "start": "2026-11-13T19:50:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Carvoeiro, férfi egyes",
-   "name": "M.A. Coman - J. McGloughlin",
-   "betradar": 76506092
-  },
-  {
-   "id": 5644213,
-   "home": "M.P. Pieragostini",
-   "away": "A. Gamretkaia",
-   "start": "2026-11-13T19:50:00+00:00",
-   "sport": "Tenisz",
-   "tournament": "Carvoeiro, női egyes",
-   "name": "M.P. Pieragostini - A. Gamretkaia",
-   "betradar": 76551522
+   "id": 5554312,
+   "home": "Villa de Aranda",
+   "away": "Nava",
+   "start": "2026-11-13T20:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Spanyol bajnokság",
+   "name": "Villa de Aranda - Nava",
+   "betradar": 72982636
   },
   {
    "id": 5553610,
@@ -1908,14 +321,14 @@
    "betradar": 75802226
   },
   {
-   "id": 5651303,
-   "home": "Mirra Andreeva",
-   "away": "K. Muchova",
+   "id": 5644383,
+   "home": "M. Hlahola",
+   "away": "V. Bokova",
    "start": "2026-11-13T20:00:00+00:00",
    "sport": "Tenisz",
-   "tournament": "WTA-vb, női egyes, 2. csop.",
-   "name": "Mirra Andreeva - K. Muchova",
-   "betradar": 76711898
+   "tournament": "Carvoeiro, női egyes",
+   "name": "M. Hlahola - V. Bokova",
+   "betradar": 76506148
   },
   {
    "id": 5644464,
@@ -1928,6 +341,36 @@
    "betradar": 76511376
   },
   {
+   "id": 5652915,
+   "home": "Green A / Russ Z",
+   "away": "Maio J / Villeger W",
+   "start": "2026-11-13T20:00:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Irish Open, férfi páros",
+   "name": "Green A / Russ Z - Maio J / Villeger W",
+   "betradar": 76773308
+  },
+  {
+   "id": 5649052,
+   "home": "Lenny Schlueter",
+   "away": "Jan Schmidt",
+   "start": "2026-11-13T20:00:00+00:00",
+   "sport": "Darts",
+   "tournament": "Super League Germany",
+   "name": "Lenny Schlueter - Jan Schmidt",
+   "betradar": 76673290
+  },
+  {
+   "id": 5649120,
+   "home": "Barrientos N / Gomez J S",
+   "away": "Drzewiecki K / Matuszewsk",
+   "start": "2026-11-13T20:00:00+00:00",
+   "sport": "Tenisz",
+   "tournament": "Lima, férfi páros",
+   "name": "Barrientos N / Gomez J S - Drzewiecki K / Matuszewski P",
+   "betradar": 76431568
+  },
+  {
    "id": 5556152,
    "home": "Gimnastic",
    "away": "Real Madrid 2",
@@ -1936,6 +379,26 @@
    "tournament": "Spanyol 3., 2. csoport",
    "name": "Gimnastic - Real Madrid 2",
    "betradar": 73068212
+  },
+  {
+   "id": 5652981,
+   "home": "Grimley C / Grimley M",
+   "away": "Jin S I / Lee H W",
+   "start": "2026-11-13T20:15:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Irish Open, férfi páros",
+   "name": "Grimley C / Grimley M - Jin S I / Lee H W",
+   "betradar": 76772894
+  },
+  {
+   "id": 5644465,
+   "home": "M. Landreth",
+   "away": "E. Ndumbe",
+   "start": "2026-11-13T20:20:00+00:00",
+   "sport": "Tenisz",
+   "tournament": "Oxford, férfi egyes",
+   "name": "M. Landreth - E. Ndumbe",
+   "betradar": 76511310
   },
   {
    "id": 5610253,
@@ -1948,14 +411,34 @@
    "betradar": 76089692
   },
   {
-   "id": 5644231,
-   "home": "Piper Johnson",
-   "away": "A. Kostiushkina",
-   "start": "2026-11-13T20:50:00+00:00",
+   "id": 5649055,
+   "home": "F. Preis",
+   "away": "M. Hausotter",
+   "start": "2026-11-13T20:35:00+00:00",
+   "sport": "Darts",
+   "tournament": "Super League Germany",
+   "name": "F. Preis - M. Hausotter",
+   "betradar": 76673292
+  },
+  {
+   "id": 5651913,
+   "home": "A. Shelbayh",
+   "away": "Ala. Gray",
+   "start": "2026-11-13T20:40:00+00:00",
    "sport": "Tenisz",
-   "tournament": "Oxford, női egyes",
-   "name": "Piper Johnson - A. Kostiushkina",
-   "betradar": 76511260
+   "tournament": "Knoxville, férfi egyes",
+   "name": "A. Shelbayh - Ala. Gray",
+   "betradar": 76430864
+  },
+  {
+   "id": 5644193,
+   "home": "Peter Hatton",
+   "away": "D. Jeanne-Grandinot",
+   "start": "2026-11-13T20:55:00+00:00",
+   "sport": "Tenisz",
+   "tournament": "Carvoeiro, férfi egyes",
+   "name": "Peter Hatton - D. Jeanne-Grandinot",
+   "betradar": 76505934
   },
   {
    "id": 5592963,
@@ -2008,14 +491,34 @@
    "betradar": 76123128
   },
   {
-   "id": 5651052,
-   "home": "N. Sanchez-Izquierdo",
-   "away": "M. Tobon",
+   "id": 5554756,
+   "home": "Leixoes",
+   "away": "Maia",
+   "start": "2026-11-13T21:00:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Portugál bajnokság",
+   "name": "Leixoes - Maia",
+   "betradar": 74599442
+  },
+  {
+   "id": 5553766,
+   "home": "Club Son de Rosario",
+   "away": "River Plate",
+   "start": "2026-11-13T21:00:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Argentin bajnokság",
+   "name": "Club Son de Rosario - River Plate",
+   "betradar": 75208592
+  },
+  {
+   "id": 5644213,
+   "home": "M.P. Pieragostini",
+   "away": "A. Gamretkaia",
    "start": "2026-11-13T21:00:00+00:00",
    "sport": "Tenisz",
-   "tournament": "Lima, férfi egyes",
-   "name": "N. Sanchez-Izquierdo - M. Tobon",
-   "betradar": 76431546
+   "tournament": "Carvoeiro, női egyes",
+   "name": "M.P. Pieragostini - A. Gamretkaia",
+   "betradar": 76551522
   },
   {
    "id": 5652867,
@@ -2036,6 +539,66 @@
    "tournament": "WTA-vb, női egyes, 2. csop.",
    "name": "A. Sabalenka - E. Svitolina",
    "betradar": 76711900
+  },
+  {
+   "id": 5651052,
+   "home": "N. Sanchez-Izquierdo",
+   "away": "M. Tobon",
+   "start": "2026-11-13T21:10:00+00:00",
+   "sport": "Tenisz",
+   "tournament": "Lima, férfi egyes",
+   "name": "N. Sanchez-Izquierdo - M. Tobon",
+   "betradar": 76431546
+  },
+  {
+   "id": 5644596,
+   "home": "Jul. Alias",
+   "away": "J. Dominguez Alonso",
+   "start": "2026-11-13T21:10:00+00:00",
+   "sport": "Tenisz",
+   "tournament": "Carvoeiro, férfi egyes",
+   "name": "Jul. Alias - J. Dominguez Alonso",
+   "betradar": 76549138
+  },
+  {
+   "id": 5553760,
+   "home": "Renata Campinas",
+   "away": "Sada Cruzeiro",
+   "start": "2026-11-13T21:30:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Brazil bajnokság",
+   "name": "Renata Campinas - Sada Cruzeiro",
+   "betradar": 75360724
+  },
+  {
+   "id": 5555011,
+   "home": "Torreense",
+   "away": "Leoes Porto Salvo",
+   "start": "2026-11-13T21:30:00+00:00",
+   "sport": "Futsal",
+   "tournament": "Portugál bajnokság",
+   "name": "Torreense - Leoes Porto Salvo",
+   "betradar": 73866204
+  },
+  {
+   "id": 5553761,
+   "home": "Praia",
+   "away": "Mackenzie MG",
+   "start": "2026-11-13T21:30:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Brazil bajnokság, női",
+   "name": "Praia - Mackenzie MG",
+   "betradar": 75360794
+  },
+  {
+   "id": 5644231,
+   "home": "Piper Johnson",
+   "away": "A. Kostiushkina",
+   "start": "2026-11-13T21:50:00+00:00",
+   "sport": "Tenisz",
+   "tournament": "Oxford, női egyes",
+   "name": "Piper Johnson - A. Kostiushkina",
+   "betradar": 76511260
   },
   {
    "id": 5592967,
@@ -2198,6 +761,36 @@
    "betradar": 76090514
   },
   {
+   "id": 5644168,
+   "home": "J. Trainauskas",
+   "away": "Ama. Admiraal",
+   "start": "2026-11-13T22:05:00+00:00",
+   "sport": "Tenisz",
+   "tournament": "Carvoeiro, férfi egyes",
+   "name": "J. Trainauskas - Ama. Admiraal",
+   "betradar": 76506102
+  },
+  {
+   "id": 5651379,
+   "home": "Steve West",
+   "away": "Jenson Walker",
+   "start": "2026-11-13T22:10:00+00:00",
+   "sport": "Darts",
+   "tournament": "Modus Super Series",
+   "name": "Steve West - Jenson Walker",
+   "betradar": 76710094
+  },
+  {
+   "id": 5644179,
+   "home": "M.A. Coman",
+   "away": "J. McGloughlin",
+   "start": "2026-11-13T22:10:00+00:00",
+   "sport": "Tenisz",
+   "tournament": "Carvoeiro, férfi egyes",
+   "name": "M.A. Coman - J. McGloughlin",
+   "betradar": 76506092
+  },
+  {
    "id": 5652863,
    "home": "L. Poertner",
    "away": "C. Chinlund",
@@ -2236,6 +829,16 @@
    "tournament": "WTA-vb, női páros, 1. csop.",
    "name": "Dabrowski G / Stefani L - Hsieh S / Ostapenko J",
    "betradar": 76714742
+  },
+  {
+   "id": 5651381,
+   "home": "R. Burnett",
+   "away": "Archie Self",
+   "start": "2026-11-13T22:25:00+00:00",
+   "sport": "Darts",
+   "tournament": "Modus Super Series",
+   "name": "R. Burnett - Archie Self",
+   "betradar": 76708108
   },
   {
    "id": 5592961,
@@ -2326,6 +929,26 @@
    "tournament": "Brazil bajnokság",
    "name": "Sao Jose dos Campos - Paulistano",
    "betradar": 74320756
+  },
+  {
+   "id": 5652441,
+   "home": "Jenson Walker",
+   "away": "Lewis Gurney",
+   "start": "2026-11-13T22:40:00+00:00",
+   "sport": "Darts",
+   "tournament": "Modus Super Series",
+   "name": "Jenson Walker - Lewis Gurney",
+   "betradar": 76736516
+  },
+  {
+   "id": 5651382,
+   "home": "Archie Self",
+   "away": "Steve West",
+   "start": "2026-11-13T22:55:00+00:00",
+   "sport": "Darts",
+   "tournament": "Modus Super Series",
+   "name": "Archie Self - Steve West",
+   "betradar": 76708112
   },
   {
    "id": 5553413,
@@ -2448,6 +1071,26 @@
    "betradar": 76431544
   },
   {
+   "id": 5652459,
+   "home": "Lewis Gurney",
+   "away": "R. Burnett",
+   "start": "2026-11-13T23:10:00+00:00",
+   "sport": "Darts",
+   "tournament": "Modus Super Series",
+   "name": "Lewis Gurney - R. Burnett",
+   "betradar": 76736518
+  },
+  {
+   "id": 5651401,
+   "home": "Jenson Walker",
+   "away": "Archie Self",
+   "start": "2026-11-13T23:25:00+00:00",
+   "sport": "Darts",
+   "tournament": "Modus Super Series",
+   "name": "Jenson Walker - Archie Self",
+   "betradar": 76710098
+  },
+  {
    "id": 5553607,
    "home": "Butler Bulldogs",
    "away": "Pittsburgh Panthers",
@@ -2518,6 +1161,16 @@
    "betradar": 76714744
   },
   {
+   "id": 5652460,
+   "home": "Lewis Gurney",
+   "away": "Steve West",
+   "start": "2026-11-13T23:40:00+00:00",
+   "sport": "Darts",
+   "tournament": "Modus Super Series",
+   "name": "Lewis Gurney - Steve West",
+   "betradar": 76736520
+  },
+  {
    "id": 5610285,
    "home": "Truman State Bulldogs",
    "away": "Findlay Oilers",
@@ -2526,6 +1179,16 @@
    "tournament": "NCAA",
    "name": "Truman State Bulldogs - Findlay Oilers",
    "betradar": 76039912
+  },
+  {
+   "id": 5651445,
+   "home": "R. Burnett",
+   "away": "Jenson Walker",
+   "start": "2026-11-13T23:55:00+00:00",
+   "sport": "Darts",
+   "tournament": "Modus Super Series",
+   "name": "R. Burnett - Jenson Walker",
+   "betradar": 76710100
   },
   {
    "id": 5553862,
@@ -2546,6 +1209,16 @@
    "tournament": "NBA",
    "name": "Orlando - Milwaukee",
    "betradar": 73696986
+  },
+  {
+   "id": 5553999,
+   "home": "Osasco",
+   "away": "Sesi Bauru",
+   "start": "2026-11-14T00:00:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Brazil bajnokság, női",
+   "name": "Osasco - Sesi Bauru",
+   "betradar": 75360796
   },
   {
    "id": 5553707,
@@ -2858,6 +1531,16 @@
    "betradar": 76170242
   },
   {
+   "id": 5554000,
+   "home": "Ferro Carril Oeste",
+   "away": "Waiwen Comodoro Rivadavia",
+   "start": "2026-11-14T00:00:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Argentin bajnokság",
+   "name": "Ferro Carril Oeste - Waiwen Comodoro Rivadavia",
+   "betradar": 75208594
+  },
+  {
    "id": 5592981,
    "home": "Montserrat",
    "away": "Nicaragua",
@@ -2896,6 +1579,16 @@
    "tournament": "AHL",
    "name": "Providence - Springfield",
    "betradar": 72734724
+  },
+  {
+   "id": 5652480,
+   "home": "Archie Self",
+   "away": "Lewis Gurney",
+   "start": "2026-11-14T00:10:00+00:00",
+   "sport": "Darts",
+   "tournament": "Modus Super Series",
+   "name": "Archie Self - Lewis Gurney",
+   "betradar": 76736522
   },
   {
    "id": 5553612,
@@ -3016,6 +1709,16 @@
    "tournament": "NCAA",
    "name": "California (PA) Vulcans - Wheeling Jesuit Cardinals",
    "betradar": 76004778
+  },
+  {
+   "id": 5651446,
+   "home": "Steve West",
+   "away": "R. Burnett",
+   "start": "2026-11-14T00:30:00+00:00",
+   "sport": "Darts",
+   "tournament": "Modus Super Series",
+   "name": "Steve West - R. Burnett",
+   "betradar": 76708124
   },
   {
    "id": 5553853,
@@ -3208,6 +1911,16 @@
    "betradar": 76147766
   },
   {
+   "id": 5652503,
+   "home": "Jiang Z B / Wei Y X",
+   "away": "Watanabe Y / Taguchi M",
+   "start": "2026-11-14T01:00:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kumamoto Masters, vegyes páros",
+   "name": "Jiang Z B / Wei Y X - Watanabe Y / Taguchi M",
+   "betradar": 76744214
+  },
+  {
    "id": 5593067,
    "home": "San Francisco State Gator",
    "away": "Simon Fraser Clan",
@@ -3216,6 +1929,16 @@
    "tournament": "NCAA",
    "name": "San Francisco State Gators - Simon Fraser Clan",
    "betradar": 75916140
+  },
+  {
+   "id": 5652885,
+   "home": "Alwi Farhan",
+   "away": "Lakshya Sen",
+   "start": "2026-11-14T01:20:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kumamoto Masters, férfi egyes",
+   "name": "Alwi Farhan - Lakshya Sen",
+   "betradar": 76744410
   },
   {
    "id": 5553856,
@@ -3448,6 +2171,36 @@
    "betradar": 76431462
   },
   {
+   "id": 5652502,
+   "home": "Gao J X / Wu M Y",
+   "away": "Koga A / Saito N",
+   "start": "2026-11-14T02:00:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kumamoto Masters, vegyes páros",
+   "name": "Gao J X / Wu M Y - Koga A / Saito N",
+   "betradar": 76744216
+  },
+  {
+   "id": 5652881,
+   "home": "Koki Watanabe",
+   "away": "K. Vitidsarn",
+   "start": "2026-11-14T02:00:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kumamoto Masters, férfi egyes",
+   "name": "Koki Watanabe - K. Vitidsarn",
+   "betradar": 76744292
+  },
+  {
+   "id": 5652882,
+   "home": "Tomoka Miyazaki",
+   "away": "Zhiyi Wang",
+   "start": "2026-11-14T02:20:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kumamoto Masters, női egyes",
+   "name": "Tomoka Miyazaki - Zhiyi Wang",
+   "betradar": 76757356
+  },
+  {
    "id": 5553882,
    "home": "San Antonio",
    "away": "Golden State",
@@ -3466,6 +2219,16 @@
    "tournament": "NCAA",
    "name": "San Diego Toreros - Chicago State Cougars",
    "betradar": 73246258
+  },
+  {
+   "id": 5652886,
+   "home": "Tai A / Yap R K",
+   "away": "Lundgaard D / Vestergaard",
+   "start": "2026-11-14T02:40:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kumamoto Masters, férfi páros",
+   "name": "Tai A / Yap R K - Lundgaard D / Vestergaard M",
+   "betradar": 76756802
   },
   {
    "id": 5553860,
@@ -3538,6 +2301,16 @@
    "betradar": 76431692
   },
   {
+   "id": 5652880,
+   "home": "Akane Yamaguchi",
+   "away": "Yufei Chen",
+   "start": "2026-11-14T03:00:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kumamoto Masters, női egyes",
+   "name": "Akane Yamaguchi - Yufei Chen",
+   "betradar": 76757008
+  },
+  {
    "id": 5553949,
    "home": "Bakersfield",
    "away": "San Diego",
@@ -3556,6 +2329,16 @@
    "tournament": "Matsuyama, férfi páros",
    "name": "Reynolds F / Watt J - Isaro P / Shimizu Y",
    "betradar": 76431486
+  },
+  {
+   "id": 5652891,
+   "home": "Hsu Y-H / Lin J Y",
+   "away": "Hiramoto R / Shida C",
+   "start": "2026-11-14T03:20:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kumamoto Masters, női páros",
+   "name": "Hsu Y-H / Lin J Y - Hiramoto R / Shida C",
+   "betradar": 76760234
   },
   {
    "id": 5553865,
@@ -3668,6 +2451,26 @@
    "betradar": 76431720
   },
   {
+   "id": 5554004,
+   "home": "Nagoya Wolfdogs",
+   "away": "Osaka Blazers",
+   "start": "2026-11-14T04:05:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Japán bajnokság",
+   "name": "Nagoya Wolfdogs - Osaka Blazers",
+   "betradar": 72779744
+  },
+  {
+   "id": 5554006,
+   "home": "Suntory Sunbirds",
+   "away": "JTEKT Stings",
+   "start": "2026-11-14T04:05:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Japán bajnokság",
+   "name": "Suntory Sunbirds - JTEKT Stings",
+   "betradar": 72779748
+  },
+  {
    "id": 5640610,
    "home": "Juncheng Shang",
    "away": "C. Langmo",
@@ -3676,6 +2479,36 @@
    "tournament": "Brisbane, férfi egyes",
    "name": "Juncheng Shang - C. Langmo",
    "betradar": 76431690
+  },
+  {
+   "id": 5652884,
+   "home": "Yuan Chi Liao",
+   "away": "N.K. Dhinda Amartya Prati",
+   "start": "2026-11-14T04:20:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kaohsiung Masters, női egyes",
+   "name": "Yuan Chi Liao - N.K. Dhinda Amartya Pratiwi",
+   "betradar": 76757588
+  },
+  {
+   "id": 5652887,
+   "home": "Hae Deun Kim",
+   "away": "Rei Miyashita",
+   "start": "2026-11-14T04:30:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kaohsiung Masters, férfi egyes",
+   "name": "Hae Deun Kim - Rei Miyashita",
+   "betradar": 76760222
+  },
+  {
+   "id": 5652883,
+   "home": "Sin Yan Happy Lo",
+   "away": "M.A. Puspitasari",
+   "start": "2026-11-14T04:50:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kaohsiung Masters, női egyes",
+   "name": "Sin Yan Happy Lo - M.A. Puspitasari",
+   "betradar": 76757586
   },
   {
    "id": 5553815,
@@ -3758,6 +2591,16 @@
    "betradar": 75388792
   },
   {
+   "id": 5554351,
+   "home": "Incheon Air Jumbos",
+   "away": "Deajeon Blue Fangs",
+   "start": "2026-11-14T05:00:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Dél-koreai bajnokság",
+   "name": "Incheon Air Jumbos - Deajeon Blue Fangs",
+   "betradar": 75310194
+  },
+  {
    "id": 5553821,
    "home": "Nagano Parceiro",
    "away": "Nojima Sagamihara",
@@ -3786,6 +2629,56 @@
    "tournament": "Japán bajnokság",
    "name": "Altiri Chiba - Toyohashi Neophoenix",
    "betradar": 72696310
+  },
+  {
+   "id": 5554003,
+   "home": "Tokyo Great Bears",
+   "away": "Nagano Tridents",
+   "start": "2026-11-14T05:05:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Japán bajnokság",
+   "name": "Tokyo Great Bears - Nagano Tridents",
+   "betradar": 72779750
+  },
+  {
+   "id": 5554007,
+   "home": "Osaka Bluteon",
+   "away": "Fragolad Kagoshima",
+   "start": "2026-11-14T05:05:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Japán bajnokság",
+   "name": "Osaka Bluteon - Fragolad Kagoshima",
+   "betradar": 72779746
+  },
+  {
+   "id": 5554009,
+   "home": "Toray Arrows",
+   "away": "Voreas Hokkaido",
+   "start": "2026-11-14T05:05:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Japán bajnokság",
+   "name": "Toray Arrows - Voreas Hokkaido",
+   "betradar": 72779752
+  },
+  {
+   "id": 5554011,
+   "home": "Hokkaido Yellow Stars",
+   "away": "JT Thunders",
+   "start": "2026-11-14T05:05:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Japán bajnokság",
+   "name": "Hokkaido Yellow Stars - JT Thunders",
+   "betradar": 72779742
+  },
+  {
+   "id": 5652888,
+   "home": "Aiso M / Niimi M",
+   "away": "Meida I S / Nastine R K",
+   "start": "2026-11-14T05:10:00+00:00",
+   "sport": "Tollaslabda",
+   "tournament": "Kaohsiung Masters, női páros",
+   "name": "Aiso M / Niimi M - Meida I S / Nastine R K",
+   "betradar": 76763732
   },
   {
    "id": 5553813,
@@ -3838,6 +2731,16 @@
    "betradar": 72696314
   },
   {
+   "id": 5553991,
+   "home": "Wakunaga",
+   "away": "Toyota Motor East",
+   "start": "2026-11-14T06:30:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Japán bajnokság",
+   "name": "Wakunaga - Toyota Motor East",
+   "betradar": 75049682
+  },
+  {
    "id": 5559041,
    "home": "Bucheon Hana",
    "away": "Incheon S-Birds",
@@ -3856,6 +2759,16 @@
    "tournament": "Dél-koreai bajnokság",
    "name": "Seoul Thunders - Anyang",
    "betradar": 73657556
+  },
+  {
+   "id": 5643322,
+   "home": "Warriors",
+   "away": "Rocks",
+   "start": "2026-11-14T07:30:00+00:00",
+   "sport": "Krikett",
+   "tournament": "Dél-afrikai CSA T20 Chall.,ráj",
+   "name": "Warriors - Rocks",
+   "betradar": 76446156
   },
   {
    "id": 5632391,
@@ -3978,6 +2891,26 @@
    "betradar": 75911696
   },
   {
+   "id": 5643347,
+   "home": "Benfica",
+   "away": "Rio Ave",
+   "start": "2026-11-14T11:00:00+00:00",
+   "sport": "Futsal",
+   "tournament": "Portugál bajnokság",
+   "name": "Benfica - Rio Ave",
+   "betradar": 73866340
+  },
+  {
+   "id": 5554988,
+   "home": "LKS Lodz",
+   "away": "Opole",
+   "start": "2026-11-14T11:00:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Lengyel bajnokság, női",
+   "name": "LKS Lodz - Opole",
+   "betradar": 72775278
+  },
+  {
    "id": 5554048,
    "home": "Hoffenheim",
    "away": "Freiburg",
@@ -4036,6 +2969,16 @@
    "tournament": "Olasz bajnokság, női",
    "name": "Napoli - Milan",
    "betradar": 73095056
+  },
+  {
+   "id": 5554165,
+   "home": "Slavia Praha",
+   "away": "Helas Brno",
+   "start": "2026-11-14T12:00:00+00:00",
+   "sport": "Futsal",
+   "tournament": "Cseh bajnokság",
+   "name": "Slavia Praha - Helas Brno",
+   "betradar": 73623738
   },
   {
    "id": 5554276,
@@ -4106,6 +3049,16 @@
    "tournament": "Dán bajnokság, női",
    "name": "AGF Aarhus - Hjörring",
    "betradar": 72652506
+  },
+  {
+   "id": 5643352,
+   "home": "Lions",
+   "away": "Western Province",
+   "start": "2026-11-14T12:00:00+00:00",
+   "sport": "Krikett",
+   "tournament": "Dél-afrikai CSA T20 Chall.,ráj",
+   "name": "Lions - Western Province",
+   "betradar": 76446158
   },
   {
    "id": 5556165,
@@ -4288,6 +3241,26 @@
    "betradar": 75834472
   },
   {
+   "id": 5652877,
+   "home": "Vouliagmeni",
+   "away": "Trieste",
+   "start": "2026-11-14T13:00:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "BL, női, B csoport",
+   "name": "Vouliagmeni - Trieste",
+   "betradar": 75805288
+  },
+  {
+   "id": 5554761,
+   "home": "Ethnikosz Pireusz",
+   "away": "Periszteri",
+   "start": "2026-11-14T13:00:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "Görög bajnokság",
+   "name": "Ethnikosz Pireusz - Periszteri",
+   "betradar": 72715816
+  },
+  {
    "id": 5649239,
    "home": "U19Magyarország",
    "away": "U19Hollandia",
@@ -4296,6 +3269,16 @@
    "tournament": "U19 Eb-selejtező, A liga, 7.cs",
    "name": "U19Magyarország - U19Hollandia",
    "betradar": 74723534
+  },
+  {
+   "id": 5647345,
+   "home": "L. Woodhouse",
+   "away": "T. Sykes",
+   "start": "2026-11-14T13:15:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, J csoport",
+   "name": "L. Woodhouse - T. Sykes",
+   "betradar": 76636068
   },
   {
    "id": 5554254,
@@ -4378,6 +3361,56 @@
    "betradar": 70465052
   },
   {
+   "id": 5554763,
+   "home": "Hania",
+   "away": "PAOK",
+   "start": "2026-11-14T13:45:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "Görög bajnokság",
+   "name": "Hania - PAOK",
+   "betradar": 72715810
+  },
+  {
+   "id": 5647337,
+   "home": "J. Wattimena",
+   "away": "Lisa Ashton",
+   "start": "2026-11-14T13:45:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, B csoport",
+   "name": "J. Wattimena - Lisa Ashton",
+   "betradar": 76636044
+  },
+  {
+   "id": 5554984,
+   "home": "Belchatow",
+   "away": "Olsztyn",
+   "start": "2026-11-14T14:00:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Lengyel bajnokság",
+   "name": "Belchatow - Olsztyn",
+   "betradar": 72764964
+  },
+  {
+   "id": 5554353,
+   "home": "Telimar Palermo",
+   "away": "Ortigia",
+   "start": "2026-11-14T14:00:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "Olasz bajnokság",
+   "name": "Telimar Palermo - Ortigia",
+   "betradar": 74462450
+  },
+  {
+   "id": 5554355,
+   "home": "Posillipo Napoli",
+   "away": "Chiavari Nuoto",
+   "start": "2026-11-14T14:00:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "Olasz bajnokság",
+   "name": "Posillipo Napoli - Chiavari Nuoto",
+   "betradar": 74462446
+  },
+  {
    "id": 5593114,
    "home": "Haverfordwest",
    "away": "Ammanford",
@@ -4458,6 +3491,26 @@
    "betradar": 72700298
   },
   {
+   "id": 5554349,
+   "home": "Zlín",
+   "away": "Beskydy",
+   "start": "2026-11-14T14:00:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Cseh bajnokság",
+   "name": "Zlín - Beskydy",
+   "betradar": 72518096
+  },
+  {
+   "id": 5554350,
+   "home": "KP Brno",
+   "away": "Liberec",
+   "start": "2026-11-14T14:00:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Cseh bajnokság, női",
+   "name": "KP Brno - Liberec",
+   "betradar": 72520546
+  },
+  {
    "id": 5556002,
    "home": "Roma",
    "away": "Parma",
@@ -4466,6 +3519,16 @@
    "tournament": "Olasz bajnokság, női",
    "name": "Roma - Parma",
    "betradar": 73095058
+  },
+  {
+   "id": 5554764,
+   "home": "Ilisziakosz",
+   "away": "Glyfada",
+   "start": "2026-11-14T14:00:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "Görög bajnokság",
+   "name": "Ilisziakosz - Glyfada",
+   "betradar": 72715806
   },
   {
    "id": 5649232,
@@ -4528,6 +3591,16 @@
    "betradar": 71696570
   },
   {
+   "id": 5647340,
+   "home": "S. Bunting",
+   "away": "Raymond Smith",
+   "start": "2026-11-14T14:15:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, D csoport",
+   "name": "S. Bunting - Raymond Smith",
+   "betradar": 76636052
+  },
+  {
    "id": 5649226,
    "home": "U19Olaszország",
    "away": "U19Ukrajna",
@@ -4536,6 +3609,16 @@
    "tournament": "U19 Eb-selejtező, A Liga, 6.cs",
    "name": "U19Olaszország - U19Ukrajna",
    "betradar": 75649662
+  },
+  {
+   "id": 5647338,
+   "home": "R. Searle",
+   "away": "C. Manby",
+   "start": "2026-11-14T14:45:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, F csoport",
+   "name": "R. Searle - C. Manby",
+   "betradar": 76636056
   },
   {
    "id": 5554505,
@@ -4548,6 +3631,16 @@
    "betradar": 73659008
   },
   {
+   "id": 5554540,
+   "home": "Füchse Berlin",
+   "away": "Kiel",
+   "start": "2026-11-14T14:55:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Német bajnokság",
+   "name": "Füchse Berlin - Kiel",
+   "betradar": 72473258
+  },
+  {
    "id": 5554609,
    "home": "AEK Athén",
    "away": "Doxa Lefkada",
@@ -4558,6 +3651,36 @@
    "betradar": 74750480
   },
   {
+   "id": 5554542,
+   "home": "Holstebro",
+   "away": "Mors-Thy",
+   "start": "2026-11-14T15:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Dán bajnokság",
+   "name": "Holstebro - Mors-Thy",
+   "betradar": 72840338
+  },
+  {
+   "id": 5554544,
+   "home": "Kolding",
+   "away": "Ringsted",
+   "start": "2026-11-14T15:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Dán bajnokság",
+   "name": "Kolding - Ringsted",
+   "betradar": 72840344
+  },
+  {
+   "id": 5554545,
+   "home": "Aalborg",
+   "away": "Skanderborg",
+   "start": "2026-11-14T15:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Dán bajnokság",
+   "name": "Aalborg - Skanderborg",
+   "betradar": 72840346
+  },
+  {
    "id": 5554504,
    "home": "Taurage",
    "away": "Lietkabelis Panevezys",
@@ -4566,6 +3689,16 @@
    "tournament": "Litván bajnokság",
    "name": "Taurage - Lietkabelis Panevezys",
    "betradar": 73659012
+  },
+  {
+   "id": 5554539,
+   "home": "Szeged",
+   "away": "Veszprém",
+   "start": "2026-11-14T15:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "NB I",
+   "name": "Szeged - Veszprém",
+   "betradar": 74119564
   },
   {
    "id": 5554399,
@@ -4878,6 +4011,16 @@
    "betradar": 76438760
   },
   {
+   "id": 5554538,
+   "home": "Storhamar",
+   "away": "Nyköbing F.",
+   "start": "2026-11-14T15:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "BL, női, B csoport",
+   "name": "Storhamar - Nyköbing F.",
+   "betradar": 73163368
+  },
+  {
    "id": 5554400,
    "home": "East Fife",
    "away": "Peterhead",
@@ -4978,6 +4121,16 @@
    "betradar": 73346118
   },
   {
+   "id": 5554762,
+   "home": "Chiosz",
+   "away": "Panioniosz",
+   "start": "2026-11-14T15:00:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "Görög bajnokság",
+   "name": "Chiosz - Panioniosz",
+   "betradar": 72715812
+  },
+  {
    "id": 5649233,
    "home": "U19Finnország",
    "away": "U19Izland",
@@ -5026,6 +4179,16 @@
    "tournament": "Spanyol 2.",
    "name": "Real Sociedad 2 - Sp. Gijon",
    "betradar": 72477598
+  },
+  {
+   "id": 5647332,
+   "home": "Josh Rock",
+   "away": "Tommy Morris",
+   "start": "2026-11-14T15:15:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, C csoport",
+   "name": "Josh Rock - Tommy Morris",
+   "betradar": 76636046
   },
   {
    "id": 5554607,
@@ -5088,6 +4251,16 @@
    "betradar": 72559236
   },
   {
+   "id": 5593123,
+   "home": "Ethnikosz Pireusz",
+   "away": "Terrassa",
+   "start": "2026-11-14T15:30:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "BL, női, C csoport",
+   "name": "Ethnikosz Pireusz - Terrassa",
+   "betradar": 75805324
+  },
+  {
    "id": 5649240,
    "home": "U19Dánia",
    "away": "U19San Marino",
@@ -5096,6 +4269,26 @@
    "tournament": "U19 Eb-selejtező, B liga, 2.cs",
    "name": "U19Dánia - U19San Marino",
    "betradar": 74827236
+  },
+  {
+   "id": 5647341,
+   "home": "W. Nijman",
+   "away": "A. Sevada",
+   "start": "2026-11-14T15:45:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, H csoport",
+   "name": "W. Nijman - A. Sevada",
+   "betradar": 76636064
+  },
+  {
+   "id": 5554314,
+   "home": "Torrelavega",
+   "away": "Ademar Leon",
+   "start": "2026-11-14T16:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Spanyol bajnokság",
+   "name": "Torrelavega - Ademar Leon",
+   "betradar": 72982632
   },
   {
    "id": 5554640,
@@ -5148,6 +4341,36 @@
    "betradar": 74372596
   },
   {
+   "id": 5554727,
+   "home": "Ostrava",
+   "away": "Frydek-Mistek",
+   "start": "2026-11-14T16:00:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Cseh bajnokság, női",
+   "name": "Ostrava - Frydek-Mistek",
+   "betradar": 72520536
+  },
+  {
+   "id": 5554729,
+   "home": "Olymp Praha",
+   "away": "Prerov",
+   "start": "2026-11-14T16:00:00+00:00",
+   "sport": "Röplabda",
+   "tournament": "Cseh bajnokság, női",
+   "name": "Olymp Praha - Prerov",
+   "betradar": 72520542
+  },
+  {
+   "id": 5593134,
+   "home": "Ekipe Orizzonte Catania",
+   "away": "Olympiakosz",
+   "start": "2026-11-14T16:00:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "BL, női, C csoport",
+   "name": "Ekipe Orizzonte Catania - Olympiakosz",
+   "betradar": 75805322
+  },
+  {
    "id": 5652820,
    "home": "Arin Pallegar",
    "away": "Prathinav Chunduru",
@@ -5156,6 +4379,16 @@
    "tournament": "Houston, férfi egyes",
    "name": "Arin Pallegar - Prathinav Chunduru",
    "betradar": 76742018
+  },
+  {
+   "id": 5647339,
+   "home": "N. Aspinall",
+   "away": "M. Kuivenhoven",
+   "start": "2026-11-14T16:15:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, P csoport",
+   "name": "N. Aspinall - M. Kuivenhoven",
+   "betradar": 76636116
   },
   {
    "id": 5556351,
@@ -5228,6 +4461,16 @@
    "betradar": 72676974
   },
   {
+   "id": 5647333,
+   "home": "J. Clayton",
+   "away": "A. Östlund",
+   "start": "2026-11-14T16:45:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, G csoport",
+   "name": "J. Clayton - A. Östlund",
+   "betradar": 76636062
+  },
+  {
    "id": 5554856,
    "home": "Breogan Lugo",
    "away": "San Pablo Burgos",
@@ -5236,6 +4479,16 @@
    "tournament": "Spanyol bajnokság",
    "name": "Breogan Lugo - San Pablo Burgos",
    "betradar": 73713584
+  },
+  {
+   "id": 5554920,
+   "home": "GOG",
+   "away": "Bjerringbro-Silkeborg",
+   "start": "2026-11-14T17:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Dán bajnokság",
+   "name": "GOG - Bjerringbro-Silkeborg",
+   "betradar": 72840350
   },
   {
    "id": 5554835,
@@ -5286,6 +4539,16 @@
    "tournament": "Francia bajnokság",
    "name": "Chalon sur Saone - Boulazac",
    "betradar": 74295738
+  },
+  {
+   "id": 5554311,
+   "home": "AX Puente Genil",
+   "away": "Morrazo Cangas",
+   "start": "2026-11-14T17:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Spanyol bajnokság",
+   "name": "AX Puente Genil - Morrazo Cangas",
+   "betradar": 72982640
   },
   {
    "id": 5554634,
@@ -5358,6 +4621,36 @@
    "betradar": 68932766
   },
   {
+   "id": 5554883,
+   "home": "Podravka Koprivnica",
+   "away": "Bistrita",
+   "start": "2026-11-14T17:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "BL, női, B csoport",
+   "name": "Podravka Koprivnica - Bistrita",
+   "betradar": 73163360
+  },
+  {
+   "id": 5593132,
+   "home": "FTC",
+   "away": "Sabadell",
+   "start": "2026-11-14T17:00:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "BL, női, D csoport",
+   "name": "FTC - Sabadell",
+   "betradar": 75805380
+  },
+  {
+   "id": 5593135,
+   "home": "UVSE",
+   "away": "Mataro",
+   "start": "2026-11-14T17:00:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "BL, női, A csoport",
+   "name": "UVSE - Mataro",
+   "betradar": 75805172
+  },
+  {
    "id": 5649402,
    "home": "U19Portugália",
    "away": "U19Németország",
@@ -5428,6 +4721,26 @@
    "betradar": 72627096
   },
   {
+   "id": 5554354,
+   "home": "Lazio",
+   "away": "Akker Bologna",
+   "start": "2026-11-14T17:30:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "Olasz bajnokság",
+   "name": "Lazio - Akker Bologna",
+   "betradar": 74462440
+  },
+  {
+   "id": 5554358,
+   "home": "Trieste",
+   "away": "Roma Vis Nova",
+   "start": "2026-11-14T17:30:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "Olasz bajnokság",
+   "name": "Trieste - Roma Vis Nova",
+   "betradar": 74462444
+  },
+  {
    "id": 5554840,
    "home": "Bourg",
    "away": "Roanne",
@@ -5488,6 +4801,26 @@
    "betradar": 73068198
   },
   {
+   "id": 5593133,
+   "home": "Rapallo",
+   "away": "SIS Roma",
+   "start": "2026-11-14T17:30:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "BL, női, D csoport",
+   "name": "Rapallo - SIS Roma",
+   "betradar": 75805382
+  },
+  {
+   "id": 5593131,
+   "home": "BVSC",
+   "away": "ZV de Zaan",
+   "start": "2026-11-14T17:30:00+00:00",
+   "sport": "Vízilabda",
+   "tournament": "BL, női, A csoport",
+   "name": "BVSC - ZV de Zaan",
+   "betradar": 75805170
+  },
+  {
    "id": 5556159,
    "home": "Hercules",
    "away": "Villarreal 2",
@@ -5528,6 +4861,46 @@
    "betradar": 72559228
   },
   {
+   "id": 5555106,
+   "home": "Balingen-Weilstetten",
+   "away": "Wetzlar",
+   "start": "2026-11-14T18:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Német bajnokság",
+   "name": "Balingen-Weilstetten - Wetzlar",
+   "betradar": 72473272
+  },
+  {
+   "id": 5555107,
+   "home": "Erlangen",
+   "away": "Hamburg",
+   "start": "2026-11-14T18:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Német bajnokság",
+   "name": "Erlangen - Hamburg",
+   "betradar": 72473264
+  },
+  {
+   "id": 5555088,
+   "home": "Nantes",
+   "away": "St. Raphael",
+   "start": "2026-11-14T18:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Francia bajnokság",
+   "name": "Nantes - St. Raphael",
+   "betradar": 72749008
+  },
+  {
+   "id": 5555110,
+   "home": "Sönderjyske",
+   "away": "Ribe-Esbjerg",
+   "start": "2026-11-14T18:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Dán bajnokság",
+   "name": "Sönderjyske - Ribe-Esbjerg",
+   "betradar": 72840340
+  },
+  {
    "id": 5555076,
    "home": "Carolina",
    "away": "Seattle",
@@ -5536,6 +4909,26 @@
    "tournament": "NHL",
    "name": "Carolina - Seattle",
    "betradar": 72909490
+  },
+  {
+   "id": 5554309,
+   "home": "Puerto Sagunto",
+   "away": "Bidasoa Irun",
+   "start": "2026-11-14T18:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Spanyol bajnokság",
+   "name": "Puerto Sagunto - Bidasoa Irun",
+   "betradar": 72982642
+  },
+  {
+   "id": 5554310,
+   "home": "Logrono La Rioja",
+   "away": "Granollers",
+   "start": "2026-11-14T18:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Spanyol bajnokság",
+   "name": "Logrono La Rioja - Granollers",
+   "betradar": 72982630
   },
   {
    "id": 5555072,
@@ -5586,16 +4979,6 @@
    "tournament": "Argent.3.,Metropol,feljutásért",
    "name": "Villa Dalmine - Atl. Camioneros",
    "betradar": 76427134
-  },
-  {
-   "id": 5632345,
-   "home": "Dep. Armenio",
-   "away": "Sportivo Italiano",
-   "start": "2026-11-14T18:30:00+00:00",
-   "sport": "Labdarúgás",
-   "tournament": "Argent.3.,Metropol,feljutásért",
-   "name": "Dep. Armenio - Sportivo Italiano",
-   "betradar": 76427128
   },
   {
    "id": 5555272,
@@ -5708,6 +5091,36 @@
    "betradar": 73451868
   },
   {
+   "id": 5555337,
+   "home": "R-N. Löwen Kronau",
+   "away": "Lemgo",
+   "start": "2026-11-14T19:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Német bajnokság",
+   "name": "R-N. Löwen Kronau - Lemgo",
+   "betradar": 72473262
+  },
+  {
+   "id": 5555339,
+   "home": "Bergischer",
+   "away": "Eisenach",
+   "start": "2026-11-14T19:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Német bajnokság",
+   "name": "Bergischer - Eisenach",
+   "betradar": 72473270
+  },
+  {
+   "id": 5554313,
+   "home": "Encantada Cuenca",
+   "away": "Caserio Ciudad Real",
+   "start": "2026-11-14T19:00:00+00:00",
+   "sport": "Kézilabda",
+   "tournament": "Spanyol bajnokság",
+   "name": "Encantada Cuenca - Caserio Ciudad Real",
+   "betradar": 72982638
+  },
+  {
    "id": 5555238,
    "home": "Dordrecht",
    "away": "Heracles",
@@ -5806,6 +5219,16 @@
    "tournament": "Brazil bajnokság",
    "name": "Corinthians Paulista - Osasco",
    "betradar": 74320758
+  },
+  {
+   "id": 5647344,
+   "home": "Ger. Price",
+   "away": "Joe Hunt",
+   "start": "2026-11-14T19:15:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, E csoport",
+   "name": "Ger. Price - Joe Hunt",
+   "betradar": 76636054
   },
   {
    "id": 5555458,
@@ -5978,6 +5401,26 @@
    "betradar": 68932626
   },
   {
+   "id": 5647336,
+   "home": "J. Wade",
+   "away": "C. Crabtree",
+   "start": "2026-11-14T19:45:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, K csoport",
+   "name": "J. Wade - C. Crabtree",
+   "betradar": 76636070
+  },
+  {
+   "id": 5555509,
+   "home": "Joventut Badalona",
+   "away": "Zaragoza",
+   "start": "2026-11-14T20:00:00+00:00",
+   "sport": "Kosárlabda",
+   "tournament": "Spanyol bajnokság",
+   "name": "Joventut Badalona - Zaragoza",
+   "betradar": 73713590
+  },
+  {
    "id": 5556525,
    "home": "Oviedo",
    "away": "Girona",
@@ -5996,6 +5439,16 @@
    "tournament": "Spanyol 3., 2. csoport",
    "name": "Real Jaen - Zaragoza",
    "betradar": 73068204
+  },
+  {
+   "id": 5647347,
+   "home": "Ross Smith",
+   "away": "Rusty-Jake Rodriguez",
+   "start": "2026-11-14T20:15:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, O csoport",
+   "name": "Ross Smith - Rusty-Jake Rodriguez",
+   "betradar": 76636110
   },
   {
    "id": 5555566,
@@ -6068,6 +5521,16 @@
    "betradar": 76676672
   },
   {
+   "id": 5647334,
+   "home": "M. van Gerwen",
+   "away": "Henry Coates",
+   "start": "2026-11-14T20:45:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, L csoport",
+   "name": "M. van Gerwen - Henry Coates",
+   "betradar": 76636080
+  },
+  {
    "id": 5555596,
    "home": "Belleville",
    "away": "Cleveland",
@@ -6118,6 +5581,16 @@
    "betradar": 76642964
   },
   {
+   "id": 5647342,
+   "home": "L. Humphries",
+   "away": "P. Nebrida",
+   "start": "2026-11-14T21:15:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, I csoport",
+   "name": "L. Humphries - P. Nebrida",
+   "betradar": 76636066
+  },
+  {
    "id": 5594126,
    "home": "Mirassol SP",
    "away": "Atlético MG",
@@ -6136,6 +5609,16 @@
    "tournament": "CONCACAF Nemzetek Ligája,A div",
    "name": "Haiti - USA",
    "betradar": 75466980
+  },
+  {
+   "id": 5647346,
+   "home": "L. Littler",
+   "away": "B. Greaves",
+   "start": "2026-11-14T21:45:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, A csoport",
+   "name": "L. Littler - B. Greaves",
+   "betradar": 76636042
   },
   {
    "id": 5649141,
@@ -6166,6 +5649,26 @@
    "tournament": "Argentin 2, ráj. a feljutásért",
    "name": "Dep. Madryn - Dep. Maipu",
    "betradar": 76413240
+  },
+  {
+   "id": 5647343,
+   "home": "G. van Veen",
+   "away": "C. Sneyd",
+   "start": "2026-11-14T22:15:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, M csoport",
+   "name": "G. van Veen - C. Sneyd",
+   "betradar": 76636138
+  },
+  {
+   "id": 5647335,
+   "home": "C. Dobey",
+   "away": "Jan Schmidt",
+   "start": "2026-11-14T22:45:00+00:00",
+   "sport": "Darts",
+   "tournament": "Grand Slam, N csoport",
+   "name": "C. Dobey - Jan Schmidt",
+   "betradar": 76636100
   }
  ]
 }
