@@ -3967,5 +3967,71 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T04:23:22.539661+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 0,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-13T04:28:22.539701+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "boosts": 0,
+  "tippmix_matches": 1142,
+  "pinnacle_fixtures": 1111,
+  "paired": 697,
+  "by_sport": {
+   "Soccer": [
+    461,
+    346
+   ],
+   "Tennis": [
+    180,
+    26
+   ],
+   "Basketball": [
+    330,
+    201
+   ],
+   "Ice Hockey": [
+    171,
+    124
+   ]
+  },
+  "top_ev": [
+   "+2.1% Németország – Finnország · Hendikep (rendes játékidő): Németország (+2.5) @1.63 (fair 1.597)",
+   "+1.2% Stockport – Reading · 1X2: Stockport győz @1.91 (fair 1.888)",
+   "+1.1% Juventude RS – Botafogo SP · Ázsiai hendikep: Botafogo SP (+2) @1.35 (fair 1.335)",
+   "+0.8% Svédország – Svájc · Győztes (hosszabbítással): Svédország győz @1.19 (fair 1.18)",
+   "-0.5% Milton Keynes Dons – Burton · 1X2: Milton Keynes Dons győz @1.71 (fair 1.719)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 36,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 103,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 4,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 154
  }
 ]
