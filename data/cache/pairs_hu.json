@@ -7924,6 +7924,31 @@
   },
   "score": 1.0
  },
+ "id1002604675024558": {
+  "tm": {
+   "id": "319764262842081280",
+   "sport": "Labdarúgás",
+   "name": "Beti Kozkor - Doneztebe FT",
+   "home": "Beti Kozkor",
+   "away": "Doneztebe FT",
+   "home_pid": "214488000379375616",
+   "away_pid": "312253379875860480",
+   "tournament": "Spanyol 5., 15. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-13T19:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002604675024558",
+   "startTime": "2026-11-13T19:15:00.000Z",
+   "participant1Name": "Beti Kozkor KE",
+   "participant2Name": "Doneztebe Ft",
+   "tournamentId": 26046,
+   "tournamentName": "Tercera Federacion, Group 15",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1004053374063598": {
   "tm": {
    "id": "318637421231153152",
@@ -17593,6 +17618,56 @@
    "startTime": "2026-11-14T00:05:00.000Z",
    "participant1Name": "Rochester Americans",
    "participant2Name": "Laval Rocket",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1500084472734324": {
+  "tm": {
+   "id": "318936630408847360",
+   "sport": "Jégkorong",
+   "name": "Iowa Wild - Grand Rapids Griffins",
+   "home": "Iowa Wild",
+   "away": "Grand Rapids Griffins",
+   "home_pid": "37769",
+   "away_pid": "37766",
+   "tournament": "AHL",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-14T01:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500084472734324",
+   "startTime": "2026-11-14T01:00:00.000Z",
+   "participant1Name": "Iowa Wild",
+   "participant2Name": "Grand Rapids Griffins",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1500084472734322": {
+  "tm": {
+   "id": "318936583419011072",
+   "sport": "Jégkorong",
+   "name": "Rockford Icehogs - Milwaukee Admirals",
+   "home": "Rockford Icehogs",
+   "away": "Milwaukee Admirals",
+   "home_pid": "56635",
+   "away_pid": "151860691139088384",
+   "tournament": "AHL",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-14T01:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500084472734322",
+   "startTime": "2026-11-14T01:00:00.000Z",
+   "participant1Name": "Rockford Icehogs",
+   "participant2Name": "Milwaukee Admirals",
    "tournamentId": 844,
    "tournamentName": "AHL",
    "sportName": "Ice Hockey"

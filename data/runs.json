@@ -4513,5 +4513,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T07:18:36.822451+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-1.8% Oakleigh Cannons – Marconi Stallions · 1X2: Oakleigh Cannons győz @1.51 (fair 1.537)",
+   "-3.2% Oakleigh Cannons – Marconi Stallions · Ázsiai hendikep: Oakleigh Cannons (-1) @1.81 (fair 1.87)",
+   "-3.6% Oakleigh Cannons – Marconi Stallions · Ázsiai hendikep: Oakleigh Cannons (-0.75) @1.6 (fair 1.659)",
+   "-3.7% Oakleigh Cannons – Marconi Stallions · Ázsiai hendikep: Oakleigh Cannons (-0.25) @1.32 (fair 1.37)",
+   "-3.9% Oakleigh Cannons – Marconi Stallions · Ázsiai hendikep: Oakleigh Cannons (-0.5) @1.47 (fair 1.53)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 6,
+  "fast": true,
+  "fixtures_checked": 11,
+  "fixtures_both": 9,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 13
+ },
+ {
+  "time": "2026-11-13T07:23:36.822599+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1232,
+  "pinnacle_fixtures": 1111,
+  "paired": 723,
+  "by_sport": {
+   "Soccer": [
+    487,
+    351
+   ],
+   "Tennis": [
+    194,
+    26
+   ],
+   "Basketball": [
+    353,
+    205
+   ],
+   "Ice Hockey": [
+    198,
+    141
+   ]
+  },
+  "top_ev": [
+   "+1.1% Moldova – Kazahsztán · Gólszám 1.5: Több @1.52 (fair 1.504)",
+   "+0.3% Moldova – Kazahsztán · Gólszám 1.75: Több @1.65 (fair 1.644)",
+   "+0.3% Wolfsburg – Eisbären Berlin · Győztes (hosszabbítással): Eisbären Berlin győz @1.5 (fair 1.496)",
+   "-0.3% Roskilde – Nyköbing · Gólszám 3.25: Több @2.22 (fair 2.227)",
+   "-0.4% Szingapúr – Paraguay · 1X2: Paraguay győz @1.07 (fair 1.074)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 21,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 115,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 19,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
