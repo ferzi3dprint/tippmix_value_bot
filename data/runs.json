@@ -3149,5 +3149,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T00:17:58.653714+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "+0.6% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.52 (fair 1.51)",
+   "-2.4% Chicago – Buffalo · Hendikep (rendes játékidő): Buffalo (-0) @1.6 (fair 1.64)",
+   "-2.4% Utah – St. Louis · 1X2 (rendes játékidő): St. Louis győz @2.27 (fair 2.327)",
+   "-2.6% Dallas – Winnipeg · Győztes (hosszabbítással): Dallas győz @1.62 (fair 1.664)",
+   "-2.7% Atl. Morelia – Leones Negros UdeG · Gólszám 1.5: Több @1.3 (fair 1.336)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 21,
+  "fixtures_both": 9,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 22
+ },
+ {
+  "time": "2026-11-13T00:22:58.653799+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 7,
+  "boosts": 0,
+  "tippmix_matches": 1160,
+  "pinnacle_fixtures": 1111,
+  "paired": 722,
+  "by_sport": {
+   "Soccer": [
+    452,
+    344
+   ],
+   "Tennis": [
+    182,
+    29
+   ],
+   "Basketball": [
+    349,
+    218
+   ],
+   "Ice Hockey": [
+    177,
+    131
+   ]
+  },
+  "top_ev": [
+   "+4.3% Marokkó – Niger · Ázsiai hendikep: Niger (+3) @1.61 (fair 1.544)",
+   "+3.2% Marokkó – Niger · Ázsiai hendikep: Niger (+2.75) @1.82 (fair 1.764)",
+   "+0.6% Szlovákia – Feröer-szigetek · Gólszám 4.5: Kevesebb @1.15 (fair 1.143)",
+   "+0.2% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.52 (fair 1.517)",
+   "-0.2% Skócia – Észak-Macedónia · Gólszám 4.5: Kevesebb @1.19 (fair 1.192)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 8,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 93,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 9,
+  "placed": 1,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 157
  }
 ]
