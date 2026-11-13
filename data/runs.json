@@ -4165,5 +4165,71 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 154
+ },
+ {
+  "time": "2026-11-13T05:28:22.683793+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 1,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 1
+ },
+ {
+  "time": "2026-11-13T05:33:22.683882+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1223,
+  "pinnacle_fixtures": 1111,
+  "paired": 709,
+  "by_sport": {
+   "Soccer": [
+    481,
+    347
+   ],
+   "Tennis": [
+    205,
+    26
+   ],
+   "Basketball": [
+    347,
+    201
+   ],
+   "Ice Hockey": [
+    190,
+    135
+   ]
+  },
+  "top_ev": [
+   "+1.8% Moldova – Kazahsztán · Gólszám 1.5: Több @1.53 (fair 1.502)",
+   "+1.7% Moldova – Kazahsztán · Gólszám 1.75: Több @1.67 (fair 1.642)",
+   "+1.5% Moldova – Kazahsztán · Gólszám 2: Több @1.91 (fair 1.881)",
+   "+0.0% Wolfsburg – Eisbären Berlin · Győztes (hosszabbítással): Eisbären Berlin győz @1.48 (fair 1.479)",
+   "-0.5% Mali – Ruanda · Gólszám 3: Kevesebb @1.37 (fair 1.377)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 16,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 105,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 16,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
