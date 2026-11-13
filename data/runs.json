@@ -5377,5 +5377,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T11:46:32.357639+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-1.0% Haras El Hodood – El Dakhleya SC · 1X2: Haras El Hodood győz @1.63 (fair 1.647)",
+   "-1.2% Tanta – La Viena · Ázsiai hendikep: Tanta (+0) @1.41 (fair 1.427)",
+   "-1.6% Kafr El Zayat – Team FC Cairo · 1X2: Kafr El Zayat győz @1.96 (fair 1.992)",
+   "-1.7% Kafr El Zayat – Team FC Cairo · Ázsiai hendikep: Kafr El Zayat (+0) @1.35 (fair 1.374)",
+   "-2.0% Haras El Hodood – El Dakhleya SC · Ázsiai hendikep: Haras El Hodood (+0) @1.19 (fair 1.215)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 4,
+  "fast": true,
+  "fixtures_checked": 18,
+  "fixtures_both": 15,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 6,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 24
+ },
+ {
+  "time": "2026-11-13T11:51:32.730729+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1283,
+  "pinnacle_fixtures": 1111,
+  "paired": 695,
+  "by_sport": {
+   "Soccer": [
+    540,
+    347
+   ],
+   "Tennis": [
+    162,
+    11
+   ],
+   "Basketball": [
+    374,
+    198
+   ],
+   "Ice Hockey": [
+    207,
+    139
+   ]
+  },
+  "top_ev": [
+   "+1.1% Coleraine FC – Portadown FC · 1X2: Coleraine FC győz @1.21 (fair 1.197)",
+   "+0.8% U21Finnország – U21Írország · 1X2: U21Finnország győz @1.76 (fair 1.745)",
+   "+0.7% Dél-Afrika – Kenya · Ázsiai hendikep: Kenya (+2) @1.51 (fair 1.499)",
+   "+0.5% Svédország – Svájc · Győztes (hosszabbítással): Svédország győz @1.18 (fair 1.174)",
+   "+0.0% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.45 (fair 1.45)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 17,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 120,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 26,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
