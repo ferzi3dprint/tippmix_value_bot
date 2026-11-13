@@ -3077,5 +3077,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-12T23:55:52.405970+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-0.7% Florida – Detroit · Hendikep (rendes játékidő): Florida (+0) @1.49 (fair 1.501)",
+   "-1.0% Florida – Detroit · Győztes (hosszabbítással): Florida győz @1.54 (fair 1.556)",
+   "-2.5% Chicago – Buffalo · Győztes (hosszabbítással): Buffalo győz @1.66 (fair 1.702)",
+   "-2.6% Chicago – Buffalo · Hendikep (rendes játékidő): Chicago (+1) @1.63 (fair 1.673)",
+   "-2.9% Florida – Detroit · Hendikep (rendes játékidő): Florida (-0.5) @1.88 (fair 1.936)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 17,
+  "fixtures_both": 6,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 19
+ },
+ {
+  "time": "2026-11-13T00:00:52.405932+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1167,
+  "pinnacle_fixtures": 1111,
+  "paired": 728,
+  "by_sport": {
+   "Soccer": [
+    451,
+    344
+   ],
+   "Tennis": [
+    187,
+    32
+   ],
+   "Basketball": [
+    348,
+    218
+   ],
+   "Ice Hockey": [
+    181,
+    134
+   ]
+  },
+  "top_ev": [
+   "+0.5% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.52 (fair 1.513)",
+   "-0.4% Moldova – Kazahsztán · Gólszám 1.5: Több @1.52 (fair 1.525)",
+   "-0.5% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+1) @1.38 (fair 1.387)",
+   "-0.7% Florida – Detroit · Hendikep (rendes játékidő): Florida (+0) @1.49 (fair 1.501)",
+   "-0.7% Melbourne Victory – Adelaide Utd. · 1X2: Melbourne Victory győz @1.59 (fair 1.602)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 17,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 104,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 12,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
