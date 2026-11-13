@@ -5737,5 +5737,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T13:40:35.500605+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-0.2% Egyesült Arab Emirátusok – Honduras · 1X2: Egyesült Arab Emirátusok győz @2.1 (fair 2.103)",
+   "-0.6% Egyesült Arab Emirátusok – Honduras · Ázsiai hendikep: Egyesült Arab Emirátusok (+0) @1.48 (fair 1.49)",
+   "-1.3% Egyesült Arab Emirátusok – Honduras · Ázsiai hendikep: Egyesült Arab Emirátusok (+0.25) @1.35 (fair 1.368)",
+   "-1.9% Egyesült Arab Emirátusok – Honduras · Ázsiai hendikep: Egyesült Arab Emirátusok (+0.5) @1.27 (fair 1.294)",
+   "-3.0% Etehad Al Reef – Umm Al Hassam · Gólszám 3.25: Kevesebb @1.57 (fair 1.619)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 20,
+  "fixtures_both": 17,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 26
+ },
+ {
+  "time": "2026-11-13T13:45:47.266788+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1218,
+  "pinnacle_fixtures": 1111,
+  "paired": 681,
+  "by_sport": {
+   "Soccer": [
+    498,
+    334
+   ],
+   "Tennis": [
+    137,
+    8
+   ],
+   "Basketball": [
+    378,
+    201
+   ],
+   "Ice Hockey": [
+    205,
+    138
+   ]
+  },
+  "top_ev": [
+   "+6.8% Egyesült Arab Emirátusok – Honduras · 1X2: Egyesült Arab Emirátusok győz @2.1 (fair 1.966)",
+   "+4.6% Egyesült Arab Emirátusok – Honduras · Ázsiai hendikep: Egyesült Arab Emirátusok (+0) @1.48 (fair 1.415)",
+   "+3.8% Egyesült Arab Emirátusok – Honduras · Ázsiai hendikep: Egyesült Arab Emirátusok (-1) @3.1 (fair 2.986)",
+   "+2.8% Egyesült Arab Emirátusok – Honduras · Ázsiai hendikep: Egyesült Arab Emirátusok (-0.25) @1.74 (fair 1.692)",
+   "+2.3% Egyesült Arab Emirátusok – Honduras · Ázsiai hendikep: Egyesült Arab Emirátusok (+0.25) @1.35 (fair 1.319)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 10,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 107,
+  "rejected_mismatch": 0,
+  "candidates": 3,
+  "steam_fixtures": 29,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 7,
+  "free_calls": 149
  }
 ]
