@@ -19,6 +19,8 @@ api:
   tournaments_refresh_hours: 6 # ilyen gyakran keresi újra, mely bajnokságokban van Tippmix + Pinnacle odds
   tournaments_per_call: 10     # odds-by-tournaments: ennyi bajnokság egy kérésben
 
+classic:                       # klasszikus (lottózós) Tippmix: külön tőke, külön kimutatás; ugyanazok a szűrők
+  enabled: true
 hu:                            # csak mode: hu esetén
   match_threshold: 0.72        # Tippmix ↔ Pinnacle névegyezés küszöbe (0–1)
   max_prob_diff: 0.15          # ha a két iroda fő piaca ennél jobban eltér, a párosítás valószínűleg téves -> kihagyja

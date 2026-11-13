@@ -23,15 +23,20 @@ def bet_card(b, cfg):
     """Egy ajánlás „kész szelvényként”: mit, mekkora téttel, és meddig éri meg. + gomb a Tippmixpro meccsoldalára."""
     tz = ZoneInfo(cfg["timezone"])
     t = parse_time(b["start"]).astimezone(tz).strftime("%m.%d %H:%M")
-    lines = [f"{SPORT_ICON.get(b['sport'], '🏟️')} {_match(b)}", f"   {b['tournament']} · kezdés {t}"]
+    classic = b.get("channel") == "classic"
+    lines = (["🎰 KLASSZIKUS TIPPMIX (lottózó / tippmix.hu)"] if classic else []) + \
+        [f"{SPORT_ICON.get(b['sport'], '🏟️')} {_match(b)}", f"   {b['tournament']} · kezdés {t}"]
     if b.get("trigger") == "steam":
         lines.append(f"⚡ STEAM: a Pinnacle-ár mozog (+{(b.get('steam') or 0) * 100:.0f}%) – siess")
-    lines += [f"🎯 Tipp: {b['label']}"] + ([f"🔎 A Tippmixpro-n: {b['tm_tip']}"] if b.get("tm_tip") else []) + [
+    where = "A szelvényen" if classic else "A Tippmixpro-n"
+    lines += [f"🎯 Tipp: {b['label']}"] + ([f"🔎 {where}: {b['tm_tip']}"] if b.get("tm_tip") else []) + [
               f"💵 Tét: {huf(b['stake'])}",
               f"📈 Tippmix-odds most: {o2(b['odds'])}  (fair: {o2(b['fair_odds'])}, {b.get('ref') or 'Pinnacle'}, EV {pct(b['ev'])})"]
     if b.get("min_odds"):
         lines.append(f"✅ Megéri legalább {o2(b['min_odds'])}-es oddsig. Ha ennél kisebb, hagyd ki.")
-    if b.get("tm_url"):
+    if classic:
+        buttons = [("🎰 tippmix.hu megnyitása", "https://www.tippmix.hu/")]
+    elif b.get("tm_url"):
         buttons = [("🟢 Meccs megnyitása a Tippmixpro-n", b["tm_url"])]
     else:
         buttons = [("🟢 Tippmixpro megnyitása", TM_HOME)]
@@ -42,8 +47,10 @@ def new_bets_message(new, bets, cfg, rechecked=False):
     steam = sum(1 for b in new if b.get("trigger") == "steam")
     head = f"🎯 {len(new)} új value-ajánlás" + (" (steam-újraellenőrzésből)" if rechecked else "")
     lines = [head + (f" – ebből ⚡ {steam} gyors" if steam else "")]
-    s = ledger.summary(bets, cfg)
-    lines.append(f"💰 Szimulált tőke: {huf(s['bankroll'])} | nyitott: {s['open']} db, {huf(s['open_stake'])}")
+    for ch, nm in (("pro", "Tippmixpro"), ("classic", "klasszikus")):
+        if any((b.get("channel") or "pro") == ch for b in new):
+            s = ledger.summary(ledger.channel(bets, ch), cfg)
+            lines.append(f"💰 Szimulált tőke ({nm}): {huf(s['bankroll'])} | nyitott: {s['open']} db, {huf(s['open_stake'])}")
     if (cfg.get("execution") or {}).get("enabled") and not rechecked:
         lines.append(f"⏱️ {cfg['execution']['confirm_after_minutes']} perc múlva ellenőrzöm, megtehető-e még.")
     return "\n".join(lines)
@@ -53,14 +60,14 @@ def gone_message(gone):
     L = [f"⌛ {len(gone)} ajánlás már nem volt megtehető (az odds esett vagy a piac lezárt) – kimarad az eredményből:"]
     for b in gone:
         now = o2(b["exec_odds"]) if b.get("exec_odds") else "nincs"
-        L.append(f"• {_match(b)} · {b['label']}: {o2(b['signal_odds'])} → {now}")
+        L.append(f"• {'🎰 ' if b.get('channel') == 'classic' else ''}{_match(b)} · {b['label']}: {o2(b['signal_odds'])} → {now}")
     return "\n".join(L)
 
 
 def moved_message(moved, cfg):
     L = ["🔄 Módosult ajánlás – a Tippmix lejjebb vitte az oddsot, de a friss piaci ár alapján még megéri:"]
     for b in moved:
-        L.append(f"• {_match(b)}\n  🎯 {b.get('tm_tip') or b['label']}\n"
+        L.append(f"• {'🎰 ' if b.get('channel') == 'classic' else ''}{_match(b)}\n  🎯 {b.get('tm_tip') or b['label']}\n"
                  f"  odds {o2(b['signal_odds'])} → {o2(b['odds'])} · új fair {o2(b['fair_odds'])} · EV {b['ev']*100:+.1f}%\n"
                  f"  ✅ Most már legalább {o2(b['min_odds'])}-es oddsig éri meg")
     return "\n".join(L)
@@ -83,6 +90,8 @@ def _band_rows(bets):
 
 def daily_message(bets, cfg, day, dashboard_url=None):
     tz = ZoneInfo(cfg["timezone"])
+    classic = ledger.channel(bets, "classic")
+    bets = ledger.channel(bets, "pro")
     today_settled = [b for b in bets if b["status"] == "settled" and ledger.settle_day(b, tz) == day]
     today_placed = [b for b in bets if ledger.placed_day(b, tz) == day and b["status"] != "skipped"]
     counted = [b for b in today_settled if ledger.is_counted(b)]
@@ -143,6 +152,15 @@ def daily_message(bets, cfg, day, dashboard_url=None):
             L.append(f"… és még {len(today_settled) - 20}")
     if s["settled"] < 300:
         L += ["", "ℹ️ Kevés a lezárt fogadás: az eredmény még nagyrészt szerencse. A CLV a gyorsabb, megbízhatóbb jelző."]
+    if classic:
+        cs = ledger.summary(classic, cfg)
+        cd = [b for b in classic if b["status"] == "settled" and ledger.settle_day(b, tz) == day]
+        L += ["", "🎰 Klasszikus Tippmix (külön tőke)"]
+        L.append(f"Ma lezárult: {len(cd)} db, eredmény {signed_huf(sum(b['profit'] for b in cd))} | nyitott: {cs['open']} db")
+        if cs["settled"]:
+            L.append(f"Indulás óta: {cs['settled']} lezárt, profit {signed_huf(cs['profit'])}, ROI {pct(cs['roi'])}"
+                     + (f", CLV {pct(cs['avg_clv'])}" if cs["avg_clv"] is not None else ""))
+        L.append(f"Tőke: {huf(cs['start_bankroll'])} → {huf(cs['bankroll'])}")
     if dashboard_url:
         L += ["", f"🔗 {dashboard_url}"]
     return "\n".join(L)

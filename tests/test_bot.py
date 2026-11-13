@@ -363,3 +363,35 @@ def test_daily_bet_cap_uses_spare_quota(tmp_path, monkeypatch):
     save_json("quota.json", {"limit": 250, "remaining": 230})
     cap = bot.daily_bet_cap(CFG, now)                                               # 19 nap van hátra
     assert cap >= CFG["free"]["max_bets_per_day"] and cap <= 12
+
+
+def test_classic_markets_parsing(monkeypatch):
+    import json
+    import classicfeed
+    sample = json.load(open(os.path.join(os.path.dirname(__file__), "data", "classic_event.json"), encoding="utf-8"))
+    monkeypatch.setattr(classicfeed, "_get", lambda path, timeout=30: sample)
+    names = {}
+    mk = classicfeed.event_markets(1, "Labdarúgás", names)
+    assert mk[("main", 0.0)] == {"home": 2.33, "draw": 2.9, "away": 2.82}
+    assert mk[("ou", 2.5)] == {"under": 1.56, "over": 2.13}
+    assert mk[("btts", 0.0)] == {"yes": 1.75, "no": 1.86}
+    assert mk[("ah", -0.5)] == {"home": 2.28, "away": 1.49}
+    assert "esemény-kód 26263" in names[("ou", 2.5)]["over"] and "tipp 2" in names[("ou", 2.5)]["over"]
+
+
+def test_classic_channel_separate_from_pro():
+    import bot
+    now = dt.datetime(2026, 11, 13, 12, tzinfo=dt.timezone.utc)
+    fx = {"fixtureId": "f1", "startTime": "2026-11-13T18:00:00Z", "participant1Name": "A", "participant2Name": "B",
+          "sportName": "Soccer", "tournamentName": "L"}
+    c = {"market_id": 101, "outcome_id": 101, "market": "1X2", "outcome": "1", "odds": 1.9, "fair_prob": 0.55,
+         "fair_odds": 1.818, "ev": 0.045, "sharp_odds": 1.8, "line": 0.0, "mtype": "1x2", "ref": "Pinnacle"}
+    bets = []
+    pro = bot.place([(fx, {}, dict(c))], bets, CFG, now, {})
+    cl = bot.place([(fx, {}, dict(c))], bets, CFG, now, {}, channel="classic")
+    assert len(pro) == 1 and len(cl) == 1 and cl[0]["channel"] == "classic" and "channel" not in pro[0]
+    assert bot.place([(fx, {}, dict(c))], bets, CFG, now, {}, channel="classic") == []   # csatornán belül nincs dupla
+    assert len(ledger.channel(bets, "pro")) == 1 and len(ledger.channel(bets, "classic")) == 1
+    import report
+    txt, btn = report.bet_card(cl[0], CFG)
+    assert "KLASSZIKUS" in txt and btn[0][1] == "https://www.tippmix.hu/"

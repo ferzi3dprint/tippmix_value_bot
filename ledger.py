@@ -15,6 +15,11 @@ def save(bets):
     save_json(FILE, bets)
 
 
+def channel(bets, ch="pro"):
+    """Egy csatorna fogadásai: "pro" (Tippmixpro, alapértelmezett) vagy "classic" (lottózós Tippmix)."""
+    return [b for b in bets if (b.get("channel") or "pro") == ch]
+
+
 def bankroll(bets, cfg):
     return cfg["staking"]["start_bankroll"] + sum(b.get("profit") or 0 for b in bets if b["status"] == "settled")
 

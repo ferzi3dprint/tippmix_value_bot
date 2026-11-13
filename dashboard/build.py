@@ -56,9 +56,11 @@ def _group(bets, key):
     return out
 
 
-def collect(cfg):
+def collect(cfg, channel="pro"):
+    """Egy csatorna (Tippmixpro / klasszikus Tippmix) teljes kimutatása; a klasszikus a "classic" kulcs alá kerül."""
     tz = ZoneInfo(cfg["timezone"])
-    bets = ledger.load()
+    all_bets = ledger.load()
+    bets = ledger.channel(all_bets, channel)
     start = cfg["staking"]["start_bankroll"]
     # napi sorozat: lezárás napja szerint
     days = defaultdict(lambda: {"placed": 0, "settled": 0, "won": 0, "lost": 0, "void": 0, "staked": 0.0, "profit": 0.0, "exp": 0.0})
@@ -87,9 +89,20 @@ def collect(cfg):
     slim = lambda b: {k: b.get(k) for k in ("id", "placed_at", "status", "sport", "tournament", "home", "away", "start", "label",
                                              "market", "odds", "sharp_odds", "fair_odds", "fair_prob", "ev", "stake", "result",
                                              "profit", "clv", "closing_fair_odds", "settled_at", "band", "link",
-                                             "trigger", "steam", "signal_odds", "exec_odds", "exec_status")}
+                                             "trigger", "steam", "signal_odds", "exec_odds", "exec_status", "tm_tip", "channel")}
     runs = load_json("runs.json", [])
+    if channel != "pro":
+        return {"summary": ledger.summary(bets, cfg), "series": series,
+                "bands": _group(bets, lambda b: b["band"]),
+                "sports": _group(bets, lambda b: SPORT_HU.get(b.get("sport"), b.get("sport") or "?")),
+                "markets": _group(bets, lambda b: market_hu(b.get("market") or "?")),
+                "triggers": _group(bets, lambda b: "⚡ steam" if b.get("trigger") == "steam" else "normál"),
+                "skipped": [slim(b) for b in sorted((b for b in bets if b["status"] == "skipped"), key=lambda b: b["placed_at"], reverse=True)[:100]],
+                "open": [slim(b) for b in sorted((b for b in bets if b["status"] == "open"), key=lambda b: b["start"])],
+                "settled": [slim(b) for b in sorted((b for b in bets if b["status"] == "settled"), key=lambda b: b["settled_at"], reverse=True)],
+                "signals": {"n": 0}, "signal_rows": []}
     return {
+        "classic": collect(cfg, "classic") if (cfg.get("classic") or {}).get("enabled") else None,
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
         "timezone": cfg["timezone"],
         "summary": ledger.summary(bets, cfg),

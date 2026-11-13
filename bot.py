@@ -16,6 +16,7 @@ import notify
 import report
 from common import load_config, load_json, save_json, now_utc, parse_time, sleep_minutes, to_local
 import tippmixfeed
+import classicfeed
 from freefeed import snapshot, steam_from_history
 from matcher import match_fixtures, odds_consistent
 from valuefinder import devig, find_values, kelly_stake, market_prices, odds_band, outcome_label
@@ -227,9 +228,11 @@ def daily_bet_cap(cfg, now):
     return max(base, int(spare / days_left))
 
 
-def place(cands, bets, cfg, now, tours):
-    """Szimulált fogadás a jelöltekre (EV szerint), a tőke- és meccskorlátokkal."""
+def place(cands, bets, cfg, now, tours, channel="pro"):
+    """Szimulált fogadás a jelöltekre (EV szerint), a tőke- és meccskorlátokkal.
+    channel: "pro" (Tippmixpro) vagy "classic" (lottózós Tippmix) – külön tőke, külön korlátok, külön kimutatás."""
     placed = []
+    all_bets, bets = bets, ledger.channel(bets, channel)
     br = ledger.bankroll(bets, cfg)
     pending = "pending" if (cfg.get("execution") or {}).get("enabled") else "ok"
     cap = daily_bet_cap(cfg, now) if cfg["api"].get("mode") in ("free", "hu") else None
@@ -259,7 +262,10 @@ def place(cands, bets, cfg, now, tours):
                        .get(str(c["outcome_id"])) or {}).get("tm")
         b["min_odds"] = round((1 + (cfg.get("execution") or {}).get("min_ev_after_move", 0.01)) / c["fair_prob"], 2)
         b["expected_profit"] = round(stake * c["ev"], 2)
+        if channel != "pro":
+            b["channel"] = channel
         bets.append(b)
+        all_bets.append(b)
         placed.append(b)
     return placed
 
@@ -416,6 +422,15 @@ def fetch_hu(client, cfg, pair, now, meta):
            "participant2Name": m["away"], "tournamentName": m.get("tournament") or fx.get("tournamentName"),
            "tournamentId": fx.get("tournamentId"), "sportName": fx["sportName"], "tm_id": m["id"],
            "tm_url": tippmixfeed.match_url({**m, "sport": tm_sport})}
+    cl = pair.get("cl")
+    if cl and (cfg.get("classic") or {}).get("enabled"):
+        try:
+            cn = {}
+            cm = classicfeed.event_markets(cl["id"], tm_sport, cn)
+            fxb["cl_book"] = tippmixfeed.to_op_book(cm, tm_sport, tippmixfeed.op_index(meta), cn)
+            fxb["cl_id"] = cl["id"]
+        except Exception as e:
+            print(f"[klasszikus] {cl.get('id')}: {e.__class__.__name__}: {str(e)[:120]}")
     return fxb, so, ho, (lambda mid, oids: steam_from_history(sh, mid, oids, now, cfg))
 
 
@@ -477,12 +492,46 @@ def scan_hu(client, bets, cfg, now, stats, signals, fast=False):
         for tid, (f, score) in match_fixtures(tms, fx, threshold=cfg["hu"]["match_threshold"]).items():
             m = next(x for x in tms if x["id"] == tid)
             pairs[f["fixtureId"]] = {"tm": {**m, "start": m["start"].isoformat()}, "fx": f, "score": score}
+    if (cfg.get("classic") or {}).get("enabled") and os.getenv("MOCK_API") != "1":
+        try:
+            pair_classic(pairs, tm, cfg, now, stats)
+        except Exception as e:
+            print(f"[klasszikus lista] {e.__class__.__name__}: {str(e)[:150]}")
     save_json("cache/pairs_hu.json", pairs)
     stats.update({"tippmix_matches": len(tm), "pinnacle_fixtures": len(fixtures), "paired": len(pairs),
                   "by_sport": {sp: [sum(1 for m in tm if m["sport"] == tippmixfeed.SPORT_HU.get(sp, sp)),
                                     sum(1 for p in pairs.values() if p["fx"]["sportName"] == sp)] for sp in cfg["scan"]["sports"]}})
 
     return scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs)
+
+
+def classic_events(cfg, now, sports_hu):
+    """A klasszikus Tippmix meccslistája (néhány óránként frissítve, gyorsítótárazva)."""
+    c = load_json("cache/cl_events.json", None)
+    if c and now - parse_time(c["time"]) < dt.timedelta(hours=cfg["hu"].get("full_list_hours", 3)) and c.get("sports") == sports_hu:
+        return [{**e, "start": parse_time(e["start"])} for e in c["data"] if parse_time(e["start"]) > now]
+    until = end_of_day(now, cfg)
+    ev = classicfeed.events(now, until, sports_hu)
+    save_json("cache/cl_events.json", {"time": now.isoformat(), "sports": sports_hu,
+                                       "data": [{**e, "start": e["start"].isoformat()} for e in ev]})
+    return ev
+
+
+def pair_classic(pairs, tm, cfg, now, stats):
+    """A már párosított Tippmixpro-meccsekhez a klasszikus Tippmix eseménye (azonos magyar nevek, azonos kezdés)."""
+    sports_hu = sorted({m["sport"] for m in tm})
+    ev = classic_events(cfg, now, sports_hu)
+    by_tm = {p["tm"]["id"]: fid for fid, p in pairs.items()}
+    n = 0
+    for sp in sports_hu:
+        tms = [m for m in tm if m["sport"] == sp and m["id"] in by_tm]
+        fx = [{"fixtureId": e["id"], "startTime": e["start"].isoformat(), "participant1Name": e["home"],
+               "participant2Name": e["away"], "_e": e} for e in ev if e["sport"] == sp]
+        for tid, (f, score) in match_fixtures(tms, fx, threshold=cfg["hu"]["match_threshold"]).items():
+            e = f["_e"]
+            pairs[by_tm[tid]]["cl"] = {"id": e["id"], "name": e["name"], "score": score}
+            n += 1
+    stats["classic"] = {"events": len(ev), "paired": n}
 
 
 def scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs, fast=False):
@@ -507,6 +556,7 @@ def scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs, fast=Fals
     order = order[: fr["max_fixtures_per_run"]]
 
     cands, hot, sharp_now, both, rejected, near_miss, rej_ex, no_main = [], [], {}, 0, 0, [], [], 0
+    cl_cands, cl_miss, cl_checked = [], [], 0
     LOOSE = {**cfg, "filters": {**cfg["filters"], "min_odds": 1.01, "max_odds": 50, "max_ev": 0.25,
                                 "ev_bands": [{"max_odds": 999, "min_ev": -1.0}]}}
     for fid in order:
@@ -540,6 +590,14 @@ def scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs, fast=Fals
             hot.append(fid)
         for c in find_values(fx, so, ho, meta, LOOSE):          # átláthatóság: a legjobb EV-k küszöbtől függetlenül
             near_miss.append((c["ev"], f"{fx['participant1Name']} – {fx['participant2Name']} · {outcome_label(fx, c)} @{c['odds']} (fair {c['fair_odds']})"))
+        cb = fx.get("cl_book")
+        if cb and cb.get("markets") and main_consistent(cb, ho, meta, cfg) is not False:
+            cl_checked += 1
+            fxc = {**fx, "tm_url": classicfeed.HOME, "tm_id": fx.get("cl_id")}
+            cs2, _ = evaluate(fxc, cb, ho, meta, None, now, cfg, steam_fn)
+            cl_cands += [(fxc, cb, c) for c in cs2]
+            for c in find_values(fxc, cb, ho, meta, LOOSE):
+                cl_miss.append((c["ev"], f"{fx['participant1Name']} – {fx['participant2Name']} · {outcome_label(fx, c)} @{c['odds']} (fair {c['fair_odds']})"))
     save_json("cache/checked.json", checked)
     stats["top_ev"] = [f"{ev * 100:+.1f}% {txt}" for ev, txt in sorted(near_miss, reverse=True)[:5]]
     stats["rejected_examples"] = rej_ex
@@ -549,7 +607,12 @@ def scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs, fast=Fals
     stats.update({"fast": fast, "fixtures_checked": len(order), "fixtures_both": both, "rejected_mismatch": rejected,
                   "candidates": len(cands), "steam_fixtures": len(hot)})
     new = place(cands, bets, cfg, now, {})
-    record_signals(signals, cands, bets, now)
+    record_signals(signals, cands, ledger.channel(bets, "pro"), now)
+    if (cfg.get("classic") or {}).get("enabled"):
+        stats["classic_checked"] = cl_checked
+        stats["classic_candidates"] = len(cl_cands)
+        stats["top_ev_classic"] = [f"{ev * 100:+.1f}% {txt}" for ev, txt in sorted(cl_miss, reverse=True)[:5]]
+        new += place(cl_cands, bets, cfg, now, {}, channel="classic")
     return new, hot
 
 
@@ -719,6 +782,8 @@ def recheck(client, bets, cfg, now, hot, hist, stats):
         if b["fixture_id"] not in fresh:
             continue
         fx, so, ho, _ = fresh[b["fixture_id"]]
+        if b.get("channel") == "classic":
+            so = fx.get("cl_book") or {}
         m = meta.get(b["market_id"])
         oids = [o["outcomeId"] for o in m["outcomes"]] if m else []
         sp = market_prices(so, b["market_id"], oids) if m else None

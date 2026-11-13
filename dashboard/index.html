@@ -139,6 +139,12 @@ td a { color: var(--s1); text-decoration: none; }
     </header>
     <div id="demo" class="demo-banner hidden">🧪 <b>Demó adatok</b> – kitalált meccsek és szintetikus oddsok, csak a működés bemutatására. A számok nem mondanak semmit a valódi Tippmixről.</div>
 
+    <div class="chips" id="viewChips" role="tablist" aria-label="Fogadási csatorna" style="margin:10px 0">
+      <button type="button" class="chip" data-v="pro" aria-pressed="true">📱 Tippmixpro (online)</button>
+      <button type="button" class="chip" data-v="classic" aria-pressed="false">🎰 Klasszikus Tippmix (lottózó)</button>
+    </div>
+    <div id="classicNote" class="card hidden" style="margin-bottom:10px;font-size:14px">🎰 <b>Klasszikus Tippmix</b> – külön szimulált tőkével és külön kimutatással. A klasszikus ajánlat oddsai mások, mint a Tippmixpro-é; a szelvényt a tippmix.hu-n vagy a lottózóban kell összeállítani (esemény-kód + tipp).</div>
+
     <nav class="quicknav" aria-label="Gyors navigáció">
       <a href="#s-over">Áttekintés</a><a href="#s-curve">Görbe</a><a href="#s-sig">Jelzések</a><a href="#s-days">Napok</a><a href="#s-open">Nyitott</a>
       <a href="#s-settled">Lezárt</a><a href="#s-break">Bontás</a><a href="#s-gone">Elesett</a><a href="#s-set">Beállítások</a>
@@ -315,7 +321,13 @@ function chartBase(extra = {}) {
               y: { ticks: { color: ink, callback: (v) => nf(v) }, grid: { color: grid } } }, ...extra };
 }
 
+let ROOT = null, VIEW = "pro";
 function show() {
+  if (!ROOT || (DATA !== ROOT && !DATA.__view)) ROOT = DATA;
+  DATA = VIEW === "classic" && ROOT.classic ? { ...ROOT, ...ROOT.classic, __view: "classic" } : ROOT;
+  $("classicNote").classList.toggle("hidden", VIEW !== "classic");
+  $("s-sig").classList.toggle("hidden", VIEW === "classic"); $("s-sig").nextElementSibling.classList.toggle("hidden", VIEW === "classic");
+  $("viewChips").querySelector('[data-v="classic"]').classList.toggle("hidden", !ROOT.classic);
   $("login").classList.add("hidden"); $("app").classList.remove("hidden");
   charts.forEach((c) => c.destroy()); charts = [];
   const S = DATA.summary, ser = DATA.series || [];
@@ -466,6 +478,13 @@ $("resChips").addEventListener("click", (e) => {
   resFilter = b.dataset.f;
   $("resChips").querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
   renderSettled();
+});
+
+$("viewChips").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b || !ROOT) return;
+  VIEW = b.dataset.v;
+  $("viewChips").querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  DATA = ROOT; settledLimit = 50; show();
 });
 
 (async function start() {
