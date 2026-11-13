@@ -9549,6 +9549,56 @@
    "score": 1.0
   }
  },
+ "id1000138673631300": {
+  "tm": {
+   "id": "318775648327901184",
+   "sport": "Labdarúgás",
+   "name": "Afragolese 1944 - ASD Monastir 1983",
+   "home": "Afragolese 1944",
+   "away": "ASD Monastir 1983",
+   "home_pid": "280548964064956416",
+   "away_pid": "280549118912368640",
+   "tournament": "Olasz D, G csoport",
+   "category": "Olaszország",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T13:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000138673631300",
+   "startTime": "2026-11-14T13:00:00.000Z",
+   "participant1Name": "AC Afragolese",
+   "participant2Name": "Monastir",
+   "tournamentId": 1386,
+   "tournamentName": "Serie D, Group G",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004377172564424": {
+  "tm": {
+   "id": "319794078648705024",
+   "sport": "Labdarúgás",
+   "name": "Korneuburg ASC - SG Ardagger/Neustadtl",
+   "home": "Korneuburg ASC",
+   "away": "SG Ardagger/Neustadtl",
+   "home_pid": "1401683",
+   "away_pid": "278528377846108160",
+   "tournament": "Osztrák Landesliga, Niederösterreich",
+   "category": "Ausztria",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T13:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004377172564424",
+   "startTime": "2026-11-14T13:00:00.000Z",
+   "participant1Name": "SK Korneuburg",
+   "participant2Name": "SG Ardagger/Neustadtl",
+   "tournamentId": 43771,
+   "tournamentName": "Niederosterreich, 1. Landesliga",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000016772549342": {
   "tm": {
    "id": "319768896443850752",
@@ -9620,6 +9670,31 @@
    "participant2Name": "FC Kitzbuhel",
    "tournamentId": 167,
    "tournamentName": "Regionalliga West",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004383172676164": {
+  "tm": {
+   "id": "319774248887459840",
+   "sport": "Labdarúgás",
+   "name": "FC 1980 Wien - Helfort 15",
+   "home": "FC 1980 Wien",
+   "away": "Helfort 15",
+   "home_pid": "1372072",
+   "away_pid": "1549220",
+   "tournament": "Osztrák Landesliga, Wien",
+   "category": "Ausztria",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T13:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004383172676164",
+   "startTime": "2026-11-14T13:00:00.000Z",
+   "participant1Name": "FC 1980 Wien",
+   "participant2Name": "SV Dinamo Helfort 15",
+   "tournamentId": 43831,
+   "tournamentName": "Wiener Stadtliga",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -9804,6 +9879,31 @@
   },
   "score": 0.894
  },
+ "id1004383172676152": {
+  "tm": {
+   "id": "319774112873521152",
+   "sport": "Labdarúgás",
+   "name": "Gerasdorf Stammersdorf - TWL Elektra",
+   "home": "Gerasdorf Stammersdorf",
+   "away": "TWL Elektra",
+   "home_pid": "880818",
+   "away_pid": "1231536",
+   "tournament": "Osztrák Landesliga, Wien",
+   "category": "Ausztria",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T13:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004383172676152",
+   "startTime": "2026-11-14T13:00:00.000Z",
+   "participant1Name": "Gerasd. Stammersd.",
+   "participant2Name": "TWL Elektra",
+   "tournamentId": 43831,
+   "tournamentName": "Wiener Stadtliga",
+   "sportName": "Soccer"
+  },
+  "score": 0.889
+ },
  "id1000069172550326": {
   "tm": {
    "id": "319662885097775104",
@@ -9853,6 +9953,31 @@
    "sportName": "Soccer"
   },
   "score": 0.879
+ },
+ "id1004383172676150": {
+  "tm": {
+   "id": "319774338464161792",
+   "sport": "Labdarúgás",
+   "name": "Sportunion Mauer - Red Star Penzing",
+   "home": "Sportunion Mauer",
+   "away": "Red Star Penzing",
+   "home_pid": "1364640",
+   "away_pid": "1311067",
+   "tournament": "Osztrák Landesliga, Wien",
+   "category": "Ausztria",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T13:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004383172676150",
+   "startTime": "2026-11-14T13:00:00.000Z",
+   "participant1Name": "Union Mauer",
+   "participant2Name": "SC Red Star Penzing",
+   "tournamentId": 43831,
+   "tournamentName": "Wiener Stadtliga",
+   "sportName": "Soccer"
+  },
+  "score": 0.87
  },
  "id1000002472341372": {
   "tm": {
@@ -10789,66 +10914,6 @@
   },
   "score": 0.726
  },
- "id1200779376431546": {
-  "tm": {
-   "id": "319722124813082624",
-   "sport": "Tenisz",
-   "name": "Nikolas Sanchez-Izquierdo - Miguel Tobon",
-   "home": "Nikolas Sanchez-Izquierdo",
-   "away": "Miguel Tobon",
-   "home_pid": "1263362",
-   "away_pid": "183934929463201792",
-   "tournament": "Lima, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200779376431546",
-   "startTime": "2026-11-13T21:00:00.000Z",
-   "participant1Name": "Sanchez Izquierdo, Nikolas",
-   "participant2Name": "Tobon, Miguel",
-   "tournamentId": 7793,
-   "tournamentName": "ATP Challenger Lima, Peru Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5651052,
-   "name": "N. Sanchez-Izquierdo - M. Tobon",
-   "score": 1.0
-  }
- },
- "id1202142276711900": {
-  "tm": {
-   "id": "319719924162437120",
-   "sport": "Tenisz",
-   "name": "Aryna Sabalenka - Elina Svitolina",
-   "home": "Aryna Sabalenka",
-   "away": "Elina Svitolina",
-   "home_pid": "1134171",
-   "away_pid": "404169",
-   "tournament": "WTA-vb, női egyes, B csoport",
-   "category": "WTA",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T21:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1202142276711900",
-   "startTime": "2026-11-13T21:10:00.000Z",
-   "participant1Name": "Sabalenka, Aryna",
-   "participant2Name": "Svitolina, Elina",
-   "tournamentId": 21422,
-   "tournamentName": "WTA Finals Women Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5651302,
-   "name": "A. Sabalenka - E. Svitolina",
-   "score": 1.0
-  }
- },
  "id1202142476714742": {
   "tm": {
    "id": "319736982468108288",
@@ -11264,81 +11329,6 @@
    "score": 1.0
   }
  },
- "id1204957876511342": {
-  "tm": {
-   "id": "319807305408389120",
-   "sport": "Tenisz",
-   "name": "Roberto Ferrer Guimaraes - Pietro Pampanin",
-   "home": "Roberto Ferrer Guimaraes",
-   "away": "Pietro Pampanin",
-   "home_pid": "179310333943402496",
-   "away_pid": "113996427581083648",
-   "tournament": "Oxford, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204957876511342",
-   "startTime": "2026-11-13T21:00:00.000Z",
-   "participant1Name": "Ferrer Guimaraes, Roberto",
-   "participant2Name": "Pampanin, Pietro",
-   "tournamentId": 49578,
-   "tournamentName": "UTR PTT Oxford Men 01",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
- "id1204988076505934": {
-  "tm": {
-   "id": "319444919110410240",
-   "sport": "Tenisz",
-   "name": "Peter Hatton - Jeanne-Grandinot David",
-   "home": "Peter Hatton",
-   "away": "Jeanne-Grandinot David",
-   "home_pid": "280598013194407936",
-   "away_pid": "263450311183577088",
-   "tournament": "Carvoeiro, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204988076505934",
-   "startTime": "2026-11-13T21:00:00.000Z",
-   "participant1Name": "Hatton, Peter",
-   "participant2Name": "Jeanne-Grandinot, David",
-   "tournamentId": 49880,
-   "tournamentName": "UTR PTT Carvoeiro Men 08",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
- "id1204988076549138": {
-  "tm": {
-   "id": "319535519248752640",
-   "sport": "Tenisz",
-   "name": "Jules Alias - Jose Dominguez Alonso",
-   "home": "Jules Alias",
-   "away": "Jose Dominguez Alonso",
-   "home_pid": "312370358252105728",
-   "away_pid": "233718750137192448",
-   "tournament": "Carvoeiro, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204988076549138",
-   "startTime": "2026-11-13T21:00:00.000Z",
-   "participant1Name": "Alias, Jules",
-   "participant2Name": "Dominguez Alonso, Jose",
-   "tournamentId": 49880,
-   "tournamentName": "UTR PTT Carvoeiro Men 08",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
  "id1204988076506092": {
   "tm": {
    "id": "319535519509848064",
@@ -11388,61 +11378,6 @@
    "sportName": "Tennis"
   },
   "score": 1.0
- },
- "id1204989076551522": {
-  "tm": {
-   "id": "319870614089310208",
-   "sport": "Tenisz",
-   "name": "Marzia Paola Marina Pieragostini - Arina Gamretkaia",
-   "home": "Marzia Paola Marina Pieragostini",
-   "away": "Arina Gamretkaia",
-   "home_pid": "316277772417835008",
-   "away_pid": "173160597941178368",
-   "tournament": "Carvoeiro, női egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204989076551522",
-   "startTime": "2026-11-13T21:00:00.000Z",
-   "participant1Name": "Pieragostini, Marzia Paola MA",
-   "participant2Name": "Gamretkaia, Arina",
-   "tournamentId": 49890,
-   "tournamentName": "UTR PTT Carvoeiro Women 08",
-   "sportName": "Tennis"
-  },
-  "score": 0.953
- },
- "id1204937476743928": {
-  "tm": {
-   "id": "319819029216829440",
-   "sport": "Tenisz",
-   "name": "Jonny Cross - Nav Dayal",
-   "home": "Jonny Cross",
-   "away": "Nav Dayal",
-   "home_pid": "209116871474171904",
-   "away_pid": "260954807532380160",
-   "tournament": "Malibu, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204937476743928",
-   "startTime": "2026-11-13T21:00:00.000Z",
-   "participant1Name": "Cross, John",
-   "participant2Name": "Dayal, Nav",
-   "tournamentId": 49374,
-   "tournamentName": "UTR PTT Malibu Men 01",
-   "sportName": "Tennis"
-  },
-  "score": 0.9,
-  "cl": {
-   "id": 5652867,
-   "name": "John Cross - Nav Dayal",
-   "score": 0.9
-  }
  },
  "id1100064873115972": {
   "tm": {
@@ -19794,6 +19729,66 @@
    "score": 1.0
   }
  },
+ "id1500023472909490": {
+  "tm": {
+   "id": "318936622809817088",
+   "sport": "Jégkorong",
+   "name": "Carolina - Seattle",
+   "home": "Carolina",
+   "away": "Seattle",
+   "home_pid": "37436",
+   "away_pid": "144005158619107328",
+   "tournament": "NHL (alapszakasz)",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-14T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500023472909490",
+   "startTime": "2026-11-14T18:00:00.000Z",
+   "participant1Name": "Carolina Hurricanes",
+   "participant2Name": "Seattle Kraken",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5555076,
+   "name": "Carolina - Seattle",
+   "score": 1.0
+  }
+ },
+ "id1500023472909492": {
+  "tm": {
+   "id": "318936547130941440",
+   "sport": "Jégkorong",
+   "name": "Chicago - Winnipeg",
+   "home": "Chicago",
+   "away": "Winnipeg",
+   "home_pid": "37455",
+   "away_pid": "37435",
+   "tournament": "NHL (alapszakasz)",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-14T20:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500023472909492",
+   "startTime": "2026-11-14T20:30:00.000Z",
+   "participant1Name": "Chicago Blackhawks",
+   "participant2Name": "Winnipeg Jets",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5555566,
+   "name": "Chicago - Winnipeg",
+   "score": 1.0
+  }
+ },
  "id1503057074780196": {
   "tm": {
    "id": "318936631673430016",
@@ -21729,66 +21724,6 @@
   },
   "score": 1.0
  },
- "id2300148874599442": {
-  "tm": {
-   "id": "319264003694075904",
-   "sport": "Röplabda",
-   "name": "Leixoes - Castelo Maia GC",
-   "home": "Leixoes",
-   "away": "Castelo Maia GC",
-   "home_pid": "54581",
-   "away_pid": "54579",
-   "tournament": "Portugál bajnokság",
-   "category": "Portugália",
-   "tm_sport_id": "20",
-   "start": "2026-11-13T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2300148874599442",
-   "startTime": "2026-11-13T21:00:00.000Z",
-   "participant1Name": "Leixoes SC",
-   "participant2Name": "Castelo Maia GC",
-   "tournamentId": 1488,
-   "tournamentName": "Liga A1",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5554756,
-   "name": "Leixoes - Maia",
-   "score": 1.0
-  }
- },
- "id2301455675208592": {
-  "tm": {
-   "id": "319263997369065472",
-   "sport": "Röplabda",
-   "name": "Sonder Rosario - River Plate",
-   "home": "Sonder Rosario",
-   "away": "River Plate",
-   "home_pid": "292167804549107712",
-   "away_pid": "1520000",
-   "tournament": "Argentin bajnokság",
-   "category": "Argentína",
-   "tm_sport_id": "20",
-   "start": "2026-11-13T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2301455675208592",
-   "startTime": "2026-11-13T21:00:00.000Z",
-   "participant1Name": "Club Son de Rosario",
-   "participant2Name": "River Plate",
-   "tournamentId": 14556,
-   "tournamentName": "Liga Argentina",
-   "sportName": "Volleyball"
-  },
-  "score": 0.916,
-  "cl": {
-   "id": 5553766,
-   "name": "Club Son de Rosario - River Plate",
-   "score": 0.916
-  }
- },
  "id2300214875310194": {
   "tm": {
    "id": "319354388316495872",
@@ -21899,81 +21834,6 @@
   },
   "score": 0.72
  },
- "id2503634976731778": {
-  "tm": {
-   "id": "319769398498893824",
-   "sport": "Asztalitenisz",
-   "name": "Adam Brazda - Simon Kadavy",
-   "home": "Adam Brazda",
-   "away": "Simon Kadavy",
-   "home_pid": "213104866527170560",
-   "away_pid": "188832931008008192",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-13T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976731778",
-   "startTime": "2026-11-13T21:00:00.000Z",
-   "participant1Name": "Brazda, Adam",
-   "participant2Name": "Kadavy, Simon",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503212976756494": {
-  "tm": {
-   "id": "319848509060751360",
-   "sport": "Asztalitenisz",
-   "name": "Jan Gembala - Marek Zaskodny",
-   "home": "Jan Gembala",
-   "away": "Marek Zaskodny",
-   "home_pid": "243006294009180160",
-   "away_pid": "166722028574920704",
-   "tournament": "TT Cup",
-   "category": "Világ",
-   "tm_sport_id": "63",
-   "start": "2026-11-13T21:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503212976756494",
-   "startTime": "2026-11-13T21:10:00.000Z",
-   "participant1Name": "Gembala, Jan",
-   "participant2Name": "Zaskodny, Marek",
-   "tournamentId": 32129,
-   "tournamentName": "TT Cup",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503212976756498": {
-  "tm": {
-   "id": "319850009449275392",
-   "sport": "Asztalitenisz",
-   "name": "Michal Nemec - Lukas Vich",
-   "home": "Michal Nemec",
-   "away": "Lukas Vich",
-   "home_pid": "164289097909719040",
-   "away_pid": "195477037234941952",
-   "tournament": "TT Cup",
-   "category": "Világ",
-   "tm_sport_id": "63",
-   "start": "2026-11-13T21:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503212976756498",
-   "startTime": "2026-11-13T21:20:00.000Z",
-   "participant1Name": "Nemec, Michal",
-   "participant2Name": "Vich, Lukas",
-   "tournamentId": 32129,
-   "tournamentName": "TT Cup",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503212976756500": {
   "tm": {
    "id": "319850430586757120",
@@ -21999,6 +21859,31 @@
   },
   "score": 1.0
  },
+ "id2503634976731782": {
+  "tm": {
+   "id": "319769181534887936",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Janata - Martin Vizek",
+   "home": "Tomas Janata",
+   "away": "Martin Vizek",
+   "home_pid": "124357830765498368",
+   "away_pid": "256731479040974848",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-13T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976731782",
+   "startTime": "2026-11-13T21:30:00.000Z",
+   "participant1Name": "Janata, Tomas",
+   "participant2Name": "Vizek, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976731668": {
   "tm": {
    "id": "319769469609123840",
@@ -22018,31 +21903,6 @@
    "startTime": "2026-11-13T21:30:00.000Z",
    "participant1Name": "Simecek, Jakub",
    "participant2Name": "Kypr, Tomas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976731570": {
-  "tm": {
-   "id": "319772145280425984",
-   "sport": "Asztalitenisz",
-   "name": "Jiri Pozarsky - Lubos Krticka",
-   "home": "Jiri Pozarsky",
-   "away": "Lubos Krticka",
-   "home_pid": "108664645912514560",
-   "away_pid": "190462755240726528",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-13T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976731570",
-   "startTime": "2026-11-13T21:30:00.000Z",
-   "participant1Name": "Pozarsky, Jiri",
-   "participant2Name": "Krticka, Lubos",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -22074,25 +21934,25 @@
   },
   "score": 1.0
  },
- "id2503634976731782": {
+ "id2503634976731570": {
   "tm": {
-   "id": "319769181534887936",
+   "id": "319772145280425984",
    "sport": "Asztalitenisz",
-   "name": "Tomas Janata - Martin Vizek",
-   "home": "Tomas Janata",
-   "away": "Martin Vizek",
-   "home_pid": "124357830765498368",
-   "away_pid": "256731479040974848",
+   "name": "Jiri Pozarsky - Lubos Krticka",
+   "home": "Jiri Pozarsky",
+   "away": "Lubos Krticka",
+   "home_pid": "108664645912514560",
+   "away_pid": "190462755240726528",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
    "start": "2026-11-13T21:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976731782",
+   "fixtureId": "id2503634976731570",
    "startTime": "2026-11-13T21:30:00.000Z",
-   "participant1Name": "Janata, Tomas",
-   "participant2Name": "Vizek, Martin",
+   "participant1Name": "Pozarsky, Jiri",
+   "participant2Name": "Krticka, Lubos",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -22143,6 +22003,31 @@
    "startTime": "2026-11-13T21:50:00.000Z",
    "participant1Name": "Cibik, Pavel",
    "participant2Name": "Dusek, Zdenek",
+   "tournamentId": 32129,
+   "tournamentName": "TT Cup",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503212976756506": {
+  "tm": {
+   "id": "319850406696001536",
+   "sport": "Asztalitenisz",
+   "name": "Petr Vanek - Ondrej Fiklik",
+   "home": "Petr Vanek",
+   "away": "Ondrej Fiklik",
+   "home_pid": "143369263520993280",
+   "away_pid": "156961208277192704",
+   "tournament": "TT Cup",
+   "category": "Világ",
+   "tm_sport_id": "63",
+   "start": "2026-11-13T21:55:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503212976756506",
+   "startTime": "2026-11-13T21:55:00.000Z",
+   "participant1Name": "Vanek, Petr",
+   "participant2Name": "Fiklik, Ondrej",
    "tournamentId": 32129,
    "tournamentName": "TT Cup",
    "sportName": "Table Tennis"
@@ -23885,48 +23770,6 @@
    "home": "Zlín",
    "away": "Havirov",
    "tournament": "Cseh 2."
-  }
- },
- "id1500023472909490": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1500023472909490",
-   "startTime": "2026-11-14T18:00:00.000Z",
-   "participant1Name": "Carolina Hurricanes",
-   "participant2Name": "Seattle Kraken",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555076,
-   "name": "Carolina - Seattle",
-   "score": 1.0,
-   "home": "Carolina",
-   "away": "Seattle",
-   "tournament": "NHL"
-  }
- },
- "id1500023472909492": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1500023472909492",
-   "startTime": "2026-11-14T20:30:00.000Z",
-   "participant1Name": "Chicago Blackhawks",
-   "participant2Name": "Winnipeg Jets",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555566,
-   "name": "Chicago - Winnipeg",
-   "score": 1.0,
-   "home": "Chicago",
-   "away": "Winnipeg",
-   "tournament": "NHL"
   }
  },
  "id1500084472734730": {
