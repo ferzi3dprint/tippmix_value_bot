@@ -3581,5 +3581,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T02:32:33.055172+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-2.8% Rei Sakamoto – Ognjen Milic · Győztes: Rei Sakamoto győz @1.14 (fair 1.173)",
+   "-3.2% Los Angeles – NY Islanders · Hendikep (rendes játékidő): NY Islanders (+0.5) @1.63 (fair 1.685)",
+   "-3.5% Los Angeles – NY Islanders · Győztes (hosszabbítással): Los Angeles győz @1.83 (fair 1.897)",
+   "-4.1% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+0) @1.8 (fair 1.877)",
+   "-4.3% Coachella Valley Firebirds – SJ Barracuda · Győztes (hosszabbítással): Coachella Valley Firebirds győz @1.67 (fair 1.745)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 9,
+  "fixtures_both": 4,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 10
+ },
+ {
+  "time": "2026-11-13T02:37:33.055314+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1167,
+  "pinnacle_fixtures": 1111,
+  "paired": 705,
+  "by_sport": {
+   "Soccer": [
+    461,
+    345
+   ],
+   "Tennis": [
+    196,
+    27
+   ],
+   "Basketball": [
+    336,
+    206
+   ],
+   "Ice Hockey": [
+    174,
+    127
+   ]
+  },
+  "top_ev": [
+   "+2.1% Németország – Finnország · Hendikep (rendes játékidő): Németország (+2.5) @1.63 (fair 1.597)",
+   "+0.8% Svédország – Svájc · Győztes (hosszabbítással): Svédország győz @1.19 (fair 1.18)",
+   "+0.1% Stockport – Reading · 1X2: Stockport győz @1.89 (fair 1.888)",
+   "+0.1% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+1) @1.38 (fair 1.379)",
+   "-1.5% Carlisle – Boston Utd. · 1X2: Carlisle győz @1.46 (fair 1.483)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 38,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 104,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 6,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
