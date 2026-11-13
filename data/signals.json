@@ -128,7 +128,7 @@
   "closing_fair_prob": 0.53423,
   "closing_fair_odds": 1.872,
   "closing_sharp_odds": 1.787,
-  "closing_at": "2026-11-13T11:51:32.730729+00:00",
+  "closing_at": "2026-11-13T12:10:08.037510+00:00",
   "clv": 0.03641
  },
  {
@@ -172,7 +172,7 @@
   "closing_fair_prob": 0.65045,
   "closing_fair_odds": 1.537,
   "closing_sharp_odds": 1.49,
-  "closing_at": "2026-11-13T11:51:32.730729+00:00",
+  "closing_at": "2026-11-13T12:10:08.037510+00:00",
   "clv": -0.00482
  },
  {
@@ -389,5 +389,56 @@
   "closing_sharp_odds": 1.699,
   "closing_at": "2026-11-13T11:51:32.730729+00:00",
   "clv": 0.07609
+ },
+ {
+  "fixture_id": "id1001414772597858",
+  "market_id": 1062,
+  "outcome_id": 1062,
+  "first_at": "2026-11-13T12:10:08.037510+00:00",
+  "start": "2026-11-13T13:00:00.000Z",
+  "home": "Olomouc 2",
+  "away": "Zbrojovka Brno 2",
+  "tournament": "Cseh 3., MSFL",
+  "label": "Ázsiai hendikep: Olomouc 2 (-1.25)",
+  "odds": 2.21,
+  "fair_prob": 0.47624,
+  "ev": 0.0525,
+  "band": "2.10–2.50",
+  "trigger": "normál",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1001414772597858",
+  "market_id": 1064,
+  "outcome_id": 1064,
+  "first_at": "2026-11-13T12:10:08.037510+00:00",
+  "start": "2026-11-13T13:00:00.000Z",
+  "home": "Olomouc 2",
+  "away": "Zbrojovka Brno 2",
+  "tournament": "Cseh 3., MSFL",
+  "label": "Ázsiai hendikep: Olomouc 2 (-1)",
+  "odds": 1.94,
+  "fair_prob": 0.54771,
+  "ev": 0.06256,
+  "band": "1.80–2.10",
+  "trigger": "steam",
+  "bet": true
+ },
+ {
+  "fixture_id": "id1001414772597858",
+  "market_id": 1066,
+  "outcome_id": 1066,
+  "first_at": "2026-11-13T12:10:08.037510+00:00",
+  "start": "2026-11-13T13:00:00.000Z",
+  "home": "Olomouc 2",
+  "away": "Zbrojovka Brno 2",
+  "tournament": "Cseh 3., MSFL",
+  "label": "Ázsiai hendikep: Olomouc 2 (-0.75)",
+  "odds": 1.7,
+  "fair_prob": 0.60681,
+  "ev": 0.03157,
+  "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false
  }
 ]
