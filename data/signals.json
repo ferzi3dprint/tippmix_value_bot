@@ -81,11 +81,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": true,
-  "closing_fair_prob": 0.65001,
-  "closing_fair_odds": 1.538,
-  "closing_sharp_odds": 1.487,
-  "closing_at": "2026-11-13T10:43:50.505816+00:00",
-  "clv": 0.03352
+  "closing_fair_prob": 0.65744,
+  "closing_fair_odds": 1.521,
+  "closing_sharp_odds": 1.471,
+  "closing_at": "2026-11-13T11:06:23.871746+00:00",
+  "clv": 0.04532
  },
  {
   "fixture_id": "id1000184875802296",
@@ -128,7 +128,7 @@
   "closing_fair_prob": 0.53423,
   "closing_fair_odds": 1.872,
   "closing_sharp_odds": 1.787,
-  "closing_at": "2026-11-13T10:43:50.505816+00:00",
+  "closing_at": "2026-11-13T11:06:23.871746+00:00",
   "clv": 0.03641
  },
  {
@@ -169,11 +169,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.65045,
-  "closing_fair_odds": 1.537,
-  "closing_sharp_odds": 1.49,
-  "closing_at": "2026-11-13T10:43:50.505816+00:00",
-  "clv": -0.00482
+  "closing_fair_prob": 0.64735,
+  "closing_fair_odds": 1.545,
+  "closing_sharp_odds": 1.497,
+  "closing_at": "2026-11-13T11:06:23.871746+00:00",
+  "clv": -0.00956
  },
  {
   "fixture_id": "id1002375568931756",
@@ -277,7 +277,7 @@
   "closing_fair_prob": 0.66566,
   "closing_fair_odds": 1.502,
   "closing_sharp_odds": 1.462,
-  "closing_at": "2026-11-13T09:14:43.816276+00:00",
+  "closing_at": "2026-11-13T11:06:23.871746+00:00",
   "clv": 0.01846
  },
  {
@@ -299,7 +299,7 @@
   "closing_fair_prob": 0.57402,
   "closing_fair_odds": 1.742,
   "closing_sharp_odds": 1.675,
-  "closing_at": "2026-11-13T10:43:50.505816+00:00",
+  "closing_at": "2026-11-13T11:06:23.871746+00:00",
   "clv": 0.09064
  },
  {
@@ -321,7 +321,7 @@
   "closing_fair_prob": 0.58976,
   "closing_fair_odds": 1.696,
   "closing_sharp_odds": 1.617,
-  "closing_at": "2026-11-13T10:43:50.505816+00:00",
+  "closing_at": "2026-11-13T11:06:23.871746+00:00",
   "clv": 0.05568
  },
  {
@@ -343,7 +343,41 @@
   "closing_fair_prob": 0.69906,
   "closing_fair_odds": 1.43,
   "closing_sharp_odds": 1.375,
-  "closing_at": "2026-11-13T10:43:50.505816+00:00",
+  "closing_at": "2026-11-13T11:06:23.871746+00:00",
   "clv": 0.0416
+ },
+ {
+  "fixture_id": "id1504830372175996",
+  "market_id": 1578,
+  "outcome_id": 1578,
+  "first_at": "2026-11-13T11:06:23.871746+00:00",
+  "start": "2026-11-13T15:00:00.000Z",
+  "home": "U20Kärpät",
+  "away": "U20KalPa",
+  "tournament": "U20 Finn bajnokság",
+  "label": "Hendikep (rendes játékidő): U20Kärpät (-2)",
+  "odds": 2.35,
+  "fair_prob": 0.47548,
+  "ev": 0.11738,
+  "band": "2.10–2.50",
+  "trigger": "normál",
+  "bet": true
+ },
+ {
+  "fixture_id": "id1504830372175996",
+  "market_id": 1580,
+  "outcome_id": 1580,
+  "first_at": "2026-11-13T11:06:23.871746+00:00",
+  "start": "2026-11-13T15:00:00.000Z",
+  "home": "U20Kärpät",
+  "away": "U20KalPa",
+  "tournament": "U20 Finn bajnokság",
+  "label": "Hendikep (rendes játékidő): U20Kärpät (-1.5)",
+  "odds": 1.94,
+  "fair_prob": 0.55165,
+  "ev": 0.0702,
+  "band": "1.80–2.10",
+  "trigger": "steam",
+  "bet": false
  }
 ]

@@ -5233,5 +5233,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T11:01:01.935642+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "top_ev": [
+   "-0.6% Szingapúr – Paraguay · 1X2: Paraguay győz @1.07 (fair 1.077)",
+   "-0.8% Szingapúr – Paraguay · Gólszám 4.5: Kevesebb @1.41 (fair 1.421)",
+   "-0.8% Szingapúr – Paraguay · Mindkét csapat szerez gólt: Nem @1.44 (fair 1.452)",
+   "-1.2% Tanta – La Viena · Ázsiai hendikep: Tanta (+0) @1.41 (fair 1.427)",
+   "-1.4% Szingapúr – Paraguay · Gólszám 5.5: Kevesebb @1.15 (fair 1.166)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 9,
+  "fast": true,
+  "fixtures_checked": 24,
+  "fixtures_both": 22,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 4,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 28
+ },
+ {
+  "time": "2026-11-13T11:06:23.871746+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 7,
+  "boosts": 0,
+  "tippmix_matches": 1216,
+  "pinnacle_fixtures": 1111,
+  "paired": 704,
+  "by_sport": {
+   "Soccer": [
+    497,
+    354
+   ],
+   "Tennis": [
+    149,
+    13
+   ],
+   "Basketball": [
+    362,
+    197
+   ],
+   "Ice Hockey": [
+    208,
+    140
+   ]
+  },
+  "top_ev": [
+   "+11.7% U20Kärpät – U20KalPa · Hendikep (rendes játékidő): U20Kärpät (-2) @2.35 (fair 2.103)",
+   "+7.0% U20Kärpät – U20KalPa · Hendikep (rendes játékidő): U20Kärpät (-1.5) @1.94 (fair 1.813)",
+   "+1.2% Moldova – Kazahsztán · Gólszám 1.5: Több @1.52 (fair 1.502)",
+   "+0.7% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.46 (fair 1.45)",
+   "+0.3% Moldova – Kazahsztán · Gólszám 1.75: Több @1.65 (fair 1.644)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 21,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 123,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 27,
+  "placed": 1,
+  "not_executable": 1,
+  "api_calls": 0,
+  "free_calls": 157
  }
 ]
