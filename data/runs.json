@@ -3437,5 +3437,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T01:46:45.126013+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-2.8% Rei Sakamoto – Ognjen Milic · Győztes: Rei Sakamoto győz @1.14 (fair 1.173)",
+   "-3.1% Los Angeles – NY Islanders · Hendikep (rendes játékidő): NY Islanders (+0.5) @1.63 (fair 1.682)",
+   "-3.5% Los Angeles – NY Islanders · Győztes (hosszabbítással): Los Angeles győz @1.83 (fair 1.897)",
+   "-3.6% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+0) @1.81 (fair 1.877)",
+   "-4.2% Los Angeles – NY Islanders · Gólszám 6: Kevesebb @1.75 (fair 1.826)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 8,
+  "fixtures_both": 4,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 9
+ },
+ {
+  "time": "2026-11-13T01:51:45.126548+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 7,
+  "boosts": 0,
+  "tippmix_matches": 1131,
+  "pinnacle_fixtures": 1111,
+  "paired": 708,
+  "by_sport": {
+   "Soccer": [
+    449,
+    344
+   ],
+   "Tennis": [
+    172,
+    28
+   ],
+   "Basketball": [
+    336,
+    208
+   ],
+   "Ice Hockey": [
+    174,
+    128
+   ]
+  },
+  "top_ev": [
+   "+2.6% Moldova – Kazahsztán · Gólszám 1.5: Több @1.53 (fair 1.491)",
+   "+2.0% Moldova – Kazahsztán · Gólszám 2: Több @1.9 (fair 1.863)",
+   "+2.0% Moldova – Kazahsztán · Gólszám 1.75: Több @1.66 (fair 1.627)",
+   "-0.7% Melbourne Victory – Adelaide Utd. · 1X2: Melbourne Victory győz @1.59 (fair 1.602)",
+   "-0.9% Moldova – Kazahsztán · Gólszám 2.25: Több @2.21 (fair 2.23)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 17,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 110,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 8,
+  "placed": 1,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 157
  }
 ]
