@@ -3365,5 +3365,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 154
+ },
+ {
+  "time": "2026-11-13T01:24:33.512732+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "+0.5% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.52 (fair 1.512)",
+   "-0.5% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+1) @1.38 (fair 1.387)",
+   "-1.6% Los Angeles – NY Islanders · Hendikep (rendes játékidő): NY Islanders (+1) @1.48 (fair 1.503)",
+   "-2.0% Atl. Morelia – Leones Negros UdeG · Gólszám 1.5: Több @1.31 (fair 1.337)",
+   "-2.1% Utah – St. Louis · 1X2 (rendes játékidő): St. Louis győz @2.27 (fair 2.318)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 14,
+  "fixtures_both": 9,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 15
+ },
+ {
+  "time": "2026-11-13T01:29:33.512504+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1136,
+  "pinnacle_fixtures": 1111,
+  "paired": 709,
+  "by_sport": {
+   "Soccer": [
+    451,
+    343
+   ],
+   "Tennis": [
+    173,
+    29
+   ],
+   "Basketball": [
+    338,
+    209
+   ],
+   "Ice Hockey": [
+    174,
+    128
+   ]
+  },
+  "top_ev": [
+   "+1.4% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.47 (fair 1.45)",
+   "+1.1% U21Finnország – U21Írország · Gólszám 1.5: Több @1.36 (fair 1.346)",
+   "+1.0% U21Finnország – U21Írország · Gólszám 2: Több @1.57 (fair 1.554)",
+   "+0.6% Tunézia – Líbia · Ázsiai hendikep: Líbia (+2) @1.32 (fair 1.312)",
+   "+0.6% U21Finnország – U21Írország · 1X2: U21Finnország győz @2.03 (fair 2.018)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 14,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 97,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 9,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
