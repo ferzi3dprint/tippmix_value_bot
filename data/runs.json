@@ -6097,5 +6097,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T15:38:02.956283+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+1.6% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.47 (fair 1.447)",
+   "+1.5% Dél-Afrika – Kenya · Ázsiai hendikep: Kenya (+2) @1.38 (fair 1.36)",
+   "+1.2% Moldova – Kazahsztán · Gólszám 1.5: Több @1.47 (fair 1.453)",
+   "+1.0% Moldova – Kazahsztán · Gólszám 1.75: Több @1.59 (fair 1.574)",
+   "+0.7% Moldova – Kazahsztán · Gólszám 2: Több @1.79 (fair 1.777)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 5,
+  "fast": true,
+  "fixtures_checked": 66,
+  "fixtures_both": 58,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 16,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 72
+ },
+ {
+  "time": "2026-11-13T15:47:21.906627+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1279,
+  "pinnacle_fixtures": 1111,
+  "paired": 658,
+  "by_sport": {
+   "Soccer": [
+    561,
+    324
+   ],
+   "Tennis": [
+    134,
+    4
+   ],
+   "Basketball": [
+    390,
+    200
+   ],
+   "Ice Hockey": [
+    194,
+    130
+   ]
+  },
+  "top_ev": [
+   "+1.8% U21Finnország – U21Írország · 1X2: U21Finnország győz @1.81 (fair 1.778)",
+   "+1.2% Moldova – Kazahsztán · Gólszám 1.5: Több @1.47 (fair 1.453)",
+   "+1.0% Moldova – Kazahsztán · Gólszám 1.75: Több @1.59 (fair 1.574)",
+   "+0.7% Moldova – Kazahsztán · Gólszám 2: Több @1.79 (fair 1.777)",
+   "+0.6% Tappara – HIFK · Győztes (hosszabbítással): Tappara győz @1.48 (fair 1.471)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 6,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 103,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 25,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
