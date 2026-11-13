@@ -6169,5 +6169,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T16:04:34.443937+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+0.9% Moldova – Kazahsztán · Gólszám 2: Több @1.76 (fair 1.744)",
+   "+0.8% Moldova – Kazahsztán · Gólszám 1.5: Több @1.45 (fair 1.439)",
+   "+0.6% Tappara – HIFK · Győztes (hosszabbítással): Tappara győz @1.48 (fair 1.471)",
+   "+0.4% Moldova – Kazahsztán · Gólszám 1.75: Több @1.56 (fair 1.554)",
+   "-0.3% Moldova – Kazahsztán · Ázsiai hendikep: Moldova (+0.5) @1.35 (fair 1.354)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 6,
+  "fast": true,
+  "fixtures_checked": 100,
+  "fixtures_both": 73,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 20,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 106
+ },
+ {
+  "time": "2026-11-13T16:16:47.379887+00:00",
+  "mode": "hu",
+  "settled": 1,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1246,
+  "pinnacle_fixtures": 1111,
+  "paired": 648,
+  "by_sport": {
+   "Soccer": [
+    552,
+    318
+   ],
+   "Tennis": [
+    117,
+    4
+   ],
+   "Basketball": [
+    386,
+    199
+   ],
+   "Ice Hockey": [
+    191,
+    127
+   ]
+  },
+  "top_ev": [
+   "+0.5% Moldova – Kazahsztán · Gólszám 1.5: Több @1.45 (fair 1.443)",
+   "+0.2% Vienna Capitals – Linz · Győztes (hosszabbítással): Vienna Capitals győz @1.82 (fair 1.816)",
+   "-0.5% Moldova – Kazahsztán · Gólszám 2: Több @1.75 (fair 1.759)",
+   "-0.5% Bern – Fribourg · Hendikep (rendes játékidő): Fribourg (+0.5) @1.73 (fair 1.739)",
+   "-0.6% Bern – Fribourg · Hendikep (rendes játékidő): Fribourg (+1) @1.5 (fair 1.509)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 5,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 98,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 26,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 156
  }
 ]
