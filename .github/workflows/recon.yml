@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install playwright websockets
-      - run: pip install -r requirements.txt && python recon/boost.py
+      - run: pip install -r requirements.txt && python recon/recon.py tippmix
         env:
           ODDSPAPI_KEY: ${{ secrets.ODDSPAPI_KEY }}
       - name: Eredmény a recon ágra
