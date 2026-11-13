@@ -84,7 +84,7 @@
   "closing_fair_prob": 0.6543,
   "closing_fair_odds": 1.528,
   "closing_sharp_odds": 1.478,
-  "closing_at": "2026-11-13T15:12:41.612350+00:00",
+  "closing_at": "2026-11-13T15:21:03.889292+00:00",
   "clv": 0.04034
  },
  {
@@ -277,7 +277,7 @@
   "closing_fair_prob": 0.68745,
   "closing_fair_odds": 1.455,
   "closing_sharp_odds": 1.414,
-  "closing_at": "2026-11-13T15:12:41.612350+00:00",
+  "closing_at": "2026-11-13T15:21:03.889292+00:00",
   "clv": 0.05179
  },
  {
@@ -299,7 +299,7 @@
   "closing_fair_prob": 0.57772,
   "closing_fair_odds": 1.731,
   "closing_sharp_odds": 1.666,
-  "closing_at": "2026-11-13T15:12:41.612350+00:00",
+  "closing_at": "2026-11-13T15:21:03.889292+00:00",
   "clv": 0.09767
  },
  {
@@ -321,7 +321,7 @@
   "closing_fair_prob": 0.58797,
   "closing_fair_odds": 1.701,
   "closing_sharp_odds": 1.621,
-  "closing_at": "2026-11-13T15:12:41.612350+00:00",
+  "closing_at": "2026-11-13T15:21:03.889292+00:00",
   "clv": 0.05247
  },
  {
@@ -343,7 +343,7 @@
   "closing_fair_prob": 0.69609,
   "closing_fair_odds": 1.437,
   "closing_sharp_odds": 1.381,
-  "closing_at": "2026-11-13T15:12:41.612350+00:00",
+  "closing_at": "2026-11-13T15:21:03.889292+00:00",
   "clv": 0.03717
  },
  {
@@ -494,11 +494,11 @@
   "band": "1.30–1.50",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.71948,
-  "closing_fair_odds": 1.39,
-  "closing_sharp_odds": 1.336,
-  "closing_at": "2026-11-13T15:12:41.612350+00:00",
-  "clv": 0.07202
+  "closing_fair_prob": 0.72792,
+  "closing_fair_odds": 1.374,
+  "closing_sharp_odds": 1.322,
+  "closing_at": "2026-11-13T15:21:03.889292+00:00",
+  "clv": 0.08461
  },
  {
   "fixture_id": "id1000085176438758",
@@ -553,7 +553,7 @@
   "closing_fair_prob": 0.57093,
   "closing_fair_odds": 1.752,
   "closing_sharp_odds": 1.645,
-  "closing_at": "2026-11-13T15:12:41.612350+00:00",
+  "closing_at": "2026-11-13T15:21:03.889292+00:00",
   "clv": 0.06764
  },
  {
@@ -575,7 +575,7 @@
   "closing_fair_prob": 0.47429,
   "closing_fair_odds": 2.108,
   "closing_sharp_odds": 1.961,
-  "closing_at": "2026-11-13T15:12:41.612350+00:00",
+  "closing_at": "2026-11-13T15:21:03.889292+00:00",
   "clv": 0.04819
  },
  {
@@ -592,6 +592,45 @@
   "fair_prob": 0.4688,
   "ev": 0.04073,
   "band": "2.10–2.50",
+  "trigger": "steam",
+  "bet": false,
+  "closing_fair_prob": 0.51567,
+  "closing_fair_odds": 1.939,
+  "closing_sharp_odds": 1.819,
+  "closing_at": "2026-11-13T15:21:03.889292+00:00",
+  "clv": 0.14479
+ },
+ {
+  "fixture_id": "id1500023672709896",
+  "market_id": 1578,
+  "outcome_id": 1578,
+  "first_at": "2026-11-13T15:21:03.889292+00:00",
+  "start": "2026-11-13T16:30:00.000Z",
+  "home": "Spisska Nova Ves",
+  "away": "Trencin",
+  "tournament": "Szlovák bajnokság",
+  "label": "Hendikep (rendes játékidő): Spisska Nova Ves (-2)",
+  "odds": 2.45,
+  "fair_prob": 0.43047,
+  "ev": 0.05466,
+  "band": "2.10–2.50",
+  "trigger": "normál",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1500023672709896",
+  "market_id": 1582,
+  "outcome_id": 1582,
+  "first_at": "2026-11-13T15:21:03.889292+00:00",
+  "start": "2026-11-13T16:30:00.000Z",
+  "home": "Spisska Nova Ves",
+  "away": "Trencin",
+  "tournament": "Szlovák bajnokság",
+  "label": "Hendikep (rendes játékidő): Spisska Nova Ves (-1)",
+  "odds": 1.75,
+  "fair_prob": 0.59119,
+  "ev": 0.03459,
+  "band": "1.50–1.80",
   "trigger": "steam",
   "bet": false
  }

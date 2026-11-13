@@ -6050,5 +6050,52 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 62
+ },
+ {
+  "time": "2026-11-13T15:21:03.889292+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1282,
+  "pinnacle_fixtures": 1111,
+  "paired": 658,
+  "by_sport": {
+   "Soccer": [
+    552,
+    324
+   ],
+   "Tennis": [
+    145,
+    4
+   ],
+   "Basketball": [
+    389,
+    200
+   ],
+   "Ice Hockey": [
+    196,
+    130
+   ]
+  },
+  "top_ev": [
+   "+5.5% Spisska Nova Ves – Trencin · Hendikep (rendes játékidő): Spisska Nova Ves (-2) @2.45 (fair 2.323)",
+   "+5.2% Spisska Nova Ves – Trencin · Hendikep (rendes játékidő): Spisska Nova Ves (-1.5) @2.04 (fair 1.939)",
+   "+3.5% Spisska Nova Ves – Trencin · Hendikep (rendes játékidő): Spisska Nova Ves (-1) @1.75 (fair 1.691)",
+   "+2.4% Moldova – Kazahsztán · Gólszám 1.5: Több @1.49 (fair 1.455)",
+   "+2.1% Moldova – Kazahsztán · Gólszám 1.75: Több @1.61 (fair 1.577)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 7,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 112,
+  "rejected_mismatch": 0,
+  "candidates": 4,
+  "steam_fixtures": 28,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
