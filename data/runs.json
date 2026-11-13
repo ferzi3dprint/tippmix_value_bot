@@ -5017,5 +5017,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T09:54:19.391098+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-3.5% Mektic N./Roger-Vasselin E. – Pavlasek A./Rikl P. · Győztes: Pavlasek A./Rikl P. győz @1.92 (fair 1.99)",
+   "-7.2% U20Litvínov – U20Slavia Praha · Hendikep (rendes játékidő): U20Litvínov (+0.5) @1.56 (fair 1.682)",
+   "-8.0% U20Litvínov – U20Slavia Praha · Gólszám 5.5: Több @1.69 (fair 1.837)",
+   "-8.4% U20Motor Ceske Budejovice – U20Liberec · Hendikep (rendes játékidő): U20Motor Ceske Budejovice (+0) @1.4 (fair 1.529)",
+   "-8.8% U20Litvínov – U20Slavia Praha · Hendikep (rendes játékidő): U20Slavia Praha (-0) @1.75 (fair 1.919)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": true,
+  "fixtures_checked": 10,
+  "fixtures_both": 5,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 11
+ },
+ {
+  "time": "2026-11-13T09:59:19.391928+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 7,
+  "boosts": 0,
+  "tippmix_matches": 1252,
+  "pinnacle_fixtures": 1111,
+  "paired": 722,
+  "by_sport": {
+   "Soccer": [
+    500,
+    356
+   ],
+   "Tennis": [
+    170,
+    15
+   ],
+   "Basketball": [
+    371,
+    208
+   ],
+   "Ice Hockey": [
+    211,
+    143
+   ]
+  },
+  "top_ev": [
+   "+6.7% Hämeenlinna – Jukurit · Győztes (hosszabbítással): Hämeenlinna győz @1.9 (fair 1.781)",
+   "+6.3% Hämeenlinna – Jukurit · 1X2 (rendes játékidő): Hämeenlinna győz @2.53 (fair 2.38)",
+   "+3.1% Hämeenlinna – Jukurit · Hendikep (rendes játékidő): Hämeenlinna (+0.5) @1.49 (fair 1.445)",
+   "+3.1% Hämeenlinna – Jukurit · Hendikep (rendes játékidő): Hämeenlinna (+0) @1.79 (fair 1.737)",
+   "+1.2% Svédország – Svájc · Győztes (hosszabbítással): Svédország győz @1.19 (fair 1.176)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 24,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 116,
+  "rejected_mismatch": 0,
+  "candidates": 3,
+  "steam_fixtures": 20,
+  "placed": 1,
+  "not_executable": 1,
+  "api_calls": 0,
+  "free_calls": 157
  }
 ]

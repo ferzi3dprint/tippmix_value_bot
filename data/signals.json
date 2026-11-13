@@ -81,11 +81,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": true,
-  "closing_fair_prob": 0.64348,
-  "closing_fair_odds": 1.554,
-  "closing_sharp_odds": 1.502,
-  "closing_at": "2026-11-13T08:28:36.036706+00:00",
-  "clv": 0.02313
+  "closing_fair_prob": 0.64465,
+  "closing_fair_odds": 1.551,
+  "closing_sharp_odds": 1.5,
+  "closing_at": "2026-11-13T09:59:19.391928+00:00",
+  "clv": 0.02499
  },
  {
   "fixture_id": "id1000184875802296",
@@ -128,7 +128,7 @@
   "closing_fair_prob": 0.53756,
   "closing_fair_odds": 1.86,
   "closing_sharp_odds": 1.775,
-  "closing_at": "2026-11-13T09:36:58.978268+00:00",
+  "closing_at": "2026-11-13T09:59:19.391928+00:00",
   "clv": 0.04287
  },
  {
@@ -172,7 +172,7 @@
   "closing_fair_prob": 0.65724,
   "closing_fair_odds": 1.522,
   "closing_sharp_odds": 1.476,
-  "closing_at": "2026-11-13T09:36:58.978268+00:00",
+  "closing_at": "2026-11-13T09:59:19.391928+00:00",
   "clv": 0.00558
  },
  {
@@ -279,5 +279,56 @@
   "closing_sharp_odds": 1.462,
   "closing_at": "2026-11-13T09:14:43.816276+00:00",
   "clv": 0.01846
+ },
+ {
+  "fixture_id": "id1500013472116494",
+  "market_id": 151,
+  "outcome_id": 151,
+  "first_at": "2026-11-13T09:59:19.391928+00:00",
+  "start": "2026-11-13T16:30:00.000Z",
+  "home": "Hämeenlinna",
+  "away": "Jukurit",
+  "tournament": "Finn bajnokság",
+  "label": "Győztes (hosszabbítással): Hämeenlinna győz",
+  "odds": 1.9,
+  "fair_prob": 0.56139,
+  "ev": 0.06664,
+  "band": "1.80–2.10",
+  "trigger": "steam",
+  "bet": true
+ },
+ {
+  "fixture_id": "id1500013472116494",
+  "market_id": 1586,
+  "outcome_id": 1586,
+  "first_at": "2026-11-13T09:59:19.391928+00:00",
+  "start": "2026-11-13T16:30:00.000Z",
+  "home": "Hämeenlinna",
+  "away": "Jukurit",
+  "tournament": "Finn bajnokság",
+  "label": "Hendikep (rendes játékidő): Hämeenlinna (+0)",
+  "odds": 1.79,
+  "fair_prob": 0.5758,
+  "ev": 0.03069,
+  "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1500013472116494",
+  "market_id": 1588,
+  "outcome_id": 1588,
+  "first_at": "2026-11-13T09:59:19.391928+00:00",
+  "start": "2026-11-13T16:30:00.000Z",
+  "home": "Hämeenlinna",
+  "away": "Jukurit",
+  "tournament": "Finn bajnokság",
+  "label": "Hendikep (rendes játékidő): Hämeenlinna (+0.5)",
+  "odds": 1.49,
+  "fair_prob": 0.69211,
+  "ev": 0.03125,
+  "band": "1.30–1.50",
+  "trigger": "steam",
+  "bet": false
  }
 ]
