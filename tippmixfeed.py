@@ -19,8 +19,19 @@ from zoneinfo import ZoneInfo
 
 URL, OP, LANG = "wss://sportsapi.tippmixpro.hu/v2", "2901", "hu"
 ORIGIN = "https://www.tippmixpro.hu"
-SPORT_HU = {"Soccer": "Labdarúgás", "Tennis": "Tenisz", "Basketball": "Kosárlabda", "Ice Hockey": "Jégkorong"}
-TM_SPORT_ID = {"Labdarúgás": "1", "Tenisz": "3", "Jégkorong": "6", "Kosárlabda": "8"}
+# OddsPapi-sportnév -> Tippmix-sportnév (mindkét csatornán ugyanaz a magyar név)
+SPORT_HU = {"Soccer": "Labdarúgás", "Tennis": "Tenisz", "Basketball": "Kosárlabda", "Ice Hockey": "Jégkorong",
+            "Handball": "Kézilabda", "Volleyball": "Röplabda", "Table Tennis": "Asztalitenisz", "Cricket": "Krikett",
+            "Badminton": "Tollaslabda", "Darts": "Darts", "Futsal": "Futsal", "Waterpolo": "Vízilabda",
+            "ESport Counter-Strike": "Counter-Strike", "ESport Dota": "Dota 2", "ESport League of Legends": "League of Legends (LOL)",
+            "eSoccer": "E-Labdarúgás", "eBasketball": "NBA2k", "American Football": "Amerikai foci", "Boxing": "Ökölvívás",
+            "MMA": "MMA", "Snooker": "Snooker", "Rugby": "Rögbi", "Aussie Rules": "Aussie Rules", "Squash": "Squash",
+            "Baseball": "Baseball", "Beach Volley": "Strandröplabda", "Bandy": "Bandy", "Floorball": "Floorball"}
+TM_SPORT_ID = {"Labdarúgás": "1", "Tenisz": "3", "Jégkorong": "6", "Kézilabda": "7", "Kosárlabda": "8", "Tollaslabda": "14",
+               "Röplabda": "20", "Vízilabda": "22", "Krikett": "26", "Darts": "45", "Futsal": "49", "Asztalitenisz": "63",
+               "Dota 2": "99", "League of Legends (LOL)": "100", "NBA2k": "106", "E-Labdarúgás": "121", "Counter-Strike": "186"}
+BIG4 = {"Labdarúgás", "Tenisz", "Jégkorong", "Kosárlabda"}   # ezeknél részletes piac-térkép van; a többinél általános szabály
+LINES_OK = {"Kézilabda", "Rögbi"}   # ahol a gólszám/hendikep rendes játékidőre szól mindkét oldalon
 MARKETS = {  # (sportName, bettingTypeId, eventPartId) -> fajta  (foci és tenisz: a felderítés alapján)
     ("Labdarúgás", "69", "3"): "main",
     ("Labdarúgás", "47", "3"): "ou",
@@ -47,7 +58,17 @@ def market_kind(sport, m):
     if k:
         return k
     part = str(m.get("name") or "").rsplit(" - ", 1)[-1].strip()
-    return NAMED.get((sport, str(m.get("bettingTypeId")), part))
+    k = NAMED.get((sport, str(m.get("bettingTypeId")), part))
+    if k or sport in BIG4:
+        return k
+    bt = str(m.get("bettingTypeId"))          # általános szabály a többi sportágra: győztes és 1X2, néhol gólszám/hendikep
+    if bt == "466" and part in ("Teljes esemény", "Teljes mérkőzés"):
+        return "main"
+    if bt == "69" and part == "Rendes játékidő":
+        return "1x2reg"
+    if sport in LINES_OK and part == "Rendes játékidő":
+        return {"47": "ou", "48": "ah"}.get(bt)
+    return None
 
 
 def slug(text):
@@ -241,7 +262,12 @@ def parse_markets(recs, match, names=None):
 
 # --- OddsPapi-szerkezet -------------------------------------------------------
 
-OP_SPORT = {"Labdarúgás": 10, "Kosárlabda": 11, "Tenisz": 12, "Jégkorong": 15}
+OP_IDS = {"Soccer": 10, "Basketball": 11, "Tennis": 12, "Baseball": 13, "American Football": 14, "Ice Hockey": 15,
+          "ESport Dota": 16, "ESport Counter-Strike": 17, "ESport League of Legends": 18, "Darts": 19, "MMA": 20, "Boxing": 21,
+          "Handball": 22, "Volleyball": 23, "Snooker": 24, "Table Tennis": 25, "Rugby": 26, "Cricket": 27, "Waterpolo": 28,
+          "Futsal": 29, "Beach Volley": 30, "Aussie Rules": 31, "Floorball": 33, "Squash": 34, "Bandy": 41, "Badminton": 49,
+          "eSoccer": 54, "eBasketball": 55}
+OP_SPORT = {SPORT_HU[k]: v for k, v in OP_IDS.items() if k in SPORT_HU}
 NAME_KEY = {"1": "home", "X": "draw", "2": "away", "Over": "over", "Under": "under", "Yes": "yes", "No": "no"}
 
 
@@ -286,6 +312,13 @@ def op_index(markets_meta):
                 kind = "1x2reg"
             elif mt == "totals" and per == "fulltime" and name == "Total":
                 kind = "ou"
+        else:                                   # általános: győztes (sid·10+1) és 1X2 (sid·10+3); kézilabda/rögbi: vonalak is
+            if mt == "moneyline" and per == "result" and m["marketId"] == sid * 10 + 1:
+                kind = "main"
+            elif mt == "1x2" and m["marketId"] == sid * 10 + 3:
+                kind = "1x2reg"
+            elif sid in (22, 26) and per == "fulltime" and mt in ("totals", "spreads"):
+                kind = "ou" if mt == "totals" else "ah"
         if kind:
             if kind in ("main", "1x2reg") and line:
                 continue

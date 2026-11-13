@@ -22,6 +22,24 @@ SUB = {
 }
 
 
+def kind_of(sport, m):
+    """A piac fajtája: a négy fő sportágnál pontos térkép, a többinél általános szabály (győztes / 1X2, néhol vonalak)."""
+    k = SUB.get((sport, m.get("marketSubType")))
+    if k or sport in ("Labdarúgás", "Tenisz", "Kosárlabda", "Jégkorong"):
+        return k
+    n = str(m.get("marketName") or "")
+    if n == "A mérkőzés győztese":
+        return "main"
+    if n == "1X2":
+        return "1x2reg"
+    if sport in ("Kézilabda", "Rögbi"):
+        if n.startswith(("Gólszám ", "Pontszám ")):
+            return "ou"
+        if n.startswith("Hendikep ") and "(" not in n:
+            return "ah"
+    return None
+
+
 def _post(path, body, timeout=30):
     r = requests.post(API + path, json=body, headers=H, timeout=timeout)
     r.raise_for_status()
@@ -73,7 +91,7 @@ def event_markets(event_id, sport, names=None):
             if m.get("marketId") in seen:
                 continue
             seen.add(m.get("marketId"))
-            kind = SUB.get((sport, m.get("marketSubType")))
+            kind = kind_of(sport, m)
             if not kind or m.get("marketStatus") != 1 or (m.get("minCombiCount") or 1) > 1 or not m.get("channelRetailer", 1):
                 continue
             spec = m.get("specialOddsValue") or ""

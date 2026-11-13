@@ -46,9 +46,15 @@ def markets_meta(client, now):
     return {int(m["marketId"]): m for m in rows}
 
 
+def scan_sports(cfg):
+    """A figyelt sportágak (OddsPapi-nevek); "all" = minden sportág, amelyet a Tippmix is kínál."""
+    sp = cfg["scan"]["sports"]
+    return list(tippmixfeed.SPORT_HU) if sp in ("all", ["all"]) else list(sp)
+
+
 def sport_ids(client, cfg, now):
     rows = cached("sports", 24 * 30, client.sports, now)
-    want = {s.lower() for s in cfg["scan"]["sports"]}
+    want = {s.lower() for s in scan_sports(cfg)}
     return {int(s["sportId"]): s.get("sportName") or s.get("sportSlug") for s in rows
             if str(s.get("sportName") or s.get("sportSlug") or "").lower() in want}
 
@@ -223,7 +229,7 @@ def daily_bet_cap(cfg, now):
     local = to_local(now, cfg)
     next_month = (local.replace(day=28) + dt.timedelta(days=4)).replace(day=1)
     days_left = max(1, (next_month.date() - local.date()).days)
-    fixed = len(cfg["scan"]["sports"]) * days_left + 6          # meccslisták + piaclista-frissítés
+    fixed = days_left + 6          # meccslisták + piaclista-frissítés
     spare = q["remaining"] - cfg["api"]["quota_reserve"] - fixed
     return max(base, int(spare / days_left))
 
@@ -349,18 +355,22 @@ def hu_fixtures(client, cfg, now):
     """A mai Pinnacle-meccsek (sportáganként napi 1 fizetős kérés)."""
     today = to_local(now, cfg).date().isoformat()
     c = load_json("cache/fixtures_hu.json", None)
-    key = [cfg["scan"]["sports"], ref_books(cfg), cfg["hu"].get("days_ahead", 0)]
+    key = [scan_sports(cfg), ref_books(cfg), cfg["hu"].get("days_ahead", 0)]
     if c and c.get("date") == today and c.get("key") == key:
         return c["data"]
-    if paid_calls_left(client, cfg) < len(cfg["scan"]["sports"]) + 2:
+    if paid_calls_left(client, cfg) < 3:
         print("[meccslista] a havi keret elfogyott – a régi listával megy tovább")
         return (c or {}).get("data", {})
-    out = {}
-    for sid, sname in sport_ids(client, cfg, now).items():
-        for f in client.fixtures(sid, now, end_of_day(now, cfg), ",".join(ref_books(cfg))) or []:
-            out[f["fixtureId"]] = {k: f.get(k) for k in ("fixtureId", "startTime", "participant1Name", "participant2Name",
-                                                          "tournamentId", "tournamentName")}
-            out[f["fixtureId"]]["sportName"] = sname
+    out, want = {}, set(scan_sports(cfg))
+    by_id = {v: k for k, v in tippmixfeed.OP_IDS.items()}
+    # EGYETLEN fizetős kérés az összes sportágra (sportId nélkül)
+    for f in client.fixtures(None, now, end_of_day(now, cfg), ",".join(ref_books(cfg))) or []:
+        sname = by_id.get(f.get("sportId")) or f.get("sportName")
+        if sname not in want:
+            continue
+        out[f["fixtureId"]] = {k: f.get(k) for k in ("fixtureId", "startTime", "participant1Name", "participant2Name",
+                                                      "tournamentId", "tournamentName")}
+        out[f["fixtureId"]]["sportName"] = sname
     save_json("cache/fixtures_hu.json", {"date": today, "time": now.isoformat(), "key": key, "data": out})
     return out
 
@@ -471,7 +481,7 @@ def scan_hu(client, bets, cfg, now, stats, signals, fast=False):
     if fast:
         return scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, load_json("cache/pairs_hu.json", {}), fast=True)
     fixtures = hu_fixtures(client, cfg, now)
-    sports_hu = [tippmixfeed.SPORT_HU.get(s, s) for s in cfg["scan"]["sports"]]
+    sports_hu = [tippmixfeed.SPORT_HU.get(s, s) for s in scan_sports(cfg)]
     days = cfg["hu"].get("days_ahead", 0)
     c = load_json("cache/tm_matches.json", None)
     if c and c.get("date") == to_local(now, cfg).date().isoformat() and \
@@ -485,7 +495,7 @@ def scan_hu(client, bets, cfg, now, stats, signals, fast=False):
         save_json("cache/tm_matches.json", {"date": to_local(now, cfg).date().isoformat(), "time": now.isoformat(),
                                             "sports": sports_hu, "days": days, "v": 2, "data": [{**m, "start": m["start"].isoformat()} for m in tm]})
     pairs = {}
-    for sp_en in cfg["scan"]["sports"]:
+    for sp_en in scan_sports(cfg):
         sp_hu = tippmixfeed.SPORT_HU.get(sp_en, sp_en)
         fx = [f for f in fixtures.values() if f["sportName"] == sp_en]
         tms = [m for m in tm if m["sport"] == sp_hu]
@@ -500,7 +510,7 @@ def scan_hu(client, bets, cfg, now, stats, signals, fast=False):
     save_json("cache/pairs_hu.json", pairs)
     stats.update({"tippmix_matches": len(tm), "pinnacle_fixtures": len(fixtures), "paired": len(pairs),
                   "by_sport": {sp: [sum(1 for m in tm if m["sport"] == tippmixfeed.SPORT_HU.get(sp, sp)),
-                                    sum(1 for p in pairs.values() if p["fx"]["sportName"] == sp)] for sp in cfg["scan"]["sports"]}})
+                                    sum(1 for p in pairs.values() if p["fx"]["sportName"] == sp)] for sp in scan_sports(cfg)}})
 
     return scan_hu_pairs(client, bets, cfg, now, stats, signals, meta, pairs)
 
@@ -634,7 +644,7 @@ def free_fixtures(client, cfg, now):
         return out
     c = load_json("cache/fixtures.json", None)
     fresh_enough = c and now - parse_time(c["time"]) < dt.timedelta(hours=fr["discovery_hours"])
-    if not fresh_enough and paid_calls_left(client, cfg) < len(cfg["scan"]["sports"]) + 2:
+    if not fresh_enough and paid_calls_left(client, cfg) < len(scan_sports(cfg)) + 2:
         print("[meccslista] a havi keret elfogyott – a régi listával megy tovább")
         return (c or {}).get("data", {})
     return cached("fixtures", fr["discovery_hours"], fetch, now)

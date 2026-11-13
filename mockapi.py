@@ -148,7 +148,7 @@ class MockOddsPapi:
 
     def fixtures(self, sport_id, start, end, bookmakers):
         self.calls += 1
-        return [_public(f) for f in _fixtures_between(start, end) if f["sportId"] == sport_id and f["startTime"] > now_utc()]
+        return [_public(f) for f in _fixtures_between(start, end) if (sport_id is None or f["sportId"] == sport_id) and f["startTime"] > now_utc()]
 
     def odds_by_tournaments(self, tournament_ids, bookmaker):
         self.calls += 1

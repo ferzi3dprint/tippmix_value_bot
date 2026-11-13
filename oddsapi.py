@@ -63,7 +63,8 @@ class OddsPapi:
         return self._get("/v4/markets")
 
     def fixtures(self, sport_id, start, end, bookmakers):
-        return self._get("/v4/fixtures", sportId=sport_id, **{"from": start.strftime("%Y-%m-%dT%H:%M:%SZ"),
+        kw = {"sportId": sport_id} if sport_id else {}       # sportId nélkül: minden sportág egy kérésben
+        return self._get("/v4/fixtures", **kw, **{"from": start.strftime("%Y-%m-%dT%H:%M:%SZ"),
                          "to": end.strftime("%Y-%m-%dT%H:%M:%SZ")}, statusId=0, hasOdds="true", bookmakers=bookmakers)
 
     def odds_by_tournaments(self, tournament_ids, bookmaker):

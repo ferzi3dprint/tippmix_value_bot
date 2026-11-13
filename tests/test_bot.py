@@ -395,3 +395,21 @@ def test_classic_channel_separate_from_pro():
     import report
     txt, btn = report.bet_card(cl[0], CFG)
     assert "KLASSZIKUS" in txt and btn[0][1] == "https://www.tippmix.hu/"
+
+
+def test_all_sports_generic_markets():
+    import classicfeed
+    import tippmixfeed as tf
+    assert tf.market_kind("Kézilabda", {"bettingTypeId": 69, "eventPartId": 51, "name": "1X2 - Rendes játékidő"}) == "1x2reg"
+    assert tf.market_kind("Kézilabda", {"bettingTypeId": 47, "eventPartId": 51, "name": "Gólszám 52.5 - Rendes játékidő"}) == "ou"
+    assert tf.market_kind("Tollaslabda", {"bettingTypeId": 466, "eventPartId": 310, "name": "Ki nyeri? - Teljes mérkőzés"}) == "main"
+    assert tf.market_kind("Tollaslabda", {"bettingTypeId": 466, "eventPartId": 311, "name": "Ki nyeri? - 1. játszma"}) is None
+    assert classicfeed.kind_of("Darts", {"marketSubType": 3, "marketName": "A mérkőzés győztese"}) == "main"
+    assert classicfeed.kind_of("Rögbi", {"marketSubType": 198, "marketName": "Hendikep 7,5"}) == "ah"
+    assert classicfeed.kind_of("Röplabda", {"marketSubType": 231, "marketName": "Hendikep 0,5 (pontszám)"}) is None
+    meta = {191: {"marketId": 191, "sportId": 19, "marketType": "moneyline", "period": "result", "marketName": "Winner",
+                  "outcomes": [{"outcomeId": 191, "outcomeName": "1"}, {"outcomeId": 192, "outcomeName": "2"}]},
+            223: {"marketId": 223, "sportId": 22, "marketType": "1x2", "period": "fulltime", "marketName": "1X2",
+                  "outcomes": [{"outcomeId": 223, "outcomeName": "1"}, {"outcomeId": 224, "outcomeName": "X"}, {"outcomeId": 225, "outcomeName": "2"}]}}
+    idx = tf.op_index(meta)
+    assert idx[("Darts", "main", 0.0)][0] == 191 and idx[("Kézilabda", "1x2reg", 0.0)][1]["draw"] == 224

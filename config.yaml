@@ -42,7 +42,7 @@ free:                          # mode: free és hu esetén
                                # (4 sportág meccslistája ~120/hó + 3 fogadás/nap ~90/hó + piaclista ≈ 220 a 250-ből)
 
 scan:
-  sports: [Soccer, Tennis, Basketball, Ice Hockey]   # sportáganként napi 1 fizetős kérés (Pinnacle meccslista)
+  sports: all                  # minden sportág, amit a Tippmix kínál (a meccslista 1 fizetős kérés naponta, sportágtól függetlenül)
   lookahead_hours: 36          # ennyi órán belül kezdődő meccseket vizsgál
   min_minutes_before_start: 20 # ennél közelebb a kezdéshez már nem "fogad"
   max_sharp_overround: 1.08    # ha a Pinnacle árrése ennél nagyobb, a piac nem megbízható viszonyítási alap

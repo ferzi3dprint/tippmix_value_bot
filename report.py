@@ -12,7 +12,10 @@ def _match(b):
     return f"{b['home']} – {b['away']}"
 
 
-SPORT_ICON = {"Soccer": "⚽", "Tennis": "🎾", "Basketball": "🏀", "Ice Hockey": "🏒"}
+SPORT_ICON = {"Soccer": "⚽", "Tennis": "🎾", "Basketball": "🏀", "Ice Hockey": "🏒", "Handball": "🤾", "Volleyball": "🏐",
+              "Table Tennis": "🏓", "Badminton": "🏸", "Darts": "🎯", "Waterpolo": "🤽", "Futsal": "⚽", "Cricket": "🏏",
+              "American Football": "🏈", "Rugby": "🏉", "Boxing": "🥊", "MMA": "🥋", "Snooker": "🎱", "Baseball": "⚾",
+              "ESport Counter-Strike": "🎮", "ESport Dota": "🎮", "ESport League of Legends": "🎮", "eSoccer": "🎮", "eBasketball": "🎮"}
 
 
 TM_URL = None      # a meccsoldal pontos címformátuma még nincs meg – addig a főoldal

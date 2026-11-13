@@ -23,7 +23,8 @@ import ledger  # noqa: E402
 from common import load_config, load_json, parse_time, save_json  # noqa: E402
 from valuefinder import market_hu  # noqa: E402
 
-SPORT_HU = {"Soccer": "Foci", "Tennis": "Tenisz", "Basketball": "Kosárlabda", "Ice Hockey": "Jégkorong"}
+from tippmixfeed import SPORT_HU as _SH
+SPORT_HU = {**_SH, "Soccer": "Foci"}
 
 TEMPLATE = os.path.join(HERE, "index.html")
 DATA_NAME = "data.enc.json"
@@ -121,7 +122,7 @@ def collect(cfg, channel="pro"):
         "quota": load_json("quota.json", None),
         "settings": {"steam": cfg.get("steam"), "execution": cfg.get("execution"), "min_odds": cfg["filters"]["min_odds"], "max_odds": cfg["filters"]["max_odds"],
                      "ev_bands": cfg["filters"]["ev_bands"], "kelly": cfg["staking"]["kelly_fraction"],
-                     "max_stake_pct": cfg["staking"]["max_stake_pct"], "sports": cfg["scan"]["sports"],
+                     "max_stake_pct": cfg["staking"]["max_stake_pct"], "sports": (["minden sportág"] if cfg["scan"]["sports"] in ("all", ["all"]) else cfg["scan"]["sports"]),
                      "mode": cfg["api"].get("mode", "paid"), "max_bets_per_day": (cfg.get("free") or {}).get("max_bets_per_day"),
                      "soft": cfg["api"]["soft_book"], "sharp": cfg["api"]["sharp_book"], "devig": cfg["scan"]["devig_method"]},
         "demo": os.getenv("MOCK_API") == "1" or os.getenv("DATA_DIR", "data") != "data",
