@@ -5161,5 +5161,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T10:38:50.505300+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "top_ev": [
+   "-1.5% Szingapúr – Paraguay · 1X2: Paraguay győz @1.06 (fair 1.077)",
+   "-1.8% Szingapúr – Paraguay · Gólszám 2.5: Több @1.32 (fair 1.344)",
+   "-1.9% Tanta – La Viena · Ázsiai hendikep: Tanta (+0) @1.4 (fair 1.427)",
+   "-2.1% Szingapúr – Paraguay · Gólszám 4.5: Kevesebb @1.39 (fair 1.42)",
+   "-2.1% Tanta – La Viena · Ázsiai hendikep: Tanta (+0.25) @1.28 (fair 1.308)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 5,
+  "fast": true,
+  "fixtures_checked": 18,
+  "fixtures_both": 13,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 4,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 22
+ },
+ {
+  "time": "2026-11-13T10:43:50.505816+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1220,
+  "pinnacle_fixtures": 1111,
+  "paired": 709,
+  "by_sport": {
+   "Soccer": [
+    500,
+    354
+   ],
+   "Tennis": [
+    148,
+    13
+   ],
+   "Basketball": [
+    362,
+    200
+   ],
+   "Ice Hockey": [
+    210,
+    142
+   ]
+  },
+  "top_ev": [
+   "+1.2% Stockport – Reading · 1X2: Stockport győz @1.91 (fair 1.888)",
+   "+1.0% Németország – Finnország · Hendikep (rendes játékidő): Németország (+2.5) @1.62 (fair 1.604)",
+   "+0.8% U21Finnország – U21Írország · Gólszám 1.5: Több @1.35 (fair 1.339)",
+   "+0.4% U21Finnország – U21Írország · 1X2: U21Finnország győz @1.88 (fair 1.872)",
+   "+0.1% U21Finnország – U21Írország · Gólszám 2: Több @1.54 (fair 1.538)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 29,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 126,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 18,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
