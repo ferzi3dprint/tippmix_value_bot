@@ -5834,5 +5834,52 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 33
+ },
+ {
+  "time": "2026-11-13T14:09:11.486117+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1204,
+  "pinnacle_fixtures": 1111,
+  "paired": 676,
+  "by_sport": {
+   "Soccer": [
+    496,
+    332
+   ],
+   "Tennis": [
+    133,
+    8
+   ],
+   "Basketball": [
+    375,
+    201
+   ],
+   "Ice Hockey": [
+    200,
+    135
+   ]
+  },
+  "top_ev": [
+   "+0.7% Moldova – Kazahsztán · Gólszám 1.5: Több @1.51 (fair 1.5)",
+   "+0.6% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.46 (fair 1.451)",
+   "+0.3% SaiPa – Ilves · Gólszám 5: Több @1.85 (fair 1.845)",
+   "+0.2% Vienna Capitals – Linz · Győztes (hosszabbítással): Vienna Capitals győz @1.82 (fair 1.816)",
+   "+0.0% Spisska Nova Ves – Trencin · Győztes (hosszabbítással): Spisska Nova Ves győz @1.53 (fair 1.53)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 8,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 113,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 23,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
