@@ -5521,5 +5521,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T12:32:37.624657+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "top_ev": [
+   "-1.4% Olomouc 2 – Zbrojovka Brno 2 · Ázsiai hendikep: Olomouc 2 (-1) @1.62 (fair 1.643)",
+   "-2.1% Mozambik – Etiópia · 1X2: Mozambik győz @1.58 (fair 1.614)",
+   "-2.2% Mozambik – Etiópia · Gólszám 3: Kevesebb @1.33 (fair 1.36)",
+   "-2.3% Mozambik – Etiópia · Gólszám 1.5: Több @1.4 (fair 1.433)",
+   "-2.4% Olomouc 2 – Zbrojovka Brno 2 · Ázsiai hendikep: Olomouc 2 (-0.75) @1.48 (fair 1.516)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 8,
+  "fast": true,
+  "fixtures_checked": 20,
+  "fixtures_both": 19,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 4,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 24
+ },
+ {
+  "time": "2026-11-13T12:37:38.263447+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1246,
+  "pinnacle_fixtures": 1111,
+  "paired": 688,
+  "by_sport": {
+   "Soccer": [
+    519,
+    342
+   ],
+   "Tennis": [
+    148,
+    9
+   ],
+   "Basketball": [
+    373,
+    198
+   ],
+   "Ice Hockey": [
+    206,
+    139
+   ]
+  },
+  "top_ev": [
+   "+1.5% Olomouc 2 – Zbrojovka Brno 2 · Ázsiai hendikep: Olomouc 2 (-1) @1.63 (fair 1.605)",
+   "+0.4% Olomouc 2 – Zbrojovka Brno 2 · Ázsiai hendikep: Olomouc 2 (-1.5) @2.08 (fair 2.071)",
+   "+0.2% Vienna Capitals – Linz · Győztes (hosszabbítással): Vienna Capitals győz @1.82 (fair 1.816)",
+   "+0.1% Olomouc 2 – Zbrojovka Brno 2 · Ázsiai hendikep: Olomouc 2 (-0.75) @1.49 (fair 1.488)",
+   "+0.0% Olomouc 2 – Zbrojovka Brno 2 · Ázsiai hendikep: Olomouc 2 (-1.25) @1.84 (fair 1.839)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 17,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 119,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 30,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
