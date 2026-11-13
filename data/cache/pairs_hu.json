@@ -7974,6 +7974,31 @@
   },
   "score": 1.0
  },
+ "id1000070172347006": {
+  "tm": {
+   "id": "318617838416896000",
+   "sport": "Labdarúgás",
+   "name": "Loughgall - Glenavon",
+   "home": "Loughgall",
+   "away": "Glenavon",
+   "home_pid": "22981",
+   "away_pid": "1966",
+   "tournament": "Észak-Ír 2.",
+   "category": "Észak-Írország",
+   "tm_sport_id": "1",
+   "start": "2026-11-13T19:45:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000070172347006",
+   "startTime": "2026-11-13T19:45:00.000Z",
+   "participant1Name": "Loughgall FC",
+   "participant2Name": "Glenavon FC",
+   "tournamentId": 701,
+   "tournamentName": "Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000070172347002": {
   "tm": {
    "id": "318617838186209280",
@@ -8018,31 +8043,6 @@
    "startTime": "2026-11-13T19:45:00.000Z",
    "participant1Name": "Institute FC",
    "participant2Name": "Armagh City FC",
-   "tournamentId": 701,
-   "tournamentName": "Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000070172347006": {
-  "tm": {
-   "id": "318617838416896000",
-   "sport": "Labdarúgás",
-   "name": "Loughgall - Glenavon",
-   "home": "Loughgall",
-   "away": "Glenavon",
-   "home_pid": "22981",
-   "away_pid": "1966",
-   "tournament": "Észak-Ír 2.",
-   "category": "Észak-Írország",
-   "tm_sport_id": "1",
-   "start": "2026-11-13T19:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000070172347006",
-   "startTime": "2026-11-13T19:45:00.000Z",
-   "participant1Name": "Loughgall FC",
-   "participant2Name": "Glenavon FC",
    "tournamentId": 701,
    "tournamentName": "Championship",
    "sportName": "Soccer"
@@ -8648,6 +8648,31 @@
    "sportName": "Soccer"
   },
   "score": 0.819
+ },
+ "id1002707076676664": {
+  "tm": {
+   "id": "318896529949663232",
+   "sport": "Labdarúgás",
+   "name": "Atl. Nacional Medellin - Once Caldas",
+   "home": "Atl. Nacional Medellin",
+   "away": "Once Caldas",
+   "home_pid": "1218",
+   "away_pid": "4078",
+   "tournament": "Kolumbiai bajnokság",
+   "category": "Kolumbia",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T20:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002707076676664",
+   "startTime": "2026-11-14T20:30:00.000Z",
+   "participant1Name": "Atletico Nacional",
+   "participant2Name": "CD Once Caldas",
+   "tournamentId": 27070,
+   "tournamentName": "Liga DIMAYOR",
+   "sportName": "Soccer"
+  },
+  "score": 0.816
  },
  "id1000053272281460": {
   "tm": {
@@ -13524,25 +13549,25 @@
   },
   "score": 1.0
  },
- "id1104853973456678": {
+ "id1104853973457034": {
   "tm": {
-   "id": "318936786274426880",
+   "id": "318936739605454848",
    "sport": "Kosárlabda",
-   "name": "Loon Plage - Val de Seine",
-   "home": "Loon Plage",
-   "away": "Val de Seine",
-   "home_pid": "182526981599973376",
-   "away_pid": "280343364150366208",
+   "name": "Bordeaux - Challans",
+   "home": "Bordeaux",
+   "away": "Challans",
+   "home_pid": "313947942638219264",
+   "away_pid": "1375654",
    "tournament": "Francia 3.",
    "category": "Franciaország",
    "tm_sport_id": "8",
    "start": "2026-11-13T19:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1104853973456678",
+   "fixtureId": "id1104853973457034",
    "startTime": "2026-11-13T19:00:00.000Z",
-   "participant1Name": "Loon Plage",
-   "participant2Name": "Val de Seine Basket",
+   "participant1Name": "JSA Bordeaux",
+   "participant2Name": "Vendee Challans Basket",
    "tournamentId": 48539,
    "tournamentName": "Nationale 1",
    "sportName": "Basketball"
@@ -13574,25 +13599,25 @@
   },
   "score": 1.0
  },
- "id1104853973457034": {
+ "id1104853973456678": {
   "tm": {
-   "id": "318936739605454848",
+   "id": "318936786274426880",
    "sport": "Kosárlabda",
-   "name": "Bordeaux - Challans",
-   "home": "Bordeaux",
-   "away": "Challans",
-   "home_pid": "313947942638219264",
-   "away_pid": "1375654",
+   "name": "Loon Plage - Val de Seine",
+   "home": "Loon Plage",
+   "away": "Val de Seine",
+   "home_pid": "182526981599973376",
+   "away_pid": "280343364150366208",
    "tournament": "Francia 3.",
    "category": "Franciaország",
    "tm_sport_id": "8",
    "start": "2026-11-13T19:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1104853973457034",
+   "fixtureId": "id1104853973456678",
    "startTime": "2026-11-13T19:00:00.000Z",
-   "participant1Name": "JSA Bordeaux",
-   "participant2Name": "Vendee Challans Basket",
+   "participant1Name": "Loon Plage",
+   "participant2Name": "Val de Seine Basket",
    "tournamentId": 48539,
    "tournamentName": "Nationale 1",
    "sportName": "Basketball"

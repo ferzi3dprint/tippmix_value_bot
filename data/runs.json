@@ -4754,5 +4754,52 @@
   "not_executable": 0,
   "api_calls": 1,
   "free_calls": 15
+ },
+ {
+  "time": "2026-11-13T08:28:36.036706+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1221,
+  "pinnacle_fixtures": 1111,
+  "paired": 728,
+  "by_sport": {
+   "Soccer": [
+    497,
+    358
+   ],
+   "Tennis": [
+    171,
+    22
+   ],
+   "Basketball": [
+    355,
+    207
+   ],
+   "Ice Hockey": [
+    198,
+    141
+   ]
+  },
+  "top_ev": [
+   "+4.7% Guelph Storm – Brantford Bulldogs · 1X2 (rendes játékidő): Brantford Bulldogs győz @4.2 (fair 4.012)",
+   "+1.0% Németország – Finnország · Hendikep (rendes játékidő): Németország (+2.5) @1.62 (fair 1.604)",
+   "+0.7% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.45 (fair 1.44)",
+   "+0.2% U21Finnország – U21Írország · Gólszám 1.5: Több @1.35 (fair 1.347)",
+   "+0.1% Szingapúr – Paraguay · Gólszám 2.5: Több @1.33 (fair 1.329)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 29,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 115,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 17,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
