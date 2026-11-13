@@ -4231,5 +4231,71 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T05:51:22.713323+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 1,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 1
+ },
+ {
+  "time": "2026-11-13T05:56:22.713646+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1220,
+  "pinnacle_fixtures": 1111,
+  "paired": 709,
+  "by_sport": {
+   "Soccer": [
+    481,
+    347
+   ],
+   "Tennis": [
+    202,
+    26
+   ],
+   "Basketball": [
+    347,
+    201
+   ],
+   "Ice Hockey": [
+    190,
+    135
+   ]
+  },
+  "top_ev": [
+   "+1.2% Marokkó – Niger · Gólszám 4: Kevesebb @1.37 (fair 1.353)",
+   "+1.2% Szerbia – Németország · 1X2: Németország győz @1.3 (fair 1.285)",
+   "+0.7% Szlovákia – Feröer-szigetek · Gólszám 4.5: Kevesebb @1.15 (fair 1.142)",
+   "+0.5% Bulgária – Izland · 1X2: Izland győz @1.87 (fair 1.862)",
+   "+0.3% Liechtenstein – Azerbajdzsán · 1X2: Azerbajdzsán győz @1.22 (fair 1.217)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 27,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 104,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 25,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
