@@ -5305,5 +5305,77 @@
   "not_executable": 1,
   "api_calls": 0,
   "free_calls": 157
+ },
+ {
+  "time": "2026-11-13T11:23:45.403324+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+0.2% Szingapúr – Paraguay · Gólszám 4.5: Kevesebb @1.41 (fair 1.408)",
+   "-0.5% Szingapúr – Paraguay · Mindkét csapat szerez gólt: Nem @1.45 (fair 1.458)",
+   "-0.7% Szingapúr – Paraguay · Gólszám 4: Kevesebb @1.58 (fair 1.592)",
+   "-0.9% Szingapúr – Paraguay · Gólszám 5.5: Kevesebb @1.15 (fair 1.161)",
+   "-0.9% Szingapúr – Paraguay · 1X2: Paraguay győz @1.07 (fair 1.08)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 9,
+  "fast": true,
+  "fixtures_checked": 24,
+  "fixtures_both": 22,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 6,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 30
+ },
+ {
+  "time": "2026-11-13T11:29:17.883354+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1222,
+  "pinnacle_fixtures": 1111,
+  "paired": 703,
+  "by_sport": {
+   "Soccer": [
+    498,
+    354
+   ],
+   "Tennis": [
+    150,
+    12
+   ],
+   "Basketball": [
+    366,
+    197
+   ],
+   "Ice Hockey": [
+    208,
+    140
+   ]
+  },
+  "top_ev": [
+   "+1.5% U21Finnország – U21Írország · 1X2: U21Finnország győz @1.76 (fair 1.735)",
+   "+1.2% Moldova – Kazahsztán · Gólszám 1.5: Több @1.52 (fair 1.502)",
+   "+0.5% Moldova – Kazahsztán · Gólszám 1.75: Több @1.65 (fair 1.642)",
+   "+0.3% U21Finnország – U21Írország · Ázsiai hendikep: U21Finnország (+0) @1.28 (fair 1.276)",
+   "+0.2% Szingapúr – Paraguay · Gólszám 4.5: Kevesebb @1.41 (fair 1.408)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 20,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 126,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 26,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
