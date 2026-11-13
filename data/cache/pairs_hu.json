@@ -9699,6 +9699,31 @@
   },
   "score": 1.0
  },
+ "id1000137873628104": {
+  "tm": {
+   "id": "318775652579876864",
+   "sport": "Labdarúgás",
+   "name": "ASD Brian Lignano Calcio - Cjarlins Muzane",
+   "home": "ASD Brian Lignano Calcio",
+   "away": "Cjarlins Muzane",
+   "home_pid": "245454317598404608",
+   "away_pid": "1580947886075904",
+   "tournament": "Olasz D, C csoport",
+   "category": "Olaszország",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T14:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000137873628104",
+   "startTime": "2026-11-14T14:00:00.000Z",
+   "participant1Name": "Brian Lignano Calcio",
+   "participant2Name": "ASD Cjarlins Muzane",
+   "tournamentId": 1378,
+   "tournamentName": "Serie D, Group C",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000033576171160": {
   "tm": {
    "id": "319739412531453952",
@@ -11351,56 +11376,6 @@
    "tournamentId": 49880,
    "tournamentName": "UTR PTT Carvoeiro Men 08",
    "sportName": "Tennis"
-  },
-  "score": 1.0
- },
- "id1100064873115972": {
-  "tm": {
-   "id": "319797584489160704",
-   "sport": "Kosárlabda",
-   "name": "Miami (Florida) Hurricanes - North Alabama Lions",
-   "home": "Miami (Florida) Hurricanes",
-   "away": "North Alabama Lions",
-   "home_pid": "38483",
-   "away_pid": "187033597568405504",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-13T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873115972",
-   "startTime": "2026-11-13T22:00:00.000Z",
-   "participant1Name": "Miami Hurricanes",
-   "participant2Name": "North Alabama Lions",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100064873505832": {
-  "tm": {
-   "id": "319820982644711424",
-   "sport": "Kosárlabda",
-   "name": "Florida State Seminoles - Texas A&M Corpus Christi Islanders",
-   "home": "Florida State Seminoles",
-   "away": "Texas A&M Corpus Christi Islanders",
-   "home_pid": "37500",
-   "away_pid": "187320866929954816",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-13T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873505832",
-   "startTime": "2026-11-13T22:00:00.000Z",
-   "participant1Name": "Florida State Seminoles",
-   "participant2Name": "Texas A&M Corpus Christi Islanders",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
   },
   "score": 1.0
  },
@@ -21779,56 +21754,6 @@
   },
   "score": 0.72
  },
- "id2503212976756504": {
-  "tm": {
-   "id": "319850010029137920",
-   "sport": "Asztalitenisz",
-   "name": "Pavel Cibik - Zdenek Dusek",
-   "home": "Pavel Cibik",
-   "away": "Zdenek Dusek",
-   "home_pid": "182301194347139072",
-   "away_pid": "167095224382836736",
-   "tournament": "TT Cup",
-   "category": "Világ",
-   "tm_sport_id": "63",
-   "start": "2026-11-13T21:50:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503212976756504",
-   "startTime": "2026-11-13T21:50:00.000Z",
-   "participant1Name": "Cibik, Pavel",
-   "participant2Name": "Dusek, Zdenek",
-   "tournamentId": 32129,
-   "tournamentName": "TT Cup",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503212976756506": {
-  "tm": {
-   "id": "319850406696001536",
-   "sport": "Asztalitenisz",
-   "name": "Petr Vanek - Ondrej Fiklik",
-   "home": "Petr Vanek",
-   "away": "Ondrej Fiklik",
-   "home_pid": "143369263520993280",
-   "away_pid": "156961208277192704",
-   "tournament": "TT Cup",
-   "category": "Világ",
-   "tm_sport_id": "63",
-   "start": "2026-11-13T21:55:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503212976756506",
-   "startTime": "2026-11-13T21:55:00.000Z",
-   "participant1Name": "Vanek, Petr",
-   "participant2Name": "Fiklik, Ondrej",
-   "tournamentId": 32129,
-   "tournamentName": "TT Cup",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503212976756508": {
   "tm": {
    "id": "319850430765015040",
@@ -24505,27 +24430,6 @@
    "home": "Carlton",
    "away": "Hawthorn Hawks",
    "tournament": "AFL, női, rájátszás"
-  }
- },
- "id3402804576741532": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id3402804576741532",
-   "startTime": "2026-11-13T22:00:00.000Z",
-   "participant1Name": "Makin, Joel",
-   "participant2Name": "Hawal, Adam",
-   "tournamentId": 28045,
-   "tournamentName": "The Pittsburgh Open",
-   "sportName": "Squash"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5652420,
-   "name": "Joel Makin - A. Hawal",
-   "score": 1.0,
-   "home": "Joel Makin",
-   "away": "A. Hawal",
-   "tournament": "Pittsburgh Open"
   }
  }
 }
