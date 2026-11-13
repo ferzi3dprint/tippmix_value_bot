@@ -6401,5 +6401,99 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T17:34:31.067709+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+1.0% Klagenfurt – Innsbruck · Gólszám 6: Kevesebb @1.8 (fair 1.782)",
+   "+0.4% Wolfsburg – Eisbären Berlin · 1X2 (rendes játékidő): Döntetlen @4.3 (fair 4.281)",
+   "+0.1% Bern – Fribourg · Hendikep (rendes játékidő): Fribourg (+1) @1.51 (fair 1.509)",
+   "-0.5% Klagenfurt – Innsbruck · Hendikep (rendes játékidő): Innsbruck (+3) @1.48 (fair 1.487)",
+   "-0.7% Svédország – Svájc · Győztes (hosszabbítással): Svédország győz @1.17 (fair 1.178)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": true,
+  "fixtures_checked": 127,
+  "fixtures_both": 73,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 28,
+  "classic_checked": 56,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+1.8% Svédország – Svájc · Hendikep (rendes játékidő): Svédország (-1.5) @1.7 (fair 1.671)",
+   "+0.1% Svédország – Svájc · Győztes (hosszabbítással): Svédország győz @1.18 (fair 1.178)",
+   "-1.8% U21Albánia – U21Luxemburg · Ázsiai hendikep: U21Albánia (-0.25) @1.55 (fair 1.578)",
+   "-2.1% Egyiptom – Malawi · Ázsiai hendikep: Egyiptom (-2.25) @1.84 (fair 1.879)",
+   "-2.1% U21Spanyolország – U21Japán · Gólszám 4: Kevesebb @1.39 (fair 1.42)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 133
+ },
+ {
+  "time": "2026-11-13T17:49:36.605150+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 600,
+   "paired": 292
+  },
+  "tippmix_matches": 1151,
+  "pinnacle_fixtures": 1111,
+  "paired": 596,
+  "by_sport": {
+   "Soccer": [
+    528,
+    302
+   ],
+   "Tennis": [
+    90,
+    4
+   ],
+   "Basketball": [
+    381,
+    194
+   ],
+   "Ice Hockey": [
+    152,
+    96
+   ]
+  },
+  "top_ev": [
+   "+1.8% Medicine Hat Tigers – Calgary Hitmen · 1X2 (rendes játékidő): Calgary Hitmen győz @4.05 (fair 3.977)",
+   "+1.0% Klagenfurt – Innsbruck · Gólszám 6: Kevesebb @1.8 (fair 1.782)",
+   "+0.6% Olimpija Ljubljana – Salzburg · Győztes (hosszabbítással): Olimpija Ljubljana győz @1.7 (fair 1.689)",
+   "+0.4% Wolfsburg – Eisbären Berlin · 1X2 (rendes játékidő): Döntetlen @4.3 (fair 4.281)",
+   "+0.1% Bern – Fribourg · Hendikep (rendes játékidő): Fribourg (+1) @1.51 (fair 1.509)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 102,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 29,
+  "classic_checked": 74,
+  "classic_candidates": 2,
+  "top_ev_classic": [
+   "+4.6% Szlovénia – Svájc · Gólszám 2: Kevesebb @2.01 (fair 1.922)",
+   "+2.3% Szlovénia – Svájc · Gólszám 2.25: Kevesebb @1.71 (fair 1.671)",
+   "+2.2% Hollandia – Görögország · Gólszám 4: Kevesebb @1.4 (fair 1.37)",
+   "+1.2% Hollandia – Görögország · Gólszám 3.75: Kevesebb @1.55 (fair 1.531)",
+   "+1.2% Szlovénia – Svájc · Gólszám 1.75: Kevesebb @2.33 (fair 2.302)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
