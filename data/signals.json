@@ -659,6 +659,28 @@
   "ev": 0.05553,
   "band": "2.10–2.50",
   "trigger": "steam",
+  "bet": false,
+  "closing_fair_prob": 0.46316,
+  "closing_fair_odds": 2.159,
+  "closing_sharp_odds": 2.0,
+  "closing_at": "2026-11-13T17:03:09.792792+00:00",
+  "clv": -0.01348
+ },
+ {
+  "fixture_id": "id1500041672005206",
+  "market_id": 1588,
+  "outcome_id": 1588,
+  "first_at": "2026-11-13T17:03:09.792792+00:00",
+  "start": "2026-11-13T18:00:00.000Z",
+  "home": "Nybro",
+  "away": "Kalmar",
+  "tournament": "Svéd 2.",
+  "label": "Hendikep (rendes játékidő): Nybro (+0.5)",
+  "odds": 2.01,
+  "fair_prob": 0.52353,
+  "ev": 0.05229,
+  "band": "1.80–2.10",
+  "trigger": "steam",
   "bet": false
  }
 ]
