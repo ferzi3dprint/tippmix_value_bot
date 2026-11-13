@@ -6589,5 +6589,65 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T18:39:27.248000+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 528,
+   "paired": 248
+  },
+  "tippmix_matches": 1173,
+  "pinnacle_fixtures": 1111,
+  "paired": 536,
+  "by_sport": {
+   "Soccer": [
+    538,
+    288
+   ],
+   "Tennis": [
+    122,
+    3
+   ],
+   "Basketball": [
+    392,
+    175
+   ],
+   "Ice Hockey": [
+    121,
+    70
+   ]
+  },
+  "top_ev": [
+   "+2.4% Cergy-Pontoise – Amiens · Győztes (hosszabbítással): Amiens győz @2.39 (fair 2.333)",
+   "+1.9% Guelph Storm – Brantford Bulldogs · 1X2 (rendes játékidő): Brantford Bulldogs győz @4.6 (fair 4.516)",
+   "+1.5% Cergy-Pontoise – Amiens · Hendikep (rendes játékidő): Amiens (+0.5) @1.85 (fair 1.823)",
+   "+1.5% Cergy-Pontoise – Amiens · Hendikep (rendes játékidő): Amiens (-0) @2.43 (fair 2.394)",
+   "+1.1% Szlovákia – Feröer-szigetek · Gólszám 4.5: Kevesebb @1.15 (fair 1.138)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 13,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 102,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 33,
+  "classic_checked": 57,
+  "classic_candidates": 3,
+  "top_ev_classic": [
+   "+6.5% Szlovénia – Svájc · Gólszám 2: Kevesebb @2.0 (fair 1.877)",
+   "+4.3% Szlovénia – Svájc · Gólszám 2.25: Kevesebb @1.71 (fair 1.64)",
+   "+3.3% Szlovénia – Svájc · Gólszám 1.75: Kevesebb @2.32 (fair 2.246)",
+   "+2.7% Szlovénia – Svájc · Gólszám 2.5: Kevesebb @1.54 (fair 1.5)",
+   "+1.7% Szlovénia – Svájc · Gólszám 3.5: Kevesebb @1.19 (fair 1.17)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
