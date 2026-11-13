@@ -3509,5 +3509,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 157
+ },
+ {
+  "time": "2026-11-13T02:09:01.805761+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-2.7% Los Angeles – NY Islanders · Győztes (hosszabbítással): Los Angeles győz @1.83 (fair 1.881)",
+   "-2.8% Rei Sakamoto – Ognjen Milic · Győztes: Rei Sakamoto győz @1.14 (fair 1.173)",
+   "-3.3% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+0) @1.8 (fair 1.862)",
+   "-3.7% Los Angeles – NY Islanders · Hendikep (rendes játékidő): NY Islanders (+0.5) @1.63 (fair 1.692)",
+   "-4.0% Los Angeles – NY Islanders · 1X2 (rendes játékidő): Los Angeles győz @2.32 (fair 2.417)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 9,
+  "fixtures_both": 4,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 11
+ },
+ {
+  "time": "2026-11-13T02:14:01.805593+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1172,
+  "pinnacle_fixtures": 1111,
+  "paired": 705,
+  "by_sport": {
+   "Soccer": [
+    461,
+    345
+   ],
+   "Tennis": [
+    201,
+    27
+   ],
+   "Basketball": [
+    336,
+    206
+   ],
+   "Ice Hockey": [
+    174,
+    127
+   ]
+  },
+  "top_ev": [
+   "+4.3% Marokkó – Niger · Ázsiai hendikep: Niger (+3) @1.61 (fair 1.544)",
+   "+3.2% Marokkó – Niger · Ázsiai hendikep: Niger (+2.75) @1.82 (fair 1.764)",
+   "+0.8% Juventude RS – Botafogo SP · Ázsiai hendikep: Botafogo SP (+2) @1.35 (fair 1.34)",
+   "+0.6% Szlovákia – Feröer-szigetek · Gólszám 4.5: Kevesebb @1.15 (fair 1.143)",
+   "-0.1% Valladolid – Castellon · 1X2: Castellon győz @2.3 (fair 2.301)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 12,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 97,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 7,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
