@@ -5665,5 +5665,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T13:17:20.996329+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "-1.8% Egyesült Arab Emirátusok – Honduras · 1X2: Egyesült Arab Emirátusok győz @2.1 (fair 2.138)",
+   "-1.8% Egyesült Arab Emirátusok – Honduras · Ázsiai hendikep: Egyesült Arab Emirátusok (+0) @1.48 (fair 1.507)",
+   "-2.1% Egyesült Arab Emirátusok – Honduras · Ázsiai hendikep: Egyesült Arab Emirátusok (+0.25) @1.35 (fair 1.378)",
+   "-2.4% Egyesült Arab Emirátusok – Honduras · Ázsiai hendikep: Egyesült Arab Emirátusok (+0.5) @1.27 (fair 1.301)",
+   "-2.5% Németország – Finnország · Győztes (hosszabbítással): Finnország győz @1.18 (fair 1.21)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 5,
+  "fast": true,
+  "fixtures_checked": 25,
+  "fixtures_both": 22,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 30
+ },
+ {
+  "time": "2026-11-13T13:22:53.802124+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1220,
+  "pinnacle_fixtures": 1111,
+  "paired": 679,
+  "by_sport": {
+   "Soccer": [
+    499,
+    332
+   ],
+   "Tennis": [
+    138,
+    8
+   ],
+   "Basketball": [
+    377,
+    200
+   ],
+   "Ice Hockey": [
+    206,
+    139
+   ]
+  },
+  "top_ev": [
+   "+3.8% Dél-Afrika – Kenya · Ázsiai hendikep: Kenya (+2) @1.49 (fair 1.436)",
+   "+1.7% Dél-Afrika – Kenya · Ázsiai hendikep: Kenya (+1.75) @1.69 (fair 1.662)",
+   "+0.7% Dél-Afrika – Kenya · Gólszám 3: Kevesebb @1.42 (fair 1.41)",
+   "+0.3% Moldova – Kazahsztán · Gólszám 1.5: Több @1.51 (fair 1.505)",
+   "+0.2% Vienna Capitals – Linz · Győztes (hosszabbítással): Vienna Capitals győz @1.82 (fair 1.816)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 12,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 113,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 32,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
