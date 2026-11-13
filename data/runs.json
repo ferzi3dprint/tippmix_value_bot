@@ -5089,5 +5089,77 @@
   "not_executable": 1,
   "api_calls": 0,
   "free_calls": 157
+ },
+ {
+  "time": "2026-11-13T10:16:40.685770+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-1.6% Szingapúr – Paraguay · 1X2: Paraguay győz @1.06 (fair 1.078)",
+   "-1.9% Szingapúr – Paraguay · Gólszám 2.5: Több @1.32 (fair 1.346)",
+   "-2.0% Szingapúr – Paraguay · Gólszám 4.5: Kevesebb @1.39 (fair 1.418)",
+   "-2.2% Szingapúr – Paraguay · Gólszám 5.5: Kevesebb @1.14 (fair 1.165)",
+   "-2.9% Szingapúr – Paraguay · Mindkét csapat szerez gólt: Nem @1.41 (fair 1.452)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 5,
+  "fast": true,
+  "fixtures_checked": 13,
+  "fixtures_both": 10,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 15
+ },
+ {
+  "time": "2026-11-13T10:21:40.685774+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1226,
+  "pinnacle_fixtures": 1111,
+  "paired": 712,
+  "by_sport": {
+   "Soccer": [
+    496,
+    354
+   ],
+   "Tennis": [
+    157,
+    15
+   ],
+   "Basketball": [
+    363,
+    201
+   ],
+   "Ice Hockey": [
+    210,
+    142
+   ]
+  },
+  "top_ev": [
+   "+1.8% Medicine Hat Tigers – Calgary Hitmen · 1X2 (rendes játékidő): Calgary Hitmen győz @4.05 (fair 3.977)",
+   "+1.0% Németország – Finnország · Hendikep (rendes játékidő): Németország (+2.5) @1.62 (fair 1.604)",
+   "+0.8% Guelph Storm – Brantford Bulldogs · 1X2 (rendes játékidő): Brantford Bulldogs győz @4.2 (fair 4.166)",
+   "+0.6% U21Finnország – U21Írország · 1X2: U21Finnország győz @1.97 (fair 1.958)",
+   "+0.0% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.45 (fair 1.45)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 29,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 112,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 14,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
