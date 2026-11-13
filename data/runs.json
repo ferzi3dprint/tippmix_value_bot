@@ -3750,5 +3750,71 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 151
+ },
+ {
+  "time": "2026-11-13T03:16:36.445905+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 2,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 2
+ },
+ {
+  "time": "2026-11-13T03:21:36.445834+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "tippmix_matches": 1154,
+  "pinnacle_fixtures": 1111,
+  "paired": 702,
+  "by_sport": {
+   "Soccer": [
+    462,
+    346
+   ],
+   "Tennis": [
+    188,
+    28
+   ],
+   "Basketball": [
+    333,
+    204
+   ],
+   "Ice Hockey": [
+    171,
+    124
+   ]
+  },
+  "top_ev": [
+   "+0.4% Skelleftea – Linköping · Győztes (hosszabbítással): Skelleftea győz @1.21 (fair 1.206)",
+   "+0.3% Real Sociedad 2 – Sp. Gijon · Gólszám 1.5: Több @1.33 (fair 1.326)",
+   "-0.0% Real Sociedad 2 – Sp. Gijon · Gólszám 2: Több @1.52 (fair 1.52)",
+   "-0.1% Carpi – Giana Erminio · Gólszám 2: Több @1.4 (fair 1.402)",
+   "-0.7% Carpi – Giana Erminio · Gólszám 1.75: Több @1.31 (fair 1.319)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 14,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 75,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 150
  }
 ]

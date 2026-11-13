@@ -7824,6 +7824,31 @@
   },
   "score": 1.0
  },
+ "id1004377172564428": {
+  "tm": {
+   "id": "319766047576104960",
+   "sport": "Labdarúgás",
+   "name": "Admira Wacker - Langenrohr",
+   "home": "Admira Wacker",
+   "away": "Langenrohr",
+   "home_pid": "1030",
+   "away_pid": "874525",
+   "tournament": "Osztrák Landesliga, Niederösterreich",
+   "category": "Ausztria",
+   "tm_sport_id": "1",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004377172564428",
+   "startTime": "2026-11-13T19:00:00.000Z",
+   "participant1Name": "FC Admira Wacker Modling",
+   "participant2Name": "SV Langenrohr",
+   "tournamentId": 43771,
+   "tournamentName": "Niederosterreich, 1. Landesliga",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000069172550324": {
   "tm": {
    "id": "319662863404834816",
@@ -8624,31 +8649,6 @@
   },
   "score": 0.74
  },
- "id1203182376431330": {
-  "tm": {
-   "id": "319735694839848960",
-   "sport": "Tenisz",
-   "name": "Rei Sakamoto - Ognjen Milic",
-   "home": "Rei Sakamoto",
-   "away": "Ognjen Milic",
-   "home_pid": "168624948465684480",
-   "away_pid": "237225165324718080",
-   "tournament": "Matsuyama, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-13T03:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1203182376431330",
-   "startTime": "2026-11-13T03:20:00.000Z",
-   "participant1Name": "Sakamoto, Rei",
-   "participant2Name": "Milic, Ognjen",
-   "tournamentId": 31823,
-   "tournamentName": "ATP Challenger Matsuyama, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
  "id1204760676415494": {
   "tm": {
    "id": "319760271199510528",
@@ -9245,6 +9245,56 @@
    "participant2Name": "Talajka, Tomas",
    "tournamentId": 54042,
    "tournamentName": "UTR PTT Trnava Men 05",
+   "sportName": "Tennis"
+  },
+  "score": 1.0
+ },
+ "id1203182376431358": {
+  "tm": {
+   "id": "319650084006469632",
+   "sport": "Tenisz",
+   "name": "Kaichi Uchida - Billy Harris",
+   "home": "Kaichi Uchida",
+   "away": "Billy Harris",
+   "home_pid": "757856",
+   "away_pid": "966465",
+   "tournament": "Matsuyama, férfi egyes",
+   "category": "Challenger",
+   "tm_sport_id": "3",
+   "start": "2026-11-13T03:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1203182376431358",
+   "startTime": "2026-11-13T03:30:00.000Z",
+   "participant1Name": "Uchida, Kaichi",
+   "participant2Name": "Harris, Billy",
+   "tournamentId": 31823,
+   "tournamentName": "ATP Challenger Matsuyama, Japan Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0
+ },
+ "id1203182376431330": {
+  "tm": {
+   "id": "319735694839848960",
+   "sport": "Tenisz",
+   "name": "Rei Sakamoto - Ognjen Milic",
+   "home": "Rei Sakamoto",
+   "away": "Ognjen Milic",
+   "home_pid": "168624948465684480",
+   "away_pid": "237225165324718080",
+   "tournament": "Matsuyama, férfi egyes",
+   "category": "Challenger",
+   "tm_sport_id": "3",
+   "start": "2026-11-13T03:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1203182376431330",
+   "startTime": "2026-11-13T03:20:00.000Z",
+   "participant1Name": "Sakamoto, Rei",
+   "participant2Name": "Milic, Ognjen",
+   "tournamentId": 31823,
+   "tournamentName": "ATP Challenger Matsuyama, Japan Men Singles",
    "sportName": "Tennis"
   },
   "score": 1.0
