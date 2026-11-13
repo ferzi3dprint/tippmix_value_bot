@@ -7949,6 +7949,31 @@
   },
   "score": 1.0
  },
+ "id1002604675024562": {
+  "tm": {
+   "id": "319761540310966272",
+   "sport": "Labdarúgás",
+   "name": "San Juan Pamplona - Gazte Berriak",
+   "home": "San Juan Pamplona",
+   "away": "Gazte Berriak",
+   "home_pid": "84898",
+   "away_pid": "303455674046312448",
+   "tournament": "Spanyol 5., 15. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002604675024562",
+   "startTime": "2026-11-13T19:30:00.000Z",
+   "participant1Name": "AD San Juan Pamplona",
+   "participant2Name": "CF Gazte Berriak",
+   "tournamentId": 26046,
+   "tournamentName": "Tercera Federacion, Group 15",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1004053374063598": {
   "tm": {
    "id": "318637421231153152",
@@ -7970,6 +7995,31 @@
    "participant2Name": "Santiago FC",
    "tournamentId": 40533,
    "tournamentName": "Liga Premier Serie A",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004337372595214": {
+  "tm": {
+   "id": "318705587510648832",
+   "sport": "Labdarúgás",
+   "name": "FC Flenu - RAEC Mons",
+   "home": "FC Flenu",
+   "away": "RAEC Mons",
+   "home_pid": "277827224255729664",
+   "away_pid": "140840600459071488",
+   "tournament": "Belga 3., Vallónia",
+   "category": "Belgium",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004337372595214",
+   "startTime": "2026-11-14T19:00:00.000Z",
+   "participant1Name": "FC Flenu",
+   "participant2Name": "R AEC Mons",
+   "tournamentId": 43373,
+   "tournamentName": "Nationale 1 ACFF",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -13474,6 +13524,31 @@
   },
   "score": 1.0
  },
+ "id1104853973457034": {
+  "tm": {
+   "id": "318936739605454848",
+   "sport": "Kosárlabda",
+   "name": "Bordeaux - Challans",
+   "home": "Bordeaux",
+   "away": "Challans",
+   "home_pid": "313947942638219264",
+   "away_pid": "1375654",
+   "tournament": "Francia 3.",
+   "category": "Franciaország",
+   "tm_sport_id": "8",
+   "start": "2026-11-13T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104853973457034",
+   "startTime": "2026-11-13T19:00:00.000Z",
+   "participant1Name": "JSA Bordeaux",
+   "participant2Name": "Vendee Challans Basket",
+   "tournamentId": 48539,
+   "tournamentName": "Nationale 1",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1104853973456678": {
   "tm": {
    "id": "318936786274426880",
@@ -13524,25 +13599,75 @@
   },
   "score": 1.0
  },
- "id1104853973457034": {
+ "id1104853973457040": {
   "tm": {
-   "id": "318936739605454848",
+   "id": "318936786425421824",
    "sport": "Kosárlabda",
-   "name": "Bordeaux - Challans",
-   "home": "Bordeaux",
-   "away": "Challans",
-   "home_pid": "313947942638219264",
-   "away_pid": "1375654",
+   "name": "CEP Lorient - Tarbes-Lourdes",
+   "home": "CEP Lorient",
+   "away": "Tarbes-Lourdes",
+   "home_pid": "1497247",
+   "away_pid": "182527048981467136",
    "tournament": "Francia 3.",
    "category": "Franciaország",
    "tm_sport_id": "8",
-   "start": "2026-11-13T19:00:00+00:00"
+   "start": "2026-11-13T19:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1104853973457034",
-   "startTime": "2026-11-13T19:00:00.000Z",
-   "participant1Name": "JSA Bordeaux",
-   "participant2Name": "Vendee Challans Basket",
+   "fixtureId": "id1104853973457040",
+   "startTime": "2026-11-13T19:30:00.000Z",
+   "participant1Name": "CEP Lorient",
+   "participant2Name": "Union Tarbes Lourdes Pyrenees Basket",
+   "tournamentId": 48539,
+   "tournamentName": "Nationale 1",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1104853973457038": {
+  "tm": {
+   "id": "318936786825977856",
+   "sport": "Kosárlabda",
+   "name": "Toulouse - Chartres",
+   "home": "Toulouse",
+   "away": "Chartres",
+   "home_pid": "6338984119648256",
+   "away_pid": "1379533",
+   "tournament": "Francia 3.",
+   "category": "Franciaország",
+   "tm_sport_id": "8",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104853973457038",
+   "startTime": "2026-11-13T19:30:00.000Z",
+   "participant1Name": "Toulouse BC",
+   "participant2Name": "C Chartres BM",
+   "tournamentId": 48539,
+   "tournamentName": "Nationale 1",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1104853973457036": {
+  "tm": {
+   "id": "318936739667320832",
+   "sport": "Kosárlabda",
+   "name": "Aurore de Vitre - Les Sables D'Olonne",
+   "home": "Aurore de Vitre",
+   "away": "Les Sables D'Olonne",
+   "home_pid": "183258613334200320",
+   "away_pid": "281520718445940736",
+   "tournament": "Francia 3.",
+   "category": "Franciaország",
+   "tm_sport_id": "8",
+   "start": "2026-11-13T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104853973457036",
+   "startTime": "2026-11-13T19:30:00.000Z",
+   "participant1Name": "Aurore Vitre Basketball",
+   "participant2Name": "Les Sables D Olonne",
    "tournamentId": 48539,
    "tournamentName": "Nationale 1",
    "sportName": "Basketball"

@@ -4585,5 +4585,77 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-13T07:40:22.602270+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-2.6% Oakleigh Cannons – Marconi Stallions · 1X2: Oakleigh Cannons győz @1.49 (fair 1.53)",
+   "-4.4% Massimo Giunta – Henry Searle · Győztes: Henry Searle győz @1.54 (fair 1.61)",
+   "-4.5% Oakleigh Cannons – Marconi Stallions · Gólszám 2.25: Több @1.39 (fair 1.455)",
+   "-4.6% Oakleigh Cannons – Marconi Stallions · Ázsiai hendikep: Oakleigh Cannons (-0.75) @1.57 (fair 1.647)",
+   "-4.8% Oakleigh Cannons – Marconi Stallions · Ázsiai hendikep: Oakleigh Cannons (-0.5) @1.45 (fair 1.523)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 7,
+  "fixtures_both": 6,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 9
+ },
+ {
+  "time": "2026-11-13T07:45:22.602778+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "tippmix_matches": 1236,
+  "pinnacle_fixtures": 1111,
+  "paired": 728,
+  "by_sport": {
+   "Soccer": [
+    489,
+    353
+   ],
+   "Tennis": [
+    193,
+    26
+   ],
+   "Basketball": [
+    356,
+    208
+   ],
+   "Ice Hockey": [
+    198,
+    141
+   ]
+  },
+  "top_ev": [
+   "+1.0% Coleraine FC – Portadown FC · 1X2: Coleraine FC győz @1.21 (fair 1.198)",
+   "+0.3% Szlovákia – Feröer-szigetek · Gólszám 4.5: Kevesebb @1.15 (fair 1.147)",
+   "-0.1% Melbourne City – Newcastle Jets · Gólszám 4.5: Kevesebb @1.26 (fair 1.261)",
+   "-0.1% Skócia – Észak-Macedónia · Gólszám 4.5: Kevesebb @1.17 (fair 1.171)",
+   "-0.2% Limavady Utd. – Cliftonville · Gólszám 3.25: Kevesebb @1.62 (fair 1.624)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 19,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 101,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 30,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
