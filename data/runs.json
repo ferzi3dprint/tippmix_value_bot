@@ -3816,5 +3816,90 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 150
+ },
+ {
+  "time": "2026-11-13T03:34:51.462920+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 1,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 1
+ },
+ {
+  "time": "2026-11-13T03:39:51.463188+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 1,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 1
+ },
+ {
+  "time": "2026-11-13T03:44:51.463607+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "boosts": 0,
+  "tippmix_matches": 1149,
+  "pinnacle_fixtures": 1111,
+  "paired": 699,
+  "by_sport": {
+   "Soccer": [
+    461,
+    346
+   ],
+   "Tennis": [
+    185,
+    26
+   ],
+   "Basketball": [
+    332,
+    203
+   ],
+   "Ice Hockey": [
+    171,
+    124
+   ]
+  },
+  "top_ev": [
+   "+4.3% Marokkó – Niger · Ázsiai hendikep: Niger (+3) @1.61 (fair 1.544)",
+   "+3.2% Marokkó – Niger · Ázsiai hendikep: Niger (+2.75) @1.82 (fair 1.764)",
+   "+1.9% Moldova – Kazahsztán · Gólszám 1.5: Több @1.52 (fair 1.491)",
+   "+1.5% Moldova – Kazahsztán · Gólszám 1.75: Több @1.65 (fair 1.626)",
+   "+1.5% Moldova – Kazahsztán · Gólszám 2: Több @1.89 (fair 1.863)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 11,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 108,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 5,
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 155
  }
 ]
