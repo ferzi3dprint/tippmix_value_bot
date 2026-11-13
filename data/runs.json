@@ -6341,5 +6341,65 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 120
+ },
+ {
+  "time": "2026-11-13T17:16:48.942502+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 8,
+  "boosts": 0,
+  "classic": {
+   "events": 616,
+   "paired": 299
+  },
+  "tippmix_matches": 1169,
+  "pinnacle_fixtures": 1111,
+  "paired": 605,
+  "by_sport": {
+   "Soccer": [
+    532,
+    307
+   ],
+   "Tennis": [
+    100,
+    4
+   ],
+   "Basketball": [
+    380,
+    196
+   ],
+   "Ice Hockey": [
+    157,
+    98
+   ]
+  },
+  "top_ev": [
+   "+0.8% Szerbia – Németország · Gólszám 4: Kevesebb @1.45 (fair 1.439)",
+   "+0.7% Hollandia – Görögország · Gólszám 4: Kevesebb @1.37 (fair 1.36)",
+   "+0.4% Wolfsburg – Eisbären Berlin · 1X2 (rendes játékidő): Döntetlen @4.3 (fair 4.281)",
+   "+0.2% Vienna Capitals – Linz · Győztes (hosszabbítással): Vienna Capitals győz @1.82 (fair 1.816)",
+   "-0.4% Skócia – Észak-Macedónia · Gólszám 4.5: Kevesebb @1.23 (fair 1.235)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 92,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 37,
+  "classic_checked": 70,
+  "classic_candidates": 4,
+  "top_ev_classic": [
+   "+6.0% Szlovénia – Svájc · Gólszám 2: Kevesebb @2.01 (fair 1.897)",
+   "+3.3% Szlovénia – Svájc · Gólszám 2.25: Kevesebb @1.71 (fair 1.655)",
+   "+2.9% Hollandia – Görögország · Gólszám 4: Kevesebb @1.4 (fair 1.36)",
+   "+2.5% Szlovénia – Svájc · Gólszám 1.75: Kevesebb @2.33 (fair 2.272)",
+   "+2.1% Hollandia – Görögország · Gólszám 3.75: Kevesebb @1.55 (fair 1.518)"
+  ],
+  "placed": 2,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
