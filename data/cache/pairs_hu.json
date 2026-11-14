@@ -1,34 +1,4 @@
 {
- "id1004850774827346": {
-  "tm": {
-   "id": "318665803333443584",
-   "sport": "Labdarúgás",
-   "name": "Bayswater City - Sydney Olympic",
-   "home": "Bayswater City",
-   "away": "Sydney Olympic",
-   "home_pid": "48661",
-   "away_pid": "1268",
-   "tournament": "Ausztrál Championship",
-   "category": "Ausztrália",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004850774827346",
-   "startTime": "2026-11-14T08:30:00.000Z",
-   "participant1Name": "Bayswater City",
-   "participant2Name": "Sydney Olympic FC",
-   "tournamentId": 48507,
-   "tournamentName": "Australian Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5553811,
-   "name": "Bayswater City - Sydney Olympic",
-   "score": 1.0
-  }
- },
  "id1001415172415696": {
   "tm": {
    "id": "319727652053262336",
@@ -14069,31 +14039,6 @@
   },
   "score": 1.0
  },
- "id1004005774835660": {
-  "tm": {
-   "id": "319865045303500800",
-   "sport": "Labdarúgás",
-   "name": "Icasa - Quixada CE",
-   "home": "Icasa",
-   "away": "Quixada CE",
-   "home_pid": "182450741022343424",
-   "away_pid": "242043510538539008",
-   "tournament": "Brazil Copa Fares Lopes",
-   "category": "Brazília",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T20:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004005774835660",
-   "startTime": "2026-11-14T20:00:00.000Z",
-   "participant1Name": "Icasa CE",
-   "participant2Name": "Quixada FC CE",
-   "tournamentId": 40057,
-   "tournamentName": "Taca Fares Lopes",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000033576171160": {
   "tm": {
    "id": "319739412531453952",
@@ -27694,156 +27639,6 @@
   },
   "score": 0.72
  },
- "id2503634976762728": {
-  "tm": {
-   "id": "319858092244279296",
-   "sport": "Asztalitenisz",
-   "name": "Roeckel Sascha - Pavel Petr",
-   "home": "Roeckel Sascha",
-   "away": "Pavel Petr",
-   "home_pid": "318601056025124864",
-   "away_pid": "240229589182746624",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976762728",
-   "startTime": "2026-11-14T08:30:00.000Z",
-   "participant1Name": "Roeckel, Sascha",
-   "participant2Name": "Petr, Pavel",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976764162": {
-  "tm": {
-   "id": "319858092003106816",
-   "sport": "Asztalitenisz",
-   "name": "Josef Pantak - Ladislav Novotny",
-   "home": "Josef Pantak",
-   "away": "Ladislav Novotny",
-   "home_pid": "274568081816293376",
-   "away_pid": "219268601318887424",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764162",
-   "startTime": "2026-11-14T08:30:00.000Z",
-   "participant1Name": "Pantak, Josef",
-   "participant2Name": "Novotny, Ladislav",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976764218": {
-  "tm": {
-   "id": "319858211883655168",
-   "sport": "Asztalitenisz",
-   "name": "David Mikula - Pavel Varecha",
-   "home": "David Mikula",
-   "away": "Pavel Varecha",
-   "home_pid": "275919048035930112",
-   "away_pid": "277111881496399872",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764218",
-   "startTime": "2026-11-14T08:30:00.000Z",
-   "participant1Name": "Mikula, David",
-   "participant2Name": "Varecha, Pavel",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976764208": {
-  "tm": {
-   "id": "319858211612073984",
-   "sport": "Asztalitenisz",
-   "name": "Radim Urbaniec - Wagner Richard",
-   "home": "Radim Urbaniec",
-   "away": "Wagner Richard",
-   "home_pid": "167634919836667904",
-   "away_pid": "307739875767709696",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764208",
-   "startTime": "2026-11-14T08:30:00.000Z",
-   "participant1Name": "Urbaniec, Radim",
-   "participant2Name": "Wagner, Richard",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976764240": {
-  "tm": {
-   "id": "319858392961196032",
-   "sport": "Asztalitenisz",
-   "name": "Tomas Hrabec - Radim Adam",
-   "home": "Tomas Hrabec",
-   "away": "Radim Adam",
-   "home_pid": "276721926929518592",
-   "away_pid": "274758232456695808",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764240",
-   "startTime": "2026-11-14T08:30:00.000Z",
-   "participant1Name": "Hrabec, Tomas",
-   "participant2Name": "Adam, Radim",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976762732": {
-  "tm": {
-   "id": "319856751968067584",
-   "sport": "Asztalitenisz",
-   "name": "Pavel Petr - Tomas Brozek",
-   "home": "Pavel Petr",
-   "away": "Tomas Brozek",
-   "home_pid": "240229589182746624",
-   "away_pid": "317444525620535296",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T09:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976762732",
-   "startTime": "2026-11-14T09:00:00.000Z",
-   "participant1Name": "Petr, Pavel",
-   "participant2Name": "Brozek, Tomas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976764252": {
   "tm": {
    "id": "319858392555397120",
@@ -27863,31 +27658,6 @@
    "startTime": "2026-11-14T09:00:00.000Z",
    "participant1Name": "Adam, Radim",
    "participant2Name": "Milkov, Tomas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976764104": {
-  "tm": {
-   "id": "319858212003192832",
-   "sport": "Asztalitenisz",
-   "name": "Pavel Varecha - Roman Guliak",
-   "home": "Pavel Varecha",
-   "away": "Roman Guliak",
-   "home_pid": "277111881496399872",
-   "away_pid": "274834264862887936",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T09:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764104",
-   "startTime": "2026-11-14T09:00:00.000Z",
-   "participant1Name": "Varecha, Pavel",
-   "participant2Name": "Guliak, Roman",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -27919,6 +27689,31 @@
   },
   "score": 1.0
  },
+ "id2503634976762732": {
+  "tm": {
+   "id": "319856751968067584",
+   "sport": "Asztalitenisz",
+   "name": "Pavel Petr - Tomas Brozek",
+   "home": "Pavel Petr",
+   "away": "Tomas Brozek",
+   "home_pid": "240229589182746624",
+   "away_pid": "317444525620535296",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T09:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976762732",
+   "startTime": "2026-11-14T09:00:00.000Z",
+   "participant1Name": "Petr, Pavel",
+   "participant2Name": "Brozek, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976764138": {
   "tm": {
    "id": "319858066808971264",
@@ -27938,6 +27733,131 @@
    "startTime": "2026-11-14T09:00:00.000Z",
    "participant1Name": "Novotny, Ladislav",
    "participant2Name": "Vrabec, Milan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764104": {
+  "tm": {
+   "id": "319858212003192832",
+   "sport": "Asztalitenisz",
+   "name": "Pavel Varecha - Roman Guliak",
+   "home": "Pavel Varecha",
+   "away": "Roman Guliak",
+   "home_pid": "277111881496399872",
+   "away_pid": "274834264862887936",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T09:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764104",
+   "startTime": "2026-11-14T09:00:00.000Z",
+   "participant1Name": "Varecha, Pavel",
+   "participant2Name": "Guliak, Roman",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976762736": {
+  "tm": {
+   "id": "319858092174024704",
+   "sport": "Asztalitenisz",
+   "name": "Petr Serak - Roeckel Sascha",
+   "home": "Petr Serak",
+   "away": "Roeckel Sascha",
+   "home_pid": "192184047327408128",
+   "away_pid": "318601056025124864",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T09:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976762736",
+   "startTime": "2026-11-14T09:30:00.000Z",
+   "participant1Name": "Serak, Petr",
+   "participant2Name": "Roeckel, Sascha",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764272": {
+  "tm": {
+   "id": "319858212219199488",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Kraninger - David Mikula",
+   "home": "Tomas Kraninger",
+   "away": "David Mikula",
+   "home_pid": "278604510088269824",
+   "away_pid": "275919048035930112",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T09:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764272",
+   "startTime": "2026-11-14T09:30:00.000Z",
+   "participant1Name": "Kraninger, Tomas",
+   "participant2Name": "Mikula, David",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764282": {
+  "tm": {
+   "id": "319858212093370368",
+   "sport": "Asztalitenisz",
+   "name": "Miroslav Kowolowski - Tomas Hrabec",
+   "home": "Miroslav Kowolowski",
+   "away": "Tomas Hrabec",
+   "home_pid": "296193761273483264",
+   "away_pid": "276721926929518592",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T09:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764282",
+   "startTime": "2026-11-14T09:30:00.000Z",
+   "participant1Name": "Kowolowski, Miroslav",
+   "participant2Name": "Hrabec, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764060": {
+  "tm": {
+   "id": "319858392343584768",
+   "sport": "Asztalitenisz",
+   "name": "Ales Barton - Radim Urbaniec",
+   "home": "Ales Barton",
+   "away": "Radim Urbaniec",
+   "home_pid": "116096053732757504",
+   "away_pid": "167634919836667904",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T09:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764060",
+   "startTime": "2026-11-14T09:30:00.000Z",
+   "participant1Name": "Barton, Ales",
+   "participant2Name": "Urbaniec, Radim",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -30633,27 +30553,6 @@
    "home": "Ausztrália",
    "away": "Új-Zéland",
    "tournament": "vb"
-  }
- },
- "id3101486676560412": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id3101486676560412",
-   "startTime": "2026-11-14T08:15:00.000Z",
-   "participant1Name": "Carlton Blues",
-   "participant2Name": "Hawthorn Hawks",
-   "tournamentId": 14866,
-   "tournamentName": "AFL, Women",
-   "sportName": "Aussie Rules"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5643321,
-   "name": "Carlton - Hawthorn Hawks",
-   "score": 1.0,
-   "home": "Carlton",
-   "away": "Hawthorn Hawks",
-   "tournament": "AFL, női, rájátszás"
   }
  }
 }
