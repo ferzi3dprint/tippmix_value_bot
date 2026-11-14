@@ -934,7 +934,7 @@
   "closing_fair_prob": 0.7381,
   "closing_fair_odds": 1.355,
   "closing_sharp_odds": 1.316,
-  "closing_at": "2026-11-14T02:49:59.013306+00:00",
+  "closing_at": "2026-11-14T04:04:17.416173+00:00",
   "clv": -0.00356
  },
  {
@@ -1040,7 +1040,12 @@
   "ev": 0.06514,
   "band": "2.10–2.50",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.49773,
+  "closing_fair_odds": 2.009,
+  "closing_sharp_odds": 1.862,
+  "closing_at": "2026-11-14T04:04:17.416173+00:00",
+  "clv": 0.06514
  },
  {
   "fixture_id": "id1000074874723612",
@@ -1057,6 +1062,11 @@
   "ev": 0.04647,
   "band": "1.50–1.80",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.61557,
+  "closing_fair_odds": 1.625,
+  "closing_sharp_odds": 1.568,
+  "closing_at": "2026-11-14T04:04:17.416173+00:00",
+  "clv": 0.04647
  }
 ]
