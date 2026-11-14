@@ -956,7 +956,7 @@
   "closing_fair_prob": 0.67543,
   "closing_fair_odds": 1.481,
   "closing_sharp_odds": 1.444,
-  "closing_at": "2026-11-14T09:34:58.752378+00:00",
+  "closing_at": "2026-11-14T09:43:57.375985+00:00",
   "clv": 0.02665
  },
  {
@@ -978,7 +978,7 @@
   "closing_fair_prob": 0.76976,
   "closing_fair_odds": 1.299,
   "closing_sharp_odds": 1.265,
-  "closing_at": "2026-11-14T09:17:39.157158+00:00",
+  "closing_at": "2026-11-14T09:43:57.375985+00:00",
   "clv": 0.05457
  },
  {
@@ -1000,7 +1000,7 @@
   "closing_fair_prob": 0.83101,
   "closing_fair_odds": 1.203,
   "closing_sharp_odds": 1.178,
-  "closing_at": "2026-11-14T09:17:39.157158+00:00",
+  "closing_at": "2026-11-14T09:43:57.375985+00:00",
   "clv": 0.072
  },
  {
@@ -1022,7 +1022,7 @@
   "closing_fair_prob": 0.61012,
   "closing_fair_odds": 1.639,
   "closing_sharp_odds": 1.581,
-  "closing_at": "2026-11-14T09:17:39.157158+00:00",
+  "closing_at": "2026-11-14T09:43:57.375985+00:00",
   "clv": 0.0372
  },
  {
@@ -1088,7 +1088,7 @@
   "closing_fair_prob": 0.5,
   "closing_fair_odds": 2.0,
   "closing_sharp_odds": 1.854,
-  "closing_at": "2026-11-14T09:17:39.157158+00:00",
+  "closing_at": "2026-11-14T09:43:57.375985+00:00",
   "clv": 0.045
  },
  {
@@ -1105,6 +1105,28 @@
   "fair_prob": 0.54372,
   "ev": 0.03307,
   "band": "1.80–2.10",
+  "trigger": "normál",
+  "bet": false,
+  "closing_fair_prob": 0.54372,
+  "closing_fair_odds": 1.839,
+  "closing_sharp_odds": 1.719,
+  "closing_at": "2026-11-14T09:43:57.375985+00:00",
+  "clv": 0.03307
+ },
+ {
+  "fixture_id": "id1000074875244196",
+  "market_id": 10170,
+  "outcome_id": 10170,
+  "first_at": "2026-11-14T09:43:57.375985+00:00",
+  "start": "2026-11-14T12:00:00.000Z",
+  "home": "U19Észak-Írország",
+  "away": "U19Málta",
+  "tournament": "U19 Eb-selejtező, B Liga",
+  "label": "Gólszám 2.25: Több",
+  "odds": 1.42,
+  "fair_prob": 0.71948,
+  "ev": 0.02166,
+  "band": "1.30–1.50",
   "trigger": "normál",
   "bet": false
  }

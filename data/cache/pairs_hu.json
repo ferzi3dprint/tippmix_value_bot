@@ -14149,31 +14149,6 @@
   },
   "score": 1.0
  },
- "id1002710276618010": {
-  "tm": {
-   "id": "319524278335774720",
-   "sport": "Labdarúgás",
-   "name": "San Francisco FC - Veraguas FC",
-   "home": "San Francisco FC",
-   "away": "Veraguas FC",
-   "home_pid": "66498",
-   "away_pid": "10507811078934528",
-   "tournament": "Panamai bajnokság",
-   "category": "Panama",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002710276618010",
-   "startTime": "2026-11-14T21:00:00.000Z",
-   "participant1Name": "San Francisco FC",
-   "participant2Name": "Veraguas United FC",
-   "tournamentId": 27102,
-   "tournamentName": "Liga Panamena",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002710276618016": {
   "tm": {
    "id": "319779572004495360",
@@ -14193,6 +14168,31 @@
    "startTime": "2026-11-14T21:00:00.000Z",
    "participant1Name": "Cocle FC",
    "participant2Name": "CA Independiente de La Chorrera",
+   "tournamentId": 27102,
+   "tournamentName": "Liga Panamena",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002710276618010": {
+  "tm": {
+   "id": "319524278335774720",
+   "sport": "Labdarúgás",
+   "name": "San Francisco FC - Veraguas FC",
+   "home": "San Francisco FC",
+   "away": "Veraguas FC",
+   "home_pid": "66498",
+   "away_pid": "10507811078934528",
+   "tournament": "Panamai bajnokság",
+   "category": "Panama",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002710276618010",
+   "startTime": "2026-11-14T21:00:00.000Z",
+   "participant1Name": "San Francisco FC",
+   "participant2Name": "Veraguas United FC",
    "tournamentId": 27102,
    "tournamentName": "Liga Panamena",
    "sportName": "Soccer"
@@ -16123,31 +16123,6 @@
    "name": "J. Trainauskas - Ama. Admiraal",
    "score": 0.879
   }
- },
- "id1204760676415484": {
-  "tm": {
-   "id": "319856998949658624",
-   "sport": "Tenisz",
-   "name": "Francesco Maestrelli - Philip Henning",
-   "home": "Francesco Maestrelli",
-   "away": "Philip Henning",
-   "home_pid": "1459288874971136",
-   "away_pid": "149360861882929152",
-   "tournament": "Herszonisszosz, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-14T09:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204760676415484",
-   "startTime": "2026-11-14T09:30:00.000Z",
-   "participant1Name": "Maestrelli, Francesco",
-   "participant2Name": "Henning, Philip",
-   "tournamentId": 47606,
-   "tournamentName": "ATP Challenger Hersonissos 3, Greece Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
  },
  "id1100152472016890": {
   "tm": {
@@ -28321,126 +28296,6 @@
   "cl": {
    "id": 5554154,
    "name": "Sokol Wien - Waldviertel",
-   "score": 1.0
-  }
- },
- "id2503634976764272": {
-  "tm": {
-   "id": "319858212219199488",
-   "sport": "Asztalitenisz",
-   "name": "Tomas Kraninger - David Mikula",
-   "home": "Tomas Kraninger",
-   "away": "David Mikula",
-   "home_pid": "278604510088269824",
-   "away_pid": "275919048035930112",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T09:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764272",
-   "startTime": "2026-11-14T09:30:00.000Z",
-   "participant1Name": "Kraninger, Tomas",
-   "participant2Name": "Mikula, David",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5653326,
-   "name": "T. Kraninger - D. Mikula",
-   "score": 1.0
-  }
- },
- "id2503634976764282": {
-  "tm": {
-   "id": "319858212093370368",
-   "sport": "Asztalitenisz",
-   "name": "Miroslav Kowolowski - Tomas Hrabec",
-   "home": "Miroslav Kowolowski",
-   "away": "Tomas Hrabec",
-   "home_pid": "296193761273483264",
-   "away_pid": "276721926929518592",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T09:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764282",
-   "startTime": "2026-11-14T09:30:00.000Z",
-   "participant1Name": "Kowolowski, Miroslav",
-   "participant2Name": "Hrabec, Tomas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5653322,
-   "name": "M. Kowolowski - Tomas Hrabec",
-   "score": 1.0
-  }
- },
- "id2503634976764060": {
-  "tm": {
-   "id": "319858392343584768",
-   "sport": "Asztalitenisz",
-   "name": "Ales Barton - Radim Urbaniec",
-   "home": "Ales Barton",
-   "away": "Radim Urbaniec",
-   "home_pid": "116096053732757504",
-   "away_pid": "167634919836667904",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T09:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764060",
-   "startTime": "2026-11-14T09:30:00.000Z",
-   "participant1Name": "Barton, Ales",
-   "participant2Name": "Urbaniec, Radim",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5653324,
-   "name": "Ales Barton - R. Urbaniec",
-   "score": 1.0
-  }
- },
- "id2503634976762736": {
-  "tm": {
-   "id": "319858092174024704",
-   "sport": "Asztalitenisz",
-   "name": "Petr Serak - Roeckel Sascha",
-   "home": "Petr Serak",
-   "away": "Roeckel Sascha",
-   "home_pid": "192184047327408128",
-   "away_pid": "318601056025124864",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T09:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976762736",
-   "startTime": "2026-11-14T09:30:00.000Z",
-   "participant1Name": "Serak, Petr",
-   "participant2Name": "Roeckel, Sascha",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5653323,
-   "name": "P. Serak - S. Roeckel",
    "score": 1.0
   }
  },
