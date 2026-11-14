@@ -1,64 +1,4 @@
 {
- "id1000005472477596": {
-  "tm": {
-   "id": "318709374918926336",
-   "sport": "Labdarúgás",
-   "name": "Oviedo - Girona",
-   "home": "Oviedo",
-   "away": "Girona",
-   "home_pid": "296",
-   "away_pid": "77211",
-   "tournament": "Spanyol 2.",
-   "category": "Spanyolország",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T20:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000005472477596",
-   "startTime": "2026-11-14T20:00:00.000Z",
-   "participant1Name": "Real Oviedo",
-   "participant2Name": "Girona FC",
-   "tournamentId": 54,
-   "tournamentName": "LaLiga 2",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5556525,
-   "name": "Oviedo - Girona",
-   "score": 1.0
-  }
- },
- "id1003483473068204": {
-  "tm": {
-   "id": "319585193975422976",
-   "sport": "Labdarúgás",
-   "name": "Real Jaen - Zaragoza",
-   "home": "Real Jaen",
-   "away": "Zaragoza",
-   "home_pid": "36543",
-   "away_pid": "304",
-   "tournament": "Spanyol 3., 2. csoport",
-   "category": "Spanyolország",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T20:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003483473068204",
-   "startTime": "2026-11-14T20:00:00.000Z",
-   "participant1Name": "Real Jaen CF",
-   "participant2Name": "Real Zaragoza",
-   "tournamentId": 34834,
-   "tournamentName": "Primera Federacion",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5556164,
-   "name": "Real Jaen - Zaragoza",
-   "score": 1.0
-  }
- },
  "id1002707076676668": {
   "tm": {
    "id": "318896451299123200",
@@ -4487,36 +4427,6 @@
    "id": 5652828,
    "name": "B. Shelton - A. Fils",
    "score": 0.848
-  }
- },
- "id1100026473713590": {
-  "tm": {
-   "id": "318936794499457024",
-   "sport": "Kosárlabda",
-   "name": "Joventut Badalona - Zaragoza",
-   "home": "Joventut Badalona",
-   "away": "Zaragoza",
-   "home_pid": "2410334600327168",
-   "away_pid": "53008",
-   "tournament": "Spanyol bajnokság",
-   "category": "Spanyolország",
-   "tm_sport_id": "8",
-   "start": "2026-11-14T20:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100026473713590",
-   "startTime": "2026-11-14T20:00:00.000Z",
-   "participant1Name": "Club Joventut Badalona",
-   "participant2Name": "Basket Zaragoza 2002",
-   "tournamentId": 264,
-   "tournamentName": "Liga ACB",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555509,
-   "name": "Joventut Badalona - Zaragoza",
-   "score": 1.0
   }
  },
  "id1100156274320760": {
@@ -9399,31 +9309,6 @@
   },
   "score": 1.0
  },
- "id2503634976764260": {
-  "tm": {
-   "id": "319857922249138176",
-   "sport": "Asztalitenisz",
-   "name": "Karel Zurek - Michal Blaha",
-   "home": "Karel Zurek",
-   "away": "Michal Blaha",
-   "home_pid": "318840626998222848",
-   "away_pid": "275364064173101056",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T20:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764260",
-   "startTime": "2026-11-14T20:30:00.000Z",
-   "participant1Name": "Zurek, Karel",
-   "participant2Name": "Blaha, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976764098": {
   "tm": {
    "id": "319855590050439168",
@@ -9449,6 +9334,31 @@
   },
   "score": 1.0
  },
+ "id2503634976764260": {
+  "tm": {
+   "id": "319857922249138176",
+   "sport": "Asztalitenisz",
+   "name": "Karel Zurek - Michal Blaha",
+   "home": "Karel Zurek",
+   "away": "Michal Blaha",
+   "home_pid": "318840626998222848",
+   "away_pid": "275364064173101056",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T20:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764260",
+   "startTime": "2026-11-14T20:30:00.000Z",
+   "participant1Name": "Zurek, Karel",
+   "participant2Name": "Blaha, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976764302": {
   "tm": {
    "id": "319857922168397824",
@@ -9468,6 +9378,106 @@
    "startTime": "2026-11-14T20:30:00.000Z",
    "participant1Name": "Gebek, Evald",
    "participant2Name": "Bosak, Vitezslav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764168": {
+  "tm": {
+   "id": "319855710709030912",
+   "sport": "Asztalitenisz",
+   "name": "Milan Kolar - Plachy Jiri",
+   "home": "Milan Kolar",
+   "away": "Plachy Jiri",
+   "home_pid": "115765271733522432",
+   "away_pid": "146365753072865280",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764168",
+   "startTime": "2026-11-14T21:00:00.000Z",
+   "participant1Name": "Kolar, Milan",
+   "participant2Name": "Plachy, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764288": {
+  "tm": {
+   "id": "319856021125275648",
+   "sport": "Asztalitenisz",
+   "name": "Milan Klement - Jakub Tazler",
+   "home": "Milan Klement",
+   "away": "Jakub Tazler",
+   "home_pid": "105751373563449344",
+   "away_pid": "216759636619055104",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764288",
+   "startTime": "2026-11-14T21:00:00.000Z",
+   "participant1Name": "Klement, Milan",
+   "participant2Name": "Tazler, Jakub",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764142": {
+  "tm": {
+   "id": "319855710880997376",
+   "sport": "Asztalitenisz",
+   "name": "Vitezslav Bosak - Ivo Taichman",
+   "home": "Vitezslav Bosak",
+   "away": "Ivo Taichman",
+   "home_pid": "280054724205613056",
+   "away_pid": "283955591792332800",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764142",
+   "startTime": "2026-11-14T21:00:00.000Z",
+   "participant1Name": "Bosak, Vitezslav",
+   "participant2Name": "Taichman, Ivo",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764106": {
+  "tm": {
+   "id": "319855858296102912",
+   "sport": "Asztalitenisz",
+   "name": "Michal Blaha - Radek Adamczyk",
+   "home": "Michal Blaha",
+   "away": "Radek Adamczyk",
+   "home_pid": "275364064173101056",
+   "away_pid": "299757437033156608",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764106",
+   "startTime": "2026-11-14T21:00:00.000Z",
+   "participant1Name": "Blaha, Michal",
+   "participant2Name": "Adamczyk, Radek",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -9608,36 +9618,6 @@
    "sportName": "Cricket"
   },
   "score": 1.0
- },
- "id1900059776636110": {
-  "tm": {
-   "id": "319568675796492288",
-   "sport": "Darts",
-   "name": "Ross Smith - Rusty-Jake Rodriguez",
-   "home": "Ross Smith",
-   "away": "Rusty-Jake Rodriguez",
-   "home_pid": "4093994069788672",
-   "away_pid": "130786486768422912",
-   "tournament": "Grand Slam of Darts",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-14T20:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1900059776636110",
-   "startTime": "2026-11-14T20:15:00.000Z",
-   "participant1Name": "Smith, Ross",
-   "participant2Name": "Rodriguez, Rusty-Jake",
-   "tournamentId": 597,
-   "tournamentName": "Grand Slam of Darts",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5647347,
-   "name": "Ross Smith - Rusty-Jake Rodriguez",
-   "score": 1.0
-  }
  },
  "id1900059776636080": {
   "tm": {
