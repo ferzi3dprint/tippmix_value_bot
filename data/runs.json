@@ -1,73 +1,5 @@
 [
  {
-  "time": "2026-11-12T02:51:45.491003+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "tippmix_matches": 114,
-  "pinnacle_fixtures": 105,
-  "paired": 86,
-  "top_ev": [
-   "+2.5% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.22 (fair 1.19)",
-   "+1.4% San Marino – Fehéroroszország · Gólszám 3.5: Kevesebb @1.55 (fair 1.528)",
-   "+1.1% Ghána – Szomália · 1X2: Ghána győz @1.11 (fair 1.098)",
-   "+1.1% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.147)",
-   "+1.0% Szenegál – Szudán · 1X2: Szenegál győz @1.13 (fair 1.119)"
-  ],
-  "fixtures_checked": 82,
-  "fixtures_both": 82,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 6,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 2,
-  "free_calls": 88
- },
- {
-  "time": "2026-11-12T06:41:58.255432+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "tippmix_matches": 478,
-  "pinnacle_fixtures": 193,
-  "paired": 147,
-  "by_sport": {
-   "Soccer": [
-    132,
-    68
-   ],
-   "Tennis": [
-    272,
-    23
-   ],
-   "Basketball": [
-    50,
-    37
-   ],
-   "Ice Hockey": [
-    24,
-    19
-   ]
-  },
-  "top_ev": [
-   "+2.5% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.22 (fair 1.191)",
-   "+1.9% Ghána – Szomália · 1X2: Ghána győz @1.11 (fair 1.089)",
-   "+1.7% Örményország – Ciprus · Gólszám 2: Több @1.59 (fair 1.564)",
-   "+1.4% Örményország – Ciprus · Gólszám 1.5: Több @1.37 (fair 1.351)",
-   "+0.9% Färjestad – Djurgarden · Győztes (hosszabbítással): Färjestad győz @1.28 (fair 1.268)"
-  ],
-  "fixtures_checked": 147,
-  "fixtures_both": 105,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 13,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 8,
-  "free_calls": 149
- },
- {
   "time": "2026-11-12T07:05:00.910606+00:00",
   "mode": "hu",
   "settled": 0,
@@ -18083,5 +18015,196 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 135
+ },
+ {
+  "time": "2026-11-14T21:42:04.254265+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "-0.9% Halifax Mooseheads – Quebec Remparts · Hendikep (rendes játékidő): Quebec Remparts (-2) @2.2 (fair 2.22)",
+   "-1.5% Nacional Montevideo – Albion FC · Gólszám 4.5: Kevesebb @1.16 (fair 1.178)",
+   "-1.6% Cashmere Technical – Wellington Olympic · Gólszám 3: Több @1.49 (fair 1.514)",
+   "-1.7% Chapecoense – Vasco da Gama RJ · 1X2: Vasco da Gama RJ győz @1.4 (fair 1.424)",
+   "-1.7% Cashmere Technical – Wellington Olympic · Gólszám 2.75: Több @1.4 (fair 1.424)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 20,
+  "fixtures_both": 14,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "classic_checked": 14,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.7% Charleston – Louisville City · Gólszám 3.5: Kevesebb @1.36 (fair 1.384)",
+   "-2.0% Queretaro – Monterrey · Gólszám 3.5: Kevesebb @1.39 (fair 1.419)",
+   "-2.1% Chapecoense – Vasco da Gama RJ · Gólszám 4.5: Kevesebb @1.18 (fair 1.205)",
+   "-2.4% Queretaro – Monterrey · Gólszám 3: Kevesebb @1.58 (fair 1.618)",
+   "-2.5% H. Alateng – Juan Diaz · Győztes: Juan Diaz győz @1.19 (fair 1.221)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 25
+ },
+ {
+  "time": "2026-11-14T21:47:17.399235+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 7,
+  "boosts": 0,
+  "classic": {
+   "events": 403,
+   "paired": 182,
+   "classic_only": 37
+  },
+  "tippmix_matches": 1178,
+  "pinnacle_fixtures": 2074,
+  "paired": 377,
+  "by_sport": {
+   "Soccer": [
+    449,
+    161
+   ],
+   "Tennis": [
+    85,
+    4
+   ],
+   "Basketball": [
+    243,
+    101
+   ],
+   "Ice Hockey": [
+    133,
+    59
+   ],
+   "Handball": [
+    38,
+    12
+   ],
+   "Volleyball": [
+    84,
+    1
+   ],
+   "Table Tennis": [
+    28,
+    0
+   ],
+   "Cricket": [
+    33,
+    5
+   ],
+   "Badminton": [
+    10,
+    0
+   ],
+   "Darts": [
+    12,
+    2
+   ],
+   "Futsal": [
+    6,
+    0
+   ],
+   "Waterpolo": [
+    2,
+    2
+   ],
+   "ESport Counter-Strike": [
+    17,
+    0
+   ],
+   "ESport Dota": [
+    3,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    25,
+    0
+   ],
+   "eBasketball": [
+    10,
+    0
+   ],
+   "American Football": [
+    0,
+    11
+   ],
+   "Boxing": [
+    0,
+    4
+   ],
+   "MMA": [
+    0,
+    13
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    2
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+9.9% EV Regensburg – Bad Nauheim · Hendikep (rendes játékidő): EV Regensburg (-2) @2.95 (fair 2.684)",
+   "+4.7% EV Regensburg – Bad Nauheim · Hendikep (rendes játékidő): EV Regensburg (-1) @1.95 (fair 1.863)",
+   "+3.8% EV Regensburg – Bad Nauheim · Hendikep (rendes játékidő): EV Regensburg (-1.5) @2.23 (fair 2.148)",
+   "+1.0% Penafiel – Lusitania Lourosa · Gólszám 2: Több @1.59 (fair 1.574)",
+   "+0.8% Penafiel – Lusitania Lourosa · Gólszám 1.75: Több @1.45 (fair 1.438)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 30,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 100,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 10,
+  "classic_checked": 88,
+  "classic_candidates": 1,
+  "top_ev_classic": [
+   "+5.2% EV Regensburg – Bad Nauheim · Hendikep (rendes játékidő): EV Regensburg (-1.5) @2.26 (fair 2.148)",
+   "-1.4% Wellington Phoenix – Sydney FC · Gólszám 4.5: Kevesebb @1.25 (fair 1.268)",
+   "-1.7% Charleston – Louisville City · Gólszám 3.5: Kevesebb @1.36 (fair 1.384)",
+   "-1.8% Granada – Las Palmas · Ázsiai hendikep: Granada (+0.25) @1.34 (fair 1.365)",
+   "-2.0% Liberec – Litvínov · Hendikep (rendes játékidő): Liberec (-1.5) @2.12 (fair 2.163)"
+  ],
+  "placed": 1,
+  "not_executable": 1,
+  "api_calls": 0,
+  "free_calls": 157
  }
 ]
