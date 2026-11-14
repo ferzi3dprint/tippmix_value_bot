@@ -1,79 +1,4 @@
 {
- "id1002710276617952": {
-  "tm": {
-   "id": "319813906566553600",
-   "sport": "Labdarúgás",
-   "name": "Tauro FC - Alianza FC Panama",
-   "home": "Tauro FC",
-   "away": "Alianza FC Panama",
-   "home_pid": "101402",
-   "away_pid": "6317286903922688",
-   "tournament": "Panamai bajnokság",
-   "category": "Panama",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002710276617952",
-   "startTime": "2026-11-14T01:30:00.000Z",
-   "participant1Name": "Tauro FC",
-   "participant2Name": "Alianza FC Panama",
-   "tournamentId": 27102,
-   "tournamentName": "Liga Panamena",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002710276617956": {
-  "tm": {
-   "id": "319776667545444352",
-   "sport": "Labdarúgás",
-   "name": "UMECIT - CD Plaza Amador",
-   "home": "UMECIT",
-   "away": "CD Plaza Amador",
-   "home_pid": "131988267843244032",
-   "away_pid": "422924",
-   "tournament": "Panamai bajnokság",
-   "category": "Panama",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002710276617956",
-   "startTime": "2026-11-14T01:30:00.000Z",
-   "participant1Name": "Umecit",
-   "participant2Name": "CD Plaza Amador Panama City",
-   "tournamentId": 27102,
-   "tournamentName": "Liga Panamena",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002710276617954": {
-  "tm": {
-   "id": "319776667424858112",
-   "sport": "Labdarúgás",
-   "name": "Sp. San Miguelito - CD Arabe Unido",
-   "home": "Sp. San Miguelito",
-   "away": "CD Arabe Unido",
-   "home_pid": "494951",
-   "away_pid": "494950",
-   "tournament": "Panamai bajnokság",
-   "category": "Panama",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002710276617954",
-   "startTime": "2026-11-14T01:30:00.000Z",
-   "participant1Name": "AF Sporting San Miguelito",
-   "participant2Name": "CD Arabe Unido",
-   "tournamentId": 27102,
-   "tournamentName": "Liga Panamena",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002742075466978": {
   "tm": {
    "id": "319572710816555008",
@@ -12634,31 +12559,6 @@
   },
   "score": 1.0
  },
- "id1002583572514884": {
-  "tm": {
-   "id": "319655561250545664",
-   "sport": "Labdarúgás",
-   "name": "Zabkovia Zabki - Polonia Lidzbark",
-   "home": "Zabkovia Zabki",
-   "away": "Polonia Lidzbark",
-   "home_pid": "112590904464920576",
-   "away_pid": "213290546530242560",
-   "tournament": "Lengyel 4., 1. csoport",
-   "category": "Lengyelország",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002583572514884",
-   "startTime": "2026-11-14T12:00:00.000Z",
-   "participant1Name": "Zabkovia Zabki",
-   "participant2Name": "MKS Polonia Lidzbark Warminski",
-   "tournamentId": 25835,
-   "tournamentName": "III Liga, Group 1",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002583572514886": {
   "tm": {
    "id": "319655561390006272",
@@ -12703,6 +12603,31 @@
    "startTime": "2026-11-14T12:00:00.000Z",
    "participant1Name": "LKS 1926 Lomza",
    "participant2Name": "KS Warta Sieradz",
+   "tournamentId": 25835,
+   "tournamentName": "III Liga, Group 1",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002583572514884": {
+  "tm": {
+   "id": "319655561250545664",
+   "sport": "Labdarúgás",
+   "name": "Zabkovia Zabki - Polonia Lidzbark",
+   "home": "Zabkovia Zabki",
+   "away": "Polonia Lidzbark",
+   "home_pid": "112590904464920576",
+   "away_pid": "213290546530242560",
+   "tournament": "Lengyel 4., 1. csoport",
+   "category": "Lengyelország",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T12:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002583572514884",
+   "startTime": "2026-11-14T12:00:00.000Z",
+   "participant1Name": "Zabkovia Zabki",
+   "participant2Name": "MKS Polonia Lidzbark Warminski",
    "tournamentId": 25835,
    "tournamentName": "III Liga, Group 1",
    "sportName": "Soccer"
@@ -12880,6 +12805,56 @@
    "participant2Name": "Botafogo FR RJ",
    "tournamentId": 39459,
    "tournamentName": "U20 Carioca, Serie A",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002627872594654": {
+  "tm": {
+   "id": "318684760700428288",
+   "sport": "Labdarúgás",
+   "name": "Gvvv - Spakenburg",
+   "home": "Gvvv",
+   "away": "Spakenburg",
+   "home_pid": "110469",
+   "away_pid": "110460",
+   "tournament": "Holland 3.",
+   "category": "Hollandia",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002627872594654",
+   "startTime": "2026-11-14T13:30:00.000Z",
+   "participant1Name": "GVVV Veenendaal",
+   "participant2Name": "SV Spakenburg",
+   "tournamentId": 26278,
+   "tournamentName": "Tweede Divisie",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002627872594656": {
+  "tm": {
+   "id": "318684760838840320",
+   "sport": "Labdarúgás",
+   "name": "HHC Hardenberg - RKAV Volendam",
+   "home": "HHC Hardenberg",
+   "away": "RKAV Volendam",
+   "home_pid": "110455",
+   "away_pid": "182669108064604160",
+   "tournament": "Holland 3.",
+   "category": "Hollandia",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002627872594656",
+   "startTime": "2026-11-14T13:30:00.000Z",
+   "participant1Name": "HHC Hardenberg",
+   "participant2Name": "Rkav Volendam",
+   "tournamentId": 26278,
+   "tournamentName": "Tweede Divisie",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -14164,6 +14139,31 @@
   },
   "score": 0.805
  },
+ "id1002627872594658": {
+  "tm": {
+   "id": "318684760968863744",
+   "sport": "Labdarúgás",
+   "name": "Rijnsbrugge Boys - Koninklijke Haarlem",
+   "home": "Rijnsbrugge Boys",
+   "away": "Koninklijke Haarlem",
+   "home_pid": "110450",
+   "away_pid": "1166406",
+   "tournament": "Holland 3.",
+   "category": "Hollandia",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002627872594658",
+   "startTime": "2026-11-14T13:30:00.000Z",
+   "participant1Name": "Rijnsburgse Boys",
+   "participant2Name": "Koninklijke HFC",
+   "tournamentId": 26278,
+   "tournamentName": "Tweede Divisie",
+   "sportName": "Soccer"
+  },
+  "score": 0.798
+ },
  "id1002707076676672": {
   "tm": {
    "id": "318896451401883648",
@@ -14931,66 +14931,6 @@
   "cl": {
    "id": 5644241,
    "name": "V. Borodulina - S. La Cerra",
-   "score": 1.0
-  }
- },
- "id1100013273696994": {
-  "tm": {
-   "id": "318936789916131328",
-   "sport": "Kosárlabda",
-   "name": "Houston - Utah",
-   "home": "Houston",
-   "away": "Utah",
-   "home_pid": "2185",
-   "away_pid": "2188",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-14T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273696994",
-   "startTime": "2026-11-14T01:30:00.000Z",
-   "participant1Name": "Houston Rockets",
-   "participant2Name": "Utah Jazz",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5553856,
-   "name": "Houston - Utah",
-   "score": 1.0
-  }
- },
- "id1100064874602276": {
-  "tm": {
-   "id": "319799893663227904",
-   "sport": "Kosárlabda",
-   "name": "Nebraska Omaha Mavericks - Lindenwood Lions",
-   "home": "Nebraska Omaha Mavericks",
-   "away": "Lindenwood Lions",
-   "home_pid": "790700",
-   "away_pid": "186961377665011712",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-14T01:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064874602276",
-   "startTime": "2026-11-14T01:45:00.000Z",
-   "participant1Name": "Omaha Mavericks",
-   "participant2Name": "Lindenwood Lions",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5553871,
-   "name": "Nebraska Omaha Mavericks - Lindenwood Lions",
    "score": 1.0
   }
  },
@@ -19319,31 +19259,6 @@
    "score": 1.0
   }
  },
- "id1102138474271368": {
-  "tm": {
-   "id": "318936830485536768",
-   "sport": "Kosárlabda",
-   "name": "Boise State Broncos - Utah Utes",
-   "home": "Boise State Broncos",
-   "away": "Utah Utes",
-   "home_pid": "187515863730016256",
-   "away_pid": "160238373545496576",
-   "tournament": "WNCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-14T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102138474271368",
-   "startTime": "2026-11-14T01:30:00.000Z",
-   "participant1Name": "Boise State Broncos",
-   "participant2Name": "Utah Utes",
-   "tournamentId": 21384,
-   "tournamentName": "NCAA Women, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
  "id1102013274236956": {
   "tm": {
    "id": "318936735838969856",
@@ -20895,6 +20810,31 @@
    "participant2Name": "CA Goes",
    "tournamentId": 19980,
    "tournamentName": "LUB",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100064874602276": {
+  "tm": {
+   "id": "319799893663227904",
+   "sport": "Kosárlabda",
+   "name": "Nebraska Omaha Mavericks - Lindenwood Lions",
+   "home": "Nebraska Omaha Mavericks",
+   "away": "Lindenwood Lions",
+   "home_pid": "790700",
+   "away_pid": "186961377665011712",
+   "tournament": "NCAA",
+   "category": "USA",
+   "tm_sport_id": "8",
+   "start": "2026-11-14T01:45:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100064874602276",
+   "startTime": "2026-11-14T01:45:00.000Z",
+   "participant1Name": "Omaha Mavericks",
+   "participant2Name": "Lindenwood Lions",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -28014,6 +27954,31 @@
   },
   "score": 1.0
  },
+ "id2503634976731596": {
+  "tm": {
+   "id": "319769613324853248",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Janata - Simon Kadavy",
+   "home": "Tomas Janata",
+   "away": "Simon Kadavy",
+   "home_pid": "124357830765498368",
+   "away_pid": "188832931008008192",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T02:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976731596",
+   "startTime": "2026-11-14T02:00:00.000Z",
+   "participant1Name": "Janata, Tomas",
+   "participant2Name": "Kadavy, Simon",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976731800": {
   "tm": {
    "id": "319770109400915968",
@@ -28039,25 +28004,25 @@
   },
   "score": 1.0
  },
- "id2503634976731596": {
+ "id2503634976731674": {
   "tm": {
-   "id": "319769613324853248",
+   "id": "319769612727164928",
    "sport": "Asztalitenisz",
-   "name": "Tomas Janata - Simon Kadavy",
-   "home": "Tomas Janata",
-   "away": "Simon Kadavy",
-   "home_pid": "124357830765498368",
-   "away_pid": "188832931008008192",
+   "name": "Patrik Pycha - Michal Regner",
+   "home": "Patrik Pycha",
+   "away": "Michal Regner",
+   "home_pid": "131044481783877632",
+   "away_pid": "112731966551511040",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-14T02:00:00+00:00"
+   "start": "2026-11-14T02:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976731596",
-   "startTime": "2026-11-14T02:00:00.000Z",
-   "participant1Name": "Janata, Tomas",
-   "participant2Name": "Kadavy, Simon",
+   "fixtureId": "id2503634976731674",
+   "startTime": "2026-11-14T02:30:00.000Z",
+   "participant1Name": "Pycha, Patrik",
+   "participant2Name": "Regner, Michal",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -29523,27 +29488,6 @@
    "sportName": "ESport Counter-Strike"
   },
   "score": 1.0
- },
- "id1002707076676662": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1002707076676662",
-   "startTime": "2026-11-14T01:30:00.000Z",
-   "participant1Name": "Internacional de Bogota.",
-   "participant2Name": "Independiente Santa Fe",
-   "tournamentId": 27070,
-   "tournamentName": "Liga DIMAYOR",
-   "sportName": "Soccer"
-  },
-  "score": 0.853,
-  "cl": {
-   "id": 5649060,
-   "name": "Internacional de Bogota - Independiente SF",
-   "score": 0.853,
-   "home": "Internacional de Bogota",
-   "away": "Independiente SF",
-   "tournament": "Kolumbiai bajnokság"
-  }
  },
  "id1204989076506138": {
   "tm": null,
