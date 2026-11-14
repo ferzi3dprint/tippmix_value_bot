@@ -51,12 +51,13 @@ scan:
 
 filters:
   min_odds: 1.10
-  max_odds: 2.50
+  max_odds: 5.00
   # Odds-sávonkénti minimális várható érték (EV). Alacsony oddsnál kisebb a szórás, ezért kisebb küszöb is elég.
   ev_bands:
     - {max_odds: 1.60, min_ev: 0.02}
     - {max_odds: 2.10, min_ev: 0.03}
-    - {max_odds: 99.0, min_ev: 0.04}
+    - {max_odds: 2.50, min_ev: 0.04}
+    - {max_odds: 99.0, min_ev: 0.06}    # 2.50–5.00: nagyobb szórás és bizonytalanabb fair ár -> szigorúbb küszöb
   consensus_extra_ev: 0.015    # konszenzusos (nem Pinnacle) fair árnál ennyivel szigorúbb az EV-küszöb
   max_market_prob_diff: 0.12   # ha egy piacon a két iroda valószínűségei ennél jobban eltérnek: hibás párosítás/vonal -> kihagyja
   max_ev: 0.25                 # ennél nagyobb EV szinte mindig adathiba (pl. eltérő piacszabály) – kihagyja

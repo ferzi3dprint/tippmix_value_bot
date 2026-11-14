@@ -51,7 +51,7 @@ def min_ev_for(odds, cfg):
 
 
 def odds_band(odds):
-    for lo, hi in ((1.0, 1.3), (1.3, 1.5), (1.5, 1.8), (1.8, 2.1), (2.1, 2.5), (2.5, 99)):
+    for lo, hi in ((1.0, 1.3), (1.3, 1.5), (1.5, 1.8), (1.8, 2.1), (2.1, 2.5), (2.5, 5.0), (5.0, 99)):
         if lo < odds <= hi:
             return f"{lo:.2f}–{hi:.2f}" if hi < 99 else f"{lo:.2f}+"
     return "?"
