@@ -3909,6 +3909,31 @@
   },
   "score": 1.0
  },
+ "id1002603073581348": {
+  "tm": {
+   "id": "319779788021637120",
+   "sport": "Labdarúgás",
+   "name": "Club Siello Nuevo Boadilla Fútbol Club - Real Aranjuez",
+   "home": "Club Siello Nuevo Boadilla Fútbol Club",
+   "away": "Real Aranjuez",
+   "home_pid": "280461335030009856",
+   "away_pid": "295287539116576768",
+   "tournament": "Spanyol 5., 7. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-15T10:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002603073581348",
+   "startTime": "2026-11-15T10:30:00.000Z",
+   "participant1Name": "Siello Nuevo Boadilla FC",
+   "participant2Name": "Real Aranjuez CF",
+   "tournamentId": 26030,
+   "tournamentName": "Tercera Federacion, Group 7",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1002603073581352": {
   "tm": {
    "id": "319774218267992064",
@@ -3959,25 +3984,50 @@
   },
   "score": 1.0
  },
- "id1002603073581348": {
+ "id1002602673577736": {
   "tm": {
-   "id": "319779788021637120",
+   "id": "319779934961737728",
    "sport": "Labdarúgás",
-   "name": "Club Siello Nuevo Boadilla Fútbol Club - Real Aranjuez",
-   "home": "Club Siello Nuevo Boadilla Fútbol Club",
-   "away": "Real Aranjuez",
-   "home_pid": "280461335030009856",
-   "away_pid": "295287539116576768",
+   "name": "UE Tona - UE Vilassar de Mar",
+   "home": "UE Tona",
+   "away": "UE Vilassar de Mar",
+   "home_pid": "178543072676728832",
+   "away_pid": "812415",
+   "tournament": "Spanyol 5., 5. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-15T10:45:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002602673577736",
+   "startTime": "2026-11-15T10:45:00.000Z",
+   "participant1Name": "UE Tona",
+   "participant2Name": "UE Vilassar de Mar",
+   "tournamentId": 26026,
+   "tournamentName": "Tercera Federacion, Group 5",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002603073581362": {
+  "tm": {
+   "id": "319779737912287232",
+   "sport": "Labdarúgás",
+   "name": "CD Mostoles - CF Trival Valderas Alcorcon",
+   "home": "CD Mostoles",
+   "away": "CF Trival Valderas Alcorcon",
+   "home_pid": "1172270",
+   "away_pid": "331821",
    "tournament": "Spanyol 5., 7. csoport",
    "category": "Spanyolország",
    "tm_sport_id": "1",
-   "start": "2026-11-15T10:30:00+00:00"
+   "start": "2026-11-15T10:45:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1002603073581348",
-   "startTime": "2026-11-15T10:30:00.000Z",
-   "participant1Name": "Siello Nuevo Boadilla FC",
-   "participant2Name": "Real Aranjuez CF",
+   "fixtureId": "id1002603073581362",
+   "startTime": "2026-11-15T10:45:00.000Z",
+   "participant1Name": "CD Mostoles URJC",
+   "participant2Name": "CF Trival Valderas Alcoron",
    "tournamentId": 26030,
    "tournamentName": "Tercera Federacion, Group 7",
    "sportName": "Soccer"
@@ -9254,81 +9304,6 @@
   },
   "score": 0.86
  },
- "id2503634976764180": {
-  "tm": {
-   "id": "319856155988926464",
-   "sport": "Asztalitenisz",
-   "name": "David Mutl - Jan Potensky",
-   "home": "David Mutl",
-   "away": "Jan Potensky",
-   "home_pid": "141860390245027840",
-   "away_pid": "167900208636678144",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T23:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764180",
-   "startTime": "2026-11-14T23:00:00.000Z",
-   "participant1Name": "Mutl, David",
-   "participant2Name": "Potensky, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976764092": {
-  "tm": {
-   "id": "319860096271196160",
-   "sport": "Asztalitenisz",
-   "name": "Milan Smrcek - Martin Ulrych",
-   "home": "Milan Smrcek",
-   "away": "Martin Ulrych",
-   "home_pid": "127592158820618240",
-   "away_pid": "288036373174456320",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T23:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764092",
-   "startTime": "2026-11-14T23:00:00.000Z",
-   "participant1Name": "Smrcek, Milan",
-   "participant2Name": "Ulrych, Martin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976764114": {
-  "tm": {
-   "id": "319856308603920384",
-   "sport": "Asztalitenisz",
-   "name": "Jiri Zuzanek - Martin Vizek",
-   "home": "Jiri Zuzanek",
-   "away": "Martin Vizek",
-   "home_pid": "189194976074190848",
-   "away_pid": "256731479040974848",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T23:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764114",
-   "startTime": "2026-11-14T23:00:00.000Z",
-   "participant1Name": "Zuzanek, Jiri",
-   "participant2Name": "Vizek, Martin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976764124": {
   "tm": {
    "id": "319856305230651392",
@@ -9513,36 +9488,6 @@
    "sportName": "Cricket"
   },
   "score": 1.0
- },
- "id1900059776636100": {
-  "tm": {
-   "id": "319568674106187776",
-   "sport": "Darts",
-   "name": "Chris Dobey - Jan Schmidt",
-   "home": "Chris Dobey",
-   "away": "Jan Schmidt",
-   "home_pid": "1192196",
-   "away_pid": "299576764024524800",
-   "tournament": "Grand Slam of Darts",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-14T22:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1900059776636100",
-   "startTime": "2026-11-14T22:45:00.000Z",
-   "participant1Name": "Dobey, Chris",
-   "participant2Name": "Schmidt, Jan",
-   "tournamentId": 597,
-   "tournamentName": "Grand Slam of Darts",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5647335,
-   "name": "C. Dobey - Jan Schmidt",
-   "score": 1.0
-  }
  },
  "id2800096374462438": {
   "tm": {
@@ -10273,27 +10218,6 @@
    "score": 0.9,
    "home": "Ste. Thompson",
    "away": "C. Radtke",
-   "tournament": "UFC 334, New York"
-  }
- },
- "id2005347676112386": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2005347676112386",
-   "startTime": "2026-11-14T22:40:00.000Z",
-   "participant1Name": "Chiasson, Macy",
-   "participant2Name": "Mesquita, Beatriz",
-   "tournamentId": 53476,
-   "tournamentName": "UFC 334: Gane vs. Hokit",
-   "sportName": "MMA"
-  },
-  "score": 0.783,
-  "cl": {
-   "id": 5649302,
-   "name": "M. Chiasson - B. Mesquita",
-   "score": 0.783,
-   "home": "M. Chiasson",
-   "away": "B. Mesquita",
    "tournament": "UFC 334, New York"
   }
  },
