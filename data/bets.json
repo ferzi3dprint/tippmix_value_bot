@@ -624,7 +624,7 @@
  {
   "id": "4d8a1bb4b3",
   "placed_at": "2026-11-14T01:00:50.402741+00:00",
-  "status": "open",
+  "status": "settled",
   "exec_status": "ok",
   "fixture_id": "id1000074874754160",
   "sport": "Soccer",
@@ -664,7 +664,12 @@
   "closing_fair_odds": 1.339,
   "closing_sharp_odds": 1.308,
   "closing_at": "2026-11-14T09:34:58.752378+00:00",
-  "clv": 0.00808
+  "clv": 0.00808,
+  "settle_tried_at": "2026-11-14T13:34:24.117005+00:00",
+  "result": "WIN",
+  "payout": 3240.0,
+  "profit": 840.0,
+  "settled_at": "2026-11-14T13:34:24.117005+00:00"
  },
  {
   "id": "2ea8def14e",
