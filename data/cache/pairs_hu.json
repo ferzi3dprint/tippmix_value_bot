@@ -12809,56 +12809,6 @@
   },
   "score": 1.0
  },
- "id1000111173018700": {
-  "tm": {
-   "id": "318690446131929088",
-   "sport": "Labdarúgás",
-   "name": "Curzon Ashton FC - Quorn",
-   "home": "Curzon Ashton FC",
-   "away": "Quorn",
-   "home_pid": "23079",
-   "away_pid": "1571699824291840",
-   "tournament": "Angol NPL",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000111173018700",
-   "startTime": "2026-11-14T15:00:00.000Z",
-   "participant1Name": "Curzon Ashton FC",
-   "participant2Name": "Quorn FC",
-   "tournamentId": 1111,
-   "tournamentName": "Northern Premier League Premier",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000111173018708": {
-  "tm": {
-   "id": "318690446314381312",
-   "sport": "Labdarúgás",
-   "name": "Ilkeston - United of Manchester",
-   "home": "Ilkeston",
-   "away": "United of Manchester",
-   "home_pid": "757402",
-   "away_pid": "80648",
-   "tournament": "Angol NPL",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000111173018708",
-   "startTime": "2026-11-14T15:00:00.000Z",
-   "participant1Name": "Ilkeston Town FC",
-   "participant2Name": "FC United of Manchester",
-   "tournamentId": 1111,
-   "tournamentName": "Northern Premier League Premier",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000111173018698": {
   "tm": {
    "id": "318690445991419904",
@@ -12909,6 +12859,56 @@
   },
   "score": 1.0
  },
+ "id1000111173018714": {
+  "tm": {
+   "id": "318690446566039552",
+   "sport": "Labdarúgás",
+   "name": "Warrington Rylands - Whitby Town",
+   "home": "Warrington Rylands",
+   "away": "Whitby Town",
+   "home_pid": "119269057853706240",
+   "away_pid": "3501",
+   "tournament": "Angol NPL",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000111173018714",
+   "startTime": "2026-11-14T15:00:00.000Z",
+   "participant1Name": "Warrington Rylands 1906 FC",
+   "participant2Name": "Whitby Town",
+   "tournamentId": 1111,
+   "tournamentName": "Northern Premier League Premier",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000111173018700": {
+  "tm": {
+   "id": "318690446131929088",
+   "sport": "Labdarúgás",
+   "name": "Curzon Ashton FC - Quorn",
+   "home": "Curzon Ashton FC",
+   "away": "Quorn",
+   "home_pid": "23079",
+   "away_pid": "1571699824291840",
+   "tournament": "Angol NPL",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000111173018700",
+   "startTime": "2026-11-14T15:00:00.000Z",
+   "participant1Name": "Curzon Ashton FC",
+   "participant2Name": "Quorn FC",
+   "tournamentId": 1111,
+   "tournamentName": "Northern Premier League Premier",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000111173018712": {
   "tm": {
    "id": "318690446489493504",
@@ -12934,25 +12934,25 @@
   },
   "score": 1.0
  },
- "id1000111173018714": {
+ "id1000111173018708": {
   "tm": {
-   "id": "318690446566039552",
+   "id": "318690446314381312",
    "sport": "Labdarúgás",
-   "name": "Warrington Rylands - Whitby Town",
-   "home": "Warrington Rylands",
-   "away": "Whitby Town",
-   "home_pid": "119269057853706240",
-   "away_pid": "3501",
+   "name": "Ilkeston - United of Manchester",
+   "home": "Ilkeston",
+   "away": "United of Manchester",
+   "home_pid": "757402",
+   "away_pid": "80648",
    "tournament": "Angol NPL",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-14T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000111173018714",
+   "fixtureId": "id1000111173018708",
    "startTime": "2026-11-14T15:00:00.000Z",
-   "participant1Name": "Warrington Rylands 1906 FC",
-   "participant2Name": "Whitby Town",
+   "participant1Name": "Ilkeston Town FC",
+   "participant2Name": "FC United of Manchester",
    "tournamentId": 1111,
    "tournamentName": "Northern Premier League Premier",
    "sportName": "Soccer"
@@ -15993,6 +15993,31 @@
    "name": "V. Borodulina - S. La Cerra",
    "score": 1.0
   }
+ },
+ "id1204838976431690": {
+  "tm": {
+   "id": "319844867777830912",
+   "sport": "Tenisz",
+   "name": "Juncheng Shang - Christian Langmo",
+   "home": "Juncheng Shang",
+   "away": "Christian Langmo",
+   "home_pid": "107317193437499392",
+   "away_pid": "1226056",
+   "tournament": "Brisbane, férfi egyes",
+   "category": "Challenger",
+   "tm_sport_id": "3",
+   "start": "2026-11-14T04:40:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1204838976431690",
+   "startTime": "2026-11-14T04:30:00.000Z",
+   "participant1Name": "Shang, Juncheng",
+   "participant2Name": "Langmo, Christian",
+   "tournamentId": 48389,
+   "tournamentName": "ATP Challenger Brisbane 3, Australia Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0
  },
  "id1100154073657552": {
   "tm": {
@@ -27429,91 +27454,6 @@
   },
   "score": 0.731
  },
- "id2304409972779748": {
-  "tm": {
-   "id": "319354378067714048",
-   "sport": "Röplabda",
-   "name": "Suntory Sunbirds - JTEKT Stings",
-   "home": "Suntory Sunbirds",
-   "away": "JTEKT Stings",
-   "home_pid": "185469688990453760",
-   "away_pid": "185558877434073088",
-   "tournament": "Japán bajnokság",
-   "category": "Japán",
-   "tm_sport_id": "20",
-   "start": "2026-11-14T04:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2304409972779748",
-   "startTime": "2026-11-14T04:05:00.000Z",
-   "participant1Name": "Suntory Sunbirds Osaka",
-   "participant2Name": "Stings",
-   "tournamentId": 44099,
-   "tournamentName": "SV League",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5554006,
-   "name": "Suntory Sunbirds - JTEKT Stings",
-   "score": 1.0
-  }
- },
- "id2304409972779744": {
-  "tm": {
-   "id": "319354378381238272",
-   "sport": "Röplabda",
-   "name": "Wolfdogs Nagoya - Osaka Blazers",
-   "home": "Wolfdogs Nagoya",
-   "away": "Osaka Blazers",
-   "home_pid": "94881933294567424",
-   "away_pid": "821624",
-   "tournament": "Japán bajnokság",
-   "category": "Japán",
-   "tm_sport_id": "20",
-   "start": "2026-11-14T04:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2304409972779744",
-   "startTime": "2026-11-14T04:05:00.000Z",
-   "participant1Name": "Wolfdogs Nagoya",
-   "participant2Name": "Osaka Blazers Sakai",
-   "tournamentId": 44099,
-   "tournamentName": "SV League",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5554004,
-   "name": "Nagoya Wolfdogs - Osaka Blazers",
-   "score": 1.0
-  }
- },
- "id2304410172636460": {
-  "tm": {
-   "id": "319354390614974464",
-   "sport": "Röplabda",
-   "name": "Hisamitsu Springs - Ishikawa Blue Cats",
-   "home": "Hisamitsu Springs",
-   "away": "Ishikawa Blue Cats",
-   "home_pid": "186105482629402624",
-   "away_pid": "156940506518208512",
-   "tournament": "Japán bajnokság, női",
-   "category": "Japán",
-   "tm_sport_id": "20",
-   "start": "2026-11-14T04:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2304410172636460",
-   "startTime": "2026-11-14T04:05:00.000Z",
-   "participant1Name": "Hisamitsu Springs",
-   "participant2Name": "Blue Cats",
-   "tournamentId": 44101,
-   "tournamentName": "SV League, Women",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0
- },
  "id2303732975048424": {
   "tm": {
    "id": "319354385253605376",
@@ -28254,31 +28194,6 @@
   },
   "score": 1.0
  },
- "id2304410172636454": {
-  "tm": {
-   "id": "319354390818398208",
-   "sport": "Röplabda",
-   "name": "Saitama Ageo Medics - Osaka Marvelous",
-   "home": "Saitama Ageo Medics",
-   "away": "Osaka Marvelous",
-   "home_pid": "186106110186409984",
-   "away_pid": "175336897579634688",
-   "tournament": "Japán bajnokság, női",
-   "category": "Japán",
-   "tm_sport_id": "20",
-   "start": "2026-11-14T04:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2304410172636454",
-   "startTime": "2026-11-14T04:05:00.000Z",
-   "participant1Name": "Saitama Ageo Medics",
-   "participant2Name": "Marvelous",
-   "tournamentId": 44101,
-   "tournamentName": "SV League, Women",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0
- },
  "id2300148874599452": {
   "tm": {
    "id": "319354387589832704",
@@ -28902,36 +28817,6 @@
    "id": 5652887,
    "name": "Hae Deun Kim - Rei Miyashita",
    "score": 1.0
-  }
- },
- "id4904115876757588": {
-  "tm": {
-   "id": "319835070700527616",
-   "sport": "Tollaslabda",
-   "name": "Yuan Chi Liao - Ni Kadek Dhinda Amartya Pratiwi",
-   "home": "Yuan Chi Liao",
-   "away": "Ni Kadek Dhinda Amartya Pratiwi",
-   "home_pid": "216224319285645312",
-   "away_pid": "252272056657285120",
-   "tournament": "Kaohsiung Masters, női egyes",
-   "category": "Tajvan",
-   "tm_sport_id": "14",
-   "start": "2026-11-14T04:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4904115876757588",
-   "startTime": "2026-11-14T04:20:00.000Z",
-   "participant1Name": "Liao, Yuan Chi",
-   "participant2Name": "Pratiwi, Ni Kadek Dhinda Amartya",
-   "tournamentId": 41158,
-   "tournamentName": "Kaohsiung Masters, WS",
-   "sportName": "Badminton"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5652884,
-   "name": "Yuan Chi Liao - N.K. Dhinda Amartya Pratiwi",
-   "score": 0.883
   }
  },
  "id4904115876757586": {
