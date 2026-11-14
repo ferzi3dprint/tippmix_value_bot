@@ -1,34 +1,4 @@
 {
- "id1000104473346114": {
-  "tm": {
-   "id": "318681598156414976",
-   "sport": "Labdarúgás",
-   "name": "Manchester Utd. - Crystal Palace",
-   "home": "Manchester Utd.",
-   "away": "Crystal Palace",
-   "home_pid": "5917513930303488",
-   "away_pid": "1511101",
-   "tournament": "Angol bajnokság, női",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T12:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000104473346114",
-   "startTime": "2026-11-14T12:45:00.000Z",
-   "participant1Name": "Manchester United WFC",
-   "participant2Name": "Crystal Palace",
-   "tournamentId": 1044,
-   "tournamentName": "Super League Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555893,
-   "name": "Manchester Utd. - Crystal Palace",
-   "score": 1.0
-  }
- },
  "id1000005472477602": {
   "tm": {
    "id": "318682866492973056",
@@ -12914,36 +12884,6 @@
   },
   "score": 0.829
  },
- "id1000136975907944": {
-  "tm": {
-   "id": "319861969322582016",
-   "sport": "Labdarúgás",
-   "name": "Al-Dharfa - Ajman",
-   "home": "Al-Dharfa",
-   "away": "Ajman",
-   "home_pid": "762578",
-   "away_pid": "106757",
-   "tournament": "Egyesült Arab Emir. Liga-kupa",
-   "category": "Egyesült Arab Emirátusok",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T12:50:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000136975907944",
-   "startTime": "2026-11-14T12:50:00.000Z",
-   "participant1Name": "Al Dhafra SSC",
-   "participant2Name": "Ajman Club",
-   "tournamentId": 1369,
-   "tournamentName": "Pro League Cup",
-   "sportName": "Soccer"
-  },
-  "score": 0.825,
-  "cl": {
-   "id": 5593098,
-   "name": "Al-Dhafra - Ajman",
-   "score": 0.922
-  }
- },
  "id1000033576171196": {
   "tm": {
    "id": "319735913220481024",
@@ -25384,36 +25324,6 @@
    "score": 1.0
   }
  },
- "id2503634976764166": {
-  "tm": {
-   "id": "319858842870554624",
-   "sport": "Asztalitenisz",
-   "name": "Marek Blejchar - Jakub Levicky",
-   "home": "Marek Blejchar",
-   "away": "Jakub Levicky",
-   "home_pid": "189119526973001728",
-   "away_pid": "167174971199639552",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T13:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764166",
-   "startTime": "2026-11-14T13:30:00.000Z",
-   "participant1Name": "Blejchar, Marek",
-   "participant2Name": "Levicky, Jakub",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5653498,
-   "name": "M. Blejchar - Jakub Levicky",
-   "score": 1.0
-  }
- },
  "id2503634976764196": {
   "tm": {
    "id": "319858992984694784",
@@ -25444,33 +25354,33 @@
    "score": 1.0
   }
  },
- "id2503634976764250": {
+ "id2503634976764166": {
   "tm": {
-   "id": "319858790931439616",
+   "id": "319858842870554624",
    "sport": "Asztalitenisz",
-   "name": "Jiri Svec - Pavel Kulhanek",
-   "home": "Jiri Svec",
-   "away": "Pavel Kulhanek",
-   "home_pid": "117257474374946816",
-   "away_pid": "155228678902566912",
+   "name": "Marek Blejchar - Jakub Levicky",
+   "home": "Marek Blejchar",
+   "away": "Jakub Levicky",
+   "home_pid": "189119526973001728",
+   "away_pid": "167174971199639552",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
    "start": "2026-11-14T13:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976764250",
+   "fixtureId": "id2503634976764166",
    "startTime": "2026-11-14T13:30:00.000Z",
-   "participant1Name": "Svec, Jiri",
-   "participant2Name": "Kulhanek, Pavel",
+   "participant1Name": "Blejchar, Marek",
+   "participant2Name": "Levicky, Jakub",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0,
   "cl": {
-   "id": 5653489,
-   "name": "J. Svec - Pavel Kulhanek",
+   "id": 5653498,
+   "name": "M. Blejchar - Jakub Levicky",
    "score": 1.0
   }
  },
@@ -25501,6 +25411,36 @@
   "cl": {
    "id": 5653497,
    "name": "D. Priesol - Jaroslav Peter",
+   "score": 1.0
+  }
+ },
+ "id2503634976764250": {
+  "tm": {
+   "id": "319858790931439616",
+   "sport": "Asztalitenisz",
+   "name": "Jiri Svec - Pavel Kulhanek",
+   "home": "Jiri Svec",
+   "away": "Pavel Kulhanek",
+   "home_pid": "117257474374946816",
+   "away_pid": "155228678902566912",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764250",
+   "startTime": "2026-11-14T13:30:00.000Z",
+   "participant1Name": "Svec, Jiri",
+   "participant2Name": "Kulhanek, Pavel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5653489,
+   "name": "J. Svec - Pavel Kulhanek",
    "score": 1.0
   }
  },
