@@ -1,64 +1,4 @@
 {
- "id1000102475240514": {
-  "tm": {
-   "id": "316419680626614272",
-   "sport": "Labdarúgás",
-   "name": "Banfield - Boca Juniors",
-   "home": "Banfield",
-   "away": "Boca Juniors",
-   "home_pid": "6101",
-   "away_pid": "275560694804516864",
-   "tournament": "Argentin Kupa",
-   "category": "Argentína",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000102475240514",
-   "startTime": "2026-11-14T22:00:00.000Z",
-   "participant1Name": "CA Banfield",
-   "participant2Name": "Boca Juniors",
-   "tournamentId": 1024,
-   "tournamentName": "Copa Argentina",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5552924,
-   "name": "Banfield - Boca Juniors",
-   "score": 1.0
-  }
- },
- "id1000134776592234": {
-  "tm": {
-   "id": "319677204511399936",
-   "sport": "Labdarúgás",
-   "name": "Real Pilar - Talleres de Remedios",
-   "home": "Real Pilar",
-   "away": "Talleres de Remedios",
-   "home_pid": "1954458943385600",
-   "away_pid": "1211246",
-   "tournament": "Argentin 3., Metropolitana",
-   "category": "Argentína",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000134776592234",
-   "startTime": "2026-11-14T22:00:00.000Z",
-   "participant1Name": "Real Pilar FC",
-   "participant2Name": "CA Talleres de Remedios",
-   "tournamentId": 1347,
-   "tournamentName": "Primera B",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5649141,
-   "name": "Real Pilar - Talleres de Remedios",
-   "score": 1.0
-  }
- },
  "id1000190876455738": {
   "tm": {
    "id": "319301741501816832",
@@ -3899,6 +3839,81 @@
   },
   "score": 1.0
  },
+ "id1002584172517400": {
+  "tm": {
+   "id": "319575315422715904",
+   "sport": "Labdarúgás",
+   "name": "Korona Kielce 2 - KS Moravia Morawica",
+   "home": "Korona Kielce 2",
+   "away": "KS Moravia Morawica",
+   "home_pid": "10038335937449984",
+   "away_pid": "234039086683688960",
+   "tournament": "Lengyel 4., 4. csoport",
+   "category": "Lengyelország",
+   "tm_sport_id": "1",
+   "start": "2026-11-15T10:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002584172517400",
+   "startTime": "2026-11-15T10:00:00.000Z",
+   "participant1Name": "Korona II Kielce SA",
+   "participant2Name": "Moravia Morawica",
+   "tournamentId": 25841,
+   "tournamentName": "III Liga, Group 4",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000137473627184": {
+  "tm": {
+   "id": "319773575894605824",
+   "sport": "Labdarúgás",
+   "name": "Sanremese - Alessandria Calcio 1912",
+   "home": "Sanremese",
+   "away": "Alessandria Calcio 1912",
+   "home_pid": "1391758",
+   "away_pid": "310638140466032640",
+   "tournament": "Olasz D, A csoport",
+   "category": "Olaszország",
+   "tm_sport_id": "1",
+   "start": "2026-11-15T14:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000137473627184",
+   "startTime": "2026-11-15T14:00:00.000Z",
+   "participant1Name": "SSD Sanremese Calcio",
+   "participant2Name": "US Alessandria Calcio 1912",
+   "tournamentId": 1374,
+   "tournamentName": "Serie D, Group A",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000138873632816": {
+  "tm": {
+   "id": "318775657034227712",
+   "sport": "Labdarúgás",
+   "name": "Martina - AS Melfi 1929",
+   "home": "Martina",
+   "away": "AS Melfi 1929",
+   "home_pid": "181227302891343872",
+   "away_pid": "312327559669510144",
+   "tournament": "Olasz D, H csoport",
+   "category": "Olaszország",
+   "tm_sport_id": "1",
+   "start": "2026-11-15T14:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000138873632816",
+   "startTime": "2026-11-15T14:00:00.000Z",
+   "participant1Name": "ASD Martina Calcio 1947",
+   "participant2Name": "AS Melfi 1929",
+   "tournamentId": 1388,
+   "tournamentName": "Serie D, Group H",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000113572466632": {
   "tm": {
    "id": "318771231422750720",
@@ -4123,36 +4138,6 @@
    "sportName": "Soccer"
   },
   "score": 0.848
- },
- "id1000070376413240": {
-  "tm": {
-   "id": "319002413220569088",
-   "sport": "Labdarúgás",
-   "name": "Dep. Madryn - Dep. Maipu",
-   "home": "Dep. Madryn",
-   "away": "Dep. Maipu",
-   "home_pid": "1308027",
-   "away_pid": "592507",
-   "tournament": "Argentin 2.",
-   "category": "Argentína",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000070376413240",
-   "startTime": "2026-11-14T22:00:00.000Z",
-   "participant1Name": "Deportivo Madryn",
-   "participant2Name": "CD Maipu",
-   "tournamentId": 703,
-   "tournamentName": "Primera Nacional",
-   "sportName": "Soccer"
-  },
-  "score": 0.838,
-  "cl": {
-   "id": 5632411,
-   "name": "Dep. Madryn - Dep. Maipu",
-   "score": 1.0
-  }
  },
  "id1002375568931506": {
   "tm": {
@@ -7099,36 +7084,6 @@
   },
   "score": 0.72
  },
- "id1500084472734732": {
-  "tm": {
-   "id": "318936583910793216",
-   "sport": "Jégkorong",
-   "name": "Rochester Americans - Laval Rocket Roster",
-   "home": "Rochester Americans",
-   "away": "Laval Rocket Roster",
-   "home_pid": "37760",
-   "away_pid": "2336084822880256",
-   "tournament": "AHL",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-14T22:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500084472734732",
-   "startTime": "2026-11-14T22:05:00.000Z",
-   "participant1Name": "Rochester Americans",
-   "participant2Name": "Laval Rocket",
-   "tournamentId": 844,
-   "tournamentName": "AHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555563,
-   "name": "Rochester - Laval",
-   "score": 1.0
-  }
- },
  "id1500084472734734": {
   "tm": {
    "id": "318936583827955712",
@@ -9154,6 +9109,81 @@
   },
   "score": 0.86
  },
+ "id2503634976764114": {
+  "tm": {
+   "id": "319856308603920384",
+   "sport": "Asztalitenisz",
+   "name": "Jiri Zuzanek - Martin Vizek",
+   "home": "Jiri Zuzanek",
+   "away": "Martin Vizek",
+   "home_pid": "189194976074190848",
+   "away_pid": "256731479040974848",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T23:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764114",
+   "startTime": "2026-11-14T23:00:00.000Z",
+   "participant1Name": "Zuzanek, Jiri",
+   "participant2Name": "Vizek, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764092": {
+  "tm": {
+   "id": "319860096271196160",
+   "sport": "Asztalitenisz",
+   "name": "Milan Smrcek - Martin Ulrych",
+   "home": "Milan Smrcek",
+   "away": "Martin Ulrych",
+   "home_pid": "127592158820618240",
+   "away_pid": "288036373174456320",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T23:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764092",
+   "startTime": "2026-11-14T23:00:00.000Z",
+   "participant1Name": "Smrcek, Milan",
+   "participant2Name": "Ulrych, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764180": {
+  "tm": {
+   "id": "319856155988926464",
+   "sport": "Asztalitenisz",
+   "name": "David Mutl - Jan Potensky",
+   "home": "David Mutl",
+   "away": "Jan Potensky",
+   "home_pid": "141860390245027840",
+   "away_pid": "167900208636678144",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T23:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764180",
+   "startTime": "2026-11-14T23:00:00.000Z",
+   "participant1Name": "Mutl, David",
+   "participant2Name": "Potensky, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2702157075326634": {
   "tm": {
    "id": "319445239458766848",
@@ -9312,12 +9342,7 @@
    "tournamentName": "Grand Slam of Darts",
    "sportName": "Darts"
   },
-  "score": 1.0,
-  "cl": {
-   "id": 5647343,
-   "name": "G. van Veen - C. Sneyd",
-   "score": 1.0
-  }
+  "score": 1.0
  },
  "id1900059776636100": {
   "tm": {
@@ -10078,27 +10103,6 @@
    "score": 0.936,
    "home": "Jar. Gordon",
    "away": "Melquizael Costa",
-   "tournament": "UFC 334, New York"
-  }
- },
- "id2005347676148720": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2005347676148720",
-   "startTime": "2026-11-14T22:00:00.000Z",
-   "participant1Name": "Elder, Evan",
-   "participant2Name": "Sanches, Samuel",
-   "tournamentId": 53476,
-   "tournamentName": "UFC 334: Gane vs. Hokit",
-   "sportName": "MMA"
-  },
-  "score": 0.916,
-  "cl": {
-   "id": 5649286,
-   "name": "Eva. Elder - Sam. Sanches",
-   "score": 0.916,
-   "home": "Eva. Elder",
-   "away": "Sam. Sanches",
    "tournament": "UFC 334, New York"
   }
  },

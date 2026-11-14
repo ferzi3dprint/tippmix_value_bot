@@ -1,92 +1,5 @@
 [
  {
-  "time": "2026-11-12T07:05:00.910606+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 1,
-  "tippmix_matches": 473,
-  "pinnacle_fixtures": 193,
-  "paired": 148,
-  "by_sport": {
-   "Soccer": [
-    130,
-    68
-   ],
-   "Tennis": [
-    269,
-    24
-   ],
-   "Basketball": [
-    50,
-    37
-   ],
-   "Ice Hockey": [
-    24,
-    19
-   ]
-  },
-  "top_ev": [
-   "+0.7% U23Thaiföld – U23Katar · 1X2: U23Katar győz @2.08 (fair 2.067)",
-   "-1.1% U19Németország – U19Svédország · 1X2: U19Németország győz @1.51 (fair 1.527)",
-   "-1.2% U21Izland – U21Görögország · Gólszám 4.5: Kevesebb @1.14 (fair 1.154)",
-   "-1.6% U21Izland – U21Görögország · Gólszám 1.5: Több @1.27 (fair 1.29)",
-   "-1.8% Delta United – Al-Sekka · Gólszám 1.5: Több @1.41 (fair 1.436)"
-  ],
-  "fixtures_checked": 34,
-  "fixtures_both": 22,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 1,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 4,
-  "free_calls": 31
- },
- {
-  "time": "2026-11-12T07:17:28.085045+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 2,
-  "tippmix_matches": 472,
-  "pinnacle_fixtures": 193,
-  "paired": 147,
-  "by_sport": {
-   "Soccer": [
-    130,
-    68
-   ],
-   "Tennis": [
-    268,
-    23
-   ],
-   "Basketball": [
-    50,
-    37
-   ],
-   "Ice Hockey": [
-    24,
-    19
-   ]
-  },
-  "top_ev": [
-   "-1.1% U19Németország – U19Svédország · 1X2: U19Németország győz @1.51 (fair 1.527)",
-   "-1.2% U21Izland – U21Görögország · Gólszám 4.5: Kevesebb @1.14 (fair 1.154)",
-   "-1.6% U21Izland – U21Görögország · Gólszám 1.5: Több @1.27 (fair 1.29)",
-   "-1.7% U23Thaiföld – U23Katar · Ázsiai hendikep: U23Katar (+0.25) @1.32 (fair 1.342)",
-   "-1.8% Delta United – Al-Sekka · Gólszám 1.5: Több @1.41 (fair 1.436)"
-  ],
-  "fast": false,
-  "fixtures_checked": 34,
-  "fixtures_both": 22,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 2,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 4,
-  "free_calls": 32
- },
- {
   "time": "2026-11-12T08:15:09.215415+00:00",
   "mode": "hu",
   "settled": 0,
@@ -18206,5 +18119,196 @@
   "not_executable": 1,
   "api_calls": 0,
   "free_calls": 157
+ },
+ {
+  "time": "2026-11-14T22:05:27.054654+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-0.3% Boston – Minnesota · Hendikep (rendes játékidő): Minnesota (+1) @1.36 (fair 1.364)",
+   "-0.6% St. Louis – Florida · Győztes (hosszabbítással): St. Louis győz @1.91 (fair 1.922)",
+   "-0.8% Columbus – Philadelphia · Hendikep (rendes játékidő): Columbus (+1) @1.33 (fair 1.34)",
+   "-0.9% Halifax Mooseheads – Quebec Remparts · Hendikep (rendes játékidő): Quebec Remparts (-2) @2.2 (fair 2.22)",
+   "-1.0% Washington – New Jersey · Hendikep (rendes játékidő): New Jersey (+1) @1.37 (fair 1.383)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 30,
+  "fixtures_both": 24,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 6,
+  "classic_checked": 21,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.7% Charleston – Louisville City · Gólszám 3.5: Kevesebb @1.36 (fair 1.384)",
+   "-2.1% Queretaro – Monterrey · Gólszám 3.5: Kevesebb @1.39 (fair 1.42)",
+   "-2.1% Chapecoense – Vasco da Gama RJ · Gólszám 4.5: Kevesebb @1.18 (fair 1.206)",
+   "-2.5% Queretaro – Monterrey · Gólszám 3: Kevesebb @1.58 (fair 1.62)",
+   "-3.0% Chapecoense – Vasco da Gama RJ · Gólszám 3.5: Kevesebb @1.47 (fair 1.515)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 36
+ },
+ {
+  "time": "2026-11-14T22:11:29.252162+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 392,
+   "paired": 177,
+   "classic_only": 36
+  },
+  "tippmix_matches": 1161,
+  "pinnacle_fixtures": 2074,
+  "paired": 378,
+  "by_sport": {
+   "Soccer": [
+    460,
+    161
+   ],
+   "Tennis": [
+    82,
+    4
+   ],
+   "Basketball": [
+    236,
+    101
+   ],
+   "Ice Hockey": [
+    130,
+    58
+   ],
+   "Handball": [
+    38,
+    12
+   ],
+   "Volleyball": [
+    81,
+    1
+   ],
+   "Table Tennis": [
+    22,
+    3
+   ],
+   "Cricket": [
+    33,
+    5
+   ],
+   "Badminton": [
+    10,
+    0
+   ],
+   "Darts": [
+    12,
+    2
+   ],
+   "Futsal": [
+    5,
+    0
+   ],
+   "Waterpolo": [
+    2,
+    2
+   ],
+   "ESport Counter-Strike": [
+    16,
+    0
+   ],
+   "ESport Dota": [
+    3,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    22,
+    0
+   ],
+   "eBasketball": [
+    9,
+    0
+   ],
+   "American Football": [
+    0,
+    11
+   ],
+   "Boxing": [
+    0,
+    4
+   ],
+   "MMA": [
+    0,
+    12
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    2
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+0.4% Eibar – Cadiz · 1X2: Eibar győz @1.67 (fair 1.663)",
+   "-0.3% Boston – Minnesota · Hendikep (rendes játékidő): Minnesota (+1) @1.36 (fair 1.364)",
+   "-0.6% St. Louis – Florida · Győztes (hosszabbítással): St. Louis győz @1.91 (fair 1.922)",
+   "-0.7% Washington – New Jersey · Hendikep (rendes játékidő): New Jersey (+1) @1.37 (fair 1.379)",
+   "-0.7% Columbus – Philadelphia · Hendikep (rendes játékidő): Columbus (+1) @1.33 (fair 1.339)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 6,
+  "fast": false,
+  "fixtures_checked": 132,
+  "fixtures_both": 66,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 10,
+  "classic_checked": 75,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+2.0% Indepediente Oliva – San Lorenzo de Almagro · Hendikep (hosszabbítással): Indepediente Oliva (-6.5) @1.81 (fair 1.775)",
+   "-1.1% Vanraure Hachnohe – Iwaki · Gólszám 3.5: Kevesebb @1.33 (fair 1.344)",
+   "-1.1% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 3: Kevesebb @1.32 (fair 1.335)",
+   "-1.4% Wellington Phoenix – Sydney FC · Gólszám 4.5: Kevesebb @1.25 (fair 1.268)",
+   "-1.7% Charleston – Louisville City · Gólszám 3.5: Kevesebb @1.36 (fair 1.384)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 138
  }
 ]
