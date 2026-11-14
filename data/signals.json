@@ -1190,5 +1190,22 @@
   "band": "2.10–2.50",
   "trigger": "normál",
   "bet": false
+ },
+ {
+  "fixture_id": "id1000002472341368",
+  "market_id": 101,
+  "outcome_id": 101,
+  "first_at": "2026-11-14T13:52:15.218471+00:00",
+  "start": "2026-11-14T15:00:00.000Z",
+  "home": "Milton Keynes Dons",
+  "away": "Burton",
+  "tournament": "Angol Liga 1.",
+  "label": "1X2: Milton Keynes Dons győz",
+  "odds": 1.57,
+  "fair_prob": 0.65734,
+  "ev": 0.03203,
+  "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false
  }
 ]
