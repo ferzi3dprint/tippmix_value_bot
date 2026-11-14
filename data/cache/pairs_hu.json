@@ -8759,56 +8759,6 @@
   },
   "score": 0.86
  },
- "id2503634976764236": {
-  "tm": {
-   "id": "319857793564745728",
-   "sport": "Asztalitenisz",
-   "name": "Libor Jemelka - Evald Gebek",
-   "home": "Libor Jemelka",
-   "away": "Evald Gebek",
-   "home_pid": "214010959112589312",
-   "away_pid": "297639410913284096",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764236",
-   "startTime": "2026-11-14T21:30:00.000Z",
-   "participant1Name": "Jemelka, Libor",
-   "participant2Name": "Gebek, Evald",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976764270": {
-  "tm": {
-   "id": "319857922374967296",
-   "sport": "Asztalitenisz",
-   "name": "Miroslav Stolba - Karel Zurek",
-   "home": "Miroslav Stolba",
-   "away": "Karel Zurek",
-   "home_pid": "286154286782779392",
-   "away_pid": "318840626998222848",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764270",
-   "startTime": "2026-11-14T21:30:00.000Z",
-   "participant1Name": "Stolba, Miroslav",
-   "participant2Name": "Zurek, Karel",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976764258": {
   "tm": {
    "id": "319856006424240128",
@@ -8834,6 +8784,31 @@
   },
   "score": 1.0
  },
+ "id2503634976764236": {
+  "tm": {
+   "id": "319857793564745728",
+   "sport": "Asztalitenisz",
+   "name": "Libor Jemelka - Evald Gebek",
+   "home": "Libor Jemelka",
+   "away": "Evald Gebek",
+   "home_pid": "214010959112589312",
+   "away_pid": "297639410913284096",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764236",
+   "startTime": "2026-11-14T21:30:00.000Z",
+   "participant1Name": "Jemelka, Libor",
+   "participant2Name": "Gebek, Evald",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976764062": {
   "tm": {
    "id": "319855711104344064",
@@ -8853,6 +8828,31 @@
    "startTime": "2026-11-14T21:30:00.000Z",
    "participant1Name": "Placek, Marek",
    "participant2Name": "Briza, Frantisek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764270": {
+  "tm": {
+   "id": "319857922374967296",
+   "sport": "Asztalitenisz",
+   "name": "Miroslav Stolba - Karel Zurek",
+   "home": "Miroslav Stolba",
+   "away": "Karel Zurek",
+   "home_pid": "286154286782779392",
+   "away_pid": "318840626998222848",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764270",
+   "startTime": "2026-11-14T21:30:00.000Z",
+   "participant1Name": "Stolba, Miroslav",
+   "participant2Name": "Zurek, Karel",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -8993,36 +8993,6 @@
    "sportName": "Cricket"
   },
   "score": 1.0
- },
- "id1900059776636066": {
-  "tm": {
-   "id": "319568675499745280",
-   "sport": "Darts",
-   "name": "Luke Humphries - Paolo Nebrida",
-   "home": "Luke Humphries",
-   "away": "Paolo Nebrida",
-   "home_pid": "3041625997864960",
-   "away_pid": "189505350195531776",
-   "tournament": "Grand Slam of Darts",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-14T21:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1900059776636066",
-   "startTime": "2026-11-14T21:15:00.000Z",
-   "participant1Name": "Humphries, Luke",
-   "participant2Name": "Nebrida, Paolo",
-   "tournamentId": 597,
-   "tournamentName": "Grand Slam of Darts",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5647342,
-   "name": "L. Humphries - P. Nebrida",
-   "score": 1.0
-  }
  },
  "id1900059776636042": {
   "tm": {
@@ -9508,27 +9478,6 @@
    "home": "NY Jets",
    "away": "Buffalo",
    "tournament": "NFL"
-  }
- },
- "id2102432775619986": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2102432775619986",
-   "startTime": "2026-11-14T21:10:00.000Z",
-   "participant1Name": "Riley, Viddal",
-   "participant2Name": "Coupe, Seydi",
-   "tournamentId": 24327,
-   "tournamentName": "International Matchups",
-   "sportName": "Boxing"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593212,
-   "name": "Viddal Riley - S. Coupe",
-   "score": 1.0,
-   "home": "Viddal Riley",
-   "away": "S. Coupe",
-   "tournament": "Profi mérkőzés"
   }
  },
  "id2102432776679002": {
