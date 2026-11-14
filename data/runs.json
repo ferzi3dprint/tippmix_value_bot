@@ -8898,5 +8898,195 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 157
+ },
+ {
+  "time": "2026-11-14T00:54:47.159826+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "top_ev": [
+   "-2.5% Vancouver – NY Rangers · Hendikep (rendes játékidő): NY Rangers (-0) @1.42 (fair 1.456)",
+   "-2.5% Vancouver – NY Rangers · Győztes (hosszabbítással): NY Rangers győz @1.47 (fair 1.508)",
+   "-2.6% Rei Sakamoto – Billy Harris · Győztes: Rei Sakamoto győz @1.29 (fair 1.325)",
+   "-2.6% Sp. San Miguelito – CD Arabe Unido · Gólszám 1.5: Több @1.4 (fair 1.438)",
+   "-2.7% Tauro FC – Alianza FC Panama · Gólszám 3: Több @1.43 (fair 1.469)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 5,
+  "fast": true,
+  "fixtures_checked": 31,
+  "fixtures_both": 15,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 4,
+  "classic_checked": 18,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+12.3% Guatemala – Kanada · 1X2: Guatemala győz @6.75 (fair 6.011)",
+   "-2.0% San Diego Toreros – Chicago State Cougars · Győztes (hosszabbítással): San Diego Toreros győz @1.04 (fair 1.061)",
+   "-2.1% Internacional de Bogota – Independiente SF · Gólszám 1.5: Több @1.22 (fair 1.247)",
+   "-3.0% Internacional de Bogota – Independiente SF · Mindkét csapat szerez gólt: Igen @1.59 (fair 1.638)",
+   "-4.0% Houston – Utah · Győztes (hosszabbítással): Houston győz @1.06 (fair 1.104)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 35
+ },
+ {
+  "time": "2026-11-14T01:00:50.402741+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 551,
+   "paired": 391,
+   "classic_only": 80
+  },
+  "tippmix_matches": 1868,
+  "pinnacle_fixtures": 2074,
+  "paired": 1188,
+  "by_sport": {
+   "Soccer": [
+    737,
+    545
+   ],
+   "Tennis": [
+    110,
+    16
+   ],
+   "Basketball": [
+    416,
+    291
+   ],
+   "Ice Hockey": [
+    137,
+    119
+   ],
+   "Handball": [
+    102,
+    53
+   ],
+   "Volleyball": [
+    151,
+    45
+   ],
+   "Table Tennis": [
+    21,
+    3
+   ],
+   "Cricket": [
+    69,
+    12
+   ],
+   "Badminton": [
+    21,
+    9
+   ],
+   "Darts": [
+    9,
+    16
+   ],
+   "Futsal": [
+    4,
+    1
+   ],
+   "Waterpolo": [
+    28,
+    18
+   ],
+   "ESport Counter-Strike": [
+    17,
+    4
+   ],
+   "ESport Dota": [
+    7,
+    0
+   ],
+   "ESport League of Legends": [
+    1,
+    0
+   ],
+   "eSoccer": [
+    29,
+    0
+   ],
+   "eBasketball": [
+    9,
+    0
+   ],
+   "American Football": [
+    0,
+    11
+   ],
+   "Boxing": [
+    0,
+    14
+   ],
+   "MMA": [
+    0,
+    26
+   ],
+   "Snooker": [
+    0,
+    1
+   ],
+   "Rugby": [
+    0,
+    2
+   ],
+   "Aussie Rules": [
+    0,
+    2
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+3.4% U19Montenegró – U19Feröer-szigetek · 1X2: U19Montenegró győz @1.35 (fair 1.305)",
+   "+3.3% U19Bosznia-Hercegovina – U19Georgia · 1X2: U19Bosznia-Hercegovina győz @2.24 (fair 2.168)",
+   "+1.5% Melbourne City – Newcastle Jets · 1X2: Melbourne City győz @1.25 (fair 1.232)",
+   "+0.9% Melbourne Victory – Adelaide Utd. · Gólszám 3: Kevesebb @1.55 (fair 1.536)",
+   "+0.8% U19Bosznia-Hercegovina – U19Georgia · Gólszám 2.25: Több @1.43 (fair 1.418)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 20,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 81,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 13,
+  "classic_checked": 73,
+  "classic_candidates": 1,
+  "top_ev_classic": [
+   "+22.7% Guatemala – Kanada · 1X2: Guatemala győz @6.75 (fair 5.501)",
+   "+2.2% Melbourne Victory – Adelaide Utd. · Gólszám 3: Kevesebb @1.57 (fair 1.536)",
+   "+1.2% Melbourne Victory – Adelaide Utd. · Gólszám 3.5: Kevesebb @1.38 (fair 1.364)",
+   "+1.0% Melbourne Victory – Adelaide Utd. · Gólszám 2.75: Kevesebb @1.78 (fair 1.762)",
+   "+0.9% Melbourne City – Newcastle Jets · Ázsiai hendikep: Melbourne City (-1.25) @1.53 (fair 1.516)"
+  ],
+  "error": "ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)",
+  "api_calls": 0,
+  "free_calls": 150
  }
 ]
