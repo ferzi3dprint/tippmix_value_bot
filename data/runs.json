@@ -9088,5 +9088,196 @@
   "error": "ReadTimeout: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=30)",
   "api_calls": 0,
   "free_calls": 150
+ },
+ {
+  "time": "2026-11-14T01:15:15.135408+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-1.9% Vancouver – NY Rangers · Hendikep (rendes játékidő): NY Rangers (-0) @1.42 (fair 1.447)",
+   "-2.1% Guatemala – Kanada · 1X2: Guatemala győz @5.5 (fair 5.616)",
+   "-2.1% Vancouver – NY Rangers · Győztes (hosszabbítással): NY Rangers győz @1.47 (fair 1.501)",
+   "-2.5% Bakersfield Condors – San Diego Gulls · Győztes (hosszabbítással): San Diego Gulls győz @1.84 (fair 1.887)",
+   "-2.5% Guatemala – Kanada · Gólszám 3.5: Kevesebb @1.43 (fair 1.467)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 5,
+  "fast": true,
+  "fixtures_checked": 32,
+  "fixtures_both": 15,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "classic_checked": 21,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+11.3% Guatemala – Kanada · 1X2: Guatemala győz @6.25 (fair 5.616)",
+   "-1.9% San Diego Toreros – Chicago State Cougars · Győztes (hosszabbítással): San Diego Toreros győz @1.04 (fair 1.06)",
+   "-3.2% Guatemala – Kanada · Gólszám 3.5: Kevesebb @1.42 (fair 1.467)",
+   "-3.7% Guatemala – Kanada · Gólszám 3.25: Kevesebb @1.51 (fair 1.567)",
+   "-4.1% Guatemala – Kanada · Mindkét csapat szerez gólt: Nem @1.77 (fair 1.845)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 35
+ },
+ {
+  "time": "2026-11-14T01:21:17.438896+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 8,
+  "boosts": 0,
+  "classic": {
+   "events": 548,
+   "paired": 390,
+   "classic_only": 79
+  },
+  "tippmix_matches": 1865,
+  "pinnacle_fixtures": 2074,
+  "paired": 1182,
+  "by_sport": {
+   "Soccer": [
+    737,
+    545
+   ],
+   "Tennis": [
+    110,
+    15
+   ],
+   "Basketball": [
+    414,
+    289
+   ],
+   "Ice Hockey": [
+    135,
+    117
+   ],
+   "Handball": [
+    102,
+    53
+   ],
+   "Volleyball": [
+    151,
+    45
+   ],
+   "Table Tennis": [
+    21,
+    3
+   ],
+   "Cricket": [
+    69,
+    12
+   ],
+   "Badminton": [
+    20,
+    8
+   ],
+   "Darts": [
+    9,
+    16
+   ],
+   "Futsal": [
+    4,
+    1
+   ],
+   "Waterpolo": [
+    28,
+    18
+   ],
+   "ESport Counter-Strike": [
+    17,
+    4
+   ],
+   "ESport Dota": [
+    7,
+    0
+   ],
+   "ESport League of Legends": [
+    1,
+    0
+   ],
+   "eSoccer": [
+    32,
+    0
+   ],
+   "eBasketball": [
+    8,
+    0
+   ],
+   "American Football": [
+    0,
+    11
+   ],
+   "Boxing": [
+    0,
+    14
+   ],
+   "MMA": [
+    0,
+    26
+   ],
+   "Snooker": [
+    0,
+    1
+   ],
+   "Rugby": [
+    0,
+    2
+   ],
+   "Aussie Rules": [
+    0,
+    2
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+4.7% U19Svájc – U19Észak-Macedónia · 1X2: U19Svájc győz @1.37 (fair 1.309)",
+   "+4.5% U19Észak-Írország – U19Málta · 1X2: U19Észak-Írország győz @1.29 (fair 1.234)",
+   "+3.1% U19Luxemburg – U19Andorra · 1X2: U19Luxemburg győz @1.52 (fair 1.474)",
+   "+1.5% Melbourne City – Newcastle Jets · 1X2: Melbourne City győz @1.25 (fair 1.232)",
+   "-0.3% Melbourne Victory – Adelaide Utd. · Gólszám 4.5: Kevesebb @1.13 (fair 1.133)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 25,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 85,
+  "rejected_mismatch": 0,
+  "candidates": 3,
+  "steam_fixtures": 12,
+  "classic_checked": 69,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+11.9% Guatemala – Kanada · 1X2: Guatemala győz @6.25 (fair 5.586)",
+   "+1.6% Melbourne Victory – Adelaide Utd. · Gólszám 3: Kevesebb @1.57 (fair 1.545)",
+   "+0.9% Melbourne City – Newcastle Jets · Ázsiai hendikep: Melbourne City (-1.25) @1.53 (fair 1.516)",
+   "+0.7% Melbourne Victory – Adelaide Utd. · Gólszám 3.5: Kevesebb @1.38 (fair 1.37)",
+   "+0.6% Central Coast Mariners – Perth Glory · Gólszám 3: Kevesebb @1.65 (fair 1.64)"
+  ],
+  "placed": 2,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 158
  }
 ]
