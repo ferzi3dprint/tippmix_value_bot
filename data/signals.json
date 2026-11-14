@@ -1443,7 +1443,12 @@
   "ev": 0.07169,
   "band": "2.10–2.50",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.47797,
+  "closing_fair_odds": 2.092,
+  "closing_sharp_odds": 1.99,
+  "closing_at": "2026-11-14T18:06:01.229641+00:00",
+  "clv": 0.05632
  },
  {
   "fixture_id": "id1500012872123534",
@@ -1460,7 +1465,12 @@
   "ev": 0.0693,
   "band": "2.50–5.00",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.29571,
+  "closing_fair_odds": 3.382,
+  "closing_sharp_odds": 3.04,
+  "closing_at": "2026-11-14T18:06:01.229641+00:00",
+  "clv": 0.04976
  },
  {
   "fixture_id": "id1500012872123534",
@@ -1477,7 +1487,12 @@
   "ev": 0.0571,
   "band": "2.10–2.50",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.47452,
+  "closing_fair_odds": 2.107,
+  "closing_sharp_odds": 2.0,
+  "closing_at": "2026-11-14T18:06:01.229641+00:00",
+  "clv": 0.03919
  },
  {
   "fixture_id": "id1500012872123534",
@@ -1494,7 +1509,12 @@
   "ev": 0.03421,
   "band": "1.50–1.80",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.67026,
+  "closing_fair_odds": 1.492,
+  "closing_sharp_odds": 1.444,
+  "closing_at": "2026-11-14T18:06:01.229641+00:00",
+  "clv": 0.0255
  },
  {
   "fixture_id": "id1500012872123534",
@@ -1511,7 +1531,12 @@
   "ev": 0.07508,
   "band": "2.50–5.00",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.37046,
+  "closing_fair_odds": 2.699,
+  "closing_sharp_odds": 2.53,
+  "closing_at": "2026-11-14T18:06:01.229641+00:00",
+  "clv": 0.05582
  },
  {
   "fixture_id": "id1500012872123536",
@@ -1528,7 +1553,12 @@
   "ev": 0.10245,
   "band": "2.50–5.00",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.31723,
+  "closing_fair_odds": 3.152,
+  "closing_sharp_odds": 2.86,
+  "closing_at": "2026-11-14T18:06:01.229641+00:00",
+  "clv": 0.12615
  },
  {
   "fixture_id": "id1500012872123536",
@@ -1545,7 +1575,12 @@
   "ev": 0.03694,
   "band": "1.50–1.80",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.64921,
+  "closing_fair_odds": 1.54,
+  "closing_sharp_odds": 1.49,
+  "closing_at": "2026-11-14T18:06:01.229641+00:00",
+  "clv": 0.05171
  },
  {
   "fixture_id": "id1500012872123536",
@@ -1562,7 +1597,12 @@
   "ev": 0.04225,
   "band": "1.80–2.10",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.5586,
+  "closing_fair_odds": 1.79,
+  "closing_sharp_odds": 1.719,
+  "closing_at": "2026-11-14T18:06:01.229641+00:00",
+  "clv": 0.06134
  },
  {
   "fixture_id": "id1500012872123536",
@@ -1579,7 +1619,12 @@
   "ev": 0.09076,
   "band": "2.50–5.00",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.29064,
+  "closing_fair_odds": 3.441,
+  "closing_sharp_odds": 3.08,
+  "closing_at": "2026-11-14T18:06:01.229641+00:00",
+  "clv": 0.11897
  },
  {
   "fixture_id": "id1500012872123536",
@@ -1595,6 +1640,28 @@
   "fair_prob": 0.22956,
   "ev": 0.14781,
   "band": "2.50–5.00",
+  "trigger": "steam",
+  "bet": false,
+  "closing_fair_prob": 0.2339,
+  "closing_fair_odds": 4.275,
+  "closing_sharp_odds": 3.87,
+  "closing_at": "2026-11-14T18:06:01.229641+00:00",
+  "clv": 0.1695
+ },
+ {
+  "fixture_id": "id1501400573579838",
+  "market_id": 1580,
+  "outcome_id": 1580,
+  "first_at": "2026-11-14T18:06:01.229641+00:00",
+  "start": "2026-11-14T18:30:00.000Z",
+  "home": "Sisak",
+  "away": "Merano",
+  "tournament": "Alpok Liga",
+  "label": "Hendikep (rendes játékidő): Sisak (-1.5)",
+  "odds": 1.95,
+  "fair_prob": 0.54125,
+  "ev": 0.05544,
+  "band": "1.80–2.10",
   "trigger": "steam",
   "bet": false
  }
