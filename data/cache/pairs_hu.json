@@ -12834,31 +12834,6 @@
   },
   "score": 1.0
  },
- "id1000111173018702": {
-  "tm": {
-   "id": "318690446065868800",
-   "sport": "Labdarúgás",
-   "name": "Gainsborough Trinity - Lancaster City",
-   "home": "Gainsborough Trinity",
-   "away": "Lancaster City",
-   "home_pid": "3509",
-   "away_pid": "3500",
-   "tournament": "Angol NPL",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-14T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000111173018702",
-   "startTime": "2026-11-14T15:00:00.000Z",
-   "participant1Name": "Gainsborough Trinity",
-   "participant2Name": "Lancaster City",
-   "tournamentId": 1111,
-   "tournamentName": "Northern Premier League Premier",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000111173018714": {
   "tm": {
    "id": "318690446566039552",
@@ -12878,6 +12853,31 @@
    "startTime": "2026-11-14T15:00:00.000Z",
    "participant1Name": "Warrington Rylands 1906 FC",
    "participant2Name": "Whitby Town",
+   "tournamentId": 1111,
+   "tournamentName": "Northern Premier League Premier",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000111173018702": {
+  "tm": {
+   "id": "318690446065868800",
+   "sport": "Labdarúgás",
+   "name": "Gainsborough Trinity - Lancaster City",
+   "home": "Gainsborough Trinity",
+   "away": "Lancaster City",
+   "home_pid": "3509",
+   "away_pid": "3500",
+   "tournament": "Angol NPL",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000111173018702",
+   "startTime": "2026-11-14T15:00:00.000Z",
+   "participant1Name": "Gainsborough Trinity",
+   "participant2Name": "Lancaster City",
    "tournamentId": 1111,
    "tournamentName": "Northern Premier League Premier",
    "sportName": "Soccer"
@@ -13855,6 +13855,56 @@
    "participant2Name": "Pogon Sokol Lubaczow",
    "tournamentId": 25841,
    "tournamentName": "III Liga, Group 4",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002603873584710": {
+  "tm": {
+   "id": "319776933549252608",
+   "sport": "Labdarúgás",
+   "name": "CF Platges de Calvia - Santanyi",
+   "home": "CF Platges de Calvia",
+   "away": "Santanyi",
+   "home_pid": "592771",
+   "away_pid": "2113663929315328",
+   "tournament": "Spanyol 5., 11. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T16:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002603873584710",
+   "startTime": "2026-11-14T16:30:00.000Z",
+   "participant1Name": "CF Platges de Calvia",
+   "participant2Name": "CE Santanyi",
+   "tournamentId": 26038,
+   "tournamentName": "Tercera Federacion, Group 11",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002602873578976": {
+  "tm": {
+   "id": "319770500826996736",
+   "sport": "Labdarúgás",
+   "name": "Villarreal 3 - Athletic Club Torrellano",
+   "home": "Villarreal 3",
+   "away": "Athletic Club Torrellano",
+   "home_pid": "84594",
+   "away_pid": "141125148867612672",
+   "tournament": "Spanyol 5., 6. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T16:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002602873578976",
+   "startTime": "2026-11-14T16:30:00.000Z",
+   "participant1Name": "CF Villarreal C",
+   "participant2Name": "AC Torrellano",
+   "tournamentId": 26028,
+   "tournamentName": "Tercera Federacion, Group 6",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -15993,31 +16043,6 @@
    "name": "V. Borodulina - S. La Cerra",
    "score": 1.0
   }
- },
- "id1204838976431690": {
-  "tm": {
-   "id": "319844867777830912",
-   "sport": "Tenisz",
-   "name": "Juncheng Shang - Christian Langmo",
-   "home": "Juncheng Shang",
-   "away": "Christian Langmo",
-   "home_pid": "107317193437499392",
-   "away_pid": "1226056",
-   "tournament": "Brisbane, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-14T04:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204838976431690",
-   "startTime": "2026-11-14T04:30:00.000Z",
-   "participant1Name": "Shang, Juncheng",
-   "participant2Name": "Langmo, Christian",
-   "tournamentId": 48389,
-   "tournamentName": "ATP Challenger Brisbane 3, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
  },
  "id1100154073657552": {
   "tm": {
@@ -28479,31 +28504,6 @@
   },
   "score": 0.72
  },
- "id2702157075326630": {
-  "tm": {
-   "id": "319354450900754432",
-   "sport": "Krikett",
-   "name": "Hobart Hurricanes - Brisbane Heat",
-   "home": "Hobart Hurricanes",
-   "away": "Brisbane Heat",
-   "home_pid": "1374800",
-   "away_pid": "1374799",
-   "tournament": "Ausztrál T20 Big Bash League, női",
-   "category": "Ausztrália",
-   "tm_sport_id": "26",
-   "start": "2026-11-14T04:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702157075326630",
-   "startTime": "2026-11-14T04:40:00.000Z",
-   "participant1Name": "Hobart Hurricanes",
-   "participant2Name": "Brisbane Heat",
-   "tournamentId": 21570,
-   "tournamentName": "Big Bash League, Women",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
- },
  "id2702133476446156": {
   "tm": {
    "id": "319708497571815424",
@@ -28789,66 +28789,6 @@
   },
   "score": 0.883
  },
- "id4904115276760222": {
-  "tm": {
-   "id": "319838212709228544",
-   "sport": "Tollaslabda",
-   "name": "Hae Deun Kim - Rei Miyashita",
-   "home": "Hae Deun Kim",
-   "away": "Rei Miyashita",
-   "home_pid": "252793052019593216",
-   "away_pid": "301083229928329216",
-   "tournament": "Kaohsiung Masters, férfi egyes",
-   "category": "Tajvan",
-   "tm_sport_id": "14",
-   "start": "2026-11-14T04:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4904115276760222",
-   "startTime": "2026-11-14T04:30:00.000Z",
-   "participant1Name": "Kim, Hae Deun",
-   "participant2Name": "Miyashita, Rei",
-   "tournamentId": 41152,
-   "tournamentName": "Kaohsiung Masters, MS",
-   "sportName": "Badminton"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5652887,
-   "name": "Hae Deun Kim - Rei Miyashita",
-   "score": 1.0
-  }
- },
- "id4904115876757586": {
-  "tm": {
-   "id": "319835070626078720",
-   "sport": "Tollaslabda",
-   "name": "Sin Yan Happy Lo - Mutiara Ayu Puspitasari",
-   "home": "Sin Yan Happy Lo",
-   "away": "Mutiara Ayu Puspitasari",
-   "home_pid": "173340055160541184",
-   "away_pid": "138286807586492416",
-   "tournament": "Kaohsiung Masters, női egyes",
-   "category": "Tajvan",
-   "tm_sport_id": "14",
-   "start": "2026-11-14T04:50:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4904115876757586",
-   "startTime": "2026-11-14T04:50:00.000Z",
-   "participant1Name": "Lo, Sin Yan Happy",
-   "participant2Name": "Puspitasari, Mutiara Ayu",
-   "tournamentId": 41158,
-   "tournamentName": "Kaohsiung Masters, WS",
-   "sportName": "Badminton"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5652883,
-   "name": "Sin Yan Happy Lo - M.A. Puspitasari",
-   "score": 1.0
-  }
- },
  "id4904116076763732": {
   "tm": {
    "id": "319844196991180800",
@@ -28878,31 +28818,6 @@
    "name": "Aiso M / Niimi M - Meida I S / Nastine R K",
    "score": 1.0
   }
- },
- "id4904115276757582": {
-  "tm": {
-   "id": "319835070564212736",
-   "sport": "Tollaslabda",
-   "name": "Kuan Lin Kuo - Cho Geon Yeop",
-   "home": "Kuan Lin Kuo",
-   "away": "Cho Geon Yeop",
-   "home_pid": "182658734625968128",
-   "away_pid": "151649580069634048",
-   "tournament": "Kaohsiung Masters, férfi egyes",
-   "category": "Tajvan",
-   "tm_sport_id": "14",
-   "start": "2026-11-14T04:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4904115276757582",
-   "startTime": "2026-11-14T04:40:00.000Z",
-   "participant1Name": "Kuo, Kuan Lin",
-   "participant2Name": "Cho, Geonyeop",
-   "tournamentId": 41152,
-   "tournamentName": "Kaohsiung Masters, MS",
-   "sportName": "Badminton"
-  },
-  "score": 0.972
  },
  "id1900059776636068": {
   "tm": {
