@@ -13969,6 +13969,56 @@
   },
   "score": 1.0
  },
+ "id1002601873553826": {
+  "tm": {
+   "id": "319882230861209600",
+   "sport": "Labdarúgás",
+   "name": "Lalin - Atletico Coruna Montaneros CF",
+   "home": "Lalin",
+   "away": "Atletico Coruna Montaneros CF",
+   "home_pid": "271185809781166080",
+   "away_pid": "280460454695931904",
+   "tournament": "Spanyol 5., 1. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002601873553826",
+   "startTime": "2026-11-14T19:00:00.000Z",
+   "participant1Name": "CD Lalin",
+   "participant2Name": "Atletico Coruna Montaneros CF",
+   "tournamentId": 26018,
+   "tournamentName": "Tercera Federacion, Group 1",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002604273586664": {
+  "tm": {
+   "id": "319776933144502272",
+   "sport": "Labdarúgás",
+   "name": "Aguilas FC 2 - Santomera",
+   "home": "Aguilas FC 2",
+   "away": "Santomera",
+   "home_pid": "247536819236368384",
+   "away_pid": "247536836332351488",
+   "tournament": "Spanyol 5., 13. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-14T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002604273586664",
+   "startTime": "2026-11-14T19:00:00.000Z",
+   "participant1Name": "Aguilas FC B",
+   "participant2Name": "CF Santomera",
+   "tournamentId": 26042,
+   "tournamentName": "Tercera Federacion, Group 13",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000033576171160": {
   "tm": {
    "id": "319739412531453952",
@@ -16096,36 +16146,6 @@
   "cl": {
    "id": 5644241,
    "name": "V. Borodulina - S. La Cerra",
-   "score": 1.0
-  }
- },
- "id1100240275388794": {
-  "tm": {
-   "id": "318936804168376320",
-   "sport": "Kosárlabda",
-   "name": "Bucheon Hana - Incheon S-Birds",
-   "home": "Bucheon Hana",
-   "away": "Incheon S-Birds",
-   "home_pid": "186227377556213760",
-   "away_pid": "186117339251527680",
-   "tournament": "Dél-koreai bajnokság, női",
-   "category": "Dél-Korea",
-   "tm_sport_id": "8",
-   "start": "2026-11-14T07:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100240275388794",
-   "startTime": "2026-11-14T07:00:00.000Z",
-   "participant1Name": "Bucheon Hana 1Q",
-   "participant2Name": "Incheon Shinhan Bank S-Birds",
-   "tournamentId": 2402,
-   "tournamentName": "WKBL",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5559041,
-   "name": "Bucheon Hana - Incheon S-Birds",
    "score": 1.0
   }
  },
@@ -22554,31 +22574,6 @@
   },
   "score": 0.72
  },
- "id1501920072416540": {
-  "tm": {
-   "id": "318936614305865728",
-   "sport": "Jégkorong",
-   "name": "Anyang Halla - Yokohama Grits",
-   "home": "Anyang Halla",
-   "away": "Yokohama Grits",
-   "home_pid": "181041311615340544",
-   "away_pid": "182289758202941440",
-   "tournament": "Ázsia Liga",
-   "category": "Ázsia",
-   "tm_sport_id": "6",
-   "start": "2026-11-14T07:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1501920072416540",
-   "startTime": "2026-11-14T07:00:00.000Z",
-   "participant1Name": "Anyang Halla",
-   "participant2Name": "Yokohama Grits",
-   "tournamentId": 19200,
-   "tournamentName": "Asia League",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
  "id1501945274117366": {
   "tm": {
    "id": "318936618714079232",
@@ -27739,31 +27734,6 @@
   },
   "score": 0.767
  },
- "id2300215075356550": {
-  "tm": {
-   "id": "319354379267284992",
-   "sport": "Röplabda",
-   "name": "Seoul Caltex - Gwangju Soopers",
-   "home": "Seoul Caltex",
-   "away": "Gwangju Soopers",
-   "home_pid": "819835",
-   "away_pid": "316492912559988736",
-   "tournament": "Dél-koreai bajnokság, női",
-   "category": "Dél-Korea",
-   "tm_sport_id": "20",
-   "start": "2026-11-14T07:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2300215075356550",
-   "startTime": "2026-11-14T07:00:00.000Z",
-   "participant1Name": "Seoul KIXX",
-   "participant2Name": "Gwangju Soopers",
-   "tournamentId": 2150,
-   "tournamentName": "V League, Women",
-   "sportName": "Volleyball"
-  },
-  "score": 0.745
- },
  "id2300029872771660": {
   "tm": {
    "id": "319354416413089792",
@@ -27789,106 +27759,6 @@
   },
   "score": 0.72
  },
- "id2503634976764228": {
-  "tm": {
-   "id": "319858212281065472",
-   "sport": "Asztalitenisz",
-   "name": "Wagner Richard - Ales Barton",
-   "home": "Wagner Richard",
-   "away": "Ales Barton",
-   "home_pid": "307739875767709696",
-   "away_pid": "116096053732757504",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T07:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764228",
-   "startTime": "2026-11-14T07:00:00.000Z",
-   "participant1Name": "Wagner, Richard",
-   "participant2Name": "Barton, Ales",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976762734": {
-  "tm": {
-   "id": "319856755959996416",
-   "sport": "Asztalitenisz",
-   "name": "Pavel Petr - Petr Serak",
-   "home": "Pavel Petr",
-   "away": "Petr Serak",
-   "home_pid": "240229589182746624",
-   "away_pid": "192184047327408128",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T07:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976762734",
-   "startTime": "2026-11-14T07:00:00.000Z",
-   "participant1Name": "Petr, Pavel",
-   "participant2Name": "Serak, Petr",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976764300": {
-  "tm": {
-   "id": "319858392858435584",
-   "sport": "Asztalitenisz",
-   "name": "Radim Adam - Miroslav Kowolowski",
-   "home": "Radim Adam",
-   "away": "Miroslav Kowolowski",
-   "home_pid": "274758232456695808",
-   "away_pid": "296193761273483264",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T07:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764300",
-   "startTime": "2026-11-14T07:00:00.000Z",
-   "participant1Name": "Adam, Radim",
-   "participant2Name": "Kowolowski, Miroslav",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976764044": {
-  "tm": {
-   "id": "319858392628797440",
-   "sport": "Asztalitenisz",
-   "name": "Pavel Varecha - Tomas Kraninger",
-   "home": "Pavel Varecha",
-   "away": "Tomas Kraninger",
-   "home_pid": "277111881496399872",
-   "away_pid": "278604510088269824",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-14T07:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764044",
-   "startTime": "2026-11-14T07:00:00.000Z",
-   "participant1Name": "Varecha, Pavel",
-   "participant2Name": "Kraninger, Tomas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976764276": {
   "tm": {
    "id": "319858392432713728",
@@ -27908,6 +27778,31 @@
    "startTime": "2026-11-14T07:30:00.000Z",
    "participant1Name": "Zahradka, Michal",
    "participant2Name": "Urbaniec, Radim",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764264": {
+  "tm": {
+   "id": "319858066630713344",
+   "sport": "Asztalitenisz",
+   "name": "Milan Vrabec - Josef Pantak",
+   "home": "Milan Vrabec",
+   "away": "Josef Pantak",
+   "home_pid": "167632808957759488",
+   "away_pid": "274568081816293376",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764264",
+   "startTime": "2026-11-14T07:30:00.000Z",
+   "participant1Name": "Vrabec, Milan",
+   "participant2Name": "Pantak, Josef",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -27964,25 +27859,100 @@
   },
   "score": 1.0
  },
- "id2503634976764264": {
+ "id2503634976762738": {
   "tm": {
-   "id": "319858066630713344",
+   "id": "319858091834286080",
    "sport": "Asztalitenisz",
-   "name": "Milan Vrabec - Josef Pantak",
-   "home": "Milan Vrabec",
-   "away": "Josef Pantak",
-   "home_pid": "167632808957759488",
-   "away_pid": "274568081816293376",
+   "name": "Petr Serak - Tomas Brozek",
+   "home": "Petr Serak",
+   "away": "Tomas Brozek",
+   "home_pid": "192184047327408128",
+   "away_pid": "317444525620535296",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-14T07:30:00+00:00"
+   "start": "2026-11-14T08:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976764264",
-   "startTime": "2026-11-14T07:30:00.000Z",
-   "participant1Name": "Vrabec, Milan",
-   "participant2Name": "Pantak, Josef",
+   "fixtureId": "id2503634976762738",
+   "startTime": "2026-11-14T08:00:00.000Z",
+   "participant1Name": "Serak, Petr",
+   "participant2Name": "Brozek, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764094": {
+  "tm": {
+   "id": "319858211526090752",
+   "sport": "Asztalitenisz",
+   "name": "Ales Barton - Michal Zahradka",
+   "home": "Ales Barton",
+   "away": "Michal Zahradka",
+   "home_pid": "116096053732757504",
+   "away_pid": "157416179233771520",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T08:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764094",
+   "startTime": "2026-11-14T08:00:00.000Z",
+   "participant1Name": "Barton, Ales",
+   "participant2Name": "Zahradka, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764100": {
+  "tm": {
+   "id": "319858393164619776",
+   "sport": "Asztalitenisz",
+   "name": "Miroslav Kowolowski - Tomas Milkov",
+   "home": "Miroslav Kowolowski",
+   "away": "Tomas Milkov",
+   "home_pid": "296193761273483264",
+   "away_pid": "286058060365205504",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T08:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764100",
+   "startTime": "2026-11-14T08:00:00.000Z",
+   "participant1Name": "Kowolowski, Miroslav",
+   "participant2Name": "Milkov, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764210": {
+  "tm": {
+   "id": "319858393039839232",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Kraninger - Roman Guliak",
+   "home": "Tomas Kraninger",
+   "away": "Roman Guliak",
+   "home_pid": "278604510088269824",
+   "away_pid": "274834264862887936",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-14T08:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764210",
+   "startTime": "2026-11-14T08:00:00.000Z",
+   "participant1Name": "Kraninger, Tomas",
+   "participant2Name": "Guliak, Roman",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
