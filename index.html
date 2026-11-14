@@ -1,0 +1,503 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Tippmix value-bot</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --surface-2: #f0efec; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,0.10);
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4; --s6: #008300;
+  --good: #0ca30c; --good-text: #006300; --warning: #fab219; --serious: #ec835a; --critical: #d03b3b;
+  --star-bg: #e8f1fc; --orange-bg: #fdeee6;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --surface-2: #383835; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,0.10);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300;
+    --good-text: #0ca30c; --star-bg: #16263a; --orange-bg: #3a2216;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --surface-2: #383835; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,0.10);
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181; --s6: #008300;
+  --good-text: #0ca30c; --star-bg: #16263a; --orange-bg: #3a2216;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--page); color: var(--ink); }
+body { font: 15px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; -webkit-text-size-adjust: 100%; }
+.wrap { max-width: 1080px; margin: 0 auto; padding: 16px; }
+header.top { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+h1 { font-size: 20px; margin: 4px 0; }
+h2 { font-size: 17px; margin: 28px 0 10px; }
+h3 { font-size: 15px; margin: 0 0 6px; }
+.muted { color: var(--muted); } .ink2 { color: var(--ink-2); }
+.card { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 14px; }
+.grid { display: grid; gap: 12px; }
+.tiles { grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); }
+.cards { grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
+.tile .lbl { font-size: 13px; color: var(--ink-2); }
+.tile .val { font-size: 24px; font-weight: 600; margin-top: 2px; }
+.tile .sub { font-size: 13px; color: var(--ink-2); }
+.up { color: var(--good-text); } .down { color: var(--critical); }
+button, .btn { font: inherit; border: 1px solid var(--ring); background: var(--surface); color: var(--ink); border-radius: 8px;
+  padding: 8px 12px; cursor: pointer; min-height: 40px; }
+button.primary { background: var(--s1); color: #fff; border-color: transparent; }
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 8px 0; }
+.chip[aria-pressed="true"] { background: var(--surface-2); font-weight: 600; }
+.chart-box { position: relative; height: 240px; }
+.donut-box { position: relative; height: 170px; }
+.legend-list { list-style: none; padding: 0; margin: 8px 0 0; font-size: 13px; }
+.legend-list li { display: flex; align-items: center; gap: 6px; padding: 2px 0; }
+.legend-list .sw { width: 10px; height: 10px; border-radius: 2px; flex: 0 0 auto; }
+.legend-list .pct { margin-left: auto; font-variant-numeric: tabular-nums; }
+.over { color: var(--critical); font-weight: 600; }
+.badge { display: inline-block; font-size: 12px; padding: 1px 7px; border-radius: 99px; border: 1px solid var(--ring); color: var(--ink-2); }
+.badge.crit { border-color: var(--critical); color: var(--critical); }
+.badge.warn { border-color: var(--serious); color: var(--ink); }
+.star { background: var(--star-bg); border-color: var(--s1); }
+.orange { background: var(--orange-bg); border-color: var(--s2); }
+.kv { display: grid; grid-template-columns: auto 1fr; gap: 2px 10px; font-size: 13px; margin-top: 8px; }
+.kv dt { color: var(--ink-2); } .kv dd { margin: 0; font-variant-numeric: tabular-nums; }
+.band { margin: 10px 0 4px; }
+.band svg { width: 100%; height: 46px; display: block; }
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; font-size: 13px; }
+th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th { color: var(--ink-2); font-weight: 600; cursor: pointer; user-select: none; position: sticky; top: 0; background: var(--surface); }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+.ai { white-space: pre-wrap; font-size: 14px; }
+input[type=password], input[type=search] { font: inherit; width: 100%; padding: 10px; border-radius: 8px;
+  border: 1px solid var(--axis); background: var(--surface); color: var(--ink); min-height: 44px; }
+#login { max-width: 380px; margin: 12vh auto; }
+#login label.chk { display: flex; gap: 8px; align-items: center; margin: 12px 0; }
+#err { color: var(--critical); min-height: 1.4em; margin-top: 8px; }
+footer { margin: 36px 0 24px; font-size: 13px; color: var(--ink-2); }
+.hidden { display: none !important; }
+.quicknav { position: sticky; top: 0; z-index: 5; display: flex; gap: 6px; overflow-x: auto; padding: 8px 0; margin: 8px 0 0;
+  background: var(--page); -webkit-overflow-scrolling: touch; }
+.quicknav a { flex: 0 0 auto; font-size: 13px; color: var(--ink-2); text-decoration: none; border: 1px solid var(--ring);
+  border-radius: 99px; padding: 5px 10px; background: var(--surface); }
+h2 { scroll-margin-top: 56px; }
+.hl .big { font-size: 28px; font-weight: 600; margin: 2px 0 6px; }
+.hl ul { margin: 4px 0 0; padding-left: 18px; font-size: 14px; }
+.hl.good { border-color: var(--good); } .hl.warn { border-color: var(--serious); } .hl.crit { border-color: var(--critical); }
+.chart-box.tall { height: 340px; }
+details.msg { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 10px 14px; margin-bottom: 8px; }
+details.msg summary { cursor: pointer; font-weight: 600; }
+details.msg pre, details.more pre { white-space: pre-wrap; font: 13px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; margin: 8px 0 0; }
+details.more { margin-top: 8px; font-size: 13px; } details.more summary { cursor: pointer; color: var(--ink-2); }
+.evlist li { margin: 2px 0; }
+
+.sig li { margin: 4px 0; }
+#searchResults:empty { display: none; }
+#searchResults { margin-top: 10px; display: grid; gap: 10px; }
+.sr { border: 1px solid var(--ring); border-radius: 10px; padding: 10px 12px; }
+.sr h3 { margin-bottom: 4px; }
+.sr-row { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; font-size: 14px; padding: 3px 0; }
+.sr-row .badge { flex: 0 0 auto; }
+.sr-row .sr-txt { flex: 1 1 200px; min-width: 0; color: var(--ink-2); }
+.sr-row a { font-size: 13px; color: var(--s1); text-decoration: none; white-space: nowrap; }
+.sr details.more .card { margin-top: 8px; }
+.res-win { color: var(--good-text); font-weight: 600; } .res-lose { color: var(--critical); font-weight: 600; } .res-void { color: var(--ink-2); }
+.demo-banner { background: var(--orange-bg); border: 1px solid var(--s2); border-radius: 12px; padding: 10px 14px; margin-top: 10px; font-size: 14px; }
+.toolbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 8px; }
+.toolbar input[type=search] { flex: 1 1 220px; width: auto; }
+td a { color: var(--s1); text-decoration: none; }
+.meter { height: 8px; background: var(--surface-2); border-radius: 99px; overflow: hidden; margin-top: 6px; }
+.meter > span { display: block; height: 100%; background: var(--s1); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section id="login" class="card">
+    <h1>Tippmix value-bot</h1>
+    <p class="ink2">Az adatok titkosítva vannak. Add meg a jelszót a megnyitáshoz.</p>
+    <form id="loginForm" autocomplete="on">
+      <input id="pw" type="password" autocomplete="current-password" placeholder="Jelszó" required>
+      <label class="chk"><input id="remember" type="checkbox"> Emlékezz rám ezen az eszközön</label>
+      <button class="primary" type="submit" id="openBtn">Megnyitás</button>
+      <div id="err" role="alert"></div>
+    </form>
+  </section>
+
+  <main id="app" class="hidden">
+    <header class="top">
+      <div><h1>🎯 Tippmix value-bot</h1><div class="muted" id="updated"></div></div>
+      <div class="chips">
+        <button id="themeBtn" type="button" aria-label="Világos/sötét mód">🌓 Mód</button>
+        <button id="logoutBtn" type="button">Kijelentkezés</button>
+      </div>
+    </header>
+    <div id="demo" class="demo-banner hidden">🧪 <b>Demó adatok</b> – kitalált meccsek és szintetikus oddsok, csak a működés bemutatására. A számok nem mondanak semmit a valódi Tippmixről.</div>
+
+    <div class="chips" id="viewChips" role="tablist" aria-label="Fogadási csatorna" style="margin:10px 0">
+      <button type="button" class="chip" data-v="pro" aria-pressed="true">📱 Tippmixpro (online)</button>
+      <button type="button" class="chip" data-v="classic" aria-pressed="false">🎰 Klasszikus Tippmix (lottózó)</button>
+    </div>
+    <div id="classicNote" class="card hidden" style="margin-bottom:10px;font-size:14px">🎰 <b>Klasszikus Tippmix</b> – külön szimulált tőkével és külön kimutatással. A klasszikus ajánlat oddsai mások, mint a Tippmixpro-é; a szelvényt a tippmix.hu-n vagy a lottózóban kell összeállítani (esemény-kód + tipp).</div>
+
+    <nav class="quicknav" aria-label="Gyors navigáció">
+      <a href="#s-over">Áttekintés</a><a href="#s-curve">Görbe</a><a href="#s-sig">Jelzések</a><a href="#s-days">Napok</a><a href="#s-open">Nyitott</a>
+      <a href="#s-settled">Lezárt</a><a href="#s-break">Bontás</a><a href="#s-gone">Elesett</a><a href="#s-set">Beállítások</a>
+    </nav>
+
+    <h2 id="s-over">Áttekintés</h2>
+    <div class="card hl" id="verdict"></div>
+    <div class="grid tiles" id="tiles" style="margin-top:12px"></div>
+
+    <h2 id="s-curve">Profit-görbe: tényleges vs. várt</h2>
+    <div class="card">
+      <div class="muted" style="font-size:13px">A „várt” vonal a fogadások EV-jéből (tét × várható érték) adódik. Ha a tényleges hosszú távon körülötte mozog, az előny valódi; a rövid távú eltérés szórás.</div>
+      <div class="chart-box tall"><canvas id="cumChart"></canvas></div>
+    </div>
+    <div class="grid cards" style="margin-top:12px">
+      <div class="card"><h3>Napi eredmény</h3><div class="chart-box"><canvas id="dayChart"></canvas></div></div>
+      <div class="card"><h3>Szimulált tőke</h3><div class="chart-box"><canvas id="brChart"></canvas></div></div>
+    </div>
+
+    <h2 id="s-sig">📡 Összes value-jelzés (fogadás nélkül is)</h2>
+    <div class="card">
+      <div class="muted" style="font-size:13px">Minden jelzés CLV-jét mérjük, akkor is, ha a napi limit miatt nem lett belőle szimulált fogadás. Ez díjmentes, és sokkal nagyobb mintán mutatja meg, valódi-e az előny: ha az átlag CLV tartósan pozitív, a módszer működik.</div>
+      <div class="grid tiles" id="sigTiles" style="margin-top:10px"></div>
+      <div class="grid cards" style="margin-top:10px">
+        <div><h3>Kiváltó ok szerint</h3><div class="table-wrap"><table id="sigTrig"></table></div></div>
+        <div><h3>Odds-sávonként</h3><div class="table-wrap"><table id="sigBand"></table></div></div>
+      </div>
+      <details class="more"><summary>Legutóbbi jelzések</summary><div class="table-wrap"><table id="sigRows"></table></div></details>
+    </div>
+
+    <h2 id="s-days">Napi kimutatás</h2>
+    <div class="card table-wrap"><table id="daysTbl"></table></div>
+
+    <h2 id="s-open">Nyitott fogadások</h2>
+    <div class="card table-wrap"><table id="openTbl"></table><div id="openEmpty" class="muted hidden">Nincs nyitott fogadás.</div></div>
+
+    <h2 id="s-settled">Lezárt fogadások</h2>
+    <div class="card">
+      <div class="toolbar">
+        <input type="search" id="q" placeholder="🔍 Csapat, bajnokság vagy tipp" aria-label="Keresés a lezárt fogadásokban">
+        <div class="chips" id="resChips">
+          <button class="chip" data-f="all" aria-pressed="true">Mind</button>
+          <button class="chip" data-f="win" aria-pressed="false">✅ Bejött</button>
+          <button class="chip" data-f="lose" aria-pressed="false">❌ Nem jött be</button>
+        </div>
+      </div>
+      <div class="table-wrap"><table id="setTbl"></table></div>
+      <div class="muted" id="setMore" style="margin-top:8px;font-size:13px"></div>
+    </div>
+
+    <h2 id="s-break">Bontás</h2>
+    <div class="grid cards">
+      <div class="card"><h3>Odds-sávonként</h3><div class="table-wrap"><table id="bandTbl"></table></div></div>
+      <div class="card"><h3>Sportáganként</h3><div class="table-wrap"><table id="sportTbl"></table></div></div>
+    </div>
+    <div class="grid cards" style="margin-top:12px">
+      <div class="card"><h3>Kiváltó ok szerint</h3><div class="muted" style="font-size:13px">⚡ steam = a Pinnacle fair ára az elmúlt órákban érezhetően a kimenetel felé mozdult, a Tippmix még nem követte.</div><div class="table-wrap"><table id="trigTbl"></table></div></div>
+      <div class="card"><h3>Piaconként</h3><div class="table-wrap"><table id="mktTbl"></table></div></div>
+    </div>
+    <h2 id="s-gone">Nem volt megtehető</h2>
+    <div class="card"><div class="muted" style="font-size:13px">Jelzések, amelyeknél pár perccel később az odds már annyit esett (vagy a piac lezárt), hogy nem érte meg. Ezek kimaradnak az eredményből.</div>
+      <div class="table-wrap"><table id="goneTbl"></table></div><div id="goneEmpty" class="muted hidden">Eddig minden jelzés megtehető volt.</div></div>
+
+    <h2 id="s-set">Beállítások és utolsó futás</h2>
+    <div class="grid cards">
+      <div class="card"><h3>Stratégia</h3><dl class="kv" id="settings"></dl></div>
+      <div class="card"><h3>Utolsó futás</h3><dl class="kv" id="lastRun"></dl></div>
+    </div>
+
+    <footer>Szimuláció: a bot nem fogad valódi pénzzel. Fair ár = a Pinnacle oddsai az árrés kivétele után; EV = Tippmix-odds × fair valószínűség − 1;
+      CLV = a Tippmix-odds a kezdés előtti utolsó Pinnacle fair árhoz mérve. Nem befektetési vagy fogadási tanács.</footer>
+  </main>
+</div>
+
+<script>
+window.PLAIN_DATA = {"classic": {"summary": {"bets": 5, "settled": 4, "open": 1, "won": 2, "lost": 2, "void": 0, "hit_rate": 0.5, "expected_hit_rate": 0.649645, "avg_odds": 1.6199999999999999, "staked": 5550, "profit": -1144.0, "expected_profit": 197.46, "roi": -0.20612612612612613, "avg_ev": 0.03772, "avg_clv": 0.038674, "clv_positive": 0.8, "clv_n": 5, "bankroll": 98856.0, "start_bankroll": 100000, "open_stake": 1450, "steam_bets": 3, "execution": {"checked": 5, "ok": 5, "moved": 0, "gone": 0, "rate": 1.0, "avg_slippage": 0.0}}, "series": [{"date": "2026-11-13", "placed": 3, "settled": 2, "won": 1, "lost": 1, "void": 0, "staked": 3250.0, "profit": -335.5, "exp": 138.79, "cum_profit": -335.5, "cum_expected": 138.79, "bankroll": 99664.5, "roi": -0.10323076923076924}, {"date": "2026-11-14", "placed": 2, "settled": 2, "won": 1, "lost": 1, "void": 0, "staked": 2300.0, "profit": -808.5, "exp": 58.66, "cum_profit": -1144.0, "cum_expected": 197.46, "bankroll": 98856.0, "roi": -0.3515217391304348}], "bands": [{"key": "1.30–1.50", "n": 2, "won": 0, "counted": 2, "hit": 0.0, "staked": 3150.0, "profit": -3150.0, "expected": 89.67, "roi": -1.0, "clv": 0.013574999999999999}, {"key": "1.50–1.80", "n": 1, "won": 1, "counted": 1, "hit": 1.0, "staked": 950.0, "profit": 541.5, "expected": 21.34, "roi": 0.57, "clv": 0.00412}, {"key": "1.80–2.10", "n": 1, "won": 1, "counted": 1, "hit": 1.0, "staked": 1450.0, "profit": 1464.5, "expected": 86.45, "roi": 1.01, "clv": 0.03407}], "sports": [{"key": "Foci", "n": 4, "won": 2, "counted": 4, "hit": 0.5, "staked": 5550.0, "profit": -1144.0, "expected": 197.46, "roi": -0.20612612612612613, "clv": 0.016335}], "markets": [{"key": "Gólszám 2", "n": 1, "won": 1, "counted": 1, "hit": 1.0, "staked": 1450.0, "profit": 1464.5, "expected": 86.45, "roi": 1.01, "clv": 0.03407}, {"key": "Gólszám 3", "n": 1, "won": 1, "counted": 1, "hit": 1.0, "staked": 950.0, "profit": 541.5, "expected": 21.34, "roi": 0.57, "clv": 0.00412}, {"key": "Gólszám 4", "n": 2, "won": 0, "counted": 2, "hit": 0.0, "staked": 3150.0, "profit": -3150.0, "expected": 89.67, "roi": -1.0, "clv": 0.013574999999999999}], "triggers": [{"key": "normál", "n": 2, "won": 1, "counted": 2, "hit": 0.5, "staked": 3250.0, "profit": -335.5, "expected": 138.79, "roi": -0.10323076923076924, "clv": 0.031315}, {"key": "⚡ steam", "n": 2, "won": 1, "counted": 2, "hit": 0.5, "staked": 2300.0, "profit": -808.5, "expected": 58.66, "roi": -0.3515217391304348, "clv": 0.0013550000000000003}], "skipped": [], "open": [{"id": "108fc531be", "placed_at": "2026-11-14T02:24:48.462180+00:00", "status": "open", "sport": "Basketball", "tournament": "Ausztrál bajnokság, női", "home": "Bendigo Braves", "away": "Sydney Uni Flames", "start": "2026-11-14T04:00:00.000Z", "label": "Hendikep (hosszabbítással): Bendigo Braves (-2.5)", "market": "Handicap (incl. overtime)", "odds": 1.82, "sharp_odds": 1.632, "fair_odds": 1.734, "fair_prob": 0.57681, "ev": 0.04979, "stake": 1450, "result": null, "profit": null, "clv": 0.12803, "closing_fair_odds": 1.613, "settled_at": null, "band": "1.80–2.10", "link": "https://www.tippmix.hu/", "trigger": "steam", "steam": 0.1855, "signal_odds": 1.82, "exec_odds": 1.82, "exec_status": "ok", "tm_tip": "Hendikep -2,5 → Bendigo -2,5 (esemény-kód 51059, tipp 1)", "channel": "classic"}], "settled": [{"id": "9d472a5221", "placed_at": "2026-11-14T00:37:07.608738+00:00", "status": "settled", "sport": "Soccer", "tournament": "Ausztrál bajnokság, női", "home": "Melbourne Victory", "away": "Adelaide Utd.", "start": "2026-11-14T04:00:00.000Z", "label": "Gólszám 3: Kevesebb", "market": "Over Under Full Time 3", "odds": 1.57, "sharp_odds": 1.487, "fair_odds": 1.536, "fair_prob": 0.65125, "ev": 0.02246, "stake": 950, "result": "WIN", "profit": 541.5, "clv": 0.00412, "closing_fair_odds": 1.564, "settled_at": "2026-11-14T07:02:11.323009+00:00", "band": "1.50–1.80", "link": "https://www.tippmix.hu/", "trigger": "steam", "steam": 0.0533, "signal_odds": 1.57, "exec_odds": 1.57, "exec_status": "ok", "tm_tip": "Ázsiai Gólszám 3 → Kevesebb, mint 3 (esemény-kód 26285, tipp 1)", "channel": "classic"}, {"id": "190d35a9e3", "placed_at": "2026-11-13T19:04:43.790412+00:00", "status": "settled", "sport": "Soccer", "tournament": "Spanyol Kupa", "home": "Salamanca CF UDS", "away": "Celta Vigo", "start": "2026-11-13T20:00:00.000Z", "label": "Gólszám 4: Kevesebb", "market": "Over Under Full Time 4", "odds": 1.5, "sharp_odds": 1.404, "fair_odds": 1.46, "fair_prob": 0.6851, "ev": 0.02765, "stake": 1350, "result": "LOSE", "profit": -1350.0, "clv": -0.00141, "closing_fair_odds": 1.502, "settled_at": "2026-11-13T23:19:33.105721+00:00", "band": "1.30–1.50", "link": "https://www.tippmix.hu/", "trigger": "steam", "steam": 0.0402, "signal_odds": 1.5, "exec_odds": 1.5, "exec_status": "ok", "tm_tip": "Ázsiai Gólszám 4 → Kevesebb, mint 4 (esemény-kód 16510, tipp 1)", "channel": "classic"}, {"id": "b156a57268", "placed_at": "2026-11-13T17:16:48.942502+00:00", "status": "settled", "sport": "Soccer", "tournament": "Nemzetek Ligája, B divízió, 1. csoport", "home": "Szlovénia", "away": "Svájc", "start": "2026-11-13T19:45:00.000Z", "label": "Gólszám 2: Kevesebb", "market": "Over Under Full Time 2", "odds": 2.01, "sharp_odds": 1.847, "fair_odds": 1.897, "fair_prob": 0.52718, "ev": 0.05962, "stake": 1450, "result": "WIN", "profit": 1464.5, "clv": 0.03407, "closing_fair_odds": 1.944, "settled_at": "2026-11-13T22:59:29.977179+00:00", "band": "1.80–2.10", "link": "https://www.tippmix.hu/", "trigger": "normál", "steam": null, "signal_odds": 2.01, "exec_odds": 2.01, "exec_status": "ok", "tm_tip": "Ázsiai Gólszám 2 → Kevesebb, mint 2 (esemény-kód 32453, tipp 1)", "channel": "classic"}, {"id": "927422e7b7", "placed_at": "2026-11-13T17:16:48.942502+00:00", "status": "settled", "sport": "Soccer", "tournament": "Nemzetek Ligája, A divízió, 2. csoport", "home": "Hollandia", "away": "Görögország", "start": "2026-11-13T19:45:00.000Z", "label": "Gólszám 4: Kevesebb", "market": "Over Under Full Time 4", "odds": 1.4, "sharp_odds": 1.327, "fair_odds": 1.36, "fair_prob": 0.73505, "ev": 0.02908, "stake": 1800, "result": "LOSE", "profit": -1800.0, "clv": 0.02856, "closing_fair_odds": 1.361, "settled_at": "2026-11-13T22:59:29.977179+00:00", "band": "1.30–1.50", "link": "https://www.tippmix.hu/", "trigger": "normál", "steam": null, "signal_odds": 1.4, "exec_odds": 1.4, "exec_status": "ok", "tm_tip": "Ázsiai Gólszám 4 → Kevesebb, mint 4 (esemény-kód 27519, tipp 1)", "channel": "classic"}], "signals": {"n": 0}, "signal_rows": []}, "generated": "2026-11-14T13:17+00:00", "timezone": "Europe/Budapest", "summary": {"bets": 9, "settled": 6, "open": 3, "won": 4, "lost": 2, "void": 0, "hit_rate": 0.6666666666666666, "expected_hit_rate": 0.7203116666666668, "avg_odds": 1.4566666666666668, "staked": 15800, "profit": -219.5, "expected_profit": 343.55, "roi": -0.01389240506329114, "avg_ev": 0.02605333333333333, "avg_clv": 0.045648888888888885, "clv_positive": 1.0, "clv_n": 9, "bankroll": 99780.5, "start_bankroll": 100000, "open_stake": 9350, "steam_bets": 2, "execution": {"checked": 12, "ok": 8, "moved": 1, "gone": 3, "rate": 0.75, "avg_slippage": -0.012027491408934702}}, "series": [{"date": "2026-11-12", "placed": 4, "settled": 2, "won": 2, "lost": 0, "void": 0, "staked": 9550.0, "profit": 1263.5, "exp": 260.73, "cum_profit": 1263.5, "cum_expected": 260.73, "bankroll": 101263.5, "roi": 0.13230366492146597}, {"date": "2026-11-13", "placed": 5, "settled": 3, "won": 2, "lost": 1, "void": 0, "staked": 4500.0, "profit": 267.0, "exp": 7.5, "cum_profit": 1530.5, "cum_expected": 268.23, "bankroll": 101530.5, "roi": 0.059333333333333335}, {"date": "2026-11-14", "placed": 3, "settled": 1, "won": 0, "lost": 1, "void": 0, "staked": 1750.0, "profit": -1750.0, "exp": 75.32, "cum_profit": -219.5, "cum_expected": 343.55, "bankroll": 99780.5, "roi": -1.0}], "bands": [{"key": "1.00–1.30", "n": 2, "won": 2, "counted": 2, "hit": 1.0, "staked": 9550.0, "profit": 1263.5, "expected": 260.73, "roi": 0.13230366492146597, "clv": 0.030565000000000002}, {"key": "1.50–1.80", "n": 4, "won": 2, "counted": 4, "hit": 0.5, "staked": 6250.0, "profit": -1483.0, "expected": 82.82, "roi": -0.23728, "clv": 0.04934}], "sports": [{"key": "Foci", "n": 6, "won": 4, "counted": 6, "hit": 0.6666666666666666, "staked": 15800.0, "profit": -219.5, "expected": 343.55, "roi": -0.01389240506329114, "clv": 0.043081666666666664}], "markets": [{"key": "1X2", "n": 2, "won": 2, "counted": 2, "hit": 1.0, "staked": 9550.0, "profit": 1263.5, "expected": 260.73, "roi": 0.13230366492146597, "clv": 0.030565000000000002}, {"key": "Gólszám 1.5", "n": 1, "won": 1, "counted": 1, "hit": 1.0, "staked": 1250.0, "profit": 662.5, "expected": 32.76, "roi": 0.53, "clv": 0.05012}, {"key": "Gólszám 2", "n": 1, "won": 0, "counted": 1, "hit": 0.0, "staked": 1600.0, "profit": -1600.0, "expected": 61.3, "roi": -1.0, "clv": 0.05394}, {"key": "Ázsiai hendikep", "n": 2, "won": 1, "counted": 2, "hit": 0.5, "staked": 3400.0, "profit": -545.5, "expected": -11.24, "roi": -0.16044117647058823, "clv": 0.04665}], "triggers": [{"key": "normál", "n": 4, "won": 3, "counted": 4, "hit": 0.75, "staked": 12550.0, "profit": 176.0, "expected": 368.82, "roi": 0.01402390438247012, "clv": 0.031689999999999996}, {"key": "⚡ steam", "n": 2, "won": 1, "counted": 2, "hit": 0.5, "staked": 3250.0, "profit": -395.5, "expected": -25.26, "roi": -0.1216923076923077, "clv": 0.065865}], "skipped": [{"id": "b4917d8161", "placed_at": "2026-11-13T11:06:23.871746+00:00", "status": "skipped", "sport": "Ice Hockey", "tournament": "U20 Finn bajnokság", "home": "U20Kärpät", "away": "U20KalPa", "start": "2026-11-13T15:00:00.000Z", "label": "Hendikep (rendes játékidő): U20Kärpät (-2)", "market": "Handicap", "odds": 2.35, "sharp_odds": 1.952, "fair_odds": 2.103, "fair_prob": 0.47548, "ev": 0.11738, "stake": 2200, "result": null, "profit": null, "clv": null, "closing_fair_odds": null, "settled_at": null, "band": "2.10–2.50", "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/6/jegkorong/finnorszag/u20-finn-bajnoksag/u20karpat-u20kalpa/318936617101369344/nepszeru", "trigger": "normál", "steam": null, "signal_odds": 2.35, "exec_odds": null, "exec_status": "gone", "tm_tip": "Ázsiai hendikep -2 - Rendes játékidő → U20Kärpät (-2)", "channel": null}, {"id": "c7a707fcb8", "placed_at": "2026-11-13T09:59:19.391928+00:00", "status": "skipped", "sport": "Ice Hockey", "tournament": "Finn bajnokság", "home": "Hämeenlinna", "away": "Jukurit", "start": "2026-11-13T16:30:00.000Z", "label": "Győztes (hosszabbítással): Hämeenlinna győz", "market": "Winner (incl. overtime and penalties)", "odds": 1.9, "sharp_odds": 1.704, "fair_odds": 1.781, "fair_prob": 0.56139, "ev": 0.06664, "stake": 1850, "result": null, "profit": null, "clv": null, "closing_fair_odds": null, "settled_at": null, "band": "1.80–2.10", "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/6/jegkorong/finnorszag/finn-bajnoksag/hameenlinna-jukurit/318936577943347200/nepszeru", "trigger": "steam", "steam": 0.1741, "signal_odds": 1.9, "exec_odds": 1.77, "exec_status": "gone", "tm_tip": "Ki nyeri? - Teljes esemény → Hämeenlinna", "channel": null}, {"id": "e64bb578dd", "placed_at": "2026-11-12T10:08:53.720356+00:00", "status": "skipped", "sport": "Tennis", "tournament": "Sopo, női páros", "home": "Samson L./Zidansek T.", "away": "Mediorreal Arias V./Perez Garcia M.P.", "start": "2026-11-12T17:20:00.000Z", "label": "Győztes: Samson L./Zidansek T. győz", "market": "Winner", "odds": 1.31, "sharp_odds": 1.241, "fair_odds": 1.282, "fair_prob": 0.77981, "ev": 0.02155, "stake": 1700, "result": null, "profit": null, "clv": null, "closing_fair_odds": null, "settled_at": null, "band": "1.30–1.50", "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/3/tenisz/wta-challenger/sopo-noi-paros/samson-l-zidansek-t-mediorreal-arias-v-perez-garcia-m-p/319695647733260288/nepszeru", "trigger": "steam", "steam": 0.1354, "signal_odds": 1.31, "exec_odds": 1.27, "exec_status": "gone", "tm_tip": "Ki nyeri? - Teljes mérkőzés → Samson L./Zidansek T.", "channel": null}], "open": [{"id": "4d8a1bb4b3", "placed_at": "2026-11-14T01:00:50.402741+00:00", "status": "open", "sport": "Soccer", "tournament": "U19 Eb-selejtező, B Liga", "home": "U19Montenegró", "away": "U19Feröer-szigetek", "start": "2026-11-14T10:00:00.000Z", "label": "1X2: U19Montenegró győz", "market": "Full Time Result", "odds": 1.35, "sharp_odds": 1.271, "fair_odds": 1.305, "fair_prob": 0.76604, "ev": 0.03415, "stake": 2400, "result": null, "profit": null, "clv": 0.00808, "closing_fair_odds": 1.339, "settled_at": null, "band": "1.30–1.50", "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/europa/u19-eb-selejtezo-b-liga/u19montenegro-u19feroer-szigetek/319816810063011840/nepszeru", "trigger": "normál", "steam": null, "signal_odds": 1.35, "exec_odds": 1.35, "exec_status": "ok", "tm_tip": "1X2 - Rendes játékidő → U19Montenegró", "channel": null}, {"id": "2ea8def14e", "placed_at": "2026-11-14T01:21:17.438896+00:00", "status": "open", "sport": "Soccer", "tournament": "U19 Eb-selejtező, B Liga", "home": "U19Svájc", "away": "U19Észak-Macedónia", "start": "2026-11-14T12:00:00.000Z", "label": "1X2: U19Svájc győz", "market": "Full Time Result", "odds": 1.37, "sharp_odds": 1.277, "fair_odds": 1.309, "fair_prob": 0.76396, "ev": 0.04663, "stake": 3100, "result": null, "profit": null, "clv": 0.07035, "closing_fair_odds": 1.28, "settled_at": null, "band": "1.30–1.50", "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/europa/u19-eb-selejtezo-b-liga/u19svajc-u19eszak-macedonia/319819595167899648/nepszeru", "trigger": "normál", "steam": null, "signal_odds": 1.37, "exec_odds": 1.37, "exec_status": "ok", "tm_tip": "1X2 - Rendes játékidő → U19Svájc", "channel": null}, {"id": "5c71ec000d", "placed_at": "2026-11-14T01:21:17.438896+00:00", "status": "open", "sport": "Soccer", "tournament": "U19 Eb-selejtező, B Liga", "home": "U19Észak-Írország", "away": "U19Málta", "start": "2026-11-14T12:00:00.000Z", "label": "1X2: U19Észak-Írország győz", "market": "Full Time Result", "odds": 1.29, "sharp_odds": 1.206, "fair_odds": 1.234, "fair_prob": 0.81026, "ev": 0.04523, "stake": 3850, "result": null, "profit": null, "clv": 0.07392, "closing_fair_odds": 1.201, "settled_at": null, "band": "1.00–1.30", "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/europa/u19-eb-selejtezo-b-liga/u19eszak-irorszag-u19malta/319819595258077184/nepszeru", "trigger": "normál", "steam": null, "signal_odds": 1.29, "exec_odds": 1.29, "exec_status": "ok", "tm_tip": "1X2 - Rendes játékidő → U19Észak-Írország", "channel": null}], "settled": [{"id": "b38abdc291", "placed_at": "2026-11-13T00:22:58.653799+00:00", "status": "settled", "sport": "Soccer", "tournament": "Afrikai Nemzetek Kupája-selejtező, A csoport", "home": "Marokkó", "away": "Niger", "start": "2026-11-13T20:00:00.000Z", "label": "Ázsiai hendikep: Niger (+3)", "market": "Asian Handicap", "odds": 1.61, "sharp_odds": 1.476, "fair_odds": 1.544, "fair_prob": 0.64785, "ev": 0.04304, "stake": 1750, "result": "LOSE", "profit": -1750.0, "clv": 0.01551, "closing_fair_odds": 1.585, "settled_at": "2026-11-13T23:19:33.105721+00:00", "band": "1.50–1.80", "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/afrika/afrikai-nemzetek-kupaja-selejtezo-a-csoport/marokko-niger/317995485227982848/nepszeru", "trigger": "normál", "steam": null, "signal_odds": 1.61, "exec_odds": 1.61, "exec_status": "ok", "tm_tip": "Ázsiai hendikep -3 - Rendes játékidő → Niger (+3)", "channel": null}, {"id": "1dabcf5801", "placed_at": "2026-11-12T10:54:28.310846+00:00", "status": "settled", "sport": "Soccer", "tournament": "U21 Eb-selejtező", "home": "U21Finnország", "away": "U21Írország", "start": "2026-11-13T16:15:00.000Z", "label": "Gólszám 2: Több", "market": "Over Under Full Time 2", "odds": 1.59, "sharp_odds": 1.46, "fair_odds": 1.531, "fair_prob": 0.65302, "ev": 0.03831, "stake": 1600, "result": "LOSE", "profit": -1600.0, "clv": 0.05394, "closing_fair_odds": 1.509, "settled_at": "2026-11-13T21:41:10.399388+00:00", "band": "1.50–1.80", "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/europa/u21-eb-selejtezo/u21finnorszag-u21irorszag/319585494851723264/nepszeru", "trigger": "steam", "steam": 0.0953, "signal_odds": 1.59, "exec_odds": 1.59, "exec_status": "ok", "tm_tip": "Gólszám 2 - Rendes játékidő → Több, mint 2", "channel": null}, {"id": "b5611e4af0", "placed_at": "2026-11-13T01:51:45.126548+00:00", "status": "settled", "sport": "Soccer", "tournament": "Nemzetek Ligája, C divízió, 3. csoport", "home": "Moldova", "away": "Kazahsztán", "start": "2026-11-13T17:00:00.000Z", "label": "Gólszám 1.5: Több", "market": "Over Under Full Time 1.5", "odds": 1.53, "sharp_odds": 1.448, "fair_odds": 1.491, "fair_prob": 0.67073, "ev": 0.02621, "stake": 1250, "result": "WIN", "profit": 662.5, "clv": 0.05012, "closing_fair_odds": 1.457, "settled_at": "2026-11-13T20:10:41.005477+00:00", "band": "1.50–1.80", "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/europa/nemzetek-ligaja-c-divizio-3-csoport/moldova-kazahsztan/317008013775937536/nepszeru", "trigger": "normál", "steam": null, "signal_odds": 1.53, "exec_odds": 1.53, "exec_status": "ok", "tm_tip": "Gólszám 1.5 - Rendes játékidő → Több, mint 1.5", "channel": null}, {"id": "7ce2c38327", "placed_at": "2026-11-13T12:10:08.037510+00:00", "status": "settled", "sport": "Soccer", "tournament": "Cseh 3., MSFL", "home": "Olomouc 2", "away": "Zbrojovka Brno 2", "start": "2026-11-13T13:00:00.000Z", "label": "Ázsiai hendikep: Olomouc 2 (-1)", "market": "Asian Handicap", "odds": 1.73, "sharp_odds": 1.724, "fair_odds": 1.826, "fair_prob": 0.54771, "ev": -0.05246, "stake": 1650, "result": "WIN", "profit": 1204.5, "clv": 0.07779, "closing_fair_odds": 1.605, "settled_at": "2026-11-13T16:16:47.379887+00:00", "band": "1.50–1.80", "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/csehorszag/cseh-3-msfl/olomouc-2-zbrojovka-brno-2/319730919332192256/nepszeru", "trigger": "steam", "steam": 0.238, "signal_odds": 1.94, "exec_odds": 1.73, "exec_status": "moved", "tm_tip": "Ázsiai hendikep -1 - Rendes játékidő → Olomouc 2 (-1)", "channel": null}, {"id": "15b6afb870", "placed_at": "2026-11-12T08:35:09.845794+00:00", "status": "settled", "sport": "Soccer", "tournament": "Nemzetek Ligája, C divízió, 1. csoport", "home": "San Marino", "away": "Fehéroroszország", "start": "2026-11-12T19:45:00.000Z", "label": "1X2: Fehéroroszország győz", "market": "Full Time Result", "odds": 1.17, "sharp_odds": 1.131, "fair_odds": 1.142, "fair_prob": 0.87545, "ev": 0.02428, "stake": 3550, "result": "WIN", "profit": 603.5, "clv": 0.04954, "closing_fair_odds": 1.115, "settled_at": "2026-11-12T22:50:11.959957+00:00", "band": "1.00–1.30", "link": null, "trigger": "normál", "steam": null, "signal_odds": 1.17, "exec_odds": 1.17, "exec_status": "ok", "tm_tip": null, "channel": null}, {"id": "a4ae521ef8", "placed_at": "2026-11-12T10:08:53.720356+00:00", "status": "settled", "sport": "Soccer", "tournament": "Afrikai Nemzetek Kupája-selejtező, C csoport", "home": "Ghána", "away": "Szomália", "start": "2026-11-12T15:00:00.000Z", "label": "1X2: Ghána győz", "market": "Full Time Result", "odds": 1.11, "sharp_odds": 1.066, "fair_odds": 1.079, "fair_prob": 0.92711, "ev": 0.02909, "stake": 6000, "result": "WIN", "profit": 660.0, "clv": 0.01159, "closing_fair_odds": 1.097, "settled_at": "2026-11-12T18:12:52.642208+00:00", "band": "1.00–1.30", "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/afrika/afrikai-nemzetek-kupaja-selejtezo-c-csoport/ghana-szomalia/317904968647516160/nepszeru", "trigger": "normál", "steam": null, "signal_odds": 1.11, "exec_odds": 1.11, "exec_status": "ok", "tm_tip": "1X2 - Rendes játékidő → Ghána", "channel": null}], "signals": {"n": 56, "measured": 48, "avg_clv": 0.07156854166666667, "clv_positive": 0.9375, "bet": 12, "by_trigger": [{"key": "normál", "n": 22, "clv": 0.05046318181818182, "pos": 0.9545454545454546}, {"key": "⚡ steam", "n": 26, "clv": 0.08942692307692307, "pos": 0.9230769230769231}], "by_band": [{"key": "1.00–1.30", "n": 5, "clv": 0.041686, "pos": 1.0}, {"key": "1.30–1.50", "n": 6, "clv": 0.06291833333333334, "pos": 1.0}, {"key": "1.50–1.80", "n": 14, "clv": 0.05806785714285715, "pos": 0.9285714285714286}, {"key": "1.80–2.10", "n": 12, "clv": 0.08342666666666666, "pos": 0.9166666666666666}, {"key": "2.10–2.50", "n": 11, "clv": 0.09411636363636364, "pos": 0.9090909090909091}]}, "signal_rows": [{"fixture_id": "id1000016772549348", "market_id": 1074, "outcome_id": 1075, "first_at": "2026-11-14T12:59:48.879189+00:00", "start": "2026-11-14T13:30:00.000Z", "home": "FC Lauterach", "away": "SC Rothis", "tournament": "Osztrák Regionalliga, Nyugat", "label": "Ázsiai hendikep: SC Rothis (-0.25)", "odds": 1.89, "fair_prob": 0.55643, "ev": 0.05165, "band": "1.80–2.10", "trigger": "steam", "bet": false}, {"fixture_id": "id1000016772549348", "market_id": 1078, "outcome_id": 1079, "first_at": "2026-11-14T12:59:48.879189+00:00", "start": "2026-11-14T13:30:00.000Z", "home": "FC Lauterach", "away": "SC Rothis", "tournament": "Osztrák Regionalliga, Nyugat", "label": "Ázsiai hendikep: SC Rothis (-0.75)", "odds": 2.45, "fair_prob": 0.4299, "ev": 0.05325, "band": "2.10–2.50", "trigger": "normál", "bet": false}, {"fixture_id": "id1000074874723614", "market_id": 101, "outcome_id": 101, "first_at": "2026-11-14T11:39:51.725269+00:00", "start": "2026-11-14T12:30:00.000Z", "home": "U19Moldova", "away": "U19Gibraltár", "tournament": "U19 Eb-selejtező, B Liga", "label": "1X2: U19Moldova győz", "odds": 1.12, "fair_prob": 0.93356, "ev": 0.04558, "band": "1.00–1.30", "trigger": "normál", "bet": false, "closing_fair_prob": 0.93451, "closing_fair_odds": 1.07, "closing_sharp_odds": 1.055, "closing_at": "2026-11-14T11:57:29.476459+00:00", "clv": 0.04666}, {"fixture_id": "id1000074875244196", "market_id": 10170, "outcome_id": 10170, "first_at": "2026-11-14T09:43:57.375985+00:00", "start": "2026-11-14T12:00:00.000Z", "home": "U19Észak-Írország", "away": "U19Málta", "tournament": "U19 Eb-selejtező, B Liga", "label": "Gólszám 2.25: Több", "odds": 1.42, "fair_prob": 0.71948, "ev": 0.02166, "band": "1.30–1.50", "trigger": "normál", "bet": false, "closing_fair_prob": 0.71998, "closing_fair_odds": 1.389, "closing_sharp_odds": 1.338, "closing_at": "2026-11-14T11:39:51.725269+00:00", "clv": 0.02237}, {"fixture_id": "id1001818872577818", "market_id": 1080, "outcome_id": 1080, "first_at": "2026-11-14T09:34:58.752378+00:00", "start": "2026-11-14T11:00:00.000Z", "home": "Lech Poznan", "away": "Czarni Sosnowiec", "tournament": "Lengyel bajnokság, női", "label": "Ázsiai hendikep: Lech Poznan (+1)", "odds": 1.9, "fair_prob": 0.54372, "ev": 0.03307, "band": "1.80–2.10", "trigger": "normál", "bet": false, "closing_fair_prob": 0.54372, "closing_fair_odds": 1.839, "closing_sharp_odds": 1.719, "closing_at": "2026-11-14T10:29:49.474462+00:00", "clv": 0.03307}, {"fixture_id": "id1003894170365430", "market_id": 1066, "outcome_id": 1066, "first_at": "2026-11-14T06:17:58.926876+00:00", "start": "2026-11-14T12:00:00.000Z", "home": "Enskede", "away": "Orebro SK Soder", "tournament": "Svéd 2., női", "label": "Ázsiai hendikep: Enskede (-0.75)", "odds": 2.09, "fair_prob": 0.5, "ev": 0.045, "band": "1.80–2.10", "trigger": "normál", "bet": false, "closing_fair_prob": 0.50889, "closing_fair_odds": 1.965, "closing_sharp_odds": 1.84, "closing_at": "2026-11-14T11:39:51.725269+00:00", "clv": 0.06357}, {"fixture_id": "id1004866375448390", "market_id": 1078, "outcome_id": 1078, "first_at": "2026-11-14T02:07:27.014762+00:00", "start": "2026-11-14T13:00:00.000Z", "home": "Richards Bay 2", "away": "Orlando Pirates 2", "tournament": "Dél-afrikai Diski Challenge", "label": "Ázsiai hendikep: Richards Bay 2 (+0.75)", "odds": 2.14, "fair_prob": 0.49773, "ev": 0.06514, "band": "2.10–2.50", "trigger": "normál", "bet": false, "closing_fair_prob": 0.49111, "closing_fair_odds": 2.036, "closing_sharp_odds": 1.9, "closing_at": "2026-11-14T12:30:50.833468+00:00", "clv": 0.05098}, {"fixture_id": "id1000074874723612", "market_id": 101, "outcome_id": 101, "first_at": "2026-11-14T02:07:27.014762+00:00", "start": "2026-11-14T14:00:00.000Z", "home": "U19Bulgária", "away": "U19Lettország", "tournament": "U19 Eb-selejtező, B Liga", "label": "1X2: U19Bulgária győz", "odds": 1.7, "fair_prob": 0.61557, "ev": 0.04647, "band": "1.50–1.80", "trigger": "normál", "bet": false, "closing_fair_prob": 0.61705, "closing_fair_odds": 1.621, "closing_sharp_odds": 1.574, "closing_at": "2026-11-14T12:59:48.879189+00:00", "clv": 0.04899}, {"fixture_id": "id1000074875560252", "market_id": 101, "outcome_id": 103, "first_at": "2026-11-14T01:45:00.708921+00:00", "start": "2026-11-14T12:30:00.000Z", "home": "U19Örményország", "away": "U19Albánia", "tournament": "U19 Eb-selejtező, B Liga", "label": "1X2: U19Albánia győz", "odds": 1.7, "fair_prob": 0.60993, "ev": 0.03688, "band": "1.50–1.80", "trigger": "normál", "bet": false, "closing_fair_prob": 0.62154, "closing_fair_odds": 1.609, "closing_sharp_odds": 1.564, "closing_at": "2026-11-14T11:57:29.476459+00:00", "clv": 0.05662}, {"fixture_id": "id1000074874838728", "market_id": 101, "outcome_id": 101, "first_at": "2026-11-14T01:21:17.438896+00:00", "start": "2026-11-14T11:00:00.000Z", "home": "U19Luxemburg", "away": "U19Andorra", "tournament": "U19 Eb-selejtező, B Liga", "label": "1X2: U19Luxemburg győz", "odds": 1.52, "fair_prob": 0.67861, "ev": 0.03148, "band": "1.50–1.80", "trigger": "normál", "bet": false, "closing_fair_prob": 0.67543, "closing_fair_odds": 1.481, "closing_sharp_odds": 1.444, "closing_at": "2026-11-14T10:29:49.474462+00:00", "clv": 0.02665}, {"fixture_id": "id1000074875244194", "market_id": 101, "outcome_id": 101, "first_at": "2026-11-14T01:21:17.438896+00:00", "start": "2026-11-14T12:00:00.000Z", "home": "U19Svájc", "away": "U19Észak-Macedónia", "tournament": "U19 Eb-selejtező, B Liga", "label": "1X2: U19Svájc győz", "odds": 1.37, "fair_prob": 0.76396, "ev": 0.04663, "band": "1.30–1.50", "trigger": "normál", "bet": true, "closing_fair_prob": 0.78128, "closing_fair_odds": 1.28, "closing_sharp_odds": 1.253, "closing_at": "2026-11-14T11:39:51.725269+00:00", "clv": 0.07035}, {"fixture_id": "id1000074875244196", "market_id": 101, "outcome_id": 101, "first_at": "2026-11-14T01:21:17.438896+00:00", "start": "2026-11-14T12:00:00.000Z", "home": "U19Észak-Írország", "away": "U19Málta", "tournament": "U19 Eb-selejtező, B Liga", "label": "1X2: U19Észak-Írország győz", "odds": 1.29, "fair_prob": 0.81026, "ev": 0.04523, "band": "1.00–1.30", "trigger": "normál", "bet": true, "closing_fair_prob": 0.8325, "closing_fair_odds": 1.201, "closing_sharp_odds": 1.178, "closing_at": "2026-11-14T11:39:51.725269+00:00", "clv": 0.07392}, {"fixture_id": "id1000074874754160", "market_id": 101, "outcome_id": 101, "first_at": "2026-11-14T01:00:50.402741+00:00", "start": "2026-11-14T10:00:00.000Z", "home": "U19Montenegró", "away": "U19Feröer-szigetek", "tournament": "U19 Eb-selejtező, B Liga", "label": "1X2: U19Montenegró győz", "odds": 1.35, "fair_prob": 0.76604, "ev": 0.03415, "band": "1.30–1.50", "trigger": "normál", "bet": true, "closing_fair_prob": 0.74672, "closing_fair_odds": 1.339, "closing_sharp_odds": 1.308, "closing_at": "2026-11-14T09:34:58.752378+00:00", "clv": 0.00808}, {"fixture_id": "id1004343972322470", "market_id": 1064, "outcome_id": 1065, "first_at": "2026-11-13T22:03:47.200422+00:00", "start": "2026-11-14T00:30:00.000Z", "home": "Lexington SC", "away": "Fort Lauderdale", "tournament": "USL, női", "label": "Ázsiai hendikep: Fort Lauderdale (+1)", "odds": 1.92, "fair_prob": 0.53844, "ev": 0.03381, "band": "1.80–2.10", "trigger": "steam", "bet": false, "closing_fair_prob": 0.56092, "closing_fair_odds": 1.783, "closing_sharp_odds": 1.684, "closing_at": "2026-11-13T23:39:24.495092+00:00", "clv": 0.07697}, {"fixture_id": "id1002710276617952", "market_id": 1060, "outcome_id": 1060, "first_at": "2026-11-13T22:03:47.200422+00:00", "start": "2026-11-14T01:30:00.000Z", "home": "Tauro FC", "away": "Alianza FC Panama", "tournament": "Panamai bajnokság", "label": "Ázsiai hendikep: Tauro FC (-1.5)", "odds": 2.33, "fair_prob": 0.46413, "ev": 0.08143, "band": "2.10–2.50", "trigger": "steam", "bet": false, "closing_fair_prob": 0.49074, "closing_fair_odds": 2.038, "closing_sharp_odds": 1.943, "closing_at": "2026-11-14T01:00:50.402741+00:00", "clv": 0.14343}, {"fixture_id": "id1002710276617952", "market_id": 1062, "outcome_id": 1062, "first_at": "2026-11-13T22:03:47.200422+00:00", "start": "2026-11-14T01:30:00.000Z", "home": "Tauro FC", "away": "Alianza FC Panama", "tournament": "Panamai bajnokság", "label": "Ázsiai hendikep: Tauro FC (-1.25)", "odds": 2.11, "fair_prob": 0.52167, "ev": 0.10072, "band": "2.10–2.50", "trigger": "steam", "bet": false, "closing_fair_prob": 0.54607, "closing_fair_odds": 1.831, "closing_sharp_odds": 1.746, "closing_at": "2026-11-14T01:00:50.402741+00:00", "clv": 0.1522}, {"fixture_id": "id1002710276617952", "market_id": 1064, "outcome_id": 1064, "first_at": "2026-11-13T22:03:47.200422+00:00", "start": "2026-11-14T01:30:00.000Z", "home": "Tauro FC", "away": "Alianza FC Panama", "tournament": "Panamai bajnokság", "label": "Ázsiai hendikep: Tauro FC (-1)", "odds": 1.83, "fair_prob": 0.59308, "ev": 0.08534, "band": "1.80–2.10", "trigger": "steam", "bet": false, "closing_fair_prob": 0.6165, "closing_fair_odds": 1.622, "closing_sharp_odds": 1.549, "closing_at": "2026-11-14T01:00:50.402741+00:00", "clv": 0.1282}, {"fixture_id": "id1002710276617952", "market_id": 1066, "outcome_id": 1066, "first_at": "2026-11-13T22:03:47.200422+00:00", "start": "2026-11-14T01:30:00.000Z", "home": "Tauro FC", "away": "Alianza FC Panama", "tournament": "Panamai bajnokság", "label": "Ázsiai hendikep: Tauro FC (-0.75)", "odds": 1.63, "fair_prob": 0.64403, "ev": 0.04976, "band": "1.50–1.80", "trigger": "steam", "bet": false, "closing_fair_prob": 0.6622, "closing_fair_odds": 1.51, "closing_sharp_odds": 1.45, "closing_at": "2026-11-14T01:00:50.402741+00:00", "clv": 0.07938}, {"fixture_id": "id1002710276617952", "market_id": 1068, "outcome_id": 1068, "first_at": "2026-11-13T22:03:47.200422+00:00", "start": "2026-11-14T01:30:00.000Z", "home": "Tauro FC", "away": "Alianza FC Panama", "tournament": "Panamai bajnokság", "label": "Ázsiai hendikep: Tauro FC (-0.5)", "odds": 1.5, "fair_prob": 0.68374, "ev": 0.02561, "band": "1.30–1.50", "trigger": "steam", "bet": false}, {"fixture_id": "id1002710276617952", "market_id": 10172, "outcome_id": 10172, "first_at": "2026-11-13T22:03:47.200422+00:00", "start": "2026-11-14T01:30:00.000Z", "home": "Tauro FC", "away": "Alianza FC Panama", "tournament": "Panamai bajnokság", "label": "Gólszám 2.75: Több", "odds": 1.54, "fair_prob": 0.67654, "ev": 0.04188, "band": "1.50–1.80", "trigger": "steam", "bet": false}, {"fixture_id": "id1002710276617952", "market_id": 10174, "outcome_id": 10174, "first_at": "2026-11-13T22:03:47.200422+00:00", "start": "2026-11-14T01:30:00.000Z", "home": "Tauro FC", "away": "Alianza FC Panama", "tournament": "Panamai bajnokság", "label": "Gólszám 3: Több", "odds": 1.7, "fair_prob": 0.63173, "ev": 0.07394, "band": "1.50–1.80", "trigger": "steam", "bet": false, "closing_fair_prob": 0.68069, "closing_fair_odds": 1.469, "closing_sharp_odds": 1.413, "closing_at": "2026-11-14T01:00:50.402741+00:00", "clv": 0.15717}, {"fixture_id": "id1002710276617952", "market_id": 10176, "outcome_id": 10176, "first_at": "2026-11-13T22:03:47.200422+00:00", "start": "2026-11-14T01:30:00.000Z", "home": "Tauro FC", "away": "Alianza FC Panama", "tournament": "Panamai bajnokság", "label": "Gólszám 3.25: Több", "odds": 1.91, "fair_prob": 0.55599, "ev": 0.06193, "band": "1.80–2.10", "trigger": "steam", "bet": false, "closing_fair_prob": 0.6087, "closing_fair_odds": 1.643, "closing_sharp_odds": 1.568, "closing_at": "2026-11-14T01:00:50.402741+00:00", "clv": 0.16262}, {"fixture_id": "id1002710276617952", "market_id": 1012, "outcome_id": 1012, "first_at": "2026-11-13T22:03:47.200422+00:00", "start": "2026-11-14T01:30:00.000Z", "home": "Tauro FC", "away": "Alianza FC Panama", "tournament": "Panamai bajnokság", "label": "Gólszám 3.5: Több", "odds": 2.13, "fair_prob": 0.49541, "ev": 0.05522, "band": "2.10–2.50", "trigger": "steam", "bet": false, "closing_fair_prob": 0.54916, "closing_fair_odds": 1.821, "closing_sharp_odds": 1.735, "closing_at": "2026-11-14T01:00:50.402741+00:00", "clv": 0.16971}, {"fixture_id": "id1000020072346410", "market_id": 101, "outcome_id": 103, "first_at": "2026-11-13T19:22:14.386765+00:00", "start": "2026-11-13T19:45:00.000Z", "home": "Ballymena", "away": "Linfield", "tournament": "Észak-Ír bajnokság", "label": "1X2: Linfield győz", "odds": 1.5, "fair_prob": 0.68546, "ev": 0.0282, "band": "1.30–1.50", "trigger": "steam", "bet": false}, {"fixture_id": "id1500041672005206", "market_id": 1588, "outcome_id": 1588, "first_at": "2026-11-13T17:03:09.792792+00:00", "start": "2026-11-13T18:00:00.000Z", "home": "Nybro", "away": "Kalmar", "tournament": "Svéd 2.", "label": "Hendikep (rendes játékidő): Nybro (+0.5)", "odds": 2.01, "fair_prob": 0.52353, "ev": 0.05229, "band": "1.80–2.10", "trigger": "steam", "bet": false, "closing_fair_prob": 0.51663, "closing_fair_odds": 1.936, "closing_sharp_odds": 1.813, "closing_at": "2026-11-13T17:34:31.067709+00:00", "clv": 0.03842}, {"fixture_id": "id1500059972178148", "market_id": 1580, "outcome_id": 1580, "first_at": "2026-11-13T16:45:57.462612+00:00", "start": "2026-11-13T19:00:00.000Z", "home": "Nice", "away": "Chamonix", "tournament": "Francia bajnokság", "label": "Hendikep (rendes játékidő): Nice (-1.5)", "odds": 2.13, "fair_prob": 0.49555, "ev": 0.05553, "band": "2.10–2.50", "trigger": "steam", "bet": false, "closing_fair_prob": 0.48101, "closing_fair_odds": 2.079, "closing_sharp_odds": 1.934, "closing_at": "2026-11-13T18:39:27.248000+00:00", "clv": 0.02456}, {"fixture_id": "id1500023672709896", "market_id": 1578, "outcome_id": 1578, "first_at": "2026-11-13T15:21:03.889292+00:00", "start": "2026-11-13T16:30:00.000Z", "home": "Spisska Nova Ves", "away": "Trencin", "tournament": "Szlovák bajnokság", "label": "Hendikep (rendes játékidő): Spisska Nova Ves (-2)", "odds": 2.45, "fair_prob": 0.43047, "ev": 0.05466, "band": "2.10–2.50", "trigger": "normál", "bet": false, "closing_fair_prob": 0.40038, "closing_fair_odds": 2.498, "closing_sharp_odds": 2.27, "closing_at": "2026-11-13T16:04:34.443937+00:00", "clv": -0.01907}, {"fixture_id": "id1500023672709896", "market_id": 1582, "outcome_id": 1582, "first_at": "2026-11-13T15:21:03.889292+00:00", "start": "2026-11-13T16:30:00.000Z", "home": "Spisska Nova Ves", "away": "Trencin", "tournament": "Szlovák bajnokság", "label": "Hendikep (rendes játékidő): Spisska Nova Ves (-1)", "odds": 1.75, "fair_prob": 0.59119, "ev": 0.03459, "band": "1.50–1.80", "trigger": "steam", "bet": false, "closing_fair_prob": 0.55982, "closing_fair_odds": 1.786, "closing_sharp_odds": 1.684, "closing_at": "2026-11-13T16:04:34.443937+00:00", "clv": -0.02032}, {"fixture_id": "id1500023672709896", "market_id": 1580, "outcome_id": 1580, "first_at": "2026-11-13T15:12:41.612350+00:00", "start": "2026-11-13T16:30:00.000Z", "home": "Spisska Nova Ves", "away": "Trencin", "tournament": "Szlovák bajnokság", "label": "Hendikep (rendes játékidő): Spisska Nova Ves (-1.5)", "odds": 2.22, "fair_prob": 0.4688, "ev": 0.04073, "band": "2.10–2.50", "trigger": "steam", "bet": false, "closing_fair_prob": 0.48433, "closing_fair_odds": 2.065, "closing_sharp_odds": 1.925, "closing_at": "2026-11-13T16:04:34.443937+00:00", "clv": 0.07521}, {"fixture_id": "id1500023672709890", "market_id": 1524, "outcome_id": 1524, "first_at": "2026-11-13T14:31:22.691650+00:00", "start": "2026-11-13T16:30:00.000Z", "home": "Kosice", "away": "Liptovsky Mikulas", "tournament": "Szlovák bajnokság", "label": "Gólszám 5: Több", "odds": 1.87, "fair_prob": 0.57093, "ev": 0.06764, "band": "1.80–2.10", "trigger": "steam", "bet": false, "closing_fair_prob": 0.57177, "closing_fair_odds": 1.749, "closing_sharp_odds": 1.641, "closing_at": "2026-11-13T16:04:34.443937+00:00", "clv": 0.0692}, {"fixture_id": "id1500023672709890", "market_id": 1526, "outcome_id": 1526, "first_at": "2026-11-13T14:31:22.691650+00:00", "start": "2026-11-13T16:30:00.000Z", "home": "Kosice", "away": "Liptovsky Mikulas", "tournament": "Szlovák bajnokság", "label": "Gólszám 5.5: Több", "odds": 2.21, "fair_prob": 0.47429, "ev": 0.04819, "band": "2.10–2.50", "trigger": "normál", "bet": false, "closing_fair_prob": 0.47429, "closing_fair_odds": 2.108, "closing_sharp_odds": 1.961, "closing_at": "2026-11-13T16:04:34.443937+00:00", "clv": 0.04819}, {"fixture_id": "id1000085176438758", "market_id": 101, "outcome_id": 101, "first_at": "2026-11-13T13:45:47.266788+00:00", "start": "2026-11-13T14:10:00.000Z", "home": "Egyesült Arab Emirátusok", "away": "Honduras", "tournament": "Válogatott mérkőzés", "label": "1X2: Egyesült Arab Emirátusok győz", "odds": 2.1, "fair_prob": 0.50868, "ev": 0.06822, "band": "1.80–2.10", "trigger": "steam", "bet": false}, {"fixture_id": "id1000085176438758", "market_id": 1074, "outcome_id": 1074, "first_at": "2026-11-13T13:45:47.266788+00:00", "start": "2026-11-13T14:10:00.000Z", "home": "Egyesült Arab Emirátusok", "away": "Honduras", "tournament": "Válogatott mérkőzés", "label": "Ázsiai hendikep: Egyesült Arab Emirátusok (+0.25)", "odds": 1.35, "fair_prob": 0.75799, "ev": 0.02329, "band": "1.30–1.50", "trigger": "steam", "bet": false}, {"fixture_id": "id1000184875802254", "market_id": 1056, "outcome_id": 1057, "first_at": "2026-11-13T13:22:53.802124+00:00", "start": "2026-11-13T16:00:00.000Z", "home": "Dél-Afrika", "away": "Kenya", "tournament": "Afrikai Nemzetek Kupája-selejtező, D csoport", "label": "Ázsiai hendikep: Kenya (+2)", "odds": 1.49, "fair_prob": 0.69639, "ev": 0.03762, "band": "1.30–1.50", "trigger": "steam", "bet": false, "closing_fair_prob": 0.73525, "closing_fair_odds": 1.36, "closing_sharp_odds": 1.321, "closing_at": "2026-11-13T15:38:02.956283+00:00", "clv": 0.09552}, {"fixture_id": "id1001414772597858", "market_id": 1060, "outcome_id": 1060, "first_at": "2026-11-13T12:15:21.288605+00:00", "start": "2026-11-13T13:00:00.000Z", "home": "Olomouc 2", "away": "Zbrojovka Brno 2", "tournament": "Cseh 3., MSFL", "label": "Ázsiai hendikep: Olomouc 2 (-1.5)", "odds": 2.18, "fair_prob": 0.47854, "ev": 0.04323, "band": "2.10–2.50", "trigger": "normál", "bet": false, "closing_fair_prob": 0.48289, "closing_fair_odds": 2.071, "closing_sharp_odds": 1.952, "closing_at": "2026-11-13T12:37:38.263447+00:00", "clv": 0.0527}, {"fixture_id": "id1001414772597858", "market_id": 1062, "outcome_id": 1062, "first_at": "2026-11-13T12:10:08.037510+00:00", "start": "2026-11-13T13:00:00.000Z", "home": "Olomouc 2", "away": "Zbrojovka Brno 2", "tournament": "Cseh 3., MSFL", "label": "Ázsiai hendikep: Olomouc 2 (-1.25)", "odds": 2.21, "fair_prob": 0.47624, "ev": 0.0525, "band": "2.10–2.50", "trigger": "normál", "bet": false, "closing_fair_prob": 0.54364, "closing_fair_odds": 1.839, "closing_sharp_odds": 1.74, "closing_at": "2026-11-13T12:37:38.263447+00:00", "clv": 0.20145}, {"fixture_id": "id1001414772597858", "market_id": 1064, "outcome_id": 1064, "first_at": "2026-11-13T12:10:08.037510+00:00", "start": "2026-11-13T13:00:00.000Z", "home": "Olomouc 2", "away": "Zbrojovka Brno 2", "tournament": "Cseh 3., MSFL", "label": "Ázsiai hendikep: Olomouc 2 (-1)", "odds": 1.94, "fair_prob": 0.54771, "ev": 0.06256, "band": "1.80–2.10", "trigger": "steam", "bet": true, "closing_fair_prob": 0.623, "closing_fair_odds": 1.605, "closing_sharp_odds": 1.526, "closing_at": "2026-11-13T12:37:38.263447+00:00", "clv": 0.20862}, {"fixture_id": "id1001414772597858", "market_id": 1066, "outcome_id": 1066, "first_at": "2026-11-13T12:10:08.037510+00:00", "start": "2026-11-13T13:00:00.000Z", "home": "Olomouc 2", "away": "Zbrojovka Brno 2", "tournament": "Cseh 3., MSFL", "label": "Ázsiai hendikep: Olomouc 2 (-0.75)", "odds": 1.7, "fair_prob": 0.60681, "ev": 0.03157, "band": "1.50–1.80", "trigger": "steam", "bet": false, "closing_fair_prob": 0.67204, "closing_fair_odds": 1.488, "closing_sharp_odds": 1.423, "closing_at": "2026-11-13T12:37:38.263447+00:00", "clv": 0.14246}, {"fixture_id": "id1504830372175996", "market_id": 1578, "outcome_id": 1578, "first_at": "2026-11-13T11:06:23.871746+00:00", "start": "2026-11-13T15:00:00.000Z", "home": "U20Kärpät", "away": "U20KalPa", "tournament": "U20 Finn bajnokság", "label": "Hendikep (rendes játékidő): U20Kärpät (-2)", "odds": 2.35, "fair_prob": 0.47548, "ev": 0.11738, "band": "2.10–2.50", "trigger": "normál", "bet": true, "closing_fair_prob": 0.48337, "closing_fair_odds": 2.069, "closing_sharp_odds": 1.925, "closing_at": "2026-11-13T14:31:22.691650+00:00", "clv": 0.13592}, {"fixture_id": "id1504830372175996", "market_id": 1580, "outcome_id": 1580, "first_at": "2026-11-13T11:06:23.871746+00:00", "start": "2026-11-13T15:00:00.000Z", "home": "U20Kärpät", "away": "U20KalPa", "tournament": "U20 Finn bajnokság", "label": "Hendikep (rendes játékidő): U20Kärpät (-1.5)", "odds": 1.94, "fair_prob": 0.55165, "ev": 0.0702, "band": "1.80–2.10", "trigger": "steam", "bet": false, "closing_fair_prob": 0.55885, "closing_fair_odds": 1.789, "closing_sharp_odds": 1.689, "closing_at": "2026-11-13T14:31:22.691650+00:00", "clv": 0.08417}, {"fixture_id": "id1500013472116494", "market_id": 151, "outcome_id": 151, "first_at": "2026-11-13T09:59:19.391928+00:00", "start": "2026-11-13T16:30:00.000Z", "home": "Hämeenlinna", "away": "Jukurit", "tournament": "Finn bajnokság", "label": "Győztes (hosszabbítással): Hämeenlinna győz", "odds": 1.9, "fair_prob": 0.56139, "ev": 0.06664, "band": "1.80–2.10", "trigger": "steam", "bet": true, "closing_fair_prob": 0.57402, "closing_fair_odds": 1.742, "closing_sharp_odds": 1.675, "closing_at": "2026-11-13T16:04:34.443937+00:00", "clv": 0.09064}, {"fixture_id": "id1500013472116494", "market_id": 1586, "outcome_id": 1586, "first_at": "2026-11-13T09:59:19.391928+00:00", "start": "2026-11-13T16:30:00.000Z", "home": "Hämeenlinna", "away": "Jukurit", "tournament": "Finn bajnokság", "label": "Hendikep (rendes játékidő): Hämeenlinna (+0)", "odds": 1.79, "fair_prob": 0.5758, "ev": 0.03069, "band": "1.50–1.80", "trigger": "steam", "bet": false, "closing_fair_prob": 0.58797, "closing_fair_odds": 1.701, "closing_sharp_odds": 1.621, "closing_at": "2026-11-13T16:04:34.443937+00:00", "clv": 0.05247}, {"fixture_id": "id1500013472116494", "market_id": 1588, "outcome_id": 1588, "first_at": "2026-11-13T09:59:19.391928+00:00", "start": "2026-11-13T16:30:00.000Z", "home": "Hämeenlinna", "away": "Jukurit", "tournament": "Finn bajnokság", "label": "Hendikep (rendes játékidő): Hämeenlinna (+0.5)", "odds": 1.49, "fair_prob": 0.69211, "ev": 0.03125, "band": "1.30–1.50", "trigger": "steam", "bet": false, "closing_fair_prob": 0.69609, "closing_fair_odds": 1.437, "closing_sharp_odds": 1.381, "closing_at": "2026-11-13T16:04:34.443937+00:00", "clv": 0.03717}, {"fixture_id": "id1002375568932372", "market_id": 108, "outcome_id": 108, "first_at": "2026-11-13T01:51:45.126548+00:00", "start": "2026-11-13T17:00:00.000Z", "home": "Moldova", "away": "Kazahsztán", "tournament": "Nemzetek Ligája, C divízió, 3. csoport", "label": "Gólszám 1.5: Több", "odds": 1.53, "fair_prob": 0.67073, "ev": 0.02621, "band": "1.50–1.80", "trigger": "normál", "bet": true, "closing_fair_prob": 0.68635, "closing_fair_odds": 1.457, "closing_sharp_odds": 1.416, "closing_at": "2026-11-13T16:33:52.515197+00:00", "clv": 0.05012}, {"fixture_id": "id1000184875802226", "market_id": 1050, "outcome_id": 1051, "first_at": "2026-11-12T22:50:11.959957+00:00", "start": "2026-11-13T20:00:00.000Z", "home": "Marokkó", "away": "Niger", "tournament": "Afrikai Nemzetek Kupája-selejtező, A csoport", "label": "Ázsiai hendikep: Niger (+2.75)", "odds": 1.82, "fair_prob": 0.56703, "ev": 0.032, "band": "1.80–2.10", "trigger": "steam", "bet": false, "closing_fair_prob": 0.54863, "closing_fair_odds": 1.823, "closing_sharp_odds": 1.719, "closing_at": "2026-11-13T19:39:03.515313+00:00", "clv": -0.00149}, {"fixture_id": "id1503039872182848", "market_id": 1586, "outcome_id": 1587, "first_at": "2026-11-12T22:23:43.865795+00:00", "start": "2026-11-13T00:00:00.000Z", "home": "Shawinigan Cataractes", "away": "Drummondville Voltigeurs", "tournament": "QMJHL", "label": "Hendikep (rendes játékidő): Drummondville Voltigeurs (-0)", "odds": 1.75, "fair_prob": 0.58936, "ev": 0.03138, "band": "1.50–1.80", "trigger": "normál", "bet": false, "closing_fair_prob": 0.57408, "closing_fair_odds": 1.742, "closing_sharp_odds": 1.645, "closing_at": "2026-11-12T23:38:42.529772+00:00", "clv": 0.00464}, {"fixture_id": "id1000184875802226", "market_id": 1048, "outcome_id": 1049, "first_at": "2026-11-12T21:07:57.392513+00:00", "start": "2026-11-13T20:00:00.000Z", "home": "Marokkó", "away": "Niger", "tournament": "Afrikai Nemzetek Kupája-selejtező, A csoport", "label": "Ázsiai hendikep: Niger (+3)", "odds": 1.61, "fair_prob": 0.64785, "ev": 0.04304, "band": "1.50–1.80", "trigger": "steam", "bet": true, "closing_fair_prob": 0.63075, "closing_fair_odds": 1.585, "closing_sharp_odds": 1.505, "closing_at": "2026-11-13T19:39:03.515313+00:00", "clv": 0.01551}, {"fixture_id": "id1002375568931756", "market_id": 1056, "outcome_id": 1057, "first_at": "2026-11-12T19:20:44.076932+00:00", "start": "2026-11-12T19:45:00.000Z", "home": "Anglia", "away": "Horvátország", "tournament": "Nemzetek Ligája, A divízió, 3. csoport", "label": "Ázsiai hendikep: Horvátország (+2)", "odds": 1.74, "fair_prob": 0.59699, "ev": 0.03876, "band": "1.50–1.80", "trigger": "normál", "bet": false}, {"fixture_id": "id1000085176438758", "market_id": 1072, "outcome_id": 1072, "first_at": "2026-11-12T18:12:52.642208+00:00", "start": "2026-11-13T14:10:00.000Z", "home": "Egyesült Arab Emirátusok", "away": "Honduras", "tournament": "Válogatott mérkőzés", "label": "Ázsiai hendikep: Egyesült Arab Emirátusok (+0)", "odds": 1.53, "fair_prob": 0.66748, "ev": 0.02124, "band": "1.50–1.80", "trigger": "steam", "bet": false, "closing_fair_prob": 0.70651, "closing_fair_odds": 1.415, "closing_sharp_odds": 1.378, "closing_at": "2026-11-13T13:45:47.266788+00:00", "clv": 0.08096}, {"fixture_id": "id1002375568932422", "market_id": 10166, "outcome_id": 10166, "first_at": "2026-11-12T16:10:43.551865+00:00", "start": "2026-11-12T17:00:00.000Z", "home": "Örményország", "away": "Ciprus", "tournament": "Nemzetek Ligája, C divízió, 2. csoport", "label": "Gólszám 1.75: Több", "odds": 1.58, "fair_prob": 0.64741, "ev": 0.02291, "band": "1.50–1.80", "trigger": "steam", "bet": false, "closing_fair_prob": 0.67364, "closing_fair_odds": 1.484, "closing_sharp_odds": 1.438, "closing_at": "2026-11-12T16:36:25.038754+00:00", "clv": 0.06436}, {"fixture_id": "id1000085176438758", "market_id": 104, "outcome_id": 105, "first_at": "2026-11-12T14:57:49.140464+00:00", "start": "2026-11-13T14:10:00.000Z", "home": "Egyesült Arab Emirátusok", "away": "Honduras", "tournament": "Válogatott mérkőzés", "label": "Mindkét csapat szerez gólt: Nem", "odds": 1.94, "fair_prob": 0.53095, "ev": 0.03004, "band": "1.80–2.10", "trigger": "normál", "bet": false, "closing_fair_prob": 0.53976, "closing_fair_odds": 1.853, "closing_sharp_odds": 1.769, "closing_at": "2026-11-13T13:45:47.266788+00:00", "clv": 0.04713}, {"fixture_id": "id1000184875802296", "market_id": 101, "outcome_id": 101, "first_at": "2026-11-12T11:59:49.605544+00:00", "start": "2026-11-12T19:00:00.000Z", "home": "Szenegál", "away": "Szudán", "tournament": "Afrikai Nemzetek Kupája-selejtező, J csoport", "label": "1X2: Szenegál győz", "odds": 1.13, "fair_prob": 0.90536, "ev": 0.02305, "band": "1.00–1.30", "trigger": "normál", "bet": false, "closing_fair_prob": 0.9086, "closing_fair_odds": 1.101, "closing_sharp_odds": 1.088, "closing_at": "2026-11-12T18:35:11.801919+00:00", "clv": 0.02672}, {"fixture_id": "id1000002675439648", "market_id": 10168, "outcome_id": 10168, "first_at": "2026-11-12T10:54:28.310846+00:00", "start": "2026-11-13T16:15:00.000Z", "home": "U21Finnország", "away": "U21Írország", "tournament": "U21 Eb-selejtező", "label": "Gólszám 2: Több", "odds": 1.59, "fair_prob": 0.65302, "ev": 0.03831, "band": "1.50–1.80", "trigger": "steam", "bet": true, "closing_fair_prob": 0.66286, "closing_fair_odds": 1.509, "closing_sharp_odds": 1.46, "closing_at": "2026-11-13T15:47:21.906627+00:00", "clv": 0.05394}, {"fixture_id": "id1000184875802240", "market_id": 101, "outcome_id": 101, "first_at": "2026-11-12T10:08:53.720356+00:00", "start": "2026-11-12T15:00:00.000Z", "home": "Ghána", "away": "Szomália", "tournament": "Afrikai Nemzetek Kupája-selejtező, C csoport", "label": "1X2: Ghána győz", "odds": 1.11, "fair_prob": 0.92711, "ev": 0.02909, "band": "1.00–1.30", "trigger": "normál", "bet": true, "closing_fair_prob": 0.91134, "closing_fair_odds": 1.097, "closing_sharp_odds": 1.085, "closing_at": "2026-11-12T14:35:38.804217+00:00", "clv": 0.01159}, {"fixture_id": "id1205348276709734", "market_id": 121, "outcome_id": 121, "first_at": "2026-11-12T10:08:53.720356+00:00", "start": "2026-11-12T17:20:00.000Z", "home": "Samson L./Zidansek T.", "away": "Mediorreal Arias V./Perez Garcia M.P.", "tournament": "Sopo, női páros", "label": "Győztes: Samson L./Zidansek T. győz", "odds": 1.31, "fair_prob": 0.77981, "ev": 0.02155, "band": "1.30–1.50", "trigger": "steam", "bet": true, "closing_fair_prob": 0.8733, "closing_fair_odds": 1.145, "closing_sharp_odds": 1.12, "closing_at": "2026-11-12T16:27:45.846899+00:00", "clv": 0.14402}, {"fixture_id": "id1002375568932520", "market_id": 101, "outcome_id": 103, "first_at": "2026-11-12T08:35:09.845794+00:00", "start": "2026-11-12T19:45:00.000Z", "home": "San Marino", "away": "Fehéroroszország", "tournament": "Nemzetek Ligája, C divízió, 1. csoport", "label": "1X2: Fehéroroszország győz", "odds": 1.17, "fair_prob": 0.87545, "ev": 0.02428, "band": "1.00–1.30", "trigger": "normál", "bet": true, "closing_fair_prob": 0.89704, "closing_fair_odds": 1.115, "closing_sharp_odds": 1.105, "closing_at": "2026-11-12T19:20:44.076932+00:00", "clv": 0.04954}], "last_run": {"time": "2026-11-14T12:59:48.879189+00:00", "mode": "hu", "settled": 0, "rechecked": 6, "boosts": 0, "classic": {"events": 953, "paired": 509, "classic_only": 74}, "tippmix_matches": 2156, "pinnacle_fixtures": 2074, "paired": 1037, "by_sport": {"Soccer": [790, 496], "Tennis": [86, 6], "Basketball": [426, 242], "Ice Hockey": [197, 110], "Handball": [162, 52], "Volleyball": [225, 28], "Table Tennis": [40, 7], "Cricket": [38, 6], "Badminton": [13, 0], "Darts": [22, 16], "Futsal": [24, 0], "Waterpolo": [29, 17], "ESport Counter-Strike": [15, 1], "ESport Dota": [7, 0], "ESport League of Legends": [1, 0], "eSoccer": [71, 0], "eBasketball": [7, 0], "American Football": [0, 11], "Boxing": [0, 14], "MMA": [0, 26], "Snooker": [0, 1], "Rugby": [0, 4], "Aussie Rules": [0, 0], "Squash": [0, 0], "Baseball": [0, 0], "Beach Volley": [0, 0], "Bandy": [0, 0], "Floorball": [3, 0]}, "top_ev": ["+5.3% FC Lauterach – SC Rothis · Ázsiai hendikep: SC Rothis (-0.75) @2.45 (fair 2.326)", "+5.2% FC Lauterach – SC Rothis · Ázsiai hendikep: SC Rothis (-0.25) @1.89 (fair 1.797)", "+2.6% FC Lauterach – SC Rothis · Ázsiai hendikep: SC Rothis (-0.5) @2.09 (fair 2.036)", "+1.7% Caerau Ely – Brickfield Rangers · Ázsiai hendikep: Caerau Ely (-1) @2.34 (fair 2.3)", "+1.2% U19Bulgária – U19Lettország · 1X2: U19Bulgária győz @1.64 (fair 1.621)"], "rejected_examples": [], "no_main_market": 13, "fast": false, "fixtures_checked": 150, "fixtures_both": 118, "rejected_mismatch": 0, "candidates": 2, "steam_fixtures": 19, "classic_checked": 89, "classic_candidates": 0, "top_ev_classic": ["+0.3% Twarde Pierniki Torun – Trefl Sopot · Hendikep (hosszabbítással): Twarde Pierniki Torun (-7.5) @1.74 (fair 1.734)", "+0.3% Twarde Pierniki Torun – Trefl Sopot · Hendikep (hosszabbítással): Twarde Pierniki Torun (-6.5) @1.63 (fair 1.625)", "-0.2% Milton Keynes Dons – Burton · Gólszám 4.5: Kevesebb @1.23 (fair 1.233)", "-0.5% Twarde Pierniki Torun – Trefl Sopot · Hendikep (hosszabbítással): Twarde Pierniki Torun (-8.5) @1.87 (fair 1.879)", "-0.9% Livingston – Greenock Morton · Gólszám 4.5: Kevesebb @1.23 (fair 1.242)"], "placed": 0, "not_executable": 0, "api_calls": 0, "free_calls": 156}, "runs_24h": 104, "quota": null, "settings": {"steam": {"enabled": true, "window_hours": 3, "min_age_minutes": 20, "min_move": 0.04, "recheck_fixtures": 6}, "execution": {"enabled": true, "confirm_after_minutes": 3, "min_ev_after_move": 0.01}, "min_odds": 1.1, "max_odds": 5.0, "ev_bands": [{"max_odds": 1.6, "min_ev": 0.02}, {"max_odds": 2.1, "min_ev": 0.03}, {"max_odds": 2.5, "min_ev": 0.04}, {"max_odds": 99.0, "min_ev": 0.06}], "kelly": 0.25, "max_stake_pct": 0.03, "sports": ["minden sportág"], "mode": "hu", "max_bets_per_day": 3, "soft": "tippmixpro", "sharp": "pinnacle", "devig": "power"}, "demo": false};
+const b64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
+const toB64 = (buf) => btoa(String.fromCharCode(...new Uint8Array(buf)));
+async function deriveKey(password, saltB64, iterations, extractable) {
+  const base = await crypto.subtle.importKey("raw", new TextEncoder().encode(password), "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey({ name: "PBKDF2", hash: "SHA-256", salt: b64(saltB64), iterations },
+    base, { name: "AES-GCM", length: 256 }, extractable, ["decrypt"]);
+}
+async function importRawKey(rawB64) { return crypto.subtle.importKey("raw", b64(rawB64), { name: "AES-GCM" }, false, ["decrypt"]); }
+async function decryptBlob(blob, key) {
+  const pt = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64(blob.iv) }, key, b64(blob.ct));
+  return JSON.parse(new TextDecoder().decode(pt));
+}
+
+const KEY_STORE = "tm_dash_key_v1", THEME_STORE = "tm_dash_theme";
+const store = {
+  get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+  set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} },
+  del(k) { try { localStorage.removeItem(k); } catch (e) {} },
+};
+const $ = (id) => document.getElementById(id);
+const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const nf = (x, d = 0) => {
+  if (x == null || isNaN(x)) return "–";
+  const [i, f] = Math.abs(Number(x)).toFixed(d).split(".");
+  return (x < 0 && Number(Math.abs(x).toFixed(d)) !== 0 ? "−" : "") + i.replace(/\B(?=(\d{3})+(?!\d))/g, "\u00a0") + (f ? "," + f : "");
+};
+const ft = (x) => x == null ? "–" : nf(x) + " Ft";
+const sft = (x) => x == null ? "–" : (x > 0 ? "+" : "") + nf(x) + " Ft";
+const pc = (x, d = 1, sign = true) => x == null || isNaN(x) ? "–" : (sign && x > 0 ? "+" : "") + nf(x * 100, d) + "%";
+const cls = (x) => x == null ? "" : x > 0 ? "up" : x < 0 ? "down" : "";
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+let blob = null, DATA = null, charts = [], resFilter = "all", settledLimit = 50;
+const TZ = () => DATA.timezone || "Europe/Budapest";
+const dtf = (s, withDate = true) => s ? new Date(s).toLocaleString("hu-HU", { timeZone: TZ(), month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", ...(withDate ? {} : {}) }) : "–";
+const RES = { WIN: ["✅ nyert", "res-win"], HALFWIN: ["✅ fél-nyert", "res-win"], LOSE: ["❌ vesztett", "res-lose"], HALFLOSS: ["❌ fél-vesztett", "res-lose"],
+  PUSH: ["↩️ visszajár", "res-void"], CANCELLED: ["↩️ törölve", "res-void"], VOID: ["↩️ érvénytelen", "res-void"] };
+
+/* --- téma --- */
+function applyTheme(t) { if (t) document.documentElement.setAttribute("data-theme", t); else document.documentElement.removeAttribute("data-theme"); }
+applyTheme(store.get(THEME_STORE));
+$("themeBtn").addEventListener("click", () => {
+  const dark = document.documentElement.getAttribute("data-theme") === "dark" ||
+    (!document.documentElement.getAttribute("data-theme") && matchMedia("(prefers-color-scheme: dark)").matches);
+  const t = dark ? "light" : "dark"; store.set(THEME_STORE, t); applyTheme(t); if (DATA) show();
+});
+
+/* --- belépés --- */
+$("loginForm").addEventListener("submit", async (ev) => {
+  ev.preventDefault();
+  $("err").textContent = ""; $("openBtn").disabled = true; $("openBtn").textContent = "Megnyitás…";
+  try {
+    const remember = $("remember").checked;
+    const key = await deriveKey($("pw").value, blob.salt, blob.iterations, remember);
+    DATA = await decryptBlob(blob, key);
+    if (remember) store.set(KEY_STORE, toB64(await crypto.subtle.exportKey("raw", key)));
+    $("pw").value = ""; show();
+  } catch (e) { $("err").textContent = "Hibás jelszó, vagy az adatfájl nem olvasható."; }
+  finally { $("openBtn").disabled = false; $("openBtn").textContent = "Megnyitás"; }
+});
+$("logoutBtn").addEventListener("click", () => {
+  store.del(KEY_STORE); DATA = null; charts.forEach((c) => c.destroy()); charts = [];
+  $("app").classList.add("hidden"); $("login").classList.remove("hidden");
+});
+
+/* --- táblák --- */
+function table(el, cols, rows) {
+  let sortKey = null, dir = 1;
+  const render = () => {
+    const data = sortKey == null ? rows : [...rows].sort((a, b) => {
+      const c = cols[sortKey], x = c.sort ? c.sort(a) : a[c.k], y = c.sort ? c.sort(b) : b[c.k];
+      return (x == null) - (y == null) || (x > y ? 1 : x < y ? -1 : 0) * dir;
+    });
+    el.innerHTML = "<thead><tr>" + cols.map((c, i) => `<th class="${c.num ? "num" : ""}" data-i="${i}">${c.t}${sortKey === i ? (dir > 0 ? " ▲" : " ▼") : ""}</th>`).join("") +
+      "</tr></thead><tbody>" + data.map((r) => "<tr>" + cols.map((c) => `<td class="${c.num ? "num " : ""}${c.cls ? c.cls(r) : ""}">${c.f ? c.f(r) : esc(r[c.k])}</td>`).join("") + "</tr>").join("") + "</tbody>";
+    el.querySelectorAll("th").forEach((th) => th.addEventListener("click", () => {
+      const i = +th.dataset.i; dir = sortKey === i ? -dir : 1; sortKey = i; render();
+    }));
+  };
+  render();
+}
+const tip = (r) => (r.trigger === "steam" ? `<span class="badge warn" title="Pinnacle +${nf((r.steam || 0) * 100, 0)}%">⚡ steam</span> ` : "") + esc(r.label);
+const EXEC = { ok: ["✓", ""], moved: ["↓ csúszott", "warn"], pending: ["⏱️ ellenőrzésre vár", ""] };
+const match = (r) => `<b>${esc(r.home)}</b> – ${esc(r.away)}<div class="muted" style="font-size:12px">${esc(r.tournament)}</div>`;
+const groupCols = (name) => [
+  { t: name, k: "key" }, { t: "Db", k: "n", num: 1 },
+  { t: "Találat", num: 1, sort: (r) => r.hit, f: (r) => r.counted ? `${r.won}/${r.counted} (${pc(r.hit, 0, false)})` : "–" },
+  { t: "Tét", num: 1, k: "staked", f: (r) => ft(r.staked) },
+  { t: "Profit", num: 1, k: "profit", f: (r) => sft(r.profit), cls: (r) => cls(r.profit) },
+  { t: "Várt", num: 1, k: "expected", f: (r) => sft(r.expected) },
+  { t: "ROI", num: 1, k: "roi", f: (r) => pc(r.roi), cls: (r) => cls(r.roi) },
+  { t: "CLV", num: 1, k: "clv", f: (r) => pc(r.clv), cls: (r) => cls(r.clv) }];
+
+function chartBase(extra = {}) {
+  const grid = css("--grid"), ink = css("--ink-2");
+  return { responsive: true, maintainAspectRatio: false, interaction: { mode: "index", intersect: false },
+    plugins: { legend: { labels: { color: ink, boxWidth: 12 } } },
+    scales: { x: { ticks: { color: ink, maxRotation: 0, autoSkip: true }, grid: { color: grid } },
+              y: { ticks: { color: ink, callback: (v) => nf(v) }, grid: { color: grid } } }, ...extra };
+}
+
+let ROOT = null, VIEW = "pro";
+function show() {
+  if (!ROOT || (DATA !== ROOT && !DATA.__view)) ROOT = DATA;
+  DATA = VIEW === "classic" && ROOT.classic ? { ...ROOT, ...ROOT.classic, __view: "classic" } : ROOT;
+  $("classicNote").classList.toggle("hidden", VIEW !== "classic");
+  $("s-sig").classList.toggle("hidden", VIEW === "classic"); $("s-sig").nextElementSibling.classList.toggle("hidden", VIEW === "classic");
+  $("viewChips").querySelector('[data-v="classic"]').classList.toggle("hidden", !ROOT.classic);
+  $("login").classList.add("hidden"); $("app").classList.remove("hidden");
+  charts.forEach((c) => c.destroy()); charts = [];
+  const S = DATA.summary, ser = DATA.series || [];
+  $("updated").textContent = "Frissítve: " + new Date(DATA.generated).toLocaleString("hu-HU", { timeZone: TZ() });
+  $("demo").classList.toggle("hidden", !DATA.demo);
+
+  /* ítélet */
+  const n = S.won + S.lost, diffHit = S.hit_rate != null ? S.hit_rate - S.expected_hit_rate : null;
+  let tone = "", head = "Még nincs lezárt fogadás", notes = [];
+  if (S.settled) {
+    tone = S.profit >= 0 ? "good" : "warn";
+    head = `${sft(S.profit)} · ROI ${pc(S.roi)}`;
+    notes.push(`Bejött ${S.won} / ${n} fogadás (${pc(S.hit_rate, 0, false)}), a fair esélyek alapján várt: ${pc(S.expected_hit_rate, 0, false)}.`);
+    notes.push(`Várt profit az EV-k alapján: ${sft(S.expected_profit)}; az eltérés ${sft(S.profit - S.expected_profit)}.`);
+  }
+  if (S.avg_clv != null) notes.push(`CLV: átlag ${pc(S.avg_clv)}, a fogadások ${pc(S.clv_positive, 0, false)}-a verte a záró Pinnacle-árat. ${S.avg_clv > 0 ? "Ez arra utal, hogy az előny valódi." : "Negatív CLV mellett az előny kétséges."}`);
+  if (S.settled < 300) notes.push(`Csak ${S.settled} lezárt fogadás: a profit még nagyrészt szórás. Megbízható képhez néhány száz kell; addig a CLV a jobb jelző.`);
+  $("verdict").className = "card hl " + tone;
+  $("verdict").innerHTML = `<div class="muted">Indulás óta</div><div class="big ${cls(S.profit)}">${head}</div><ul>${notes.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;
+
+  /* csempék */
+  const tiles = [
+    ["Szimulált tőke", ft(S.bankroll), `indulás: ${ft(S.start_bankroll)}`, cls(S.bankroll - S.start_bankroll)],
+    ["Profit", sft(S.profit), `feltett tét: ${ft(S.staked)}`, cls(S.profit)],
+    ["ROI", pc(S.roi), `várt: ${pc(S.staked ? S.expected_profit / S.staked : null)}`, cls(S.roi)],
+    ["Találati arány", pc(S.hit_rate, 0, false), `várt: ${pc(S.expected_hit_rate, 0, false)} · ${S.won}/${n}`, ""],
+    ["Átlag CLV", pc(S.avg_clv), `${S.clv_n} fogadásból`, cls(S.avg_clv)],
+    ["Fogadások", nf(S.bets), `lezárt ${S.settled} · nyitott ${S.open}`, ""],
+    ["Átlag odds", nf(S.avg_odds, 2), `átlag EV: ${pc(S.avg_ev)}`, ""],
+    ["Nyitott tét", ft(S.open_stake), `a tőke ${pc(S.bankroll ? S.open_stake / S.bankroll : null, 0, false)}-a`, ""],
+    ["Végrehajthatóság", S.execution && S.execution.checked ? pc(S.execution.rate, 0, false) : "–",
+      S.execution && S.execution.checked ? `${S.execution.gone} elesett · csúszás ${pc(S.execution.avg_slippage)}` : "még nincs ellenőrzés", ""],
+    ["⚡ Steam-fogadás", nf(S.steam_bets), `a fogadások ${pc(S.bets ? S.steam_bets / S.bets : null, 0, false)}-a`, ""],
+  ];
+  $("tiles").innerHTML = tiles.map(([l, v, s, c]) => `<div class="card tile"><div class="lbl">${l}</div><div class="val ${c}">${v}</div><div class="sub">${esc(s)}</div></div>`).join("");
+
+  /* grafikonok */
+  if (window.Chart && ser.length) {
+    const labels = ser.map((d) => d.date.slice(5));
+    charts.push(new Chart($("cumChart"), { type: "line", data: { labels, datasets: [
+      { label: "Tényleges profit", data: ser.map((d) => d.cum_profit), borderColor: css("--s1"), backgroundColor: css("--s1"), tension: 0.2, pointRadius: 2 },
+      { label: "Várt profit (EV)", data: ser.map((d) => d.cum_expected), borderColor: css("--s2"), borderDash: [6, 4], pointRadius: 0, tension: 0.2 },
+    ] }, options: chartBase() }));
+    charts.push(new Chart($("dayChart"), { type: "bar", data: { labels, datasets: [
+      { label: "Napi profit (Ft)", data: ser.map((d) => d.profit), backgroundColor: ser.map((d) => d.profit >= 0 ? css("--good") : css("--critical")) },
+    ] }, options: chartBase({ plugins: { legend: { display: false } } }) }));
+    charts.push(new Chart($("brChart"), { type: "line", data: { labels, datasets: [
+      { label: "Tőke", data: ser.map((d) => d.bankroll), borderColor: css("--s3"), backgroundColor: css("--s3"), pointRadius: 0, tension: 0.2, fill: false },
+    ] }, options: chartBase({ plugins: { legend: { display: false } } }) }));
+  }
+
+  /* jelzések */
+  const SG = DATA.signals || { n: 0 };
+  $("sigTiles").innerHTML = [
+    ["Jelzés", nf(SG.n), `ebből fogadás: ${nf(SG.bet)}`, ""],
+    ["Átlag CLV", pc(SG.avg_clv), `${nf(SG.measured)} mért jelzésből`, cls(SG.avg_clv)],
+    ["Verte a záró árat", pc(SG.clv_positive, 0, false), "a mért jelzések közül", ""],
+  ].map(([l, v, s, c]) => `<div class="card tile"><div class="lbl">${l}</div><div class="val ${c}">${v}</div><div class="sub">${esc(s)}</div></div>`).join("");
+  const sigCols = (n) => [{ t: n, k: "key" }, { t: "Db", k: "n", num: 1 }, { t: "Átlag CLV", k: "clv", num: 1, f: (r) => pc(r.clv), cls: (r) => cls(r.clv) },
+    { t: "Verte", k: "pos", num: 1, f: (r) => pc(r.pos, 0, false) }];
+  table($("sigTrig"), sigCols("Ok"), SG.by_trigger || []);
+  table($("sigBand"), sigCols("Odds"), SG.by_band || []);
+  table($("sigRows"), [
+    { t: "Jelzés", k: "first_at", f: (r) => dtf(r.first_at) }, { t: "Meccs", k: "home", f: match }, { t: "Tipp", k: "label", f: tip },
+    { t: "Odds", k: "odds", num: 1, f: (r) => nf(r.odds, 2) }, { t: "EV", k: "ev", num: 1, f: (r) => pc(r.ev) },
+    { t: "CLV", k: "clv", num: 1, f: (r) => pc(r.clv), cls: (r) => cls(r.clv) }, { t: "Fogadás", k: "bet", f: (r) => r.bet ? "✓" : "" },
+  ], DATA.signal_rows || []);
+
+  /* napok */
+  table($("daysTbl"), [
+    { t: "Nap", k: "date" }, { t: "Ajánlott", k: "placed", num: 1 }, { t: "Lezárt", k: "settled", num: 1 },
+    { t: "✅", k: "won", num: 1 }, { t: "❌", k: "lost", num: 1 },
+    { t: "Találat", num: 1, sort: (r) => r.won / ((r.won + r.lost) || 1), f: (r) => r.won + r.lost ? pc(r.won / (r.won + r.lost), 0, false) : "–" },
+    { t: "Tét", k: "staked", num: 1, f: (r) => ft(r.staked) },
+    { t: "Profit", k: "profit", num: 1, f: (r) => sft(r.profit), cls: (r) => cls(r.profit) },
+    { t: "ROI", k: "roi", num: 1, f: (r) => pc(r.roi), cls: (r) => cls(r.roi) },
+    { t: "Tőke", k: "bankroll", num: 1, f: (r) => ft(r.bankroll) },
+  ], [...ser].reverse());
+
+  /* nyitott */
+  $("openEmpty").classList.toggle("hidden", DATA.open.length > 0);
+  $("openTbl").classList.toggle("hidden", !DATA.open.length);
+  table($("openTbl"), [
+    { t: "Kezdés", k: "start", f: (r) => dtf(r.start) }, { t: "Meccs", k: "home", f: match },
+    { t: "Tipp", k: "label", f: (r) => r.link && !DATA.demo ? `<a href="${esc(r.link)}" target="_blank" rel="noopener">${tip(r)}</a>` : tip(r) },
+    { t: "Megtehető?", k: "exec_status", f: (r) => r.exec_status === "moved" ? `↓ ${nf(r.signal_odds, 2)} → ${nf(r.exec_odds, 2)}` : (EXEC[r.exec_status] || ["–"])[0] },
+    { t: "Tippmix", k: "odds", num: 1, f: (r) => nf(r.odds, 2) }, { t: "Fair", k: "fair_odds", num: 1, f: (r) => nf(r.fair_odds, 2) },
+    { t: "EV", k: "ev", num: 1, f: (r) => pc(r.ev), cls: (r) => cls(r.ev) },
+    { t: "CLV most", k: "clv", num: 1, f: (r) => pc(r.clv), cls: (r) => cls(r.clv) },
+    { t: "Tét", k: "stake", num: 1, f: (r) => ft(r.stake) },
+  ], DATA.open);
+
+  renderSettled();
+
+  /* bontás */
+  table($("bandTbl"), groupCols("Odds"), DATA.bands);
+  table($("sportTbl"), groupCols("Sport"), DATA.sports);
+  table($("mktTbl"), groupCols("Piac"), DATA.markets);
+  table($("trigTbl"), groupCols("Ok"), DATA.triggers || []);
+  const gone = DATA.skipped || [];
+  $("goneEmpty").classList.toggle("hidden", gone.length > 0); $("goneTbl").classList.toggle("hidden", !gone.length);
+  table($("goneTbl"), [
+    { t: "Jelzés", k: "placed_at", f: (r) => dtf(r.placed_at) }, { t: "Meccs", k: "home", f: match }, { t: "Tipp", f: tip, k: "label" },
+    { t: "Jelzett odds", k: "signal_odds", num: 1, f: (r) => nf(r.signal_odds, 2) },
+    { t: "Pár perc múlva", k: "exec_odds", num: 1, f: (r) => r.exec_odds ? nf(r.exec_odds, 2) : "lezárt" },
+    { t: "Fair", k: "fair_odds", num: 1, f: (r) => nf(r.fair_odds, 2) },
+  ], gone);
+
+  /* beállítások */
+  const st = DATA.settings;
+  $("settings").innerHTML = [
+    ["Üzemmód", st.mode === "free" ? `ingyenes (napi max. ${st.max_bets_per_day} szimulált fogadás)` : "fizetős"],
+    ["Fogadóiroda", st.soft], ["Viszonyítás", `${st.sharp} (devig: ${st.devig})`], ["Sportágak", st.sports.join(", ")],
+    ["Odds-sáv", `${nf(st.min_odds, 2)} – ${nf(st.max_odds, 2)}`],
+    ["Min. EV", st.ev_bands.map((b) => `≤${nf(b.max_odds, 2)}: ${pc(b.min_ev, 0)}`).join(" · ")],
+    ["Tét", `${st.kelly}× Kelly, max. a tőke ${pc(st.max_stake_pct, 0, false)}-a`],
+    ["Steam", st.steam && st.steam.enabled ? `fair valószínűség +${nf(st.steam.min_move * 100, 0)}% (relatív) ${st.steam.window_hours} órán belül` : "ki"],
+    ["Végrehajthatóság", st.execution && st.execution.enabled ? `${st.execution.confirm_after_minutes} perc múlva újraellenőrzés` : "ki"],
+  ].map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("");
+  const lr = DATA.last_run || {}, q = DATA.quota || {};
+  $("lastRun").innerHTML = [
+    ["Időpont", dtf(lr.time)], ["Meccsek (Tippmix ∩ Pinnacle)", lr.fixtures_both ?? "–"], ["Value-jelölt", lr.candidates ?? "–"],
+    ["Új fogadás / elszámolt", `${lr.placed ?? 0} / ${lr.settled ?? 0}`], ["Steam-es meccs / újranézve", `${lr.steam_fixtures ?? 0} / ${lr.rechecked ?? 0}`], ["API-hívás (fizetős / ingyenes)", `${lr.api_calls ?? "–"} / ${lr.free_calls ?? "–"}`], ["Meccsek (listán / most nézve)", `${lr.fixtures_listed ?? "–"} / ${lr.fixtures_checked ?? "–"}`],
+    ["Futások (24 óra)", DATA.runs_24h], ["Havi fizetős keret", q.limit ? `${q.limit - q.remaining} / ${q.limit} felhasználva` : (lr.quota || "–")],
+    ...(lr.skipped ? [["Kihagyva", lr.skipped]] : []), ...(lr.error ? [["Hiba", lr.error]] : []),
+  ].map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("");
+}
+
+function renderSettled() {
+  const q = $("q").value.trim().toLowerCase();
+  const rows = DATA.settled.filter((r) =>
+    (resFilter === "all" || (resFilter === "win" ? /WIN/.test(r.result) : /LOSE|LOSS/.test(r.result))) &&
+    (!q || `${r.home} ${r.away} ${r.tournament} ${r.label}`.toLowerCase().includes(q)));
+  const LIMIT = settledLimit;
+  table($("setTbl"), [
+    { t: "Kezdés", k: "start", f: (r) => dtf(r.start) }, { t: "Meccs", k: "home", f: match }, { t: "Tipp", k: "label", f: tip },
+    { t: "Odds", k: "odds", num: 1, f: (r) => nf(r.odds, 2) }, { t: "EV", k: "ev", num: 1, f: (r) => pc(r.ev) },
+    { t: "CLV", k: "clv", num: 1, f: (r) => pc(r.clv), cls: (r) => cls(r.clv) }, { t: "Tét", k: "stake", num: 1, f: (r) => ft(r.stake) },
+    { t: "Eredmény", k: "result", f: (r) => (RES[r.result] || [r.result])[0], cls: (r) => (RES[r.result] || [0, ""])[1] },
+    { t: "Profit", k: "profit", num: 1, f: (r) => sft(r.profit), cls: (r) => cls(r.profit) },
+  ], rows.slice(0, LIMIT));
+  $("setMore").innerHTML = rows.length > LIMIT ? `Az első ${LIMIT} látszik a ${rows.length} fogadásból. <button type="button" id="moreBtn">Még 50</button>` : `${rows.length} fogadás`;
+  const mb = $("moreBtn"); if (mb) mb.addEventListener("click", () => { settledLimit += 50; renderSettled(); });
+}
+$("q").addEventListener("input", () => { settledLimit = 50; DATA && renderSettled(); });
+$("resChips").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b) return;
+  resFilter = b.dataset.f;
+  $("resChips").querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  renderSettled();
+});
+
+$("viewChips").addEventListener("click", (e) => {
+  const b = e.target.closest("button"); if (!b || !ROOT) return;
+  VIEW = b.dataset.v;
+  $("viewChips").querySelectorAll("button").forEach((x) => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+  DATA = ROOT; settledLimit = 50; show();
+});
+
+(async function start() {
+  if (window.PLAIN_DATA) { DATA = window.PLAIN_DATA; show(); return; }
+  try {
+    const r = await fetch("data.enc.json", { cache: "no-store" });
+    blob = await r.json();
+  } catch (e) { $("err").textContent = "Az adatfájl nem érhető el."; return; }
+  const raw = store.get(KEY_STORE);
+  if (raw) {
+    try { DATA = await decryptBlob(blob, await importRawKey(raw)); show(); return; } catch (e) { store.del(KEY_STORE); }
+  }
+})();
+</script>
+</body>
+</html>
