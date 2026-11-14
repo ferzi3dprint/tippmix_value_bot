@@ -934,7 +934,7 @@
   "closing_fair_prob": 0.7381,
   "closing_fair_odds": 1.355,
   "closing_sharp_odds": 1.316,
-  "closing_at": "2026-11-14T06:17:58.926876+00:00",
+  "closing_at": "2026-11-14T06:40:04.268619+00:00",
   "clv": -0.00356
  },
  {
@@ -956,7 +956,7 @@
   "closing_fair_prob": 0.67861,
   "closing_fair_odds": 1.474,
   "closing_sharp_odds": 1.429,
-  "closing_at": "2026-11-14T06:17:58.926876+00:00",
+  "closing_at": "2026-11-14T06:40:04.268619+00:00",
   "clv": 0.03148
  },
  {
@@ -978,7 +978,7 @@
   "closing_fair_prob": 0.77052,
   "closing_fair_odds": 1.298,
   "closing_sharp_odds": 1.264,
-  "closing_at": "2026-11-14T06:17:58.926876+00:00",
+  "closing_at": "2026-11-14T06:40:04.268619+00:00",
   "clv": 0.05562
  },
  {
@@ -1000,7 +1000,7 @@
   "closing_fair_prob": 0.81026,
   "closing_fair_odds": 1.234,
   "closing_sharp_odds": 1.206,
-  "closing_at": "2026-11-14T06:17:58.926876+00:00",
+  "closing_at": "2026-11-14T06:40:04.268619+00:00",
   "clv": 0.04523
  },
  {
@@ -1022,7 +1022,7 @@
   "closing_fair_prob": 0.60993,
   "closing_fair_odds": 1.64,
   "closing_sharp_odds": 1.581,
-  "closing_at": "2026-11-14T05:13:55.035416+00:00",
+  "closing_at": "2026-11-14T06:40:04.268619+00:00",
   "clv": 0.03688
  },
  {
@@ -1084,6 +1084,11 @@
   "ev": 0.045,
   "band": "1.80–2.10",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.5,
+  "closing_fair_odds": 2.0,
+  "closing_sharp_odds": 1.854,
+  "closing_at": "2026-11-14T06:40:04.268619+00:00",
+  "clv": 0.045
  }
 ]
