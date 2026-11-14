@@ -931,11 +931,11 @@
   "band": "1.30–1.50",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.74616,
-  "closing_fair_odds": 1.34,
-  "closing_sharp_odds": 1.309,
-  "closing_at": "2026-11-14T09:17:39.157158+00:00",
-  "clv": 0.00732
+  "closing_fair_prob": 0.74672,
+  "closing_fair_odds": 1.339,
+  "closing_sharp_odds": 1.308,
+  "closing_at": "2026-11-14T09:34:58.752378+00:00",
+  "clv": 0.00808
  },
  {
   "fixture_id": "id1000074874838728",
@@ -956,7 +956,7 @@
   "closing_fair_prob": 0.67543,
   "closing_fair_odds": 1.481,
   "closing_sharp_odds": 1.444,
-  "closing_at": "2026-11-14T09:17:39.157158+00:00",
+  "closing_at": "2026-11-14T09:34:58.752378+00:00",
   "clv": 0.02665
  },
  {
@@ -1090,5 +1090,22 @@
   "closing_sharp_odds": 1.854,
   "closing_at": "2026-11-14T09:17:39.157158+00:00",
   "clv": 0.045
+ },
+ {
+  "fixture_id": "id1001818872577818",
+  "market_id": 1080,
+  "outcome_id": 1080,
+  "first_at": "2026-11-14T09:34:58.752378+00:00",
+  "start": "2026-11-14T11:00:00.000Z",
+  "home": "Lech Poznan",
+  "away": "Czarni Sosnowiec",
+  "tournament": "Lengyel bajnokság, női",
+  "label": "Ázsiai hendikep: Lech Poznan (+1)",
+  "odds": 1.9,
+  "fair_prob": 0.54372,
+  "ev": 0.03307,
+  "band": "1.80–2.10",
+  "trigger": "normál",
+  "bet": false
  }
 ]
