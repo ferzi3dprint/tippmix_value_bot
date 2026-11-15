@@ -1,77 +1,5 @@
 [
  {
-  "time": "2026-11-12T22:02:16.507951+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+4.3% Blainville-Boisbriand Armada – Baie-Comeau Drakkar · 1X2 (rendes játékidő): Baie-Comeau Drakkar győz @4.1 (fair 3.929)",
-   "-0.7% Columbus – Tampa Bay · Hendikep (rendes játékidő): Tampa Bay (+1) @1.43 (fair 1.44)",
-   "-0.8% Ottawa – Colorado · Hendikep (rendes játékidő): Ottawa (+1) @1.43 (fair 1.442)",
-   "-1.5% Columbus – Tampa Bay · Hendikep (rendes játékidő): Columbus (+1) @1.45 (fair 1.472)",
-   "-1.5% Ottawa – Colorado · Hendikep (rendes játékidő): Colorado (+1) @1.45 (fair 1.473)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 42,
-  "fixtures_both": 18,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 8,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 48
- },
- {
-  "time": "2026-11-12T22:09:32.445864+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 611,
-  "pinnacle_fixtures": 601,
-  "paired": 255,
-  "by_sport": {
-   "Soccer": [
-    163,
-    81
-   ],
-   "Tennis": [
-    165,
-    4
-   ],
-   "Basketball": [
-    171,
-    87
-   ],
-   "Ice Hockey": [
-    112,
-    83
-   ]
-  },
-  "top_ev": [
-   "+5.1% Sao Bernardo FC – Athletic Club MG · 1X2: Athletic Club MG győz @3.8 (fair 3.615)",
-   "+3.1% Blainville-Boisbriand Armada – Baie-Comeau Drakkar · 1X2 (rendes játékidő): Baie-Comeau Drakkar győz @4.05 (fair 3.929)",
-   "+2.5% Sao Bernardo FC – Athletic Club MG · Ázsiai hendikep: Athletic Club MG (+0.25) @2.08 (fair 2.029)",
-   "+1.9% Sao Bernardo FC – Athletic Club MG · Ázsiai hendikep: Athletic Club MG (+1) @1.37 (fair 1.344)",
-   "+1.7% Sao Bernardo FC – Athletic Club MG · Ázsiai hendikep: Athletic Club MG (+0.5) @1.78 (fair 1.75)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": false,
-  "fixtures_checked": 118,
-  "fixtures_both": 72,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 15,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 124
- },
- {
   "time": "2026-11-12T22:23:43.865795+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22495,6 +22423,197 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 1,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T12:40:54.922805+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+0.4% Solbiatese Calcio 1911 – Cittadella Vis Modena · Ázsiai hendikep: Cittadella Vis Modena (-0) @1.83 (fair 1.823)",
+   "+0.4% SSD Tritium Calcio 1908 – Ssd Real Calepina FC · Ázsiai hendikep: SSD Tritium Calcio 1908 (+0) @1.74 (fair 1.734)",
+   "+0.3% Solbiatese Calcio 1911 – Cittadella Vis Modena · Ázsiai hendikep: Cittadella Vis Modena (+0.25) @1.58 (fair 1.575)",
+   "+0.2% Mezzolara Calcio – ACV Scandicci ASD · Ázsiai hendikep: Mezzolara Calcio (+0) @1.61 (fair 1.607)",
+   "-0.0% Lettország – Örményország · Gólszám 1.5: Több @1.46 (fair 1.461)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 15,
+  "fast": true,
+  "fixtures_checked": 91,
+  "fixtures_both": 75,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 17,
+  "classic_checked": 28,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.9% Aston Villa – Birmingham · Gólszám 3.75: Kevesebb @1.46 (fair 1.473)",
+   "-1.0% Aston Villa – Birmingham · Gólszám 3.5: Kevesebb @1.6 (fair 1.616)",
+   "-1.0% Ciprus – Montenegró · Gólszám 3.5: Kevesebb @1.44 (fair 1.455)",
+   "-1.1% Aston Villa – Birmingham · Gólszám 3.25: Kevesebb @1.74 (fair 1.759)",
+   "-1.3% Ciprus – Montenegró · Gólszám 4.5: Kevesebb @1.16 (fair 1.176)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 97
+ },
+ {
+  "time": "2026-11-15T12:52:15.452514+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 534,
+   "paired": 259,
+   "classic_only": 28
+  },
+  "tippmix_matches": 1329,
+  "pinnacle_fixtures": 1137,
+  "paired": 502,
+  "by_sport": {
+   "Soccer": [
+    490,
+    242
+   ],
+   "Tennis": [
+    126,
+    8
+   ],
+   "Basketball": [
+    215,
+    118
+   ],
+   "Ice Hockey": [
+    97,
+    59
+   ],
+   "Handball": [
+    75,
+    24
+   ],
+   "Volleyball": [
+    99,
+    30
+   ],
+   "Table Tennis": [
+    48,
+    0
+   ],
+   "Cricket": [
+    29,
+    3
+   ],
+   "Badminton": [
+    0,
+    0
+   ],
+   "Darts": [
+    16,
+    0
+   ],
+   "Futsal": [
+    12,
+    2
+   ],
+   "Waterpolo": [
+    4,
+    1
+   ],
+   "ESport Counter-Strike": [
+    13,
+    0
+   ],
+   "ESport Dota": [
+    11,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    87,
+    0
+   ],
+   "eBasketball": [
+    7,
+    0
+   ],
+   "American Football": [
+    0,
+    12
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    1
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    2
+   ]
+  },
+  "top_ev": [
+   "+0.8% West Ham – Charlton · 1X2: West Ham győz @1.44 (fair 1.429)",
+   "+0.6% Skövde – Kristianstad · Gólszám 61.5: Több @1.81 (fair 1.799)",
+   "+0.5% Liberec – Litvínov · Győztes (hosszabbítással): Liberec győz @1.39 (fair 1.383)",
+   "+0.4% Solbiatese Calcio 1911 – Cittadella Vis Modena · Ázsiai hendikep: Cittadella Vis Modena (-0) @1.83 (fair 1.823)",
+   "+0.4% SSD Tritium Calcio 1908 – Ssd Real Calepina FC · Ázsiai hendikep: SSD Tritium Calcio 1908 (+0) @1.74 (fair 1.734)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 25,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 110,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 24,
+  "classic_checked": 64,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.2% Maastricht – Vitesse · Gólszám 3.25: Kevesebb @1.61 (fair 1.614)",
+   "-0.4% Maastricht – Vitesse · Gólszám 3.5: Kevesebb @1.5 (fair 1.506)",
+   "-0.4% Maastricht – Vitesse · Gólszám 3: Kevesebb @1.77 (fair 1.778)",
+   "-0.9% Aston Villa – Birmingham · Gólszám 3.75: Kevesebb @1.46 (fair 1.473)",
+   "-1.0% Maastricht – Vitesse · Gólszám 4.5: Kevesebb @1.19 (fair 1.202)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
   "free_calls": 156
  }
 ]
