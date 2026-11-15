@@ -1,77 +1,5 @@
 [
  {
-  "time": "2026-11-12T15:45:11.951874+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 5,
-  "boosts": 0,
-  "tippmix_matches": 688,
-  "pinnacle_fixtures": 601,
-  "paired": 376,
-  "by_sport": {
-   "Soccer": [
-    197,
-    137
-   ],
-   "Tennis": [
-    186,
-    27
-   ],
-   "Basketball": [
-    174,
-    110
-   ],
-   "Ice Hockey": [
-    131,
-    102
-   ]
-  },
-  "top_ev": [
-   "+1.6% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.191)",
-   "+0.8% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.151)",
-   "+0.5% San Marino – Fehéroroszország · Gólszám 3.5: Kevesebb @1.52 (fair 1.513)",
-   "-0.2% Färjestad – Djurgarden · Győztes (hosszabbítással): Färjestad győz @1.25 (fair 1.252)",
-   "-0.2% Albánia – Finnország · Ázsiai hendikep: Albánia (+0.5) @1.28 (fair 1.282)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 14,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 101,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 32,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 154
- },
- {
-  "time": "2026-11-12T16:02:04.184903+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.7% Örményország – Ciprus · Gólszám 1.5: Több @1.46 (fair 1.449)",
-   "+0.1% Frölunda – Malmö · 1X2 (rendes játékidő): Döntetlen @4.2 (fair 4.197)",
-   "-0.2% Färjestad – Djurgarden · Győztes (hosszabbítással): Färjestad győz @1.25 (fair 1.252)",
-   "-0.3% Örményország – Ciprus · Gólszám 2: Több @1.76 (fair 1.765)",
-   "-0.6% Örményország – Ciprus · Gólszám 1.75: Több @1.56 (fair 1.569)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 8,
-  "fast": true,
-  "fixtures_checked": 59,
-  "fixtures_both": 49,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 9,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 65
- },
- {
   "time": "2026-11-12T16:10:43.551865+00:00",
   "mode": "hu",
   "settled": 0,
@@ -20192,6 +20120,197 @@
    "+1.7% Akita – Osaka · Hendikep (hosszabbítással): Akita (-13.5) @1.7 (fair 1.671)",
    "+1.2% Akita – Osaka · Hendikep (hosszabbítással): Akita (-14.5) @1.8 (fair 1.778)",
    "-0.4% FC Copenhagen – Midtjylland · Gólszám 2.75: Kevesebb @2.39 (fair 2.399)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T04:51:16.278020+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "top_ev": [
+   "-0.4% Cerezo Osaka – Urawa RD · Gólszám 3: Több @2.02 (fair 2.029)",
+   "-0.7% Cerezo Osaka – Urawa RD · Gólszám 1.5: Több @1.19 (fair 1.199)",
+   "-1.0% Cerezo Osaka – Urawa RD · Gólszám 2.5: Több @1.63 (fair 1.646)",
+   "-1.3% Cerezo Osaka – Urawa RD · Gólszám 2.75: Több @1.77 (fair 1.793)",
+   "-1.8% Cerezo Osaka – Urawa RD · Mindkét csapat szerez gólt: Igen @1.51 (fair 1.538)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 13,
+  "fixtures_both": 9,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 4,
+  "classic_checked": 4,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.5% Kashima Antlers – Yokohama FM · Gólszám 4.5: Kevesebb @1.21 (fair 1.242)",
+   "-3.1% Cerezo Osaka – Urawa RD · Mindkét csapat szerez gólt: Igen @1.49 (fair 1.538)",
+   "-3.4% Kashima Antlers – Yokohama FM · Gólszám 3.5: Kevesebb @1.54 (fair 1.595)",
+   "-4.1% Kashima Antlers – Yokohama FM · Gólszám 3.25: Kevesebb @1.66 (fair 1.731)",
+   "-4.4% Cerezo Osaka – Urawa RD · Ázsiai hendikep: Cerezo Osaka (+0.75) @1.41 (fair 1.475)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 17
+ },
+ {
+  "time": "2026-11-15T04:56:16.277838+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 309,
+   "paired": 220,
+   "classic_only": 27
+  },
+  "tippmix_matches": 1324,
+  "pinnacle_fixtures": 1137,
+  "paired": 695,
+  "by_sport": {
+   "Soccer": [
+    609,
+    365
+   ],
+   "Tennis": [
+    98,
+    23
+   ],
+   "Basketball": [
+    247,
+    152
+   ],
+   "Ice Hockey": [
+    82,
+    62
+   ],
+   "Handball": [
+    38,
+    28
+   ],
+   "Volleyball": [
+    76,
+    35
+   ],
+   "Table Tennis": [
+    9,
+    1
+   ],
+   "Cricket": [
+    28,
+    8
+   ],
+   "Badminton": [
+    2,
+    0
+   ],
+   "Darts": [
+    16,
+    0
+   ],
+   "Futsal": [
+    5,
+    4
+   ],
+   "Waterpolo": [
+    2,
+    2
+   ],
+   "ESport Counter-Strike": [
+    20,
+    1
+   ],
+   "ESport Dota": [
+    6,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    74,
+    0
+   ],
+   "eBasketball": [
+    12,
+    0
+   ],
+   "American Football": [
+    0,
+    12
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    2
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+1.5% Ciprus – Montenegró · Gólszám 2: Több @1.52 (fair 1.497)",
+   "+1.0% CD Cieza – Pena Deportiva · Ázsiai hendikep: CD Cieza (-0.25) @1.39 (fair 1.377)",
+   "+0.5% IFK Norrköping – AIK · Ázsiai hendikep: AIK (-0) @1.56 (fair 1.553)",
+   "+0.2% Ciprus – Montenegró · Gólszám 1.5: Több @1.33 (fair 1.327)",
+   "+0.1% Ciprus – Montenegró · Gólszám 2.25: Több @1.75 (fair 1.747)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 27,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 111,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 20,
+  "classic_checked": 46,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+1.0% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.4 (fair 1.385)",
+   "+0.2% Eskilstuna Utd. – Djurgarden · Gólszám 3.5: Kevesebb @1.54 (fair 1.538)",
+   "-0.1% Eskilstuna Utd. – Djurgarden · Gólszám 3: Kevesebb @1.83 (fair 1.832)",
+   "-0.2% Paris 13 Atletico – Red Star FC · Gólszám 3.25: Kevesebb @1.47 (fair 1.473)",
+   "-0.2% Malmo FF – Vittsjö · Gólszám 3.75: Kevesebb @1.55 (fair 1.553)"
   ],
   "placed": 0,
   "not_executable": 0,
