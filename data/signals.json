@@ -1828,7 +1828,7 @@
   "closing_fair_prob": 0.36386,
   "closing_fair_odds": 2.748,
   "closing_sharp_odds": 2.42,
-  "closing_at": "2026-11-15T11:08:57.083931+00:00",
+  "closing_at": "2026-11-15T11:19:50.167698+00:00",
   "clv": -0.23226
  },
  {
@@ -1977,7 +1977,7 @@
   "closing_fair_prob": 0.50667,
   "closing_fair_odds": 1.974,
   "closing_sharp_odds": 1.847,
-  "closing_at": "2026-11-15T11:08:57.083931+00:00",
+  "closing_at": "2026-11-15T11:19:50.167698+00:00",
   "clv": 0.0792
  },
  {
@@ -2140,11 +2140,11 @@
   "band": "1.80–2.10",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.56047,
-  "closing_fair_odds": 1.784,
-  "closing_sharp_odds": 1.675,
-  "closing_at": "2026-11-15T11:08:57.083931+00:00",
-  "clv": 0.06489
+  "closing_fair_prob": 0.58436,
+  "closing_fair_odds": 1.711,
+  "closing_sharp_odds": 1.602,
+  "closing_at": "2026-11-15T11:19:50.167698+00:00",
+  "clv": 0.11029
  },
  {
   "fixture_id": "id1004795272880628",
@@ -2162,11 +2162,11 @@
   "band": "2.10–2.50",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.43953,
-  "closing_fair_odds": 2.275,
-  "closing_sharp_odds": 2.08,
-  "closing_at": "2026-11-15T11:08:57.083931+00:00",
-  "clv": 0.09882
+  "closing_fair_prob": 0.47111,
+  "closing_fair_odds": 2.123,
+  "closing_sharp_odds": 1.97,
+  "closing_at": "2026-11-15T11:19:50.167698+00:00",
+  "clv": 0.17776
  },
  {
   "fixture_id": "id1004795272879364",
@@ -2183,7 +2183,12 @@
   "ev": 0.08841,
   "band": "1.80–2.10",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.58833,
+  "closing_fair_odds": 1.7,
+  "closing_sharp_odds": 1.602,
+  "closing_at": "2026-11-15T11:19:50.167698+00:00",
+  "clv": 0.08841
  },
  {
   "fixture_id": "id1004795272879364",
@@ -2200,7 +2205,12 @@
   "ev": 0.07259,
   "band": "1.80–2.10",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.51567,
+  "closing_fair_odds": 1.939,
+  "closing_sharp_odds": 1.819,
+  "closing_at": "2026-11-15T11:19:50.167698+00:00",
+  "clv": 0.07259
  },
  {
   "fixture_id": "id1004795272879364",
@@ -2217,6 +2227,96 @@
   "ev": 0.06999,
   "band": "2.10–2.50",
   "trigger": "normál",
+  "bet": false,
+  "closing_fair_prob": 0.45922,
+  "closing_fair_odds": 2.178,
+  "closing_sharp_odds": 2.0,
+  "closing_at": "2026-11-15T11:19:50.167698+00:00",
+  "clv": 0.06999
+ },
+ {
+  "fixture_id": "id1001419372652504",
+  "market_id": 1076,
+  "outcome_id": 1077,
+  "first_at": "2026-11-15T11:19:50.167698+00:00",
+  "start": "2026-11-15T12:00:00.000Z",
+  "home": "FC Copenhagen",
+  "away": "Midtjylland",
+  "tournament": "Dán 2., női",
+  "label": "Ázsiai hendikep: Midtjylland (-0.5)",
+  "odds": 1.44,
+  "fair_prob": 0.71487,
+  "ev": 0.02941,
+  "band": "1.30–1.50",
+  "trigger": "normál",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1001419372652504",
+  "market_id": 1078,
+  "outcome_id": 1079,
+  "first_at": "2026-11-15T11:19:50.167698+00:00",
+  "start": "2026-11-15T12:00:00.000Z",
+  "home": "FC Copenhagen",
+  "away": "Midtjylland",
+  "tournament": "Dán 2., női",
+  "label": "Ázsiai hendikep: Midtjylland (-0.75)",
+  "odds": 1.55,
+  "fair_prob": 0.67354,
+  "ev": 0.04399,
+  "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1001419372652504",
+  "market_id": 1080,
+  "outcome_id": 1081,
+  "first_at": "2026-11-15T11:19:50.167698+00:00",
+  "start": "2026-11-15T12:00:00.000Z",
+  "home": "FC Copenhagen",
+  "away": "Midtjylland",
+  "tournament": "Dán 2., női",
+  "label": "Ázsiai hendikep: Midtjylland (-1)",
+  "odds": 1.72,
+  "fair_prob": 0.61876,
+  "ev": 0.06427,
+  "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1001419372652504",
+  "market_id": 1082,
+  "outcome_id": 1083,
+  "first_at": "2026-11-15T11:19:50.167698+00:00",
+  "start": "2026-11-15T12:00:00.000Z",
+  "home": "FC Copenhagen",
+  "away": "Midtjylland",
+  "tournament": "Dán 2., női",
+  "label": "Ázsiai hendikep: Midtjylland (-1.25)",
+  "odds": 1.97,
+  "fair_prob": 0.5318,
+  "ev": 0.04765,
+  "band": "1.80–2.10",
+  "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1000136975907952",
+  "market_id": 1064,
+  "outcome_id": 1065,
+  "first_at": "2026-11-15T11:19:50.167698+00:00",
+  "start": "2026-11-15T12:50:00.000Z",
+  "home": "Al-Wahda (UAE)",
+  "away": "Al-Khaleej Khor Fakkan",
+  "tournament": "Egyesült Arab Emir. Liga-kupa",
+  "label": "Ázsiai hendikep: Al-Khaleej Khor Fakkan (+1)",
+  "odds": 2.02,
+  "fair_prob": 0.51164,
+  "ev": 0.03351,
+  "band": "1.80–2.10",
+  "trigger": "steam",
   "bet": false
  }
 ]
