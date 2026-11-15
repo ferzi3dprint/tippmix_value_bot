@@ -9599,55 +9599,65 @@
    "score": 0.848
   }
  },
- "id1104467575020370": {
+ "id1202140676736458": {
   "tm": {
-   "id": "318936798466220032",
-   "sport": "Kosárlabda",
-   "name": "Taiwan Beer Leopards - New Taipei Kings",
-   "home": "Taiwan Beer Leopards",
-   "away": "New Taipei Kings",
-   "home_pid": "183231482928615424",
-   "away_pid": "153867124121747456",
-   "tournament": "Tajvani bajnokság",
-   "category": "Tajvan",
-   "tm_sport_id": "8",
-   "start": "2026-11-15T06:30:00+00:00"
+   "id": "319784302040653824",
+   "sport": "Tenisz",
+   "name": "Carlos Alcaraz - Francis Tiafoe",
+   "home": "Carlos Alcaraz",
+   "away": "Francis Tiafoe",
+   "home_pid": "3607579363405824",
+   "away_pid": "1061327",
+   "tournament": "ATP-vb, férfi egyes, B csoport",
+   "category": "ATP",
+   "tm_sport_id": "3",
+   "start": "2026-11-16T13:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1104467575020370",
-   "startTime": "2026-11-15T06:30:00.000Z",
-   "participant1Name": "Taoyuan Taiwan Beer Leopards",
-   "participant2Name": "New Taipei Kings",
-   "tournamentId": 44675,
-   "tournamentName": "TPBL",
-   "sportName": "Basketball"
+   "fixtureId": "id1202140676736458",
+   "startTime": "2026-11-16T13:00:00.000Z",
+   "participant1Name": "Alcaraz, Carlos",
+   "participant2Name": "Tiafoe, Frances",
+   "tournamentId": 21406,
+   "tournamentName": "ATP World Tour Finals Men Singles",
+   "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5652831,
+   "name": "C. Alcaraz Garfia - F. Tiafoe",
+   "score": 0.8
+  }
  },
- "id1100151672703216": {
+ "id1202140676736460": {
   "tm": {
-   "id": "318936816263700480",
-   "sport": "Kosárlabda",
-   "name": "Nagoya Eagles - Ehime",
-   "home": "Nagoya Eagles",
-   "away": "Ehime",
-   "home_pid": "150517529779949568",
-   "away_pid": "183448946479255552",
-   "tournament": "Japán 2.",
-   "category": "Japán",
-   "tm_sport_id": "8",
-   "start": "2026-11-15T06:35:00+00:00"
+   "id": "319784307656826880",
+   "sport": "Tenisz",
+   "name": "Daniil Medvedev - Flavio Cobolli",
+   "home": "Daniil Medvedev",
+   "away": "Flavio Cobolli",
+   "home_pid": "1013814",
+   "away_pid": "3050301951864832",
+   "tournament": "ATP-vb, férfi egyes, B csoport",
+   "category": "ATP",
+   "tm_sport_id": "3",
+   "start": "2026-11-16T19:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1100151672703216",
-   "startTime": "2026-11-15T06:35:00.000Z",
-   "participant1Name": "Fighting Eagles Nagoya",
-   "participant2Name": "Ehime Orange Vikings",
-   "tournamentId": 1516,
-   "tournamentName": "B League One",
-   "sportName": "Basketball"
+   "fixtureId": "id1202140676736460",
+   "startTime": "2026-11-16T19:30:00.000Z",
+   "participant1Name": "Medvedev, Daniil",
+   "participant2Name": "Cobolli, Flavio",
+   "tournamentId": 21406,
+   "tournamentName": "ATP World Tour Finals Men Singles",
+   "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5652830,
+   "name": "D. Medvedev - F. Cobolli",
+   "score": 1.0
+  }
  },
  "id1100240275388796": {
   "tm": {
@@ -16574,6 +16584,31 @@
   },
   "score": 1.0
  },
+ "id2503634976793668": {
+  "tm": {
+   "id": "319933843032317952",
+   "sport": "Asztalitenisz",
+   "name": "Vaclav Hruska Snr - Pavel Berdych",
+   "home": "Vaclav Hruska Snr",
+   "away": "Pavel Berdych",
+   "home_pid": "167482794808758272",
+   "away_pid": "226547404654137344",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-15T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976793668",
+   "startTime": "2026-11-15T07:30:00.000Z",
+   "participant1Name": "Hruska Sr, Vaclav",
+   "participant2Name": "Berdych, Pavel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.979
+ },
  "id2702054673456018": {
   "tm": {
    "id": "319445265780121600",
@@ -17166,27 +17201,6 @@
    "tournament": "ATP-vb, férfi páros, B csoport"
   }
  },
- "id1202140676736460": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1202140676736460",
-   "startTime": "2026-11-16T19:30:00.000Z",
-   "participant1Name": "Medvedev, Daniil",
-   "participant2Name": "Cobolli, Flavio",
-   "tournamentId": 21406,
-   "tournamentName": "ATP World Tour Finals Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5652830,
-   "name": "D. Medvedev - F. Cobolli",
-   "score": 1.0,
-   "home": "D. Medvedev",
-   "away": "F. Cobolli",
-   "tournament": "ATP-vb, férfi egyes, B csoport"
-  }
- },
  "id1201316776799008": {
   "tm": null,
   "fx": {
@@ -17248,27 +17262,6 @@
    "home": "Niels McDonald",
    "away": "Kee. Smith",
    "tournament": "Kobe, férfi egyes"
-  }
- },
- "id1202140676736458": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1202140676736458",
-   "startTime": "2026-11-16T13:00:00.000Z",
-   "participant1Name": "Alcaraz, Carlos",
-   "participant2Name": "Tiafoe, Frances",
-   "tournamentId": 21406,
-   "tournamentName": "ATP World Tour Finals Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.8,
-  "cl": {
-   "id": 5652831,
-   "name": "C. Alcaraz Garfia - F. Tiafoe",
-   "score": 0.8,
-   "home": "C. Alcaraz Garfia",
-   "away": "F. Tiafoe",
-   "tournament": "ATP-vb, férfi egyes, B csoport"
   }
  },
  "id1100022773451870": {
