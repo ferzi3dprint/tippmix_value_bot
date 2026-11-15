@@ -1,52 +1,5 @@
 [
  {
-  "time": "2026-11-12T21:27:49.648067+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 625,
-  "pinnacle_fixtures": 601,
-  "paired": 262,
-  "by_sport": {
-   "Soccer": [
-    170,
-    87
-   ],
-   "Tennis": [
-    172,
-    5
-   ],
-   "Basketball": [
-    171,
-    87
-   ],
-   "Ice Hockey": [
-    112,
-    83
-   ]
-  },
-  "top_ev": [
-   "+0.3% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.51 (fair 1.505)",
-   "-0.1% Columbus – Tampa Bay · Hendikep (rendes játékidő): Tampa Bay (+1) @1.43 (fair 1.431)",
-   "-0.9% Los Angeles – NY Islanders · Hendikep (rendes játékidő): NY Islanders (+1) @1.49 (fair 1.503)",
-   "-1.2% Real Potosi – Nacional Potosi · Gólszám 2.5: Kevesebb @1.92 (fair 1.943)",
-   "-1.2% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+1) @1.37 (fair 1.387)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": false,
-  "fixtures_checked": 73,
-  "fixtures_both": 35,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 12,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 79
- },
- {
   "time": "2026-11-12T21:38:02.465875+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22258,5 +22211,39 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T11:36:43.846804+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+6.6% Budafok – MTK 2 · Gólszám 4: Több @2.21 (fair 2.074)",
+   "+1.2% Jantra Gabrovo – Ludogorec Razgrad 2 · Ázsiai hendikep: Ludogorec Razgrad 2 (-0) @1.76 (fair 1.739)",
+   "+0.4% SSD Tritium Calcio 1908 – Ssd Real Calepina FC · Ázsiai hendikep: SSD Tritium Calcio 1908 (+0) @1.74 (fair 1.734)",
+   "+0.0% FC Sopron – Haladás · Gólszám 3: Több @1.7 (fair 1.7)",
+   "-0.0% Jantra Gabrovo – Ludogorec Razgrad 2 · Ázsiai hendikep: Ludogorec Razgrad 2 (-0.25) @2.05 (fair 2.051)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 21,
+  "fast": true,
+  "fixtures_checked": 118,
+  "fixtures_both": 105,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 28,
+  "classic_checked": 31,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.7% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.4 (fair 1.391)",
+   "-0.6% Göztepe – Galatasaray · Győztes: Galatasaray győz @1.21 (fair 1.217)",
+   "-0.7% Malmo FF – Vittsjö · Gólszám 3.75: Kevesebb @1.55 (fair 1.561)",
+   "-1.8% Paris 13 Atletico – Red Star FC · Gólszám 3.25: Kevesebb @1.44 (fair 1.466)",
+   "-1.8% Malmo FF – Vittsjö · Gólszám 3.5: Kevesebb @1.7 (fair 1.731)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 124
  }
 ]
