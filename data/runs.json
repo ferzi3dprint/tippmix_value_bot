@@ -1,55 +1,5 @@
 [
  {
-  "time": "2026-11-12T11:49:34.663505+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "-0.7% U21Izland – U21Görögország · Gólszám 1.5: Több @1.27 (fair 1.279)",
-   "-2.0% U21Izland – U21Görögország · 1X2: U21Görögország győz @2.27 (fair 2.317)",
-   "-2.1% Dayrout – Proxy · Ázsiai hendikep: Proxy (-0) @1.29 (fair 1.318)",
-   "-2.3% U21Izland – U21Görögország · Gólszám 2.25: Több @1.61 (fair 1.649)",
-   "-2.4% Delta United – Al-Sekka · Gólszám 1.75: Több @1.51 (fair 1.547)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 3,
-  "fast": true,
-  "fixtures_checked": 18,
-  "fixtures_both": 18,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 8,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 24
- },
- {
-  "time": "2026-11-12T11:54:36.783956+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.3% FC Masar – Tersana SC · 1X2: FC Masar győz @1.54 (fair 1.535)",
-   "-0.7% U21Izland – U21Görögország · Gólszám 1.5: Több @1.27 (fair 1.279)",
-   "-1.8% FC Masar – Tersana SC · Ázsiai hendikep: FC Masar (-0.5) @1.5 (fair 1.527)",
-   "-2.0% U21Izland – U21Görögország · 1X2: U21Görögország győz @2.27 (fair 2.317)",
-   "-2.1% Dayrout – Proxy · Ázsiai hendikep: Proxy (-0) @1.29 (fair 1.318)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 3,
-  "fast": true,
-  "fixtures_checked": 18,
-  "fixtures_both": 18,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 8,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 24
- },
- {
   "time": "2026-11-12T11:59:49.605544+00:00",
   "mode": "hu",
   "settled": 0,
@@ -18865,6 +18815,197 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 0,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T00:30:32.790353+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-0.9% Auckland United – Miramar Rangers · Gólszám 3: Több @1.68 (fair 1.695)",
+   "-1.0% Wellington Phoenix – Sydney FC · 1X2: Wellington Phoenix győz @1.43 (fair 1.445)",
+   "-1.1% Auckland United – Miramar Rangers · Gólszám 2.75: Több @1.54 (fair 1.557)",
+   "-1.2% Wellington Phoenix – Sydney FC · Gólszám 4.5: Kevesebb @1.26 (fair 1.276)",
+   "-1.6% Dallas – Buffalo · Hendikep (rendes játékidő): Buffalo (+1) @1.56 (fair 1.586)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 4,
+  "fast": true,
+  "fixtures_checked": 49,
+  "fixtures_both": 27,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "classic_checked": 29,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.9% Jamaika – Mexikó · Ázsiai hendikep: Jamaika (+1.75) @1.6 (fair 1.631)",
+   "-2.0% Wellington Phoenix – Sydney FC · Gólszám 4.5: Kevesebb @1.25 (fair 1.276)",
+   "-2.1% C. Sheehy – J.M. Romero · Győztes: C. Sheehy győz @1.06 (fair 1.083)",
+   "-2.5% David Adeleye – Ale. Flores · Győztes: David Adeleye győz @1.04 (fair 1.067)",
+   "-3.4% Wellington Phoenix – Sydney FC · Ázsiai hendikep: Wellington Phoenix (-0.75) @1.49 (fair 1.542)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 55
+ },
+ {
+  "time": "2026-11-15T00:38:12.944490+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 332,
+   "paired": 231,
+   "classic_only": 36
+  },
+  "tippmix_matches": 1244,
+  "pinnacle_fixtures": 1137,
+  "paired": 737,
+  "by_sport": {
+   "Soccer": [
+    564,
+    350
+   ],
+   "Tennis": [
+    102,
+    29
+   ],
+   "Basketball": [
+    233,
+    169
+   ],
+   "Ice Hockey": [
+    89,
+    77
+   ],
+   "Handball": [
+    39,
+    28
+   ],
+   "Volleyball": [
+    82,
+    34
+   ],
+   "Table Tennis": [
+    15,
+    5
+   ],
+   "Cricket": [
+    33,
+    10
+   ],
+   "Badminton": [
+    10,
+    4
+   ],
+   "Darts": [
+    15,
+    0
+   ],
+   "Futsal": [
+    5,
+    4
+   ],
+   "Waterpolo": [
+    2,
+    2
+   ],
+   "ESport Counter-Strike": [
+    18,
+    1
+   ],
+   "ESport Dota": [
+    5,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    24,
+    0
+   ],
+   "eBasketball": [
+    8,
+    0
+   ],
+   "American Football": [
+    0,
+    11
+   ],
+   "Boxing": [
+    0,
+    4
+   ],
+   "MMA": [
+    0,
+    7
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    2
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+0.1% Anaheim – NY Islanders · Hendikep (rendes játékidő): Anaheim (+1) @1.45 (fair 1.448)",
+   "+0.1% CD Cieza – Pena Deportiva · Ázsiai hendikep: CD Cieza (+0) @1.23 (fair 1.229)",
+   "-0.8% Új-Zéland – India · Gólszám 1.5: Több @1.13 (fair 1.139)",
+   "-0.9% Auckland United – Miramar Rangers · Gólszám 3: Több @1.68 (fair 1.695)",
+   "-1.0% Wellington Phoenix – Sydney FC · 1X2: Wellington Phoenix győz @1.43 (fair 1.445)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 16,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 92,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 13,
+  "classic_checked": 80,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+13.5% Jamaika – Mexikó · 1X2: Jamaika győz @10.5 (fair 9.252)",
+   "+2.0% ASA Aarhus – Bröndby · Gólszám 3: Több @1.75 (fair 1.715)",
+   "-0.2% ASA Aarhus – Bröndby · Gólszám 3.25: Több @1.97 (fair 1.974)",
+   "-1.1% Vanraure Hachnohe – Iwaki · Gólszám 3.5: Kevesebb @1.33 (fair 1.344)",
+   "-1.1% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 3: Kevesebb @1.32 (fair 1.335)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
   "free_calls": 156
  }
 ]
