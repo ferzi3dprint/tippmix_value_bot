@@ -1,52 +1,5 @@
 [
  {
-  "time": "2026-11-12T17:02:13.187096+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 726,
-  "pinnacle_fixtures": 601,
-  "paired": 336,
-  "by_sport": {
-   "Soccer": [
-    194,
-    124
-   ],
-   "Tennis": [
-    219,
-    16
-   ],
-   "Basketball": [
-    184,
-    100
-   ],
-   "Ice Hockey": [
-    129,
-    96
-   ]
-  },
-  "top_ev": [
-   "+1.1% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.197)",
-   "+0.8% Moldova – Kazahsztán · Gólszám 1.5: Több @1.52 (fair 1.507)",
-   "+0.8% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.151)",
-   "+0.3% San Marino – Fehéroroszország · 1X2: Fehéroroszország győz @1.13 (fair 1.126)",
-   "+0.0% Spisska Nova Ves – Trencin · Győztes (hosszabbítással): Spisska Nova Ves győz @1.48 (fair 1.48)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 7,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 116,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 24,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
   "time": "2026-11-12T17:19:08.638675+00:00",
   "mode": "hu",
   "settled": 0,
@@ -20554,5 +20507,162 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T05:59:43.730071+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 7,
+  "boosts": 0,
+  "classic": {
+   "events": 289,
+   "paired": 204,
+   "classic_only": 35
+  },
+  "tippmix_matches": 1312,
+  "pinnacle_fixtures": 1137,
+  "paired": 675,
+  "by_sport": {
+   "Soccer": [
+    634,
+    364
+   ],
+   "Tennis": [
+    87,
+    21
+   ],
+   "Basketball": [
+    237,
+    141
+   ],
+   "Ice Hockey": [
+    90,
+    60
+   ],
+   "Handball": [
+    39,
+    28
+   ],
+   "Volleyball": [
+    71,
+    34
+   ],
+   "Table Tennis": [
+    30,
+    1
+   ],
+   "Cricket": [
+    17,
+    6
+   ],
+   "Badminton": [
+    2,
+    0
+   ],
+   "Darts": [
+    16,
+    0
+   ],
+   "Futsal": [
+    5,
+    4
+   ],
+   "Waterpolo": [
+    2,
+    2
+   ],
+   "ESport Counter-Strike": [
+    21,
+    1
+   ],
+   "ESport Dota": [
+    8,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    45,
+    0
+   ],
+   "eBasketball": [
+    8,
+    0
+   ],
+   "American Football": [
+    0,
+    12
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    1
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+3.2% Solbiatese Calcio 1911 – Cittadella Vis Modena · Ázsiai hendikep: Cittadella Vis Modena (-0) @1.88 (fair 1.822)",
+   "+1.4% Kobe Leonessa – Cerezo Osaka · 1X2: Cerezo Osaka győz @3.45 (fair 3.402)",
+   "+1.3% Kobe Leonessa – Cerezo Osaka · Ázsiai hendikep: Cerezo Osaka (+0.25) @1.98 (fair 1.955)",
+   "+1.3% Kobe Leonessa – Cerezo Osaka · Ázsiai hendikep: Cerezo Osaka (-0) @2.47 (fair 2.438)",
+   "+1.2% Kobe Leonessa – Cerezo Osaka · Ázsiai hendikep: Cerezo Osaka (+0.5) @1.73 (fair 1.71)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 29,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 116,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 11,
+  "classic_checked": 43,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.1% Vakifbank Istanbul – Aras Kargo · Győztes: Vakifbank Istanbul győz @1.05 (fair 1.062)",
+   "-1.8% Zeren Spor – Eczacibasi Istanbul · Győztes: Eczacibasi Istanbul győz @1.04 (fair 1.059)",
+   "-1.9% Amarante – Felgueiras · Gólszám 3.5: Kevesebb @1.19 (fair 1.213)",
+   "-2.2% Dempo SC – Chanmari · Gólszám 3.5: Kevesebb @1.41 (fair 1.442)",
+   "-2.3% Giugliano – Savoia · 1X2: Savoia győz @2.94 (fair 3.01)"
+  ],
+  "placed": 2,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 157
  }
 ]
