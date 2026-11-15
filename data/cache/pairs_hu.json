@@ -1,89 +1,4 @@
 {
- "id1000070376413248": {
-  "tm": {
-   "id": "319003072664772608",
-   "sport": "Labdarúgás",
-   "name": "Ferro Carril Oeste - Gimnasia Tiro de Salta",
-   "home": "Ferro Carril Oeste",
-   "away": "Gimnasia Tiro de Salta",
-   "home_pid": "19509",
-   "away_pid": "592500",
-   "tournament": "Argentin 2.",
-   "category": "Argentína",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000070376413248",
-   "startTime": "2026-11-15T23:30:00.000Z",
-   "participant1Name": "Ferro Carril Oeste",
-   "participant2Name": "Gimnasia Y Tiro de Salta",
-   "tournamentId": 703,
-   "tournamentName": "Primera Nacional",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5632413,
-   "name": "Ferro Carril Oeste - Gimnasia Tiro de Salta",
-   "score": 1.0
-  }
- },
- "id1000124076422388": {
-  "tm": {
-   "id": "319739892306354176",
-   "sport": "Labdarúgás",
-   "name": "Deportes Recoleta - Deportes Iquique",
-   "home": "Deportes Recoleta",
-   "away": "Deportes Iquique",
-   "home_pid": "1463137",
-   "away_pid": "142706",
-   "tournament": "Chilei 2.",
-   "category": "Chile",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000124076422388",
-   "startTime": "2026-11-15T23:30:00.000Z",
-   "participant1Name": "Deportes Recoleta",
-   "participant2Name": "Deportes Iquique",
-   "tournamentId": 1240,
-   "tournamentName": "Primera B",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000190876775944": {
-  "tm": {
-   "id": "319885712760578048",
-   "sport": "Labdarúgás",
-   "name": "Club Oriental - Colon FC",
-   "home": "Club Oriental",
-   "away": "Colon FC",
-   "home_pid": "175448939286286336",
-   "away_pid": "5363999891128320",
-   "tournament": "Uruguayi 2.",
-   "category": "Uruguay",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000190876775944",
-   "startTime": "2026-11-15T23:30:00.000Z",
-   "participant1Name": "Club Oriental de Football",
-   "participant2Name": "Colon FC",
-   "tournamentId": 1908,
-   "tournamentName": "Segunda Division",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655002,
-   "name": "Club Oriental de Football - Colon FC",
-   "score": 1.0
-  }
- },
  "id1004876976724840": {
   "tm": {
    "id": "320036831062204416",
@@ -1262,7 +1177,12 @@
    "tournamentName": "Primera Division",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5638736,
+   "name": "Montevideo Wanderers - Juventud de Las Piedras",
+   "score": 1.0
+  }
  },
  "id1002742075512550": {
   "tm": {
@@ -1287,7 +1207,12 @@
    "tournamentName": "CONCACAF Nations League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593438,
+   "name": "Martinique - Aruba",
+   "score": 1.0
+  }
  },
  "id1002742075512552": {
   "tm": {
@@ -1312,7 +1237,12 @@
    "tournamentName": "CONCACAF Nations League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593442,
+   "name": "Trinidad és Tobago - Antigua és Barbuda",
+   "score": 1.0
+  }
  },
  "id1002742075466986": {
   "tm": {
@@ -1337,7 +1267,12 @@
    "tournamentName": "CONCACAF Nations League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593443,
+   "name": "Kanada - Guatemala",
+   "score": 1.0
+  }
  },
  "id1002816376582718": {
   "tm": {
@@ -1362,7 +1297,12 @@
    "tournamentName": "USL Championship",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655004,
+   "name": "New Mexico Utd. - Sacramento",
+   "score": 1.0
+  }
  },
  "id1000085176168950": {
   "tm": {
@@ -1412,7 +1352,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593445,
+   "name": "Lesotho - Gabon",
+   "score": 1.0
+  }
  },
  "id1000184875802236": {
   "tm": {
@@ -1437,7 +1382,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593444,
+   "name": "Malawi - Egyiptom",
+   "score": 1.0
+  }
  },
  "id1000184875802238": {
   "tm": {
@@ -1462,7 +1412,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593434,
+   "name": "Dél-Szudán - Angola",
+   "score": 1.0
+  }
  },
  "id1000184875802292": {
   "tm": {
@@ -1487,7 +1442,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593439,
+   "name": "Burundi - Zambia",
+   "score": 1.0
+  }
  },
  "id1000184875802322": {
   "tm": {
@@ -1512,7 +1472,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593440,
+   "name": "Tanzánia - Nigéria",
+   "score": 1.0
+  }
  },
  "id1000085176123776": {
   "tm": {
@@ -1537,7 +1502,12 @@
    "tournamentName": "Int. Friendly Games",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655240,
+   "name": "Japán - Paraguay",
+   "score": 1.0
+  }
  },
  "id1000085175467650": {
   "tm": {
@@ -1587,7 +1557,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593447,
+   "name": "Gambia - Elefántcsontpart",
+   "score": 1.0
+  }
  },
  "id1000184875802258": {
   "tm": {
@@ -1612,7 +1587,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593435,
+   "name": "Kenya - Dél-Afrika",
+   "score": 1.0
+  }
  },
  "id1000184875802294": {
   "tm": {
@@ -1637,7 +1617,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593446,
+   "name": "Togo - Algéria",
+   "score": 1.0
+  }
  },
  "id1000184875802324": {
   "tm": {
@@ -1662,7 +1647,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593436,
+   "name": "Bissau-Guinea - Madagaszkár",
+   "score": 1.0
+  }
  },
  "id1000033473661312": {
   "tm": {
@@ -1712,7 +1702,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593411,
+   "name": "Mauritánia - Burkina Faso",
+   "score": 1.0
+  }
  },
  "id1000184875802282": {
   "tm": {
@@ -1737,7 +1732,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593578,
+   "name": "Botswana - Uganda",
+   "score": 1.0
+  }
  },
  "id1002375568932054": {
   "tm": {
@@ -1762,7 +1762,12 @@
    "tournamentName": "UEFA Nations League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5590174,
+   "name": "Dánia - Norvégia",
+   "score": 1.0
+  }
  },
  "id1002375568932056": {
   "tm": {
@@ -1787,7 +1792,12 @@
    "tournamentName": "UEFA Nations League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5590170,
+   "name": "Wales - Portugália",
+   "score": 1.0
+  }
  },
  "id1002375568932770": {
   "tm": {
@@ -1812,7 +1822,12 @@
    "tournamentName": "UEFA Nations League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5590169,
+   "name": "Magyarország - Észak-Írország",
+   "score": 1.0
+  }
  },
  "id1002375568932772": {
   "tm": {
@@ -1837,7 +1852,12 @@
    "tournamentName": "UEFA Nations League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5590175,
+   "name": "Ukrajna - Georgia",
+   "score": 1.0
+  }
  },
  "id1002375568932740": {
   "tm": {
@@ -1862,7 +1882,12 @@
    "tournamentName": "UEFA Nations League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5591998,
+   "name": "Izrael - Ausztria",
+   "score": 1.0
+  }
  },
  "id1002375568932742": {
   "tm": {
@@ -1887,7 +1912,12 @@
    "tournamentName": "UEFA Nations League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593576,
+   "name": "Írország - Koszovó",
+   "score": 1.0
+  }
  },
  "id1002375568932630": {
   "tm": {
@@ -1912,7 +1942,12 @@
    "tournamentName": "UEFA Nations League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5590168,
+   "name": "Bosznia-Hercegovina - Románia",
+   "score": 1.0
+  }
  },
  "id1002375568932632": {
   "tm": {
@@ -1937,7 +1972,12 @@
    "tournamentName": "UEFA Nations League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5590171,
+   "name": "Lengyelország - Svédország",
+   "score": 1.0
+  }
  },
  "id1000184875802230": {
   "tm": {
@@ -1962,7 +2002,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593748,
+   "name": "Niger - Marokkó",
+   "score": 1.0
+  }
  },
  "id1000085476369476": {
   "tm": {
@@ -2187,7 +2232,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 0.883
+  "score": 0.883,
+  "cl": {
+   "id": 5593577,
+   "name": "Ruanda - Mali",
+   "score": 1.0
+  }
  },
  "id1000123876737670": {
   "tm": {
@@ -2267,7 +2317,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 0.86
+  "score": 0.86,
+  "cl": {
+   "id": 5593437,
+   "name": "Líbia - Tunézia",
+   "score": 1.0
+  }
  },
  "id1000085176123806": {
   "tm": {
@@ -2292,7 +2347,12 @@
    "tournamentName": "Int. Friendly Games",
    "sportName": "Soccer"
   },
-  "score": 0.844
+  "score": 0.844,
+  "cl": {
+   "id": 5655214,
+   "name": "Szingapúr - Brazília",
+   "score": 1.0
+  }
  },
  "id1000184875802302": {
   "tm": {
@@ -2317,7 +2377,12 @@
    "tournamentName": "Africa Cup of Nations Qualification",
    "sportName": "Soccer"
   },
-  "score": 0.844
+  "score": 0.844,
+  "cl": {
+   "id": 5593448,
+   "name": "Etiópia - Mozambik",
+   "score": 1.0
+  }
  },
  "id1002895376595266": {
   "tm": {
@@ -2539,56 +2604,6 @@
    "score": 1.0
   }
  },
- "id1200397576810034": {
-  "tm": {
-   "id": "319994796009660416",
-   "sport": "Tenisz",
-   "name": "Sebastian Dominko - Gianluca Carlini",
-   "home": "Sebastian Dominko",
-   "away": "Gianluca Carlini",
-   "home_pid": "148250291513380864",
-   "away_pid": "204552737333080064",
-   "tournament": "Champaign-selejtező, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-15T23:25:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200397576810034",
-   "startTime": "2026-11-15T23:25:00.000Z",
-   "participant1Name": "Dominko, Sebastian",
-   "participant2Name": "Carlini, Gianluca",
-   "tournamentId": 3975,
-   "tournamentName": "ATP Challenger Champaign, USA Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
- "id1200397576810030": {
-  "tm": {
-   "id": "319994795398340608",
-   "sport": "Tenisz",
-   "name": "Kaylan Bigun - Sasha Colleu",
-   "home": "Kaylan Bigun",
-   "away": "Sasha Colleu",
-   "home_pid": "148993332065914880",
-   "away_pid": "279971185735897088",
-   "tournament": "Champaign-selejtező, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-15T23:35:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200397576810030",
-   "startTime": "2026-11-15T23:35:00.000Z",
-   "participant1Name": "Bigun, Kaylan",
-   "participant2Name": "Colleu, Sasha",
-   "tournamentId": 3975,
-   "tournamentName": "ATP Challenger Champaign, USA Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
  "id1201229176809560": {
   "tm": {
    "id": "319988962243452928",
@@ -2612,7 +2627,12 @@
    "tournamentName": "ATP Challenger Drummondville, Canada Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663255,
+   "name": "M. Marterer - Ben Jones",
+   "score": 1.0
+  }
  },
  "id1200946176817418": {
   "tm": {
@@ -3282,7 +3302,12 @@
    "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5656174,
+   "name": "T. Schoolkate - C.E. Overbeck",
+   "score": 1.0
+  }
  },
  "id1200946176793920": {
   "tm": {
@@ -3307,7 +3332,12 @@
    "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5656185,
+   "name": "A. Ayeni - Mustafa Ege Sik",
+   "score": 1.0
+  }
  },
  "id1200946176793926": {
   "tm": {
@@ -3332,7 +3362,12 @@
    "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5656169,
+   "name": "Cas. Hoole - F. Broska",
+   "score": 0.93
+  }
  },
  "id1200946176793918": {
   "tm": {
@@ -3357,7 +3392,12 @@
    "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5656187,
+   "name": "Li Tu - J. McCabe",
+   "score": 1.0
+  }
  },
  "id1200946176793924": {
   "tm": {
@@ -3382,7 +3422,12 @@
    "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5656168,
+   "name": "M. Bouzige - Juncheng Shang",
+   "score": 1.0
+  }
  },
  "id1200946176793910": {
   "tm": {
@@ -3407,7 +3452,12 @@
    "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5656193,
+   "name": "Cruz Hewitt - P. Sekulic",
+   "score": 1.0
+  }
  },
  "id1201316776799006": {
   "tm": {
@@ -3432,7 +3482,12 @@
    "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655951,
+   "name": "D. Michalski - Taro Daniel",
+   "score": 1.0
+  }
  },
  "id1201316776799024": {
   "tm": {
@@ -3457,7 +3512,12 @@
    "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655948,
+   "name": "Zhizhen Zhang - L. Staeheli",
+   "score": 1.0
+  }
  },
  "id1201316776799022": {
   "tm": {
@@ -3482,7 +3542,12 @@
    "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655946,
+   "name": "K. Samrej - Yuta Tomida",
+   "score": 1.0
+  }
  },
  "id1201316776799016": {
   "tm": {
@@ -3507,7 +3572,12 @@
    "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655954,
+   "name": "M. Poljicak - J.D.H. Friend",
+   "score": 1.0
+  }
  },
  "id1201316776799014": {
   "tm": {
@@ -3532,7 +3602,12 @@
    "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655949,
+   "name": "Mitsuki Wei Kang Leong - Rio Noguchi",
+   "score": 1.0
+  }
  },
  "id1201316776799018": {
   "tm": {
@@ -3557,7 +3632,12 @@
    "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655947,
+   "name": "D. Jorda Sanchis - Yu Hsiou Hsu",
+   "score": 1.0
+  }
  },
  "id1201316776799012": {
   "tm": {
@@ -3582,7 +3662,12 @@
    "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655953,
+   "name": "Niels McDonald - Kee. Smith",
+   "score": 0.9
+  }
  },
  "id1200398776806570": {
   "tm": {
@@ -3607,7 +3692,12 @@
    "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663196,
+   "name": "J. Duckworth - Eero Vasa",
+   "score": 1.0
+  }
  },
  "id1200398776806566": {
   "tm": {
@@ -3632,7 +3722,12 @@
    "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663181,
+   "name": "D. Glinka - Nishesh Basavareddy",
+   "score": 1.0
+  }
  },
  "id1200398776806564": {
   "tm": {
@@ -3657,7 +3752,12 @@
    "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663158,
+   "name": "D. Svrcina - Leo Borg",
+   "score": 1.0
+  }
  },
  "id1200398776806568": {
   "tm": {
@@ -3682,7 +3782,12 @@
    "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663163,
+   "name": "M. Ribecai - E. Butvilas",
+   "score": 1.0
+  }
  },
  "id1201316976779896": {
   "tm": {
@@ -3862,7 +3967,12 @@
    "tournamentName": "ATP Challenger Champaign, USA Men Singles",
    "sportName": "Tennis"
   },
-  "score": 0.916
+  "score": 0.916,
+  "cl": {
+   "id": 5663247,
+   "name": "Z. Viiala - Sam. Heredia",
+   "score": 0.916
+  }
  },
  "id1201316776833604": {
   "tm": {
@@ -3893,81 +4003,6 @@
    "name": "Ben. Hassan - Yunseong Chung",
    "score": 0.86
   }
- },
- "id1103560576190852": {
-  "tm": {
-   "id": "318936774118285312",
-   "sport": "Kosárlabda",
-   "name": "Rocamora - CD Chanares",
-   "home": "Rocamora",
-   "away": "CD Chanares",
-   "home_pid": "226882641757097984",
-   "away_pid": "213525315121729536",
-   "tournament": "Argentin bajnokság, női",
-   "category": "Argentína",
-   "tm_sport_id": "8",
-   "start": "2026-11-15T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103560576190852",
-   "startTime": "2026-11-15T23:30:00.000Z",
-   "participant1Name": "Tomas de Rocamora",
-   "participant2Name": "CD Chanares",
-   "tournamentId": 35605,
-   "tournamentName": "Liga Femenina, Women",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1103560576190816": {
-  "tm": {
-   "id": "318936729766666240",
-   "sport": "Kosárlabda",
-   "name": "Union Florida - El Talar",
-   "home": "Union Florida",
-   "away": "El Talar",
-   "home_pid": "227095472405368832",
-   "away_pid": "252752396738924544",
-   "tournament": "Argentin bajnokság, női",
-   "category": "Argentína",
-   "tm_sport_id": "8",
-   "start": "2026-11-15T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103560576190816",
-   "startTime": "2026-11-15T23:30:00.000Z",
-   "participant1Name": "Union Florida",
-   "participant2Name": "El Talar",
-   "tournamentId": 35605,
-   "tournamentName": "Liga Femenina, Women",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1103449675756098": {
-  "tm": {
-   "id": "318936727218626560",
-   "sport": "Kosárlabda",
-   "name": "Regatas de San Nicolas - Cub Ciclista Juninense",
-   "home": "Regatas de San Nicolas",
-   "away": "Cub Ciclista Juninense",
-   "home_pid": "196935726307373056",
-   "away_pid": "131961461289308160",
-   "tournament": "Argentin 2.",
-   "category": "Argentína",
-   "tm_sport_id": "8",
-   "start": "2026-11-15T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103449675756098",
-   "startTime": "2026-11-15T23:30:00.000Z",
-   "participant1Name": "Regatas de San Nicolas",
-   "participant2Name": "Ciclista Juninense",
-   "tournamentId": 34496,
-   "tournamentName": "Liga Argentina",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1100013273719656": {
   "tm": {
@@ -4562,7 +4597,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593506,
+   "name": "BC Dubai - Anadolu Efes",
+   "score": 1.0
+  }
  },
  "id1100013873263160": {
   "tm": {
@@ -4587,7 +4627,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5586711,
+   "name": "Fenerbahce - ASVEL Lyon-Villeurbanne",
+   "score": 1.0
+  }
  },
  "id1100013873263168": {
   "tm": {
@@ -4612,7 +4657,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5583819,
+   "name": "Olimpia Milano - Crvena zvezda",
+   "score": 1.0
+  }
  },
  "id1100013873263172": {
   "tm": {
@@ -4637,7 +4687,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5586721,
+   "name": "Partizan Belgrád - Valencia",
+   "score": 1.0
+  }
  },
  "id1100013873263174": {
   "tm": {
@@ -4662,7 +4717,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5583825,
+   "name": "Virtus Bologna - Panathinaikosz",
+   "score": 1.0
+  }
  },
  "id1102669674476626": {
   "tm": {
@@ -5267,7 +5327,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 0.922
+  "score": 0.922,
+  "cl": {
+   "id": 5586718,
+   "name": "Zalgiris Kaunas - Bayern München",
+   "score": 1.0
+  }
  },
  "id1102015473113308": {
   "tm": {
@@ -5377,7 +5442,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 0.785
+  "score": 0.785,
+  "cl": {
+   "id": 5583821,
+   "name": "Maccabi TA - Olympiakosz",
+   "score": 1.0
+  }
  },
  "id1100168075364736": {
   "tm": {
@@ -5457,7 +5527,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 0.767
+  "score": 0.767,
+  "cl": {
+   "id": 5586719,
+   "name": "Baskonia Vitoria - Hapoel TA",
+   "score": 1.0
+  }
  },
  "id1104111874765632": {
   "tm": {
@@ -5947,7 +6022,12 @@
    "tournamentName": "Superisligaen",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593651,
+   "name": "Aalborg - Herning",
+   "score": 1.0
+  }
  },
  "id1500026772677592": {
   "tm": {
@@ -6097,7 +6177,12 @@
    "tournamentName": "Ligue Magnus",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655277,
+   "name": "Angers - Chamonix",
+   "score": 1.0
+  }
  },
  "id1500024373739500": {
   "tm": {
@@ -6789,106 +6874,6 @@
   },
   "score": 1.0
  },
- "id2304480376160594": {
-  "tm": {
-   "id": "319445122290884608",
-   "sport": "Röplabda",
-   "name": "Universitario de Deportes - Regatas Lima",
-   "home": "Universitario de Deportes",
-   "away": "Regatas Lima",
-   "home_pid": "222042246262968320",
-   "away_pid": "194823081404035072",
-   "tournament": "Perui bajnokság, női",
-   "category": "Peru",
-   "tm_sport_id": "20",
-   "start": "2026-11-15T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2304480376160594",
-   "startTime": "2026-11-15T23:30:00.000Z",
-   "participant1Name": "Universitario de Deportes",
-   "participant2Name": "Regatas Lima",
-   "tournamentId": 44803,
-   "tournamentName": "Liga Peruana, Women",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0
- },
- "id2503634976793770": {
-  "tm": {
-   "id": "319963243933147136",
-   "sport": "Asztalitenisz",
-   "name": "Marek Chlebecek - Alesh Bayer",
-   "home": "Marek Chlebecek",
-   "away": "Alesh Bayer",
-   "home_pid": "240751882245935104",
-   "away_pid": "105042522788745216",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-15T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976793770",
-   "startTime": "2026-11-15T23:30:00.000Z",
-   "participant1Name": "Chlebecek, Marek",
-   "participant2Name": "Bayer, Ales",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976793738": {
-  "tm": {
-   "id": "319963244632547328",
-   "sport": "Asztalitenisz",
-   "name": "Lukas Zeman - Martin Huk",
-   "home": "Lukas Zeman",
-   "away": "Martin Huk",
-   "home_pid": "147621275939950592",
-   "away_pid": "104505550771998720",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-15T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976793738",
-   "startTime": "2026-11-15T23:30:00.000Z",
-   "participant1Name": "Zeman, Lukas",
-   "participant2Name": "Huk, Martin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976793724": {
-  "tm": {
-   "id": "319963356508266496",
-   "sport": "Asztalitenisz",
-   "name": "Radim Urbaniec - Tomas Franek",
-   "home": "Radim Urbaniec",
-   "away": "Tomas Franek",
-   "home_pid": "167634919836667904",
-   "away_pid": "225094649478533120",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-15T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976793724",
-   "startTime": "2026-11-15T23:30:00.000Z",
-   "participant1Name": "Urbaniec, Radim",
-   "participant2Name": "Franek, Tomas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976793664": {
   "tm": {
    "id": "319961548783165440",
@@ -6939,31 +6924,6 @@
   },
   "score": 1.0
  },
- "id2503637776800038": {
-  "tm": {
-   "id": "320068441922936832",
-   "sport": "Asztalitenisz",
-   "name": "Marian Brunner - Mucha Grzegorz",
-   "home": "Marian Brunner",
-   "away": "Mucha Grzegorz",
-   "home_pid": "198623818140512256",
-   "away_pid": "226917570260914176",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-15T23:35:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776800038",
-   "startTime": "2026-11-15T23:35:00.000Z",
-   "participant1Name": "Brunner, Marian",
-   "participant2Name": "Mucha, Grzegorz",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503637776800044": {
   "tm": {
    "id": "320067990644137984",
@@ -6988,6 +6948,81 @@
    "sportName": "Table Tennis"
   },
   "score": 1.0
+ },
+ "id2503634976793850": {
+  "tm": {
+   "id": "319963243603894272",
+   "sport": "Asztalitenisz",
+   "name": "Zmuda Petr - Marek Chlebecek",
+   "home": "Zmuda Petr",
+   "away": "Marek Chlebecek",
+   "home_pid": "274261926635245568",
+   "away_pid": "240751882245935104",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T00:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976793850",
+   "startTime": "2026-11-16T00:30:00.000Z",
+   "participant1Name": "Zmuda, Petr",
+   "participant2Name": "Chlebecek, Marek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976793670": {
+  "tm": {
+   "id": "319963355565596672",
+   "sport": "Asztalitenisz",
+   "name": "Ondrej Svacha - Radim Urbaniec",
+   "home": "Ondrej Svacha",
+   "away": "Radim Urbaniec",
+   "home_pid": "192184043047120896",
+   "away_pid": "167634919836667904",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T00:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976793670",
+   "startTime": "2026-11-16T00:30:00.000Z",
+   "participant1Name": "Svacha, Ondrej",
+   "participant2Name": "Urbaniec, Radim",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976793854": {
+  "tm": {
+   "id": "319963357298892800",
+   "sport": "Asztalitenisz",
+   "name": "Eric Maresh - Lukas Zeman",
+   "home": "Eric Maresh",
+   "away": "Lukas Zeman",
+   "home_pid": "104575284237455360",
+   "away_pid": "147621275939950592",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T00:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976793854",
+   "startTime": "2026-11-16T00:30:00.000Z",
+   "participant1Name": "Mares, Erik",
+   "participant2Name": "Zeman, Lukas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.9
  },
  "id2702054673456020": {
   "tm": {
@@ -7187,7 +7222,12 @@
    "tournamentName": "Grand Slam of Darts",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5649193,
+   "name": "K. Ratajski - T. Sykes",
+   "score": 1.0
+  }
  },
  "id1900059776636350": {
   "tm": {
@@ -7212,7 +7252,12 @@
    "tournamentName": "Grand Slam of Darts",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5649200,
+   "name": "N. Aspinall - K. Sedlacek",
+   "score": 1.0
+  }
  },
  "id1705112676712514": {
   "tm": {
@@ -7352,6 +7397,27 @@
    "tournament": "ATP-vb, férfi páros, B csoport"
   }
  },
+ "id1205210676807324": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676807324",
+   "startTime": "2026-11-16T13:30:00.000Z",
+   "participant1Name": "Sharipov, Marat",
+   "participant2Name": "Montes-de la Torre, Inaki",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663259,
+   "name": "M. Sharipov - I. Montes-de La Torre",
+   "score": 1.0,
+   "home": "M. Sharipov",
+   "away": "I. Montes-de La Torre",
+   "tournament": "Metz, férfi egyes"
+  }
+ },
  "id1205210676807326": {
   "tm": null,
   "fx": {
@@ -7412,6 +7478,90 @@
    "score": 1.0,
    "home": "N. Basilashvili",
    "away": "M. Houkes",
+   "tournament": "Metz, férfi egyes"
+  }
+ },
+ "id1200946176793928": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1200946176793928",
+   "startTime": "2026-11-16T23:00:00.000Z",
+   "participant1Name": "Sweeny, Dane",
+   "participant2Name": "Langmo, Christian",
+   "tournamentId": 9461,
+   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5656176,
+   "name": "D. Sweeny - C. Langmo",
+   "score": 1.0,
+   "home": "D. Sweeny",
+   "away": "C. Langmo",
+   "tournament": "Sydney, férfi egyes"
+  }
+ },
+ "id1205210676807180": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676807180",
+   "startTime": "2026-11-17T10:00:00.000Z",
+   "participant1Name": "Mrva, Maxim",
+   "participant2Name": "Jacquet, Kyrian",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663174,
+   "name": "M. Mrva - K. Jacquet",
+   "score": 1.0,
+   "home": "M. Mrva",
+   "away": "K. Jacquet",
+   "tournament": "Metz, férfi egyes"
+  }
+ },
+ "id1205210676807196": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676807196",
+   "startTime": "2026-11-17T10:00:00.000Z",
+   "participant1Name": "Henning, Philip",
+   "participant2Name": "Gaston, Hugo",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663198,
+   "name": "P. Henning - H. Gaston",
+   "score": 1.0,
+   "home": "P. Henning",
+   "away": "H. Gaston",
+   "tournament": "Metz, férfi egyes"
+  }
+ },
+ "id1205210676807190": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676807190",
+   "startTime": "2026-11-17T10:00:00.000Z",
+   "participant1Name": "Sachko, Vitaliy",
+   "participant2Name": "Kwon, Soonwoo",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 0.972,
+  "cl": {
+   "id": 5663172,
+   "name": "V. Sachko - Soon Woo Kwon",
+   "score": 0.972,
+   "home": "V. Sachko",
+   "away": "Soon Woo Kwon",
    "tournament": "Metz, férfi egyes"
   }
  },
@@ -7499,6 +7649,27 @@
    "tournament": "Yokohama, női egyes"
   }
  },
+ "id1205210676807184": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676807184",
+   "startTime": "2026-11-17T10:00:00.000Z",
+   "participant1Name": "Nagel, Arthur",
+   "participant2Name": "Lajovic, Dusan",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 0.9,
+  "cl": {
+   "id": 5663183,
+   "name": "Art. Nagel - D. Lajovic",
+   "score": 0.9,
+   "home": "Art. Nagel",
+   "away": "D. Lajovic",
+   "tournament": "Metz, férfi egyes"
+  }
+ },
  "id1204820376771786": {
   "tm": null,
   "fx": {
@@ -7562,6 +7733,48 @@
    "tournament": "Yokohama, női egyes"
   }
  },
+ "id1205210676807192": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676807192",
+   "startTime": "2026-11-17T10:00:00.000Z",
+   "participant1Name": "Muller, Alexandre",
+   "participant2Name": "Piros, Zsombor",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 0.838,
+  "cl": {
+   "id": 5663197,
+   "name": "Ale. Muller - Piros Zsombor",
+   "score": 0.838,
+   "home": "Ale. Muller",
+   "away": "Piros Zsombor",
+   "tournament": "Metz, férfi egyes"
+  }
+ },
+ "id1200946176793916": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1200946176793916",
+   "startTime": "2026-11-16T23:00:00.000Z",
+   "participant1Name": "Holmgren, August",
+   "participant2Name": "Suresh, Dhakshineswar",
+   "tournamentId": 9461,
+   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 0.797,
+  "cl": {
+   "id": 5656192,
+   "name": "A. Holmgren - Dhak. Suresh",
+   "score": 0.797,
+   "home": "A. Holmgren",
+   "away": "Dhak. Suresh",
+   "tournament": "Sydney, férfi egyes"
+  }
+ },
  "id1100119774527780": {
   "tm": null,
   "fx": {
@@ -7581,6 +7794,48 @@
    "home": "Hapoel Galil Elyon",
    "away": "Hapoel Eilat",
    "tournament": "Izraeli bajnokság"
+  }
+ },
+ "id1500023472909506": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1500023472909506",
+   "startTime": "2026-11-17T02:30:00.000Z",
+   "participant1Name": "Utah Mammoth",
+   "participant2Name": "Vancouver Canucks",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5588803,
+   "name": "Utah - Vancouver",
+   "score": 1.0,
+   "home": "Utah",
+   "away": "Vancouver",
+   "tournament": "NHL"
+  }
+ },
+ "id1500023472909504": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1500023472909504",
+   "startTime": "2026-11-17T00:30:00.000Z",
+   "participant1Name": "New York Rangers",
+   "participant2Name": "Montreal Canadiens",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 0.785,
+  "cl": {
+   "id": 5593546,
+   "name": "NY Rangers - Montreal",
+   "score": 0.785,
+   "home": "NY Rangers",
+   "away": "Montreal",
+   "tournament": "NHL"
   }
  },
  "id2301455675208614": {
@@ -7622,6 +7877,27 @@
    "score": 1.0,
    "home": "Cincinnati",
    "away": "Pittsburgh",
+   "tournament": "NFL"
+  }
+ },
+ "id1400003171516032": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1400003171516032",
+   "startTime": "2026-11-17T01:15:00.000Z",
+   "participant1Name": "Baltimore Ravens",
+   "participant2Name": "Los Angeles Chargers",
+   "tournamentId": 31,
+   "tournamentName": "NFL",
+   "sportName": "American Football"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5593553,
+   "name": "Baltimore - LA Chargers",
+   "score": 1.0,
+   "home": "Baltimore",
+   "away": "LA Chargers",
    "tournament": "NFL"
   }
  },
