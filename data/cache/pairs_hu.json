@@ -1,79 +1,4 @@
 {
- "id1002708873075402": {
-  "tm": {
-   "id": "319539462651584512",
-   "sport": "Labdarúgás",
-   "name": "Alianza FC - CD Fas",
-   "home": "Alianza FC",
-   "away": "CD Fas",
-   "home_pid": "161153",
-   "away_pid": "372921",
-   "tournament": "Salvadori bajnokság",
-   "category": "Salvador",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002708873075402",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Alianza FC San Salvador",
-   "participant2Name": "CD FAS Santa Ana",
-   "tournamentId": 27088,
-   "tournamentName": "Primera Division",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002708874595376": {
-  "tm": {
-   "id": "319874086166667264",
-   "sport": "Labdarúgás",
-   "name": "AD Isidro Metapan - CD Luis Angel Firpo",
-   "home": "AD Isidro Metapan",
-   "away": "CD Luis Angel Firpo",
-   "home_pid": "59394",
-   "away_pid": "1487769",
-   "tournament": "Salvadori bajnokság",
-   "category": "Salvador",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002708874595376",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "AD Isidro Metapan",
-   "participant2Name": "CD Luis Angel Firpo Usulutan",
-   "tournamentId": 27088,
-   "tournamentName": "Primera Division",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000059474873418": {
-  "tm": {
-   "id": "318731472609550336",
-   "sport": "Labdarúgás",
-   "name": "Auckland United - Miramar Rangers",
-   "home": "Auckland United",
-   "away": "Miramar Rangers",
-   "home_pid": "112458006299561984",
-   "away_pid": "155015260465741824",
-   "tournament": "Új-zélandi bajnokság",
-   "category": "Új-Zéland",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000059474873418",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Auckland United FC",
-   "participant2Name": "Miramar Rangers",
-   "tournamentId": 594,
-   "tournamentName": "National League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000085175786296": {
   "tm": {
    "id": "318176725869600768",
@@ -9264,36 +9189,6 @@
    "score": 1.0
   }
  },
- "id1201316776794680": {
-  "tm": {
-   "id": "319936129226842112",
-   "sport": "Tenisz",
-   "name": "Koki Matsuda - Shintaro Imai",
-   "home": "Koki Matsuda",
-   "away": "Shintaro Imai",
-   "home_pid": "183123731450744832",
-   "away_pid": "674791",
-   "tournament": "ATP Challenger Kobe, Qualifications",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316776794680",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Matsuda, Koki",
-   "participant2Name": "Imai, Shintaro",
-   "tournamentId": 13167,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655888,
-   "name": "Koki Matsuda - Shi. Imai",
-   "score": 0.833
-  }
- },
  "id1204838976431694": {
   "tm": {
    "id": "319923542541017088",
@@ -9982,36 +9877,6 @@
    "id": 5655999,
    "name": "Ren. Tokuda - Yunseong Chung",
    "score": 0.936
-  }
- },
- "id1100150672704680": {
-  "tm": {
-   "id": "318936749277519872",
-   "sport": "Kosárlabda",
-   "name": "Southside Flyers - Perth Lynx",
-   "home": "Southside Flyers",
-   "away": "Perth Lynx",
-   "home_pid": "10617730745110528",
-   "away_pid": "186427818554478592",
-   "tournament": "Ausztrál bajnokság, női",
-   "category": "Ausztrália",
-   "tm_sport_id": "8",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100150672704680",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Southside Flyers",
-   "participant2Name": "Perth Lynx",
-   "tournamentId": 1506,
-   "tournamentName": "WNBL",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555716,
-   "name": "Southside Flyers - Perth",
-   "score": 1.0
   }
  },
  "id1100064873936270": {
@@ -14124,96 +13989,6 @@
   },
   "score": 0.72
  },
- "id1500023472909484": {
-  "tm": {
-   "id": "318936544181297152",
-   "sport": "Jégkorong",
-   "name": "Utah - San Jose",
-   "home": "Utah",
-   "away": "San Jose",
-   "home_pid": "240877360616214528",
-   "away_pid": "37442",
-   "tournament": "NHL (alapszakasz)",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500023472909484",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Utah Mammoth",
-   "participant2Name": "San Jose Sharks",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555806,
-   "name": "Utah - San Jose",
-   "score": 1.0
-  }
- },
- "id1500084472733758": {
-  "tm": {
-   "id": "318936581456076800",
-   "sport": "Jégkorong",
-   "name": "Ontario Reign - Abbotsford Cannuck",
-   "home": "Ontario Reign",
-   "away": "Abbotsford Cannuck",
-   "home_pid": "1389674",
-   "away_pid": "151860668437417984",
-   "tournament": "AHL",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500084472733758",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Ontario Reign",
-   "participant2Name": "Abbotsford Canucks",
-   "tournamentId": 844,
-   "tournamentName": "AHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555798,
-   "name": "Ontario Reign - Abbotsford",
-   "score": 1.0
-  }
- },
- "id1500084472733762": {
-  "tm": {
-   "id": "318936583127506944",
-   "sport": "Jégkorong",
-   "name": "Henderson Silver Knights - Calgary Wranglers",
-   "home": "Henderson Silver Knights",
-   "away": "Calgary Wranglers",
-   "home_pid": "129604095599235072",
-   "away_pid": "185064188896399360",
-   "tournament": "AHL",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500084472733762",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Henderson Silver Knights",
-   "participant2Name": "Calgary Wranglers",
-   "tournamentId": 844,
-   "tournamentName": "AHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555795,
-   "name": "Henderson - Calgary Wranglers",
-   "score": 1.0
-  }
- },
  "id1500023472909488": {
   "tm": {
    "id": "318936547427688448",
@@ -15574,81 +15349,6 @@
    "score": 1.0
   }
  },
- "id1501436172712522": {
-  "tm": {
-   "id": "318936549898133504",
-   "sport": "Jégkorong",
-   "name": "Vancouver Giants - Penticton Vees",
-   "home": "Vancouver Giants",
-   "away": "Penticton Vees",
-   "home_pid": "154878527639965696",
-   "away_pid": "280256832854953984",
-   "tournament": "WHL",
-   "category": "Kanada",
-   "tm_sport_id": "6",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1501436172712522",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Vancouver Giants",
-   "participant2Name": "Penticton Vees",
-   "tournamentId": 14361,
-   "tournamentName": "WHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
- "id1501436172712518": {
-  "tm": {
-   "id": "318936549592997888",
-   "sport": "Jégkorong",
-   "name": "Seattle Thunderbirds - Spokane Chiefs",
-   "home": "Seattle Thunderbirds",
-   "away": "Spokane Chiefs",
-   "home_pid": "184072134028480512",
-   "away_pid": "184072139439132672",
-   "tournament": "WHL",
-   "category": "Kanada",
-   "tm_sport_id": "6",
-   "start": "2026-11-15T02:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1501436172712518",
-   "startTime": "2026-11-15T02:05:00.000Z",
-   "participant1Name": "Seattle Thunderbirds",
-   "participant2Name": "Spokane Chiefs",
-   "tournamentId": 14361,
-   "tournamentName": "WHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
- "id1501436172712520": {
-  "tm": {
-   "id": "318936550047031296",
-   "sport": "Jégkorong",
-   "name": "Tri-City Americans - Everett Silvertips",
-   "home": "Tri-City Americans",
-   "away": "Everett Silvertips",
-   "home_pid": "154388446750916608",
-   "away_pid": "184072122159648768",
-   "tournament": "WHL",
-   "category": "Kanada",
-   "tm_sport_id": "6",
-   "start": "2026-11-15T02:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1501436172712520",
-   "startTime": "2026-11-15T02:05:00.000Z",
-   "participant1Name": "Tri-City Americans",
-   "participant2Name": "Everett Silvertips",
-   "tournamentId": 14361,
-   "tournamentName": "WHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
  "id1500145472180984": {
   "tm": {
    "id": "318936559303860224",
@@ -15751,6 +15451,36 @@
   "cl": {
    "id": 5559555,
    "name": "Östersund - Visby-Roma",
+   "score": 1.0
+  }
+ },
+ "id1500084472734746": {
+  "tm": {
+   "id": "318936583322542080",
+   "sport": "Jégkorong",
+   "name": "Providence Bruins - Toronto Marlies",
+   "home": "Providence Bruins",
+   "away": "Toronto Marlies",
+   "home_pid": "37747",
+   "away_pid": "54176",
+   "tournament": "AHL",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-15T20:05:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500084472734746",
+   "startTime": "2026-11-15T20:05:00.000Z",
+   "participant1Name": "Providence Bruins",
+   "participant2Name": "Toronto Marlies",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5556657,
+   "name": "Providence - Toronto Marlies",
    "score": 1.0
   }
  },
@@ -15872,36 +15602,6 @@
    "id": 5556186,
    "name": "EV Regensburg - Bad Nauheim",
    "score": 1.0
-  }
- },
- "id1500084472733760": {
-  "tm": {
-   "id": "318936584288280576",
-   "sport": "Jégkorong",
-   "name": "SJ Barracuda - San Diego Gulls",
-   "home": "SJ Barracuda",
-   "away": "San Diego Gulls",
-   "home_pid": "1390575",
-   "away_pid": "1389463",
-   "tournament": "AHL",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500084472733760",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "San Jose Barracuda",
-   "participant2Name": "San Diego Gulls",
-   "tournamentId": 844,
-   "tournamentName": "AHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 0.813,
-  "cl": {
-   "id": 5555801,
-   "name": "San Jose Barracuda - San Diego",
-   "score": 0.813
   }
  },
  "id1500073572119026": {
@@ -17664,50 +17364,25 @@
   },
   "score": 1.0
  },
- "id2503634976764126": {
+ "id2503634976764160": {
   "tm": {
-   "id": "319856308932124672",
+   "id": "319856308784275456",
    "sport": "Asztalitenisz",
-   "name": "Urban Roman - Milan Smrcek",
-   "home": "Urban Roman",
-   "away": "Milan Smrcek",
-   "home_pid": "191424305229361152",
-   "away_pid": "127592158820618240",
+   "name": "Patrik Pycha - Alesh Bayer",
+   "home": "Patrik Pycha",
+   "away": "Alesh Bayer",
+   "home_pid": "131044481783877632",
+   "away_pid": "105042522788745216",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-15T02:00:00+00:00"
+   "start": "2026-11-15T02:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976764126",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Urban, Roman",
-   "participant2Name": "Smrcek, Milan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976764068": {
-  "tm": {
-   "id": "319856305564098560",
-   "sport": "Asztalitenisz",
-   "name": "Richard Krejci - Jiri Zuzanek",
-   "home": "Richard Krejci",
-   "away": "Jiri Zuzanek",
-   "home_pid": "189918017587564544",
-   "away_pid": "189194976074190848",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764068",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Krejci, Richard",
-   "participant2Name": "Zuzanek, Jiri",
+   "fixtureId": "id2503634976764160",
+   "startTime": "2026-11-15T02:30:00.000Z",
+   "participant1Name": "Pycha, Patrik",
+   "participant2Name": "Bayer, Ales",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -17739,31 +17414,6 @@
   },
   "score": 1.0
  },
- "id2503634976764160": {
-  "tm": {
-   "id": "319856308784275456",
-   "sport": "Asztalitenisz",
-   "name": "Patrik Pycha - Alesh Bayer",
-   "home": "Patrik Pycha",
-   "away": "Alesh Bayer",
-   "home_pid": "131044481783877632",
-   "away_pid": "105042522788745216",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-15T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976764160",
-   "startTime": "2026-11-15T02:30:00.000Z",
-   "participant1Name": "Pycha, Patrik",
-   "participant2Name": "Bayer, Ales",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976764140": {
   "tm": {
    "id": "319856155600953344",
@@ -17783,6 +17433,56 @@
    "startTime": "2026-11-15T02:30:00.000Z",
    "participant1Name": "Martinek, Jaroslav",
    "participant2Name": "Havrda, Leos",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764284": {
+  "tm": {
+   "id": "319856305321877504",
+   "sport": "Asztalitenisz",
+   "name": "Richard Krejci - Martin Vizek",
+   "home": "Richard Krejci",
+   "away": "Martin Vizek",
+   "home_pid": "189918017587564544",
+   "away_pid": "256731479040974848",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-15T03:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764284",
+   "startTime": "2026-11-15T03:00:00.000Z",
+   "participant1Name": "Krejci, Richard",
+   "participant2Name": "Vizek, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976764184": {
+  "tm": {
+   "id": "319856309280251904",
+   "sport": "Asztalitenisz",
+   "name": "Urban Roman - Martin Ulrych",
+   "home": "Urban Roman",
+   "away": "Martin Ulrych",
+   "home_pid": "191424305229361152",
+   "away_pid": "288036373174456320",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-15T03:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976764184",
+   "startTime": "2026-11-15T03:00:00.000Z",
+   "participant1Name": "Urban, Roman",
+   "participant2Name": "Ulrych, Martin",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -17868,36 +17568,6 @@
    "sportName": "Cricket"
   },
   "score": 1.0
- },
- "id2702781573528268": {
-  "tm": {
-   "id": "319666197794725888",
-   "sport": "Krikett",
-   "name": "Új-Zéland - India",
-   "home": "Új-Zéland",
-   "away": "India",
-   "home_pid": "38148",
-   "away_pid": "38159",
-   "tournament": "ODI Series",
-   "category": "Világ",
-   "tm_sport_id": "26",
-   "start": "2026-11-15T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702781573528268",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "New Zealand",
-   "participant2Name": "India",
-   "tournamentId": 27815,
-   "tournamentName": "ODI Series New Zealand vs India",
-   "sportName": "Cricket"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555660,
-   "name": "Új-Zéland - India",
-   "score": 1.0
-  }
  },
  "id2701556269238744": {
   "tm": {
@@ -18590,69 +18260,6 @@
    "tournament": "Német bajnokság"
   }
  },
- "id1100064873667502": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1100064873667502",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "North Dakota Fighting Hawks",
-   "participant2Name": "Montana Grizzlies",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 0.973,
-  "cl": {
-   "id": 5555047,
-   "name": "North Dakota Fighting Hawks - Montana Grizzlies",
-   "score": 0.973,
-   "home": "North Dakota Fighting Haw",
-   "away": "Montana Grizzlies",
-   "tournament": "NCAA"
-  }
- },
- "id1500084472734132": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1500084472734132",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Tucson Roadrunners",
-   "participant2Name": "Texas Stars",
-   "tournamentId": 844,
-   "tournamentName": "AHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555807,
-   "name": "Tucson - Texas Stars",
-   "score": 1.0,
-   "home": "Tucson",
-   "away": "Texas Stars",
-   "tournament": "AHL"
-  }
- },
- "id1500084472734746": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1500084472734746",
-   "startTime": "2026-11-15T20:05:00.000Z",
-   "participant1Name": "Providence Bruins",
-   "participant2Name": "Toronto Marlies",
-   "tournamentId": 844,
-   "tournamentName": "AHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5556657,
-   "name": "Providence - Toronto Marlies",
-   "score": 1.0,
-   "home": "Providence",
-   "away": "Toronto Marlies",
-   "tournament": "AHL"
-  }
- },
  "id2300056773076700": {
   "tm": null,
   "fx": {
@@ -18947,27 +18554,6 @@
    "tournament": "NFL"
   }
  },
- "id2102432775834440": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2102432775834440",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Olascuaga, Anthony",
-   "participant2Name": "Martinez, Yuberjen",
-   "tournamentId": 24327,
-   "tournamentName": "International Matchups",
-   "sportName": "Boxing"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593165,
-   "name": "A. Olascuaga - Yuberjen Martinez",
-   "score": 1.0,
-   "home": "A. Olascuaga",
-   "away": "Yuberjen Martinez",
-   "tournament": "Profi mérkőzés"
-  }
- },
  "id2102432775573246": {
   "tm": null,
   "fx": {
@@ -18987,27 +18573,6 @@
    "home": "Diego Pacheco",
    "away": "Darius Fulghum",
    "tournament": "Profi mérkőzés"
-  }
- },
- "id2005347674915880": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2005347674915880",
-   "startTime": "2026-11-15T02:00:00.000Z",
-   "participant1Name": "Hasan, Bilal",
-   "participant2Name": "Gurule, Luis",
-   "tournamentId": 53476,
-   "tournamentName": "UFC 334: Gane vs. Hokit",
-   "sportName": "MMA"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5649288,
-   "name": "Bilal Hasan - L. Gurule",
-   "score": 1.0,
-   "home": "Bilal Hasan",
-   "away": "L. Gurule",
-   "tournament": "UFC 334, New York"
   }
  },
  "id2005347674915882": {
