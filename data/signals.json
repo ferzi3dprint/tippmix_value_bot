@@ -1764,5 +1764,39 @@
   "band": "1.80–2.10",
   "trigger": "steam",
   "bet": false
+ },
+ {
+  "fixture_id": "id1005307074100782",
+  "market_id": 10174,
+  "outcome_id": 10174,
+  "first_at": "2026-11-15T01:24:52.364613+00:00",
+  "start": "2026-11-15T03:00:00.000Z",
+  "home": "Los Cabos",
+  "away": "Chapulineros de Oaxaca",
+  "tournament": "Mexikói 3.",
+  "label": "Gólszám 3: Több",
+  "odds": 2.02,
+  "fair_prob": 0.52353,
+  "ev": 0.05752,
+  "band": "1.80–2.10",
+  "trigger": "normál",
+  "bet": true
+ },
+ {
+  "fixture_id": "id1005307074100782",
+  "market_id": 10176,
+  "outcome_id": 10176,
+  "first_at": "2026-11-15T01:24:52.364613+00:00",
+  "start": "2026-11-15T03:00:00.000Z",
+  "home": "Los Cabos",
+  "away": "Chapulineros de Oaxaca",
+  "tournament": "Mexikói 3.",
+  "label": "Gólszám 3.25: Több",
+  "odds": 2.28,
+  "fair_prob": 0.46246,
+  "ev": 0.0544,
+  "band": "2.10–2.50",
+  "trigger": "normál",
+  "bet": false
  }
 ]
