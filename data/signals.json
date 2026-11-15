@@ -1828,7 +1828,7 @@
   "closing_fair_prob": 0.42013,
   "closing_fair_odds": 2.38,
   "closing_sharp_odds": 2.14,
-  "closing_at": "2026-11-15T08:14:21.853411+00:00",
+  "closing_at": "2026-11-15T08:38:33.236665+00:00",
   "clv": -0.11353
  },
  {
@@ -1952,11 +1952,11 @@
   "band": "1.80–2.10",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.51104,
-  "closing_fair_odds": 1.957,
-  "closing_sharp_odds": 1.819,
-  "closing_at": "2026-11-15T08:14:21.853411+00:00",
-  "clv": 0.05273
+  "closing_fair_prob": 0.50997,
+  "closing_fair_odds": 1.961,
+  "closing_sharp_odds": 1.833,
+  "closing_at": "2026-11-15T08:38:33.236665+00:00",
+  "clv": 0.05054
  },
  {
   "fixture_id": "id1000113572466628",
@@ -1977,7 +1977,7 @@
   "closing_fair_prob": 0.49561,
   "closing_fair_odds": 2.018,
   "closing_sharp_odds": 1.869,
-  "closing_at": "2026-11-15T08:14:21.853411+00:00",
+  "closing_at": "2026-11-15T08:38:33.236665+00:00",
   "clv": 0.05565
  },
  {
@@ -1995,7 +1995,12 @@
   "ev": 0.08086,
   "band": "2.50–5.00",
   "trigger": "normál",
-  "bet": true
+  "bet": true,
+  "closing_fair_prob": 0.50689,
+  "closing_fair_odds": 1.973,
+  "closing_sharp_odds": 1.869,
+  "closing_at": "2026-11-15T08:38:33.236665+00:00",
+  "clv": 0.41928
  },
  {
   "fixture_id": "id1001415172415690",
@@ -2012,7 +2017,12 @@
   "ev": 0.06286,
   "band": "2.10–2.50",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.5698,
+  "closing_fair_odds": 1.755,
+  "closing_sharp_odds": 1.666,
+  "closing_at": "2026-11-15T08:38:33.236665+00:00",
+  "clv": 0.30485
  },
  {
   "fixture_id": "id1001415172415690",
@@ -2029,7 +2039,12 @@
   "ev": 0.0421,
   "band": "1.80–2.10",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.62095,
+  "closing_fair_odds": 1.61,
+  "closing_sharp_odds": 1.531,
+  "closing_at": "2026-11-15T08:38:33.236665+00:00",
+  "clv": 0.22948
  },
  {
   "fixture_id": "id1001415172415690",
@@ -2046,7 +2061,12 @@
   "ev": 0.04854,
   "band": "1.50–1.80",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.68845,
+  "closing_fair_odds": 1.453,
+  "closing_sharp_odds": 1.392,
+  "closing_at": "2026-11-15T08:38:33.236665+00:00",
+  "clv": 0.21167
  },
  {
   "fixture_id": "id1001415172415690",
