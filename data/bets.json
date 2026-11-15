@@ -816,7 +816,7 @@
   "closing_sharp_odds": 1.526,
   "closing_at": "2026-11-14T03:32:43.323904+00:00",
   "clv": 0.12803,
-  "settle_tried_at": "2026-11-15T05:18:25.732899+00:00"
+  "settle_tried_at": "2026-11-15T07:28:34.597362+00:00"
  },
  {
   "id": "c906acbfca",
@@ -1195,7 +1195,7 @@
   "closing_fair_prob": 0.49325,
   "closing_fair_odds": 2.027,
   "closing_sharp_odds": 1.9,
-  "closing_at": "2026-11-15T07:06:19.907196+00:00",
+  "closing_at": "2026-11-15T07:28:34.597362+00:00",
   "clv": 0.0309
  },
  {
@@ -1237,5 +1237,45 @@
   "expected_profit": 65.91,
   "exec_checked_at": "2026-11-15T07:22:55.951368+00:00",
   "exec_odds": 1.77
+ },
+ {
+  "id": "20fd4ffe4e",
+  "placed_at": "2026-11-15T07:28:34.597362+00:00",
+  "status": "skipped",
+  "exec_status": "gone",
+  "fixture_id": "id1000113572466628",
+  "sport": "Soccer",
+  "tournament": "Bolgár 2.",
+  "home": "Sp. Szvoge",
+  "away": "Szpartak Pleven",
+  "start": "2026-11-15T12:30:00.000Z",
+  "label": "Gólszám 2: Kevesebb",
+  "band": "2.10–2.50",
+  "stake": 1550,
+  "signal_odds": 2.13,
+  "signal_ev": 0.06983,
+  "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/bulgaria/bolgar-2/sp-szvoge-szpartak-pleven/318771231576891392/nepszeru",
+  "tm_id": "318771231576891392",
+  "tm_url": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/bulgaria/bolgar-2/sp-szvoge-szpartak-pleven/318771231576891392/nepszeru",
+  "market_id": 10168,
+  "market": "Over Under Full Time 2",
+  "outcome_id": 10169,
+  "outcome": "Under",
+  "odds": 2.13,
+  "sharp_odds": 1.847,
+  "fair_prob": 0.50227,
+  "fair_odds": 1.991,
+  "ev": 0.06983,
+  "sharp_overround": 1.0785,
+  "line": 2.0,
+  "mtype": "totals",
+  "ref": "Pinnacle",
+  "steam": null,
+  "trigger": "normál",
+  "tm_tip": "Gólszám 2 - Rendes játékidő → Kevesebb, mint 2",
+  "min_odds": 2.01,
+  "expected_profit": 108.24,
+  "exec_checked_at": "2026-11-15T07:45:32.099462+00:00",
+  "exec_odds": 2.0
  }
 ]

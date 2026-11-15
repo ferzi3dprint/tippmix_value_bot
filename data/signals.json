@@ -1864,11 +1864,11 @@
   "band": "1.30–1.50",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.69507,
-  "closing_fair_odds": 1.439,
-  "closing_sharp_odds": 1.4,
-  "closing_at": "2026-11-15T07:06:19.907196+00:00",
-  "clv": 0.0148
+  "closing_fair_prob": 0.68324,
+  "closing_fair_odds": 1.464,
+  "closing_sharp_odds": 1.423,
+  "closing_at": "2026-11-15T07:28:34.597362+00:00",
+  "clv": -0.00246
  },
  {
   "fixture_id": "id1000010176326616",
@@ -1886,11 +1886,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": true,
-  "closing_fair_prob": 0.60907,
-  "closing_fair_odds": 1.642,
-  "closing_sharp_odds": 1.591,
-  "closing_at": "2026-11-15T07:06:19.907196+00:00",
-  "clv": 0.03542
+  "closing_fair_prob": 0.5928,
+  "closing_fair_odds": 1.687,
+  "closing_sharp_odds": 1.632,
+  "closing_at": "2026-11-15T07:28:34.597362+00:00",
+  "clv": 0.00775
  },
  {
   "fixture_id": "id1000010176326616",
@@ -1908,11 +1908,11 @@
   "band": "1.80–2.10",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.53459,
-  "closing_fair_odds": 1.871,
-  "closing_sharp_odds": 1.8,
-  "closing_at": "2026-11-15T07:06:19.907196+00:00",
-  "clv": 0.02106
+  "closing_fair_prob": 0.51997,
+  "closing_fair_odds": 1.923,
+  "closing_sharp_odds": 1.862,
+  "closing_at": "2026-11-15T07:28:34.597362+00:00",
+  "clv": -0.00685
  },
  {
   "fixture_id": "id1000010176326616",
@@ -1930,11 +1930,11 @@
   "band": "2.10–2.50",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.47748,
-  "closing_fair_odds": 2.094,
-  "closing_sharp_odds": 2.02,
-  "closing_at": "2026-11-15T07:06:19.907196+00:00",
-  "clv": 0.0218
+  "closing_fair_prob": 0.4631,
+  "closing_fair_odds": 2.159,
+  "closing_sharp_odds": 2.06,
+  "closing_at": "2026-11-15T07:28:34.597362+00:00",
+  "clv": -0.00896
  },
  {
   "fixture_id": "id1001922474058682",
@@ -1950,6 +1950,28 @@
   "fair_prob": 0.51104,
   "ev": 0.05273,
   "band": "1.80–2.10",
+  "trigger": "normál",
+  "bet": true,
+  "closing_fair_prob": 0.51104,
+  "closing_fair_odds": 1.957,
+  "closing_sharp_odds": 1.819,
+  "closing_at": "2026-11-15T07:28:34.597362+00:00",
+  "clv": 0.05273
+ },
+ {
+  "fixture_id": "id1000113572466628",
+  "market_id": 10168,
+  "outcome_id": 10169,
+  "first_at": "2026-11-15T07:28:34.597362+00:00",
+  "start": "2026-11-15T12:30:00.000Z",
+  "home": "Sp. Szvoge",
+  "away": "Szpartak Pleven",
+  "tournament": "Bolgár 2.",
+  "label": "Gólszám 2: Kevesebb",
+  "odds": 2.13,
+  "fair_prob": 0.50227,
+  "ev": 0.06983,
+  "band": "2.10–2.50",
   "trigger": "normál",
   "bet": true
  }
