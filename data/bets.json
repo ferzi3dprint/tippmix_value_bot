@@ -1110,8 +1110,8 @@
  {
   "id": "380ef54a69",
   "placed_at": "2026-11-15T06:16:22.242991+00:00",
-  "status": "open",
-  "exec_status": "pending",
+  "status": "skipped",
+  "exec_status": "gone",
   "fixture_id": "id1000010176326616",
   "sport": "Soccer",
   "tournament": "Japán Liga-kupa",
@@ -1143,6 +1143,13 @@
   "trigger": "steam",
   "tm_tip": "Gólszám 3 - Rendes játékidő → Több, mint 3",
   "min_odds": 1.68,
-  "expected_profit": 55.69
+  "expected_profit": 55.69,
+  "closing_fair_prob": 0.61888,
+  "closing_fair_odds": 1.616,
+  "closing_sharp_odds": 1.568,
+  "closing_at": "2026-11-15T06:17:00.673281+00:00",
+  "clv": 0.07065,
+  "exec_checked_at": "2026-11-15T06:21:17.511429+00:00",
+  "exec_odds": 1.61
  }
 ]
