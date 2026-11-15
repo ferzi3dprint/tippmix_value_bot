@@ -1,52 +1,5 @@
 [
  {
-  "time": "2026-11-12T22:31:07.463793+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 602,
-  "pinnacle_fixtures": 601,
-  "paired": 251,
-  "by_sport": {
-   "Soccer": [
-    162,
-    81
-   ],
-   "Tennis": [
-    160,
-    2
-   ],
-   "Basketball": [
-    168,
-    85
-   ],
-   "Ice Hockey": [
-    112,
-    83
-   ]
-  },
-  "top_ev": [
-   "+0.1% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.51 (fair 1.508)",
-   "+0.1% Llaneros FC – Boyaca Chico · Gólszám 2: Több @1.48 (fair 1.479)",
-   "-0.3% Atl. Morelia – Leones Negros UdeG · 1X2: Atl. Morelia győz @1.72 (fair 1.726)",
-   "-0.4% Columbus – Tampa Bay · Hendikep (rendes játékidő): Tampa Bay (+1) @1.43 (fair 1.436)",
-   "-0.5% Leganes – Burgos · Gólszám 1.5: Több @1.43 (fair 1.437)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": false,
-  "fixtures_checked": 98,
-  "fixtures_both": 53,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 15,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 104
- },
- {
   "time": "2026-11-12T22:43:34.756831+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22619,6 +22572,163 @@
    "-1.1% Aston Villa – Birmingham · Gólszám 3.25: Kevesebb @1.74 (fair 1.759)",
    "-1.6% Aston Villa – Birmingham · Gólszám 3: Kevesebb @1.95 (fair 1.981)",
    "-1.6% Maastricht – Vitesse · Gólszám 4.5: Kevesebb @1.18 (fair 1.199)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T13:25:54.217033+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 501,
+   "paired": 242,
+   "classic_only": 27
+  },
+  "tippmix_matches": 1220,
+  "pinnacle_fixtures": 1137,
+  "paired": 466,
+  "by_sport": {
+   "Soccer": [
+    426,
+    215
+   ],
+   "Tennis": [
+    130,
+    7
+   ],
+   "Basketball": [
+    212,
+    116
+   ],
+   "Ice Hockey": [
+    92,
+    57
+   ],
+   "Handball": [
+    75,
+    24
+   ],
+   "Volleyball": [
+    87,
+    27
+   ],
+   "Table Tennis": [
+    31,
+    0
+   ],
+   "Cricket": [
+    29,
+    3
+   ],
+   "Badminton": [
+    0,
+    0
+   ],
+   "Darts": [
+    15,
+    0
+   ],
+   "Futsal": [
+    12,
+    2
+   ],
+   "Waterpolo": [
+    3,
+    0
+   ],
+   "ESport Counter-Strike": [
+    12,
+    0
+   ],
+   "ESport Dota": [
+    9,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    80,
+    0
+   ],
+   "eBasketball": [
+    7,
+    0
+   ],
+   "American Football": [
+    0,
+    12
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    1
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    2
+   ]
+  },
+  "top_ev": [
+   "+1.1% Penafiel – Lusitania Lourosa · 1X2: Penafiel győz @1.95 (fair 1.928)",
+   "+0.6% Skövde – Kristianstad · Gólszám 61.5: Több @1.81 (fair 1.799)",
+   "+0.4% Lettország – Örményország · Gólszám 1.5: Több @1.45 (fair 1.444)",
+   "+0.4% Solbiatese Calcio 1911 – Cittadella Vis Modena · Ázsiai hendikep: Cittadella Vis Modena (-0) @1.83 (fair 1.823)",
+   "+0.3% Solbiatese Calcio 1911 – Cittadella Vis Modena · Ázsiai hendikep: Cittadella Vis Modena (+0.25) @1.58 (fair 1.575)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 22,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 97,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 22,
+  "classic_checked": 82,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.9% Aston Villa – Birmingham · Gólszám 3.75: Kevesebb @1.46 (fair 1.473)",
+   "-1.0% Aston Villa – Birmingham · Gólszám 3.5: Kevesebb @1.6 (fair 1.616)",
+   "-1.1% Aston Villa – Birmingham · Gólszám 3.25: Kevesebb @1.74 (fair 1.759)",
+   "-1.6% Aston Villa – Birmingham · Gólszám 3: Kevesebb @1.95 (fair 1.981)",
+   "-1.9% Ciprus – Montenegró · Gólszám 4.5: Kevesebb @1.13 (fair 1.152)"
   ],
   "placed": 0,
   "not_executable": 0,
