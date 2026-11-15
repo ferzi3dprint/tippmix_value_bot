@@ -1,77 +1,5 @@
 [
  {
-  "time": "2026-11-12T11:59:49.605544+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "boosts": 0,
-  "tippmix_matches": 738,
-  "pinnacle_fixtures": 601,
-  "paired": 416,
-  "by_sport": {
-   "Soccer": [
-    213,
-    155
-   ],
-   "Tennis": [
-    240,
-    43
-   ],
-   "Basketball": [
-    154,
-    115
-   ],
-   "Ice Hockey": [
-    131,
-    103
-   ]
-  },
-  "top_ev": [
-   "+3.1% Samson L./Zidansek T. – Mediorreal Arias V./Perez Garcia M.P. · Győztes: Samson L./Zidansek T. győz @1.17 (fair 1.135)",
-   "+2.3% Szenegál – Szudán · 1X2: Szenegál győz @1.13 (fair 1.105)",
-   "+2.0% Ghána – Szomália · 1X2: Ghána győz @1.1 (fair 1.078)",
-   "+2.0% Elefántcsontpart – Gambia · 1X2: Elefántcsontpart győz @1.28 (fair 1.255)",
-   "+1.9% Guinea – Eritrea · 1X2: Guinea győz @1.28 (fair 1.256)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 20,
-  "fast": false,
-  "fixtures_checked": 142,
-  "fixtures_both": 116,
-  "rejected_mismatch": 0,
-  "candidates": 2,
-  "steam_fixtures": 25,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 142
- },
- {
-  "time": "2026-11-12T12:15:45.683679+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 3,
-  "top_ev": [
-   "-1.1% U21Izland – U21Görögország · Gólszám 4.5: Kevesebb @1.14 (fair 1.153)",
-   "-1.4% U21Izland – U21Görögország · Gólszám 1.5: Több @1.27 (fair 1.288)",
-   "-2.4% U21Izland – U21Görögország · Gólszám 2: Több @1.4 (fair 1.434)",
-   "-2.9% U19Németország – U19Svédország · 1X2: U19Németország győz @1.49 (fair 1.535)",
-   "-3.1% U21Izland – U21Görögország · Gólszám 3.5: Kevesebb @1.36 (fair 1.404)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 3,
-  "fast": true,
-  "fixtures_checked": 14,
-  "fixtures_both": 14,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 3,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 17
- },
- {
   "time": "2026-11-12T12:20:45.684072+00:00",
   "mode": "hu",
   "settled": 0,
@@ -19006,6 +18934,197 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 1,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T00:55:31.492138+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-0.9% Auckland United – Miramar Rangers · Gólszám 3: Több @1.68 (fair 1.695)",
+   "-1.1% Auckland United – Miramar Rangers · Gólszám 2.75: Több @1.54 (fair 1.557)",
+   "-1.6% Auckland United – Miramar Rangers · Gólszám 2.5: Több @1.44 (fair 1.464)",
+   "-2.2% AD Isidro Metapan – CD Luis Angel Firpo · Gólszám 1.5: Több @1.37 (fair 1.401)",
+   "-2.2% Auckland United – Miramar Rangers · Gólszám 3.25: Több @1.89 (fair 1.933)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 26,
+  "fixtures_both": 12,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "classic_checked": 17,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.1% C. Sheehy – J.M. Romero · Győztes: C. Sheehy győz @1.06 (fair 1.083)",
+   "-4.1% Diego Pacheco – Darius Fulghum · Győztes: Diego Pacheco győz @1.06 (fair 1.106)",
+   "-4.3% Southside Flyers – Perth Lynx · Hendikep (hosszabbítással): Perth Lynx (-10.5) @1.69 (fair 1.766)",
+   "-4.5% Bilal Hasan – L. Gurule · Győztes: Bilal Hasan győz @1.06 (fair 1.11)",
+   "-4.9% A. Olascuaga – Yuberjen Martinez · Győztes: A. Olascuaga győz @1.12 (fair 1.178)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 28
+ },
+ {
+  "time": "2026-11-15T01:01:00.545206+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 388,
+   "paired": 259,
+   "classic_only": 39
+  },
+  "tippmix_matches": 1224,
+  "pinnacle_fixtures": 1137,
+  "paired": 720,
+  "by_sport": {
+   "Soccer": [
+    564,
+    345
+   ],
+   "Tennis": [
+    101,
+    33
+   ],
+   "Basketball": [
+    223,
+    160
+   ],
+   "Ice Hockey": [
+    81,
+    70
+   ],
+   "Handball": [
+    39,
+    28
+   ],
+   "Volleyball": [
+    80,
+    34
+   ],
+   "Table Tennis": [
+    15,
+    6
+   ],
+   "Cricket": [
+    32,
+    10
+   ],
+   "Badminton": [
+    10,
+    4
+   ],
+   "Darts": [
+    15,
+    0
+   ],
+   "Futsal": [
+    5,
+    4
+   ],
+   "Waterpolo": [
+    2,
+    2
+   ],
+   "ESport Counter-Strike": [
+    18,
+    1
+   ],
+   "ESport Dota": [
+    5,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    25,
+    0
+   ],
+   "eBasketball": [
+    9,
+    0
+   ],
+   "American Football": [
+    0,
+    12
+   ],
+   "Boxing": [
+    0,
+    4
+   ],
+   "MMA": [
+    0,
+    5
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    2
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+0.1% Anaheim – NY Islanders · Hendikep (rendes játékidő): Anaheim (+1) @1.45 (fair 1.448)",
+   "-0.4% Benjamin Hassan – Jumpei Yamasaki · Győztes: Benjamin Hassan győz @1.23 (fair 1.234)",
+   "-0.9% Auckland United – Miramar Rangers · Gólszám 3: Több @1.68 (fair 1.695)",
+   "-1.1% Auckland United – Miramar Rangers · Gólszám 2.75: Több @1.54 (fair 1.557)",
+   "-1.2% Atl. La Paz – Piratas Veracruz · Gólszám 1.5: Több @1.19 (fair 1.205)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 17,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 100,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 8,
+  "classic_checked": 70,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.1% Vanraure Hachnohe – Iwaki · Gólszám 3.5: Kevesebb @1.33 (fair 1.344)",
+   "-1.1% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 3: Kevesebb @1.32 (fair 1.335)",
+   "-1.3% Real Sociedad – Ath. Bilbao · Gólszám 3.25: Kevesebb @1.4 (fair 1.418)",
+   "-1.4% Real Sociedad – Ath. Bilbao · Gólszám 3: Kevesebb @1.49 (fair 1.512)",
+   "-1.8% Cerezo Osaka – Urawa RD · Gólszám 3: Kevesebb @1.77 (fair 1.802)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
   "free_calls": 156
  }
 ]
