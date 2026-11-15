@@ -1,102 +1,5 @@
 [
  {
-  "time": "2026-11-12T19:57:09.756575+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 1,
-  "top_ev": [
-   "-6.4% Atletico Balboa – CD Inca-Aruba · Ázsiai hendikep: CD Inca-Aruba (+1.75) @1.35 (fair 1.443)",
-   "-6.6% Atletico Balboa – CD Inca-Aruba · Gólszám 2.25: Több @1.39 (fair 1.488)",
-   "-7.7% Atletico Balboa – CD Inca-Aruba · Gólszám 2.5: Több @1.55 (fair 1.679)",
-   "-7.8% Atletico Balboa – CD Inca-Aruba · Gólszám 3.5: Kevesebb @1.45 (fair 1.573)",
-   "-7.9% Atletico Balboa – CD Inca-Aruba · Ázsiai hendikep: CD Inca-Aruba (+1.5) @1.47 (fair 1.595)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 1,
-  "fast": true,
-  "fixtures_checked": 2,
-  "fixtures_both": 2,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 1,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 3
- },
- {
-  "time": "2026-11-12T20:02:09.756598+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 647,
-  "pinnacle_fixtures": 601,
-  "paired": 260,
-  "by_sport": {
-   "Soccer": [
-    171,
-    85
-   ],
-   "Tennis": [
-    193,
-    5
-   ],
-   "Basketball": [
-    171,
-    87
-   ],
-   "Ice Hockey": [
-    112,
-    83
-   ]
-  },
-  "top_ev": [
-   "+1.7% U21Finnország – U21Írország · Gólszám 1.5: Több @1.37 (fair 1.347)",
-   "+1.5% U21Finnország – U21Írország · Gólszám 2: Több @1.58 (fair 1.557)",
-   "+0.5% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.5 (fair 1.492)",
-   "+0.1% Dél-Afrika – Kenya · Ázsiai hendikep: Kenya (+2) @1.47 (fair 1.469)",
-   "-0.3% Tunézia – Líbia · Gólszám 3: Kevesebb @1.38 (fair 1.385)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 9,
-  "fast": false,
-  "fixtures_checked": 114,
-  "fixtures_both": 74,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 16,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 120
- },
- {
-  "time": "2026-11-12T20:15:51.206122+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 1,
-  "top_ev": [
-   "-1.9% Ponte Preta – Operario PR · 1X2: Operario PR győz @1.67 (fair 1.702)",
-   "-2.0% Ponte Preta – Operario PR · Gólszám 4.5: Kevesebb @1.14 (fair 1.163)",
-   "-3.2% Ponte Preta – Operario PR · Gólszám 3.5: Kevesebb @1.4 (fair 1.446)",
-   "-3.2% Aurora FC – Deportivo Mixco · Gólszám 3: Kevesebb @1.43 (fair 1.478)",
-   "-3.5% Aurora FC – Deportivo Mixco · Gólszám 3.25: Kevesebb @1.34 (fair 1.388)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 1,
-  "fast": true,
-  "fixtures_checked": 7,
-  "fixtures_both": 6,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 1,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 8
- },
- {
   "time": "2026-11-12T20:20:51.206323+00:00",
   "mode": "hu",
   "settled": 0,
@@ -21632,5 +21535,230 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 3
+ },
+ {
+  "time": "2026-11-15T09:06:57.726959+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-0.3% CD Cieza – Pena Deportiva · 1X2: CD Cieza győz @1.58 (fair 1.585)",
+   "-2.0% Atl. Madrid 2 – Teruel · Gólszám 3.25: Kevesebb @1.46 (fair 1.49)",
+   "-2.1% Lorca Deportiva – Mallorca 2 · 1X2: Lorca Deportiva győz @1.8 (fair 1.838)",
+   "-2.1% Atl. Madrid 2 – Teruel · Gólszám 3.5: Kevesebb @1.37 (fair 1.399)",
+   "-2.1% CD Cieza – Pena Deportiva · Ázsiai hendikep: CD Cieza (-0.25) @1.35 (fair 1.379)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 20,
+  "fast": true,
+  "fixtures_checked": 91,
+  "fixtures_both": 76,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 9,
+  "classic_checked": 24,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.6% Atl. Madrid 2 – Teruel · Gólszám 3.5: Kevesebb @1.39 (fair 1.399)",
+   "-2.0% Amarante – Felgueiras · Gólszám 3.5: Kevesebb @1.19 (fair 1.215)",
+   "-2.3% Kalamaria – Kallithea · Gólszám 2.5: Kevesebb @1.71 (fair 1.749)",
+   "-2.5% Tondela – Farense · Gólszám 3.5: Kevesebb @1.26 (fair 1.293)",
+   "-2.5% Dempo SC – Chanmari · Gólszám 3.25: Kevesebb @1.41 (fair 1.447)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 97
+ },
+ {
+  "time": "2026-11-15T09:18:24.577407+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [
+   "-0.3% CD Cieza – Pena Deportiva · 1X2: CD Cieza győz @1.58 (fair 1.585)",
+   "-1.9% Tondela – Farense · Gólszám 1.5: Több @1.36 (fair 1.386)",
+   "-2.0% Tondela – Farense · Gólszám 1.75: Több @1.45 (fair 1.48)",
+   "-2.0% Atl. Madrid 2 – Teruel · Gólszám 3.25: Kevesebb @1.46 (fair 1.49)",
+   "-2.1% Lorca Deportiva – Mallorca 2 · 1X2: Lorca Deportiva győz @1.8 (fair 1.838)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 17,
+  "fast": true,
+  "fixtures_checked": 85,
+  "fixtures_both": 70,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "classic_checked": 23,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.6% Atl. Madrid 2 – Teruel · Gólszám 3.5: Kevesebb @1.39 (fair 1.399)",
+   "-2.0% Amarante – Felgueiras · Gólszám 3.5: Kevesebb @1.19 (fair 1.215)",
+   "-2.3% Kalamaria – Kallithea · Gólszám 2.5: Kevesebb @1.71 (fair 1.749)",
+   "-2.5% Dempo SC – Chanmari · Gólszám 3.25: Kevesebb @1.41 (fair 1.447)",
+   "-2.5% Dempo SC – Chanmari · Gólszám 3: Kevesebb @1.51 (fair 1.549)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 85
+ },
+ {
+  "time": "2026-11-15T09:29:01.411485+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 492,
+   "paired": 289,
+   "classic_only": 28
+  },
+  "tippmix_matches": 1437,
+  "pinnacle_fixtures": 1137,
+  "paired": 643,
+  "by_sport": {
+   "Soccer": [
+    655,
+    350
+   ],
+   "Tennis": [
+    135,
+    9
+   ],
+   "Basketball": [
+    228,
+    134
+   ],
+   "Ice Hockey": [
+    105,
+    61
+   ],
+   "Handball": [
+    73,
+    28
+   ],
+   "Volleyball": [
+    90,
+    35
+   ],
+   "Table Tennis": [
+    41,
+    2
+   ],
+   "Cricket": [
+    20,
+    3
+   ],
+   "Badminton": [
+    0,
+    0
+   ],
+   "Darts": [
+    16,
+    0
+   ],
+   "Futsal": [
+    6,
+    4
+   ],
+   "Waterpolo": [
+    4,
+    2
+   ],
+   "ESport Counter-Strike": [
+    17,
+    0
+   ],
+   "ESport Dota": [
+    14,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    31,
+    0
+   ],
+   "eBasketball": [
+    2,
+    0
+   ],
+   "American Football": [
+    0,
+    12
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    1
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    2
+   ]
+  },
+  "top_ev": [
+   "-0.3% CD Cieza – Pena Deportiva · 1X2: CD Cieza győz @1.58 (fair 1.585)",
+   "-0.9% Tondela – Farense · 1X2: Tondela győz @1.92 (fair 1.938)",
+   "-1.5% Tenerife – AD Ceuta · 1X2: Tenerife győz @1.77 (fair 1.797)",
+   "-1.8% WE SC – Kahraba Ismailia · Gólszám 1.5: Több @1.5 (fair 1.527)",
+   "-1.8% Tondela – Farense · Gólszám 1.75: Több @1.44 (fair 1.466)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 28,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 123,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 12,
+  "classic_checked": 46,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.8% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.4 (fair 1.389)",
+   "-0.6% Malmo FF – Vittsjö · Gólszám 3.75: Kevesebb @1.55 (fair 1.559)",
+   "-0.6% Atl. Madrid 2 – Teruel · Gólszám 3.5: Kevesebb @1.39 (fair 1.399)",
+   "-1.5% Häcken – Pitea · Gólszám 4.25: Kevesebb @1.49 (fair 1.513)",
+   "-1.7% Malmo FF – Vittsjö · Gólszám 3.5: Kevesebb @1.7 (fair 1.73)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 156
  }
 ]
