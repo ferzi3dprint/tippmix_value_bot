@@ -1780,7 +1780,12 @@
   "ev": 0.05752,
   "band": "1.80–2.10",
   "trigger": "normál",
-  "bet": true
+  "bet": true,
+  "closing_fair_prob": 0.51124,
+  "closing_fair_odds": 1.956,
+  "closing_sharp_odds": 1.833,
+  "closing_at": "2026-11-15T01:47:16.609640+00:00",
+  "clv": 0.03271
  },
  {
   "fixture_id": "id1005307074100782",
@@ -1797,6 +1802,28 @@
   "ev": 0.0544,
   "band": "2.10–2.50",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.45105,
+  "closing_fair_odds": 2.217,
+  "closing_sharp_odds": 2.029,
+  "closing_at": "2026-11-15T01:47:16.609640+00:00",
+  "clv": 0.02839
+ },
+ {
+  "fixture_id": "id1000113572466638",
+  "market_id": 1074,
+  "outcome_id": 1075,
+  "first_at": "2026-11-15T01:47:16.609640+00:00",
+  "start": "2026-11-15T12:30:00.000Z",
+  "home": "Lok. Gorna Oryahovitsa",
+  "away": "CSZKA Szófia 2",
+  "tournament": "Bolgár 2.",
+  "label": "Ázsiai hendikep: CSZKA Szófia 2 (-0.25)",
+  "odds": 2.11,
+  "fair_prob": 0.49335,
+  "ev": 0.04096,
+  "band": "2.10–2.50",
+  "trigger": "normál",
+  "bet": true
  }
 ]

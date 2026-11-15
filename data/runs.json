@@ -1,77 +1,5 @@
 [
  {
-  "time": "2026-11-12T12:42:48.555744+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 702,
-  "pinnacle_fixtures": 601,
-  "paired": 407,
-  "by_sport": {
-   "Soccer": [
-    204,
-    150
-   ],
-   "Tennis": [
-    210,
-    40
-   ],
-   "Basketball": [
-    157,
-    114
-   ],
-   "Ice Hockey": [
-    131,
-    103
-   ]
-  },
-  "top_ev": [
-   "-0.5% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.39 (fair 1.397)",
-   "-0.5% Frölunda – Malmö · 1X2 (rendes játékidő): Döntetlen @4.2 (fair 4.223)",
-   "-0.5% Färjestad – Djurgarden · Győztes (hosszabbítással): Färjestad győz @1.24 (fair 1.247)",
-   "-0.6% Madagaszkár – Bissau-Guinea · Gólszám 1.25: Több @1.32 (fair 1.329)",
-   "-0.7% Ottawa – Colorado · Hendikep (rendes játékidő): Ottawa (+1) @1.48 (fair 1.491)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 26,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 116,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 24,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-12T12:59:51.933418+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 1,
-  "top_ev": [
-   "-3.8% Pedro Martinez Portero – Matteo Martineau · Győztes: Matteo Martineau győz @1.53 (fair 1.59)",
-   "-4.6% Pedro Martinez Portero – Matteo Martineau · Játékszám 22.5: Kevesebb @1.81 (fair 1.898)",
-   "-5.0% Thiago Tirante – Alexander Shevchenko · Játékszám 22.5: Több @1.68 (fair 1.768)",
-   "-5.3% Thiago Tirante – Alexander Shevchenko · Győztes: Thiago Tirante győz @1.95 (fair 2.059)",
-   "-5.4% Boca Juniors – Social Atletico · Gólszám 2.5: Kevesebb @1.62 (fair 1.713)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 5,
-  "fast": true,
-  "fixtures_checked": 9,
-  "fixtures_both": 9,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 1,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 10
- },
- {
   "time": "2026-11-12T13:04:51.933412+00:00",
   "mode": "hu",
   "settled": 0,
@@ -19245,5 +19173,196 @@
   "not_executable": 1,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T01:41:45.330788+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "+1.2% Új-Zéland – India · 1X2: Új-Zéland győz @1.11 (fair 1.096)",
+   "+0.1% Anaheim – NY Islanders · Hendikep (rendes játékidő): Anaheim (+1) @1.45 (fair 1.448)",
+   "-0.6% Új-Zéland – India · Gólszám 3: Több @1.57 (fair 1.579)",
+   "-0.8% Új-Zéland – India · Gólszám 2.5: Több @1.38 (fair 1.391)",
+   "-1.3% Masamichi Imamura – Hiromasa Koyama · Győztes: Masamichi Imamura győz @1.21 (fair 1.225)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 25,
+  "fixtures_both": 16,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "classic_checked": 18,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.1% Új-Zéland – India · Gólszám 5.5: Kevesebb @1.13 (fair 1.154)",
+   "-2.9% Masamichi Imamura – Hiromasa Koyama · Győztes: Masamichi Imamura győz @1.19 (fair 1.225)",
+   "-3.9% Új-Zéland – India · Gólszám 4.5: Kevesebb @1.33 (fair 1.384)",
+   "-3.9% Atl. La Paz – Piratas Veracruz · Gólszám 3.5: Kevesebb @1.49 (fair 1.551)",
+   "-4.1% Diego Pacheco – Darius Fulghum · Győztes: Diego Pacheco győz @1.06 (fair 1.106)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 30
+ },
+ {
+  "time": "2026-11-15T01:47:16.609640+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 7,
+  "boosts": 0,
+  "classic": {
+   "events": 379,
+   "paired": 257,
+   "classic_only": 37
+  },
+  "tippmix_matches": 1227,
+  "pinnacle_fixtures": 1137,
+  "paired": 720,
+  "by_sport": {
+   "Soccer": [
+    571,
+    350
+   ],
+   "Tennis": [
+    94,
+    32
+   ],
+   "Basketball": [
+    223,
+    159
+   ],
+   "Ice Hockey": [
+    81,
+    69
+   ],
+   "Handball": [
+    39,
+    28
+   ],
+   "Volleyball": [
+    80,
+    34
+   ],
+   "Table Tennis": [
+    14,
+    6
+   ],
+   "Cricket": [
+    31,
+    10
+   ],
+   "Badminton": [
+    10,
+    4
+   ],
+   "Darts": [
+    15,
+    0
+   ],
+   "Futsal": [
+    5,
+    4
+   ],
+   "Waterpolo": [
+    2,
+    2
+   ],
+   "ESport Counter-Strike": [
+    18,
+    1
+   ],
+   "ESport Dota": [
+    5,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    29,
+    0
+   ],
+   "eBasketball": [
+    10,
+    0
+   ],
+   "American Football": [
+    0,
+    12
+   ],
+   "Boxing": [
+    0,
+    2
+   ],
+   "MMA": [
+    0,
+    5
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    2
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+4.1% Lok. Gorna Oryahovitsa – CSZKA Szófia 2 · Ázsiai hendikep: CSZKA Szófia 2 (-0.25) @2.11 (fair 2.027)",
+   "+1.2% Új-Zéland – India · 1X2: Új-Zéland győz @1.11 (fair 1.096)",
+   "+0.1% Anaheim – NY Islanders · Hendikep (rendes játékidő): Anaheim (+1) @1.45 (fair 1.448)",
+   "-0.8% Új-Zéland – India · Gólszám 2.5: Több @1.38 (fair 1.391)",
+   "-1.1% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.37 (fair 1.385)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 18,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 101,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 14,
+  "classic_checked": 65,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+1.0% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.4 (fair 1.385)",
+   "+0.2% Eskilstuna Utd. – Djurgarden · Gólszám 3.5: Kevesebb @1.54 (fair 1.538)",
+   "-0.1% Eskilstuna Utd. – Djurgarden · Gólszám 3: Kevesebb @1.83 (fair 1.832)",
+   "-0.2% Paris 13 Atletico – Red Star FC · Gólszám 3.25: Kevesebb @1.47 (fair 1.473)",
+   "-0.2% Malmo FF – Vittsjö · Gólszám 3.75: Kevesebb @1.55 (fair 1.553)"
+  ],
+  "placed": 1,
+  "not_executable": 1,
+  "api_calls": 0,
+  "free_calls": 157
  }
 ]
