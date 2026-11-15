@@ -1,77 +1,5 @@
 [
  {
-  "time": "2026-11-12T16:10:43.551865+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 673,
-  "pinnacle_fixtures": 601,
-  "paired": 362,
-  "by_sport": {
-   "Soccer": [
-    202,
-    131
-   ],
-   "Tennis": [
-    173,
-    24
-   ],
-   "Basketball": [
-    168,
-    106
-   ],
-   "Ice Hockey": [
-    130,
-    101
-   ]
-  },
-  "top_ev": [
-   "+2.4% Örményország – Ciprus · Gólszám 2: Több @1.77 (fair 1.728)",
-   "+2.3% Örményország – Ciprus · Gólszám 1.75: Több @1.58 (fair 1.545)",
-   "+1.8% Örményország – Ciprus · Gólszám 1.5: Több @1.46 (fair 1.434)",
-   "+1.5% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.192)",
-   "+0.8% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.151)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 17,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 105,
-  "rejected_mismatch": 0,
-  "candidates": 1,
-  "steam_fixtures": 29,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-12T16:27:45.846899+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 5,
-  "top_ev": [
-   "+0.8% Punks Vilnius – HS Riga · Győztes (hosszabbítással): Punks Vilnius győz @1.91 (fair 1.894)",
-   "+0.7% Örményország – Ciprus · Gólszám 1.75: Több @1.51 (fair 1.5)",
-   "+0.6% Örményország – Ciprus · Gólszám 1.5: Több @1.41 (fair 1.401)",
-   "+0.5% Örményország – Ciprus · Gólszám 2: Több @1.67 (fair 1.661)",
-   "+0.1% Örményország – Ciprus · Ázsiai hendikep: Ciprus (+0.5) @1.4 (fair 1.399)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 8,
-  "fast": true,
-  "fixtures_checked": 58,
-  "fixtures_both": 49,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 10,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 63
- },
- {
   "time": "2026-11-12T16:36:25.038754+00:00",
   "mode": "hu",
   "settled": 0,
@@ -20315,6 +20243,197 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 0,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T05:13:25.733358+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-1.9% Cerezo Osaka – Urawa RD · Gólszám 1.5: Több @1.16 (fair 1.182)",
+   "-2.9% Cerezo Osaka – Urawa RD · Gólszám 2.5: Több @1.54 (fair 1.586)",
+   "-3.4% Cerezo Osaka – Urawa RD · Gólszám 2.75: Több @1.66 (fair 1.718)",
+   "-3.4% Kashima Antlers – Yokohama FM · Gólszám 4.5: Kevesebb @1.2 (fair 1.243)",
+   "-3.5% Kashima Antlers – Yokohama FM · Gólszám 1.5: Több @1.17 (fair 1.212)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 11,
+  "fixtures_both": 6,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "classic_checked": 4,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.3% Cerezo Osaka – Urawa RD · Gólszám 4.5: Kevesebb @1.24 (fair 1.269)",
+   "-2.6% Kashima Antlers – Yokohama FM · Gólszám 4.5: Kevesebb @1.21 (fair 1.243)",
+   "-2.7% Yongin Blue Minx – Busan BNK Sum · Összpontszám (hosszabbítással) 131.5: Kevesebb @1.82 (fair 1.87)",
+   "-2.8% Yongin Blue Minx – Busan BNK Sum · Összpontszám (hosszabbítással) 132.5: Kevesebb @1.73 (fair 1.78)",
+   "-3.6% Yongin Blue Minx – Busan BNK Sum · Összpontszám (hosszabbítással) 130.5: Kevesebb @1.91 (fair 1.982)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 13
+ },
+ {
+  "time": "2026-11-15T05:18:25.732899+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 291,
+   "paired": 214,
+   "classic_only": 26
+  },
+  "tippmix_matches": 1280,
+  "pinnacle_fixtures": 1137,
+  "paired": 674,
+  "by_sport": {
+   "Soccer": [
+    610,
+    361
+   ],
+   "Tennis": [
+    95,
+    23
+   ],
+   "Basketball": [
+    236,
+    141
+   ],
+   "Ice Hockey": [
+    80,
+    60
+   ],
+   "Handball": [
+    38,
+    28
+   ],
+   "Volleyball": [
+    70,
+    34
+   ],
+   "Table Tennis": [
+    13,
+    1
+   ],
+   "Cricket": [
+    22,
+    6
+   ],
+   "Badminton": [
+    1,
+    0
+   ],
+   "Darts": [
+    16,
+    0
+   ],
+   "Futsal": [
+    5,
+    4
+   ],
+   "Waterpolo": [
+    2,
+    2
+   ],
+   "ESport Counter-Strike": [
+    20,
+    1
+   ],
+   "ESport Dota": [
+    6,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    56,
+    0
+   ],
+   "eBasketball": [
+    10,
+    0
+   ],
+   "American Football": [
+    0,
+    12
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    1
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-0.5% CD Cieza – Pena Deportiva · Ázsiai hendikep: CD Cieza (-0.25) @1.37 (fair 1.377)",
+   "-1.5% Ligorna 1922 – Asd Imperia 1923 · Gólszám 2.5: Több @1.86 (fair 1.888)",
+   "-1.8% Cerezo Osaka – Urawa RD · Gólszám 1.5: Több @1.16 (fair 1.181)",
+   "-1.9% Ilves – SaiPa · Győztes (hosszabbítással): Ilves győz @1.54 (fair 1.57)",
+   "-1.9% Amarante – Felgueiras · Gólszám 1.5: Több @1.48 (fair 1.509)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 28,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 116,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 8,
+  "classic_checked": 42,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.1% Göztepe – Galatasaray · Győztes: Galatasaray győz @1.22 (fair 1.219)",
+   "-1.8% Zeren Spor – Eczacibasi Istanbul · Győztes: Eczacibasi Istanbul győz @1.04 (fair 1.059)",
+   "-1.9% Tondela – Farense · Gólszám 3.5: Kevesebb @1.26 (fair 1.284)",
+   "-1.9% Amarante – Felgueiras · Gólszám 3.5: Kevesebb @1.19 (fair 1.213)",
+   "-2.1% Vakifbank Istanbul – Aras Kargo · Győztes: Vakifbank Istanbul győz @1.04 (fair 1.062)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
   "free_calls": 156
  }
 ]
