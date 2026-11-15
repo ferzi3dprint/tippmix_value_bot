@@ -816,7 +816,7 @@
   "closing_sharp_odds": 1.526,
   "closing_at": "2026-11-14T03:32:43.323904+00:00",
   "clv": 0.12803,
-  "settle_tried_at": "2026-11-15T20:51:25.212510+00:00"
+  "settle_tried_at": "2026-11-15T22:55:51.730206+00:00"
  },
  {
   "id": "c906acbfca",
@@ -1519,5 +1519,43 @@
   "channel": "classic",
   "exec_checked_at": "2026-11-15T19:23:10.633909+00:00",
   "exec_odds": 1.54
+ },
+ {
+  "id": "292936b233",
+  "placed_at": "2026-11-15T23:00:34.872650+00:00",
+  "status": "open",
+  "exec_status": "pending",
+  "fixture_id": "id1000124076422388",
+  "sport": "Soccer",
+  "tournament": "Chilei 2.",
+  "home": "Deportes Recoleta",
+  "away": "Deportes Iquique",
+  "start": "2026-11-15T23:30:00.000Z",
+  "label": "Ázsiai hendikep: Deportes Recoleta (+0.25)",
+  "band": "1.50–1.80",
+  "stake": 1050,
+  "signal_odds": 1.55,
+  "signal_ev": 0.02368,
+  "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/chile/chilei-2/deportes-recoleta-deportes-iquique/319739892306354176/nepszeru",
+  "tm_id": "319739892306354176",
+  "tm_url": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/chile/chilei-2/deportes-recoleta-deportes-iquique/319739892306354176/nepszeru",
+  "market_id": 1074,
+  "market": "Asian Handicap",
+  "outcome_id": 1074,
+  "outcome": "1",
+  "odds": 1.55,
+  "sharp_odds": 1.454,
+  "fair_prob": 0.66044,
+  "fair_odds": 1.514,
+  "ev": 0.02368,
+  "sharp_overround": 1.0651,
+  "line": 0.25,
+  "mtype": "spreads",
+  "ref": "Pinnacle",
+  "steam": 0.1792,
+  "trigger": "steam",
+  "tm_tip": "Ázsiai hendikep 0.25 - Rendes játékidő → Deportes Recoleta (+0.25)",
+  "min_odds": 1.53,
+  "expected_profit": 24.86
  }
 ]
