@@ -1767,7 +1767,7 @@
   "closing_fair_prob": 0.5312,
   "closing_fair_odds": 1.883,
   "closing_sharp_odds": 1.769,
-  "closing_at": "2026-11-15T14:17:08.496376+00:00",
+  "closing_at": "2026-11-15T14:33:55.963675+00:00",
   "clv": 0.03584
  },
  {
@@ -2602,5 +2602,39 @@
   "closing_sharp_odds": 1.649,
   "closing_at": "2026-11-15T14:17:08.496376+00:00",
   "clv": 0.03359
+ },
+ {
+  "fixture_id": "id1000124076422382",
+  "market_id": 10166,
+  "outcome_id": 10166,
+  "first_at": "2026-11-15T14:33:55.963675+00:00",
+  "start": "2026-11-15T15:00:00.000Z",
+  "home": "Santiago Wanderers",
+  "away": "Dep. Copiapo",
+  "tournament": "Chilei 2.",
+  "label": "Gólszám 1.75: Több",
+  "odds": 1.44,
+  "fair_prob": 0.71673,
+  "ev": 0.0321,
+  "band": "1.30–1.50",
+  "trigger": "normál",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1000124076422382",
+  "market_id": 10168,
+  "outcome_id": 10168,
+  "first_at": "2026-11-15T14:33:55.963675+00:00",
+  "start": "2026-11-15T15:00:00.000Z",
+  "home": "Santiago Wanderers",
+  "away": "Dep. Copiapo",
+  "tournament": "Chilei 2.",
+  "label": "Gólszám 2: Több",
+  "odds": 1.56,
+  "fair_prob": 0.66101,
+  "ev": 0.03118,
+  "band": "1.50–1.80",
+  "trigger": "normál",
+  "bet": false
  }
 ]
