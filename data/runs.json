@@ -1,52 +1,5 @@
 [
  {
-  "time": "2026-11-12T14:57:49.140464+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 717,
-  "pinnacle_fixtures": 601,
-  "paired": 384,
-  "by_sport": {
-   "Soccer": [
-    201,
-    140
-   ],
-   "Tennis": [
-    209,
-    30
-   ],
-   "Basketball": [
-    176,
-    112
-   ],
-   "Ice Hockey": [
-    131,
-    102
-   ]
-  },
-  "top_ev": [
-   "+3.0% Egyesült Arab Emirátusok – Honduras · Mindkét csapat szerez gólt: Nem @1.94 (fair 1.883)",
-   "+1.8% San Marino – Fehéroroszország · Gólszám 4.5: Kevesebb @1.21 (fair 1.189)",
-   "+1.7% U21Finnország – U21Írország · Gólszám 1.5: Több @1.37 (fair 1.347)",
-   "+1.5% U21Finnország – U21Írország · Gólszám 2: Több @1.58 (fair 1.557)",
-   "+1.1% Montenegró – Lettország · Gólszám 4.5: Kevesebb @1.16 (fair 1.148)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 23,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 121,
-  "rejected_mismatch": 0,
-  "candidates": 1,
-  "steam_fixtures": 25,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
   "time": "2026-11-12T15:15:01.266732+00:00",
   "mode": "hu",
   "settled": 0,
@@ -19959,5 +19912,39 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T04:03:18.239972+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 7,
+  "top_ev": [
+   "-1.9% Machida Zelvia – Vissel Kobe · Gólszám 1.5: Több @1.35 (fair 1.376)",
+   "-2.3% Machida Zelvia – Vissel Kobe · Gólszám 1.75: Több @1.43 (fair 1.464)",
+   "-2.5% Zhejiang Hangzhou – Jiangsu Wuxi · Gólszám 2.25: Több @1.64 (fair 1.683)",
+   "-2.9% Kashima Antlers – Yokohama FM · Gólszám 4.5: Kevesebb @1.21 (fair 1.246)",
+   "-3.0% Machida Zelvia – Vissel Kobe · Gólszám 2: Több @1.55 (fair 1.599)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 4,
+  "fast": true,
+  "fixtures_checked": 37,
+  "fixtures_both": 19,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 6,
+  "classic_checked": 15,
+  "classic_candidates": 1,
+  "top_ev_classic": [
+   "+2.6% Seoul Woori – Cheonan Skywalkers · Győztes: Cheonan Skywalkers győz @1.59 (fair 1.549)",
+   "-1.8% Imabari – Jubilo Iwata · Gólszám 3.5: Kevesebb @1.46 (fair 1.487)",
+   "-1.9% Cerezo Osaka – Urawa RD · Gólszám 4.5: Kevesebb @1.19 (fair 1.213)",
+   "-1.9% Cerezo Osaka – Urawa RD · Gólszám 3.25: Kevesebb @1.61 (fair 1.642)",
+   "-2.0% Ben. Hassan – Jum. Yamasaki · Győztes: Ben. Hassan győz @1.21 (fair 1.234)"
+  ],
+  "placed": 1,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 44
  }
 ]
