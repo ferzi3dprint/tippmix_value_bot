@@ -1,52 +1,5 @@
 [
  {
-  "time": "2026-11-12T20:45:07.835475+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 635,
-  "pinnacle_fixtures": 601,
-  "paired": 261,
-  "by_sport": {
-   "Soccer": [
-    172,
-    86
-   ],
-   "Tennis": [
-    180,
-    5
-   ],
-   "Basketball": [
-    171,
-    87
-   ],
-   "Ice Hockey": [
-    112,
-    83
-   ]
-  },
-  "top_ev": [
-   "+0.5% Dijon – Orleans · Gólszám 3: Kevesebb @1.91 (fair 1.9)",
-   "+0.3% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.51 (fair 1.505)",
-   "+0.1% Dijon – Orleans · Gólszám 3.25: Kevesebb @1.7 (fair 1.698)",
-   "+0.1% Dijon – Orleans · Gólszám 3.5: Kevesebb @1.57 (fair 1.569)",
-   "+0.0% Mali – Ruanda · Gólszám 3: Kevesebb @1.36 (fair 1.36)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 1,
-  "fast": false,
-  "fixtures_checked": 104,
-  "fixtures_both": 58,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 11,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 110
- },
- {
   "time": "2026-11-12T20:57:57.392817+00:00",
   "mode": "hu",
   "settled": 0,
@@ -21888,5 +21841,162 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 105
+ },
+ {
+  "time": "2026-11-15T10:27:05.432555+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 480,
+   "paired": 285,
+   "classic_only": 28
+  },
+  "tippmix_matches": 1380,
+  "pinnacle_fixtures": 1137,
+  "paired": 624,
+  "by_sport": {
+   "Soccer": [
+    631,
+    337
+   ],
+   "Tennis": [
+    128,
+    9
+   ],
+   "Basketball": [
+    227,
+    132
+   ],
+   "Ice Hockey": [
+    103,
+    61
+   ],
+   "Handball": [
+    71,
+    26
+   ],
+   "Volleyball": [
+    87,
+    33
+   ],
+   "Table Tennis": [
+    23,
+    2
+   ],
+   "Cricket": [
+    24,
+    3
+   ],
+   "Badminton": [
+    0,
+    0
+   ],
+   "Darts": [
+    16,
+    0
+   ],
+   "Futsal": [
+    6,
+    4
+   ],
+   "Waterpolo": [
+    4,
+    2
+   ],
+   "ESport Counter-Strike": [
+    16,
+    0
+   ],
+   "ESport Dota": [
+    11,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    29,
+    0
+   ],
+   "eBasketball": [
+    4,
+    0
+   ],
+   "American Football": [
+    0,
+    12
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    1
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    2
+   ]
+  },
+  "top_ev": [
+   "+9.2% Budafok – MTK 2 · Gólszám 4: Több @2.5 (fair 2.29)",
+   "+5.9% Budafok – MTK 2 · Gólszám 3.5: Több @1.9 (fair 1.793)",
+   "+3.5% UD Ibiza – Cartagena · 1X2: Döntetlen @3.4 (fair 3.285)",
+   "+2.4% Lok. Gorna Oryahovitsa – CSZKA Szófia 2 · Ázsiai hendikep: Lok. Gorna Oryahovitsa (+0) @1.94 (fair 1.894)",
+   "+2.0% Lok. Gorna Oryahovitsa – CSZKA Szófia 2 · Ázsiai hendikep: Lok. Gorna Oryahovitsa (+0.25) @1.66 (fair 1.627)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 25,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 123,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 29,
+  "classic_checked": 48,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+2.7% Panathinaikosz – Kolosszosz Rodosz · Összpontszám (hosszabbítással) 161.5: Kevesebb @1.88 (fair 1.83)",
+   "+2.3% Panathinaikosz – Kolosszosz Rodosz · Összpontszám (hosszabbítással) 162.5: Kevesebb @1.79 (fair 1.75)",
+   "+0.8% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.4 (fair 1.389)",
+   "-0.4% Atl. Madrid 2 – Teruel · Gólszám 3.5: Kevesebb @1.39 (fair 1.395)",
+   "-0.6% Malmo FF – Vittsjö · Gólszám 3.75: Kevesebb @1.55 (fair 1.559)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
