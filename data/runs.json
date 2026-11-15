@@ -1,55 +1,5 @@
 [
  {
-  "time": "2026-11-13T02:54:40.300039+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-2.8% Rei Sakamoto – Ognjen Milic · Győztes: Rei Sakamoto győz @1.14 (fair 1.173)",
-   "-8.1% Rei Sakamoto – Ognjen Milic · Játékszám 20.5: Több @1.76 (fair 1.915)",
-   "-8.4% Rei Sakamoto – Ognjen Milic · Játékszám 21.5: Kevesebb @1.71 (fair 1.867)",
-   "-8.7% Rei Sakamoto – Ognjen Milic · Játékszám 20.5: Kevesebb @1.91 (fair 2.093)",
-   "-9.0% Rei Sakamoto – Ognjen Milic · Játékszám 21.5: Több @1.96 (fair 2.154)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 4,
-  "fixtures_both": 1,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 4
- },
- {
-  "time": "2026-11-13T02:55:18.612659+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-2.8% Rei Sakamoto – Ognjen Milic · Győztes: Rei Sakamoto győz @1.14 (fair 1.173)",
-   "-8.1% Rei Sakamoto – Ognjen Milic · Játékszám 20.5: Több @1.76 (fair 1.915)",
-   "-8.4% Rei Sakamoto – Ognjen Milic · Játékszám 21.5: Kevesebb @1.71 (fair 1.867)",
-   "-8.7% Rei Sakamoto – Ognjen Milic · Játékszám 20.5: Kevesebb @1.91 (fair 2.093)",
-   "-9.0% Rei Sakamoto – Ognjen Milic · Játékszám 21.5: Több @1.96 (fair 2.154)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 4,
-  "fixtures_both": 1,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 4
- },
- {
   "time": "2026-11-13T03:00:18.612273+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23920,5 +23870,73 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 56
+ },
+ {
+  "time": "2026-11-15T17:59:46.811542+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+0.9% Franciaország – Törökország · Gólszám 4.5: Kevesebb @1.49 (fair 1.476)",
+   "-0.3% Franciaország – Törökország · Gólszám 4.75: Kevesebb @1.36 (fair 1.363)",
+   "-0.7% Franciaország – Törökország · Gólszám 4: Kevesebb @1.69 (fair 1.702)",
+   "-1.0% Spanyolország  – Anglia · Gólszám 2: Több @1.25 (fair 1.263)",
+   "-1.0% Belgium – Olaszország · Gólszám 2: Több @1.29 (fair 1.303)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 15,
+  "fixtures_both": 10,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 8,
+  "classic_checked": 10,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.0% Franciaország – Törökország · Gólszám 4.75: Kevesebb @1.35 (fair 1.363)",
+   "-1.1% Franciaország – Törökország · Gólszám 4.5: Kevesebb @1.46 (fair 1.476)",
+   "-1.8% Franciaország – Törökország · Gólszám 4.25: Kevesebb @1.54 (fair 1.569)",
+   "-2.4% Belgium – Olaszország · Gólszám 4: Kevesebb @1.26 (fair 1.291)",
+   "-2.5% Franciaország – Törökország · Gólszám 4: Kevesebb @1.66 (fair 1.702)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 21
+ },
+ {
+  "time": "2026-11-15T18:04:46.813779+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+10.8% Racing United – Tru-Juice · Ázsiai hendikep: Tru-Juice (-0.5) @2.15 (fair 1.94)",
+   "+6.8% Tivoli Gardens – Montego Bay United · Gólszám 3.5: Több @2.25 (fair 2.108)",
+   "+0.9% Franciaország – Törökország · Gólszám 4.5: Kevesebb @1.49 (fair 1.476)",
+   "-0.3% Franciaország – Törökország · Gólszám 4.75: Kevesebb @1.36 (fair 1.363)",
+   "-0.6% Spanyolország  – Anglia · Gólszám 2: Több @1.25 (fair 1.258)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 23,
+  "fixtures_both": 18,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 12,
+  "classic_checked": 13,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.0% Franciaország – Törökország · Gólszám 4.75: Kevesebb @1.35 (fair 1.363)",
+   "-1.1% Franciaország – Törökország · Gólszám 4.5: Kevesebb @1.46 (fair 1.476)",
+   "-1.8% Franciaország – Törökország · Gólszám 4.25: Kevesebb @1.54 (fair 1.569)",
+   "-1.9% NJ/NY Gotham FC – Kansas City · Gólszám 3: Kevesebb @1.39 (fair 1.417)",
+   "-2.4% Belgium – Olaszország · Gólszám 4: Kevesebb @1.26 (fair 1.291)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 29
  }
 ]
