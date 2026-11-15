@@ -1,137 +1,5 @@
 [
  {
-  "time": "2026-11-13T05:06:48.074225+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 1,
-  "fixtures_both": 0,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 1
- },
- {
-  "time": "2026-11-13T05:11:48.074538+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "boosts": 0,
-  "tippmix_matches": 1153,
-  "pinnacle_fixtures": 1111,
-  "paired": 699,
-  "by_sport": {
-   "Soccer": [
-    464,
-    348
-   ],
-   "Tennis": [
-    176,
-    26
-   ],
-   "Basketball": [
-    342,
-    201
-   ],
-   "Ice Hockey": [
-    171,
-    124
-   ]
-  },
-  "top_ev": [
-   "+1.2% Skelleftea – Linköping · Győztes (hosszabbítással): Skelleftea győz @1.22 (fair 1.206)",
-   "+0.3% Real Sociedad 2 – Sp. Gijon · Gólszám 1.5: Több @1.33 (fair 1.326)",
-   "-0.0% Real Sociedad 2 – Sp. Gijon · Gólszám 2: Több @1.52 (fair 1.52)",
-   "-0.1% Carpi – Giana Erminio · Gólszám 2: Több @1.4 (fair 1.402)",
-   "-0.1% Norvégia – Wales · Gólszám 4: Kevesebb @1.43 (fair 1.432)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 33,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 80,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 4,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 154
- },
- {
-  "time": "2026-11-13T05:28:22.683793+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 1,
-  "fixtures_both": 0,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 1
- },
- {
-  "time": "2026-11-13T05:33:22.683882+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 1223,
-  "pinnacle_fixtures": 1111,
-  "paired": 709,
-  "by_sport": {
-   "Soccer": [
-    481,
-    347
-   ],
-   "Tennis": [
-    205,
-    26
-   ],
-   "Basketball": [
-    347,
-    201
-   ],
-   "Ice Hockey": [
-    190,
-    135
-   ]
-  },
-  "top_ev": [
-   "+1.8% Moldova – Kazahsztán · Gólszám 1.5: Több @1.53 (fair 1.502)",
-   "+1.7% Moldova – Kazahsztán · Gólszám 1.75: Több @1.67 (fair 1.642)",
-   "+1.5% Moldova – Kazahsztán · Gólszám 2: Több @1.91 (fair 1.881)",
-   "+0.0% Wolfsburg – Eisbären Berlin · Győztes (hosszabbítással): Eisbären Berlin győz @1.48 (fair 1.479)",
-   "-0.5% Mali – Ruanda · Gólszám 3: Kevesebb @1.37 (fair 1.377)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 16,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 105,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 16,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
   "time": "2026-11-13T05:51:22.713323+00:00",
   "mode": "hu",
   "settled": 0,
@@ -24442,5 +24310,264 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 53
+ },
+ {
+  "time": "2026-11-15T19:31:31.660008+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "-0.3% Godoy Cruz – Tristan Suarez · Ázsiai hendikep: Godoy Cruz (+0) @1.32 (fair 1.325)",
+   "-0.8% Dep. Magallanes – Antofagasta · Gólszám 2.25: Több @1.44 (fair 1.451)",
+   "-0.9% Godoy Cruz – Tristan Suarez · Ázsiai hendikep: Godoy Cruz (+0.25) @1.22 (fair 1.231)",
+   "-1.0% Envigado – Union Magdalena · Ázsiai hendikep: Envigado (+0.5) @1.29 (fair 1.303)",
+   "-1.5% Envigado – Union Magdalena · Ázsiai hendikep: Envigado (+0.25) @1.38 (fair 1.401)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 22,
+  "fixtures_both": 19,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "classic_checked": 10,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.9% NJ/NY Gotham FC – Kansas City · Gólszám 3: Kevesebb @1.39 (fair 1.417)",
+   "-2.8% Juan Pablo II College – Dep. Garcilaso · Gólszám 3.25: Kevesebb @1.42 (fair 1.461)",
+   "-2.9% NJ/NY Gotham FC – Kansas City · Gólszám 2.75: Kevesebb @1.57 (fair 1.616)",
+   "-3.3% Godoy Cruz – Tristan Suarez · Gólszám 3.5: Kevesebb @1.08 (fair 1.117)",
+   "-3.8% Envigado – Union Magdalena · Mindkét csapat szerez gólt: Igen @1.97 (fair 2.047)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 27
+ },
+ {
+  "time": "2026-11-15T19:36:49.815130+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-0.3% Godoy Cruz – Tristan Suarez · Ázsiai hendikep: Godoy Cruz (+0) @1.32 (fair 1.325)",
+   "-0.9% Godoy Cruz – Tristan Suarez · Ázsiai hendikep: Godoy Cruz (+0.25) @1.22 (fair 1.231)",
+   "-1.0% Envigado – Union Magdalena · Gólszám 1.5: Több @1.47 (fair 1.485)",
+   "-1.1% Envigado – Union Magdalena · Gólszám 1.75: Több @1.61 (fair 1.628)",
+   "-1.1% Envigado – Union Magdalena · Gólszám 2: Több @1.85 (fair 1.871)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 22,
+  "fixtures_both": 19,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "classic_checked": 10,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.9% NJ/NY Gotham FC – Kansas City · Gólszám 3: Kevesebb @1.39 (fair 1.417)",
+   "-2.8% Juan Pablo II College – Dep. Garcilaso · Gólszám 3.25: Kevesebb @1.42 (fair 1.461)",
+   "-2.9% NJ/NY Gotham FC – Kansas City · Gólszám 2.75: Kevesebb @1.57 (fair 1.616)",
+   "-3.3% Godoy Cruz – Tristan Suarez · Gólszám 3.5: Kevesebb @1.08 (fair 1.117)",
+   "-3.7% Envigado – Union Magdalena · Gólszám 1.5: Több @1.43 (fair 1.485)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 28
+ },
+ {
+  "time": "2026-11-15T19:42:22.946361+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 3,
+  "top_ev": [
+   "-0.4% Envigado – Union Magdalena · Gólszám 1.5: Több @1.48 (fair 1.485)",
+   "-0.5% Envigado – Union Magdalena · Gólszám 1.75: Több @1.62 (fair 1.628)",
+   "-0.6% Envigado – Union Magdalena · Gólszám 2: Több @1.86 (fair 1.871)",
+   "-1.2% Envigado – Union Magdalena · Gólszám 1.25: Több @1.31 (fair 1.326)",
+   "-1.7% Cerro Porteno – Sol de America · 1X2: Cerro Porteno győz @1.49 (fair 1.515)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 14,
+  "fixtures_both": 11,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 3,
+  "classic_checked": 7,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.8% Juan Pablo II College – Dep. Garcilaso · Gólszám 3.25: Kevesebb @1.42 (fair 1.461)",
+   "-3.7% Envigado – Union Magdalena · Gólszám 1.5: Több @1.43 (fair 1.485)",
+   "-4.2% Envigado – Union Magdalena · Mindkét csapat szerez gólt: Igen @1.97 (fair 2.057)",
+   "-4.5% Juan Pablo II College – Dep. Garcilaso · Gólszám 3: Kevesebb @1.51 (fair 1.581)",
+   "-4.5% Juan Pablo II College – Dep. Garcilaso · Mindkét csapat szerez gólt: Igen @1.64 (fair 1.718)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 17
+ },
+ {
+  "time": "2026-11-15T19:47:22.945943+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 215,
+   "paired": 50,
+   "classic_only": 6
+  },
+  "tippmix_matches": 558,
+  "pinnacle_fixtures": 1137,
+  "paired": 89,
+  "by_sport": {
+   "Soccer": [
+    146,
+    53
+   ],
+   "Tennis": [
+    104,
+    5
+   ],
+   "Basketball": [
+    77,
+    15
+   ],
+   "Ice Hockey": [
+    23,
+    8
+   ],
+   "Handball": [
+    5,
+    1
+   ],
+   "Volleyball": [
+    14,
+    0
+   ],
+   "Table Tennis": [
+    24,
+    0
+   ],
+   "Cricket": [
+    35,
+    3
+   ],
+   "Badminton": [
+    0,
+    0
+   ],
+   "Darts": [
+    27,
+    0
+   ],
+   "Futsal": [
+    12,
+    0
+   ],
+   "Waterpolo": [
+    0,
+    0
+   ],
+   "ESport Counter-Strike": [
+    5,
+    0
+   ],
+   "ESport Dota": [
+    3,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    73,
+    0
+   ],
+   "eBasketball": [
+    10,
+    0
+   ],
+   "American Football": [
+    0,
+    4
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-0.1% Szomália – Ghána · Mindkét csapat szerez gólt: Nem @1.28 (fair 1.281)",
+   "-0.2% Zimbabwe – Egyenlítői-Guinea · Gólszám 1.25: Több @1.35 (fair 1.353)",
+   "-0.2% Carlos Alcaraz – Francis Tiafoe · Győztes: Carlos Alcaraz győz @1.11 (fair 1.112)",
+   "-0.4% Envigado – Union Magdalena · Gólszám 1.5: Több @1.48 (fair 1.485)",
+   "-0.5% Envigado – Union Magdalena · Gólszám 1.75: Több @1.62 (fair 1.628)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": false,
+  "fixtures_checked": 48,
+  "fixtures_both": 34,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 10,
+  "classic_checked": 28,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.7% Szomália – Ghána · Mindkét csapat szerez gólt: Nem @1.29 (fair 1.281)",
+   "-1.1% Panama – Curacao · Gólszám 3: Kevesebb @1.39 (fair 1.406)",
+   "-1.7% Defensor Montevideo – Penarol Montevideo · Gólszám 3.5: Kevesebb @1.27 (fair 1.292)",
+   "-2.0% Carlos Alcaraz – Francis Tiafoe · Győztes: Carlos Alcaraz győz @1.09 (fair 1.112)",
+   "-2.1% Kazahsztán – Szlovákia · Gólszám 4.5: Kevesebb @1.11 (fair 1.133)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 54
  }
 ]

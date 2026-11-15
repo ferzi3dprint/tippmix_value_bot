@@ -1,124 +1,4 @@
 {
- "id1000027876455622": {
-  "tm": {
-   "id": "319205764738654208",
-   "sport": "Labdarúgás",
-   "name": "Danubio Montevideo - Liverpool Montevideo",
-   "home": "Danubio Montevideo",
-   "away": "Liverpool Montevideo",
-   "home_pid": "1023",
-   "away_pid": "1017",
-   "tournament": "Uruguayi bajnokság",
-   "category": "Uruguay",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T19:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000027876455622",
-   "startTime": "2026-11-15T19:30:00.000Z",
-   "participant1Name": "Danubio FC",
-   "participant2Name": "Liverpool Montevideo",
-   "tournamentId": 278,
-   "tournamentName": "Primera Division",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5638616,
-   "name": "Danubio Montevideo - Liverpool Montevideo",
-   "score": 1.0
-  }
- },
- "id1000190876775942": {
-  "tm": {
-   "id": "319876869049622528",
-   "sport": "Labdarúgás",
-   "name": "Fenix Montevideo - Atenas De San Carlos",
-   "home": "Fenix Montevideo",
-   "away": "Atenas De San Carlos",
-   "home_pid": "80898",
-   "away_pid": "879901",
-   "tournament": "Uruguayi 2.",
-   "category": "Uruguay",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T19:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000190876775942",
-   "startTime": "2026-11-15T19:30:00.000Z",
-   "participant1Name": "CA Fenix Montevideo",
-   "participant2Name": "CA Atenas de San Carlos",
-   "tournamentId": 1908,
-   "tournamentName": "Segunda Division",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5654798,
-   "name": "Fenix Montevideo - Atenas de San Carlos",
-   "score": 1.0
-  }
- },
- "id1002375568931504": {
-  "tm": {
-   "id": "317046473665617920",
-   "sport": "Labdarúgás",
-   "name": "Belgium - Olaszország",
-   "home": "Belgium",
-   "away": "Olaszország",
-   "home_pid": "785",
-   "away_pid": "1047",
-   "tournament": "Nemzetek Ligája, A divízió, 1. csoport",
-   "category": "Európa",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T19:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002375568931504",
-   "startTime": "2026-11-15T19:45:00.000Z",
-   "participant1Name": "Belgium",
-   "participant2Name": "Italy",
-   "tournamentId": 23755,
-   "tournamentName": "UEFA Nations League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5556502,
-   "name": "Belgium - Olaszország",
-   "score": 1.0
-  }
- },
- "id1002375568931760": {
-  "tm": {
-   "id": "317046473573343232",
-   "sport": "Labdarúgás",
-   "name": "Spanyolország  - Anglia",
-   "home": "Spanyolország ",
-   "away": "Anglia",
-   "home_pid": "763",
-   "away_pid": "791",
-   "tournament": "Nemzetek Ligája, A divízió, 3. csoport",
-   "category": "Európa",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T19:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002375568931760",
-   "startTime": "2026-11-15T19:45:00.000Z",
-   "participant1Name": "Spain",
-   "participant2Name": "England",
-   "tournamentId": 23755,
-   "tournamentName": "UEFA Nations League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5556500,
-   "name": "Spanyolország - Anglia",
-   "score": 1.0
-  }
- },
  "id1000070376411704": {
   "tm": {
    "id": "318992649462816768",
@@ -1329,31 +1209,6 @@
    "score": 1.0
   }
  },
- "id1005118276712470": {
-  "tm": {
-   "id": "320047197673562112",
-   "sport": "Labdarúgás",
-   "name": "Inter Moengotapoe - Flora",
-   "home": "Inter Moengotapoe",
-   "away": "Flora",
-   "home_pid": "260968726999195648",
-   "away_pid": "260968721898921984",
-   "tournament": "Suriname-i bajnokság",
-   "category": "Suriname",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T19:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1005118276712470",
-   "startTime": "2026-11-15T19:30:00.000Z",
-   "participant1Name": "Inter Moengotapoe",
-   "participant2Name": "Flora FC Sur",
-   "tournamentId": 51182,
-   "tournamentName": "Major League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1005118276712472": {
   "tm": {
    "id": "319950476545171456",
@@ -1462,36 +1317,6 @@
    "id": 5555450,
    "name": "ADC Juan Pablo II - Dep. Garcilaso",
    "score": 0.867
-  }
- },
- "id1002375568931506": {
-  "tm": {
-   "id": "317046473481068544",
-   "sport": "Labdarúgás",
-   "name": "Franciaország - Törökország",
-   "home": "Franciaország",
-   "away": "Törökország",
-   "home_pid": "769",
-   "away_pid": "759",
-   "tournament": "Nemzetek Ligája, A divízió, 1. csoport",
-   "category": "Európa",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T19:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002375568931506",
-   "startTime": "2026-11-15T19:45:00.000Z",
-   "participant1Name": "France",
-   "participant2Name": "Turkiye",
-   "tournamentId": 23755,
-   "tournamentName": "UEFA Nations League",
-   "sportName": "Soccer"
-  },
-  "score": 0.838,
-  "cl": {
-   "id": 5556501,
-   "name": "Franciaország - Törökország",
-   "score": 1.0
   }
  },
  "id1002895376595266": {
@@ -1662,36 +1487,6 @@
    "id": 5638737,
    "name": "Defensor Montevideo - Penarol Montevideo",
    "score": 1.0
-  }
- },
- "id1202140676736428": {
-  "tm": {
-   "id": "319784198084829184",
-   "sport": "Tenisz",
-   "name": "Ben Shelton - Arthur Fils",
-   "home": "Ben Shelton",
-   "away": "Arthur Fils",
-   "home_pid": "139477797725851648",
-   "away_pid": "93625114342457344",
-   "tournament": "ATP-vb, férfi egyes, A csoport",
-   "category": "ATP",
-   "tm_sport_id": "3",
-   "start": "2026-11-15T19:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1202140676736428",
-   "startTime": "2026-11-15T19:30:00.000Z",
-   "participant1Name": "Shelton, Ben",
-   "participant2Name": "Fils, Arthur",
-   "tournamentId": 21406,
-   "tournamentName": "ATP World Tour Finals Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5652828,
-   "name": "B. Shelton - A. Fils",
-   "score": 0.848
   }
  },
  "id1201316776799020": {
@@ -2451,36 +2246,6 @@
   "cl": {
    "id": 5559573,
    "name": "Fredericia - Skjern",
-   "score": 1.0
-  }
- },
- "id2300117372775274": {
-  "tm": {
-   "id": "319445130377502720",
-   "sport": "Röplabda",
-   "name": "Wroclaw - Budowlani Lodz",
-   "home": "Wroclaw",
-   "away": "Budowlani Lodz",
-   "home_pid": "149274901497303040",
-   "away_pid": "286663",
-   "tournament": "Lengyel bajnokság, női",
-   "category": "Lengyelország",
-   "tm_sport_id": "20",
-   "start": "2026-11-15T19:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2300117372775274",
-   "startTime": "2026-11-15T19:30:00.000Z",
-   "participant1Name": "Volley Wroclaw",
-   "participant2Name": "Budowlani Lodz",
-   "tournamentId": 1173,
-   "tournamentName": "Liga Siatkowki, Women",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5556456,
-   "name": "Wroclaw - Budowlani Lodz",
    "score": 1.0
   }
  },
