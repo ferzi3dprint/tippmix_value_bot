@@ -1,52 +1,5 @@
 [
  {
-  "time": "2026-11-13T00:45:22.629465+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "boosts": 0,
-  "tippmix_matches": 1154,
-  "pinnacle_fixtures": 1111,
-  "paired": 719,
-  "by_sport": {
-   "Soccer": [
-    451,
-    343
-   ],
-   "Tennis": [
-    180,
-    29
-   ],
-   "Basketball": [
-    347,
-    217
-   ],
-   "Ice Hockey": [
-    176,
-    130
-   ]
-  },
-  "top_ev": [
-   "+0.8% Németország – Finnország · Hendikep (rendes játékidő): Németország (+2.5) @1.61 (fair 1.597)",
-   "+0.8% Svédország – Svájc · Győztes (hosszabbítással): Svédország győz @1.19 (fair 1.18)",
-   "+0.2% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.52 (fair 1.517)",
-   "-0.5% Los Angeles – NY Islanders · Hendikep (rendes játékidő): Los Angeles (+1) @1.38 (fair 1.387)",
-   "-0.7% Svédország – Svájc · Hendikep (rendes játékidő): Svédország (-1.5) @1.64 (fair 1.651)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 39,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 100,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 4,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 154
- },
- {
   "time": "2026-11-13T01:02:24.967073+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23338,5 +23291,162 @@
   "not_executable": 1,
   "api_calls": 0,
   "free_calls": 109
+ },
+ {
+  "time": "2026-11-15T16:22:32.316687+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 339,
+   "paired": 123,
+   "classic_only": 17
+  },
+  "tippmix_matches": 733,
+  "pinnacle_fixtures": 1137,
+  "paired": 208,
+  "by_sport": {
+   "Soccer": [
+    191,
+    88
+   ],
+   "Tennis": [
+    117,
+    7
+   ],
+   "Basketball": [
+    161,
+    66
+   ],
+   "Ice Hockey": [
+    46,
+    19
+   ],
+   "Handball": [
+    28,
+    8
+   ],
+   "Volleyball": [
+    42,
+    4
+   ],
+   "Table Tennis": [
+    40,
+    0
+   ],
+   "Cricket": [
+    33,
+    3
+   ],
+   "Badminton": [
+    0,
+    0
+   ],
+   "Darts": [
+    14,
+    0
+   ],
+   "Futsal": [
+    15,
+    2
+   ],
+   "Waterpolo": [
+    5,
+    0
+   ],
+   "ESport Counter-Strike": [
+    10,
+    0
+   ],
+   "ESport Dota": [
+    4,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    27,
+    0
+   ],
+   "eBasketball": [
+    0,
+    0
+   ],
+   "American Football": [
+    0,
+    11
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+0.3% Villach – Fehérvár · Győztes (hosszabbítással): Fehérvár győz @2.14 (fair 2.133)",
+   "-0.1% Spanyolország  – Anglia · Gólszám 2: Több @1.24 (fair 1.241)",
+   "-0.1% Szomália – Ghána · Mindkét csapat szerez gólt: Nem @1.28 (fair 1.281)",
+   "-0.1% Finnország – San Marino · Ázsiai hendikep: Finnország (-3.25) @1.57 (fair 1.572)",
+   "-0.2% Carlos Alcaraz – Francis Tiafoe · Győztes: Carlos Alcaraz győz @1.11 (fair 1.112)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 12,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 78,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 25,
+  "classic_checked": 97,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+2.1% Deportivo A Coruna – Barcelona · Gólszám 4.5: Kevesebb @1.78 (fair 1.743)",
+   "+1.6% Deportivo A Coruna – Barcelona · Gólszám 4.25: Kevesebb @1.95 (fair 1.919)",
+   "+0.7% Szomália – Ghána · Mindkét csapat szerez gólt: Nem @1.29 (fair 1.281)",
+   "+0.5% Cuneo – Vero Milano · Győztes: Vero Milano győz @1.06 (fair 1.055)",
+   "+0.3% Deportivo A Coruna – Barcelona · Gólszám 4: Kevesebb @2.21 (fair 2.203)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 156
  }
 ]
