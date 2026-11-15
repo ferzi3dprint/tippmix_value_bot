@@ -1,71 +1,5 @@
 [
  {
-  "time": "2026-11-13T03:00:18.612273+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 1,
-  "boosts": 0,
-  "tippmix_matches": 1155,
-  "pinnacle_fixtures": 1111,
-  "paired": 700,
-  "by_sport": {
-   "Soccer": [
-    461,
-    345
-   ],
-   "Tennis": [
-    190,
-    27
-   ],
-   "Basketball": [
-    333,
-    204
-   ],
-   "Ice Hockey": [
-    171,
-    124
-   ]
-  },
-  "top_ev": [
-   "+1.4% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.47 (fair 1.45)",
-   "+1.1% U21Finnország – U21Írország · Gólszám 1.5: Több @1.36 (fair 1.346)",
-   "+1.0% U21Finnország – U21Írország · Gólszám 2: Több @1.57 (fair 1.554)",
-   "+0.6% U21Finnország – U21Írország · 1X2: U21Finnország győz @2.03 (fair 2.018)",
-   "+0.1% Dél-Afrika – Kenya · Ázsiai hendikep: Kenya (+2) @1.47 (fair 1.469)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 62,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 126,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 1,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 151
- },
- {
-  "time": "2026-11-13T03:16:36.445905+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 2,
-  "fixtures_both": 0,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 2
- },
- {
   "time": "2026-11-13T03:21:36.445834+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23938,5 +23872,196 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 29
+ },
+ {
+  "time": "2026-11-15T18:10:17.884415+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "+1.0% Franciaország – Törökország · Gólszám 4.5: Kevesebb @1.49 (fair 1.475)",
+   "-0.2% Franciaország – Törökország · Gólszám 4.75: Kevesebb @1.36 (fair 1.362)",
+   "-0.6% Franciaország – Törökország · Gólszám 4: Kevesebb @1.69 (fair 1.7)",
+   "-0.6% Spanyolország  – Anglia · Gólszám 2: Több @1.25 (fair 1.258)",
+   "-1.0% Franciaország – Törökország · Gólszám 4.25: Kevesebb @1.55 (fair 1.565)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 21,
+  "fixtures_both": 18,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 10,
+  "classic_checked": 13,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.9% Franciaország – Törökország · Gólszám 4.75: Kevesebb @1.35 (fair 1.362)",
+   "-1.0% Franciaország – Törökország · Gólszám 4.5: Kevesebb @1.46 (fair 1.475)",
+   "-1.6% Franciaország – Törökország · Gólszám 4.25: Kevesebb @1.54 (fair 1.565)",
+   "-1.9% NJ/NY Gotham FC – Kansas City · Gólszám 3: Kevesebb @1.39 (fair 1.417)",
+   "-2.3% Franciaország – Törökország · Gólszám 4: Kevesebb @1.66 (fair 1.7)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 26
+ },
+ {
+  "time": "2026-11-15T18:15:33.088516+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 247,
+   "paired": 60,
+   "classic_only": 6
+  },
+  "tippmix_matches": 554,
+  "pinnacle_fixtures": 1137,
+  "paired": 105,
+  "by_sport": {
+   "Soccer": [
+    145,
+    61
+   ],
+   "Tennis": [
+    113,
+    6
+   ],
+   "Basketball": [
+    82,
+    17
+   ],
+   "Ice Hockey": [
+    31,
+    10
+   ],
+   "Handball": [
+    7,
+    1
+   ],
+   "Volleyball": [
+    20,
+    2
+   ],
+   "Table Tennis": [
+    27,
+    0
+   ],
+   "Cricket": [
+    34,
+    3
+   ],
+   "Badminton": [
+    0,
+    0
+   ],
+   "Darts": [
+    13,
+    0
+   ],
+   "Futsal": [
+    13,
+    1
+   ],
+   "Waterpolo": [
+    2,
+    0
+   ],
+   "ESport Counter-Strike": [
+    6,
+    0
+   ],
+   "ESport Dota": [
+    3,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    52,
+    0
+   ],
+   "eBasketball": [
+    6,
+    0
+   ],
+   "American Football": [
+    0,
+    4
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+0.9% Franciaország – Törökország · Gólszám 4.5: Kevesebb @1.49 (fair 1.476)",
+   "+0.6% Central SC – Ypiranga PE · Ázsiai hendikep: Central SC (-1) @1.93 (fair 1.919)",
+   "+0.5% Belgium – Olaszország · Gólszám 2: Több @1.29 (fair 1.283)",
+   "+0.0% Central SC – Ypiranga PE · Ázsiai hendikep: Central SC (-0.75) @1.66 (fair 1.659)",
+   "-0.1% Szomália – Ghána · Mindkét csapat szerez gólt: Nem @1.28 (fair 1.281)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": false,
+  "fixtures_checked": 70,
+  "fixtures_both": 53,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 21,
+  "classic_checked": 41,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.7% Szomália – Ghána · Mindkét csapat szerez gólt: Nem @1.29 (fair 1.281)",
+   "-1.0% Franciaország – Törökország · Gólszám 4.75: Kevesebb @1.35 (fair 1.363)",
+   "-1.1% Franciaország – Törökország · Gólszám 4.5: Kevesebb @1.46 (fair 1.476)",
+   "-1.6% Panama – Curacao · Gólszám 3: Kevesebb @1.39 (fair 1.413)",
+   "-1.7% Defensor Montevideo – Penarol Montevideo · Gólszám 3.5: Kevesebb @1.27 (fair 1.292)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 76
  }
 ]
