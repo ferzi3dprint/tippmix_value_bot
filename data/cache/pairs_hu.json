@@ -1559,36 +1559,6 @@
    "score": 1.0
   }
  },
- "id1500023472909498": {
-  "tm": {
-   "id": "318936547351142400",
-   "sport": "Jégkorong",
-   "name": "Anaheim - Calgary",
-   "home": "Anaheim",
-   "away": "Calgary",
-   "home_pid": "37452",
-   "away_pid": "37446",
-   "tournament": "NHL (alapszakasz)",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-16T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500023472909498",
-   "startTime": "2026-11-16T01:00:00.000Z",
-   "participant1Name": "Anaheim Ducks",
-   "participant2Name": "Calgary Flames",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5559562,
-   "name": "Anaheim - Calgary",
-   "score": 1.0
-  }
- },
  "id1500023472909496": {
   "tm": {
    "id": "318936546310955008",
@@ -1616,6 +1586,36 @@
   "cl": {
    "id": 5559560,
    "name": "Dallas - Florida",
+   "score": 1.0
+  }
+ },
+ "id1500023472909498": {
+  "tm": {
+   "id": "318936547351142400",
+   "sport": "Jégkorong",
+   "name": "Anaheim - Calgary",
+   "home": "Anaheim",
+   "away": "Calgary",
+   "home_pid": "37452",
+   "away_pid": "37446",
+   "tournament": "NHL (alapszakasz)",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-16T01:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500023472909498",
+   "startTime": "2026-11-16T01:00:00.000Z",
+   "participant1Name": "Anaheim Ducks",
+   "participant2Name": "Calgary Flames",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5559562,
+   "name": "Anaheim - Calgary",
    "score": 1.0
   }
  },
