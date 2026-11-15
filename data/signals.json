@@ -1955,7 +1955,7 @@
   "closing_fair_prob": 0.51567,
   "closing_fair_odds": 1.939,
   "closing_sharp_odds": 1.819,
-  "closing_at": "2026-11-15T09:29:01.411485+00:00",
+  "closing_at": "2026-11-15T09:46:18.726315+00:00",
   "clv": 0.06228
  },
  {
@@ -2101,5 +2101,22 @@
   "band": "1.30–1.50",
   "trigger": "normál",
   "bet": false
+ },
+ {
+  "fixture_id": "id1000023972531678",
+  "market_id": 101,
+  "outcome_id": 101,
+  "first_at": "2026-11-15T09:46:18.726315+00:00",
+  "start": "2026-11-15T11:00:00.000Z",
+  "home": "Tondela",
+  "away": "Farense",
+  "tournament": "Portugál 2.",
+  "label": "1X2: Tondela győz",
+  "odds": 1.82,
+  "fair_prob": 0.57034,
+  "ev": 0.03801,
+  "band": "1.80–2.10",
+  "trigger": "steam",
+  "bet": true
  }
 ]
