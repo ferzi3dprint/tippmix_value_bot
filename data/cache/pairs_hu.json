@@ -1,64 +1,4 @@
 {
- "id1003459072339090": {
-  "tm": {
-   "id": "319770150851125248",
-   "sport": "Labdarúgás",
-   "name": "Kobe Leonessa - Cerezo Osaka",
-   "home": "Kobe Leonessa",
-   "away": "Cerezo Osaka",
-   "home_pid": "1191286",
-   "away_pid": "1416019",
-   "tournament": "Japán bajnokság, női",
-   "category": "Japán",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003459072339090",
-   "startTime": "2026-11-15T08:00:00.000Z",
-   "participant1Name": "INAC Kobe Leonessa",
-   "participant2Name": "Cerezo Osaka Sakai Ladies",
-   "tournamentId": 34590,
-   "tournamentName": "WE League, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555694,
-   "name": "Kobe Leonessa - Cerezo Osaka",
-   "score": 1.0
-  }
- },
- "id1000010176326616": {
-  "tm": {
-   "id": "319670642293153792",
-   "sport": "Labdarúgás",
-   "name": "Kashiwa Reysol - Kawasaki Frontale",
-   "home": "Kashiwa Reysol",
-   "away": "Kawasaki Frontale",
-   "home_pid": "1663",
-   "away_pid": "1650",
-   "tournament": "Japán Liga-kupa",
-   "category": "Japán",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000010176326616",
-   "startTime": "2026-11-15T08:00:00.000Z",
-   "participant1Name": "Kashiwa Reysol",
-   "participant2Name": "Kawasaki Frontale",
-   "tournamentId": 101,
-   "tournamentName": "J.League Cup",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5632440,
-   "name": "Kashiwa R. - Kawasaki Frontale",
-   "score": 1.0
-  }
- },
  "id1000209472152194": {
   "tm": {
    "id": "318757984030236672",
@@ -8284,6 +8224,31 @@
   },
   "score": 1.0
  },
+ "id1000038076732862": {
+  "tm": {
+   "id": "319972326529638400",
+   "sport": "Labdarúgás",
+   "name": "Central SC - Ypiranga PE",
+   "home": "Central SC",
+   "away": "Ypiranga PE",
+   "home_pid": "1162455",
+   "away_pid": "241417771555393536",
+   "tournament": "Brazil Pernambucano",
+   "category": "Brazília",
+   "tm_sport_id": "1",
+   "start": "2026-11-15T20:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000038076732862",
+   "startTime": "2026-11-15T20:00:00.000Z",
+   "participant1Name": "Central SC PE",
+   "participant2Name": "Ypiranga PE",
+   "tournamentId": 380,
+   "tournamentName": "Pernambucano",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1002772576320390": {
   "tm": {
    "id": "319982926779457536",
@@ -9064,31 +9029,6 @@
   },
   "score": 0.813
  },
- "id1004866375448388": {
-  "tm": {
-   "id": "319945498623549440",
-   "sport": "Labdarúgás",
-   "name": "Sekhukhune United 2 - Stellenbosch FC 2",
-   "home": "Sekhukhune United 2",
-   "away": "Stellenbosch FC 2",
-   "home_pid": "149968460616617984",
-   "away_pid": "151245963756883968",
-   "tournament": "Dél-afrikai Diski Challenge",
-   "category": "Dél-Afrika",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004866375448388",
-   "startTime": "2026-11-15T08:00:00.000Z",
-   "participant1Name": "Sekhukhune United",
-   "participant2Name": "Stellenbosch FC",
-   "tournamentId": 48663,
-   "tournamentName": "Diski Challenge, Reserves",
-   "sportName": "Soccer"
-  },
-  "score": 0.808
- },
  "id1000054472507582": {
   "tm": {
    "id": "319573187701579776",
@@ -9439,96 +9379,6 @@
    "score": 1.0
   }
  },
- "id1204959676805216": {
-  "tm": {
-   "id": "319953021157056512",
-   "sport": "Tenisz",
-   "name": "Silvia Njiric - Julia Terziyska",
-   "home": "Silvia Njiric",
-   "away": "Julia Terziyska",
-   "home_pid": "308452525276360704",
-   "away_pid": "137010241057378304",
-   "tournament": "Krakkó, női egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-15T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204959676805216",
-   "startTime": "2026-11-15T08:00:00.000Z",
-   "participant1Name": "Njiric, Silvia",
-   "participant2Name": "Terziyska, Julia",
-   "tournamentId": 49596,
-   "tournamentName": "UTR PTT Krakow Women 03",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655913,
-   "name": "S. Njiric - J. Terziyska",
-   "score": 1.0
-  }
- },
- "id1205404276805704": {
-  "tm": {
-   "id": "319955278410883072",
-   "sport": "Tenisz",
-   "name": "Cas de Ruiter - Vilmos Krisztian Kovacs",
-   "home": "Cas de Ruiter",
-   "away": "Vilmos Krisztian Kovacs",
-   "home_pid": "281821807974158336",
-   "away_pid": "313798925851717632",
-   "tournament": "Nagyszombat, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-15T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205404276805704",
-   "startTime": "2026-11-15T08:00:00.000Z",
-   "participant1Name": "De Ruiter, Cas",
-   "participant2Name": "Kovacs, Vilmos Krisztian",
-   "tournamentId": 54042,
-   "tournamentName": "UTR PTT Trnava Men 05",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5656226,
-   "name": "Cas de Ruiter - Kovács Vilmos Krisztián",
-   "score": 1.0
-  }
- },
- "id1205404276805138": {
-  "tm": {
-   "id": "319946418920955904",
-   "sport": "Tenisz",
-   "name": "Michael Savano - Karol Filar",
-   "home": "Michael Savano",
-   "away": "Karol Filar",
-   "home_pid": "287760612567846912",
-   "away_pid": "202058652630282240",
-   "tournament": "Nagyszombat, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-15T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205404276805138",
-   "startTime": "2026-11-15T08:00:00.000Z",
-   "participant1Name": "Savano, Michael",
-   "participant2Name": "Filar, Karol",
-   "tournamentId": 54042,
-   "tournamentName": "UTR PTT Trnava Men 05",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655912,
-   "name": "M. Savano - K. Filar",
-   "score": 1.0
-  }
- },
  "id1202140676736448": {
   "tm": {
    "id": "319784194301566976",
@@ -9648,31 +9498,6 @@
    "name": "D. Medvedev - F. Cobolli",
    "score": 1.0
   }
- },
- "id1100151672703218": {
-  "tm": {
-   "id": "318936845138337792",
-   "sport": "Kosárlabda",
-   "name": "Nara - Aomori",
-   "home": "Nara",
-   "away": "Aomori",
-   "home_pid": "182295160636362752",
-   "away_pid": "182141487097630720",
-   "tournament": "Japán 2.",
-   "category": "Japán",
-   "tm_sport_id": "8",
-   "start": "2026-11-15T08:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100151672703218",
-   "startTime": "2026-11-15T08:05:00.000Z",
-   "participant1Name": "Bambitious Nara",
-   "participant2Name": "Aomori Wats",
-   "tournamentId": 1516,
-   "tournamentName": "B League One",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1104467575020372": {
   "tm": {
@@ -16944,31 +16769,6 @@
   },
   "score": 1.0
  },
- "id2701556269238744": {
-  "tm": {
-   "id": "319764537037365248",
-   "sport": "Krikett",
-   "name": "Dél-Afrika - Banglades",
-   "home": "Dél-Afrika",
-   "away": "Banglades",
-   "home_pid": "38158",
-   "away_pid": "38164",
-   "tournament": "Test Series",
-   "category": "Világ",
-   "tm_sport_id": "26",
-   "start": "2026-11-15T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2701556269238744",
-   "startTime": "2026-11-15T08:00:00.000Z",
-   "participant1Name": "South Africa",
-   "participant2Name": "Bangladesh",
-   "tournamentId": 15562,
-   "tournamentName": "Test Series South Africa vs. Bangladesh",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
- },
  "id2702054673456020": {
   "tm": {
    "id": "319566868060905472",
@@ -17208,31 +17008,6 @@
    "name": "Vouliagmeni - Apollon Szmirnisz",
    "score": 1.0
   }
- },
- "id1703162176805300": {
-  "tm": {
-   "id": "319948864466526208",
-   "sport": "Counter-Strike",
-   "name": "Spirit - FURIA",
-   "home": "Spirit",
-   "away": "FURIA",
-   "home_pid": "226901545533460480",
-   "away_pid": "226901506354466816",
-   "tournament": "BLAST Rivals Fall",
-   "category": "Világ",
-   "tm_sport_id": "186",
-   "start": "2026-11-15T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1703162176805300",
-   "startTime": "2026-11-15T08:00:00.000Z",
-   "participant1Name": "Team Spirit",
-   "participant2Name": "Furia",
-   "tournamentId": 31621,
-   "tournamentName": "Blast Premier Series",
-   "sportName": "ESport Counter-Strike"
-  },
-  "score": 1.0
  },
  "id1000021466918412": {
   "tm": null,

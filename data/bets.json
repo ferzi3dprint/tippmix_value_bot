@@ -1024,7 +1024,7 @@
  {
   "id": "8245c13e79",
   "placed_at": "2026-11-15T04:03:18.239972+00:00",
-  "status": "open",
+  "status": "settled",
   "exec_status": "ok",
   "fixture_id": "id2300214875310196",
   "sport": "Volleyball",
@@ -1065,7 +1065,12 @@
   "closing_fair_odds": 1.353,
   "closing_sharp_odds": 1.307,
   "closing_at": "2026-11-15T04:34:03.421928+00:00",
-  "clv": 0.17479
+  "clv": 0.17479,
+  "settle_tried_at": "2026-11-15T08:14:21.853411+00:00",
+  "result": "WIN",
+  "payout": 1669.5,
+  "profit": 619.5,
+  "settled_at": "2026-11-15T08:14:21.853411+00:00"
  },
  {
   "id": "449623668f",
@@ -1195,7 +1200,7 @@
   "closing_fair_prob": 0.49325,
   "closing_fair_odds": 2.027,
   "closing_sharp_odds": 1.9,
-  "closing_at": "2026-11-15T07:51:09.201568+00:00",
+  "closing_at": "2026-11-15T08:14:21.853411+00:00",
   "clv": 0.0309
  },
  {
@@ -1277,5 +1282,45 @@
   "expected_profit": 108.24,
   "exec_checked_at": "2026-11-15T07:45:32.099462+00:00",
   "exec_odds": 2.0
+ },
+ {
+  "id": "e98ca06ea9",
+  "placed_at": "2026-11-15T08:14:21.853411+00:00",
+  "status": "open",
+  "exec_status": "moved",
+  "fixture_id": "id1001415172415690",
+  "sport": "Soccer",
+  "tournament": "Cseh 3., CFL, B csoport",
+  "home": "Teplice 2",
+  "away": "FC Hradec Kralove 2",
+  "start": "2026-11-15T09:15:00.000Z",
+  "label": "Ázsiai hendikep: Teplice 2 (-1)",
+  "band": "2.10–2.50",
+  "stake": 1150,
+  "signal_odds": 2.8,
+  "signal_ev": 0.08086,
+  "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/csehorszag/cseh-3-cfl-b-csoport/teplice-2-fc-hradec-kralove-2/319731364392935424/nepszeru",
+  "tm_id": "319731364392935424",
+  "tm_url": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/csehorszag/cseh-3-cfl-b-csoport/teplice-2-fc-hradec-kralove-2/319731364392935424/nepszeru",
+  "market_id": 1064,
+  "market": "Asian Handicap",
+  "outcome_id": 1064,
+  "outcome": "1",
+  "odds": 2.14,
+  "sharp_odds": 2.34,
+  "fair_prob": 0.4977,
+  "fair_odds": 2.009,
+  "ev": 0.06508,
+  "sharp_overround": 1.0742,
+  "line": -1.0,
+  "mtype": "spreads",
+  "ref": "Pinnacle",
+  "steam": null,
+  "trigger": "normál",
+  "tm_tip": "Ázsiai hendikep -1 - Rendes játékidő → Teplice 2 (-1)",
+  "min_odds": 2.03,
+  "expected_profit": 74.84,
+  "exec_checked_at": "2026-11-15T08:31:02.131446+00:00",
+  "exec_odds": 2.14
  }
 ]
