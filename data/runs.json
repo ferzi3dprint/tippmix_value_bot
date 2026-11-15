@@ -1,52 +1,5 @@
 [
  {
-  "time": "2026-11-12T21:07:57.392513+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 627,
-  "pinnacle_fixtures": 601,
-  "paired": 263,
-  "by_sport": {
-   "Soccer": [
-    170,
-    87
-   ],
-   "Tennis": [
-    174,
-    6
-   ],
-   "Basketball": [
-    171,
-    87
-   ],
-   "Ice Hockey": [
-    112,
-    83
-   ]
-  },
-  "top_ev": [
-   "+4.3% Marokkó – Niger · Ázsiai hendikep: Niger (+3) @1.61 (fair 1.544)",
-   "+0.8% Andorra – Gibraltár · 1X2: Andorra győz @1.74 (fair 1.726)",
-   "+0.6% Szlovákia – Feröer-szigetek · Gólszám 4.5: Kevesebb @1.15 (fair 1.143)",
-   "+0.5% Szerbia – Németország · 1X2: Németország győz @1.28 (fair 1.273)",
-   "+0.3% Utah – St. Louis · Hendikep (rendes játékidő): Utah (+1) @1.51 (fair 1.505)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": false,
-  "fixtures_checked": 125,
-  "fixtures_both": 67,
-  "rejected_mismatch": 0,
-  "candidates": 1,
-  "steam_fixtures": 18,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 131
- },
- {
   "time": "2026-11-12T21:22:49.649073+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22139,5 +22092,39 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T11:08:57.083931+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+8.8% FC Sopron – Haladás · Gólszám 3: Több @1.85 (fair 1.7)",
+   "+7.3% FC Sopron – Haladás · Gólszám 3.25: Több @2.08 (fair 1.939)",
+   "+7.0% FC Sopron – Haladás · Gólszám 3.5: Több @2.33 (fair 2.178)",
+   "+1.5% Budafok – MTK 2 · Gólszám 4: Több @2.31 (fair 2.275)",
+   "+1.4% Budafok – MTK 2 · Gólszám 3.5: Több @1.81 (fair 1.784)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 14,
+  "fast": true,
+  "fixtures_checked": 85,
+  "fixtures_both": 68,
+  "rejected_mismatch": 0,
+  "candidates": 3,
+  "steam_fixtures": 24,
+  "classic_checked": 29,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.7% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.4 (fair 1.391)",
+   "-0.6% Göztepe – Galatasaray · Győztes: Galatasaray győz @1.21 (fair 1.217)",
+   "-0.7% Malmo FF – Vittsjö · Gólszám 3.75: Kevesebb @1.55 (fair 1.561)",
+   "-0.7% FC Copenhagen – Midtjylland · Gólszám 3.75: Kevesebb @1.47 (fair 1.481)",
+   "-1.8% Paris 13 Atletico – Red Star FC · Gólszám 3.25: Kevesebb @1.44 (fair 1.466)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 91
  }
 ]

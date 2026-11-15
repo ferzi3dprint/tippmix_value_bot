@@ -1825,11 +1825,11 @@
   "band": "2.10–2.50",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.39734,
-  "closing_fair_odds": 2.517,
-  "closing_sharp_odds": 2.27,
-  "closing_at": "2026-11-15T10:51:52.568100+00:00",
-  "clv": -0.1616
+  "closing_fair_prob": 0.36386,
+  "closing_fair_odds": 2.748,
+  "closing_sharp_odds": 2.42,
+  "closing_at": "2026-11-15T11:08:57.083931+00:00",
+  "clv": -0.23226
  },
  {
   "fixture_id": "id1000138073629430",
@@ -1974,11 +1974,11 @@
   "band": "2.10–2.50",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.50445,
-  "closing_fair_odds": 1.982,
-  "closing_sharp_odds": 1.854,
-  "closing_at": "2026-11-15T10:51:52.568100+00:00",
-  "clv": 0.07447
+  "closing_fair_prob": 0.50667,
+  "closing_fair_odds": 1.974,
+  "closing_sharp_odds": 1.847,
+  "closing_at": "2026-11-15T11:08:57.083931+00:00",
+  "clv": 0.0792
  },
  {
   "fixture_id": "id1001415172415690",
@@ -2140,11 +2140,11 @@
   "band": "1.80–2.10",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.55757,
-  "closing_fair_odds": 1.793,
-  "closing_sharp_odds": 1.684,
-  "closing_at": "2026-11-15T10:51:52.568100+00:00",
-  "clv": 0.05939
+  "closing_fair_prob": 0.56047,
+  "closing_fair_odds": 1.784,
+  "closing_sharp_odds": 1.675,
+  "closing_at": "2026-11-15T11:08:57.083931+00:00",
+  "clv": 0.06489
  },
  {
   "fixture_id": "id1004795272880628",
@@ -2162,10 +2162,61 @@
   "band": "2.10–2.50",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.43662,
-  "closing_fair_odds": 2.29,
-  "closing_sharp_odds": 2.09,
-  "closing_at": "2026-11-15T10:51:52.568100+00:00",
-  "clv": 0.09155
+  "closing_fair_prob": 0.43953,
+  "closing_fair_odds": 2.275,
+  "closing_sharp_odds": 2.08,
+  "closing_at": "2026-11-15T11:08:57.083931+00:00",
+  "clv": 0.09882
+ },
+ {
+  "fixture_id": "id1004795272879364",
+  "market_id": 10174,
+  "outcome_id": 10174,
+  "first_at": "2026-11-15T11:08:57.083931+00:00",
+  "start": "2026-11-15T12:00:00.000Z",
+  "home": "FC Sopron",
+  "away": "Haladás",
+  "tournament": "NB III",
+  "label": "Gólszám 3: Több",
+  "odds": 1.85,
+  "fair_prob": 0.58833,
+  "ev": 0.08841,
+  "band": "1.80–2.10",
+  "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1004795272879364",
+  "market_id": 10176,
+  "outcome_id": 10176,
+  "first_at": "2026-11-15T11:08:57.083931+00:00",
+  "start": "2026-11-15T12:00:00.000Z",
+  "home": "FC Sopron",
+  "away": "Haladás",
+  "tournament": "NB III",
+  "label": "Gólszám 3.25: Több",
+  "odds": 2.08,
+  "fair_prob": 0.51567,
+  "ev": 0.07259,
+  "band": "1.80–2.10",
+  "trigger": "normál",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1004795272879364",
+  "market_id": 1012,
+  "outcome_id": 1012,
+  "first_at": "2026-11-15T11:08:57.083931+00:00",
+  "start": "2026-11-15T12:00:00.000Z",
+  "home": "FC Sopron",
+  "away": "Haladás",
+  "tournament": "NB III",
+  "label": "Gólszám 3.5: Több",
+  "odds": 2.33,
+  "fair_prob": 0.45922,
+  "ev": 0.06999,
+  "band": "2.10–2.50",
+  "trigger": "normál",
+  "bet": false
  }
 ]
