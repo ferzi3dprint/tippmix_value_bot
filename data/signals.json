@@ -1850,7 +1850,7 @@
   "closing_fair_prob": 0.54863,
   "closing_fair_odds": 1.823,
   "closing_sharp_odds": 1.719,
-  "closing_at": "2026-11-15T13:25:54.217033+00:00",
+  "closing_at": "2026-11-15T13:55:00.170447+00:00",
   "clv": 0.03143
  },
  {
@@ -2453,11 +2453,11 @@
   "band": "2.50–5.00",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.56338,
-  "closing_fair_odds": 1.775,
-  "closing_sharp_odds": 1.666,
-  "closing_at": "2026-11-15T13:09:25.438846+00:00",
-  "clv": 0.50986
+  "closing_fair_prob": 0.56409,
+  "closing_fair_odds": 1.773,
+  "closing_sharp_odds": 1.657,
+  "closing_at": "2026-11-15T13:55:00.170447+00:00",
+  "clv": 0.51175
  },
  {
   "fixture_id": "id1000100675619098",
@@ -2475,11 +2475,11 @@
   "band": "2.10–2.50",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.63483,
-  "closing_fair_odds": 1.575,
-  "closing_sharp_odds": 1.487,
-  "closing_at": "2026-11-15T13:09:25.438846+00:00",
-  "clv": 0.34585
+  "closing_fair_prob": 0.62444,
+  "closing_fair_odds": 1.601,
+  "closing_sharp_odds": 1.505,
+  "closing_at": "2026-11-15T13:55:00.170447+00:00",
+  "clv": 0.3238
  },
  {
   "fixture_id": "id1000100675619098",
@@ -2497,11 +2497,11 @@
   "band": "1.80–2.10",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.68737,
-  "closing_fair_odds": 1.455,
-  "closing_sharp_odds": 1.384,
-  "closing_at": "2026-11-15T13:09:25.438846+00:00",
-  "clv": 0.26476
+  "closing_fair_prob": 0.671,
+  "closing_fair_odds": 1.49,
+  "closing_sharp_odds": 1.411,
+  "closing_at": "2026-11-15T13:55:00.170447+00:00",
+  "clv": 0.23465
  },
  {
   "fixture_id": "id1000100675619098",
@@ -2519,11 +2519,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.70818,
-  "closing_fair_odds": 1.412,
-  "closing_sharp_odds": 1.341,
-  "closing_at": "2026-11-15T13:25:54.217033+00:00",
-  "clv": 0.2464
+  "closing_fair_prob": 0.6408,
+  "closing_fair_odds": 1.561,
+  "closing_sharp_odds": 1.471,
+  "closing_at": "2026-11-15T13:55:00.170447+00:00",
+  "clv": 0.1278
  },
  {
   "fixture_id": "id1000137673628776",
@@ -2572,6 +2572,23 @@
   "odds": 1.78,
   "fair_prob": 0.59019,
   "ev": 0.05054,
+  "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1500012872123548",
+  "market_id": 151,
+  "outcome_id": 151,
+  "first_at": "2026-11-15T13:55:00.170447+00:00",
+  "start": "2026-11-15T14:45:00.000Z",
+  "home": "Ambri",
+  "away": "Lausanne",
+  "tournament": "Svájci bajnokság",
+  "label": "Győztes (hosszabbítással): Ambri győz",
+  "odds": 1.77,
+  "fair_prob": 0.58395,
+  "ev": 0.03359,
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": false
