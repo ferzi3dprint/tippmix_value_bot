@@ -7989,31 +7989,6 @@
   },
   "score": 1.0
  },
- "id1000054472505288": {
-  "tm": {
-   "id": "319580423279681536",
-   "sport": "Labdarúgás",
-   "name": "Compostela - Ourense CF",
-   "home": "Compostela",
-   "away": "Ourense CF",
-   "home_pid": "811887",
-   "away_pid": "2113650201489408",
-   "tournament": "Spanyol 4., 1. csoport",
-   "category": "Spanyolország",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T16:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000054472505288",
-   "startTime": "2026-11-15T16:00:00.000Z",
-   "participant1Name": "SD Compostela",
-   "participant2Name": "Ourense CF",
-   "tournamentId": 544,
-   "tournamentName": "Segunda Federacion",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000054472505290": {
   "tm": {
    "id": "319580422933651456",
@@ -8033,6 +8008,31 @@
    "startTime": "2026-11-15T16:00:00.000Z",
    "participant1Name": "Coruxo FC",
    "participant2Name": "UD Llanera",
+   "tournamentId": 544,
+   "tournamentName": "Segunda Federacion",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000054472505288": {
+  "tm": {
+   "id": "319580423279681536",
+   "sport": "Labdarúgás",
+   "name": "Compostela - Ourense CF",
+   "home": "Compostela",
+   "away": "Ourense CF",
+   "home_pid": "811887",
+   "away_pid": "2113650201489408",
+   "tournament": "Spanyol 4., 1. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-15T16:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000054472505288",
+   "startTime": "2026-11-15T16:00:00.000Z",
+   "participant1Name": "SD Compostela",
+   "participant2Name": "Ourense CF",
    "tournamentId": 544,
    "tournamentName": "Segunda Federacion",
    "sportName": "Soccer"
@@ -8385,6 +8385,31 @@
    "participant2Name": "SC Torrevieja CF",
    "tournamentId": 26028,
    "tournamentName": "Tercera Federacion, Group 6",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002601873553830": {
+  "tm": {
+   "id": "319782096653590528",
+   "sport": "Labdarúgás",
+   "name": "CD Barco - CD Boiro",
+   "home": "CD Barco",
+   "away": "CD Boiro",
+   "home_pid": "1318242",
+   "away_pid": "217557579456466944",
+   "tournament": "Spanyol 5., 1. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-15T16:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002601873553830",
+   "startTime": "2026-11-15T16:15:00.000Z",
+   "participant1Name": "CD BARCO",
+   "participant2Name": "CD Boiro",
+   "tournamentId": 26018,
+   "tournamentName": "Tercera Federacion, Group 1",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -9566,61 +9591,6 @@
   "cl": {
    "id": 5638737,
    "name": "Defensor Montevideo - Penarol Montevideo",
-   "score": 1.0
-  }
- },
- "id1201316776794666": {
-  "tm": {
-   "id": "319936128882909184",
-   "sport": "Tenisz",
-   "name": "Yuta Kikuchi - Taisei Ichikawa",
-   "home": "Yuta Kikuchi",
-   "away": "Taisei Ichikawa",
-   "home_pid": "136109645587599360",
-   "away_pid": "126553358709346304",
-   "tournament": "ATP Challenger Kobe, Qualifications",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-15T04:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316776794666",
-   "startTime": "2026-11-15T04:20:00.000Z",
-   "participant1Name": "Kikuchi, Yuta",
-   "participant2Name": "Ichikawa, Taisei",
-   "tournamentId": 13167,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
- "id1201316776794668": {
-  "tm": {
-   "id": "319936129298145280",
-   "sport": "Tenisz",
-   "name": "Dimitris Sakellaridis - Toya Ishikawa",
-   "home": "Dimitris Sakellaridis",
-   "away": "Toya Ishikawa",
-   "home_pid": "122246898358734848",
-   "away_pid": "285346035113693184",
-   "tournament": "ATP Challenger Kobe, Qualifications",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-15T04:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316776794668",
-   "startTime": "2026-11-15T04:20:00.000Z",
-   "participant1Name": "Sakellaridis, Dimitris",
-   "participant2Name": "Ishikawa, Toya",
-   "tournamentId": 13167,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655998,
-   "name": "Dimitris Sakellaridis - Ishikawa, Toya",
    "score": 1.0
   }
  },
@@ -17696,36 +17666,6 @@
   "cl": {
    "id": 5655907,
    "name": "Kuan Lin Kuo - Hae Deun Kim",
-   "score": 1.0
-  }
- },
- "id4904115876794452": {
-  "tm": {
-   "id": "319933161130762240",
-   "sport": "Tollaslabda",
-   "name": "Mutiara Ayu Puspitasari - Yuan Chi Liao",
-   "home": "Mutiara Ayu Puspitasari",
-   "away": "Yuan Chi Liao",
-   "home_pid": "138286807586492416",
-   "away_pid": "216224319285645312",
-   "tournament": "Kaohsiung Masters, női egyes",
-   "category": "Tajvan",
-   "tm_sport_id": "14",
-   "start": "2026-11-15T04:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4904115876794452",
-   "startTime": "2026-11-15T04:20:00.000Z",
-   "participant1Name": "Puspitasari, Mutiara Ayu",
-   "participant2Name": "Liao, Yuan Chi",
-   "tournamentId": 41158,
-   "tournamentName": "Kaohsiung Masters, WS",
-   "sportName": "Badminton"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655501,
-   "name": "M.A. Puspitasari - Yuan Chi Liao",
    "score": 1.0
   }
  },
