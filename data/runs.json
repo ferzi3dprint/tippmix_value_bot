@@ -1,30 +1,5 @@
 [
  {
-  "time": "2026-11-12T22:23:43.865795+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+9.8% Blainville-Boisbriand Armada – Baie-Comeau Drakkar · 1X2 (rendes játékidő): Baie-Comeau Drakkar győz @3.85 (fair 3.508)",
-   "+4.9% Blainville-Boisbriand Armada – Baie-Comeau Drakkar · Győztes (hosszabbítással): Baie-Comeau Drakkar győz @2.85 (fair 2.716)",
-   "+3.1% Shawinigan Cataractes – Drummondville Voltigeurs · Hendikep (rendes játékidő): Drummondville Voltigeurs (-0) @1.75 (fair 1.697)",
-   "+1.6% North Bay Battalion – Sarnia Sting · Győztes (hosszabbítással): Sarnia Sting győz @2.41 (fair 2.373)",
-   "+0.8% North Bay Battalion – Sarnia Sting · 1X2 (rendes játékidő): Sarnia Sting győz @3.05 (fair 3.025)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 43,
-  "fixtures_both": 20,
-  "rejected_mismatch": 0,
-  "candidates": 1,
-  "steam_fixtures": 9,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 49
- },
- {
   "time": "2026-11-12T22:31:07.463793+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22610,6 +22585,40 @@
    "-0.4% Maastricht – Vitesse · Gólszám 3: Kevesebb @1.77 (fair 1.778)",
    "-0.9% Aston Villa – Birmingham · Gólszám 3.75: Kevesebb @1.46 (fair 1.473)",
    "-1.0% Maastricht – Vitesse · Gólszám 4.5: Kevesebb @1.19 (fair 1.202)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T13:09:25.438846+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+6.0% Villa Valle – ASD Nibbiano e Valtidone · Ázsiai hendikep: Villa Valle (-0.75) @2.45 (fair 2.312)",
+   "+5.1% Villa Valle – ASD Nibbiano e Valtidone · Ázsiai hendikep: Villa Valle (-0.25) @1.78 (fair 1.694)",
+   "+4.4% U19Racing Club de France 92 – U19Dunkerque · Ázsiai hendikep: U19Racing Club de France 92 (-1) @2.52 (fair 2.414)",
+   "+3.9% Villa Valle – ASD Nibbiano e Valtidone · Ázsiai hendikep: Villa Valle (-0.5) @2.05 (fair 1.974)",
+   "+2.6% U19Racing Club de France 92 – U19Dunkerque · Ázsiai hendikep: U19Racing Club de France 92 (-0.75) @2.08 (fair 2.027)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 25,
+  "fast": true,
+  "fixtures_checked": 150,
+  "fixtures_both": 109,
+  "rejected_mismatch": 0,
+  "candidates": 3,
+  "steam_fixtures": 28,
+  "classic_checked": 63,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.9% Aston Villa – Birmingham · Gólszám 3.75: Kevesebb @1.46 (fair 1.473)",
+   "-1.0% Aston Villa – Birmingham · Gólszám 3.5: Kevesebb @1.6 (fair 1.616)",
+   "-1.1% Aston Villa – Birmingham · Gólszám 3.25: Kevesebb @1.74 (fair 1.759)",
+   "-1.6% Aston Villa – Birmingham · Gólszám 3: Kevesebb @1.95 (fair 1.981)",
+   "-1.6% Maastricht – Vitesse · Gólszám 4.5: Kevesebb @1.18 (fair 1.199)"
   ],
   "placed": 0,
   "not_executable": 0,
