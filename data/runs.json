@@ -1,77 +1,5 @@
 [
  {
-  "time": "2026-11-12T13:26:52.740782+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 753,
-  "pinnacle_fixtures": 601,
-  "paired": 387,
-  "by_sport": {
-   "Soccer": [
-    212,
-    141
-   ],
-   "Tennis": [
-    233,
-    31
-   ],
-   "Basketball": [
-    176,
-    112
-   ],
-   "Ice Hockey": [
-    132,
-    103
-   ]
-  },
-  "top_ev": [
-   "+1.5% Örményország – Ciprus · Gólszám 1.5: Több @1.46 (fair 1.439)",
-   "+1.2% Örményország – Ciprus · Gólszám 1.75: Több @1.57 (fair 1.551)",
-   "+0.6% Örményország – Ciprus · Gólszám 2: Több @1.75 (fair 1.739)",
-   "+0.4% Szenegál – Szudán · 1X2: Szenegál győz @1.11 (fair 1.106)",
-   "+0.1% Madagaszkár – Bissau-Guinea · Gólszám 1.25: Több @1.33 (fair 1.329)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 14,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 111,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 20,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-12T13:45:51.020599+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 2,
-  "top_ev": [
-   "+0.8% U19Portugália – U19Litvánia · 1X2: U19Portugália győz @1.04 (fair 1.032)",
-   "-1.1% Ghána – Szomália · Gólszám 4: Kevesebb @1.37 (fair 1.386)",
-   "-2.6% Ghána – Szomália · Mindkét csapat szerez gólt: Nem @1.32 (fair 1.355)",
-   "-2.8% Ghána – Szomália · Ázsiai hendikep: Szomália (+3) @1.52 (fair 1.564)",
-   "-3.3% Ghána – Szomália · 1X2: Ghána győz @1.06 (fair 1.096)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 8,
-  "fixtures_both": 6,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 2,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 10
- },
- {
   "time": "2026-11-12T13:50:51.024152+00:00",
   "mode": "hu",
   "settled": 0,
@@ -19478,6 +19406,197 @@
    "-0.2% ASA Aarhus – Bröndby · Gólszám 3.25: Több @1.97 (fair 1.974)",
    "-0.7% Göztepe – Galatasaray · Győztes: Galatasaray győz @1.21 (fair 1.219)",
    "-1.1% Vanraure Hachnohe – Iwaki · Gólszám 3.5: Kevesebb @1.33 (fair 1.344)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-15T02:27:35.021255+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+0.4% Anaheim – NY Islanders · Hendikep (rendes játékidő): Anaheim (+1) @1.45 (fair 1.445)",
+   "+0.0% Új-Zéland – India · 1X2: Új-Zéland győz @1.09 (fair 1.09)",
+   "-1.0% Canberra Utd. – Brisbane Roar · 1X2: Canberra Utd. győz @1.68 (fair 1.697)",
+   "-1.3% Új-Zéland – India · Gólszám 2.5: Több @1.35 (fair 1.368)",
+   "-1.4% Atl. La Paz – Piratas Veracruz · Gólszám 1.5: Több @1.2 (fair 1.217)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 4,
+  "fast": true,
+  "fixtures_checked": 36,
+  "fixtures_both": 26,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 9,
+  "classic_checked": 27,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.3% Sutherland Sharks – Canberra Croatia · Gólszám 3.5: Kevesebb @1.67 (fair 1.664)",
+   "-0.7% Új-Zéland – India · Gólszám 5.5: Kevesebb @1.16 (fair 1.168)",
+   "-1.1% Vanraure Hachnohe – Iwaki · Gólszám 3.5: Kevesebb @1.33 (fair 1.344)",
+   "-1.3% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 3: Kevesebb @1.32 (fair 1.337)",
+   "-2.2% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 2.75: Kevesebb @1.48 (fair 1.513)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 42
+ },
+ {
+  "time": "2026-11-15T02:34:10.530286+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 360,
+   "paired": 246,
+   "classic_only": 34
+  },
+  "tippmix_matches": 1304,
+  "pinnacle_fixtures": 1137,
+  "paired": 706,
+  "by_sport": {
+   "Soccer": [
+    584,
+    349
+   ],
+   "Tennis": [
+    116,
+    31
+   ],
+   "Basketball": [
+    247,
+    158
+   ],
+   "Ice Hockey": [
+    80,
+    61
+   ],
+   "Handball": [
+    39,
+    28
+   ],
+   "Volleyball": [
+    85,
+    35
+   ],
+   "Table Tennis": [
+    20,
+    8
+   ],
+   "Cricket": [
+    29,
+    9
+   ],
+   "Badminton": [
+    9,
+    3
+   ],
+   "Darts": [
+    16,
+    0
+   ],
+   "Futsal": [
+    5,
+    4
+   ],
+   "Waterpolo": [
+    2,
+    2
+   ],
+   "ESport Counter-Strike": [
+    19,
+    1
+   ],
+   "ESport Dota": [
+    6,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    39,
+    0
+   ],
+   "eBasketball": [
+    8,
+    0
+   ],
+   "American Football": [
+    0,
+    12
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    3
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    2
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+0.1% Új-Zéland – India · 1X2: Új-Zéland győz @1.09 (fair 1.089)",
+   "+0.1% Anaheim – NY Islanders · Hendikep (rendes játékidő): Anaheim (+1) @1.44 (fair 1.439)",
+   "-0.9% Új-Zéland – India · Gólszám 2.5: Több @1.35 (fair 1.363)",
+   "-1.0% Canberra Utd. – Brisbane Roar · 1X2: Canberra Utd. győz @1.68 (fair 1.697)",
+   "-1.4% Extremadura – Pontevedra · Gólszám 1.75: Több @1.37 (fair 1.389)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 22,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 100,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 15,
+  "classic_checked": 59,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.3% Sutherland Sharks – Canberra Croatia · Gólszám 3.5: Kevesebb @1.67 (fair 1.664)",
+   "-0.9% Új-Zéland – India · Gólszám 5.5: Kevesebb @1.16 (fair 1.17)",
+   "-1.1% Vanraure Hachnohe – Iwaki · Gólszám 3.5: Kevesebb @1.33 (fair 1.344)",
+   "-1.2% Cerezo Osaka – Urawa RD · Gólszám 3.25: Kevesebb @1.61 (fair 1.63)",
+   "-1.3% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 3: Kevesebb @1.32 (fair 1.337)"
   ],
   "placed": 0,
   "not_executable": 0,
