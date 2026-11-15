@@ -1,54 +1,4 @@
 {
- "id1001926475107598": {
-  "tm": {
-   "id": "319903817295536128",
-   "sport": "Labdarúgás",
-   "name": "Wuhan Chegu Jiangda - Shanghai Shengli",
-   "home": "Wuhan Chegu Jiangda",
-   "away": "Shanghai Shengli",
-   "home_pid": "187105663109877760",
-   "away_pid": "187109250024132608",
-   "tournament": "Kínai bajnokság, női",
-   "category": "Kína",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T06:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001926475107598",
-   "startTime": "2026-11-15T06:00:00.000Z",
-   "participant1Name": "Wuhan Jiangda",
-   "participant2Name": "Shanghai Shengli",
-   "tournamentId": 19264,
-   "tournamentName": "Chinese Super League, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1001926475107602": {
-  "tm": {
-   "id": "319905917541883904",
-   "sport": "Labdarúgás",
-   "name": "Zhejiang Hangzhou - Jiangsu Wuxi",
-   "home": "Zhejiang Hangzhou",
-   "away": "Jiangsu Wuxi",
-   "home_pid": "197891468802813952",
-   "away_pid": "187109233448243200",
-   "tournament": "Kínai bajnokság, női",
-   "category": "Kína",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T06:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001926475107602",
-   "startTime": "2026-11-15T06:00:00.000Z",
-   "participant1Name": "Zhejiang Hangzhou",
-   "participant2Name": "Jiangsu LFC",
-   "tournamentId": 19264,
-   "tournamentName": "Chinese Super League, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000209472152202": {
   "tm": {
    "id": "318750392960753664",
@@ -8324,31 +8274,6 @@
   },
   "score": 1.0
  },
- "id1005117276712236": {
-  "tm": {
-   "id": "319927531361869824",
-   "sport": "Labdarúgás",
-   "name": "Debre Birhan Ketema - Bench Maji Buna FC",
-   "home": "Debre Birhan Ketema",
-   "away": "Bench Maji Buna FC",
-   "home_pid": "231715023094190080",
-   "away_pid": "232167127500886016",
-   "tournament": "Etiópiai 2., női",
-   "category": "Etiópia",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T06:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1005117276712236",
-   "startTime": "2026-11-15T06:00:00.000Z",
-   "participant1Name": "Debre Birhan Ketema",
-   "participant2Name": "Bench Maji Bunna",
-   "tournamentId": 51172,
-   "tournamentName": "Higher League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1005118276712472": {
   "tm": {
    "id": "319950476545171456",
@@ -9019,36 +8944,6 @@
    "score": 1.0
   }
  },
- "id1000010176326618": {
-  "tm": {
-   "id": "319669147748343808",
-   "sport": "Labdarúgás",
-   "name": "Cerezo Osaka - Urawa RD",
-   "home": "Cerezo Osaka",
-   "away": "Urawa RD",
-   "home_pid": "1323",
-   "away_pid": "1329",
-   "tournament": "Japán Liga-kupa",
-   "category": "Japán",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T06:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000010176326618",
-   "startTime": "2026-11-15T06:00:00.000Z",
-   "participant1Name": "Cerezo Osaka",
-   "participant2Name": "Urawa Red Diamonds",
-   "tournamentId": 101,
-   "tournamentName": "J.League Cup",
-   "sportName": "Soccer"
-  },
-  "score": 0.825,
-  "cl": {
-   "id": 5632439,
-   "name": "Cerezo Osaka - Urawa RD",
-   "score": 1.0
-  }
- },
  "id1004795272879372": {
   "tm": {
    "id": "319933799769120768",
@@ -9151,36 +9046,6 @@
   "cl": {
    "id": 5632414,
    "name": "Dep. Moron - Atl. Colegiales",
-   "score": 1.0
-  }
- },
- "id1000010176326556": {
-  "tm": {
-   "id": "319669147666554880",
-   "sport": "Labdarúgás",
-   "name": "Kashima Antlers - Yokohama FM",
-   "home": "Kashima Antlers",
-   "away": "Yokohama FM",
-   "home_pid": "1326",
-   "away_pid": "1330",
-   "tournament": "Japán Liga-kupa",
-   "category": "Japán",
-   "tm_sport_id": "1",
-   "start": "2026-11-15T06:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000010176326556",
-   "startTime": "2026-11-15T06:00:00.000Z",
-   "participant1Name": "Kashima Antlers",
-   "participant2Name": "Yokohama F Marinos",
-   "tournamentId": 101,
-   "tournamentName": "J.League Cup",
-   "sportName": "Soccer"
-  },
-  "score": 0.819,
-  "cl": {
-   "id": 5632441,
-   "name": "Kashima A. - Yokohama FM",
    "score": 1.0
   }
  },
@@ -9674,60 +9539,65 @@
    "score": 1.0
   }
  },
- "id1100152472016894": {
+ "id1202140676736448": {
   "tm": {
-   "id": "318936728825044992",
-   "sport": "Kosárlabda",
-   "name": "Brisbane - Tasmania Jackjumpers",
-   "home": "Brisbane",
-   "away": "Tasmania Jackjumpers",
-   "home_pid": "2290708009742336",
-   "away_pid": "154662358496628736",
-   "tournament": "Ausztrál bajnokság",
-   "category": "Ausztrália",
-   "tm_sport_id": "8",
-   "start": "2026-11-15T06:00:00+00:00"
+   "id": "319784194301566976",
+   "sport": "Tenisz",
+   "name": "Alexander Zverev - Rafael Jodar",
+   "home": "Alexander Zverev",
+   "away": "Rafael Jodar",
+   "home_pid": "607888",
+   "away_pid": "189376509175189504",
+   "tournament": "ATP-vb, férfi egyes, A csoport",
+   "category": "ATP",
+   "tm_sport_id": "3",
+   "start": "2026-11-15T13:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1100152472016894",
-   "startTime": "2026-11-15T06:00:00.000Z",
-   "participant1Name": "Brisbane Bullets",
-   "participant2Name": "Tasmania Jackjumpers",
-   "tournamentId": 1524,
-   "tournamentName": "NBL",
-   "sportName": "Basketball"
+   "fixtureId": "id1202140676736448",
+   "startTime": "2026-11-15T13:00:00.000Z",
+   "participant1Name": "Zverev, Alexander",
+   "participant2Name": "Jodar, Rafael",
+   "tournamentId": 21406,
+   "tournamentName": "ATP World Tour Finals Men Singles",
+   "sportName": "Tennis"
   },
   "score": 1.0,
   "cl": {
-   "id": 5555717,
-   "name": "Brisbane - Tasmania Jackjumpers",
+   "id": 5652835,
+   "name": "A. Zverev - R. Jodar",
    "score": 1.0
   }
  },
- "id1100151672703214": {
+ "id1202140676736428": {
   "tm": {
-   "id": "318936816719831040",
-   "sport": "Kosárlabda",
-   "name": "Niigata Albirex BB - Gifu Swoops",
-   "home": "Niigata Albirex BB",
-   "away": "Gifu Swoops",
-   "home_pid": "85121",
-   "away_pid": "183498023838470144",
-   "tournament": "Japán 2.",
-   "category": "Japán",
-   "tm_sport_id": "8",
-   "start": "2026-11-15T06:05:00+00:00"
+   "id": "319784198084829184",
+   "sport": "Tenisz",
+   "name": "Ben Shelton - Arthur Fils",
+   "home": "Ben Shelton",
+   "away": "Arthur Fils",
+   "home_pid": "139477797725851648",
+   "away_pid": "93625114342457344",
+   "tournament": "ATP-vb, férfi egyes, A csoport",
+   "category": "ATP",
+   "tm_sport_id": "3",
+   "start": "2026-11-15T19:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1100151672703214",
-   "startTime": "2026-11-15T06:05:00.000Z",
-   "participant1Name": "Niigata Albirex BB",
-   "participant2Name": "Gifu Swoops",
-   "tournamentId": 1516,
-   "tournamentName": "B League One",
-   "sportName": "Basketball"
+   "fixtureId": "id1202140676736428",
+   "startTime": "2026-11-15T19:30:00.000Z",
+   "participant1Name": "Shelton, Ben",
+   "participant2Name": "Fils, Arthur",
+   "tournamentId": 21406,
+   "tournamentName": "ATP World Tour Finals Men Singles",
+   "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5652828,
+   "name": "B. Shelton - A. Fils",
+   "score": 0.848
+  }
  },
  "id1104467575020370": {
   "tm": {
@@ -16679,6 +16549,31 @@
   },
   "score": 1.0
  },
+ "id2505380476794556": {
+  "tm": {
+   "id": "320011249468383232",
+   "sport": "Asztalitenisz",
+   "name": "Hashimoto H./Nagasaki M. - Kihara M./Hirano M.",
+   "home": "Hashimoto H./Nagasaki M.",
+   "away": "Kihara M./Hirano M.",
+   "home_pid": "319684482034638848",
+   "away_pid": "299993144560488448",
+   "tournament": "Isztambul, női páros",
+   "category": "Törökország",
+   "tm_sport_id": "63",
+   "start": "2026-11-15T11:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2505380476794556",
+   "startTime": "2026-11-15T11:00:00.000Z",
+   "participant1Name": "Hashimoto H / Nagasaki M",
+   "participant2Name": "Hirano M / Kihara M",
+   "tournamentId": 53804,
+   "tournamentName": "WTT Contender Istanbul, WD",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2702054673456018": {
   "tm": {
    "id": "319445265780121600",
@@ -17082,27 +16977,6 @@
    "tournament": "ATP-vb, férfi páros, A csoport"
   }
  },
- "id1202140676736448": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1202140676736448",
-   "startTime": "2026-11-15T13:00:00.000Z",
-   "participant1Name": "Zverev, Alexander",
-   "participant2Name": "Jodar, Rafael",
-   "tournamentId": 21406,
-   "tournamentName": "ATP World Tour Finals Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5652835,
-   "name": "A. Zverev - R. Jodar",
-   "score": 1.0,
-   "home": "A. Zverev",
-   "away": "R. Jodar",
-   "tournament": "ATP-vb, férfi egyes, A csoport"
-  }
- },
  "id1202140876736484": {
   "tm": null,
   "fx": {
@@ -17374,27 +17248,6 @@
    "home": "Niels McDonald",
    "away": "Kee. Smith",
    "tournament": "Kobe, férfi egyes"
-  }
- },
- "id1202140676736428": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1202140676736428",
-   "startTime": "2026-11-15T19:30:00.000Z",
-   "participant1Name": "Shelton, Ben",
-   "participant2Name": "Fils, Arthur",
-   "tournamentId": 21406,
-   "tournamentName": "ATP World Tour Finals Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.848,
-  "cl": {
-   "id": 5652828,
-   "name": "B. Shelton - A. Fils",
-   "score": 0.848,
-   "home": "B. Shelton",
-   "away": "A. Fils",
-   "tournament": "ATP-vb, férfi egyes, A csoport"
   }
  },
  "id1202140676736458": {
