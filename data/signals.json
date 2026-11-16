@@ -2851,11 +2851,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": true,
-  "closing_fair_prob": 0.6769,
-  "closing_fair_odds": 1.477,
-  "closing_sharp_odds": 1.42,
-  "closing_at": "2026-11-16T16:15:42.116804+00:00",
-  "clv": 0.06274
+  "closing_fair_prob": 0.67189,
+  "closing_fair_odds": 1.488,
+  "closing_sharp_odds": 1.431,
+  "closing_at": "2026-11-16T16:27:53.393912+00:00",
+  "clv": 0.05487
  },
  {
   "fixture_id": "id1002375568932078",
@@ -2873,11 +2873,11 @@
   "band": "1.30–1.50",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.75375,
-  "closing_fair_odds": 1.327,
-  "closing_sharp_odds": 1.28,
-  "closing_at": "2026-11-16T16:15:42.116804+00:00",
-  "clv": 0.04018
+  "closing_fair_prob": 0.74998,
+  "closing_fair_odds": 1.333,
+  "closing_sharp_odds": 1.286,
+  "closing_at": "2026-11-16T16:27:53.393912+00:00",
+  "clv": 0.03497
  },
  {
   "fixture_id": "id1000085476744190",
@@ -2920,7 +2920,58 @@
   "closing_fair_prob": 0.53382,
   "closing_fair_odds": 1.873,
   "closing_sharp_odds": 1.775,
-  "closing_at": "2026-11-16T16:15:42.116804+00:00",
+  "closing_at": "2026-11-16T16:27:53.393912+00:00",
   "clv": 0.01425
+ },
+ {
+  "fixture_id": "id1002375568932284",
+  "market_id": 1050,
+  "outcome_id": 1051,
+  "first_at": "2026-11-16T16:27:53.393912+00:00",
+  "start": "2026-11-16T17:00:00.000Z",
+  "home": "Izland",
+  "away": "Luxemburg",
+  "tournament": "Nemzetek Ligája, C divízió, 4. csoport",
+  "label": "Ázsiai hendikep: Luxemburg (+2.75)",
+  "odds": 1.3,
+  "fair_prob": 0.78753,
+  "ev": 0.02379,
+  "band": "1.00–1.30",
+  "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1002375568932284",
+  "market_id": 1054,
+  "outcome_id": 1055,
+  "first_at": "2026-11-16T16:27:53.393912+00:00",
+  "start": "2026-11-16T17:00:00.000Z",
+  "home": "Izland",
+  "away": "Luxemburg",
+  "tournament": "Nemzetek Ligája, C divízió, 4. csoport",
+  "label": "Ázsiai hendikep: Luxemburg (+2.25)",
+  "odds": 1.5,
+  "fair_prob": 0.68105,
+  "ev": 0.02157,
+  "band": "1.30–1.50",
+  "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1002375568932284",
+  "market_id": 1056,
+  "outcome_id": 1057,
+  "first_at": "2026-11-16T16:27:53.393912+00:00",
+  "start": "2026-11-16T17:00:00.000Z",
+  "home": "Izland",
+  "away": "Luxemburg",
+  "tournament": "Nemzetek Ligája, C divízió, 4. csoport",
+  "label": "Ázsiai hendikep: Luxemburg (+2)",
+  "odds": 1.67,
+  "fair_prob": 0.62198,
+  "ev": 0.03871,
+  "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false
  }
 ]

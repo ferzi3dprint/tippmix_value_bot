@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-14T21:42:04.254265+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 5,
-  "top_ev": [
-   "-0.9% Halifax Mooseheads – Quebec Remparts · Hendikep (rendes játékidő): Quebec Remparts (-2) @2.2 (fair 2.22)",
-   "-1.5% Nacional Montevideo – Albion FC · Gólszám 4.5: Kevesebb @1.16 (fair 1.178)",
-   "-1.6% Cashmere Technical – Wellington Olympic · Gólszám 3: Több @1.49 (fair 1.514)",
-   "-1.7% Chapecoense – Vasco da Gama RJ · 1X2: Vasco da Gama RJ győz @1.4 (fair 1.424)",
-   "-1.7% Cashmere Technical – Wellington Olympic · Gólszám 2.75: Több @1.4 (fair 1.424)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 20,
-  "fixtures_both": 14,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 5,
-  "classic_checked": 14,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.7% Charleston – Louisville City · Gólszám 3.5: Kevesebb @1.36 (fair 1.384)",
-   "-2.0% Queretaro – Monterrey · Gólszám 3.5: Kevesebb @1.39 (fair 1.419)",
-   "-2.1% Chapecoense – Vasco da Gama RJ · Gólszám 4.5: Kevesebb @1.18 (fair 1.205)",
-   "-2.4% Queretaro – Monterrey · Gólszám 3: Kevesebb @1.58 (fair 1.618)",
-   "-2.5% H. Alateng – Juan Diaz · Győztes: Juan Diaz győz @1.19 (fair 1.221)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 25
- },
- {
   "time": "2026-11-14T21:47:17.399235+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23547,5 +23513,39 @@
   "not_executable": 0,
   "api_calls": 2,
   "free_calls": 95
+ },
+ {
+  "time": "2026-11-16T16:27:53.393912+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "top_ev": [
+   "+3.9% Izland – Luxemburg · Ázsiai hendikep: Luxemburg (+2) @1.67 (fair 1.608)",
+   "+2.4% Izland – Luxemburg · Ázsiai hendikep: Luxemburg (+2.75) @1.3 (fair 1.27)",
+   "+2.2% Izland – Luxemburg · Ázsiai hendikep: Luxemburg (+2.25) @1.5 (fair 1.468)",
+   "+1.3% Izland – Luxemburg · Ázsiai hendikep: Luxemburg (+2.5) @1.4 (fair 1.382)",
+   "+1.1% Izland – Luxemburg · Gólszám 3.5: Kevesebb @1.37 (fair 1.355)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 35,
+  "fixtures_both": 20,
+  "rejected_mismatch": 0,
+  "candidates": 3,
+  "steam_fixtures": 4,
+  "classic_checked": 28,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.6% Andorra – Azerbajdzsán · Mindkét csapat szerez gólt: Nem @1.57 (fair 1.56)",
+   "-0.6% U21Magyarország – U21Ciprus · Gólszám 2.5: Kevesebb @2.4 (fair 2.414)",
+   "-1.3% Izland – Luxemburg · Gólszám 4.5: Kevesebb @1.11 (fair 1.125)",
+   "-1.5% Maccabi Rishon LeZion – Hapoel Beer Sheva · Hendikep (hosszabbítással): Maccabi Rishon LeZion (-4.5) @1.77 (fair 1.797)",
+   "-1.9% U21Görögország – U21Izland · Ázsiai hendikep: U21Görögország (-0.25) @1.53 (fair 1.559)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 39
  }
 ]
