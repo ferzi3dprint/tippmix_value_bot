@@ -1,29 +1,4 @@
 {
- "id1001846476730270": {
-  "tm": {
-   "id": "319792251669651456",
-   "sport": "Labdarúgás",
-   "name": "CA Belgrano Cordoba - CA Banfield",
-   "home": "CA Belgrano Cordoba",
-   "away": "CA Banfield",
-   "home_pid": "157631343839363072",
-   "away_pid": "125281210996936704",
-   "tournament": "Argentin bajnokság, női",
-   "category": "Argentína",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T20:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001846476730270",
-   "startTime": "2026-11-16T20:00:00.000Z",
-   "participant1Name": "Belgrano de Cordoba",
-   "participant2Name": "CA Banfield",
-   "tournamentId": 18464,
-   "tournamentName": "Primera Division, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000085576558026": {
   "tm": {
    "id": "320076429165404160",
@@ -1111,36 +1086,6 @@
   "cl": {
    "id": 5593448,
    "name": "Etiópia - Mozambik",
-   "score": 1.0
-  }
- },
- "id1000040671936254": {
-  "tm": {
-   "id": "318713791491678208",
-   "sport": "Labdarúgás",
-   "name": "CD Moquegua - Atl. Grau",
-   "home": "CD Moquegua",
-   "away": "Atl. Grau",
-   "home_pid": "237118893355077632",
-   "away_pid": "2907588655476736",
-   "tournament": "Perui bajnokság",
-   "category": "Peru",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T20:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000040671936254",
-   "startTime": "2026-11-16T20:15:00.000Z",
-   "participant1Name": "CD Moquegua",
-   "participant2Name": "Atletico Grau",
-   "tournamentId": 406,
-   "tournamentName": "Liga 1",
-   "sportName": "Soccer"
-  },
-  "score": 0.833,
-  "cl": {
-   "id": 5555449,
-   "name": "CD Moquegua - Atl. Grau",
    "score": 1.0
   }
  },
@@ -3254,6 +3199,56 @@
    "score": 0.883
   }
  },
+ "id2503634976830582": {
+  "tm": {
+   "id": "320044447563849728",
+   "sport": "Asztalitenisz",
+   "name": "Marek Volny - Jan Hrabec",
+   "home": "Marek Volny",
+   "away": "Jan Hrabec",
+   "home_pid": "168502419741790208",
+   "away_pid": "277708661822984192",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830582",
+   "startTime": "2026-11-16T21:00:00.000Z",
+   "participant1Name": "Volny, Marek",
+   "participant2Name": "Hrabec, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830674": {
+  "tm": {
+   "id": "320044444379324416",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Janata - Tonar Lukas",
+   "home": "Tomas Janata",
+   "away": "Tonar Lukas",
+   "home_pid": "124357830765498368",
+   "away_pid": "167113663096995840",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830674",
+   "startTime": "2026-11-16T21:00:00.000Z",
+   "participant1Name": "Janata, Tomas",
+   "participant2Name": "Tonar, Lukas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2702157075326638": {
   "tm": {
    "id": "319707043329024000",
@@ -3400,90 +3395,6 @@
    "home": "Hartford",
    "away": "Charlotte",
    "tournament": "AHL"
-  }
- },
- "id2503634976830620": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830620",
-   "startTime": "2026-11-16T20:00:00.000Z",
-   "participant1Name": "Rose, Radek",
-   "participant2Name": "Wagner, Richard",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664438,
-   "name": "Radek Rose - Richard Wagner",
-   "score": 1.0,
-   "home": "Radek Rose",
-   "away": "Richard Wagner",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976830390": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830390",
-   "startTime": "2026-11-16T20:00:00.000Z",
-   "participant1Name": "Zmuda, Petr",
-   "participant2Name": "Tonar, Lukas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664441,
-   "name": "Zmuda Petr - L. Tonar",
-   "score": 1.0,
-   "home": "Zmuda Petr",
-   "away": "L. Tonar",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976830416": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830416",
-   "startTime": "2026-11-16T20:00:00.000Z",
-   "participant1Name": "Osvald, Petr",
-   "participant2Name": "Hrabec, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664448,
-   "name": "Petr Osvald - Jan Hrabec",
-   "score": 1.0,
-   "home": "Petr Osvald",
-   "away": "Jan Hrabec",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976830608": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830608",
-   "startTime": "2026-11-16T20:00:00.000Z",
-   "participant1Name": "Kulhanek, Tomas",
-   "participant2Name": "Framberk, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664450,
-   "name": "Tomas Kulhanek - J. Framberk",
-   "score": 1.0,
-   "home": "Tomas Kulhanek",
-   "away": "J. Framberk",
-   "tournament": "Cseh Liga Pro"
   }
  },
  "id2503634976830622": {
