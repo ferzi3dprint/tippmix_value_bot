@@ -1,387 +1,5 @@
 [
  {
-  "time": "2026-11-15T02:57:57.534102+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 357,
-   "paired": 246,
-   "classic_only": 33
-  },
-  "tippmix_matches": 1309,
-  "pinnacle_fixtures": 1137,
-  "paired": 704,
-  "by_sport": {
-   "Soccer": [
-    584,
-    349
-   ],
-   "Tennis": [
-    111,
-    31
-   ],
-   "Basketball": [
-    247,
-    158
-   ],
-   "Ice Hockey": [
-    80,
-    61
-   ],
-   "Handball": [
-    39,
-    28
-   ],
-   "Volleyball": [
-    85,
-    35
-   ],
-   "Table Tennis": [
-    16,
-    7
-   ],
-   "Cricket": [
-    29,
-    9
-   ],
-   "Badminton": [
-    8,
-    3
-   ],
-   "Darts": [
-    16,
-    0
-   ],
-   "Futsal": [
-    5,
-    4
-   ],
-   "Waterpolo": [
-    2,
-    2
-   ],
-   "ESport Counter-Strike": [
-    19,
-    1
-   ],
-   "ESport Dota": [
-    6,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    52,
-    0
-   ],
-   "eBasketball": [
-    10,
-    0
-   ],
-   "American Football": [
-    0,
-    12
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    2
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    2
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+0.7% Ciprus – Montenegró · Gólszám 2: Több @1.53 (fair 1.519)",
-   "+0.3% Ciprus – Montenegró · Gólszám 1.5: Több @1.34 (fair 1.336)",
-   "+0.0% UD Tamaraceite – Marbella · Ázsiai hendikep: Marbella (-0) @1.55 (fair 1.549)",
-   "-0.7% FC Copenhagen – Midtjylland · Gólszám 3: Kevesebb @2.06 (fair 2.075)",
-   "-0.8% Machida Zelvia – Vissel Kobe · Gólszám 2: Több @1.61 (fair 1.623)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 28,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 105,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 14,
-  "classic_checked": 63,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+2.6% FC Copenhagen – Midtjylland · Gólszám 3: Kevesebb @2.13 (fair 2.075)",
-   "+2.4% FC Copenhagen – Midtjylland · Gólszám 3.25: Kevesebb @1.86 (fair 1.817)",
-   "+0.3% Sutherland Sharks – Canberra Croatia · Gólszám 3.5: Kevesebb @1.67 (fair 1.664)",
-   "-0.4% FC Copenhagen – Midtjylland · Gólszám 2.75: Kevesebb @2.39 (fair 2.399)",
-   "-1.2% Cerezo Osaka – Urawa RD · Gólszám 3.25: Kevesebb @1.61 (fair 1.63)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-15T03:15:01.798812+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "-0.9% Machida Zelvia – Vissel Kobe · Gólszám 2: Több @1.58 (fair 1.595)",
-   "-1.2% Canberra Utd. – Brisbane Roar · 1X2: Canberra Utd. győz @1.68 (fair 1.701)",
-   "-1.4% Machida Zelvia – Vissel Kobe · Gólszám 1.75: Több @1.44 (fair 1.46)",
-   "-1.8% Machida Zelvia – Vissel Kobe · Gólszám 1.5: Több @1.35 (fair 1.374)",
-   "-2.0% Dimitris Sakellaridis – Toya Ishikawa · Győztes: Dimitris Sakellaridis győz @1.06 (fair 1.082)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 41,
-  "fixtures_both": 22,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 6,
-  "classic_checked": 22,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.4% Canberra Capitals – Townsville Fire · Hendikep (hosszabbítással): Townsville Fire (-8.5) @1.73 (fair 1.724)",
-   "+0.3% Sutherland Sharks – Canberra Croatia · Gólszám 3.5: Kevesebb @1.67 (fair 1.664)",
-   "-0.5% Canberra Capitals – Townsville Fire · Hendikep (hosszabbítással): Townsville Fire (-9.5) @1.84 (fair 1.849)",
-   "-0.5% Seoul Woori – Cheonan Skywalkers · Győztes: Cheonan Skywalkers győz @1.59 (fair 1.599)",
-   "-1.3% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 3: Kevesebb @1.32 (fair 1.337)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 47
- },
- {
-  "time": "2026-11-15T03:22:02.725496+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 343,
-   "paired": 237,
-   "classic_only": 30
-  },
-  "tippmix_matches": 1311,
-  "pinnacle_fixtures": 1137,
-  "paired": 689,
-  "by_sport": {
-   "Soccer": [
-    588,
-    348
-   ],
-   "Tennis": [
-    106,
-    28
-   ],
-   "Basketball": [
-    244,
-    155
-   ],
-   "Ice Hockey": [
-    77,
-    58
-   ],
-   "Handball": [
-    39,
-    28
-   ],
-   "Volleyball": [
-    83,
-    35
-   ],
-   "Table Tennis": [
-    12,
-    4
-   ],
-   "Cricket": [
-    29,
-    9
-   ],
-   "Badminton": [
-    6,
-    2
-   ],
-   "Darts": [
-    16,
-    0
-   ],
-   "Futsal": [
-    5,
-    4
-   ],
-   "Waterpolo": [
-    2,
-    2
-   ],
-   "ESport Counter-Strike": [
-    19,
-    1
-   ],
-   "ESport Dota": [
-    6,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    69,
-    0
-   ],
-   "eBasketball": [
-    10,
-    0
-   ],
-   "American Football": [
-    0,
-    12
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    1
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    2
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "-1.1% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.37 (fair 1.385)",
-   "-1.1% Magdeburg – Flensburg · Hendikep (rendes játékidő): Flensburg (+1.5) @2.19 (fair 2.215)",
-   "-1.2% Canberra Utd. – Brisbane Roar · 1X2: Canberra Utd. győz @1.68 (fair 1.701)",
-   "-1.3% Samaleswari SC – Rajasthan Utd. · Gólszám 2: Több @1.34 (fair 1.357)",
-   "-1.3% WE SC – Kahraba Ismailia · Ázsiai hendikep: Kahraba Ismailia (+0.25) @1.38 (fair 1.398)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 24,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 100,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 15,
-  "classic_checked": 56,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+1.0% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.4 (fair 1.385)",
-   "+0.7% Seoul Woori – Cheonan Skywalkers · Győztes: Cheonan Skywalkers győz @1.59 (fair 1.579)",
-   "+0.6% Sutherland Sharks – Canberra Croatia · Gólszám 3.5: Kevesebb @1.67 (fair 1.66)",
-   "+0.2% Eskilstuna Utd. – Djurgarden · Gólszám 3.5: Kevesebb @1.54 (fair 1.538)",
-   "-0.1% Eskilstuna Utd. – Djurgarden · Gólszám 3: Kevesebb @1.83 (fair 1.832)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-15T03:38:55.886156+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "-1.2% Canberra Utd. – Brisbane Roar · 1X2: Canberra Utd. győz @1.68 (fair 1.701)",
-   "-2.0% Dimitris Sakellaridis – Toya Ishikawa · Győztes: Dimitris Sakellaridis győz @1.06 (fair 1.082)",
-   "-2.2% Machida Zelvia – Vissel Kobe · Gólszám 1.75: Több @1.43 (fair 1.462)",
-   "-2.2% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 3: Kevesebb @1.27 (fair 1.299)",
-   "-2.5% Machida Zelvia – Vissel Kobe · Gólszám 1.5: Több @1.34 (fair 1.375)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 4,
-  "fast": true,
-  "fixtures_checked": 46,
-  "fixtures_both": 26,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 10,
-  "classic_checked": 25,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.9% Seoul Woori – Cheonan Skywalkers · Győztes: Cheonan Skywalkers győz @1.59 (fair 1.576)",
-   "+0.6% Sutherland Sharks – Canberra Croatia · Gólszám 3.5: Kevesebb @1.67 (fair 1.66)",
-   "-1.5% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 3: Kevesebb @1.28 (fair 1.299)",
-   "-1.8% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 2.75: Kevesebb @1.44 (fair 1.467)",
-   "-2.0% Consadole Sapporo – Sagan Tosu · Gólszám 3.5: Kevesebb @1.32 (fair 1.346)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 52
- },
- {
   "time": "2026-11-15T03:46:24.170112+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23055,5 +22673,264 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 28
+ },
+ {
+  "time": "2026-11-16T19:40:52.433201+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [
+   "-3.5% CD Moquegua – Atl. Grau · Gólszám 1.5: Több @1.36 (fair 1.409)",
+   "-4.4% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.03 (fair 2.123)",
+   "-7.5% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.61 (fair 1.741)",
+   "-8.9% CD Moquegua – Atl. Grau · Gólszám 2.5: Több @2.14 (fair 2.349)",
+   "-11.1% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Nem @1.68 (fair 1.891)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 5,
+  "fixtures_both": 1,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 5,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-5.4% CD Moquegua – Atl. Grau · Gólszám 2.75: Kevesebb @1.47 (fair 1.553)",
+   "-5.8% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.0 (fair 2.123)",
+   "-6.4% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.63 (fair 1.741)",
+   "-6.6% CD Moquegua – Atl. Grau · Ázsiai hendikep: CD Moquegua (-0.5) @1.68 (fair 1.799)",
+   "-6.9% CD Moquegua – Atl. Grau · Ázsiai hendikep: Atl. Grau (+1.25) @1.38 (fair 1.482)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 5
+ },
+ {
+  "time": "2026-11-16T19:45:52.432375+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [
+   "-3.5% CD Moquegua – Atl. Grau · Gólszám 1.5: Több @1.36 (fair 1.409)",
+   "-4.4% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.03 (fair 2.123)",
+   "-7.5% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.61 (fair 1.741)",
+   "-8.9% CD Moquegua – Atl. Grau · Gólszám 2.5: Több @2.14 (fair 2.349)",
+   "-11.1% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Nem @1.68 (fair 1.891)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 5,
+  "fixtures_both": 1,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 5,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-5.4% CD Moquegua – Atl. Grau · Gólszám 2.75: Kevesebb @1.47 (fair 1.553)",
+   "-5.8% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.0 (fair 2.123)",
+   "-6.4% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.63 (fair 1.741)",
+   "-6.6% CD Moquegua – Atl. Grau · Ázsiai hendikep: CD Moquegua (-0.5) @1.68 (fair 1.799)",
+   "-6.9% CD Moquegua – Atl. Grau · Ázsiai hendikep: Atl. Grau (+1.25) @1.38 (fair 1.482)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 5
+ },
+ {
+  "time": "2026-11-16T19:50:52.433178+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [
+   "-3.2% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.03 (fair 2.098)",
+   "-4.3% CD Moquegua – Atl. Grau · Gólszám 1.5: Több @1.36 (fair 1.421)",
+   "-4.8% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.62 (fair 1.701)",
+   "-12.1% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Nem @1.68 (fair 1.911)",
+   "-12.2% CD Moquegua – Atl. Grau · Gólszám 2.5: Több @2.13 (fair 2.426)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 5,
+  "fixtures_both": 1,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 5,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.0% CD Moquegua – Atl. Grau · Ázsiai hendikep: Atl. Grau (+1.25) @1.4 (fair 1.428)",
+   "-3.5% CD Moquegua – Atl. Grau · Gólszám 2.75: Kevesebb @1.47 (fair 1.523)",
+   "-3.7% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.02 (fair 2.098)",
+   "-4.0% CD Moquegua – Atl. Grau · Ázsiai hendikep: Atl. Grau (+0.75) @1.76 (fair 1.832)",
+   "-4.2% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.63 (fair 1.701)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 5
+ },
+ {
+  "time": "2026-11-16T19:55:52.433304+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 352,
+   "paired": 68,
+   "classic_only": 9
+  },
+  "tippmix_matches": 831,
+  "pinnacle_fixtures": 658,
+  "paired": 129,
+  "by_sport": {
+   "Soccer": [
+    135,
+    40
+   ],
+   "Tennis": [
+    266,
+    5
+   ],
+   "Basketball": [
+    125,
+    35
+   ],
+   "Ice Hockey": [
+    37,
+    26
+   ],
+   "Handball": [
+    19,
+    11
+   ],
+   "Volleyball": [
+    22,
+    0
+   ],
+   "Table Tennis": [
+    29,
+    8
+   ],
+   "Cricket": [
+    8,
+    1
+   ],
+   "Badminton": [
+    34,
+    0
+   ],
+   "Darts": [
+    29,
+    2
+   ],
+   "Futsal": [
+    5,
+    0
+   ],
+   "Waterpolo": [
+    5,
+    0
+   ],
+   "ESport Counter-Strike": [
+    22,
+    0
+   ],
+   "ESport Dota": [
+    2,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    82,
+    0
+   ],
+   "eBasketball": [
+    11,
+    0
+   ],
+   "American Football": [
+    0,
+    1
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+1.8% Ruanda – Mali · 1X2: Döntetlen @3.0 (fair 2.947)",
+   "+0.8% Ruanda – Mali · Gólszám 1.5: Több @1.52 (fair 1.508)",
+   "+0.4% Ruanda – Mali · Gólszám 1.75: Több @1.66 (fair 1.653)",
+   "+0.2% Botswana – Uganda · 1X2: Döntetlen @2.8 (fair 2.795)",
+   "-0.3% Ruanda – Mali · Ázsiai hendikep: Mali (+0.25) @1.22 (fair 1.223)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 40,
+  "fixtures_both": 23,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 6,
+  "classic_checked": 25,
+  "classic_candidates": 1,
+  "top_ev_classic": [
+   "+12.0% Ruanda – Mali · 1X2: Döntetlen @3.3 (fair 2.947)",
+   "+5.6% Botswana – Uganda · 1X2: Döntetlen @2.95 (fair 2.795)",
+   "-1.9% Trinidad és Tobago – Antigua és Barbuda · Gólszám 3.5: Kevesebb @1.98 (fair 2.018)",
+   "-2.2% Montevideo Wanderers – Juventud De Las Piedras · Gólszám 3.5: Kevesebb @1.3 (fair 1.329)",
+   "-2.5% Botswana – Uganda · Gólszám 2.75: Kevesebb @1.31 (fair 1.343)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 46
  }
 ]
