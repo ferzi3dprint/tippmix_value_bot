@@ -1,89 +1,4 @@
 {
- "id1000085575913810": {
-  "tm": {
-   "id": "319993853055672320",
-   "sport": "Labdarúgás",
-   "name": "U20Portugália - U20Anglia",
-   "home": "U20Portugália",
-   "away": "U20Anglia",
-   "home_pid": "147880438172536832",
-   "away_pid": "151092895990992896",
-   "tournament": "U20 válogatott mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T16:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000085575913810",
-   "startTime": "2026-11-16T16:00:00.000Z",
-   "participant1Name": "Portugal",
-   "participant2Name": "England",
-   "tournamentId": 855,
-   "tournamentName": "U20 Friendly Games",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5652964,
-   "name": "U20Portugália - U20Anglia",
-   "score": 1.0
-  }
- },
- "id1000184875802256": {
-  "tm": {
-   "id": "319333022320107520",
-   "sport": "Labdarúgás",
-   "name": "Eritrea - Guinea",
-   "home": "Eritrea",
-   "away": "Guinea",
-   "home_pid": "219597333507231744",
-   "away_pid": "1506",
-   "tournament": "Afrikai Nemzetek Kupája-selejtező, D csoport",
-   "category": "Afrika",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T16:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000184875802256",
-   "startTime": "2026-11-16T16:00:00.000Z",
-   "participant1Name": "Eritrea",
-   "participant2Name": "Guinea",
-   "tournamentId": 1848,
-   "tournamentName": "Africa Cup of Nations Qualification",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593405,
-   "name": "Eritrea - Guinea",
-   "score": 1.0
-  }
- },
- "id1000022472305330": {
-  "tm": {
-   "id": "318875331252527104",
-   "sport": "Labdarúgás",
-   "name": "Tatran Presov - MFK Zvolen",
-   "home": "Tatran Presov",
-   "away": "MFK Zvolen",
-   "home_pid": "1668",
-   "away_pid": "1164493",
-   "tournament": "Szlovák 2.",
-   "category": "Szlovákia",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T16:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000022472305330",
-   "startTime": "2026-11-16T16:00:00.000Z",
-   "participant1Name": "1. FC Tatran Presov",
-   "participant2Name": "MFK Zvolen",
-   "tournamentId": 224,
-   "tournamentName": "2. Liga",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002375568932284": {
   "tm": {
    "id": "319922262974210048",
@@ -2058,36 +1973,6 @@
    "sportName": "Soccer"
   },
   "score": 0.8
- },
- "id1200398776806552": {
-  "tm": {
-   "id": "319986672590725120",
-   "sport": "Tenisz",
-   "name": "Gianluca Cadenasso - Jacob Fearnley",
-   "home": "Gianluca Cadenasso",
-   "away": "Jacob Fearnley",
-   "home_pid": "178619653461954560",
-   "away_pid": "147653605653008384",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T16:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776806552",
-   "startTime": "2026-11-16T16:10:00.000Z",
-   "participant1Name": "Cadenasso, Gianluca",
-   "participant2Name": "Fearnley, Jacob",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663168,
-   "name": "G. Cadenasso - J. Fearnley",
-   "score": 1.0
-  }
  },
  "id1200398776806558": {
   "tm": {
@@ -4584,96 +4469,6 @@
    "score": 1.0
   }
  },
- "id2503634976830538": {
-  "tm": {
-   "id": "320044440459747328",
-   "sport": "Asztalitenisz",
-   "name": "Tomas Nohejl - Framberk Jan",
-   "home": "Tomas Nohejl",
-   "away": "Framberk Jan",
-   "home_pid": "177420810673246208",
-   "away_pid": "184523105441468416",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T16:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830538",
-   "startTime": "2026-11-16T16:00:00.000Z",
-   "participant1Name": "Nohejl, Tomas",
-   "participant2Name": "Framberk, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663672,
-   "name": "T. Nohejl - J. Framberk",
-   "score": 1.0
-  }
- },
- "id2503634976830468": {
-  "tm": {
-   "id": "320043355453071360",
-   "sport": "Asztalitenisz",
-   "name": "Tibor Chmela - Nadymacek Frantisek",
-   "home": "Tibor Chmela",
-   "away": "Nadymacek Frantisek",
-   "home_pid": "317508592802537472",
-   "away_pid": "309600792786571264",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T16:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830468",
-   "startTime": "2026-11-16T16:00:00.000Z",
-   "participant1Name": "Chmela, Tibor",
-   "participant2Name": "Nadymacek, Frantisek",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664225,
-   "name": "T. Chmela - F. Nadymacek",
-   "score": 1.0
-  }
- },
- "id2503634976830584": {
-  "tm": {
-   "id": "320044443434557440",
-   "sport": "Asztalitenisz",
-   "name": "Jakub Tazler - Marcel Pikous",
-   "home": "Jakub Tazler",
-   "away": "Marcel Pikous",
-   "home_pid": "216759636619055104",
-   "away_pid": "150234031090356224",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T16:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830584",
-   "startTime": "2026-11-16T16:00:00.000Z",
-   "participant1Name": "Tazler, Jakub",
-   "participant2Name": "Pikous, Marcel",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664227,
-   "name": "J. Tazler - M. Pikous",
-   "score": 1.0
-  }
- },
  "id2503634976830576": {
   "tm": {
    "id": "320044440253177856",
@@ -4734,24 +4529,24 @@
    "score": 1.0
   }
  },
- "id2503634976830490": {
+ "id2503634976830434": {
   "tm": {
-   "id": "320043354201071616",
+   "id": "320044447811313664",
    "sport": "Asztalitenisz",
-   "name": "Vaclav Nohejl 2005 - Wagner Richard",
-   "home": "Vaclav Nohejl 2005",
+   "name": "Michal Zahradka - Wagner Richard",
+   "home": "Michal Zahradka",
    "away": "Wagner Richard",
-   "home_pid": "302561937129246720",
+   "home_pid": "157416179233771520",
    "away_pid": "307739875767709696",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-16T16:00:00+00:00"
+   "start": "2026-11-16T17:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976830490",
-   "startTime": "2026-11-16T16:00:00.000Z",
-   "participant1Name": "Nohejl, Vaclav (2005)",
+   "fixtureId": "id2503634976830434",
+   "startTime": "2026-11-16T17:00:00.000Z",
+   "participant1Name": "Zahradka, Michal",
    "participant2Name": "Wagner, Richard",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
@@ -4759,8 +4554,98 @@
   },
   "score": 1.0,
   "cl": {
-   "id": 5664229,
-   "name": "V. Nohejl - Richard Wagner",
+   "id": 5664312,
+   "name": "M. Zahradka - Richard Wagner",
+   "score": 1.0
+  }
+ },
+ "id2503634976830420": {
+  "tm": {
+   "id": "320044442772905984",
+   "sport": "Asztalitenisz",
+   "name": "Michal Chalupa - Jakub Simecek",
+   "home": "Michal Chalupa",
+   "away": "Jakub Simecek",
+   "home_pid": "274550333304344576",
+   "away_pid": "274758198321352704",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830420",
+   "startTime": "2026-11-16T17:00:00.000Z",
+   "participant1Name": "Chalupa, Michal",
+   "participant2Name": "Simecek, Jakub",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664318,
+   "name": "M. Chalupa - Jakub Simecek",
+   "score": 1.0
+  }
+ },
+ "id2503634976830598": {
+  "tm": {
+   "id": "320044441861693440",
+   "sport": "Asztalitenisz",
+   "name": "Julius Didi - Framberk Jan",
+   "home": "Julius Didi",
+   "away": "Framberk Jan",
+   "home_pid": "249527683600388096",
+   "away_pid": "184523105441468416",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830598",
+   "startTime": "2026-11-16T17:00:00.000Z",
+   "participant1Name": "Didi, Julius",
+   "participant2Name": "Framberk, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664321,
+   "name": "J. Didi - J. Framberk",
+   "score": 1.0
+  }
+ },
+ "id2503634976830508": {
+  "tm": {
+   "id": "320044442296852480",
+   "sport": "Asztalitenisz",
+   "name": "Michal Vavrecka - Nadymacek Frantisek",
+   "home": "Michal Vavrecka",
+   "away": "Nadymacek Frantisek",
+   "home_pid": "167482783032201216",
+   "away_pid": "309600792786571264",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830508",
+   "startTime": "2026-11-16T17:00:00.000Z",
+   "participant1Name": "Vavrecka, Michal",
+   "participant2Name": "Nadymacek, Frantisek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664317,
+   "name": "M. Vavrecka - F. Nadymacek",
    "score": 1.0
   }
  },
@@ -5098,90 +4983,6 @@
    "score": 1.0,
    "home": "Z. Pagac",
    "away": "M. Chalupa",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976830434": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830434",
-   "startTime": "2026-11-16T17:00:00.000Z",
-   "participant1Name": "Zahradka, Michal",
-   "participant2Name": "Wagner, Richard",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664312,
-   "name": "M. Zahradka - Richard Wagner",
-   "score": 1.0,
-   "home": "M. Zahradka",
-   "away": "Richard Wagner",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976830508": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830508",
-   "startTime": "2026-11-16T17:00:00.000Z",
-   "participant1Name": "Vavrecka, Michal",
-   "participant2Name": "Nadymacek, Frantisek",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664317,
-   "name": "M. Vavrecka - F. Nadymacek",
-   "score": 1.0,
-   "home": "M. Vavrecka",
-   "away": "F. Nadymacek",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976830420": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830420",
-   "startTime": "2026-11-16T17:00:00.000Z",
-   "participant1Name": "Chalupa, Michal",
-   "participant2Name": "Simecek, Jakub",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664318,
-   "name": "M. Chalupa - Jakub Simecek",
-   "score": 1.0,
-   "home": "M. Chalupa",
-   "away": "Jakub Simecek",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976830598": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830598",
-   "startTime": "2026-11-16T17:00:00.000Z",
-   "participant1Name": "Didi, Julius",
-   "participant2Name": "Framberk, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664321,
-   "name": "J. Didi - J. Framberk",
-   "score": 1.0,
-   "home": "J. Didi",
-   "away": "J. Framberk",
    "tournament": "Cseh Liga Pro"
   }
  },
