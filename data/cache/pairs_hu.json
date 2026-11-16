@@ -2082,7 +2082,12 @@
    "tournamentName": "U21 Friendly Games",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663365,
+   "name": "U21Magyarország - U21Ciprus",
+   "score": 1.0
+  }
  },
  "id1002867176554992": {
   "tm": {
@@ -2421,36 +2426,6 @@
   "cl": {
    "id": 5593408,
    "name": "Zimbabwe - Egyenlítői-Guinea",
-   "score": 1.0
-  }
- },
- "id1200398776840130": {
-  "tm": {
-   "id": "320055992290189312",
-   "sport": "Tenisz",
-   "name": "Luka Mikrut - Michael Agwi",
-   "home": "Luka Mikrut",
-   "away": "Michael Agwi",
-   "home_pid": "107660102790696960",
-   "away_pid": "169713256327335936",
-   "tournament": "Helsinki-selejtező, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776840130",
-   "startTime": "2026-11-16T12:30:00.000Z",
-   "participant1Name": "Mikrut, Luka",
-   "participant2Name": "Agwi, Michael",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663632,
-   "name": "L. Mikrut - M. Agwi",
    "score": 1.0
   }
  },
@@ -5489,81 +5464,6 @@
    "score": 1.0
   }
  },
- "id2503634976830394": {
-  "tm": {
-   "id": "320042394572627968",
-   "sport": "Asztalitenisz",
-   "name": "Jiri Motak - Vlastimil Matysek",
-   "home": "Jiri Motak",
-   "away": "Vlastimil Matysek",
-   "home_pid": "166722022717575168",
-   "away_pid": "277820645563305984",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830394",
-   "startTime": "2026-11-16T12:30:00.000Z",
-   "participant1Name": "Motak, Jiri",
-   "participant2Name": "Matysek, Vlastimil",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976830616": {
-  "tm": {
-   "id": "320044444725354496",
-   "sport": "Asztalitenisz",
-   "name": "Dalimil Machander - David Heczko",
-   "home": "Dalimil Machander",
-   "away": "David Heczko",
-   "home_pid": "166635534989447168",
-   "away_pid": "275618793472004096",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830616",
-   "startTime": "2026-11-16T12:30:00.000Z",
-   "participant1Name": "Machander, Dalimil",
-   "participant2Name": "Heczko, David",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976830460": {
-  "tm": {
-   "id": "320044445265371136",
-   "sport": "Asztalitenisz",
-   "name": "Dalecky Petr - Marek Sedlak",
-   "home": "Dalecky Petr",
-   "away": "Marek Sedlak",
-   "home_pid": "317147109148139520",
-   "away_pid": "114904671542366208",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830460",
-   "startTime": "2026-11-16T12:30:00.000Z",
-   "participant1Name": "Dalecky, Petr",
-   "participant2Name": "Sedlak, Marek",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976830528": {
   "tm": {
    "id": "320044445134299136",
@@ -5587,7 +5487,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5664006,
+   "name": "Marek Sedlak - D. Tuma",
+   "score": 1.0
+  }
  },
  "id2503634976830428": {
   "tm": {
@@ -5612,57 +5517,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
- },
- "id2503637776834984": {
-  "tm": {
-   "id": "320115622657728512",
-   "sport": "Asztalitenisz",
-   "name": "Krzysztof Hetnar - Vincenec Oliver",
-   "home": "Krzysztof Hetnar",
-   "away": "Vincenec Oliver",
-   "home_pid": "269948117218103296",
-   "away_pid": "272210357383204864",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T12:25:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776834984",
-   "startTime": "2026-11-16T12:25:00.000Z",
-   "participant1Name": "Hetnar, Krzysztof",
-   "participant2Name": "Vincenec, Oliver",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503637776834990": {
-  "tm": {
-   "id": "320116995944161280",
-   "sport": "Asztalitenisz",
-   "name": "Michal Olbrycht - Krystian Kolodziej",
-   "home": "Michal Olbrycht",
-   "away": "Krystian Kolodziej",
-   "home_pid": "208429623968690176",
-   "away_pid": "192014277209649152",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T12:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776834990",
-   "startTime": "2026-11-16T12:40:00.000Z",
-   "participant1Name": "Olbrycht, Michal",
-   "participant2Name": "Kolodziej, Krystian",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663661,
+   "name": "Vla. Matysek - L. Martinec",
+   "score": 0.85
+  }
  },
  "id2503637776834994": {
   "tm": {
@@ -5738,6 +5598,96 @@
    "sportName": "Table Tennis"
   },
   "score": 1.0
+ },
+ "id2503634976830568": {
+  "tm": {
+   "id": "320044445951139840",
+   "sport": "Asztalitenisz",
+   "name": "Jiri Pozarsky - Dalecky Petr",
+   "home": "Jiri Pozarsky",
+   "away": "Dalecky Petr",
+   "home_pid": "108664645912514560",
+   "away_pid": "317147109148139520",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830568",
+   "startTime": "2026-11-16T13:30:00.000Z",
+   "participant1Name": "Pozarsky, Jiri",
+   "participant2Name": "Dalecky, Petr",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664085,
+   "name": "J. Pozarsky - P. Dalecky",
+   "score": 1.0
+  }
+ },
+ "id2503634976830492": {
+  "tm": {
+   "id": "320044446106329088",
+   "sport": "Asztalitenisz",
+   "name": "Daniel Zigmund - Jiri Motak",
+   "home": "Daniel Zigmund",
+   "away": "Jiri Motak",
+   "home_pid": "277347614601646080",
+   "away_pid": "166722022717575168",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830492",
+   "startTime": "2026-11-16T13:30:00.000Z",
+   "participant1Name": "Zigmund, Daniel",
+   "participant2Name": "Motak, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664087,
+   "name": "Dan. Zigmund - J. Motak",
+   "score": 0.916
+  }
+ },
+ "id2503634976830626": {
+  "tm": {
+   "id": "320044445895565312",
+   "sport": "Asztalitenisz",
+   "name": "Richard Skacelik - Dalimil Machander",
+   "home": "Richard Skacelik",
+   "away": "Dalimil Machander",
+   "home_pid": "166635211903258624",
+   "away_pid": "166635534989447168",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830626",
+   "startTime": "2026-11-16T13:30:00.000Z",
+   "participant1Name": "Skacelik, Richard",
+   "participant2Name": "Machander, Dalimil",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663659,
+   "name": "R. Skacelik - D. Machander",
+   "score": 1.0
+  }
  },
  "id2702157075326638": {
   "tm": {
@@ -5824,27 +5774,6 @@
    "score": 1.0
   }
  },
- "id1205210676807324": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1205210676807324",
-   "startTime": "2026-11-16T13:30:00.000Z",
-   "participant1Name": "Sharipov, Marat",
-   "participant2Name": "Montes-de la Torre, Inaki",
-   "tournamentId": 52106,
-   "tournamentName": "ATP Challenger Metz, France Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663259,
-   "name": "M. Sharipov - I. Montes-de La Torre",
-   "score": 1.0,
-   "home": "M. Sharipov",
-   "away": "I. Montes-de La Torre",
-   "tournament": "Metz, férfi egyes"
-  }
- },
  "id1205210676807326": {
   "tm": null,
   "fx": {
@@ -5927,27 +5856,6 @@
    "home": "N. Basilashvili",
    "away": "M. Houkes",
    "tournament": "Metz, férfi egyes"
-  }
- },
- "id1200946176793910": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200946176793910",
-   "startTime": "2026-11-16T23:00:00.000Z",
-   "participant1Name": "Hewitt, Cruz",
-   "participant2Name": "Sekulic, Philip",
-   "tournamentId": 9461,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5656193,
-   "name": "Cruz Hewitt - P. Sekulic",
-   "score": 1.0,
-   "home": "Cruz Hewitt",
-   "away": "P. Sekulic",
-   "tournament": "Sydney, férfi egyes"
   }
  },
  "id1205210676807180": {
@@ -6116,6 +6024,27 @@
    "home": "Hartford",
    "away": "Charlotte",
    "tournament": "AHL"
+  }
+ },
+ "id2503634976830618": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830618",
+   "startTime": "2026-11-16T13:00:00.000Z",
+   "participant1Name": "Heczko, David",
+   "participant2Name": "Byrtus, Samuel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663604,
+   "name": "David Heczko - Samuel Byrtus",
+   "score": 1.0,
+   "home": "David Heczko",
+   "away": "Samuel Byrtus",
+   "tournament": "Cseh Liga Pro"
   }
  },
  "id1400003171516032": {
