@@ -1,387 +1,5 @@
 [
  {
-  "time": "2026-11-15T01:41:45.330788+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 5,
-  "top_ev": [
-   "+1.2% Új-Zéland – India · 1X2: Új-Zéland győz @1.11 (fair 1.096)",
-   "+0.1% Anaheim – NY Islanders · Hendikep (rendes játékidő): Anaheim (+1) @1.45 (fair 1.448)",
-   "-0.6% Új-Zéland – India · Gólszám 3: Több @1.57 (fair 1.579)",
-   "-0.8% Új-Zéland – India · Gólszám 2.5: Több @1.38 (fair 1.391)",
-   "-1.3% Masamichi Imamura – Hiromasa Koyama · Győztes: Masamichi Imamura győz @1.21 (fair 1.225)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 3,
-  "fast": true,
-  "fixtures_checked": 25,
-  "fixtures_both": 16,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 5,
-  "classic_checked": 18,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.1% Új-Zéland – India · Gólszám 5.5: Kevesebb @1.13 (fair 1.154)",
-   "-2.9% Masamichi Imamura – Hiromasa Koyama · Győztes: Masamichi Imamura győz @1.19 (fair 1.225)",
-   "-3.9% Új-Zéland – India · Gólszám 4.5: Kevesebb @1.33 (fair 1.384)",
-   "-3.9% Atl. La Paz – Piratas Veracruz · Gólszám 3.5: Kevesebb @1.49 (fair 1.551)",
-   "-4.1% Diego Pacheco – Darius Fulghum · Győztes: Diego Pacheco győz @1.06 (fair 1.106)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 30
- },
- {
-  "time": "2026-11-15T01:47:16.609640+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 7,
-  "boosts": 0,
-  "classic": {
-   "events": 379,
-   "paired": 257,
-   "classic_only": 37
-  },
-  "tippmix_matches": 1227,
-  "pinnacle_fixtures": 1137,
-  "paired": 720,
-  "by_sport": {
-   "Soccer": [
-    571,
-    350
-   ],
-   "Tennis": [
-    94,
-    32
-   ],
-   "Basketball": [
-    223,
-    159
-   ],
-   "Ice Hockey": [
-    81,
-    69
-   ],
-   "Handball": [
-    39,
-    28
-   ],
-   "Volleyball": [
-    80,
-    34
-   ],
-   "Table Tennis": [
-    14,
-    6
-   ],
-   "Cricket": [
-    31,
-    10
-   ],
-   "Badminton": [
-    10,
-    4
-   ],
-   "Darts": [
-    15,
-    0
-   ],
-   "Futsal": [
-    5,
-    4
-   ],
-   "Waterpolo": [
-    2,
-    2
-   ],
-   "ESport Counter-Strike": [
-    18,
-    1
-   ],
-   "ESport Dota": [
-    5,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    29,
-    0
-   ],
-   "eBasketball": [
-    10,
-    0
-   ],
-   "American Football": [
-    0,
-    12
-   ],
-   "Boxing": [
-    0,
-    2
-   ],
-   "MMA": [
-    0,
-    5
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    2
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+4.1% Lok. Gorna Oryahovitsa – CSZKA Szófia 2 · Ázsiai hendikep: CSZKA Szófia 2 (-0.25) @2.11 (fair 2.027)",
-   "+1.2% Új-Zéland – India · 1X2: Új-Zéland győz @1.11 (fair 1.096)",
-   "+0.1% Anaheim – NY Islanders · Hendikep (rendes játékidő): Anaheim (+1) @1.45 (fair 1.448)",
-   "-0.8% Új-Zéland – India · Gólszám 2.5: Több @1.38 (fair 1.391)",
-   "-1.1% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.37 (fair 1.385)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 18,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 101,
-  "rejected_mismatch": 0,
-  "candidates": 1,
-  "steam_fixtures": 14,
-  "classic_checked": 65,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+1.0% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.4 (fair 1.385)",
-   "+0.2% Eskilstuna Utd. – Djurgarden · Gólszám 3.5: Kevesebb @1.54 (fair 1.538)",
-   "-0.1% Eskilstuna Utd. – Djurgarden · Gólszám 3: Kevesebb @1.83 (fair 1.832)",
-   "-0.2% Paris 13 Atletico – Red Star FC · Gólszám 3.25: Kevesebb @1.47 (fair 1.473)",
-   "-0.2% Malmo FF – Vittsjö · Gólszám 3.75: Kevesebb @1.55 (fair 1.553)"
-  ],
-  "placed": 1,
-  "not_executable": 1,
-  "api_calls": 0,
-  "free_calls": 157
- },
- {
-  "time": "2026-11-15T02:04:17.018783+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.7% Új-Zéland – India · 1X2: Új-Zéland győz @1.1 (fair 1.092)",
-   "+0.1% Anaheim – NY Islanders · Hendikep (rendes játékidő): Anaheim (+1) @1.45 (fair 1.448)",
-   "-1.0% Canberra Utd. – Brisbane Roar · 1X2: Canberra Utd. győz @1.68 (fair 1.697)",
-   "-1.2% Új-Zéland – India · Gólszám 2.5: Több @1.36 (fair 1.377)",
-   "-1.3% Masamichi Imamura – Hiromasa Koyama · Győztes: Masamichi Imamura győz @1.21 (fair 1.225)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 34,
-  "fixtures_both": 21,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 6,
-  "classic_checked": 25,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.3% Sutherland Sharks – Canberra Croatia · Gólszám 3.5: Kevesebb @1.67 (fair 1.664)",
-   "-1.1% Vanraure Hachnohe – Iwaki · Gólszám 3.5: Kevesebb @1.33 (fair 1.344)",
-   "-1.3% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 3: Kevesebb @1.32 (fair 1.337)",
-   "-1.9% Új-Zéland – India · Gólszám 5.5: Kevesebb @1.14 (fair 1.162)",
-   "-2.2% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 2.75: Kevesebb @1.48 (fair 1.513)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 40
- },
- {
-  "time": "2026-11-15T02:10:40.068968+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 365,
-   "paired": 251,
-   "classic_only": 32
-  },
-  "tippmix_matches": 1221,
-  "pinnacle_fixtures": 1137,
-  "paired": 703,
-  "by_sport": {
-   "Soccer": [
-    570,
-    347
-   ],
-   "Tennis": [
-    91,
-    31
-   ],
-   "Basketball": [
-    230,
-    157
-   ],
-   "Ice Hockey": [
-    74,
-    61
-   ],
-   "Handball": [
-    39,
-    28
-   ],
-   "Volleyball": [
-    80,
-    34
-   ],
-   "Table Tennis": [
-    15,
-    6
-   ],
-   "Cricket": [
-    29,
-    9
-   ],
-   "Badminton": [
-    9,
-    4
-   ],
-   "Darts": [
-    15,
-    0
-   ],
-   "Futsal": [
-    5,
-    4
-   ],
-   "Waterpolo": [
-    2,
-    2
-   ],
-   "ESport Counter-Strike": [
-    18,
-    1
-   ],
-   "ESport Dota": [
-    5,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    30,
-    0
-   ],
-   "eBasketball": [
-    9,
-    0
-   ],
-   "American Football": [
-    0,
-    12
-   ],
-   "Boxing": [
-    0,
-    1
-   ],
-   "MMA": [
-    0,
-    4
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    2
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+0.1% Anaheim – NY Islanders · Hendikep (rendes játékidő): Anaheim (+1) @1.45 (fair 1.448)",
-   "+0.1% CD Cieza – Pena Deportiva · Ázsiai hendikep: CD Cieza (+0) @1.23 (fair 1.229)",
-   "+0.0% Új-Zéland – India · 1X2: Új-Zéland győz @1.09 (fair 1.09)",
-   "-1.0% Canberra Utd. – Brisbane Roar · 1X2: Canberra Utd. győz @1.68 (fair 1.697)",
-   "-1.2% Benjamin Hassan – Jumpei Yamasaki · Győztes: Benjamin Hassan győz @1.22 (fair 1.234)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 20,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 102,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 15,
-  "classic_checked": 66,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+2.0% ASA Aarhus – Bröndby · Gólszám 3: Több @1.75 (fair 1.715)",
-   "+0.3% Sutherland Sharks – Canberra Croatia · Gólszám 3.5: Kevesebb @1.67 (fair 1.664)",
-   "-0.2% ASA Aarhus – Bröndby · Gólszám 3.25: Több @1.97 (fair 1.974)",
-   "-0.7% Göztepe – Galatasaray · Győztes: Galatasaray győz @1.21 (fair 1.219)",
-   "-1.1% Vanraure Hachnohe – Iwaki · Gólszám 3.5: Kevesebb @1.33 (fair 1.344)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
   "time": "2026-11-15T02:27:35.021255+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23178,5 +22796,264 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 35
+ },
+ {
+  "time": "2026-11-16T18:57:52.610910+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+0.7% U21Anglia – U21Franciaország · Ázsiai hendikep: U21Anglia (+0) @1.5 (fair 1.49)",
+   "-0.2% Görögország – Szerbia · Gólszám 3.75: Kevesebb @1.34 (fair 1.343)",
+   "-0.2% U21Anglia – U21Franciaország · 1X2: U21Anglia győz @2.03 (fair 2.035)",
+   "-0.4% Görögország – Szerbia · Ázsiai hendikep: Szerbia (+2.25) @1.29 (fair 1.295)",
+   "-0.5% Perugia – Torres Sassari · Gólszám 2: Több @1.37 (fair 1.376)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 17,
+  "fixtures_both": 12,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 9,
+  "classic_checked": 12,
+  "classic_candidates": 4,
+  "top_ev_classic": [
+   "+4.9% Görögország – Szerbia · Gólszám 3: Kevesebb @1.79 (fair 1.707)",
+   "+3.7% Görögország – Szerbia · Gólszám 3.25: Kevesebb @1.62 (fair 1.562)",
+   "+2.7% Görögország – Szerbia · Gólszám 3.75: Kevesebb @1.38 (fair 1.343)",
+   "+2.4% Görögország – Szerbia · Gólszám 2.75: Kevesebb @2.01 (fair 1.963)",
+   "+2.3% Görögország – Szerbia · Gólszám 3.5: Kevesebb @1.5 (fair 1.466)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 23
+ },
+ {
+  "time": "2026-11-16T19:02:58.564127+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+0.2% U21Anglia – U21Franciaország · Ázsiai hendikep: U21Anglia (+0) @1.5 (fair 1.497)",
+   "-0.0% Észak-Macedónia – Szlovénia · Gólszám 1.5: Több @1.44 (fair 1.44)",
+   "-0.4% U21Anglia – U21Franciaország · 1X2: U21Anglia győz @2.03 (fair 2.038)",
+   "-0.5% Perugia – Torres Sassari · Gólszám 2: Több @1.37 (fair 1.376)",
+   "-0.5% Észak-Macedónia – Szlovénia · Gólszám 1.75: Több @1.54 (fair 1.548)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 17,
+  "fixtures_both": 12,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 8,
+  "classic_checked": 12,
+  "classic_candidates": 3,
+  "top_ev_classic": [
+   "+4.1% Görögország – Szerbia · Gólszám 3: Kevesebb @1.79 (fair 1.72)",
+   "+3.2% Görögország – Szerbia · Gólszám 3.25: Kevesebb @1.62 (fair 1.57)",
+   "+2.5% Görögország – Szerbia · Mindkét csapat szerez gólt: Nem @1.98 (fair 1.932)",
+   "+2.4% Görögország – Szerbia · Gólszám 3.75: Kevesebb @1.38 (fair 1.348)",
+   "+1.8% Görögország – Szerbia · Gólszám 3.5: Kevesebb @1.5 (fair 1.473)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 23
+ },
+ {
+  "time": "2026-11-16T19:08:03.139802+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+0.2% U21Anglia – U21Franciaország · Ázsiai hendikep: U21Anglia (+0) @1.5 (fair 1.497)",
+   "-0.4% U21Anglia – U21Franciaország · 1X2: U21Anglia győz @2.03 (fair 2.038)",
+   "-0.4% Svájc – Skócia · Gólszám 1.5: Több @1.25 (fair 1.255)",
+   "-0.5% Perugia – Torres Sassari · Gólszám 2: Több @1.37 (fair 1.376)",
+   "-0.8% Észak-Macedónia – Szlovénia · Ázsiai hendikep: Észak-Macedónia (+2) @1.22 (fair 1.23)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 17,
+  "fixtures_both": 12,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 8,
+  "classic_checked": 12,
+  "classic_candidates": 3,
+  "top_ev_classic": [
+   "+4.1% Görögország – Szerbia · Gólszám 3: Kevesebb @1.79 (fair 1.72)",
+   "+3.2% Görögország – Szerbia · Gólszám 3.25: Kevesebb @1.62 (fair 1.57)",
+   "+2.5% Görögország – Szerbia · Mindkét csapat szerez gólt: Nem @1.98 (fair 1.932)",
+   "+2.4% Görögország – Szerbia · Gólszám 3.75: Kevesebb @1.38 (fair 1.348)",
+   "+1.9% Görögország – Szerbia · Gólszám 3.5: Kevesebb @1.5 (fair 1.472)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 23
+ },
+ {
+  "time": "2026-11-16T19:13:17.039514+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 380,
+   "paired": 84,
+   "classic_only": 8
+  },
+  "tippmix_matches": 862,
+  "pinnacle_fixtures": 658,
+  "paired": 144,
+  "by_sport": {
+   "Soccer": [
+    145,
+    48
+   ],
+   "Tennis": [
+    270,
+    7
+   ],
+   "Basketball": [
+    126,
+    35
+   ],
+   "Ice Hockey": [
+    37,
+    26
+   ],
+   "Handball": [
+    19,
+    11
+   ],
+   "Volleyball": [
+    24,
+    1
+   ],
+   "Table Tennis": [
+    44,
+    12
+   ],
+   "Cricket": [
+    8,
+    1
+   ],
+   "Badminton": [
+    34,
+    0
+   ],
+   "Darts": [
+    31,
+    2
+   ],
+   "Futsal": [
+    5,
+    0
+   ],
+   "Waterpolo": [
+    5,
+    0
+   ],
+   "ESport Counter-Strike": [
+    22,
+    0
+   ],
+   "ESport Dota": [
+    2,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    80,
+    0
+   ],
+   "eBasketball": [
+    10,
+    0
+   ],
+   "American Football": [
+    0,
+    1
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+3.9% Etiópia – Mozambik · 1X2: Döntetlen @2.75 (fair 2.647)",
+   "+0.9% Szingapúr – Brazília · Ázsiai hendikep: Brazília (-4) @1.59 (fair 1.576)",
+   "+0.8% Etiópia – Mozambik · Ázsiai hendikep: Etiópia (+0.5) @1.43 (fair 1.418)",
+   "+0.6% Görögország – Szerbia · 1X2: Görögország győz @1.43 (fair 1.421)",
+   "+0.4% Etiópia – Mozambik · Gólszám 1.5: Több @1.55 (fair 1.544)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 8,
+  "fast": false,
+  "fixtures_checked": 82,
+  "fixtures_both": 48,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 10,
+  "classic_checked": 52,
+  "classic_candidates": 3,
+  "top_ev_classic": [
+   "+7.7% Etiópia – Mozambik · 1X2: Döntetlen @2.85 (fair 2.647)",
+   "+5.8% Gambia – Elefántcsontpart · 1X2: Döntetlen @3.65 (fair 3.451)",
+   "+3.8% Görögország – Szerbia · Gólszám 3: Kevesebb @1.79 (fair 1.725)",
+   "+2.9% Görögország – Szerbia · Gólszám 3.25: Kevesebb @1.62 (fair 1.574)",
+   "+2.8% Szingapúr – Brazília · Ázsiai hendikep: Brazília (-4) @1.62 (fair 1.576)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 88
  }
 ]

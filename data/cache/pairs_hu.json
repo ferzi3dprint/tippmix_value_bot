@@ -1,114 +1,4 @@
 {
- "id1000159273684680": {
-  "tm": {
-   "id": "320031736050294784",
-   "sport": "Labdarúgás",
-   "name": "U21Plymouth - U21Leicester",
-   "home": "U21Plymouth",
-   "away": "U21Leicester",
-   "home_pid": "311542627605049344",
-   "away_pid": "877657",
-   "tournament": "U21 Angol Premier League Cup",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000159273684680",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Plymouth Argyle",
-   "participant2Name": "Leicester City",
-   "tournamentId": 1592,
-   "tournamentName": "Premier League Cup",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000159273685050": {
-  "tm": {
-   "id": "320031735968505856",
-   "sport": "Labdarúgás",
-   "name": "U21Norwich - U21Exeter",
-   "home": "U21Norwich",
-   "away": "U21Exeter",
-   "home_pid": "182450734403731456",
-   "away_pid": "253521786313236480",
-   "tournament": "U21 Angol Premier League Cup",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000159273685050",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Norwich City FC",
-   "participant2Name": "Exeter City",
-   "tournamentId": 1592,
-   "tournamentName": "Premier League Cup",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002742075468292": {
-  "tm": {
-   "id": "319965419342471168",
-   "sport": "Labdarúgás",
-   "name": "Guyana - Puerto Rico",
-   "home": "Guyana",
-   "away": "Puerto Rico",
-   "home_pid": "19869",
-   "away_pid": "1244472",
-   "tournament": "CONCACAF Nemzetek Ligája, B Divízió, A csoport",
-   "category": "Észak- és Közép-Amerika",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002742075468292",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Guyana",
-   "participant2Name": "Puerto Rico",
-   "tournamentId": 27420,
-   "tournamentName": "CONCACAF Nations League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5586708,
-   "name": "Guyana - Puerto Rico",
-   "score": 1.0
-  }
- },
- "id1002742075468318": {
-  "tm": {
-   "id": "319967427250167808",
-   "sport": "Labdarúgás",
-   "name": "Guadeloupe - Bermuda",
-   "home": "Guadeloupe",
-   "away": "Bermuda",
-   "home_pid": "315303924596371456",
-   "away_pid": "182450727772537088",
-   "tournament": "CONCACAF Nemzetek Ligája, B Divízió, B csoport",
-   "category": "Észak- és Közép-Amerika",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002742075468318",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Guadeloupe",
-   "participant2Name": "Bermuda",
-   "tournamentId": 27420,
-   "tournamentName": "CONCACAF Nations League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5586704,
-   "name": "Guadeloupe - Bermuda",
-   "score": 1.0
-  }
- },
  "id1000085476690050": {
   "tm": {
    "id": "319697503398207488",
@@ -1494,36 +1384,6 @@
    "score": 1.0
   }
  },
- "id1002742075468430": {
-  "tm": {
-   "id": "319968863166996480",
-   "sport": "Labdarúgás",
-   "name": "Kuba - Grenada",
-   "home": "Kuba",
-   "away": "Grenada",
-   "home_pid": "6760",
-   "away_pid": "182450724823941120",
-   "tournament": "CONCACAF Nemzetek Ligája, B Divízió, C csoport",
-   "category": "Észak- és Közép-Amerika",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002742075468430",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Cuba",
-   "participant2Name": "Grenada",
-   "tournamentId": 27420,
-   "tournamentName": "CONCACAF Nations League",
-   "sportName": "Soccer"
-  },
-  "score": 0.825,
-  "cl": {
-   "id": 5586702,
-   "name": "Kuba - Grenada",
-   "score": 1.0
-  }
- },
  "id1000085176148794": {
   "tm": {
    "id": "319989342989787136",
@@ -1704,36 +1564,6 @@
    "score": 1.0
   }
  },
- "id1100023574131970": {
-  "tm": {
-   "id": "318936816039305216",
-   "sport": "Kosárlabda",
-   "name": "Studentski Centar Podgorica - BC Vienna",
-   "home": "Studentski Centar Podgorica",
-   "away": "BC Vienna",
-   "home_pid": "95013950332076032",
-   "away_pid": "463700",
-   "tournament": "ABA Liga, B csoport",
-   "category": "Európa",
-   "tm_sport_id": "8",
-   "start": "2026-11-16T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100023574131970",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "KK Studentski centar Podgorica",
-   "participant2Name": "BC Vienna",
-   "tournamentId": 235,
-   "tournamentName": "Liga ABA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5559532,
-   "name": "Studentski Centar Podgorica - BC Vienna",
-   "score": 1.0
-  }
- },
  "id1101998075452312": {
   "tm": {
    "id": "319746394150739968",
@@ -1807,12 +1637,7 @@
    "tournamentName": "NBB",
    "sportName": "Basketball"
   },
-  "score": 1.0,
-  "cl": {
-   "id": 5559529,
-   "name": "Cruzeiro - Cearense",
-   "score": 1.0
-  }
+  "score": 1.0
  },
  "id1103560576190818": {
   "tm": {
@@ -2613,31 +2438,6 @@
    "sportName": "Basketball"
   },
   "score": 0.767
- },
- "id1100064875148536": {
-  "tm": {
-   "id": "320000739379322880",
-   "sport": "Kosárlabda",
-   "name": "Texas El Paso Miners - Florida A&M Rattlers",
-   "home": "Texas El Paso Miners",
-   "away": "Florida A&M Rattlers",
-   "home_pid": "797966",
-   "away_pid": "186960674898890752",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-16T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064875148536",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "UTEP Miners",
-   "participant2Name": "Florida A&M Rattlers",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 0.75
  },
  "id1103449675756100": {
   "tm": {
@@ -3694,81 +3494,6 @@
    "score": 1.0
   }
  },
- "id2503634976830644": {
-  "tm": {
-   "id": "320042664622891008",
-   "sport": "Asztalitenisz",
-   "name": "Antonin Schneeberger - Daniel Priesol",
-   "home": "Antonin Schneeberger",
-   "away": "Daniel Priesol",
-   "home_pid": "258077961810731008",
-   "away_pid": "274758113195855872",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830644",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Schneeberger, Antonin",
-   "participant2Name": "Priesol, Daniel",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976830594": {
-  "tm": {
-   "id": "320042665195413504",
-   "sport": "Asztalitenisz",
-   "name": "Tomas Janata - Zmuda Petr",
-   "home": "Tomas Janata",
-   "away": "Zmuda Petr",
-   "home_pid": "124357830765498368",
-   "away_pid": "274261926635245568",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830594",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Janata, Tomas",
-   "participant2Name": "Zmuda, Petr",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976830660": {
-  "tm": {
-   "id": "320044445804339200",
-   "sport": "Asztalitenisz",
-   "name": "Marek Volny - Petr Osvald",
-   "home": "Marek Volny",
-   "away": "Petr Osvald",
-   "home_pid": "168502419741790208",
-   "away_pid": "219213109175406592",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830660",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Volny, Marek",
-   "participant2Name": "Osvald, Petr",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976830672": {
   "tm": {
    "id": "320043354759962624",
@@ -3792,7 +3517,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5664370,
+   "name": "J. Framberk - J. Pleskot",
+   "score": 1.0
+  }
  },
  "id2503634976830578": {
   "tm": {
@@ -3817,7 +3547,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5664369,
+   "name": "Richard Wagner - M. Zahradka",
+   "score": 1.0
+  }
  },
  "id2503634976830412": {
   "tm": {
@@ -3842,7 +3577,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5664375,
+   "name": "Jan Hrabec - I. Taichman",
+   "score": 1.0
+  }
  },
  "id2503634976830562": {
   "tm": {
@@ -3867,32 +3607,132 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5664371,
+   "name": "L. Tonar - T. Zahradnik",
+   "score": 1.0
+  }
  },
- "id2503634976830486": {
+ "id2503634976830608": {
   "tm": {
-   "id": "320044446732328960",
+   "id": "320044445401686016",
    "sport": "Asztalitenisz",
-   "name": "Jan Mecl Jr. - Radek Rose",
-   "home": "Jan Mecl Jr.",
-   "away": "Radek Rose",
-   "home_pid": "104575301849337856",
-   "away_pid": "107027290643386368",
+   "name": "Tomas Kulhanek - Framberk Jan",
+   "home": "Tomas Kulhanek",
+   "away": "Framberk Jan",
+   "home_pid": "288685077800718336",
+   "away_pid": "184523105441468416",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-16T19:00:00+00:00"
+   "start": "2026-11-16T20:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976830486",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Mecl Jr, Jan",
-   "participant2Name": "Rose, Radek",
+   "fixtureId": "id2503634976830608",
+   "startTime": "2026-11-16T20:00:00.000Z",
+   "participant1Name": "Kulhanek, Tomas",
+   "participant2Name": "Framberk, Jan",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5664450,
+   "name": "Tomas Kulhanek - J. Framberk",
+   "score": 1.0
+  }
+ },
+ "id2503634976830620": {
+  "tm": {
+   "id": "320042664808488960",
+   "sport": "Asztalitenisz",
+   "name": "Radek Rose - Wagner Richard",
+   "home": "Radek Rose",
+   "away": "Wagner Richard",
+   "home_pid": "107027290643386368",
+   "away_pid": "307739875767709696",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T20:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830620",
+   "startTime": "2026-11-16T20:00:00.000Z",
+   "participant1Name": "Rose, Radek",
+   "participant2Name": "Wagner, Richard",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664438,
+   "name": "Radek Rose - Richard Wagner",
+   "score": 1.0
+  }
+ },
+ "id2503634976830416": {
+  "tm": {
+   "id": "320044443327602688",
+   "sport": "Asztalitenisz",
+   "name": "Petr Osvald - Jan Hrabec",
+   "home": "Petr Osvald",
+   "away": "Jan Hrabec",
+   "home_pid": "219213109175406592",
+   "away_pid": "277708661822984192",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T20:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830416",
+   "startTime": "2026-11-16T20:00:00.000Z",
+   "participant1Name": "Osvald, Petr",
+   "participant2Name": "Hrabec, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664448,
+   "name": "Petr Osvald - Jan Hrabec",
+   "score": 1.0
+  }
+ },
+ "id2503634976830390": {
+  "tm": {
+   "id": "320042664293638144",
+   "sport": "Asztalitenisz",
+   "name": "Zmuda Petr - Tonar Lukas",
+   "home": "Zmuda Petr",
+   "away": "Tonar Lukas",
+   "home_pid": "274261926635245568",
+   "away_pid": "167113663096995840",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T20:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830390",
+   "startTime": "2026-11-16T20:00:00.000Z",
+   "participant1Name": "Zmuda, Petr",
+   "participant2Name": "Tonar, Lukas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664441,
+   "name": "Zmuda Petr - L. Tonar",
+   "score": 1.0
+  }
  },
  "id2702157075326638": {
   "tm": {
@@ -3979,48 +3819,6 @@
    "score": 1.0
   }
  },
- "id1205210676807180": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1205210676807180",
-   "startTime": "2026-11-17T10:00:00.000Z",
-   "participant1Name": "Mrva, Maxim",
-   "participant2Name": "Jacquet, Kyrian",
-   "tournamentId": 52106,
-   "tournamentName": "ATP Challenger Metz, France Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663174,
-   "name": "M. Mrva - K. Jacquet",
-   "score": 1.0,
-   "home": "M. Mrva",
-   "away": "K. Jacquet",
-   "tournament": "Metz, férfi egyes"
-  }
- },
- "id1205210676807196": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1205210676807196",
-   "startTime": "2026-11-17T10:00:00.000Z",
-   "participant1Name": "Henning, Philip",
-   "participant2Name": "Gaston, Hugo",
-   "tournamentId": 52106,
-   "tournamentName": "ATP Challenger Metz, France Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663198,
-   "name": "P. Henning - H. Gaston",
-   "score": 1.0,
-   "home": "P. Henning",
-   "away": "H. Gaston",
-   "tournament": "Metz, férfi egyes"
-  }
- },
  "id1205210676807190": {
   "tm": null,
   "fx": {
@@ -4063,27 +3861,6 @@
    "tournament": "Metz, férfi egyes"
   }
  },
- "id1205210676807192": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1205210676807192",
-   "startTime": "2026-11-17T10:00:00.000Z",
-   "participant1Name": "Muller, Alexandre",
-   "participant2Name": "Piros, Zsombor",
-   "tournamentId": 52106,
-   "tournamentName": "ATP Challenger Metz, France Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.838,
-  "cl": {
-   "id": 5663197,
-   "name": "Ale. Muller - Piros Zsombor",
-   "score": 0.838,
-   "home": "Ale. Muller",
-   "away": "Piros Zsombor",
-   "tournament": "Metz, férfi egyes"
-  }
- },
  "id1500084472734750": {
   "tm": null,
   "fx": {
@@ -4105,6 +3882,90 @@
    "tournament": "AHL"
   }
  },
+ "id2503634976830510": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830510",
+   "startTime": "2026-11-16T20:30:00.000Z",
+   "participant1Name": "Taichman, Ivo",
+   "participant2Name": "Volny, Marek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664451,
+   "name": "I. Taichman - M. Volny",
+   "score": 1.0,
+   "home": "I. Taichman",
+   "away": "M. Volny",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830408": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830408",
+   "startTime": "2026-11-16T20:30:00.000Z",
+   "participant1Name": "Zahradnik, Tomas",
+   "participant2Name": "Janata, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664453,
+   "name": "T. Zahradnik - T. Janata",
+   "score": 1.0,
+   "home": "T. Zahradnik",
+   "away": "T. Janata",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830386": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830386",
+   "startTime": "2026-11-16T20:30:00.000Z",
+   "participant1Name": "Kocian, Vojtech",
+   "participant2Name": "Schneeberger, Antonin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.883,
+  "cl": {
+   "id": 5664455,
+   "name": "Voj. Kocian - A. Schneeberger",
+   "score": 0.883,
+   "home": "Voj. Kocian",
+   "away": "A. Schneeberger",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830622": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830622",
+   "startTime": "2026-11-16T20:30:00.000Z",
+   "participant1Name": "Pleskot, Jan",
+   "participant2Name": "Barta, Miroslav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.848,
+  "cl": {
+   "id": 5664446,
+   "name": "J. Pleskot - Mir. Barta",
+   "score": 0.848,
+   "home": "J. Pleskot",
+   "away": "Mir. Barta",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
  "id1400003171516032": {
   "tm": null,
   "fx": {
@@ -4124,153 +3985,6 @@
    "home": "Baltimore",
    "away": "LA Chargers",
    "tournament": "NFL"
-  }
- },
- "id2400090676706402": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706402",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Burns, Ian",
-   "participant2Name": "Norris, Paul",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663376,
-   "name": "Ian Burns - P. Norris",
-   "score": 1.0,
-   "home": "Ian Burns",
-   "away": "P. Norris",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706394": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706394",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Chenzhi, Gong",
-   "participant2Name": "Higginson, Andrew",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663380,
-   "name": "Gong Chenzhi - And. Higginson",
-   "score": 1.0,
-   "home": "Gong Chenzhi",
-   "away": "And. Higginson",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706398": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706398",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Heathcote, Louis",
-   "participant2Name": "Miah, Hammad",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663406,
-   "name": "L. Heathcote - H. Miah",
-   "score": 1.0,
-   "home": "L. Heathcote",
-   "away": "H. Miah",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706412": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706412",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Crowley, Leone",
-   "participant2Name": "Carrington, Stuart",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663407,
-   "name": "L. Crowley - S. Carrington",
-   "score": 1.0,
-   "home": "L. Crowley",
-   "away": "S. Carrington",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706396": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706396",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Davies, Liam",
-   "participant2Name": "Burden, Alfie",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663414,
-   "name": "Liam Davies - A. Burden",
-   "score": 1.0,
-   "home": "Liam Davies",
-   "away": "A. Burden",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706400": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706400",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Boiko, Iulian",
-   "participant2Name": "White, Jimmy",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 0.93,
-  "cl": {
-   "id": 5663372,
-   "name": "I. Boiko - Jim. White",
-   "score": 0.93,
-   "home": "I. Boiko",
-   "away": "Jim. White",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706404": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706404",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Carty, Ashley",
-   "participant2Name": "Brown, Oliver",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 0.857,
-  "cl": {
-   "id": 5663382,
-   "name": "Ash. Carty - Oli. Brown",
-   "score": 0.857,
-   "home": "Ash. Carty",
-   "away": "Oli. Brown",
-   "tournament": "German Masters-selejtező"
   }
  }
 }
