@@ -1,387 +1,5 @@
 [
  {
-  "time": "2026-11-14T14:27:00.584903+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+3.0% Dumbarton – Annan · 1X2: Dumbarton győz @1.79 (fair 1.738)",
-   "+2.7% Al Tadamun Buri – Isa Town · Ázsiai hendikep: Isa Town (-0) @1.63 (fair 1.586)",
-   "+0.7% Al Tadamun Buri – Isa Town · Ázsiai hendikep: Isa Town (+0.25) @1.46 (fair 1.449)",
-   "+0.5% Al Tadamun Buri – Isa Town · Ázsiai hendikep: Isa Town (+0.5) @1.37 (fair 1.364)",
-   "+0.0% Gateshead – Barrow · 1X2: Barrow győz @1.6 (fair 1.6)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 4,
-  "fast": true,
-  "fixtures_checked": 150,
-  "fixtures_both": 122,
-  "rejected_mismatch": 0,
-  "candidates": 1,
-  "steam_fixtures": 35,
-  "classic_checked": 58,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.1% Dumbarton – Annan · 1X2: Dumbarton győz @1.74 (fair 1.738)",
-   "-0.9% Livingston – Greenock Morton · Gólszám 4.5: Kevesebb @1.23 (fair 1.242)",
-   "-1.1% Swindon – Grimsby · Gólszám 4.5: Kevesebb @1.22 (fair 1.233)",
-   "-1.1% Southend – Aldershot · Gólszám 4.5: Kevesebb @1.34 (fair 1.356)",
-   "-1.7% Milton Keynes Dons – Burton · Gólszám 4.5: Kevesebb @1.22 (fair 1.24)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-14T14:44:00.279277+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 850,
-   "paired": 449,
-   "classic_only": 65
-  },
-  "tippmix_matches": 1851,
-  "pinnacle_fixtures": 2074,
-  "paired": 895,
-  "by_sport": {
-   "Soccer": [
-    653,
-    403
-   ],
-   "Tennis": [
-    75,
-    6
-   ],
-   "Basketball": [
-    405,
-    226
-   ],
-   "Ice Hockey": [
-    185,
-    103
-   ],
-   "Handball": [
-    138,
-    49
-   ],
-   "Volleyball": [
-    191,
-    18
-   ],
-   "Table Tennis": [
-    39,
-    9
-   ],
-   "Cricket": [
-    37,
-    6
-   ],
-   "Badminton": [
-    8,
-    0
-   ],
-   "Darts": [
-    19,
-    13
-   ],
-   "Futsal": [
-    21,
-    0
-   ],
-   "Waterpolo": [
-    20,
-    11
-   ],
-   "ESport Counter-Strike": [
-    16,
-    1
-   ],
-   "ESport Dota": [
-    4,
-    0
-   ],
-   "ESport League of Legends": [
-    1,
-    0
-   ],
-   "eSoccer": [
-    34,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    11
-   ],
-   "Boxing": [
-    0,
-    12
-   ],
-   "MMA": [
-    0,
-    23
-   ],
-   "Snooker": [
-    0,
-    1
-   ],
-   "Rugby": [
-    0,
-    3
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    1,
-    0
-   ]
-  },
-  "top_ev": [
-   "+1.4% Osasuna 2 – SD Logrones · Ázsiai hendikep: Osasuna 2 (+0) @1.31 (fair 1.291)",
-   "+1.1% AS Saint-Ouen-l'Aumone – Boulogne sur Mer · Gólszám 4: Kevesebb @2.15 (fair 2.127)",
-   "+1.0% NAC Breda – Emmen · 1X2: NAC Breda győz @1.46 (fair 1.445)",
-   "-0.2% Real Sociedad 2 – Sp. Gijon · Gólszám 1.5: Több @1.32 (fair 1.322)",
-   "-0.3% NAC Breda – Emmen · Ázsiai hendikep: NAC Breda (-1) @1.67 (fair 1.676)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 13,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 80,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 18,
-  "classic_checked": 79,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.9% NAC Breda – Emmen · Ázsiai hendikep: NAC Breda (-0.75) @1.52 (fair 1.535)",
-   "-1.9% Bisamberg/Hollabrunn – St. Pölten · Győztes: St. Pölten győz @1.18 (fair 1.203)",
-   "-1.9% K. Magomedsharipov – Borics Ádám · Győztes: K. Magomedsharipov győz @1.33 (fair 1.356)",
-   "-2.2% Norvégia – Wales · Gólszám 4.5: Kevesebb @1.34 (fair 1.37)",
-   "-2.2% Fiorentina – Lazio · Gólszám 3.5: Kevesebb @1.42 (fair 1.453)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-14T15:01:36.385414+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+4.1% Rayo Majadahonda – Aguilas FC · 1X2: Döntetlen @2.95 (fair 2.833)",
-   "+1.4% Osasuna 2 – SD Logrones · Ázsiai hendikep: Osasuna 2 (+0) @1.31 (fair 1.291)",
-   "+1.4% ASPTT Dijon – IS-Selongey Football · Gólszám 2: Több @1.51 (fair 1.489)",
-   "+1.3% AS Saint-Ouen-l'Aumone – Boulogne sur Mer · Gólszám 4: Kevesebb @2.15 (fair 2.123)",
-   "+1.3% AS Saint-Ouen-l'Aumone – Boulogne sur Mer · Gólszám 4.5: Kevesebb @1.74 (fair 1.718)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 13,
-  "fast": true,
-  "fixtures_checked": 150,
-  "fixtures_both": 82,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 18,
-  "classic_checked": 80,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.0% Hatta – Al-Ain (UAE) · 1X2: Al-Ain (UAE) győz @1.1 (fair 1.1)",
-   "-0.6% Real Union Irun – Cultural Leonesa · 1X2: Cultural Leonesa győz @2.97 (fair 2.989)",
-   "-1.9% Bisamberg/Hollabrunn – St. Pölten · Győztes: St. Pölten győz @1.18 (fair 1.203)",
-   "-2.2% Strasbourg – Toulouse · Gólszám 3.75: Kevesebb @1.41 (fair 1.442)",
-   "-2.2% Norvégia – Wales · Gólszám 4.25: Kevesebb @1.4 (fair 1.432)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-14T15:18:23.666161+00:00",
-  "mode": "hu",
-  "settled": 2,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 825,
-   "paired": 382,
-   "classic_only": 62
-  },
-  "tippmix_matches": 1772,
-  "pinnacle_fixtures": 2074,
-  "paired": 715,
-  "by_sport": {
-   "Soccer": [
-    537,
-    281
-   ],
-   "Tennis": [
-    80,
-    5
-   ],
-   "Basketball": [
-    397,
-    202
-   ],
-   "Ice Hockey": [
-    170,
-    89
-   ],
-   "Handball": [
-    134,
-    42
-   ],
-   "Volleyball": [
-    215,
-    13
-   ],
-   "Table Tennis": [
-    61,
-    17
-   ],
-   "Cricket": [
-    37,
-    6
-   ],
-   "Badminton": [
-    11,
-    0
-   ],
-   "Darts": [
-    17,
-    11
-   ],
-   "Futsal": [
-    21,
-    0
-   ],
-   "Waterpolo": [
-    20,
-    10
-   ],
-   "ESport Counter-Strike": [
-    18,
-    0
-   ],
-   "ESport Dota": [
-    5,
-    0
-   ],
-   "ESport League of Legends": [
-    1,
-    0
-   ],
-   "eSoccer": [
-    43,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    11
-   ],
-   "Boxing": [
-    0,
-    11
-   ],
-   "MMA": [
-    0,
-    13
-   ],
-   "Snooker": [
-    0,
-    1
-   ],
-   "Rugby": [
-    0,
-    3
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    1,
-    0
-   ]
-  },
-  "top_ev": [
-   "+1.6% Podravka Koprivnica – Bistrita · 1X2: Bistrita győz @1.6 (fair 1.575)",
-   "+1.4% ASPTT Dijon – IS-Selongey Football · Gólszám 2: Több @1.51 (fair 1.489)",
-   "+1.3% AS Saint-Ouen-l'Aumone – Boulogne sur Mer · Gólszám 4: Kevesebb @2.15 (fair 2.123)",
-   "+1.3% AS Saint-Ouen-l'Aumone – Boulogne sur Mer · Gólszám 4.5: Kevesebb @1.74 (fair 1.718)",
-   "+1.2% Osasuna 2 – SD Logrones · Ázsiai hendikep: Osasuna 2 (+0) @1.27 (fair 1.255)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 20,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 80,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 11,
-  "classic_checked": 85,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.6% Beroe Stara Zagora – Neftocsimik Burgasz · Győztes: Neftocsimik Burgasz győz @1.3 (fair 1.321)",
-   "-2.2% Strasbourg – Toulouse · Gólszám 3.75: Kevesebb @1.41 (fair 1.442)",
-   "-2.3% Wolfsburg – Bayern München · Ázsiai hendikep: Bayern München (-0.25) @1.55 (fair 1.586)",
-   "-2.4% Fiorentina – Lazio · Gólszám 3.5: Kevesebb @1.42 (fair 1.455)",
-   "-2.6% Luxemburg – Franciaország · Összpontszám (hosszabbítással) 146.5: Kevesebb @1.8 (fair 1.848)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 2,
-  "free_calls": 156
- },
- {
   "time": "2026-11-14T15:38:22.541167+00:00",
   "mode": "hu",
   "settled": 0,
@@ -24039,5 +23657,264 @@
   "not_executable": 0,
   "api_calls": 1,
   "free_calls": 65
+ },
+ {
+  "time": "2026-11-16T12:05:15.374073+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "+1.2% Szudán – Szenegál · 1X2: Szenegál győz @1.19 (fair 1.176)",
+   "+0.2% Namíbia – Kamerun · Gólszám 2: Több @1.7 (fair 1.697)",
+   "+0.0% Namíbia – Kamerun · Gólszám 1.5: Több @1.43 (fair 1.43)",
+   "-0.5% Szudán – Szenegál · Gólszám 2: Több @1.37 (fair 1.377)",
+   "-0.8% Namíbia – Kamerun · Gólszám 1.75: Több @1.52 (fair 1.532)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 7,
+  "fast": true,
+  "fixtures_checked": 19,
+  "fixtures_both": 15,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "classic_checked": 14,
+  "classic_candidates": 1,
+  "top_ev_classic": [
+   "+6.3% Zimbabwe – Egyenlítői-Guinea · 1X2: Döntetlen @3.05 (fair 2.868)",
+   "-2.1% Szudán – Szenegál · Ázsiai hendikep: Szenegál (-1.5) @1.61 (fair 1.644)",
+   "-2.1% Zimbabwe – Egyenlítői-Guinea · Gólszám 2.5: Kevesebb @1.42 (fair 1.451)",
+   "-2.2% Namíbia – Kamerun · Ázsiai hendikep: Kamerun (-0.75) @1.46 (fair 1.493)",
+   "-2.6% Szudán – Szenegál · Ázsiai hendikep: Szenegál (-1.75) @1.77 (fair 1.817)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 24
+ },
+ {
+  "time": "2026-11-16T12:10:15.378354+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "+1.2% Szudán – Szenegál · 1X2: Szenegál győz @1.19 (fair 1.176)",
+   "-0.6% Zimbabwe – Egyenlítői-Guinea · 1X2: Döntetlen @2.85 (fair 2.868)",
+   "-1.1% Namíbia – Kamerun · 1X2: Kamerun győz @1.38 (fair 1.396)",
+   "-1.2% Szudán – Szenegál · Gólszám 2: Több @1.36 (fair 1.377)",
+   "-1.4% Zimbabwe – Egyenlítői-Guinea · Ázsiai hendikep: Zimbabwe (+0.5) @1.26 (fair 1.278)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 6,
+  "fast": true,
+  "fixtures_checked": 15,
+  "fixtures_both": 14,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "classic_checked": 13,
+  "classic_candidates": 1,
+  "top_ev_classic": [
+   "+6.3% Zimbabwe – Egyenlítői-Guinea · 1X2: Döntetlen @3.05 (fair 2.868)",
+   "-2.2% Namíbia – Kamerun · Ázsiai hendikep: Kamerun (-0.75) @1.46 (fair 1.493)",
+   "-2.8% Zimbabwe – Egyenlítői-Guinea · Gólszám 2.5: Kevesebb @1.41 (fair 1.451)",
+   "-3.2% Zimbabwe – Egyenlítői-Guinea · Ázsiai hendikep: Zimbabwe (+0.25) @1.32 (fair 1.364)",
+   "-3.3% Carlos Alcaraz – Francis Tiafoe · Győztes: Carlos Alcaraz győz @1.09 (fair 1.127)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 20
+ },
+ {
+  "time": "2026-11-16T12:15:15.374770+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "+0.5% Szudán – Szenegál · 1X2: Szenegál győz @1.19 (fair 1.184)",
+   "-0.6% Szudán – Szenegál · Ázsiai hendikep: Szenegál (-1) @1.25 (fair 1.258)",
+   "-0.8% Zimbabwe – Egyenlítői-Guinea · 1X2: Döntetlen @2.85 (fair 2.873)",
+   "-1.5% Szudán – Szenegál · Gólszám 3.5: Kevesebb @1.41 (fair 1.432)",
+   "-1.6% Zimbabwe – Egyenlítői-Guinea · Ázsiai hendikep: Zimbabwe (+0.5) @1.26 (fair 1.28)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 6,
+  "fast": true,
+  "fixtures_checked": 15,
+  "fixtures_both": 14,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "classic_checked": 13,
+  "classic_candidates": 1,
+  "top_ev_classic": [
+   "+6.2% Zimbabwe – Egyenlítői-Guinea · 1X2: Döntetlen @3.05 (fair 2.873)",
+   "-2.2% Szudán – Szenegál · Gólszám 3.5: Kevesebb @1.4 (fair 1.432)",
+   "-3.1% Szudán – Szenegál · Gólszám 3.25: Kevesebb @1.48 (fair 1.527)",
+   "-3.2% Namíbia – Kamerun · Ázsiai hendikep: Kamerun (-0.75) @1.46 (fair 1.509)",
+   "-3.3% Carlos Alcaraz – Francis Tiafoe · Győztes: Carlos Alcaraz győz @1.09 (fair 1.127)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 20
+ },
+ {
+  "time": "2026-11-16T12:20:15.374823+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 7,
+  "boosts": 0,
+  "classic": {
+   "events": 355,
+   "paired": 130,
+   "classic_only": 27
+  },
+  "tippmix_matches": 879,
+  "pinnacle_fixtures": 658,
+  "paired": 234,
+  "by_sport": {
+   "Soccer": [
+    158,
+    84
+   ],
+   "Tennis": [
+    243,
+    36
+   ],
+   "Basketball": [
+    114,
+    44
+   ],
+   "Ice Hockey": [
+    42,
+    28
+   ],
+   "Handball": [
+    31,
+    14
+   ],
+   "Volleyball": [
+    18,
+    2
+   ],
+   "Table Tennis": [
+    63,
+    10
+   ],
+   "Cricket": [
+    9,
+    1
+   ],
+   "Badminton": [
+    30,
+    0
+   ],
+   "Darts": [
+    19,
+    2
+   ],
+   "Futsal": [
+    2,
+    0
+   ],
+   "Waterpolo": [
+    5,
+    0
+   ],
+   "ESport Counter-Strike": [
+    38,
+    0
+   ],
+   "ESport Dota": [
+    9,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    88,
+    0
+   ],
+   "eBasketball": [
+    10,
+    0
+   ],
+   "American Football": [
+    0,
+    1
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    12
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+9.0% Etiópia – Mozambik · 1X2: Döntetlen @2.85 (fair 2.613)",
+   "+2.4% Etiópia – Mozambik · Ázsiai hendikep: Etiópia (+0.25) @1.62 (fair 1.582)",
+   "+2.3% Etiópia – Mozambik · Ázsiai hendikep: Etiópia (+0.5) @1.45 (fair 1.417)",
+   "+1.8% Etiópia – Mozambik · Ázsiai hendikep: Etiópia (+0.75) @1.31 (fair 1.287)",
+   "+1.2% Perugia – Torres Sassari · 1X2: Döntetlen @3.2 (fair 3.163)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 31,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 100,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 29,
+  "classic_checked": 106,
+  "classic_candidates": 2,
+  "top_ev_classic": [
+   "+10.6% Etiópia – Mozambik · 1X2: Döntetlen @2.89 (fair 2.613)",
+   "+6.9% Togo – Algéria · 1X2: Togo győz @6.0 (fair 5.615)",
+   "+6.5% Zimbabwe – Egyenlítői-Guinea · 1X2: Döntetlen @3.05 (fair 2.864)",
+   "+5.8% Gambia – Elefántcsontpart · 1X2: Döntetlen @3.65 (fair 3.451)",
+   "+3.5% Kenya – Dél-Afrika · 1X2: Döntetlen @3.5 (fair 3.382)"
+  ],
+  "placed": 2,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 157
  }
 ]
