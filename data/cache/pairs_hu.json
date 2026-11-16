@@ -2054,6 +2054,31 @@
   },
   "score": 1.0
  },
+ "id1100027772016396": {
+  "tm": {
+   "id": "318992012801024000",
+   "sport": "Kosárlabda",
+   "name": "Södertälje - Boras",
+   "home": "Södertälje",
+   "away": "Boras",
+   "home_pid": "10895",
+   "away_pid": "82936",
+   "tournament": "Svéd bajnokság",
+   "category": "Svédország",
+   "tm_sport_id": "8",
+   "start": "2026-11-17T18:04:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100027772016396",
+   "startTime": "2026-11-17T18:04:00.000Z",
+   "participant1Name": "Sodertalje BBK",
+   "participant2Name": "Boraas Basket",
+   "tournamentId": 277,
+   "tournamentName": "SBL",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1100027772016398": {
   "tm": {
    "id": "318992012718186496",
@@ -2098,31 +2123,6 @@
    "startTime": "2026-11-17T18:04:00.000Z",
    "participant1Name": "KFUM Umea",
    "participant2Name": "Nassjo Basket",
-   "tournamentId": 277,
-   "tournamentName": "SBL",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100027772016396": {
-  "tm": {
-   "id": "318992012801024000",
-   "sport": "Kosárlabda",
-   "name": "Södertälje - Boras",
-   "home": "Södertälje",
-   "away": "Boras",
-   "home_pid": "10895",
-   "away_pid": "82936",
-   "tournament": "Svéd bajnokság",
-   "category": "Svédország",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T18:04:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100027772016396",
-   "startTime": "2026-11-17T18:04:00.000Z",
-   "participant1Name": "Sodertalje BBK",
-   "participant2Name": "Boraas Basket",
    "tournamentId": 277,
    "tournamentName": "SBL",
    "sportName": "Basketball"
@@ -2959,36 +2959,6 @@
    "score": 1.0
   }
  },
- "id1500026772677600": {
-  "tm": {
-   "id": "318992019418587136",
-   "sport": "Jégkorong",
-   "name": "Landshut - Freiburg",
-   "home": "Landshut",
-   "away": "Freiburg",
-   "home_pid": "37316",
-   "away_pid": "754330",
-   "tournament": "Német 2.",
-   "category": "Németország",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T18:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500026772677600",
-   "startTime": "2026-11-17T18:30:00.000Z",
-   "participant1Name": "EV Landshut",
-   "participant2Name": "EHC Freiburg",
-   "tournamentId": 267,
-   "tournamentName": "DEL 2",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593639,
-   "name": "Landshut - Freiburg",
-   "score": 1.0
-  }
- },
  "id1500026772677594": {
   "tm": {
    "id": "318992019100868608",
@@ -3016,6 +2986,36 @@
   "cl": {
    "id": 5593643,
    "name": "Düsseldorf - Rosenheim",
+   "score": 1.0
+  }
+ },
+ "id1500026772677600": {
+  "tm": {
+   "id": "318992019418587136",
+   "sport": "Jégkorong",
+   "name": "Landshut - Freiburg",
+   "home": "Landshut",
+   "away": "Freiburg",
+   "home_pid": "37316",
+   "away_pid": "754330",
+   "tournament": "Német 2.",
+   "category": "Németország",
+   "tm_sport_id": "6",
+   "start": "2026-11-17T18:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500026772677600",
+   "startTime": "2026-11-17T18:30:00.000Z",
+   "participant1Name": "EV Landshut",
+   "participant2Name": "EHC Freiburg",
+   "tournamentId": 267,
+   "tournamentName": "DEL 2",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5593639,
+   "name": "Landshut - Freiburg",
    "score": 1.0
   }
  },
@@ -3719,6 +3719,31 @@
   },
   "score": 1.0
  },
+ "id2503634976830594": {
+  "tm": {
+   "id": "320042665195413504",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Janata - Zmuda Petr",
+   "home": "Tomas Janata",
+   "away": "Zmuda Petr",
+   "home_pid": "124357830765498368",
+   "away_pid": "274261926635245568",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830594",
+   "startTime": "2026-11-16T19:00:00.000Z",
+   "participant1Name": "Janata, Tomas",
+   "participant2Name": "Zmuda, Petr",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976830660": {
   "tm": {
    "id": "320044445804339200",
@@ -3744,25 +3769,125 @@
   },
   "score": 1.0
  },
- "id2503634976830594": {
+ "id2503634976830672": {
   "tm": {
-   "id": "320042665195413504",
+   "id": "320043354759962624",
    "sport": "Asztalitenisz",
-   "name": "Tomas Janata - Zmuda Petr",
-   "home": "Tomas Janata",
-   "away": "Zmuda Petr",
-   "home_pid": "124357830765498368",
-   "away_pid": "274261926635245568",
+   "name": "Framberk Jan - Jan Pleskot",
+   "home": "Framberk Jan",
+   "away": "Jan Pleskot",
+   "home_pid": "184523105441468416",
+   "away_pid": "174030321820422144",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830672",
+   "startTime": "2026-11-16T19:30:00.000Z",
+   "participant1Name": "Framberk, Jan",
+   "participant2Name": "Pleskot, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830578": {
+  "tm": {
+   "id": "320044445513883648",
+   "sport": "Asztalitenisz",
+   "name": "Wagner Richard - Michal Zahradka",
+   "home": "Wagner Richard",
+   "away": "Michal Zahradka",
+   "home_pid": "307739875767709696",
+   "away_pid": "157416179233771520",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830578",
+   "startTime": "2026-11-16T19:30:00.000Z",
+   "participant1Name": "Wagner, Richard",
+   "participant2Name": "Zahradka, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830412": {
+  "tm": {
+   "id": "320043354818682880",
+   "sport": "Asztalitenisz",
+   "name": "Jan Hrabec - Ivo Taichman",
+   "home": "Jan Hrabec",
+   "away": "Ivo Taichman",
+   "home_pid": "277708661822984192",
+   "away_pid": "283955591792332800",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830412",
+   "startTime": "2026-11-16T19:30:00.000Z",
+   "participant1Name": "Hrabec, Jan",
+   "participant2Name": "Taichman, Ivo",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830562": {
+  "tm": {
+   "id": "320042665265668096",
+   "sport": "Asztalitenisz",
+   "name": "Tonar Lukas - Tomas Zahradnik",
+   "home": "Tonar Lukas",
+   "away": "Tomas Zahradnik",
+   "home_pid": "167113663096995840",
+   "away_pid": "108758538869952512",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830562",
+   "startTime": "2026-11-16T19:30:00.000Z",
+   "participant1Name": "Tonar, Lukas",
+   "participant2Name": "Zahradnik, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830486": {
+  "tm": {
+   "id": "320044446732328960",
+   "sport": "Asztalitenisz",
+   "name": "Jan Mecl Jr. - Radek Rose",
+   "home": "Jan Mecl Jr.",
+   "away": "Radek Rose",
+   "home_pid": "104575301849337856",
+   "away_pid": "107027290643386368",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
    "start": "2026-11-16T19:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976830594",
+   "fixtureId": "id2503634976830486",
    "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Janata, Tomas",
-   "participant2Name": "Zmuda, Petr",
+   "participant1Name": "Mecl Jr, Jan",
+   "participant2Name": "Rose, Radek",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
