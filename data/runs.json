@@ -1,387 +1,5 @@
 [
  {
-  "time": "2026-11-14T10:12:41.702593+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 899,
-   "paired": 524,
-   "classic_only": 76
-  },
-  "tippmix_matches": 2093,
-  "pinnacle_fixtures": 2074,
-  "paired": 1145,
-  "by_sport": {
-   "Soccer": [
-    894,
-    581
-   ],
-   "Tennis": [
-    92,
-    10
-   ],
-   "Basketball": [
-    405,
-    245
-   ],
-   "Ice Hockey": [
-    195,
-    118
-   ],
-   "Handball": [
-    145,
-    52
-   ],
-   "Volleyball": [
-    158,
-    32
-   ],
-   "Table Tennis": [
-    27,
-    4
-   ],
-   "Cricket": [
-    35,
-    8
-   ],
-   "Badminton": [
-    8,
-    0
-   ],
-   "Darts": [
-    16,
-    16
-   ],
-   "Futsal": [
-    20,
-    0
-   ],
-   "Waterpolo": [
-    31,
-    18
-   ],
-   "ESport Counter-Strike": [
-    18,
-    4
-   ],
-   "ESport Dota": [
-    8,
-    0
-   ],
-   "ESport League of Legends": [
-    1,
-    0
-   ],
-   "eSoccer": [
-    33,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    11
-   ],
-   "Boxing": [
-    0,
-    14
-   ],
-   "MMA": [
-    0,
-    26
-   ],
-   "Snooker": [
-    0,
-    1
-   ],
-   "Rugby": [
-    0,
-    5
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    3,
-    0
-   ]
-  },
-  "top_ev": [
-   "+5.3% U19Svájc – U19Észak-Macedónia · 1X2: U19Svájc győz @1.37 (fair 1.301)",
-   "+3.7% U19Észak-Írország – U19Málta · 1X2: U19Észak-Írország győz @1.25 (fair 1.205)",
-   "+2.7% U19Luxemburg – U19Andorra · 1X2: U19Luxemburg győz @1.52 (fair 1.481)",
-   "+1.1% U19Örményország – U19Albánia · 1X2: U19Albánia győz @1.68 (fair 1.662)",
-   "+0.6% U19Örményország – U19Albánia · Gólszám 2: Több @1.33 (fair 1.321)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 25,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 132,
-  "rejected_mismatch": 0,
-  "candidates": 3,
-  "steam_fixtures": 18,
-  "classic_checked": 38,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.3% LKS Lodz – Opole · Győztes: LKS Lodz győz @1.23 (fair 1.234)",
-   "-0.5% Kína – Malajzia · Gólszám 4.5: Kevesebb @1.16 (fair 1.166)",
-   "-0.8% Kjelsas – Bjarg · Gólszám 3.5: Kevesebb @1.83 (fair 1.846)",
-   "-1.1% Napoli – Milan · Gólszám 3.75: Kevesebb @1.41 (fair 1.426)",
-   "-1.7% Exeter – Cheltenham · Gólszám 3.5: Kevesebb @1.33 (fair 1.352)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-14T10:29:49.474462+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+5.3% U19Svájc – U19Észak-Macedónia · 1X2: U19Svájc győz @1.37 (fair 1.302)",
-   "+3.7% U19Észak-Írország – U19Málta · 1X2: U19Észak-Írország győz @1.25 (fair 1.205)",
-   "+2.7% U19Luxemburg – U19Andorra · 1X2: U19Luxemburg győz @1.52 (fair 1.481)",
-   "+1.9% U23Farense – U23Sporting CP · Ázsiai hendikep: U23Sporting CP (-0) @1.5 (fair 1.472)",
-   "+1.5% U23Farense – U23Sporting CP · 1X2: U23Sporting CP győz @2.02 (fair 1.989)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 17,
-  "fast": true,
-  "fixtures_checked": 87,
-  "fixtures_both": 69,
-  "rejected_mismatch": 0,
-  "candidates": 3,
-  "steam_fixtures": 13,
-  "classic_checked": 21,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.3% LKS Lodz – Opole · Győztes: LKS Lodz győz @1.23 (fair 1.234)",
-   "-0.5% Kína – Malajzia · Gólszám 4.5: Kevesebb @1.16 (fair 1.166)",
-   "-0.8% Kjelsas – Bjarg · Gólszám 3.5: Kevesebb @1.83 (fair 1.846)",
-   "-1.1% Napoli – Milan · Gólszám 3.75: Kevesebb @1.41 (fair 1.426)",
-   "-1.6% Ellasz Szyrosz – Panthrakikosz · Gólszám 2.5: Kevesebb @1.77 (fair 1.799)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 93
- },
- {
-  "time": "2026-11-14T10:41:04.848363+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 888,
-   "paired": 518,
-   "classic_only": 76
-  },
-  "tippmix_matches": 2061,
-  "pinnacle_fixtures": 2074,
-  "paired": 1138,
-  "by_sport": {
-   "Soccer": [
-    888,
-    576
-   ],
-   "Tennis": [
-    83,
-    7
-   ],
-   "Basketball": [
-    403,
-    244
-   ],
-   "Ice Hockey": [
-    193,
-    118
-   ],
-   "Handball": [
-    144,
-    52
-   ],
-   "Volleyball": [
-    157,
-    32
-   ],
-   "Table Tennis": [
-    23,
-    7
-   ],
-   "Cricket": [
-    37,
-    8
-   ],
-   "Badminton": [
-    8,
-    0
-   ],
-   "Darts": [
-    16,
-    16
-   ],
-   "Futsal": [
-    20,
-    0
-   ],
-   "Waterpolo": [
-    30,
-    18
-   ],
-   "ESport Counter-Strike": [
-    17,
-    3
-   ],
-   "ESport Dota": [
-    8,
-    0
-   ],
-   "ESport League of Legends": [
-    1,
-    0
-   ],
-   "eSoccer": [
-    27,
-    0
-   ],
-   "eBasketball": [
-    3,
-    0
-   ],
-   "American Football": [
-    0,
-    11
-   ],
-   "Boxing": [
-    0,
-    14
-   ],
-   "MMA": [
-    0,
-    26
-   ],
-   "Snooker": [
-    0,
-    1
-   ],
-   "Rugby": [
-    0,
-    5
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    3,
-    0
-   ]
-  },
-  "top_ev": [
-   "+5.3% U19Svájc – U19Észak-Macedónia · 1X2: U19Svájc győz @1.37 (fair 1.302)",
-   "+3.7% U19Észak-Írország – U19Málta · 1X2: U19Észak-Írország győz @1.25 (fair 1.205)",
-   "+0.5% U19Észak-Írország – U19Málta · Gólszám 2.25: Több @1.4 (fair 1.392)",
-   "+0.5% U19Örményország – U19Albánia · 1X2: U19Albánia győz @1.67 (fair 1.662)",
-   "+0.5% U19Örményország – U19Albánia · Gólszám 2: Több @1.33 (fair 1.324)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 29,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 127,
-  "rejected_mismatch": 0,
-  "candidates": 2,
-  "steam_fixtures": 19,
-  "classic_checked": 41,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.8% Kjelsas – Bjarg · Gólszám 3.5: Kevesebb @1.83 (fair 1.846)",
-   "-1.0% Kína – Malajzia · Gólszám 4.5: Kevesebb @1.16 (fair 1.171)",
-   "-1.1% Napoli – Milan · Gólszám 3.75: Kevesebb @1.41 (fair 1.426)",
-   "-1.6% Ellasz Szyrosz – Panthrakikosz · Gólszám 2.5: Kevesebb @1.77 (fair 1.799)",
-   "-1.7% Exeter – Cheltenham · Gólszám 3.5: Kevesebb @1.33 (fair 1.352)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-14T10:58:13.813002+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+5.3% U19Svájc – U19Észak-Macedónia · 1X2: U19Svájc győz @1.37 (fair 1.302)",
-   "+3.7% U19Észak-Írország – U19Málta · 1X2: U19Észak-Írország győz @1.25 (fair 1.205)",
-   "+0.5% U19Észak-Írország – U19Málta · Gólszám 2.25: Több @1.4 (fair 1.392)",
-   "+0.5% U19Örményország – U19Albánia · 1X2: U19Albánia győz @1.67 (fair 1.662)",
-   "+0.5% U19Örményország – U19Albánia · Gólszám 2: Több @1.33 (fair 1.324)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 11,
-  "fast": true,
-  "fixtures_checked": 71,
-  "fixtures_both": 59,
-  "rejected_mismatch": 0,
-  "candidates": 2,
-  "steam_fixtures": 9,
-  "classic_checked": 21,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.4% Kína – Malajzia · Gólszám 4.5: Kevesebb @1.16 (fair 1.155)",
-   "-0.8% Kjelsas – Bjarg · Gólszám 3.5: Kevesebb @1.83 (fair 1.846)",
-   "-0.9% Kína – Malajzia · Gólszám 3.5: Kevesebb @1.43 (fair 1.443)",
-   "-1.1% Napoli – Milan · Gólszám 3.75: Kevesebb @1.41 (fair 1.426)",
-   "-1.2% Kína – Malajzia · Gólszám 3.25: Kevesebb @1.52 (fair 1.538)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 77
- },
- {
   "time": "2026-11-14T11:07:59.275411+00:00",
   "mode": "hu",
   "settled": 0,
@@ -24531,5 +24149,264 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 57
+ },
+ {
+  "time": "2026-11-16T10:12:33.680389+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-3.1% Marko – Zakynthosz · 1X2: Marko győz @1.08 (fair 1.114)",
+   "-3.4% Marko – Zakynthosz · Gólszám 3: Több @1.44 (fair 1.491)",
+   "-5.8% Marko – Zakynthosz · Gólszám 3.25: Több @1.61 (fair 1.709)",
+   "-6.3% Marko – Zakynthosz · Ázsiai hendikep: Marko (-1.75) @1.37 (fair 1.462)",
+   "-6.4% U21Montenegró – U21Bosznia-Hercegovina · Gólszám 2.25: Több @1.65 (fair 1.762)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 11,
+  "fixtures_both": 3,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 10,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-3.1% Marko – Zakynthosz · 1X2: Marko győz @1.08 (fair 1.114)",
+   "-4.4% A. Ritschard – K. Wehnelt · Győztes: A. Ritschard győz @1.13 (fair 1.182)",
+   "-5.9% U21Montenegró – U21Bosznia-Hercegovina · Gólszám 2.75: Kevesebb @1.65 (fair 1.754)",
+   "-6.7% Marko – Zakynthosz · Gólszám 3.5: Kevesebb @1.94 (fair 2.08)",
+   "-7.3% U21Montenegró – U21Bosznia-Hercegovina · Gólszám 2.5: Kevesebb @1.83 (fair 1.974)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 12
+ },
+ {
+  "time": "2026-11-16T10:17:33.682045+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-3.1% Marko – Zakynthosz · 1X2: Marko győz @1.08 (fair 1.114)",
+   "-3.4% Marko – Zakynthosz · Gólszám 3: Több @1.44 (fair 1.491)",
+   "-5.3% U21Montenegró – U21Bosznia-Hercegovina · Gólszám 2.25: Több @1.65 (fair 1.743)",
+   "-5.8% Marko – Zakynthosz · Gólszám 3.25: Több @1.61 (fair 1.709)",
+   "-6.3% Marko – Zakynthosz · Ázsiai hendikep: Marko (-1.75) @1.37 (fair 1.462)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 10,
+  "fixtures_both": 3,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 9,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-3.1% Marko – Zakynthosz · 1X2: Marko győz @1.08 (fair 1.114)",
+   "-4.4% A. Ritschard – K. Wehnelt · Győztes: A. Ritschard győz @1.13 (fair 1.182)",
+   "-6.7% Marko – Zakynthosz · Gólszám 3.5: Kevesebb @1.94 (fair 2.08)",
+   "-7.2% U21Montenegró – U21Bosznia-Hercegovina · Gólszám 2.75: Kevesebb @1.65 (fair 1.778)",
+   "-8.7% U21Montenegró – U21Bosznia-Hercegovina · Gólszám 2.5: Kevesebb @1.83 (fair 2.005)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 11
+ },
+ {
+  "time": "2026-11-16T10:22:33.679957+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-3.1% Marko – Zakynthosz · 1X2: Marko győz @1.08 (fair 1.114)",
+   "-3.4% Marko – Zakynthosz · Gólszám 3: Több @1.44 (fair 1.491)",
+   "-5.8% Marko – Zakynthosz · Gólszám 3.25: Több @1.61 (fair 1.709)",
+   "-5.9% U21Montenegró – U21Bosznia-Hercegovina · Gólszám 2.25: Több @1.64 (fair 1.743)",
+   "-6.3% Marko – Zakynthosz · Ázsiai hendikep: Marko (-1.75) @1.37 (fair 1.462)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 11,
+  "fixtures_both": 3,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 10,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-3.1% Marko – Zakynthosz · 1X2: Marko győz @1.08 (fair 1.114)",
+   "-4.4% A. Ritschard – K. Wehnelt · Győztes: A. Ritschard győz @1.13 (fair 1.182)",
+   "-6.7% Marko – Zakynthosz · Gólszám 3.5: Kevesebb @1.94 (fair 2.08)",
+   "-7.2% U21Montenegró – U21Bosznia-Hercegovina · Gólszám 2.75: Kevesebb @1.65 (fair 1.778)",
+   "-8.7% U21Montenegró – U21Bosznia-Hercegovina · Gólszám 2.5: Kevesebb @1.83 (fair 2.005)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 12
+ },
+ {
+  "time": "2026-11-16T10:27:33.681293+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 392,
+   "paired": 139,
+   "classic_only": 30
+  },
+  "tippmix_matches": 713,
+  "pinnacle_fixtures": 658,
+  "paired": 238,
+  "by_sport": {
+   "Soccer": [
+    156,
+    87
+   ],
+   "Tennis": [
+    216,
+    41
+   ],
+   "Basketball": [
+    98,
+    45
+   ],
+   "Ice Hockey": [
+    39,
+    28
+   ],
+   "Handball": [
+    31,
+    14
+   ],
+   "Volleyball": [
+    15,
+    2
+   ],
+   "Table Tennis": [
+    21,
+    4
+   ],
+   "Cricket": [
+    10,
+    1
+   ],
+   "Badminton": [
+    0,
+    0
+   ],
+   "Darts": [
+    28,
+    2
+   ],
+   "Futsal": [
+    2,
+    0
+   ],
+   "Waterpolo": [
+    5,
+    0
+   ],
+   "ESport Counter-Strike": [
+    42,
+    1
+   ],
+   "ESport Dota": [
+    9,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    36,
+    0
+   ],
+   "eBasketball": [
+    5,
+    0
+   ],
+   "American Football": [
+    0,
+    1
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    12
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+1.2% Perugia – Torres Sassari · 1X2: Döntetlen @3.2 (fair 3.163)",
+   "+1.0% Izland – Luxemburg · Gólszám 4.5: Kevesebb @1.19 (fair 1.179)",
+   "+0.7% Szudán – Szenegál · 1X2: Szenegál győz @1.22 (fair 1.211)",
+   "+0.7% Litvánia – Liechtenstein · Gólszám 4.5: Kevesebb @1.14 (fair 1.132)",
+   "+0.4% Etiópia – Mozambik · Gólszám 1.5: Több @1.53 (fair 1.524)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 27,
+  "fast": false,
+  "fixtures_checked": 138,
+  "fixtures_both": 91,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 26,
+  "classic_checked": 105,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+3.8% Zimbabwe – Egyenlítői-Guinea · 1X2: Döntetlen @3.05 (fair 2.938)",
+   "+1.5% Togo – Algéria · 1X2: Togo győz @6.0 (fair 5.911)",
+   "+1.2% Líbia – Tunézia · 1X2: Döntetlen @3.1 (fair 3.065)",
+   "-0.2% Litvánia – Liechtenstein · Gólszám 4.5: Kevesebb @1.13 (fair 1.132)",
+   "-0.6% Japán – Paraguay · Gólszám 3: Kevesebb @1.48 (fair 1.489)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 144
  }
 ]
