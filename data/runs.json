@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-14T21:47:17.399235+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 7,
-  "boosts": 0,
-  "classic": {
-   "events": 403,
-   "paired": 182,
-   "classic_only": 37
-  },
-  "tippmix_matches": 1178,
-  "pinnacle_fixtures": 2074,
-  "paired": 377,
-  "by_sport": {
-   "Soccer": [
-    449,
-    161
-   ],
-   "Tennis": [
-    85,
-    4
-   ],
-   "Basketball": [
-    243,
-    101
-   ],
-   "Ice Hockey": [
-    133,
-    59
-   ],
-   "Handball": [
-    38,
-    12
-   ],
-   "Volleyball": [
-    84,
-    1
-   ],
-   "Table Tennis": [
-    28,
-    0
-   ],
-   "Cricket": [
-    33,
-    5
-   ],
-   "Badminton": [
-    10,
-    0
-   ],
-   "Darts": [
-    12,
-    2
-   ],
-   "Futsal": [
-    6,
-    0
-   ],
-   "Waterpolo": [
-    2,
-    2
-   ],
-   "ESport Counter-Strike": [
-    17,
-    0
-   ],
-   "ESport Dota": [
-    3,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    25,
-    0
-   ],
-   "eBasketball": [
-    10,
-    0
-   ],
-   "American Football": [
-    0,
-    11
-   ],
-   "Boxing": [
-    0,
-    4
-   ],
-   "MMA": [
-    0,
-    13
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    2
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+9.9% EV Regensburg – Bad Nauheim · Hendikep (rendes játékidő): EV Regensburg (-2) @2.95 (fair 2.684)",
-   "+4.7% EV Regensburg – Bad Nauheim · Hendikep (rendes játékidő): EV Regensburg (-1) @1.95 (fair 1.863)",
-   "+3.8% EV Regensburg – Bad Nauheim · Hendikep (rendes játékidő): EV Regensburg (-1.5) @2.23 (fair 2.148)",
-   "+1.0% Penafiel – Lusitania Lourosa · Gólszám 2: Több @1.59 (fair 1.574)",
-   "+0.8% Penafiel – Lusitania Lourosa · Gólszám 1.75: Több @1.45 (fair 1.438)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 30,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 100,
-  "rejected_mismatch": 0,
-  "candidates": 2,
-  "steam_fixtures": 10,
-  "classic_checked": 88,
-  "classic_candidates": 1,
-  "top_ev_classic": [
-   "+5.2% EV Regensburg – Bad Nauheim · Hendikep (rendes játékidő): EV Regensburg (-1.5) @2.26 (fair 2.148)",
-   "-1.4% Wellington Phoenix – Sydney FC · Gólszám 4.5: Kevesebb @1.25 (fair 1.268)",
-   "-1.7% Charleston – Louisville City · Gólszám 3.5: Kevesebb @1.36 (fair 1.384)",
-   "-1.8% Granada – Las Palmas · Ázsiai hendikep: Granada (+0.25) @1.34 (fair 1.365)",
-   "-2.0% Liberec – Litvínov · Hendikep (rendes játékidő): Liberec (-1.5) @2.12 (fair 2.163)"
-  ],
-  "placed": 1,
-  "not_executable": 1,
-  "api_calls": 0,
-  "free_calls": 157
- },
- {
-  "time": "2026-11-14T22:05:27.054654+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "-0.3% Boston – Minnesota · Hendikep (rendes játékidő): Minnesota (+1) @1.36 (fair 1.364)",
-   "-0.6% St. Louis – Florida · Győztes (hosszabbítással): St. Louis győz @1.91 (fair 1.922)",
-   "-0.8% Columbus – Philadelphia · Hendikep (rendes játékidő): Columbus (+1) @1.33 (fair 1.34)",
-   "-0.9% Halifax Mooseheads – Quebec Remparts · Hendikep (rendes játékidő): Quebec Remparts (-2) @2.2 (fair 2.22)",
-   "-1.0% Washington – New Jersey · Hendikep (rendes játékidő): New Jersey (+1) @1.37 (fair 1.383)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 30,
-  "fixtures_both": 24,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 6,
-  "classic_checked": 21,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.7% Charleston – Louisville City · Gólszám 3.5: Kevesebb @1.36 (fair 1.384)",
-   "-2.1% Queretaro – Monterrey · Gólszám 3.5: Kevesebb @1.39 (fair 1.42)",
-   "-2.1% Chapecoense – Vasco da Gama RJ · Gólszám 4.5: Kevesebb @1.18 (fair 1.206)",
-   "-2.5% Queretaro – Monterrey · Gólszám 3: Kevesebb @1.58 (fair 1.62)",
-   "-3.0% Chapecoense – Vasco da Gama RJ · Gólszám 3.5: Kevesebb @1.47 (fair 1.515)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 36
- },
- {
   "time": "2026-11-14T22:11:29.252162+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23547,5 +23356,196 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 39
+ },
+ {
+  "time": "2026-11-16T16:34:23.897895+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "top_ev": [
+   "+1.8% Izland – Luxemburg · Ázsiai hendikep: Luxemburg (+2.25) @1.5 (fair 1.474)",
+   "+0.6% Izland – Luxemburg · Ázsiai hendikep: Luxemburg (+2.75) @1.28 (fair 1.272)",
+   "+0.5% Izland – Luxemburg · Gólszám 4.5: Kevesebb @1.13 (fair 1.125)",
+   "+0.3% Izland – Luxemburg · 1X2: Izland győz @1.24 (fair 1.237)",
+   "+0.2% Izland – Luxemburg · Ázsiai hendikep: Luxemburg (+2) @1.62 (fair 1.618)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 35,
+  "fixtures_both": 20,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 4,
+  "classic_checked": 28,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.6% Andorra – Azerbajdzsán · Mindkét csapat szerez gólt: Nem @1.57 (fair 1.56)",
+   "-0.6% U21Magyarország – U21Ciprus · Gólszám 2.5: Kevesebb @2.4 (fair 2.414)",
+   "-1.3% Izland – Luxemburg · Gólszám 4.5: Kevesebb @1.11 (fair 1.125)",
+   "-1.8% Észtország – Bulgária · Gólszám 3.5: Kevesebb @1.13 (fair 1.15)",
+   "-2.0% Litvánia – Liechtenstein · Gólszám 3.5: Kevesebb @1.3 (fair 1.327)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 39
+ },
+ {
+  "time": "2026-11-16T16:40:51.131639+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 417,
+   "paired": 104,
+   "classic_only": 19
+  },
+  "tippmix_matches": 761,
+  "pinnacle_fixtures": 658,
+  "paired": 185,
+  "by_sport": {
+   "Soccer": [
+    139,
+    68
+   ],
+   "Tennis": [
+    224,
+    14
+   ],
+   "Basketball": [
+    128,
+    43
+   ],
+   "Ice Hockey": [
+    40,
+    28
+   ],
+   "Handball": [
+    24,
+    13
+   ],
+   "Volleyball": [
+    17,
+    1
+   ],
+   "Table Tennis": [
+    32,
+    7
+   ],
+   "Cricket": [
+    9,
+    1
+   ],
+   "Badminton": [
+    41,
+    0
+   ],
+   "Darts": [
+    16,
+    2
+   ],
+   "Futsal": [
+    3,
+    0
+   ],
+   "Waterpolo": [
+    5,
+    0
+   ],
+   "ESport Counter-Strike": [
+    33,
+    0
+   ],
+   "ESport Dota": [
+    4,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    42,
+    0
+   ],
+   "eBasketball": [
+    4,
+    0
+   ],
+   "American Football": [
+    0,
+    1
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    7
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+1.5% Írország – Koszovó · Gólszám 1.5: Több @1.5 (fair 1.478)",
+   "+0.8% Írország – Koszovó · Gólszám 1.75: Több @1.62 (fair 1.608)",
+   "+0.4% Bosznia-Hercegovina – Románia · 1X2: Bosznia-Hercegovina győz @1.92 (fair 1.912)",
+   "-0.0% Írország – Koszovó · Gólszám 2: Több @1.83 (fair 1.83)",
+   "-0.3% Perugia – Torres Sassari · Gólszám 2: Több @1.37 (fair 1.374)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 9,
+  "fast": false,
+  "fixtures_checked": 81,
+  "fixtures_both": 50,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 9,
+  "classic_checked": 56,
+  "classic_candidates": 1,
+  "top_ev_classic": [
+   "+2.7% Görögország – Szerbia · Gólszám 3: Kevesebb @1.95 (fair 1.898)",
+   "+2.2% Görögország – Szerbia · Gólszám 3.75: Kevesebb @1.46 (fair 1.428)",
+   "+2.0% Görögország – Szerbia · Gólszám 3.25: Kevesebb @1.73 (fair 1.697)",
+   "+1.3% Görögország – Szerbia · Gólszám 3.5: Kevesebb @1.59 (fair 1.57)",
+   "+0.6% Andorra – Azerbajdzsán · Mindkét csapat szerez gólt: Nem @1.57 (fair 1.56)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 87
  }
 ]

@@ -1974,36 +1974,6 @@
   },
   "score": 0.8
  },
- "id1200398776806558": {
-  "tm": {
-   "id": "319986672509984768",
-   "sport": "Tenisz",
-   "name": "Andrea Guerrieri - Elias Ymer",
-   "home": "Andrea Guerrieri",
-   "away": "Elias Ymer",
-   "home_pid": "1246012",
-   "away_pid": "768959",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T16:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776806558",
-   "startTime": "2026-11-16T16:40:00.000Z",
-   "participant1Name": "Guerrieri, Andrea",
-   "participant2Name": "Ymer, Elias",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663159,
-   "name": "A. Guerrieri - Elias Ymer",
-   "score": 1.0
-  }
- },
  "id1202140676736460": {
   "tm": {
    "id": "319784307656826880",
@@ -2183,6 +2153,31 @@
    "name": "N. Cinkova - Y. Konstantinova",
    "score": 1.0
   }
+ },
+ "id1200398776806558": {
+  "tm": {
+   "id": "319986672509984768",
+   "sport": "Tenisz",
+   "name": "Andrea Guerrieri - Elias Ymer",
+   "home": "Andrea Guerrieri",
+   "away": "Elias Ymer",
+   "home_pid": "1246012",
+   "away_pid": "768959",
+   "tournament": "Helsinki, férfi egyes",
+   "category": "Challenger",
+   "tm_sport_id": "3",
+   "start": "2026-11-16T16:50:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1200398776806558",
+   "startTime": "2026-11-16T16:40:00.000Z",
+   "participant1Name": "Guerrieri, Andrea",
+   "participant2Name": "Ymer, Elias",
+   "tournamentId": 3987,
+   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0
  },
  "id1100023574131774": {
   "tm": {
@@ -4409,36 +4404,6 @@
   },
   "score": 0.825
  },
- "id2300117372775276": {
-  "tm": {
-   "id": "319535681983553536",
-   "sport": "Röplabda",
-   "name": "Sokol Mogilno - Bydgoszcz",
-   "home": "Sokol Mogilno",
-   "away": "Bydgoszcz",
-   "home_pid": "215834408200065024",
-   "away_pid": "186857386045132800",
-   "tournament": "Lengyel bajnokság, női",
-   "category": "Lengyelország",
-   "tm_sport_id": "20",
-   "start": "2026-11-16T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2300117372775276",
-   "startTime": "2026-11-16T16:30:00.000Z",
-   "participant1Name": "MKS Sokol Mogilno",
-   "participant2Name": "KS Palac Bydgoszcz",
-   "tournamentId": 1173,
-   "tournamentName": "Liga Siatkowki, Women",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5554987,
-   "name": "Sokol Mogilno - Bydgoszcz",
-   "score": 1.0
-  }
- },
  "id2300117372775284": {
   "tm": {
    "id": "319535681898618880",
@@ -4469,63 +4434,33 @@
    "score": 1.0
   }
  },
- "id2503634976830576": {
+ "id2503634976830420": {
   "tm": {
-   "id": "320044440253177856",
+   "id": "320044442772905984",
    "sport": "Asztalitenisz",
-   "name": "David Szotek - Michal Vavrecka",
-   "home": "David Szotek",
-   "away": "Michal Vavrecka",
-   "home_pid": "169718539420225536",
-   "away_pid": "167482783032201216",
+   "name": "Michal Chalupa - Jakub Simecek",
+   "home": "Michal Chalupa",
+   "away": "Jakub Simecek",
+   "home_pid": "274550333304344576",
+   "away_pid": "274758198321352704",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-16T16:30:00+00:00"
+   "start": "2026-11-16T17:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976830576",
-   "startTime": "2026-11-16T16:30:00.000Z",
-   "participant1Name": "Szotek, David",
-   "participant2Name": "Vavrecka, Michal",
+   "fixtureId": "id2503634976830420",
+   "startTime": "2026-11-16T17:00:00.000Z",
+   "participant1Name": "Chalupa, Michal",
+   "participant2Name": "Simecek, Jakub",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0,
   "cl": {
-   "id": 5664222,
-   "name": "D. Szotek - M. Vavrecka",
-   "score": 1.0
-  }
- },
- "id2503634976830566": {
-  "tm": {
-   "id": "320043355000086528",
-   "sport": "Asztalitenisz",
-   "name": "Radim Urbaniec - Michal Zahradka",
-   "home": "Radim Urbaniec",
-   "away": "Michal Zahradka",
-   "home_pid": "167634919836667904",
-   "away_pid": "157416179233771520",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830566",
-   "startTime": "2026-11-16T16:30:00.000Z",
-   "participant1Name": "Urbaniec, Radim",
-   "participant2Name": "Zahradka, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664223,
-   "name": "R. Urbaniec - M. Zahradka",
+   "id": 5664318,
+   "name": "M. Chalupa - Jakub Simecek",
    "score": 1.0
   }
  },
@@ -4556,36 +4491,6 @@
   "cl": {
    "id": 5664312,
    "name": "M. Zahradka - Richard Wagner",
-   "score": 1.0
-  }
- },
- "id2503634976830420": {
-  "tm": {
-   "id": "320044442772905984",
-   "sport": "Asztalitenisz",
-   "name": "Michal Chalupa - Jakub Simecek",
-   "home": "Michal Chalupa",
-   "away": "Jakub Simecek",
-   "home_pid": "274550333304344576",
-   "away_pid": "274758198321352704",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T17:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830420",
-   "startTime": "2026-11-16T17:00:00.000Z",
-   "participant1Name": "Chalupa, Michal",
-   "participant2Name": "Simecek, Jakub",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664318,
-   "name": "M. Chalupa - Jakub Simecek",
    "score": 1.0
   }
  },
@@ -4646,6 +4551,36 @@
   "cl": {
    "id": 5664317,
    "name": "M. Vavrecka - F. Nadymacek",
+   "score": 1.0
+  }
+ },
+ "id2503634976830560": {
+  "tm": {
+   "id": "320043355373379584",
+   "sport": "Asztalitenisz",
+   "name": "Tibor Chmela - David Szotek",
+   "home": "Tibor Chmela",
+   "away": "David Szotek",
+   "home_pid": "317508592802537472",
+   "away_pid": "169718539420225536",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T17:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830560",
+   "startTime": "2026-11-16T17:30:00.000Z",
+   "participant1Name": "Chmela, Tibor",
+   "participant2Name": "Szotek, David",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664315,
+   "name": "T. Chmela - D. Szotek",
    "score": 1.0
   }
  },
@@ -4732,27 +4667,6 @@
    "id": 5649200,
    "name": "N. Aspinall - K. Sedlacek",
    "score": 1.0
-  }
- },
- "id1200386776837350": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200386776837350",
-   "startTime": "2026-11-16T16:30:00.000Z",
-   "participant1Name": "Meligeni Alves, Felipe",
-   "participant2Name": "Zeitune, Maximo",
-   "tournamentId": 3867,
-   "tournamentName": "ATP Challenger Montevideo, Uruguay Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664216,
-   "name": "F. Meligeni Alves - Maximo Zeitune",
-   "score": 1.0,
-   "home": "F. Meligeni Alves",
-   "away": "Maximo Zeitune",
-   "tournament": "Montevideo-sel., férfi egyes"
   }
  },
  "id1202140876736466": {
@@ -4860,27 +4774,6 @@
    "tournament": "Metz, férfi egyes"
   }
  },
- "id1200386776839380": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200386776839380",
-   "startTime": "2026-11-16T16:30:00.000Z",
-   "participant1Name": "Villanueva, Gonzalo",
-   "participant2Name": "Guillen Meza, Alvaro",
-   "tournamentId": 3867,
-   "tournamentName": "ATP Challenger Montevideo, Uruguay Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.913,
-  "cl": {
-   "id": 5664214,
-   "name": "Gon. Villanueva - A. Guillen Meza",
-   "score": 0.913,
-   "home": "Gon. Villanueva",
-   "away": "A. Guillen Meza",
-   "tournament": "Montevideo-sel., férfi egyes"
-  }
- },
  "id1205210676807184": {
   "tm": null,
   "fx": {
@@ -4965,27 +4858,6 @@
    "tournament": "AHL"
   }
  },
- "id2503634976830488": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830488",
-   "startTime": "2026-11-16T16:30:00.000Z",
-   "participant1Name": "Pagac, Zbynek",
-   "participant2Name": "Chalupa, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663665,
-   "name": "Z. Pagac - M. Chalupa",
-   "score": 1.0,
-   "home": "Z. Pagac",
-   "away": "M. Chalupa",
-   "tournament": "Cseh Liga Pro"
-  }
- },
  "id2503634976830500": {
   "tm": null,
   "fx": {
@@ -5004,27 +4876,6 @@
    "score": 1.0,
    "home": "V. Nohejl",
    "away": "R. Urbaniec",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976830560": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830560",
-   "startTime": "2026-11-16T17:30:00.000Z",
-   "participant1Name": "Chmela, Tibor",
-   "participant2Name": "Szotek, David",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664315,
-   "name": "T. Chmela - D. Szotek",
-   "score": 1.0,
-   "home": "T. Chmela",
-   "away": "D. Szotek",
    "tournament": "Cseh Liga Pro"
   }
  },
