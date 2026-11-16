@@ -2329,31 +2329,6 @@
    "score": 1.0
   }
  },
- "id1002895376595266": {
-  "tm": {
-   "id": "319685132172730368",
-   "sport": "Labdarúgás",
-   "name": "Dep. Toluca - América",
-   "home": "Dep. Toluca",
-   "away": "América",
-   "home_pid": "1629340076371968",
-   "away_pid": "1611985048465408",
-   "tournament": "Mexikói bajnokság, női",
-   "category": "Mexikó",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T03:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002895376595266",
-   "startTime": "2026-11-16T03:10:00.000Z",
-   "participant1Name": "Deportivo Toluca FC",
-   "participant2Name": "Club America",
-   "tournamentId": 28953,
-   "tournamentName": "Liga MX, Women",
-   "sportName": "Soccer"
-  },
-  "score": 0.838
- },
  "id1000040671936254": {
   "tm": {
    "id": "318713791491678208",
@@ -2547,96 +2522,6 @@
    "id": 5593408,
    "name": "Zimbabwe - Egyenlítői-Guinea",
    "score": 1.0
-  }
- },
- "id1201316776799008": {
-  "tm": {
-   "id": "319942218989248512",
-   "sport": "Tenisz",
-   "name": "Ryuki Matsuda - Fajing Sun",
-   "home": "Ryuki Matsuda",
-   "away": "Fajing Sun",
-   "home_pid": "157034385466511360",
-   "away_pid": "143982569598275584",
-   "tournament": "Kobe, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T03:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316776799008",
-   "startTime": "2026-11-16T03:10:00.000Z",
-   "participant1Name": "Matsuda, Ryuki",
-   "participant2Name": "Sun, Fajing",
-   "tournamentId": 13167,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655952,
-   "name": "Ryu. Matsuda - Fajing Sun",
-   "score": 0.942
-  }
- },
- "id1201316776819504": {
-  "tm": {
-   "id": "320012915855925248",
-   "sport": "Tenisz",
-   "name": "Masamichi Imamura - Yusuke Takahashi",
-   "home": "Masamichi Imamura",
-   "away": "Yusuke Takahashi",
-   "home_pid": "135560403132403712",
-   "away_pid": "1184702",
-   "tournament": "Kobe-selejtező, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T03:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316776819504",
-   "startTime": "2026-11-16T03:10:00.000Z",
-   "participant1Name": "Imamura, Masamichi",
-   "participant2Name": "Takahashi, Yusuke",
-   "tournamentId": 13167,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663459,
-   "name": "Mas. Imamura - Yus. Takahashi",
-   "score": 0.819
-  }
- },
- "id1201316776825776": {
-  "tm": {
-   "id": "320016827624267776",
-   "sport": "Tenisz",
-   "name": "Dimitris Sakellaridis - Taisei Ichikawa",
-   "home": "Dimitris Sakellaridis",
-   "away": "Taisei Ichikawa",
-   "home_pid": "122246898358734848",
-   "away_pid": "126553358709346304",
-   "tournament": "Kobe-selejtező, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T03:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316776825776",
-   "startTime": "2026-11-16T03:10:00.000Z",
-   "participant1Name": "Sakellaridis, Dimitris",
-   "participant2Name": "Ichikawa, Taisei",
-   "tournamentId": 13167,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663460,
-   "name": "Dimitris Sakellaridis - Tai. Ichikawa",
-   "score": 0.922
   }
  },
  "id1201316776833592": {
@@ -3755,6 +3640,81 @@
    "participant2Name": "Bartlett, Aryana",
    "tournamentId": 54098,
    "tournamentName": "UTR PTT Miami Women 02",
+   "sportName": "Tennis"
+  },
+  "score": 1.0
+ },
+ "id1201316776799008": {
+  "tm": {
+   "id": "319942218989248512",
+   "sport": "Tenisz",
+   "name": "Ryuki Matsuda - Fajing Sun",
+   "home": "Ryuki Matsuda",
+   "away": "Fajing Sun",
+   "home_pid": "157034385466511360",
+   "away_pid": "143982569598275584",
+   "tournament": "Kobe, férfi egyes",
+   "category": "Challenger",
+   "tm_sport_id": "3",
+   "start": "2026-11-16T03:20:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1201316776799008",
+   "startTime": "2026-11-16T03:10:00.000Z",
+   "participant1Name": "Matsuda, Ryuki",
+   "participant2Name": "Sun, Fajing",
+   "tournamentId": 13167,
+   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0
+ },
+ "id1201316776819504": {
+  "tm": {
+   "id": "320012915855925248",
+   "sport": "Tenisz",
+   "name": "Masamichi Imamura - Yusuke Takahashi",
+   "home": "Masamichi Imamura",
+   "away": "Yusuke Takahashi",
+   "home_pid": "135560403132403712",
+   "away_pid": "1184702",
+   "tournament": "Kobe-selejtező, férfi egyes",
+   "category": "Challenger",
+   "tm_sport_id": "3",
+   "start": "2026-11-16T03:20:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1201316776819504",
+   "startTime": "2026-11-16T03:10:00.000Z",
+   "participant1Name": "Imamura, Masamichi",
+   "participant2Name": "Takahashi, Yusuke",
+   "tournamentId": 13167,
+   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0
+ },
+ "id1201316776825776": {
+  "tm": {
+   "id": "320016827624267776",
+   "sport": "Tenisz",
+   "name": "Dimitris Sakellaridis - Taisei Ichikawa",
+   "home": "Dimitris Sakellaridis",
+   "away": "Taisei Ichikawa",
+   "home_pid": "122246898358734848",
+   "away_pid": "126553358709346304",
+   "tournament": "Kobe-selejtező, férfi egyes",
+   "category": "Challenger",
+   "tm_sport_id": "3",
+   "start": "2026-11-16T03:20:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1201316776825776",
+   "startTime": "2026-11-16T03:10:00.000Z",
+   "participant1Name": "Sakellaridis, Dimitris",
+   "participant2Name": "Ichikawa, Taisei",
+   "tournamentId": 13167,
+   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
    "sportName": "Tennis"
   },
   "score": 1.0
@@ -6221,56 +6181,6 @@
    "tournamentId": 1173,
    "tournamentName": "Liga Siatkowki, Women",
    "sportName": "Volleyball"
-  },
-  "score": 1.0
- },
- "id2503634976793820": {
-  "tm": {
-   "id": "319963355775311872",
-   "sport": "Asztalitenisz",
-   "name": "Martin Huk - Tomas Postelt",
-   "home": "Martin Huk",
-   "away": "Tomas Postelt",
-   "home_pid": "104505550771998720",
-   "away_pid": "135653744769552384",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976793820",
-   "startTime": "2026-11-16T03:00:00.000Z",
-   "participant1Name": "Huk, Martin",
-   "participant2Name": "Postelt, Tomas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976793690": {
-  "tm": {
-   "id": "319961549122904064",
-   "sport": "Asztalitenisz",
-   "name": "Tomas Franek - Jiri Louda",
-   "home": "Tomas Franek",
-   "away": "Jiri Louda",
-   "home_pid": "225094649478533120",
-   "away_pid": "113870749359558656",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976793690",
-   "startTime": "2026-11-16T03:00:00.000Z",
-   "participant1Name": "Franek, Tomas",
-   "participant2Name": "Louda, Jiri",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
   },
   "score": 1.0
  },
