@@ -1,59 +1,4 @@
 {
- "id1000085576319888": {
-  "tm": {
-   "id": "320000105113526272",
-   "sport": "Labdarúgás",
-   "name": "U20Olaszország - U20Svájc",
-   "home": "U20Olaszország",
-   "away": "U20Svájc",
-   "home_pid": "166276282804391936",
-   "away_pid": "183123177814151168",
-   "tournament": "U20 válogatott mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T14:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000085576319888",
-   "startTime": "2026-11-16T14:00:00.000Z",
-   "participant1Name": "Italy",
-   "participant2Name": "Switzerland",
-   "tournamentId": 855,
-   "tournamentName": "U20 Friendly Games",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5652963,
-   "name": "U20Olaszország - U20Svájc",
-   "score": 1.0
-  }
- },
- "id1001846476730260": {
-  "tm": {
-   "id": "319786096036749312",
-   "sport": "Labdarúgás",
-   "name": "Boca Juniors - Ferro Carril Oeste",
-   "home": "Boca Juniors",
-   "away": "Ferro Carril Oeste",
-   "home_pid": "1438598",
-   "away_pid": "124737422711902208",
-   "tournament": "Argentin bajnokság, női",
-   "category": "Argentína",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T14:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001846476730260",
-   "startTime": "2026-11-16T14:00:00.000Z",
-   "participant1Name": "Boca Juniors",
-   "participant2Name": "Ferro Carril Oeste",
-   "tournamentId": 18464,
-   "tournamentName": "Primera Division, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000085476744190": {
   "tm": {
    "id": "319884112238288896",
@@ -2704,126 +2649,6 @@
    "score": 1.0
   }
  },
- "id1205408276776034": {
-  "tm": {
-   "id": "320079129270624256",
-   "sport": "Tenisz",
-   "name": "Felix Felsmann - Caleb Saltz",
-   "home": "Felix Felsmann",
-   "away": "Caleb Saltz",
-   "home_pid": "285619260937768960",
-   "away_pid": "273626709046202368",
-   "tournament": "Miami, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T14:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205408276776034",
-   "startTime": "2026-11-16T14:00:00.000Z",
-   "participant1Name": "Felsmann, Felix",
-   "participant2Name": "Saltz, Caleb",
-   "tournamentId": 54082,
-   "tournamentName": "UTR PTT Miami Men 02",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665558,
-   "name": "Felix Felsmann - C. Saltz",
-   "score": 1.0
-  }
- },
- "id1205408276776054": {
-  "tm": {
-   "id": "320079129175203840",
-   "sport": "Tenisz",
-   "name": "Lane Leschly - Salvador Price",
-   "home": "Lane Leschly",
-   "away": "Salvador Price",
-   "home_pid": "316733685109956608",
-   "away_pid": "148787833983782912",
-   "tournament": "Miami, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T14:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205408276776054",
-   "startTime": "2026-11-16T14:00:00.000Z",
-   "participant1Name": "Leschly, Lane",
-   "participant2Name": "Price, Salvador",
-   "tournamentId": 54082,
-   "tournamentName": "UTR PTT Miami Men 02",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665563,
-   "name": "L. Leschly - Sal. Price",
-   "score": 0.848
-  }
- },
- "id1205409876776230": {
-  "tm": {
-   "id": "320079126664912896",
-   "sport": "Tenisz",
-   "name": "Sofiia Nagornaia - Anna Perelman",
-   "home": "Sofiia Nagornaia",
-   "away": "Anna Perelman",
-   "home_pid": "162741430811414528",
-   "away_pid": "285002215189680128",
-   "tournament": "Miami, női egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T14:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205409876776230",
-   "startTime": "2026-11-16T14:00:00.000Z",
-   "participant1Name": "Nagornaia, Sofiia",
-   "participant2Name": "Perelman, Anna",
-   "tournamentId": 54098,
-   "tournamentName": "UTR PTT Miami Women 02",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665568,
-   "name": "S. Nagornaia - A. Perelman",
-   "score": 1.0
-  }
- },
- "id1205409876776250": {
-  "tm": {
-   "id": "320079126373408768",
-   "sport": "Tenisz",
-   "name": "Katie Spencer - Lucia Donnelly",
-   "home": "Katie Spencer",
-   "away": "Lucia Donnelly",
-   "home_pid": "252910023535353856",
-   "away_pid": "247111905642672128",
-   "tournament": "Miami, női egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T14:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205409876776250",
-   "startTime": "2026-11-16T14:00:00.000Z",
-   "participant1Name": "Spencer, Katie",
-   "participant2Name": "Donnelly, Lucia",
-   "tournamentId": 54098,
-   "tournamentName": "UTR PTT Miami Women 02",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665560,
-   "name": "Katie Spencer - L. Donnelly",
-   "score": 1.0
-  }
- },
  "id1205409876776266": {
   "tm": {
    "id": "320079126291619840",
@@ -5144,36 +4969,6 @@
   },
   "score": 0.86
  },
- "id2200139673756160": {
-  "tm": {
-   "id": "319535764242243584",
-   "sport": "Kézilabda",
-   "name": "Potaissa Turda - Dinamo Bukarest",
-   "home": "Potaissa Turda",
-   "away": "Dinamo Bukarest",
-   "home_pid": "595447",
-   "away_pid": "37019",
-   "tournament": "Román bajnokság",
-   "category": "Románia",
-   "tm_sport_id": "7",
-   "start": "2026-11-16T14:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2200139673756160",
-   "startTime": "2026-11-16T14:00:00.000Z",
-   "participant1Name": "AHC Potaissa Turda",
-   "participant2Name": "CS Dinamo Bucuresti",
-   "tournamentId": 1396,
-   "tournamentName": "Liga Nationala",
-   "sportName": "Handball"
-  },
-  "score": 0.835,
-  "cl": {
-   "id": 5596705,
-   "name": "Potaissa Turda - Dinamo Bukarest",
-   "score": 1.0
-  }
- },
  "id2200005973709820": {
   "tm": {
    "id": "319626328660844544",
@@ -5258,6 +5053,81 @@
    "name": "Stal Mielec - Bielsko-Biala",
    "score": 1.0
   }
+ },
+ "id2503634976830496": {
+  "tm": {
+   "id": "320044441071067136",
+   "sport": "Asztalitenisz",
+   "name": "Julius Didi - Tomas Nohejl",
+   "home": "Julius Didi",
+   "away": "Tomas Nohejl",
+   "home_pid": "249527683600388096",
+   "away_pid": "177420810673246208",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830496",
+   "startTime": "2026-11-16T15:00:00.000Z",
+   "participant1Name": "Didi, Julius",
+   "participant2Name": "Nohejl, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830474": {
+  "tm": {
+   "id": "320044442015834112",
+   "sport": "Asztalitenisz",
+   "name": "Michal Chalupa - Marek Holub",
+   "home": "Michal Chalupa",
+   "away": "Marek Holub",
+   "home_pid": "274550333304344576",
+   "away_pid": "167281163446046720",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830474",
+   "startTime": "2026-11-16T15:00:00.000Z",
+   "participant1Name": "Chalupa, Michal",
+   "participant2Name": "Holub, Marek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830640": {
+  "tm": {
+   "id": "320044442675388416",
+   "sport": "Asztalitenisz",
+   "name": "Michal Vavrecka - Tibor Chmela",
+   "home": "Michal Vavrecka",
+   "away": "Tibor Chmela",
+   "home_pid": "167482783032201216",
+   "away_pid": "317508592802537472",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830640",
+   "startTime": "2026-11-16T15:00:00.000Z",
+   "participant1Name": "Vavrecka, Michal",
+   "participant2Name": "Chmela, Tibor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
  },
  "id2702157075326638": {
   "tm": {
