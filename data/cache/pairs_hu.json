@@ -1,29 +1,4 @@
 {
- "id1004876976724840": {
-  "tm": {
-   "id": "320036831062204416",
-   "sport": "Labdarúgás",
-   "name": "Taurinos - Ponce FC",
-   "home": "Taurinos",
-   "away": "Ponce FC",
-   "home_pid": "263618290790707200",
-   "away_pid": "263618244115443712",
-   "tournament": "Puerto Ricó-i bajnokság",
-   "category": "Puerto Rico",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004876976724840",
-   "startTime": "2026-11-16T00:30:00.000Z",
-   "participant1Name": "Taurinos Cayey",
-   "participant2Name": "Ponce FC",
-   "tournamentId": 48769,
-   "tournamentName": "LPR Pro",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002895376595264": {
   "tm": {
    "id": "319631137394728960",
@@ -2604,36 +2579,6 @@
    "score": 1.0
   }
  },
- "id1200946176832584": {
-  "tm": {
-   "id": "320020409027207168",
-   "sport": "Tenisz",
-   "name": "Kokoro Isomura - Jason Jung",
-   "home": "Kokoro Isomura",
-   "away": "Jason Jung",
-   "home_pid": "140008943994851328",
-   "away_pid": "276253668257435648",
-   "tournament": "Sydney-selejtező, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200946176832584",
-   "startTime": "2026-11-16T00:30:00.000Z",
-   "participant1Name": "Isomura, Kokoro",
-   "participant2Name": "Jung, Jason",
-   "tournamentId": 9461,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663361,
-   "name": "Kok. Isomura - Jas. Jung",
-   "score": 0.883
-  }
- },
  "id1200946176793908": {
   "tm": {
    "id": "319979135024832512",
@@ -3857,36 +3802,6 @@
    "id": 5655950,
    "name": "Yos. Watanuki - Jie Cui",
    "score": 0.87
-  }
- },
- "id1200397576810032": {
-  "tm": {
-   "id": "319994795322843136",
-   "sport": "Tenisz",
-   "name": "Zach Viiala - Samuel Heredia",
-   "home": "Zach Viiala",
-   "away": "Samuel Heredia",
-   "home_pid": "158902511643709440",
-   "away_pid": "235122790363467776",
-   "tournament": "Champaign-selejtező, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T00:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200397576810032",
-   "startTime": "2026-11-16T00:45:00.000Z",
-   "participant1Name": "Viiala, Zachary",
-   "participant2Name": "Heredia, Samuel",
-   "tournamentId": 3975,
-   "tournamentName": "ATP Challenger Champaign, USA Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.916,
-  "cl": {
-   "id": 5663247,
-   "name": "Z. Viiala - Sam. Heredia",
-   "score": 0.916
   }
  },
  "id1201316776833604": {
@@ -5414,36 +5329,6 @@
   },
   "score": 0.72
  },
- "id1500023472909494": {
-  "tm": {
-   "id": "318936622739562496",
-   "sport": "Jégkorong",
-   "name": "Philadelphia - Edmonton",
-   "home": "Philadelphia",
-   "away": "Edmonton",
-   "home_pid": "37428",
-   "away_pid": "37449",
-   "tournament": "NHL (alapszakasz)",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-16T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500023472909494",
-   "startTime": "2026-11-16T00:30:00.000Z",
-   "participant1Name": "Philadelphia Flyers",
-   "participant2Name": "Edmonton Oilers",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5559559,
-   "name": "Philadelphia - Edmonton",
-   "score": 1.0
-  }
- },
  "id1500023472909498": {
   "tm": {
    "id": "318936547351142400",
@@ -6594,56 +6479,6 @@
   },
   "score": 1.0
  },
- "id2503634976793850": {
-  "tm": {
-   "id": "319963243603894272",
-   "sport": "Asztalitenisz",
-   "name": "Zmuda Petr - Marek Chlebecek",
-   "home": "Zmuda Petr",
-   "away": "Marek Chlebecek",
-   "home_pid": "274261926635245568",
-   "away_pid": "240751882245935104",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976793850",
-   "startTime": "2026-11-16T00:30:00.000Z",
-   "participant1Name": "Zmuda, Petr",
-   "participant2Name": "Chlebecek, Marek",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976793670": {
-  "tm": {
-   "id": "319963355565596672",
-   "sport": "Asztalitenisz",
-   "name": "Ondrej Svacha - Radim Urbaniec",
-   "home": "Ondrej Svacha",
-   "away": "Radim Urbaniec",
-   "home_pid": "192184043047120896",
-   "away_pid": "167634919836667904",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976793670",
-   "startTime": "2026-11-16T00:30:00.000Z",
-   "participant1Name": "Svacha, Ondrej",
-   "participant2Name": "Urbaniec, Radim",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976793856": {
   "tm": {
    "id": "319961548878585856",
@@ -6669,30 +6504,55 @@
   },
   "score": 1.0
  },
- "id2503634976793854": {
+ "id2503634976793778": {
   "tm": {
-   "id": "319963357298892800",
+   "id": "319963243680440320",
    "sport": "Asztalitenisz",
-   "name": "Eric Maresh - Lukas Zeman",
-   "home": "Eric Maresh",
+   "name": "Jiri Louda - Radim Urbaniec",
+   "home": "Jiri Louda",
+   "away": "Radim Urbaniec",
+   "home_pid": "113870749359558656",
+   "away_pid": "167634919836667904",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T01:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976793778",
+   "startTime": "2026-11-16T01:30:00.000Z",
+   "participant1Name": "Louda, Jiri",
+   "participant2Name": "Urbaniec, Radim",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976793678": {
+  "tm": {
+   "id": "319963357202423808",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Postelt - Lukas Zeman",
+   "home": "Tomas Postelt",
    "away": "Lukas Zeman",
-   "home_pid": "104575284237455360",
+   "home_pid": "135653744769552384",
    "away_pid": "147621275939950592",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-16T00:30:00+00:00"
+   "start": "2026-11-16T01:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976793854",
-   "startTime": "2026-11-16T00:30:00.000Z",
-   "participant1Name": "Mares, Erik",
+   "fixtureId": "id2503634976793678",
+   "startTime": "2026-11-16T01:30:00.000Z",
+   "participant1Name": "Postelt, Tomas",
    "participant2Name": "Zeman, Lukas",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 0.9
+  "score": 1.0
  },
  "id2702157075326636": {
   "tm": {
@@ -7221,6 +7081,27 @@
    "home": "M. Rajski",
    "away": "Yak. Motokura",
    "tournament": "Yokohama, férfi egyes"
+  }
+ },
+ "id1200397576810032": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1200397576810032",
+   "startTime": "2026-11-16T00:45:00.000Z",
+   "participant1Name": "Viiala, Zachary",
+   "participant2Name": "Heredia, Samuel",
+   "tournamentId": 3975,
+   "tournamentName": "ATP Challenger Champaign, USA Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 0.916,
+  "cl": {
+   "id": 5663247,
+   "name": "Z. Viiala - Sam. Heredia",
+   "score": 0.916,
+   "home": "Z. Viiala",
+   "away": "Sam. Heredia",
+   "tournament": "Champaign-sel., férfi egyes"
   }
  },
  "id1204808876772530": {

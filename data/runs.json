@@ -1,149 +1,5 @@
 [
  {
-  "time": "2026-11-13T14:09:11.486117+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 1204,
-  "pinnacle_fixtures": 1111,
-  "paired": 676,
-  "by_sport": {
-   "Soccer": [
-    496,
-    332
-   ],
-   "Tennis": [
-    133,
-    8
-   ],
-   "Basketball": [
-    375,
-    201
-   ],
-   "Ice Hockey": [
-    200,
-    135
-   ]
-  },
-  "top_ev": [
-   "+0.7% Moldova – Kazahsztán · Gólszám 1.5: Több @1.51 (fair 1.5)",
-   "+0.6% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.46 (fair 1.451)",
-   "+0.3% SaiPa – Ilves · Gólszám 5: Több @1.85 (fair 1.845)",
-   "+0.2% Vienna Capitals – Linz · Győztes (hosszabbítással): Vienna Capitals győz @1.82 (fair 1.816)",
-   "+0.0% Spisska Nova Ves – Trencin · Győztes (hosszabbítással): Spisska Nova Ves győz @1.53 (fair 1.53)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 8,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 113,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 23,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-13T14:26:03.362267+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 3,
-  "top_ev": [
-   "+0.6% Nigéria – Tanzánia · Mindkét csapat szerez gólt: Nem @1.46 (fair 1.451)",
-   "-0.6% U21Finnország – U21Írország · Ázsiai hendikep: U21Finnország (+0.25) @1.24 (fair 1.247)",
-   "-1.1% U21Finnország – U21Írország · Ázsiai hendikep: U21Finnország (+0) @1.3 (fair 1.314)",
-   "-1.1% U21Finnország – U21Írország · Gólszám 1.5: Több @1.32 (fair 1.335)",
-   "-1.3% Gabon – Lesotho · 1X2: Gabon győz @1.25 (fair 1.267)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 25,
-  "fixtures_both": 22,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 3,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 28
- },
- {
-  "time": "2026-11-13T14:31:22.691650+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 1200,
-  "pinnacle_fixtures": 1111,
-  "paired": 670,
-  "by_sport": {
-   "Soccer": [
-    505,
-    331
-   ],
-   "Tennis": [
-    125,
-    6
-   ],
-   "Basketball": [
-    372,
-    200
-   ],
-   "Ice Hockey": [
-    198,
-    133
-   ]
-  },
-  "top_ev": [
-   "+6.8% Kosice – Liptovsky Mikulas · Gólszám 5: Több @1.87 (fair 1.752)",
-   "+4.8% Kosice – Liptovsky Mikulas · Gólszám 5.5: Több @2.21 (fair 2.108)",
-   "+3.3% Moldova – Kazahsztán · Gólszám 1.5: Több @1.51 (fair 1.462)",
-   "+2.8% Moldova – Kazahsztán · Gólszám 2: Több @1.85 (fair 1.8)",
-   "+2.8% Moldova – Kazahsztán · Gólszám 1.75: Több @1.63 (fair 1.586)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 9,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 115,
-  "rejected_mismatch": 0,
-  "candidates": 3,
-  "steam_fixtures": 20,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-13T14:48:19.172906+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "-0.0% Kookoo – JYP · 1X2 (rendes játékidő): Döntetlen @4.2 (fair 4.2)",
-   "-0.6% U21Finnország – U21Írország · Ázsiai hendikep: U21Finnország (+0.25) @1.24 (fair 1.247)",
-   "-0.7% Nigéria – Tanzánia · Gólszám 3.5: Kevesebb @1.46 (fair 1.47)",
-   "-0.8% SaiPa – Ilves · Gólszám 5: Több @1.83 (fair 1.845)",
-   "-0.8% Kosice – Liptovsky Mikulas · Győztes (hosszabbítással): Kosice győz @1.54 (fair 1.553)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 33,
-  "fixtures_both": 31,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 6,
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 39
- },
- {
   "time": "2026-11-13T14:54:38.206195+00:00",
   "mode": "hu",
   "settled": 0,
@@ -26095,5 +25951,264 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 43
+ },
+ {
+  "time": "2026-11-16T00:32:23.397470+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-1.1% Enzo Aguiard – Christopher O'Connell · Győztes: Christopher O'Connell győz @1.09 (fair 1.102)",
+   "-2.9% Koki Matsuda – Kanta Watanabe · Győztes: Koki Matsuda győz @1.21 (fair 1.246)",
+   "-2.9% Monterrey – Pachuca · 1X2: Monterrey győz @1.54 (fair 1.587)",
+   "-3.0% San Jose – Nashville · Győztes (hosszabbítással): Nashville győz @1.6 (fair 1.649)",
+   "-3.1% Anaheim – Calgary · Gólszám 6.5: Kevesebb @1.79 (fair 1.847)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 26,
+  "fixtures_both": 12,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 23,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.0% Enzo Aguiard – Christopher O'Connell · Győztes: Christopher O'Connell győz @1.08 (fair 1.102)",
+   "-3.6% San Jose State Spartans – Alabama State Hornets · Győztes (hosszabbítással): San Jose State Spartans győz @1.07 (fair 1.11)",
+   "-4.4% Milwaukee – Atlanta · Győztes (hosszabbítással): Atlanta győz @1.27 (fair 1.328)",
+   "-4.4% Milwaukee – Atlanta · Hendikep (hosszabbítással): Atlanta (-6.5) @1.63 (fair 1.704)",
+   "-4.5% Koki Matsuda – Kanta Watanabe · Győztes: Koki Matsuda győz @1.19 (fair 1.246)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 27
+ },
+ {
+  "time": "2026-11-16T00:37:43.218685+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "+0.8% Dallas – Florida · Gólszám 6: Kevesebb @1.71 (fair 1.697)",
+   "-1.1% Enzo Aguiard – Christopher O'Connell · Győztes: Christopher O'Connell győz @1.09 (fair 1.102)",
+   "-2.9% Koki Matsuda – Kanta Watanabe · Győztes: Koki Matsuda győz @1.21 (fair 1.246)",
+   "-2.9% Monterrey – Pachuca · 1X2: Monterrey győz @1.54 (fair 1.587)",
+   "-3.0% San Jose – Nashville · Győztes (hosszabbítással): Nashville győz @1.6 (fair 1.649)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 26,
+  "fixtures_both": 12,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 23,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.0% Enzo Aguiard – Christopher O'Connell · Győztes: Christopher O'Connell győz @1.08 (fair 1.102)",
+   "-3.6% San Jose State Spartans – Alabama State Hornets · Győztes (hosszabbítással): San Jose State Spartans győz @1.07 (fair 1.11)",
+   "-4.5% Koki Matsuda – Kanta Watanabe · Győztes: Koki Matsuda győz @1.19 (fair 1.246)",
+   "-5.1% Naoya Honda – Liam Broady · Győztes: Liam Broady győz @1.23 (fair 1.296)",
+   "-5.6% Sacramento – Oklahoma City · Hendikep (hosszabbítással): Sacramento (+12.5) @1.69 (fair 1.789)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 27
+ },
+ {
+  "time": "2026-11-16T00:43:12.251660+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-1.1% Enzo Aguiard – Christopher O'Connell · Győztes: Christopher O'Connell győz @1.09 (fair 1.102)",
+   "-2.9% Koki Matsuda – Kanta Watanabe · Győztes: Koki Matsuda győz @1.21 (fair 1.246)",
+   "-3.0% San Jose – Nashville · Győztes (hosszabbítással): Nashville győz @1.6 (fair 1.649)",
+   "-3.2% San Jose – Nashville · Hendikep (rendes játékidő): Nashville (-0) @1.56 (fair 1.612)",
+   "-3.2% Dep. Quindio – Cartagena · Gólszám 1.75: Több @1.49 (fair 1.54)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 16,
+  "fixtures_both": 8,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 16,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.0% Enzo Aguiard – Christopher O'Connell · Győztes: Christopher O'Connell győz @1.08 (fair 1.102)",
+   "-3.6% San Jose State Spartans – Alabama State Hornets · Győztes (hosszabbítással): San Jose State Spartans győz @1.07 (fair 1.11)",
+   "-4.5% Koki Matsuda – Kanta Watanabe · Győztes: Koki Matsuda győz @1.19 (fair 1.246)",
+   "-5.1% Naoya Honda – Liam Broady · Győztes: Liam Broady győz @1.23 (fair 1.296)",
+   "-5.6% Sacramento – Oklahoma City · Hendikep (hosszabbítással): Sacramento (+12.5) @1.69 (fair 1.789)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 17
+ },
+ {
+  "time": "2026-11-16T00:48:12.252058+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 204,
+   "paired": 133,
+   "classic_only": 36
+  },
+  "tippmix_matches": 657,
+  "pinnacle_fixtures": 658,
+  "paired": 281,
+  "by_sport": {
+   "Soccer": [
+    147,
+    91
+   ],
+   "Tennis": [
+    206,
+    65
+   ],
+   "Basketball": [
+    93,
+    56
+   ],
+   "Ice Hockey": [
+    39,
+    31
+   ],
+   "Handball": [
+    18,
+    13
+   ],
+   "Volleyball": [
+    11,
+    2
+   ],
+   "Table Tennis": [
+    10,
+    3
+   ],
+   "Cricket": [
+    35,
+    6
+   ],
+   "Badminton": [
+    0,
+    0
+   ],
+   "Darts": [
+    31,
+    2
+   ],
+   "Futsal": [
+    3,
+    0
+   ],
+   "Waterpolo": [
+    0,
+    0
+   ],
+   "ESport Counter-Strike": [
+    22,
+    1
+   ],
+   "ESport Dota": [
+    6,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    28,
+    0
+   ],
+   "eBasketball": [
+    8,
+    0
+   ],
+   "American Football": [
+    0,
+    2
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    9
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-0.1% Kazahsztán – Szlovákia · Gólszám 1.5: Több @1.34 (fair 1.341)",
+   "-0.1% Carlos Alcaraz – Francis Tiafoe · Győztes: Carlos Alcaraz győz @1.11 (fair 1.111)",
+   "-0.2% U21Görögország – U21Izland · 1X2: U21Görögország győz @1.92 (fair 1.925)",
+   "-0.3% Kazahsztán – Szlovákia · Gólszám 2: Több @1.53 (fair 1.534)",
+   "-0.4% Feröer-szigetek – Moldova · Ázsiai hendikep: Feröer-szigetek (+0.25) @1.24 (fair 1.245)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 20,
+  "fast": false,
+  "fixtures_checked": 122,
+  "fixtures_both": 75,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 12,
+  "classic_checked": 84,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+1.8% Trinidad és Tobago – Antigua és Barbuda · Gólszám 4.25: Kevesebb @1.44 (fair 1.414)",
+   "+1.0% Trinidad és Tobago – Antigua és Barbuda · Gólszám 4: Kevesebb @1.52 (fair 1.505)",
+   "-1.2% Andorra – Azerbajdzsán · Gólszám 3.5: Kevesebb @1.15 (fair 1.163)",
+   "-1.2% U21Görögország – U21Izland · Gólszám 3.5: Kevesebb @1.34 (fair 1.357)",
+   "-1.3% Hiroshima – Altiri Chiba · Győztes (hosszabbítással): Hiroshima győz @1.08 (fair 1.095)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 128
  }
 ]
