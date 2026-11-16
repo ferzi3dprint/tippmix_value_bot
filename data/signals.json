@@ -2840,7 +2840,12 @@
   "ev": 0.03689,
   "band": "1.50–1.80",
   "trigger": "steam",
-  "bet": true
+  "bet": true,
+  "closing_fair_prob": 0.66691,
+  "closing_fair_odds": 1.499,
+  "closing_sharp_odds": 1.44,
+  "closing_at": "2026-11-16T13:25:36.482962+00:00",
+  "clv": 0.04705
  },
  {
   "fixture_id": "id1002375568932078",
@@ -2857,6 +2862,28 @@
   "ev": 0.02296,
   "band": "1.30–1.50",
   "trigger": "normál",
+  "bet": false,
+  "closing_fair_prob": 0.74661,
+  "closing_fair_odds": 1.339,
+  "closing_sharp_odds": 1.291,
+  "closing_at": "2026-11-16T13:25:36.482962+00:00",
+  "clv": 0.03032
+ },
+ {
+  "fixture_id": "id1000085476744190",
+  "market_id": 1064,
+  "outcome_id": 1064,
+  "first_at": "2026-11-16T13:25:36.482962+00:00",
+  "start": "2026-11-16T15:00:00.000Z",
+  "home": "U21Koszovó",
+  "away": "U21Luxemburg",
+  "tournament": "U21 válogatott mérkőzés",
+  "label": "Ázsiai hendikep: U21Koszovó (-1)",
+  "odds": 1.95,
+  "fair_prob": 0.53415,
+  "ev": 0.04159,
+  "band": "1.80–2.10",
+  "trigger": "steam",
   "bet": false
  }
 ]

@@ -1,353 +1,5 @@
 [
  {
-  "time": "2026-11-14T16:45:52.002886+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 719,
-   "paired": 347,
-   "classic_only": 45
-  },
-  "tippmix_matches": 1556,
-  "pinnacle_fixtures": 2074,
-  "paired": 626,
-  "by_sport": {
-   "Soccer": [
-    478,
-    240
-   ],
-   "Tennis": [
-    73,
-    5
-   ],
-   "Basketball": [
-    355,
-    181
-   ],
-   "Ice Hockey": [
-    161,
-    83
-   ],
-   "Handball": [
-    114,
-    39
-   ],
-   "Volleyball": [
-    176,
-    12
-   ],
-   "Table Tennis": [
-    37,
-    9
-   ],
-   "Cricket": [
-    37,
-    6
-   ],
-   "Badminton": [
-    9,
-    0
-   ],
-   "Darts": [
-    14,
-    8
-   ],
-   "Futsal": [
-    19,
-    0
-   ],
-   "Waterpolo": [
-    15,
-    8
-   ],
-   "ESport Counter-Strike": [
-    18,
-    0
-   ],
-   "ESport Dota": [
-    6,
-    0
-   ],
-   "ESport League of Legends": [
-    1,
-    0
-   ],
-   "eSoccer": [
-    41,
-    0
-   ],
-   "eBasketball": [
-    2,
-    0
-   ],
-   "American Football": [
-    0,
-    11
-   ],
-   "Boxing": [
-    0,
-    8
-   ],
-   "MMA": [
-    0,
-    13
-   ],
-   "Snooker": [
-    0,
-    1
-   ],
-   "Rugby": [
-    0,
-    2
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+1.0% Rapperswil – Lugano · Győztes (hosszabbítással): Rapperswil győz @1.79 (fair 1.772)",
-   "+1.0% Rapperswil – Lugano · Hendikep (rendes játékidő): Rapperswil (-1.5) @3.0 (fair 2.971)",
-   "+0.1% Rapperswil – Lugano · Hendikep (rendes játékidő): Rapperswil (+0) @1.75 (fair 1.748)",
-   "-0.1% Rapperswil – Lugano · 1X2 (rendes játékidő): Rapperswil győz @2.23 (fair 2.233)",
-   "-0.2% Criciuma – Novorizontino · Gólszám 1.5: Több @1.4 (fair 1.403)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 26,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 88,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 21,
-  "classic_checked": 94,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+2.9% Leuven – Kangoeroes Basket Mechelen · Összpontszám (hosszabbítással) 160.5: Több @1.78 (fair 1.73)",
-   "+0.4% Montpellier – Fleury 91 · Gólszám 3: Kevesebb @1.42 (fair 1.415)",
-   "+0.3% Brighton – Liverpool · Gólszám 3.25: Kevesebb @1.58 (fair 1.575)",
-   "+0.3% Panathinaikosz – Olympiakosz · Győztes: Panathinaikosz győz @1.51 (fair 1.506)",
-   "+0.1% Montpellier – Fleury 91 · Gólszám 2.75: Kevesebb @1.61 (fair 1.608)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-14T17:03:15.288211+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.9% Ajoie – Davos · 1X2 (rendes játékidő): Ajoie győz @3.0 (fair 2.972)",
-   "+0.8% Ajoie – Davos · Győztes (hosszabbítással): Ajoie győz @2.31 (fair 2.291)",
-   "-0.3% Puerto Sagunto – Bidasoa Irun · Hendikep (rendes játékidő): Puerto Sagunto (+3.5) @2.06 (fair 2.067)",
-   "-0.4% Almería – FC Andorra · 1X2: Almería győz @1.79 (fair 1.797)",
-   "-0.4% Zürich Lions – Zug · Gólszám 5: Több @1.6 (fair 1.606)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 24,
-  "fast": true,
-  "fixtures_checked": 127,
-  "fixtures_both": 76,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 23,
-  "classic_checked": 77,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.1% Hamilton – Ross County · Gólszám 3.5: Kevesebb @1.55 (fair 1.551)",
-   "-0.3% Montpellier – Fleury 91 · Gólszám 3: Kevesebb @1.41 (fair 1.415)",
-   "-0.9% Bergischer – Eisenach · Gólszám 57.5: Kevesebb @1.82 (fair 1.837)",
-   "-1.2% Dordrecht – Heracles · Gólszám 4.5: Kevesebb @1.39 (fair 1.407)",
-   "-1.8% Montpellier – Fleury 91 · Gólszám 2.75: Kevesebb @1.58 (fair 1.608)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 133
- },
- {
-  "time": "2026-11-14T17:18:03.229005+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 629,
-   "paired": 296,
-   "classic_only": 41
-  },
-  "tippmix_matches": 1411,
-  "pinnacle_fixtures": 2074,
-  "paired": 541,
-  "by_sport": {
-   "Soccer": [
-    449,
-    214
-   ],
-   "Tennis": [
-    68,
-    4
-   ],
-   "Basketball": [
-    315,
-    149
-   ],
-   "Ice Hockey": [
-    155,
-    77
-   ],
-   "Handball": [
-    90,
-    29
-   ],
-   "Volleyball": [
-    148,
-    9
-   ],
-   "Table Tennis": [
-    28,
-    4
-   ],
-   "Cricket": [
-    36,
-    6
-   ],
-   "Badminton": [
-    9,
-    0
-   ],
-   "Darts": [
-    14,
-    8
-   ],
-   "Futsal": [
-    16,
-    0
-   ],
-   "Waterpolo": [
-    11,
-    7
-   ],
-   "ESport Counter-Strike": [
-    19,
-    0
-   ],
-   "ESport Dota": [
-    6,
-    0
-   ],
-   "ESport League of Legends": [
-    1,
-    0
-   ],
-   "eSoccer": [
-    42,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    11
-   ],
-   "Boxing": [
-    0,
-    7
-   ],
-   "MMA": [
-    0,
-    13
-   ],
-   "Snooker": [
-    0,
-    1
-   ],
-   "Rugby": [
-    0,
-    2
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+1.6% Puerto Sagunto – Bidasoa Irun · Hendikep (rendes játékidő): Puerto Sagunto (+3.5) @2.06 (fair 2.028)",
-   "+1.4% Juventude RS – Botafogo SP · 1X2: Juventude RS győz @1.4 (fair 1.381)",
-   "+0.5% Portugália – Dánia · Ázsiai hendikep: Dánia (+2) @1.27 (fair 1.264)",
-   "+0.3% Logrono La Rioja – Granollers · Gólszám 62.5: Több @1.7 (fair 1.694)",
-   "-0.2% Criciuma – Novorizontino · Gólszám 1.5: Több @1.4 (fair 1.403)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 26,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 97,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 28,
-  "classic_checked": 97,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+2.9% Leuven – Kangoeroes Basket Mechelen · Összpontszám (hosszabbítással) 160.5: Több @1.78 (fair 1.73)",
-   "+1.4% Észak-Írország – Ukrajna · Mindkét csapat szerez gólt: Nem @1.71 (fair 1.687)",
-   "+1.3% Portugália – Dánia · Gólszám 4: Kevesebb @1.36 (fair 1.343)",
-   "+0.9% Portugália – Dánia · Gólszám 3.75: Kevesebb @1.51 (fair 1.497)",
-   "+0.3% Portugália – Dánia · Gólszám 3: Kevesebb @2.05 (fair 2.044)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
   "time": "2026-11-14T17:35:43.690076+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23916,5 +23568,230 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 85
+ },
+ {
+  "time": "2026-11-16T13:14:46.034661+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "-0.4% Kazahsztán – Szlovákia · Gólszám 1.5: Több @1.32 (fair 1.325)",
+   "-0.5% Kazahsztán – Szlovákia · 1X2: Szlovákia győz @1.89 (fair 1.899)",
+   "-0.8% Szomália – Ghána · Mindkét csapat szerez gólt: Nem @1.31 (fair 1.32)",
+   "-0.8% Kazahsztán – Szlovákia · Ázsiai hendikep: Szlovákia (+0.25) @1.3 (fair 1.31)",
+   "-0.8% Kazahsztán – Szlovákia · Gólszám 2: Több @1.49 (fair 1.502)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 10,
+  "fast": true,
+  "fixtures_checked": 23,
+  "fixtures_both": 17,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "classic_checked": 21,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.8% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.5) @1.62 (fair 1.633)",
+   "-0.8% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.75) @1.8 (fair 1.815)",
+   "-1.4% Szomália – Ghána · Gólszám 3.75: Kevesebb @1.41 (fair 1.43)",
+   "-1.8% A. Zizins – A. Kowalski · Győztes: A. Zizins győz @1.69 (fair 1.72)",
+   "-2.2% Kazahsztán – Szlovákia · Gólszám 4.5: Kevesebb @1.11 (fair 1.135)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 28
+ },
+ {
+  "time": "2026-11-16T13:20:06.283070+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "-0.4% Kazahsztán – Szlovákia · Gólszám 1.5: Több @1.32 (fair 1.325)",
+   "-0.5% Kazahsztán – Szlovákia · 1X2: Szlovákia győz @1.89 (fair 1.899)",
+   "-0.5% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-1) @1.99 (fair 2.0)",
+   "-0.8% Kazahsztán – Szlovákia · Ázsiai hendikep: Szlovákia (+0.25) @1.3 (fair 1.31)",
+   "-0.8% Kazahsztán – Szlovákia · Gólszám 2: Több @1.49 (fair 1.502)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 10,
+  "fast": true,
+  "fixtures_checked": 23,
+  "fixtures_both": 17,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "classic_checked": 21,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+1.3% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.75) @1.76 (fair 1.738)",
+   "+0.5% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.5) @1.59 (fair 1.582)",
+   "-1.4% Szomália – Ghána · Gólszám 3.75: Kevesebb @1.41 (fair 1.43)",
+   "-1.7% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-1.25) @2.32 (fair 2.36)",
+   "-1.8% A. Zizins – A. Kowalski · Győztes: A. Zizins győz @1.69 (fair 1.72)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 28
+ },
+ {
+  "time": "2026-11-16T13:25:36.482962+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 429,
+   "paired": 124,
+   "classic_only": 28
+  },
+  "tippmix_matches": 812,
+  "pinnacle_fixtures": 658,
+  "paired": 217,
+  "by_sport": {
+   "Soccer": [
+    147,
+    78
+   ],
+   "Tennis": [
+    228,
+    32
+   ],
+   "Basketball": [
+    116,
+    44
+   ],
+   "Ice Hockey": [
+    42,
+    28
+   ],
+   "Handball": [
+    29,
+    14
+   ],
+   "Volleyball": [
+    19,
+    2
+   ],
+   "Table Tennis": [
+    34,
+    3
+   ],
+   "Cricket": [
+    9,
+    1
+   ],
+   "Badminton": [
+    30,
+    0
+   ],
+   "Darts": [
+    16,
+    2
+   ],
+   "Futsal": [
+    2,
+    0
+   ],
+   "Waterpolo": [
+    5,
+    0
+   ],
+   "ESport Counter-Strike": [
+    39,
+    0
+   ],
+   "ESport Dota": [
+    8,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    79,
+    0
+   ],
+   "eBasketball": [
+    9,
+    0
+   ],
+   "American Football": [
+    0,
+    1
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    12
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+4.2% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-1) @1.95 (fair 1.872)",
+   "+2.7% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-1.25) @2.26 (fair 2.201)",
+   "+1.9% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.75) @1.69 (fair 1.658)",
+   "+1.4% Litvánia – Liechtenstein · Gólszám 3: Kevesebb @1.52 (fair 1.499)",
+   "+0.8% Litvánia – Liechtenstein · Gólszám 3.5: Kevesebb @1.35 (fair 1.339)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 16,
+  "fast": false,
+  "fixtures_checked": 75,
+  "fixtures_both": 48,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 10,
+  "classic_checked": 62,
+  "classic_candidates": 3,
+  "top_ev_classic": [
+   "+6.2% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.75) @1.76 (fair 1.658)",
+   "+5.4% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-1.25) @2.32 (fair 2.201)",
+   "+4.2% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.5) @1.59 (fair 1.526)",
+   "-0.4% Borac Cacak – Slovan Bratislava · Összpontszám (hosszabbítással) 169.5: Kevesebb @1.8 (fair 1.806)",
+   "-0.9% Izland – Luxemburg · Gólszám 4.5: Kevesebb @1.16 (fair 1.171)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 81
  }
 ]

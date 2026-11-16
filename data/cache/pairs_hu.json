@@ -5259,146 +5259,6 @@
    "score": 1.0
   }
  },
- "id2503637776835000": {
-  "tm": {
-   "id": "320117641157091328",
-   "sport": "Asztalitenisz",
-   "name": "Petas Kacper - Michal Olbrycht",
-   "home": "Petas Kacper",
-   "away": "Michal Olbrycht",
-   "home_pid": "167900317553315840",
-   "away_pid": "208429623968690176",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T13:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776835000",
-   "startTime": "2026-11-16T13:05:00.000Z",
-   "participant1Name": "Petas, Kacper",
-   "participant2Name": "Olbrycht, Michal",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503637776835004": {
-  "tm": {
-   "id": "320119371903082496",
-   "sport": "Asztalitenisz",
-   "name": "Piotr Przewlocki - Pawel Polok",
-   "home": "Piotr Przewlocki",
-   "away": "Pawel Polok",
-   "home_pid": "266391558669078528",
-   "away_pid": "310417721737768960",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T13:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776835004",
-   "startTime": "2026-11-16T13:15:00.000Z",
-   "participant1Name": "Przewlocki, Piotr",
-   "participant2Name": "Polok, Pawel",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976830626": {
-  "tm": {
-   "id": "320044445895565312",
-   "sport": "Asztalitenisz",
-   "name": "Richard Skacelik - Dalimil Machander",
-   "home": "Richard Skacelik",
-   "away": "Dalimil Machander",
-   "home_pid": "166635211903258624",
-   "away_pid": "166635534989447168",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T13:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830626",
-   "startTime": "2026-11-16T13:30:00.000Z",
-   "participant1Name": "Skacelik, Richard",
-   "participant2Name": "Machander, Dalimil",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663659,
-   "name": "R. Skacelik - D. Machander",
-   "score": 1.0
-  }
- },
- "id2503634976830568": {
-  "tm": {
-   "id": "320044445951139840",
-   "sport": "Asztalitenisz",
-   "name": "Jiri Pozarsky - Dalecky Petr",
-   "home": "Jiri Pozarsky",
-   "away": "Dalecky Petr",
-   "home_pid": "108664645912514560",
-   "away_pid": "317147109148139520",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T13:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830568",
-   "startTime": "2026-11-16T13:30:00.000Z",
-   "participant1Name": "Pozarsky, Jiri",
-   "participant2Name": "Dalecky, Petr",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664085,
-   "name": "J. Pozarsky - P. Dalecky",
-   "score": 1.0
-  }
- },
- "id2503634976830492": {
-  "tm": {
-   "id": "320044446106329088",
-   "sport": "Asztalitenisz",
-   "name": "Daniel Zigmund - Jiri Motak",
-   "home": "Daniel Zigmund",
-   "away": "Jiri Motak",
-   "home_pid": "277347614601646080",
-   "away_pid": "166722022717575168",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T13:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830492",
-   "startTime": "2026-11-16T13:30:00.000Z",
-   "participant1Name": "Zigmund, Daniel",
-   "participant2Name": "Motak, Jiri",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5664087,
-   "name": "Dan. Zigmund - J. Motak",
-   "score": 0.916
-  }
- },
  "id2702157075326638": {
   "tm": {
    "id": "319707043329024000",
@@ -5734,6 +5594,69 @@
    "home": "Hartford",
    "away": "Charlotte",
    "tournament": "AHL"
+  }
+ },
+ "id2503634976830626": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830626",
+   "startTime": "2026-11-16T13:30:00.000Z",
+   "participant1Name": "Skacelik, Richard",
+   "participant2Name": "Machander, Dalimil",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663659,
+   "name": "R. Skacelik - D. Machander",
+   "score": 1.0,
+   "home": "R. Skacelik",
+   "away": "D. Machander",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830568": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830568",
+   "startTime": "2026-11-16T13:30:00.000Z",
+   "participant1Name": "Pozarsky, Jiri",
+   "participant2Name": "Dalecky, Petr",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664085,
+   "name": "J. Pozarsky - P. Dalecky",
+   "score": 1.0,
+   "home": "J. Pozarsky",
+   "away": "P. Dalecky",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830492": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830492",
+   "startTime": "2026-11-16T13:30:00.000Z",
+   "participant1Name": "Zigmund, Daniel",
+   "participant2Name": "Motak, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.916,
+  "cl": {
+   "id": 5664087,
+   "name": "Dan. Zigmund - J. Motak",
+   "score": 0.916,
+   "home": "Dan. Zigmund",
+   "away": "J. Motak",
+   "tournament": "Cseh Liga Pro"
   }
  },
  "id1400003171516032": {
