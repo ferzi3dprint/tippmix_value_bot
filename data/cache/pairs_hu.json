@@ -1444,6 +1444,56 @@
   },
   "score": 1.0
  },
+ "id1102686475019238": {
+  "tm": {
+   "id": "318992014304681984",
+   "sport": "Kosárlabda",
+   "name": "Elitzur Yavne - Ramat Hasharon",
+   "home": "Elitzur Yavne",
+   "away": "Ramat Hasharon",
+   "home_pid": "247926180817793024",
+   "away_pid": "184758009443962880",
+   "tournament": "Izraeli 2.",
+   "category": "Izrael",
+   "tm_sport_id": "8",
+   "start": "2026-11-17T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1102686475019238",
+   "startTime": "2026-11-17T17:00:00.000Z",
+   "participant1Name": "Elitzur Yavne",
+   "participant2Name": "AS Ramat Hasharon",
+   "tournamentId": 26864,
+   "tournamentName": "National League",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1102686475019242": {
+  "tm": {
+   "id": "318992014393810944",
+   "sport": "Kosárlabda",
+   "name": "Maccabi Kiryat Gat/Ashkelon - Elitzur Netanya",
+   "home": "Maccabi Kiryat Gat/Ashkelon",
+   "away": "Elitzur Netanya",
+   "home_pid": "272757187859845120",
+   "away_pid": "6360688379969536",
+   "tournament": "Izraeli 2.",
+   "category": "Izrael",
+   "tm_sport_id": "8",
+   "start": "2026-11-17T17:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1102686475019242",
+   "startTime": "2026-11-17T17:15:00.000Z",
+   "participant1Name": "Maccabi Kiryat Gat/Ashkelon",
+   "participant2Name": "Elitzur Netanya",
+   "tournamentId": 26864,
+   "tournamentName": "National League",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1100013873263160": {
   "tm": {
    "id": "318992016559120384",
@@ -1868,56 +1918,6 @@
    "name": "Unifacisa - Botafogo",
    "score": 1.0
   }
- },
- "id1102686475019238": {
-  "tm": {
-   "id": "318992014304681984",
-   "sport": "Kosárlabda",
-   "name": "Elitzur Yavne - Ramat Hasharon",
-   "home": "Elitzur Yavne",
-   "away": "Ramat Hasharon",
-   "home_pid": "247926180817793024",
-   "away_pid": "184758009443962880",
-   "tournament": "Izraeli 2.",
-   "category": "Izrael",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T17:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102686475019238",
-   "startTime": "2026-11-17T17:00:00.000Z",
-   "participant1Name": "Elitzur Yavne",
-   "participant2Name": "AS Ramat Hasharon",
-   "tournamentId": 26864,
-   "tournamentName": "National League",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1102686475019242": {
-  "tm": {
-   "id": "318992014393810944",
-   "sport": "Kosárlabda",
-   "name": "Maccabi Kiryat Gat/Ashkelon - Elitzur Netanya",
-   "home": "Maccabi Kiryat Gat/Ashkelon",
-   "away": "Elitzur Netanya",
-   "home_pid": "272757187859845120",
-   "away_pid": "6360688379969536",
-   "tournament": "Izraeli 2.",
-   "category": "Izrael",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T17:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102686475019242",
-   "startTime": "2026-11-17T17:15:00.000Z",
-   "participant1Name": "Maccabi Kiryat Gat/Ashkelon",
-   "participant2Name": "Elitzur Netanya",
-   "tournamentId": 26864,
-   "tournamentName": "National League",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1101998076726346": {
   "tm": {
@@ -2344,36 +2344,6 @@
    "score": 1.0
   }
  },
- "id1500026772677592": {
-  "tm": {
-   "id": "318992019615719424",
-   "sport": "Jégkorong",
-   "name": "Crimmitschau - Kassel",
-   "home": "Crimmitschau",
-   "away": "Kassel",
-   "home_pid": "58975",
-   "away_pid": "37308",
-   "tournament": "Német 2.",
-   "category": "Németország",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T18:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500026772677592",
-   "startTime": "2026-11-17T18:30:00.000Z",
-   "participant1Name": "Eispiraten Crimmitschau",
-   "participant2Name": "EC Kassel Huskies",
-   "tournamentId": 267,
-   "tournamentName": "DEL 2",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593644,
-   "name": "Crimmitschau - Kassel",
-   "score": 1.0
-  }
- },
  "id1500026772677596": {
   "tm": {
    "id": "318992019342041088",
@@ -2431,6 +2401,36 @@
   "cl": {
    "id": 5593643,
    "name": "Düsseldorf - Rosenheim",
+   "score": 1.0
+  }
+ },
+ "id1500026772677592": {
+  "tm": {
+   "id": "318992019615719424",
+   "sport": "Jégkorong",
+   "name": "Crimmitschau - Kassel",
+   "home": "Crimmitschau",
+   "away": "Kassel",
+   "home_pid": "58975",
+   "away_pid": "37308",
+   "tournament": "Német 2.",
+   "category": "Németország",
+   "tm_sport_id": "6",
+   "start": "2026-11-17T18:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500026772677592",
+   "startTime": "2026-11-17T18:30:00.000Z",
+   "participant1Name": "Eispiraten Crimmitschau",
+   "participant2Name": "EC Kassel Huskies",
+   "tournamentId": 267,
+   "tournamentName": "DEL 2",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5593644,
+   "name": "Crimmitschau - Kassel",
    "score": 1.0
   }
  },
@@ -3108,6 +3108,56 @@
    "sportName": "Handball"
   },
   "score": 0.825
+ },
+ "id2503634976830456": {
+  "tm": {
+   "id": "320043491993395200",
+   "sport": "Asztalitenisz",
+   "name": "Vladimir Cermak - Martin Sochor",
+   "home": "Vladimir Cermak",
+   "away": "Martin Sochor",
+   "home_pid": "156986956010541056",
+   "away_pid": "193391653712719872",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T23:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830456",
+   "startTime": "2026-11-16T23:00:00.000Z",
+   "participant1Name": "Cermak, Vladimir",
+   "participant2Name": "Sochor, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830542": {
+  "tm": {
+   "id": "320044441553412096",
+   "sport": "Asztalitenisz",
+   "name": "Jiri Louda - Jakub Tazler",
+   "home": "Jiri Louda",
+   "away": "Jakub Tazler",
+   "home_pid": "113870749359558656",
+   "away_pid": "216759636619055104",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T23:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830542",
+   "startTime": "2026-11-16T23:00:00.000Z",
+   "participant1Name": "Louda, Jiri",
+   "participant2Name": "Tazler, Jakub",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
  },
  "id2702157075326638": {
   "tm": {
