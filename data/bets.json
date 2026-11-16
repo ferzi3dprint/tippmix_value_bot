@@ -1523,7 +1523,7 @@
  {
   "id": "292936b233",
   "placed_at": "2026-11-15T23:00:34.872650+00:00",
-  "status": "open",
+  "status": "settled",
   "exec_status": "moved",
   "fixture_id": "id1000124076422388",
   "sport": "Soccer",
@@ -1563,6 +1563,11 @@
   "closing_at": "2026-11-15T23:05:56.716100+00:00",
   "clv": 0.0113,
   "exec_checked_at": "2026-11-15T23:04:59.007085+00:00",
-  "exec_odds": 1.48
+  "exec_odds": 1.48,
+  "settle_tried_at": "2026-11-16T02:33:24.838922+00:00",
+  "result": "HALFWIN",
+  "payout": 1302.0,
+  "profit": 252.0,
+  "settled_at": "2026-11-16T02:33:24.838922+00:00"
  }
 ]
