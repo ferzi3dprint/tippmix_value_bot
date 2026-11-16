@@ -1209,56 +1209,6 @@
    "score": 1.0
   }
  },
- "id1100156274320766": {
-  "tm": {
-   "id": "318936740375109632",
-   "sport": "Kosárlabda",
-   "name": "Sao Jose Dos Campos - Mogi Das Cruzes",
-   "home": "Sao Jose Dos Campos",
-   "away": "Mogi Das Cruzes",
-   "home_pid": "315030331643817984",
-   "away_pid": "804795",
-   "tournament": "Brazil bajnokság",
-   "category": "Brazília",
-   "tm_sport_id": "8",
-   "start": "2026-11-16T22:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100156274320766",
-   "startTime": "2026-11-16T22:30:00.000Z",
-   "participant1Name": "Sao Jose dos Campos",
-   "participant2Name": "Mogi das Cruzes",
-   "tournamentId": 1562,
-   "tournamentName": "NBB",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100156274320764": {
-  "tm": {
-   "id": "318936787018915840",
-   "sport": "Kosárlabda",
-   "name": "Cruzeiro - Fortaleza Cearense",
-   "home": "Cruzeiro",
-   "away": "Fortaleza Cearense",
-   "home_pid": "198902285779234816",
-   "away_pid": "183883669765672960",
-   "tournament": "Brazil bajnokság",
-   "category": "Brazília",
-   "tm_sport_id": "8",
-   "start": "2026-11-16T22:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100156274320764",
-   "startTime": "2026-11-16T22:30:00.000Z",
-   "participant1Name": "Cruzeiro Basquete",
-   "participant2Name": "Fortaleza Basquete Cearense",
-   "tournamentId": 1562,
-   "tournamentName": "NBB",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
  "id1103560576190818": {
   "tm": {
    "id": "318992016649297920",
@@ -3128,6 +3078,56 @@
    "startTime": "2026-11-16T23:00:00.000Z",
    "participant1Name": "Louda, Jiri",
    "participant2Name": "Tazler, Jakub",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830384": {
+  "tm": {
+   "id": "320044444478939136",
+   "sport": "Asztalitenisz",
+   "name": "Pavel Fojt - Plachy Jiri",
+   "home": "Pavel Fojt",
+   "away": "Plachy Jiri",
+   "home_pid": "172343867917520896",
+   "away_pid": "146365753072865280",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T23:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830384",
+   "startTime": "2026-11-16T23:30:00.000Z",
+   "participant1Name": "Fojt, Pavel",
+   "participant2Name": "Plachy, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830418": {
+  "tm": {
+   "id": "320043492637220864",
+   "sport": "Asztalitenisz",
+   "name": "Daniel Kouble - Vladimir Postelt",
+   "home": "Daniel Kouble",
+   "away": "Vladimir Postelt",
+   "home_pid": "153864853086326784",
+   "away_pid": "137415561019707392",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T23:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830418",
+   "startTime": "2026-11-16T23:30:00.000Z",
+   "participant1Name": "Kouble, Daniel",
+   "participant2Name": "Postelt, Vladimir",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
