@@ -2224,31 +2224,6 @@
    "score": 1.0
   }
  },
- "id1000069172550336": {
-  "tm": {
-   "id": "319833154534842368",
-   "sport": "Labdarúgás",
-   "name": "UCSA Taraszivka - Polisszja Zsitomir 2",
-   "home": "UCSA Taraszivka",
-   "away": "Polisszja Zsitomir 2",
-   "home_pid": "219682930534010880",
-   "away_pid": "279842430937862144",
-   "tournament": "Ukrán 2.",
-   "category": "Ukrajna",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T10:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000069172550336",
-   "startTime": "2026-11-16T10:00:00.000Z",
-   "participant1Name": "FC Ucsa Tarasivka",
-   "participant2Name": "FC Polissya Zhytomyr 2",
-   "tournamentId": 691,
-   "tournamentName": "Persha Liga",
-   "sportName": "Soccer"
-  },
-  "score": 0.86
- },
  "id1000184875802284": {
   "tm": {
    "id": "319351129721872384",
@@ -3314,33 +3289,33 @@
    "score": 0.922
   }
  },
- "id1100154073657564": {
+ "id1202140876736474": {
   "tm": {
-   "id": "318936795198857216",
-   "sport": "Kosárlabda",
-   "name": "Seoul SK Knights - Ulsan Mobis Phoebus",
-   "home": "Seoul SK Knights",
-   "away": "Ulsan Mobis Phoebus",
-   "home_pid": "60657",
-   "away_pid": "183616051447123968",
-   "tournament": "Dél-koreai bajnokság",
-   "category": "Dél-Korea",
-   "tm_sport_id": "8",
-   "start": "2026-11-16T10:00:00+00:00"
+   "id": "319786397260128256",
+   "sport": "Tenisz",
+   "name": "Granollers M./Zeballos H. - Bolelli S./Vavassori A.",
+   "home": "Granollers M./Zeballos H.",
+   "away": "Bolelli S./Vavassori A.",
+   "home_pid": "9866849053577216",
+   "away_pid": "206436789072850944",
+   "tournament": "ATP-vb, férfi páros, B csoport",
+   "category": "ATP",
+   "tm_sport_id": "3",
+   "start": "2026-11-16T10:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1100154073657564",
-   "startTime": "2026-11-16T10:00:00.000Z",
-   "participant1Name": "Seoul SK Knights",
-   "participant2Name": "Mobis Phoebus",
-   "tournamentId": 1540,
-   "tournamentName": "KBL",
-   "sportName": "Basketball"
+   "fixtureId": "id1202140876736474",
+   "startTime": "2026-11-16T10:30:00.000Z",
+   "participant1Name": "Granollers M / Zeballos H",
+   "participant2Name": "Bolelli S / Vavassori A",
+   "tournamentId": 21408,
+   "tournamentName": "ATP World Tour Finals Men Doubles",
+   "sportName": "Tennis"
   },
   "score": 1.0,
   "cl": {
-   "id": 5559475,
-   "name": "Seoul Knights - Ulsan Mobis Phoebus",
+   "id": 5652832,
+   "name": "Granollers M / Zeballos H - Bolelli S / Vavassori A",
    "score": 1.0
   }
  },
@@ -4462,36 +4437,6 @@
    "id": 5555056,
    "name": "Proteasz Voula - Kronosz Agiou Dimitriou",
    "score": 0.905
-  }
- },
- "id1100240275388798": {
-  "tm": {
-   "id": "318936804381237248",
-   "sport": "Kosárlabda",
-   "name": "Bucheon Hana - Asan Woori Wibee",
-   "home": "Bucheon Hana",
-   "away": "Asan Woori Wibee",
-   "home_pid": "186227377556213760",
-   "away_pid": "180680382456320000",
-   "tournament": "Dél-koreai bajnokság, női",
-   "category": "Dél-Korea",
-   "tm_sport_id": "8",
-   "start": "2026-11-16T10:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100240275388798",
-   "startTime": "2026-11-16T10:00:00.000Z",
-   "participant1Name": "Bucheon Hana 1Q",
-   "participant2Name": "Asan Woori Won",
-   "tournamentId": 2402,
-   "tournamentName": "WKBL",
-   "sportName": "Basketball"
-  },
-  "score": 0.86,
-  "cl": {
-   "id": 5559474,
-   "name": "Bucheon Hana - Asan Woori Wibee",
-   "score": 1.0
   }
  },
  "id1100026372676976": {
@@ -5924,6 +5869,126 @@
    "score": 1.0
   }
  },
+ "id2503634976830494": {
+  "tm": {
+   "id": "320044444619448320",
+   "sport": "Asztalitenisz",
+   "name": "Marek Sedlak - Jiri Pozarsky",
+   "home": "Marek Sedlak",
+   "away": "Jiri Pozarsky",
+   "home_pid": "114904671542366208",
+   "away_pid": "108664645912514560",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T11:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830494",
+   "startTime": "2026-11-16T11:00:00.000Z",
+   "participant1Name": "Sedlak, Marek",
+   "participant2Name": "Pozarsky, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663943,
+   "name": "Marek Sedlak - J. Pozarsky",
+   "score": 1.0
+  }
+ },
+ "id2503634976830446": {
+  "tm": {
+   "id": "320044443088527360",
+   "sport": "Asztalitenisz",
+   "name": "Vlastimil Matysek - Daniel Zigmund",
+   "home": "Vlastimil Matysek",
+   "away": "Daniel Zigmund",
+   "home_pid": "277820645563305984",
+   "away_pid": "277347614601646080",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T11:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830446",
+   "startTime": "2026-11-16T11:00:00.000Z",
+   "participant1Name": "Matysek, Vlastimil",
+   "participant2Name": "Zigmund, Daniel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663944,
+   "name": "Vla. Matysek - Dan. Zigmund",
+   "score": 0.814
+  }
+ },
+ "id2503634976830410": {
+  "tm": {
+   "id": "320042394484547584",
+   "sport": "Asztalitenisz",
+   "name": "David Heczko - Richard Skacelik",
+   "home": "David Heczko",
+   "away": "Richard Skacelik",
+   "home_pid": "275618793472004096",
+   "away_pid": "166635211903258624",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T11:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830410",
+   "startTime": "2026-11-16T11:00:00.000Z",
+   "participant1Name": "Heczko, David",
+   "participant2Name": "Skacelik, Richard",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663590,
+   "name": "David Heczko - R. Skacelik",
+   "score": 1.0
+  }
+ },
+ "id2503634976830414": {
+  "tm": {
+   "id": "320042028864970752",
+   "sport": "Asztalitenisz",
+   "name": "Viktor Vejvoda - Michal Regner",
+   "home": "Viktor Vejvoda",
+   "away": "Michal Regner",
+   "home_pid": "235783907253325824",
+   "away_pid": "112731966551511040",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T11:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830414",
+   "startTime": "2026-11-16T11:00:00.000Z",
+   "participant1Name": "Vejvoda, Viktor",
+   "participant2Name": "Regner, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663657,
+   "name": "V. Vejvoda - Michal Regner",
+   "score": 1.0
+  }
+ },
  "id2702157075326638": {
   "tm": {
    "id": "319707043329024000",
@@ -6033,48 +6098,6 @@
    "sportName": "ESport Counter-Strike"
   },
   "score": 0.742
- },
- "id1205210676837352": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1205210676837352",
-   "startTime": "2026-11-16T10:00:00.000Z",
-   "participant1Name": "Nardi, Luca",
-   "participant2Name": "Latinovic, Stefan",
-   "tournamentId": 52106,
-   "tournamentName": "ATP Challenger Metz, France Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663677,
-   "name": "L. Nardi - Stefan Latinovic",
-   "score": 1.0,
-   "home": "L. Nardi",
-   "away": "Stefan Latinovic",
-   "tournament": "Metz-selejtező, férfi egyes"
-  }
- },
- "id1202140876736474": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1202140876736474",
-   "startTime": "2026-11-16T10:30:00.000Z",
-   "participant1Name": "Granollers M / Zeballos H",
-   "participant2Name": "Bolelli S / Vavassori A",
-   "tournamentId": 21408,
-   "tournamentName": "ATP World Tour Finals Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5652832,
-   "name": "Granollers M / Zeballos H - Bolelli S / Vavassori A",
-   "score": 1.0,
-   "home": "Granollers M / Zeballos H",
-   "away": "Bolelli S / Vavassori A",
-   "tournament": "ATP-vb, férfi páros, B csoport"
-  }
  },
  "id1200398776839032": {
   "tm": null,
@@ -6433,90 +6456,6 @@
    "tournament": "AHL"
   }
  },
- "id2503634976830410": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830410",
-   "startTime": "2026-11-16T11:00:00.000Z",
-   "participant1Name": "Heczko, David",
-   "participant2Name": "Skacelik, Richard",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663590,
-   "name": "David Heczko - R. Skacelik",
-   "score": 1.0,
-   "home": "David Heczko",
-   "away": "R. Skacelik",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976830414": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830414",
-   "startTime": "2026-11-16T11:00:00.000Z",
-   "participant1Name": "Vejvoda, Viktor",
-   "participant2Name": "Regner, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663657,
-   "name": "V. Vejvoda - Michal Regner",
-   "score": 1.0,
-   "home": "V. Vejvoda",
-   "away": "Michal Regner",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976830494": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830494",
-   "startTime": "2026-11-16T11:00:00.000Z",
-   "participant1Name": "Sedlak, Marek",
-   "participant2Name": "Pozarsky, Jiri",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663943,
-   "name": "Marek Sedlak - J. Pozarsky",
-   "score": 1.0,
-   "home": "Marek Sedlak",
-   "away": "J. Pozarsky",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976830446": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976830446",
-   "startTime": "2026-11-16T11:00:00.000Z",
-   "participant1Name": "Matysek, Vlastimil",
-   "participant2Name": "Zigmund, Daniel",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 0.814,
-  "cl": {
-   "id": 5663944,
-   "name": "Vla. Matysek - Dan. Zigmund",
-   "score": 0.814,
-   "home": "Vla. Matysek",
-   "away": "Dan. Zigmund",
-   "tournament": "Cseh Liga Pro"
-  }
- },
  "id1400003171516032": {
   "tm": null,
   "fx": {
@@ -6536,132 +6475,6 @@
    "home": "Baltimore",
    "away": "LA Chargers",
    "tournament": "NFL"
-  }
- },
- "id2400090676706326": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706326",
-   "startTime": "2026-11-16T10:00:00.000Z",
-   "participant1Name": "Baranowski, Mateusz",
-   "participant2Name": "Cheung, Ka Wai",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663370,
-   "name": "M. Baranowski - Ka Wai Cheung",
-   "score": 1.0,
-   "home": "M. Baranowski",
-   "away": "Ka Wai Cheung",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706318": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706318",
-   "startTime": "2026-11-16T10:00:00.000Z",
-   "participant1Name": "Chadha, Ishpreet Singh",
-   "participant2Name": "Liu, Yang",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663371,
-   "name": "I. Chadha - Yang Liu",
-   "score": 1.0,
-   "home": "I. Chadha",
-   "away": "Yang Liu",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706314": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706314",
-   "startTime": "2026-11-16T10:00:00.000Z",
-   "participant1Name": "Emery, Dylan",
-   "participant2Name": "Steadman, Craig",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663379,
-   "name": "D. Emery - C. Steadman",
-   "score": 1.0,
-   "home": "D. Emery",
-   "away": "C. Steadman",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706320": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706320",
-   "startTime": "2026-11-16T10:00:00.000Z",
-   "participant1Name": "Xinbo, Wang",
-   "participant2Name": "Hugill, Ashley",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663398,
-   "name": "Wang Xinbo - A. Hugill",
-   "score": 1.0,
-   "home": "Wang Xinbo",
-   "away": "A. Hugill",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706316": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706316",
-   "startTime": "2026-11-16T10:00:00.000Z",
-   "participant1Name": "Yuhao, Lan",
-   "participant2Name": "O´Sullivan, Sean",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663410,
-   "name": "Lan Yuhao - S. O'Sullivan",
-   "score": 1.0,
-   "home": "Lan Yuhao",
-   "away": "S. O'Sullivan",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706328": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706328",
-   "startTime": "2026-11-16T10:00:00.000Z",
-   "participant1Name": "Pengcheng, Yao",
-   "participant2Name": "El Hareedy, Mahmoud",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663415,
-   "name": "Y. Pengcheng - M. El Hareedy",
-   "score": 1.0,
-   "home": "Y. Pengcheng",
-   "away": "M. El Hareedy",
-   "tournament": "German Masters-selejtező"
   }
  },
  "id2400090676706332": {
@@ -6871,27 +6684,6 @@
    "score": 1.0,
    "home": "Liam Davies",
    "away": "A. Burden",
-   "tournament": "German Masters-selejtező"
-  }
- },
- "id2400090676706324": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2400090676706324",
-   "startTime": "2026-11-16T10:00:00.000Z",
-   "participant1Name": "Grace, David",
-   "participant2Name": "Kazakov, Anton",
-   "tournamentId": 906,
-   "tournamentName": "German Masters",
-   "sportName": "Snooker"
-  },
-  "score": 0.93,
-  "cl": {
-   "id": 5663412,
-   "name": "Dav. Grace - A. Kazakov",
-   "score": 0.93,
-   "home": "Dav. Grace",
-   "away": "A. Kazakov",
    "tournament": "German Masters-selejtező"
   }
  },
