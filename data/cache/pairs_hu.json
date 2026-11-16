@@ -2189,36 +2189,6 @@
    "score": 1.0
   }
  },
- "id1000123876737670": {
-  "tm": {
-   "id": "319927525786591232",
-   "sport": "Labdarúgás",
-   "name": "Dep. Quindio - Cartagena",
-   "home": "Dep. Quindio",
-   "away": "Cartagena",
-   "home_pid": "19673",
-   "away_pid": "51315",
-   "tournament": "Kolumbiai 2.",
-   "category": "Kolumbia",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T01:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000123876737670",
-   "startTime": "2026-11-16T01:10:00.000Z",
-   "participant1Name": "Deportes Quindio",
-   "participant2Name": "Real Cartagena FC",
-   "tournamentId": 1238,
-   "tournamentName": "Torneo DIMAYOR",
-   "sportName": "Soccer"
-  },
-  "score": 0.87,
-  "cl": {
-   "id": 5655005,
-   "name": "Dep. Quindio - Real Cartagena",
-   "score": 1.0
-  }
- },
  "id1000069172550336": {
   "tm": {
    "id": "319833154534842368",
@@ -6279,31 +6249,6 @@
   },
   "score": 1.0
  },
- "id2503634976793778": {
-  "tm": {
-   "id": "319963243680440320",
-   "sport": "Asztalitenisz",
-   "name": "Jiri Louda - Radim Urbaniec",
-   "home": "Jiri Louda",
-   "away": "Radim Urbaniec",
-   "home_pid": "113870749359558656",
-   "away_pid": "167634919836667904",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976793778",
-   "startTime": "2026-11-16T01:30:00.000Z",
-   "participant1Name": "Louda, Jiri",
-   "participant2Name": "Urbaniec, Radim",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976793678": {
   "tm": {
    "id": "319963357202423808",
@@ -6329,31 +6274,6 @@
   },
   "score": 1.0
  },
- "id2503634976793836": {
-  "tm": {
-   "id": "319963356277579776",
-   "sport": "Asztalitenisz",
-   "name": "Alesh Bayer - Zmuda Petr",
-   "home": "Alesh Bayer",
-   "away": "Zmuda Petr",
-   "home_pid": "105042522788745216",
-   "away_pid": "274261926635245568",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976793836",
-   "startTime": "2026-11-16T02:00:00.000Z",
-   "participant1Name": "Bayer, Ales",
-   "participant2Name": "Zmuda, Petr",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976793788": {
   "tm": {
    "id": "319963244514058240",
@@ -6373,6 +6293,31 @@
    "startTime": "2026-11-16T02:00:00.000Z",
    "participant1Name": "Franek, Tomas",
    "participant2Name": "Svacha, Ondrej",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976793836": {
+  "tm": {
+   "id": "319963356277579776",
+   "sport": "Asztalitenisz",
+   "name": "Alesh Bayer - Zmuda Petr",
+   "home": "Alesh Bayer",
+   "away": "Zmuda Petr",
+   "home_pid": "105042522788745216",
+   "away_pid": "274261926635245568",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T02:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976793836",
+   "startTime": "2026-11-16T02:00:00.000Z",
+   "participant1Name": "Bayer, Ales",
+   "participant2Name": "Zmuda, Petr",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -7099,27 +7044,6 @@
    "home": "NY Rangers",
    "away": "Montreal",
    "tournament": "NHL"
-  }
- },
- "id1400003171516030": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1400003171516030",
-   "startTime": "2026-11-16T01:20:00.000Z",
-   "participant1Name": "Cincinnati Bengals",
-   "participant2Name": "Pittsburgh Steelers",
-   "tournamentId": 31,
-   "tournamentName": "NFL",
-   "sportName": "American Football"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5559574,
-   "name": "Cincinnati - Pittsburgh",
-   "score": 1.0,
-   "home": "Cincinnati",
-   "away": "Pittsburgh",
-   "tournament": "NFL"
   }
  },
  "id1400003171516032": {
