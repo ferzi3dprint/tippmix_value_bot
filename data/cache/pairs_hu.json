@@ -2454,31 +2454,6 @@
   },
   "score": 0.8
  },
- "id1000069172550330": {
-  "tm": {
-   "id": "319833154696323072",
-   "sport": "Labdarúgás",
-   "name": "Csernyihiv - Lokomotív Kijev",
-   "home": "Csernyihiv",
-   "away": "Lokomotív Kijev",
-   "home_pid": "114477532315701248",
-   "away_pid": "219682913076269056",
-   "tournament": "Ukrán 2.",
-   "category": "Ukrajna",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000069172550330",
-   "startTime": "2026-11-16T10:30:00.000Z",
-   "participant1Name": "FC Chernigiv",
-   "participant2Name": "FC Lokomotiv Kyiv",
-   "tournamentId": 691,
-   "tournamentName": "Persha Liga",
-   "sportName": "Soccer"
-  },
-  "score": 0.785
- },
  "id1000184875802268": {
   "tm": {
    "id": "319330757749317632",
@@ -3257,66 +3232,6 @@
    "id": 5665585,
    "name": "K. Starastsenka - Ary. Bartlett",
    "score": 0.922
-  }
- },
- "id1202140876736474": {
-  "tm": {
-   "id": "319786397260128256",
-   "sport": "Tenisz",
-   "name": "Granollers M./Zeballos H. - Bolelli S./Vavassori A.",
-   "home": "Granollers M./Zeballos H.",
-   "away": "Bolelli S./Vavassori A.",
-   "home_pid": "9866849053577216",
-   "away_pid": "206436789072850944",
-   "tournament": "ATP-vb, férfi páros, B csoport",
-   "category": "ATP",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1202140876736474",
-   "startTime": "2026-11-16T10:30:00.000Z",
-   "participant1Name": "Granollers M / Zeballos H",
-   "participant2Name": "Bolelli S / Vavassori A",
-   "tournamentId": 21408,
-   "tournamentName": "ATP World Tour Finals Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5652832,
-   "name": "Granollers M / Zeballos H - Bolelli S / Vavassori A",
-   "score": 1.0
-  }
- },
- "id1100150272696338": {
-  "tm": {
-   "id": "318936723230892032",
-   "sport": "Kosárlabda",
-   "name": "Ryukyu Okinawa - Toyama",
-   "home": "Ryukyu Okinawa",
-   "away": "Toyama",
-   "home_pid": "85129",
-   "away_pid": "85124",
-   "tournament": "Japán bajnokság",
-   "category": "Japán",
-   "tm_sport_id": "8",
-   "start": "2026-11-16T10:35:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100150272696338",
-   "startTime": "2026-11-16T10:35:00.000Z",
-   "participant1Name": "Ryukyu Golden Kings Okinawa",
-   "participant2Name": "Toyama Grouses",
-   "tournamentId": 1502,
-   "tournamentName": "B League Premier",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5559519,
-   "name": "Ryukyu Okinawa - Toyama",
-   "score": 1.0
   }
  },
  "id1100023574131774": {
@@ -5783,6 +5698,81 @@
    "name": "David Heczko - R. Skacelik",
    "score": 1.0
   }
+ },
+ "id2503634976830504": {
+  "tm": {
+   "id": "320042394736205824",
+   "sport": "Asztalitenisz",
+   "name": "Lukas Martinec - Jiri Motak",
+   "home": "Lukas Martinec",
+   "away": "Jiri Motak",
+   "home_pid": "300549000996884480",
+   "away_pid": "166722022717575168",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830504",
+   "startTime": "2026-11-16T11:30:00.000Z",
+   "participant1Name": "Martinec, Lukas",
+   "participant2Name": "Motak, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830438": {
+  "tm": {
+   "id": "320044445038878720",
+   "sport": "Asztalitenisz",
+   "name": "Daniel Tuma - Dalecky Petr",
+   "home": "Daniel Tuma",
+   "away": "Dalecky Petr",
+   "home_pid": "135496075040575488",
+   "away_pid": "317147109148139520",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830438",
+   "startTime": "2026-11-16T11:30:00.000Z",
+   "participant1Name": "Tuma, Daniel",
+   "participant2Name": "Dalecky, Petr",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830534": {
+  "tm": {
+   "id": "320042244467924992",
+   "sport": "Asztalitenisz",
+   "name": "Jaroslav Bresky - Milan Kolar",
+   "home": "Jaroslav Bresky",
+   "away": "Milan Kolar",
+   "home_pid": "210979448730832896",
+   "away_pid": "115765271733522432",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830534",
+   "startTime": "2026-11-16T11:30:00.000Z",
+   "participant1Name": "Bresky, Jaroslav",
+   "participant2Name": "Kolar, Milan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
  },
  "id2702157075326638": {
   "tm": {
