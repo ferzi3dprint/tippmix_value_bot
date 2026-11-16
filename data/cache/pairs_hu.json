@@ -1674,36 +1674,6 @@
    "score": 1.0
   }
  },
- "id1204789876773640": {
-  "tm": {
-   "id": "320079130176593920",
-   "sport": "Tenisz",
-   "name": "Tomas Pinho - Yassin Ahmed Wageh",
-   "home": "Tomas Pinho",
-   "away": "Yassin Ahmed Wageh",
-   "home_pid": "10526054065770496",
-   "away_pid": "280924597461848064",
-   "tournament": "College Station, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T18:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204789876773640",
-   "startTime": "2026-11-16T18:10:00.000Z",
-   "participant1Name": "Pinho, Tomas",
-   "participant2Name": "Wageh, Yassin Ahmed",
-   "tournamentId": 47898,
-   "tournamentName": "UTR PTT College Station Men 02",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665607,
-   "name": "Tomas Pinho - Y.A. Wageh",
-   "score": 1.0
-  }
- },
  "id1204914276774612": {
   "tm": {
    "id": "320079127348584448",
@@ -1731,36 +1701,6 @@
   "cl": {
    "id": 5665781,
    "name": "N. Cinkova - Y. Konstantinova",
-   "score": 1.0
-  }
- },
- "id1100119774527778": {
-  "tm": {
-   "id": "318936724585652224",
-   "sport": "Kosárlabda",
-   "name": "Maccabi Rishon LeZion - Hapoel Beer Sheva",
-   "home": "Maccabi Rishon LeZion",
-   "away": "Hapoel Beer Sheva",
-   "home_pid": "1841163946586112",
-   "away_pid": "424242364837888",
-   "tournament": "Izraeli bajnokság",
-   "category": "Izrael",
-   "tm_sport_id": "8",
-   "start": "2026-11-16T18:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100119774527778",
-   "startTime": "2026-11-16T18:15:00.000Z",
-   "participant1Name": "Maccabi Rishon LeZion",
-   "participant2Name": "Hapoel Beer Sheva",
-   "tournamentId": 1197,
-   "tournamentName": "Super League",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5556352,
-   "name": "Maccabi Rishon - Hapoel Beer Sheva",
    "score": 1.0
   }
  },
@@ -3754,6 +3694,31 @@
    "score": 1.0
   }
  },
+ "id2503634976830644": {
+  "tm": {
+   "id": "320042664622891008",
+   "sport": "Asztalitenisz",
+   "name": "Antonin Schneeberger - Daniel Priesol",
+   "home": "Antonin Schneeberger",
+   "away": "Daniel Priesol",
+   "home_pid": "258077961810731008",
+   "away_pid": "274758113195855872",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830644",
+   "startTime": "2026-11-16T19:00:00.000Z",
+   "participant1Name": "Schneeberger, Antonin",
+   "participant2Name": "Priesol, Daniel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976830660": {
   "tm": {
    "id": "320044445804339200",
@@ -3798,31 +3763,6 @@
    "startTime": "2026-11-16T19:00:00.000Z",
    "participant1Name": "Janata, Tomas",
    "participant2Name": "Zmuda, Petr",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976830644": {
-  "tm": {
-   "id": "320042664622891008",
-   "sport": "Asztalitenisz",
-   "name": "Antonin Schneeberger - Daniel Priesol",
-   "home": "Antonin Schneeberger",
-   "away": "Daniel Priesol",
-   "home_pid": "258077961810731008",
-   "away_pid": "274758113195855872",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830644",
-   "startTime": "2026-11-16T19:00:00.000Z",
-   "participant1Name": "Schneeberger, Antonin",
-   "participant2Name": "Priesol, Daniel",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
