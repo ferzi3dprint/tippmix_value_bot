@@ -1,387 +1,5 @@
 [
  {
-  "time": "2026-11-14T02:24:48.462180+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "top_ev": [
-   "+0.5% Melbourne City – Newcastle Jets · 1X2: Melbourne City győz @1.24 (fair 1.234)",
-   "-1.7% Melbourne Victory – Adelaide Utd. · Gólszám 4.5: Kevesebb @1.12 (fair 1.14)",
-   "-2.5% Bakersfield Condors – San Diego Gulls · Győztes (hosszabbítással): San Diego Gulls győz @1.84 (fair 1.887)",
-   "-2.7% Melbourne City – Newcastle Jets · Gólszám 5.5: Kevesebb @1.1 (fair 1.13)",
-   "-2.8% Melbourne City – Newcastle Jets · Gólszám 4.5: Kevesebb @1.3 (fair 1.337)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 21,
-  "fixtures_both": 9,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 3,
-  "classic_checked": 17,
-  "classic_candidates": 2,
-  "top_ev_classic": [
-   "+5.0% Bendigo Braves – Sydney Uni Flames · Hendikep (hosszabbítással): Bendigo Braves (-2.5) @1.82 (fair 1.734)",
-   "+4.2% Bendigo Braves – Sydney Uni Flames · Hendikep (hosszabbítással): Bendigo Braves (-1.5) @1.71 (fair 1.642)",
-   "+2.9% Bendigo Braves – Sydney Uni Flames · Hendikep (hosszabbítással): Bendigo Braves (-3.5) @1.93 (fair 1.875)",
-   "+2.5% Bendigo Braves – Sydney Uni Flames · Győztes (hosszabbítással): Bendigo Braves győz @1.63 (fair 1.59)",
-   "-0.9% Melbourne Victory – Adelaide Utd. · Gólszám 3.5: Kevesebb @1.37 (fair 1.383)"
-  ],
-  "placed": 1,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 25
- },
- {
-  "time": "2026-11-14T02:30:03.083350+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 523,
-   "paired": 374,
-   "classic_only": 78
-  },
-  "tippmix_matches": 1920,
-  "pinnacle_fixtures": 2074,
-  "paired": 1174,
-  "by_sport": {
-   "Soccer": [
-    768,
-    547
-   ],
-   "Tennis": [
-    128,
-    14
-   ],
-   "Basketball": [
-    401,
-    279
-   ],
-   "Ice Hockey": [
-    136,
-    119
-   ],
-   "Handball": [
-    103,
-    53
-   ],
-   "Volleyball": [
-    157,
-    45
-   ],
-   "Table Tennis": [
-    26,
-    5
-   ],
-   "Cricket": [
-    60,
-    12
-   ],
-   "Badminton": [
-    22,
-    5
-   ],
-   "Darts": [
-    9,
-    16
-   ],
-   "Futsal": [
-    5,
-    1
-   ],
-   "Waterpolo": [
-    28,
-    18
-   ],
-   "ESport Counter-Strike": [
-    17,
-    4
-   ],
-   "ESport Dota": [
-    9,
-    0
-   ],
-   "ESport League of Legends": [
-    1,
-    0
-   ],
-   "eSoccer": [
-    42,
-    0
-   ],
-   "eBasketball": [
-    8,
-    0
-   ],
-   "American Football": [
-    0,
-    11
-   ],
-   "Boxing": [
-    0,
-    14
-   ],
-   "MMA": [
-    0,
-    26
-   ],
-   "Snooker": [
-    0,
-    1
-   ],
-   "Rugby": [
-    0,
-    2
-   ],
-   "Aussie Rules": [
-    0,
-    2
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+0.6% Rögle – Frölunda · 1X2 (rendes játékidő): Döntetlen @3.9 (fair 3.877)",
-   "+0.5% Melbourne City – Newcastle Jets · 1X2: Melbourne City győz @1.24 (fair 1.234)",
-   "+0.3% U19Montpellier – U19Gazelec Ajaccio · Ázsiai hendikep: U19Gazelec Ajaccio (+1) @1.91 (fair 1.904)",
-   "-0.7% Koszovó – Izrael · Gólszám 1.5: Több @1.31 (fair 1.319)",
-   "-1.0% Rögle – Frölunda · Hendikep (rendes játékidő): Rögle (+1) @1.31 (fair 1.323)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 16,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 72,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 7,
-  "classic_checked": 72,
-  "classic_candidates": 2,
-  "top_ev_classic": [
-   "+5.0% Bendigo Braves – Sydney Uni Flames · Hendikep (hosszabbítással): Bendigo Braves (-2.5) @1.82 (fair 1.734)",
-   "+4.2% Bendigo Braves – Sydney Uni Flames · Hendikep (hosszabbítással): Bendigo Braves (-1.5) @1.71 (fair 1.642)",
-   "+2.9% Bendigo Braves – Sydney Uni Flames · Hendikep (hosszabbítással): Bendigo Braves (-3.5) @1.93 (fair 1.875)",
-   "+2.5% Bendigo Braves – Sydney Uni Flames · Győztes (hosszabbítással): Bendigo Braves győz @1.63 (fair 1.59)",
-   "+0.3% Incheon Air Jumbos – Daejeon Blue Fangs · Győztes: Incheon Air Jumbos győz @1.17 (fair 1.166)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-14T02:49:59.013306+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 523,
-   "paired": 374,
-   "classic_only": 78
-  },
-  "tippmix_matches": 1929,
-  "pinnacle_fixtures": 2074,
-  "paired": 1175,
-  "by_sport": {
-   "Soccer": [
-    771,
-    549
-   ],
-   "Tennis": [
-    128,
-    14
-   ],
-   "Basketball": [
-    401,
-    279
-   ],
-   "Ice Hockey": [
-    136,
-    119
-   ],
-   "Handball": [
-    103,
-    53
-   ],
-   "Volleyball": [
-    157,
-    45
-   ],
-   "Table Tennis": [
-    27,
-    4
-   ],
-   "Cricket": [
-    60,
-    12
-   ],
-   "Badminton": [
-    20,
-    5
-   ],
-   "Darts": [
-    9,
-    16
-   ],
-   "Futsal": [
-    5,
-    1
-   ],
-   "Waterpolo": [
-    28,
-    18
-   ],
-   "ESport Counter-Strike": [
-    17,
-    4
-   ],
-   "ESport Dota": [
-    9,
-    0
-   ],
-   "ESport League of Legends": [
-    1,
-    0
-   ],
-   "eSoccer": [
-    47,
-    0
-   ],
-   "eBasketball": [
-    10,
-    0
-   ],
-   "American Football": [
-    0,
-    11
-   ],
-   "Boxing": [
-    0,
-    14
-   ],
-   "MMA": [
-    0,
-    26
-   ],
-   "Snooker": [
-    0,
-    1
-   ],
-   "Rugby": [
-    0,
-    2
-   ],
-   "Aussie Rules": [
-    0,
-    2
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+2.6% U19Montenegró – U19Feröer-szigetek · 1X2: U19Montenegró győz @1.39 (fair 1.355)",
-   "+1.5% U19Bosznia-Hercegovina – U19Georgia · Gólszám 2.25: Több @1.44 (fair 1.418)",
-   "+1.5% U19Bosznia-Hercegovina – U19Georgia · 1X2: U19Bosznia-Hercegovina győz @2.2 (fair 2.168)",
-   "+0.5% Melbourne City – Newcastle Jets · 1X2: Melbourne City győz @1.24 (fair 1.234)",
-   "+0.2% U19Montenegró – U19Feröer-szigetek · Gólszám 4.5: Kevesebb @1.49 (fair 1.487)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 16,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 92,
-  "rejected_mismatch": 0,
-  "candidates": 1,
-  "steam_fixtures": 10,
-  "classic_checked": 79,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.3% Incheon Air Jumbos – Daejeon Blue Fangs · Győztes: Incheon Air Jumbos győz @1.17 (fair 1.166)",
-   "-0.4% Sheffield Wed. – Plymouth · Gólszám 3: Kevesebb @1.83 (fair 1.837)",
-   "-0.5% Shrewsbury – Oldham · Gólszám 3.5: Kevesebb @1.33 (fair 1.337)",
-   "-0.6% Sheffield Wed. – Plymouth · Gólszám 3.25: Kevesebb @1.65 (fair 1.66)",
-   "-0.8% Sheffield Wed. – Plymouth · Gólszám 3.5: Kevesebb @1.53 (fair 1.542)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-14T03:07:22.813510+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.5% Melbourne City – Newcastle Jets · 1X2: Melbourne City győz @1.24 (fair 1.234)",
-   "-0.7% Omiya Ardija – Yamagata · 1X2: Omiya Ardija győz @1.61 (fair 1.621)",
-   "-1.7% Melbourne Victory – Adelaide Utd. · Gólszám 4.5: Kevesebb @1.12 (fair 1.14)",
-   "-2.7% Melbourne City – Newcastle Jets · Gólszám 5.5: Kevesebb @1.1 (fair 1.13)",
-   "-2.7% Omiya Ardija – Yamagata · Gólszám 1.5: Több @1.14 (fair 1.172)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 4,
-  "fast": true,
-  "fixtures_checked": 49,
-  "fixtures_both": 19,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 7,
-  "classic_checked": 28,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.3% Incheon Air Jumbos – Daejeon Blue Fangs · Győztes: Incheon Air Jumbos győz @1.17 (fair 1.166)",
-   "-2.0% Melbourne City – Newcastle Jets · Gólszám 4.5: Kevesebb @1.31 (fair 1.337)",
-   "-2.3% Omiya Ardija – Yamagata · Gólszám 4.5: Kevesebb @1.24 (fair 1.269)",
-   "-2.4% Melbourne Victory – Adelaide Utd. · Gólszám 3.5: Kevesebb @1.35 (fair 1.383)",
-   "-2.4% Nagano Parceiro – Nojima Sagamihara · Gólszám 3.25: Kevesebb @1.36 (fair 1.394)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 55
- },
- {
   "time": "2026-11-14T03:15:13.522861+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25713,5 +25331,228 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 26
+ },
+ {
+  "time": "2026-11-16T05:48:01.945569+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 3,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 3
+ },
+ {
+  "time": "2026-11-16T05:53:01.945568+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 3,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 3
+ },
+ {
+  "time": "2026-11-16T05:58:01.945673+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 2,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 2
+ },
+ {
+  "time": "2026-11-16T06:03:01.945802+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "boosts": 0,
+  "classic": {
+   "events": 238,
+   "paired": 121,
+   "classic_only": 29
+  },
+  "tippmix_matches": 742,
+  "pinnacle_fixtures": 658,
+  "paired": 265,
+  "by_sport": {
+   "Soccer": [
+    157,
+    89
+   ],
+   "Tennis": [
+    245,
+    57
+   ],
+   "Basketball": [
+    97,
+    52
+   ],
+   "Ice Hockey": [
+    36,
+    27
+   ],
+   "Handball": [
+    19,
+    14
+   ],
+   "Volleyball": [
+    10,
+    2
+   ],
+   "Table Tennis": [
+    28,
+    7
+   ],
+   "Cricket": [
+    20,
+    4
+   ],
+   "Badminton": [
+    0,
+    0
+   ],
+   "Darts": [
+    31,
+    2
+   ],
+   "Futsal": [
+    3,
+    0
+   ],
+   "Waterpolo": [
+    0,
+    0
+   ],
+   "ESport Counter-Strike": [
+    34,
+    1
+   ],
+   "ESport Dota": [
+    11,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    43,
+    0
+   ],
+   "eBasketball": [
+    8,
+    0
+   ],
+   "American Football": [
+    0,
+    1
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    9
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+0.1% Kazahsztán – Szlovákia · Gólszám 2: Több @1.52 (fair 1.519)",
+   "-0.3% U21Görögország – U21Izland · 1X2: U21Görögország győz @1.92 (fair 1.925)",
+   "-0.3% Kazahsztán – Szlovákia · Gólszám 1.5: Több @1.33 (fair 1.334)",
+   "-0.7% Trinidad és Tobago – Antigua és Barbuda · 1X2: Trinidad és Tobago győz @1.17 (fair 1.178)",
+   "-0.8% Zimbabwe – Egyenlítői-Guinea · Ázsiai hendikep: Zimbabwe (+0.5) @1.28 (fair 1.29)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 29,
+  "fast": false,
+  "fixtures_checked": 114,
+  "fixtures_both": 69,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "classic_checked": 73,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.4% Trinidad és Tobago – Antigua és Barbuda · Gólszám 4.25: Kevesebb @1.42 (fair 1.415)",
+   "-0.3% Trinidad és Tobago – Antigua és Barbuda · Gólszám 4: Kevesebb @1.5 (fair 1.505)",
+   "-0.6% L. Nardi – Stefan Latinovic · Győztes: L. Nardi győz @1.01 (fair 1.016)",
+   "-1.1% Zimbabwe – Egyenlítői-Guinea · 1X2: Döntetlen @3.05 (fair 3.083)",
+   "-1.2% Andorra – Azerbajdzsán · Gólszám 3.5: Kevesebb @1.15 (fair 1.164)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 119
  }
 ]

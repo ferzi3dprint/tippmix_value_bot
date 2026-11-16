@@ -2159,31 +2159,6 @@
   },
   "score": 1.0
  },
- "id1005328474459136": {
-  "tm": {
-   "id": "320018570959462400",
-   "sport": "Labdarúgás",
-   "name": "U21Gamba Osaka - U21Shimizu",
-   "home": "U21Gamba Osaka",
-   "away": "U21Shimizu",
-   "home_pid": "312406992223891456",
-   "away_pid": "314312420065177600",
-   "tournament": "U21 Japán bajnokság",
-   "category": "Japán",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T06:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1005328474459136",
-   "startTime": "2026-11-16T06:00:00.000Z",
-   "participant1Name": "Gamba Osaka",
-   "participant2Name": "Shimizu S-Pulse",
-   "tournamentId": 53284,
-   "tournamentName": "U21 J League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000069172550334": {
   "tm": {
    "id": "319833154613485568",
@@ -2572,7 +2547,12 @@
    "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663691,
+   "name": "C. Cretu - M. Echargui",
+   "score": 1.0
+  }
  },
  "id1200398776840130": {
   "tm": {
@@ -2597,7 +2577,12 @@
    "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663632,
+   "name": "L. Mikrut - M. Agwi",
+   "score": 1.0
+  }
  },
  "id1202140676736458": {
   "tm": {
@@ -3487,7 +3472,12 @@
    "tournamentName": "UTR PTT Miami Men 02",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665558,
+   "name": "Felix Felsmann - C. Saltz",
+   "score": 1.0
+  }
  },
  "id1205408276776054": {
   "tm": {
@@ -3512,7 +3502,12 @@
    "tournamentName": "UTR PTT Miami Men 02",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665563,
+   "name": "L. Leschly - Sal. Price",
+   "score": 0.848
+  }
  },
  "id1205409876776230": {
   "tm": {
@@ -3537,7 +3532,12 @@
    "tournamentName": "UTR PTT Miami Women 02",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665568,
+   "name": "S. Nagornaia - A. Perelman",
+   "score": 1.0
+  }
  },
  "id1205409876776250": {
   "tm": {
@@ -3562,7 +3562,12 @@
    "tournamentName": "UTR PTT Miami Women 02",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665560,
+   "name": "Katie Spencer - L. Donnelly",
+   "score": 1.0
+  }
  },
  "id1205409876776258": {
   "tm": {
@@ -3587,7 +3592,12 @@
    "tournamentName": "UTR PTT Miami Women 02",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665581,
+   "name": "J. Ogunwale - D. Volosova",
+   "score": 1.0
+  }
  },
  "id1205409876776266": {
   "tm": {
@@ -3612,7 +3622,12 @@
    "tournamentName": "UTR PTT Miami Women 02",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665575,
+   "name": "B. Kocak - Fernandez Figueras, Sofia",
+   "score": 0.745
+  }
  },
  "id1205409876776274": {
   "tm": {
@@ -5609,6 +5624,36 @@
   },
   "score": 1.0
  },
+ "id1500023472909506": {
+  "tm": {
+   "id": "318992020605575168",
+   "sport": "Jégkorong",
+   "name": "Utah - Vancouver",
+   "home": "Utah",
+   "away": "Vancouver",
+   "home_pid": "240877360616214528",
+   "away_pid": "37443",
+   "tournament": "NHL (alapszakasz)",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-17T02:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500023472909506",
+   "startTime": "2026-11-17T02:30:00.000Z",
+   "participant1Name": "Utah Mammoth",
+   "participant2Name": "Vancouver Canucks",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5588803,
+   "name": "Utah - Vancouver",
+   "score": 1.0
+  }
+ },
  "id1500026772677602": {
   "tm": {
    "id": "318992019165880320",
@@ -5658,6 +5703,36 @@
    "sportName": "Ice Hockey"
   },
   "score": 0.8
+ },
+ "id1500023472909504": {
+  "tm": {
+   "id": "318992020685266944",
+   "sport": "Jégkorong",
+   "name": "NY Rangers - Montreal",
+   "home": "NY Rangers",
+   "away": "Montreal",
+   "home_pid": "37438",
+   "away_pid": "37432",
+   "tournament": "NHL (alapszakasz)",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-17T00:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500023472909504",
+   "startTime": "2026-11-17T00:30:00.000Z",
+   "participant1Name": "New York Rangers",
+   "participant2Name": "Montreal Canadiens",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 0.785,
+  "cl": {
+   "id": 5593546,
+   "name": "NY Rangers - Montreal",
+   "score": 1.0
+  }
  },
  "id2200081976394056": {
   "tm": {
@@ -6069,31 +6144,6 @@
   },
   "score": 1.0
  },
- "id2503637776834794": {
-  "tm": {
-   "id": "320090681321267200",
-   "sport": "Asztalitenisz",
-   "name": "Rafal Skotniczny - Pawel Polok",
-   "home": "Rafal Skotniczny",
-   "away": "Pawel Polok",
-   "home_pid": "189285867330785280",
-   "away_pid": "310417721737768960",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T05:55:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776834794",
-   "startTime": "2026-11-16T05:55:00.000Z",
-   "participant1Name": "Skotniczny, Rafal",
-   "participant2Name": "Polok, Pawel",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503637776834802": {
   "tm": {
    "id": "320092812244754432",
@@ -6165,6 +6215,106 @@
    "participant2Name": "Kapik, Krzysztof",
    "tournamentId": 36377,
    "tournamentName": "TT Elite Series",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830532": {
+  "tm": {
+   "id": "320041340889014272",
+   "sport": "Asztalitenisz",
+   "name": "Yurii Holovatiuk - Jaroslav Bresky",
+   "home": "Yurii Holovatiuk",
+   "away": "Jaroslav Bresky",
+   "home_pid": "218992960200658944",
+   "away_pid": "210979448730832896",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830532",
+   "startTime": "2026-11-16T07:00:00.000Z",
+   "participant1Name": "Holovatiuk, Yurii",
+   "participant2Name": "Bresky, Jaroslav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830512": {
+  "tm": {
+   "id": "320042029570662400",
+   "sport": "Asztalitenisz",
+   "name": "Jakub Pilch - Radomir Revay",
+   "home": "Jakub Pilch",
+   "away": "Radomir Revay",
+   "home_pid": "274550304688705536",
+   "away_pid": "166722222185041920",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830512",
+   "startTime": "2026-11-16T07:00:00.000Z",
+   "participant1Name": "Pilch, Jakub",
+   "participant2Name": "Revay, Radomir",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830392": {
+  "tm": {
+   "id": "320042029019111424",
+   "sport": "Asztalitenisz",
+   "name": "Daniel Unzeitig - Adrian Walek",
+   "home": "Daniel Unzeitig",
+   "away": "Adrian Walek",
+   "home_pid": "291037431712747520",
+   "away_pid": "275104395624058880",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830392",
+   "startTime": "2026-11-16T07:00:00.000Z",
+   "participant1Name": "Unzeitig, Daniel",
+   "participant2Name": "Walek, Adrian",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830406": {
+  "tm": {
+   "id": "320040969772802048",
+   "sport": "Asztalitenisz",
+   "name": "Ladislav Novotny - Jiri Svec",
+   "home": "Ladislav Novotny",
+   "away": "Jiri Svec",
+   "home_pid": "219268601318887424",
+   "away_pid": "117257474374946816",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830406",
+   "startTime": "2026-11-16T07:00:00.000Z",
+   "participant1Name": "Novotny, Ladislav",
+   "participant2Name": "Svec, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0
@@ -6354,6 +6504,27 @@
   },
   "score": 0.742
  },
+ "id1205210676837352": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676837352",
+   "startTime": "2026-11-16T10:00:00.000Z",
+   "participant1Name": "Nardi, Luca",
+   "participant2Name": "Latinovic, Stefan",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663677,
+   "name": "L. Nardi - Stefan Latinovic",
+   "score": 1.0,
+   "home": "L. Nardi",
+   "away": "Stefan Latinovic",
+   "tournament": "Metz-selejtező, férfi egyes"
+  }
+ },
  "id1202140876736474": {
   "tm": null,
   "fx": {
@@ -6373,6 +6544,48 @@
    "home": "Granollers M / Zeballos H",
    "away": "Bolelli S / Vavassori A",
    "tournament": "ATP-vb, férfi páros, B csoport"
+  }
+ },
+ "id1200398776839032": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1200398776839032",
+   "startTime": "2026-11-16T12:10:00.000Z",
+   "participant1Name": "Ritschard, Alexander",
+   "participant2Name": "Wehnelt, Kai",
+   "tournamentId": 3987,
+   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663631,
+   "name": "A. Ritschard - K. Wehnelt",
+   "score": 1.0,
+   "home": "A. Ritschard",
+   "away": "K. Wehnelt",
+   "tournament": "Helsinki-selejtező,férfi egyes"
+  }
+ },
+ "id1205210676840132": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676840132",
+   "startTime": "2026-11-16T12:20:00.000Z",
+   "participant1Name": "Ghibaudo, Antoine",
+   "participant2Name": "Blanchet, Ugo",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663702,
+   "name": "A. Ghibaudo - U. Blanchet",
+   "score": 1.0,
+   "home": "A. Ghibaudo",
+   "away": "U. Blanchet",
+   "tournament": "Metz-selejtező, férfi egyes"
   }
  },
  "id1205210676807324": {
@@ -6564,6 +6777,48 @@
    "tournament": "Metz, férfi egyes"
   }
  },
+ "id1200398776837150": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1200398776837150",
+   "startTime": "2026-11-16T10:10:00.000Z",
+   "participant1Name": "Nordquist, Arvid",
+   "participant2Name": "Gulin, Svyatoslav",
+   "tournamentId": 3987,
+   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 0.95,
+  "cl": {
+   "id": 5663679,
+   "name": "Arv. Nordquist - S. Gulin",
+   "score": 0.95,
+   "home": "Arv. Nordquist",
+   "away": "S. Gulin",
+   "tournament": "Helsinki-selejtező,férfi egyes"
+  }
+ },
+ "id1205210676838234": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676838234",
+   "startTime": "2026-11-16T11:10:00.000Z",
+   "participant1Name": "Gobat, Adrien",
+   "participant2Name": "Grenier, Hugo",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 0.9,
+  "cl": {
+   "id": 5663634,
+   "name": "Adr. Gobat - H. Grenier",
+   "score": 0.9,
+   "home": "Adr. Gobat",
+   "away": "H. Grenier",
+   "tournament": "Metz-selejtező, férfi egyes"
+  }
+ },
  "id1205210676807184": {
   "tm": null,
   "fx": {
@@ -6646,48 +6901,6 @@
    "home": "Hapoel Galil Elyon",
    "away": "Hapoel Eilat",
    "tournament": "Izraeli bajnokság"
-  }
- },
- "id1500023472909506": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1500023472909506",
-   "startTime": "2026-11-17T02:30:00.000Z",
-   "participant1Name": "Utah Mammoth",
-   "participant2Name": "Vancouver Canucks",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5588803,
-   "name": "Utah - Vancouver",
-   "score": 1.0,
-   "home": "Utah",
-   "away": "Vancouver",
-   "tournament": "NHL"
-  }
- },
- "id1500023472909504": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1500023472909504",
-   "startTime": "2026-11-17T00:30:00.000Z",
-   "participant1Name": "New York Rangers",
-   "participant2Name": "Montreal Canadiens",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 0.785,
-  "cl": {
-   "id": 5593546,
-   "name": "NY Rangers - Montreal",
-   "score": 0.785,
-   "home": "NY Rangers",
-   "away": "Montreal",
-   "tournament": "NHL"
   }
  },
  "id1400003171516032": {
