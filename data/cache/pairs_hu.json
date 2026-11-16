@@ -6144,56 +6144,6 @@
   },
   "score": 1.0
  },
- "id2503637776834816": {
-  "tm": {
-   "id": "320094413215834112",
-   "sport": "Asztalitenisz",
-   "name": "Piotr Przewlocki - Rafal Skotniczny",
-   "home": "Piotr Przewlocki",
-   "away": "Rafal Skotniczny",
-   "home_pid": "266391558669078528",
-   "away_pid": "189285867330785280",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T06:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776834816",
-   "startTime": "2026-11-16T06:40:00.000Z",
-   "participant1Name": "Przewlocki, Piotr",
-   "participant2Name": "Skotniczny, Rafal",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503637776834820": {
-  "tm": {
-   "id": "320094436669333504",
-   "sport": "Asztalitenisz",
-   "name": "Petas Kacper - Krzysztof Kapik",
-   "home": "Petas Kacper",
-   "away": "Krzysztof Kapik",
-   "home_pid": "167900317553315840",
-   "away_pid": "167030393677074432",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T06:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776834820",
-   "startTime": "2026-11-16T06:40:00.000Z",
-   "participant1Name": "Petas, Kacper",
-   "participant2Name": "Kapik, Krzysztof",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976830406": {
   "tm": {
    "id": "320040969772802048",
@@ -6244,6 +6194,31 @@
   },
   "score": 1.0
  },
+ "id2503634976830512": {
+  "tm": {
+   "id": "320042029570662400",
+   "sport": "Asztalitenisz",
+   "name": "Jakub Pilch - Radomir Revay",
+   "home": "Jakub Pilch",
+   "away": "Radomir Revay",
+   "home_pid": "274550304688705536",
+   "away_pid": "166722222185041920",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830512",
+   "startTime": "2026-11-16T07:00:00.000Z",
+   "participant1Name": "Pilch, Jakub",
+   "participant2Name": "Revay, Radomir",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976830392": {
   "tm": {
    "id": "320042029019111424",
@@ -6269,25 +6244,100 @@
   },
   "score": 1.0
  },
- "id2503634976830512": {
+ "id2503634976830554": {
   "tm": {
-   "id": "320042029570662400",
+   "id": "320040970035994624",
    "sport": "Asztalitenisz",
-   "name": "Jakub Pilch - Radomir Revay",
-   "home": "Jakub Pilch",
-   "away": "Radomir Revay",
-   "home_pid": "274550304688705536",
-   "away_pid": "166722222185041920",
+   "name": "Tomas Kulhanek - Havel Ladislav",
+   "home": "Tomas Kulhanek",
+   "away": "Havel Ladislav",
+   "home_pid": "288685077800718336",
+   "away_pid": "170793199298727936",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-16T07:00:00+00:00"
+   "start": "2026-11-16T07:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976830512",
-   "startTime": "2026-11-16T07:00:00.000Z",
-   "participant1Name": "Pilch, Jakub",
-   "participant2Name": "Revay, Radomir",
+   "fixtureId": "id2503634976830554",
+   "startTime": "2026-11-16T07:30:00.000Z",
+   "participant1Name": "Kulhanek, Tomas",
+   "participant2Name": "Havel, Ladislav (1956)",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830388": {
+  "tm": {
+   "id": "320040970233126912",
+   "sport": "Asztalitenisz",
+   "name": "Hejduk Alexander - Ludek Madle",
+   "home": "Hejduk Alexander",
+   "away": "Ludek Madle",
+   "home_pid": "177516179025350656",
+   "away_pid": "153502079891066880",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830388",
+   "startTime": "2026-11-16T07:30:00.000Z",
+   "participant1Name": "Hejduk, Alexander",
+   "participant2Name": "Madle, Ludek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830514": {
+  "tm": {
+   "id": "320044446196506624",
+   "sport": "Asztalitenisz",
+   "name": "Marek Bereiter - Frantisek Laburda",
+   "home": "Marek Bereiter",
+   "away": "Frantisek Laburda",
+   "home_pid": "300022674765418496",
+   "away_pid": "167934614345666560",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830514",
+   "startTime": "2026-11-16T07:30:00.000Z",
+   "participant1Name": "Bereiter, Marek",
+   "participant2Name": "Laburda, Frantisek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830478": {
+  "tm": {
+   "id": "320042028805201920",
+   "sport": "Asztalitenisz",
+   "name": "Pavel Wawrosz - Lukas Velebil",
+   "home": "Pavel Wawrosz",
+   "away": "Lukas Velebil",
+   "home_pid": "185657629937291264",
+   "away_pid": "294325549638389760",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830478",
+   "startTime": "2026-11-16T07:30:00.000Z",
+   "participant1Name": "Wawrosz, Pavel",
+   "participant2Name": "Velebil, Lukas",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
