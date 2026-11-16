@@ -229,36 +229,6 @@
    "score": 1.0
   }
  },
- "id1002375568932376": {
-  "tm": {
-   "id": "319896785805975552",
-   "sport": "Labdarúgás",
-   "name": "Feröer-szigetek - Moldova",
-   "home": "Feröer-szigetek",
-   "away": "Moldova",
-   "home_pid": "766",
-   "away_pid": "1045",
-   "tournament": "Nemzetek Ligája, C divízió, 3. csoport",
-   "category": "Európa",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002375568932376",
-   "startTime": "2026-11-16T15:00:00.000Z",
-   "participant1Name": "Faroe Islands",
-   "participant2Name": "Moldova",
-   "tournamentId": 23755,
-   "tournamentName": "UEFA Nations League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5559469,
-   "name": "Feröer-szigetek - Moldova",
-   "score": 1.0
-  }
- },
  "id1002375568932378": {
   "tm": {
    "id": "318267357645578240",
@@ -286,6 +256,36 @@
   "cl": {
    "id": 5559460,
    "name": "Kazahsztán - Szlovákia",
+   "score": 1.0
+  }
+ },
+ "id1002375568932376": {
+  "tm": {
+   "id": "319896785805975552",
+   "sport": "Labdarúgás",
+   "name": "Feröer-szigetek - Moldova",
+   "home": "Feröer-szigetek",
+   "away": "Moldova",
+   "home_pid": "766",
+   "away_pid": "1045",
+   "tournament": "Nemzetek Ligája, C divízió, 3. csoport",
+   "category": "Európa",
+   "tm_sport_id": "1",
+   "start": "2026-11-16T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002375568932376",
+   "startTime": "2026-11-16T15:00:00.000Z",
+   "participant1Name": "Faroe Islands",
+   "participant2Name": "Moldova",
+   "tournamentId": 23755,
+   "tournamentName": "UEFA Nations League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5559469,
+   "name": "Feröer-szigetek - Moldova",
    "score": 1.0
   }
  },
@@ -569,6 +569,31 @@
   },
   "score": 1.0
  },
+ "id1000085476369476": {
+  "tm": {
+   "id": "319988237622910976",
+   "sport": "Labdarúgás",
+   "name": "U21Olaszország - U21Belgium",
+   "home": "U21Olaszország",
+   "away": "U21Belgium",
+   "home_pid": "19448",
+   "away_pid": "19705",
+   "tournament": "U21 válogatott mérkőzés",
+   "category": "Világ",
+   "tm_sport_id": "1",
+   "start": "2026-11-16T17:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000085476369476",
+   "startTime": "2026-11-16T17:15:00.000Z",
+   "participant1Name": "Italy",
+   "participant2Name": "Belgium",
+   "tournamentId": 854,
+   "tournamentName": "U21 Friendly Games",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000085176168712": {
   "tm": {
    "id": "319335473656963072",
@@ -599,31 +624,6 @@
    "score": 1.0
   }
  },
- "id1001846476730262": {
-  "tm": {
-   "id": "319786096100712448",
-   "sport": "Labdarúgás",
-   "name": "Social Atletico - River Plate",
-   "home": "Social Atletico",
-   "away": "River Plate",
-   "home_pid": "194958539504119808",
-   "away_pid": "1436926",
-   "tournament": "Argentin bajnokság, női",
-   "category": "Argentína",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001846476730262",
-   "startTime": "2026-11-16T18:00:00.000Z",
-   "participant1Name": "Social Atletico Television",
-   "participant2Name": "CA River Plate (ARG)",
-   "tournamentId": 18464,
-   "tournamentName": "Primera Division, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1001846476730266": {
   "tm": {
    "id": "319786095939231744",
@@ -649,25 +649,25 @@
   },
   "score": 1.0
  },
- "id1001846476730268": {
+ "id1001846476730262": {
   "tm": {
-   "id": "319786095781945344",
+   "id": "319786096100712448",
    "sport": "Labdarúgás",
-   "name": "Lanus - Talleres de Cordoba",
-   "home": "Lanus",
-   "away": "Talleres de Cordoba",
-   "home_pid": "274940254060941312",
-   "away_pid": "189968474105237504",
+   "name": "Social Atletico - River Plate",
+   "home": "Social Atletico",
+   "away": "River Plate",
+   "home_pid": "194958539504119808",
+   "away_pid": "1436926",
    "tournament": "Argentin bajnokság, női",
    "category": "Argentína",
    "tm_sport_id": "1",
    "start": "2026-11-16T18:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1001846476730268",
+   "fixtureId": "id1001846476730262",
    "startTime": "2026-11-16T18:00:00.000Z",
-   "participant1Name": "Atletico Lanus",
-   "participant2Name": "CA Talleres de Cordoba",
+   "participant1Name": "Social Atletico Television",
+   "participant2Name": "CA River Plate (ARG)",
    "tournamentId": 18464,
    "tournamentName": "Primera Division, Women",
    "sportName": "Soccer"
@@ -693,6 +693,31 @@
    "startTime": "2026-11-16T18:00:00.000Z",
    "participant1Name": "CA Huracan",
    "participant2Name": "Gimnasia Y Esgrima La Plata",
+   "tournamentId": 18464,
+   "tournamentName": "Primera Division, Women",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1001846476730268": {
+  "tm": {
+   "id": "319786095781945344",
+   "sport": "Labdarúgás",
+   "name": "Lanus - Talleres de Cordoba",
+   "home": "Lanus",
+   "away": "Talleres de Cordoba",
+   "home_pid": "274940254060941312",
+   "away_pid": "189968474105237504",
+   "tournament": "Argentin bajnokság, női",
+   "category": "Argentína",
+   "tm_sport_id": "1",
+   "start": "2026-11-16T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1001846476730268",
+   "startTime": "2026-11-16T18:00:00.000Z",
+   "participant1Name": "Atletico Lanus",
+   "participant2Name": "CA Talleres de Cordoba",
    "tournamentId": 18464,
    "tournamentName": "Primera Division, Women",
    "sportName": "Soccer"
@@ -1254,6 +1279,31 @@
    "score": 1.0
   }
  },
+ "id1002608074251526": {
+  "tm": {
+   "id": "320019977060032512",
+   "sport": "Labdarúgás",
+   "name": "U23Vizela - U23Santa Clara",
+   "home": "U23Vizela",
+   "away": "U23Santa Clara",
+   "home_pid": "148353604479143936",
+   "away_pid": "211703814812749824",
+   "tournament": "U23 Portugál bajnokság",
+   "category": "Portugália",
+   "tm_sport_id": "1",
+   "start": "2026-11-17T11:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002608074251526",
+   "startTime": "2026-11-17T11:00:00.000Z",
+   "participant1Name": "FC Vizela",
+   "participant2Name": "Santa Clara",
+   "tournamentId": 26080,
+   "tournamentName": "U23 Liga Next Gen",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000085176168950": {
   "tm": {
    "id": "318951071298953216",
@@ -1604,6 +1654,31 @@
    "score": 1.0
   }
  },
+ "id1001846476730272": {
+  "tm": {
+   "id": "319848935257612288",
+   "sport": "Labdarúgás",
+   "name": "Independiente Avellaneda - Newell's",
+   "home": "Independiente Avellaneda",
+   "away": "Newell's",
+   "home_pid": "6441106976030720",
+   "away_pid": "207082912019017728",
+   "tournament": "Argentin bajnokság, női",
+   "category": "Argentína",
+   "tm_sport_id": "1",
+   "start": "2026-11-17T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1001846476730272",
+   "startTime": "2026-11-17T17:00:00.000Z",
+   "participant1Name": "CA Independiente",
+   "participant2Name": "Newell's Old Boys",
+   "tournamentId": 18464,
+   "tournamentName": "Primera Division, Women",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000033473661312": {
   "tm": {
    "id": "318977559504166912",
@@ -1929,6 +2004,31 @@
    "score": 1.0
   }
  },
+ "id1000017675801284": {
+  "tm": {
+   "id": "318980082149433344",
+   "sport": "Labdarúgás",
+   "name": "Spennymoor Town - Chester City",
+   "home": "Spennymoor Town",
+   "away": "Chester City",
+   "home_pid": "615483",
+   "away_pid": "587310",
+   "tournament": "Angol Nemzeti Liga 2., Észak",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-17T19:45:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017675801284",
+   "startTime": "2026-11-17T19:45:00.000Z",
+   "participant1Name": "Spennymoor Town FC",
+   "participant2Name": "Chester FC",
+   "tournamentId": 176,
+   "tournamentName": "National League North",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000184875802230": {
   "tm": {
    "id": "319354205235126272",
@@ -1958,31 +2058,6 @@
    "name": "Niger - Marokkó",
    "score": 1.0
   }
- },
- "id1000085476369476": {
-  "tm": {
-   "id": "319988237622910976",
-   "sport": "Labdarúgás",
-   "name": "U21Olaszország - U21Belgium",
-   "home": "U21Olaszország",
-   "away": "U21Belgium",
-   "home_pid": "19448",
-   "away_pid": "19705",
-   "tournament": "U21 válogatott mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "1",
-   "start": "2026-11-16T17:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000085476369476",
-   "startTime": "2026-11-16T17:15:00.000Z",
-   "participant1Name": "Italy",
-   "participant2Name": "Belgium",
-   "tournamentId": 854,
-   "tournamentName": "U21 Friendly Games",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
  },
  "id1000085476744230": {
   "tm": {
@@ -2034,31 +2109,6 @@
   },
   "score": 1.0
  },
- "id1002608074251526": {
-  "tm": {
-   "id": "320019977060032512",
-   "sport": "Labdarúgás",
-   "name": "U23Vizela - U23Santa Clara",
-   "home": "U23Vizela",
-   "away": "U23Santa Clara",
-   "home_pid": "148353604479143936",
-   "away_pid": "211703814812749824",
-   "tournament": "U23 Portugál bajnokság",
-   "category": "Portugália",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002608074251526",
-   "startTime": "2026-11-17T11:00:00.000Z",
-   "participant1Name": "FC Vizela",
-   "participant2Name": "Santa Clara",
-   "tournamentId": 26080,
-   "tournamentName": "U23 Liga Next Gen",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002867176554992": {
   "tm": {
    "id": "320032717031940096",
@@ -2080,31 +2130,6 @@
    "participant2Name": "Eswatini",
    "tournamentId": 28671,
    "tournamentName": "U23 Africa Cup of Nations",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1001846476730272": {
-  "tm": {
-   "id": "319848935257612288",
-   "sport": "Labdarúgás",
-   "name": "Independiente Avellaneda - Newell's",
-   "home": "Independiente Avellaneda",
-   "away": "Newell's",
-   "home_pid": "6441106976030720",
-   "away_pid": "207082912019017728",
-   "tournament": "Argentin bajnokság, női",
-   "category": "Argentína",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T17:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001846476730272",
-   "startTime": "2026-11-17T17:00:00.000Z",
-   "participant1Name": "CA Independiente",
-   "participant2Name": "Newell's Old Boys",
-   "tournamentId": 18464,
-   "tournamentName": "Primera Division, Women",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -3339,31 +3364,6 @@
   },
   "score": 1.0
  },
- "id1201316976779894": {
-  "tm": {
-   "id": "319916798983086080",
-   "sport": "Tenisz",
-   "name": "Matsuda R./Tomida Y. - Dev S.D.P./Sinha N.K.",
-   "home": "Matsuda R./Tomida Y.",
-   "away": "Dev S.D.P./Sinha N.K.",
-   "home_pid": "319916791388250112",
-   "away_pid": "131213086169288704",
-   "tournament": "Kobe, férfi páros",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316976779894",
-   "startTime": "2026-11-17T02:00:00.000Z",
-   "participant1Name": "Matsuda R / Tomida Y",
-   "participant2Name": "Dev S D P / Sinha N K",
-   "tournamentId": 13169,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
  "id1201316976779890": {
   "tm": {
    "id": "319916798912831488",
@@ -3383,6 +3383,31 @@
    "startTime": "2026-11-17T02:00:00.000Z",
    "participant1Name": "Hsieh C-P / Smith K",
    "participant2Name": "Bittoun Kouzmine C / Poljak D",
+   "tournamentId": 13169,
+   "tournamentName": "ATP Challenger Kobe, Japan Men Doubles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0
+ },
+ "id1201316976779894": {
+  "tm": {
+   "id": "319916798983086080",
+   "sport": "Tenisz",
+   "name": "Matsuda R./Tomida Y. - Dev S.D.P./Sinha N.K.",
+   "home": "Matsuda R./Tomida Y.",
+   "away": "Dev S.D.P./Sinha N.K.",
+   "home_pid": "319916791388250112",
+   "away_pid": "131213086169288704",
+   "tournament": "Kobe, férfi páros",
+   "category": "Challenger",
+   "tm_sport_id": "3",
+   "start": "2026-11-17T02:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1201316976779894",
+   "startTime": "2026-11-17T02:00:00.000Z",
+   "participant1Name": "Matsuda R / Tomida Y",
+   "participant2Name": "Dev S D P / Sinha N K",
    "tournamentId": 13169,
    "tournamentName": "ATP Challenger Kobe, Japan Men Doubles",
    "sportName": "Tennis"
@@ -3439,31 +3464,6 @@
   },
   "score": 1.0
  },
- "id1205408276776054": {
-  "tm": {
-   "id": "320079129175203840",
-   "sport": "Tenisz",
-   "name": "Lane Leschly - Salvador Price",
-   "home": "Lane Leschly",
-   "away": "Salvador Price",
-   "home_pid": "316733685109956608",
-   "away_pid": "148787833983782912",
-   "tournament": "Miami, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T14:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205408276776054",
-   "startTime": "2026-11-16T14:00:00.000Z",
-   "participant1Name": "Leschly, Lane",
-   "participant2Name": "Price, Salvador",
-   "tournamentId": 54082,
-   "tournamentName": "UTR PTT Miami Men 02",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
  "id1205408276776034": {
   "tm": {
    "id": "320079129270624256",
@@ -3489,27 +3489,27 @@
   },
   "score": 1.0
  },
- "id1205409876776250": {
+ "id1205408276776054": {
   "tm": {
-   "id": "320079126373408768",
+   "id": "320079129175203840",
    "sport": "Tenisz",
-   "name": "Katie Spencer - Lucia Donnelly",
-   "home": "Katie Spencer",
-   "away": "Lucia Donnelly",
-   "home_pid": "252910023535353856",
-   "away_pid": "247111905642672128",
-   "tournament": "Miami, női egyes",
+   "name": "Lane Leschly - Salvador Price",
+   "home": "Lane Leschly",
+   "away": "Salvador Price",
+   "home_pid": "316733685109956608",
+   "away_pid": "148787833983782912",
+   "tournament": "Miami, férfi egyes",
    "category": "UTR Pro Tennis",
    "tm_sport_id": "3",
    "start": "2026-11-16T14:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1205409876776250",
+   "fixtureId": "id1205408276776054",
    "startTime": "2026-11-16T14:00:00.000Z",
-   "participant1Name": "Spencer, Katie",
-   "participant2Name": "Donnelly, Lucia",
-   "tournamentId": 54098,
-   "tournamentName": "UTR PTT Miami Women 02",
+   "participant1Name": "Leschly, Lane",
+   "participant2Name": "Price, Salvador",
+   "tournamentId": 54082,
+   "tournamentName": "UTR PTT Miami Men 02",
    "sportName": "Tennis"
   },
   "score": 1.0
@@ -3533,6 +3533,31 @@
    "startTime": "2026-11-16T14:00:00.000Z",
    "participant1Name": "Nagornaia, Sofiia",
    "participant2Name": "Perelman, Anna",
+   "tournamentId": 54098,
+   "tournamentName": "UTR PTT Miami Women 02",
+   "sportName": "Tennis"
+  },
+  "score": 1.0
+ },
+ "id1205409876776250": {
+  "tm": {
+   "id": "320079126373408768",
+   "sport": "Tenisz",
+   "name": "Katie Spencer - Lucia Donnelly",
+   "home": "Katie Spencer",
+   "away": "Lucia Donnelly",
+   "home_pid": "252910023535353856",
+   "away_pid": "247111905642672128",
+   "tournament": "Miami, női egyes",
+   "category": "UTR Pro Tennis",
+   "tm_sport_id": "3",
+   "start": "2026-11-16T14:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1205409876776250",
+   "startTime": "2026-11-16T14:00:00.000Z",
+   "participant1Name": "Spencer, Katie",
+   "participant2Name": "Donnelly, Lucia",
    "tournamentId": 54098,
    "tournamentName": "UTR PTT Miami Women 02",
    "sportName": "Tennis"
@@ -3644,36 +3669,6 @@
    "score": 1.0
   }
  },
- "id1100150272696334": {
-  "tm": {
-   "id": "318936799675228160",
-   "sport": "Kosárlabda",
-   "name": "Yokohama B-Corsairs - Kawasaki Brave Thunders",
-   "home": "Yokohama B-Corsairs",
-   "away": "Kawasaki Brave Thunders",
-   "home_pid": "614327",
-   "away_pid": "126844664395386880",
-   "tournament": "Japán bajnokság",
-   "category": "Japán",
-   "tm_sport_id": "8",
-   "start": "2026-11-16T10:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100150272696334",
-   "startTime": "2026-11-16T10:05:00.000Z",
-   "participant1Name": "Yokohama B-Corsairs",
-   "participant2Name": "Kawasaki Brave Thunders",
-   "tournamentId": 1502,
-   "tournamentName": "B League Premier",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5559522,
-   "name": "Yokohama - Kawasaki Brave Thunders",
-   "score": 0.79
-  }
- },
  "id1100150272696336": {
   "tm": {
    "id": "318936800694444032",
@@ -3704,34 +3699,34 @@
    "score": 1.0
   }
  },
- "id1100150272696332": {
+ "id1100150272696334": {
   "tm": {
-   "id": "318936800134504448",
+   "id": "318936799675228160",
    "sport": "Kosárlabda",
-   "name": "Tokyo Alvark - Kobe Storks",
-   "home": "Tokyo Alvark",
-   "away": "Kobe Storks",
-   "home_pid": "420834",
-   "away_pid": "182295051556147200",
+   "name": "Yokohama B-Corsairs - Kawasaki Brave Thunders",
+   "home": "Yokohama B-Corsairs",
+   "away": "Kawasaki Brave Thunders",
+   "home_pid": "614327",
+   "away_pid": "126844664395386880",
    "tournament": "Japán bajnokság",
    "category": "Japán",
    "tm_sport_id": "8",
    "start": "2026-11-16T10:05:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1100150272696332",
+   "fixtureId": "id1100150272696334",
    "startTime": "2026-11-16T10:05:00.000Z",
-   "participant1Name": "Alvark Tokyo",
-   "participant2Name": "Kobe Storks",
+   "participant1Name": "Yokohama B-Corsairs",
+   "participant2Name": "Kawasaki Brave Thunders",
    "tournamentId": 1502,
    "tournamentName": "B League Premier",
    "sportName": "Basketball"
   },
   "score": 1.0,
   "cl": {
-   "id": 5559523,
-   "name": "Tokyo Alvark - Kobe Storks",
-   "score": 1.0
+   "id": 5559522,
+   "name": "Yokohama - Kawasaki Brave Thunders",
+   "score": 0.79
   }
  },
  "id1100150272696328": {
@@ -3761,6 +3756,36 @@
   "cl": {
    "id": 5559520,
    "name": "Gunma - Shiga",
+   "score": 1.0
+  }
+ },
+ "id1100150272696332": {
+  "tm": {
+   "id": "318936800134504448",
+   "sport": "Kosárlabda",
+   "name": "Tokyo Alvark - Kobe Storks",
+   "home": "Tokyo Alvark",
+   "away": "Kobe Storks",
+   "home_pid": "420834",
+   "away_pid": "182295051556147200",
+   "tournament": "Japán bajnokság",
+   "category": "Japán",
+   "tm_sport_id": "8",
+   "start": "2026-11-16T10:05:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100150272696332",
+   "startTime": "2026-11-16T10:05:00.000Z",
+   "participant1Name": "Alvark Tokyo",
+   "participant2Name": "Kobe Storks",
+   "tournamentId": 1502,
+   "tournamentName": "B League Premier",
+   "sportName": "Basketball"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5559523,
+   "name": "Tokyo Alvark - Kobe Storks",
    "score": 1.0
   }
  },
@@ -3954,6 +3979,31 @@
   },
   "score": 1.0
  },
+ "id1101998075452312": {
+  "tm": {
+   "id": "319746394150739968",
+   "sport": "Kosárlabda",
+   "name": "Urunday Universitario - Union Atletica",
+   "home": "Urunday Universitario",
+   "away": "Union Atletica",
+   "home_pid": "185261846616395776",
+   "away_pid": "1011272",
+   "tournament": "Uruguayi bajnokság",
+   "category": "Uruguay",
+   "tm_sport_id": "8",
+   "start": "2026-11-16T22:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1101998075452312",
+   "startTime": "2026-11-16T22:15:00.000Z",
+   "participant1Name": "Urunday Universitario",
+   "participant2Name": "Club Union Atletica",
+   "tournamentId": 19980,
+   "tournamentName": "LUB",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1100156274320766": {
   "tm": {
    "id": "318936740375109632",
@@ -4008,6 +4058,31 @@
    "name": "Cruzeiro - Cearense",
    "score": 1.0
   }
+ },
+ "id1101998076726170": {
+  "tm": {
+   "id": "319746726072229888",
+   "sport": "Kosárlabda",
+   "name": "CA Penarol - Club Nacional",
+   "home": "CA Penarol",
+   "away": "Club Nacional",
+   "home_pid": "185261809529311232",
+   "away_pid": "185261826411384832",
+   "tournament": "Uruguayi bajnokság",
+   "category": "Uruguay",
+   "tm_sport_id": "8",
+   "start": "2026-11-17T00:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1101998076726170",
+   "startTime": "2026-11-17T00:30:00.000Z",
+   "participant1Name": "CA Penarol",
+   "participant2Name": "Club Nacional",
+   "tournamentId": 19980,
+   "tournamentName": "LUB",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
  },
  "id1100013873263158": {
   "tm": {
@@ -4484,6 +4559,31 @@
   },
   "score": 1.0
  },
+ "id1100027772016392": {
+  "tm": {
+   "id": "318992012978233344",
+   "sport": "Kosárlabda",
+   "name": "Norrköping - Uppsala",
+   "home": "Norrköping",
+   "away": "Uppsala",
+   "home_pid": "10903",
+   "away_pid": "185495945312522240",
+   "tournament": "Svéd bajnokság",
+   "category": "Svédország",
+   "tm_sport_id": "8",
+   "start": "2026-11-17T18:04:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100027772016392",
+   "startTime": "2026-11-17T18:04:00.000Z",
+   "participant1Name": "Norrkoping Dolphins",
+   "participant2Name": "Sloga Uppsala",
+   "tournamentId": 277,
+   "tournamentName": "SBL",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1100027772016398": {
   "tm": {
    "id": "318992012718186496",
@@ -4555,81 +4655,6 @@
    "participant2Name": "BC Lulea",
    "tournamentId": 277,
    "tournamentName": "SBL",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100027772016392": {
-  "tm": {
-   "id": "318992012978233344",
-   "sport": "Kosárlabda",
-   "name": "Norrköping - Uppsala",
-   "home": "Norrköping",
-   "away": "Uppsala",
-   "home_pid": "10903",
-   "away_pid": "185495945312522240",
-   "tournament": "Svéd bajnokság",
-   "category": "Svédország",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T18:04:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100027772016392",
-   "startTime": "2026-11-17T18:04:00.000Z",
-   "participant1Name": "Norrkoping Dolphins",
-   "participant2Name": "Sloga Uppsala",
-   "tournamentId": 277,
-   "tournamentName": "SBL",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1101998075452312": {
-  "tm": {
-   "id": "319746394150739968",
-   "sport": "Kosárlabda",
-   "name": "Urunday Universitario - Union Atletica",
-   "home": "Urunday Universitario",
-   "away": "Union Atletica",
-   "home_pid": "185261846616395776",
-   "away_pid": "1011272",
-   "tournament": "Uruguayi bajnokság",
-   "category": "Uruguay",
-   "tm_sport_id": "8",
-   "start": "2026-11-16T22:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1101998075452312",
-   "startTime": "2026-11-16T22:15:00.000Z",
-   "participant1Name": "Urunday Universitario",
-   "participant2Name": "Club Union Atletica",
-   "tournamentId": 19980,
-   "tournamentName": "LUB",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1101998076726170": {
-  "tm": {
-   "id": "319746726072229888",
-   "sport": "Kosárlabda",
-   "name": "CA Penarol - Club Nacional",
-   "home": "CA Penarol",
-   "away": "Club Nacional",
-   "home_pid": "185261809529311232",
-   "away_pid": "185261826411384832",
-   "tournament": "Uruguayi bajnokság",
-   "category": "Uruguay",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1101998076726170",
-   "startTime": "2026-11-17T00:30:00.000Z",
-   "participant1Name": "CA Penarol",
-   "participant2Name": "Club Nacional",
-   "tournamentId": 19980,
-   "tournamentName": "LUB",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -5099,31 +5124,6 @@
   },
   "score": 1.0
  },
- "id1500049475704508": {
-  "tm": {
-   "id": "318992026944217088",
-   "sport": "Jégkorong",
-   "name": "Frölunda - Växjö",
-   "home": "Frölunda",
-   "away": "Växjö",
-   "home_pid": "37248",
-   "away_pid": "37264",
-   "tournament": "BL",
-   "category": "Európa",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500049475704508",
-   "startTime": "2026-11-17T18:00:00.000Z",
-   "participant1Name": "Frolunda HC",
-   "participant2Name": "Vaxjo Lakers",
-   "tournamentId": 494,
-   "tournamentName": "Champions Hockey League",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
  "id1500049475704506": {
   "tm": {
    "id": "318992026663198720",
@@ -5143,6 +5143,31 @@
    "startTime": "2026-11-17T18:00:00.000Z",
    "participant1Name": "Skelleftea AIK",
    "participant2Name": "Rogle BK",
+   "tournamentId": 494,
+   "tournamentName": "Champions Hockey League",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1500049475704508": {
+  "tm": {
+   "id": "318992026944217088",
+   "sport": "Jégkorong",
+   "name": "Frölunda - Växjö",
+   "home": "Frölunda",
+   "away": "Växjö",
+   "home_pid": "37248",
+   "away_pid": "37264",
+   "tournament": "BL",
+   "category": "Európa",
+   "tm_sport_id": "6",
+   "start": "2026-11-17T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500049475704508",
+   "startTime": "2026-11-17T18:00:00.000Z",
+   "participant1Name": "Frolunda HC",
+   "participant2Name": "Vaxjo Lakers",
    "tournamentId": 494,
    "tournamentName": "Champions Hockey League",
    "sportName": "Ice Hockey"
@@ -6041,6 +6066,106 @@
    "tournamentId": 1173,
    "tournamentName": "Liga Siatkowki, Women",
    "sportName": "Volleyball"
+  },
+  "score": 1.0
+ },
+ "id2503637776834794": {
+  "tm": {
+   "id": "320090681321267200",
+   "sport": "Asztalitenisz",
+   "name": "Rafal Skotniczny - Pawel Polok",
+   "home": "Rafal Skotniczny",
+   "away": "Pawel Polok",
+   "home_pid": "189285867330785280",
+   "away_pid": "310417721737768960",
+   "tournament": "TT Elite Series",
+   "category": "Lengyelország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T05:55:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503637776834794",
+   "startTime": "2026-11-16T05:55:00.000Z",
+   "participant1Name": "Skotniczny, Rafal",
+   "participant2Name": "Polok, Pawel",
+   "tournamentId": 36377,
+   "tournamentName": "TT Elite Series",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503637776834802": {
+  "tm": {
+   "id": "320092812244754432",
+   "sport": "Asztalitenisz",
+   "name": "Krzysztof Hetnar - Vincenec Oliver",
+   "home": "Krzysztof Hetnar",
+   "away": "Vincenec Oliver",
+   "home_pid": "269948117218103296",
+   "away_pid": "272210357383204864",
+   "tournament": "TT Elite Series",
+   "category": "Lengyelország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T06:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503637776834802",
+   "startTime": "2026-11-16T06:15:00.000Z",
+   "participant1Name": "Hetnar, Krzysztof",
+   "participant2Name": "Vincenec, Oliver",
+   "tournamentId": 36377,
+   "tournamentName": "TT Elite Series",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503637776834816": {
+  "tm": {
+   "id": "320094413215834112",
+   "sport": "Asztalitenisz",
+   "name": "Piotr Przewlocki - Rafal Skotniczny",
+   "home": "Piotr Przewlocki",
+   "away": "Rafal Skotniczny",
+   "home_pid": "266391558669078528",
+   "away_pid": "189285867330785280",
+   "tournament": "TT Elite Series",
+   "category": "Lengyelország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T06:40:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503637776834816",
+   "startTime": "2026-11-16T06:40:00.000Z",
+   "participant1Name": "Przewlocki, Piotr",
+   "participant2Name": "Skotniczny, Rafal",
+   "tournamentId": 36377,
+   "tournamentName": "TT Elite Series",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503637776834820": {
+  "tm": {
+   "id": "320094436669333504",
+   "sport": "Asztalitenisz",
+   "name": "Petas Kacper - Krzysztof Kapik",
+   "home": "Petas Kacper",
+   "away": "Krzysztof Kapik",
+   "home_pid": "167900317553315840",
+   "away_pid": "167030393677074432",
+   "tournament": "TT Elite Series",
+   "category": "Lengyelország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T06:40:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503637776834820",
+   "startTime": "2026-11-16T06:40:00.000Z",
+   "participant1Name": "Petas, Kacper",
+   "participant2Name": "Kapik, Krzysztof",
+   "tournamentId": 36377,
+   "tournamentName": "TT Elite Series",
+   "sportName": "Table Tennis"
   },
   "score": 1.0
  },
