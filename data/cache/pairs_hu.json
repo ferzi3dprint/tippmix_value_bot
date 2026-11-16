@@ -319,25 +319,25 @@
   },
   "score": 1.0
  },
- "id1001846476730268": {
+ "id1001846476730264": {
   "tm": {
-   "id": "319786095781945344",
+   "id": "319786095858491392",
    "sport": "Labdarúgás",
-   "name": "Lanus - Talleres de Cordoba",
-   "home": "Lanus",
-   "away": "Talleres de Cordoba",
-   "home_pid": "274940254060941312",
-   "away_pid": "189968474105237504",
+   "name": "CA Huracan - Gimnasia y Esgrima",
+   "home": "CA Huracan",
+   "away": "Gimnasia y Esgrima",
+   "home_pid": "1429902",
+   "away_pid": "10710710369128448",
    "tournament": "Argentin bajnokság, női",
    "category": "Argentína",
    "tm_sport_id": "1",
    "start": "2026-11-16T18:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1001846476730268",
+   "fixtureId": "id1001846476730264",
    "startTime": "2026-11-16T18:00:00.000Z",
-   "participant1Name": "Atletico Lanus",
-   "participant2Name": "CA Talleres de Cordoba",
+   "participant1Name": "CA Huracan",
+   "participant2Name": "Gimnasia Y Esgrima La Plata",
    "tournamentId": 18464,
    "tournamentName": "Primera Division, Women",
    "sportName": "Soccer"
@@ -369,25 +369,25 @@
   },
   "score": 1.0
  },
- "id1001846476730264": {
+ "id1001846476730268": {
   "tm": {
-   "id": "319786095858491392",
+   "id": "319786095781945344",
    "sport": "Labdarúgás",
-   "name": "CA Huracan - Gimnasia y Esgrima",
-   "home": "CA Huracan",
-   "away": "Gimnasia y Esgrima",
-   "home_pid": "1429902",
-   "away_pid": "10710710369128448",
+   "name": "Lanus - Talleres de Cordoba",
+   "home": "Lanus",
+   "away": "Talleres de Cordoba",
+   "home_pid": "274940254060941312",
+   "away_pid": "189968474105237504",
    "tournament": "Argentin bajnokság, női",
    "category": "Argentína",
    "tm_sport_id": "1",
    "start": "2026-11-16T18:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1001846476730264",
+   "fixtureId": "id1001846476730268",
    "startTime": "2026-11-16T18:00:00.000Z",
-   "participant1Name": "CA Huracan",
-   "participant2Name": "Gimnasia Y Esgrima La Plata",
+   "participant1Name": "Atletico Lanus",
+   "participant2Name": "CA Talleres de Cordoba",
    "tournamentId": 18464,
    "tournamentName": "Primera Division, Women",
    "sportName": "Soccer"
@@ -2054,36 +2054,6 @@
   },
   "score": 0.8
  },
- "id1200398776806554": {
-  "tm": {
-   "id": "319986673189462016",
-   "sport": "Tenisz",
-   "name": "Nicolai Budkov Kjaer - Mika Brunold",
-   "home": "Nicolai Budkov Kjaer",
-   "away": "Mika Brunold",
-   "home_pid": "208880738011074560",
-   "away_pid": "115899900565180416",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-16T15:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776806554",
-   "startTime": "2026-11-16T15:30:00.000Z",
-   "participant1Name": "Budkov Kjaer, Nicolai",
-   "participant2Name": "Brunold, Mika",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663210,
-   "name": "N. Budkov Kjaer - M. Brunold",
-   "score": 1.0
-  }
- },
  "id1200398776806552": {
   "tm": {
    "id": "319986672590725120",
@@ -2096,7 +2066,7 @@
    "tournament": "Helsinki, férfi egyes",
    "category": "Challenger",
    "tm_sport_id": "3",
-   "start": "2026-11-16T16:10:00+00:00"
+   "start": "2026-11-16T16:15:00+00:00"
   },
   "fx": {
    "fixtureId": "id1200398776806552",
@@ -2261,126 +2231,6 @@
   "cl": {
    "id": 5655946,
    "name": "K. Samrej - Yuta Tomida",
-   "score": 1.0
-  }
- },
- "id1200398776806566": {
-  "tm": {
-   "id": "319986752894869504",
-   "sport": "Tenisz",
-   "name": "Daniil Glinka - Nishesh Basavareddy",
-   "home": "Daniil Glinka",
-   "away": "Nishesh Basavareddy",
-   "home_pid": "1362332",
-   "away_pid": "126707894992293888",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T09:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776806566",
-   "startTime": "2026-11-17T09:00:00.000Z",
-   "participant1Name": "Glinka, Daniil",
-   "participant2Name": "Basavareddy, Nishesh",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663181,
-   "name": "D. Glinka - Nishesh Basavareddy",
-   "score": 1.0
-  }
- },
- "id1200398776806570": {
-  "tm": {
-   "id": "319986673085652992",
-   "sport": "Tenisz",
-   "name": "James Duckworth - Eero Vasa",
-   "home": "James Duckworth",
-   "away": "Eero Vasa",
-   "home_pid": "352916",
-   "away_pid": "1157209",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T09:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776806570",
-   "startTime": "2026-11-17T09:00:00.000Z",
-   "participant1Name": "Duckworth, James",
-   "participant2Name": "Vasa, Eero",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663196,
-   "name": "J. Duckworth - Eero Vasa",
-   "score": 1.0
-  }
- },
- "id1200398776806564": {
-  "tm": {
-   "id": "319986672927318016",
-   "sport": "Tenisz",
-   "name": "Dalibor Svrcina - Leo Borg",
-   "home": "Dalibor Svrcina",
-   "away": "Leo Borg",
-   "home_pid": "1380076758528000",
-   "away_pid": "96935764119519232",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T09:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776806564",
-   "startTime": "2026-11-17T09:00:00.000Z",
-   "participant1Name": "Svrcina, Dalibor",
-   "participant2Name": "Borg, Leo",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663158,
-   "name": "D. Svrcina - Leo Borg",
-   "score": 1.0
-  }
- },
- "id1200398776806568": {
-  "tm": {
-   "id": "319986673279639552",
-   "sport": "Tenisz",
-   "name": "Michele Ribecai - Edas Butvilas",
-   "home": "Michele Ribecai",
-   "away": "Edas Butvilas",
-   "home_pid": "193770240456421376",
-   "away_pid": "142533406964633600",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T09:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776806568",
-   "startTime": "2026-11-17T09:00:00.000Z",
-   "participant1Name": "Ribecai, Michele",
-   "participant2Name": "Butvilas, Edas",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663163,
-   "name": "M. Ribecai - E. Butvilas",
    "score": 1.0
   }
  },
@@ -2909,25 +2759,25 @@
   },
   "score": 1.0
  },
- "id1100027772016396": {
+ "id1100027772016398": {
   "tm": {
-   "id": "318992012801024000",
+   "id": "318992012718186496",
    "sport": "Kosárlabda",
-   "name": "Södertälje - Boras",
-   "home": "Södertälje",
-   "away": "Boras",
-   "home_pid": "10895",
-   "away_pid": "82936",
+   "name": "Högsbo - Uppsala",
+   "home": "Högsbo",
+   "away": "Uppsala",
+   "home_pid": "182526991806812160",
+   "away_pid": "154429905397039104",
    "tournament": "Svéd bajnokság",
    "category": "Svédország",
    "tm_sport_id": "8",
    "start": "2026-11-17T18:04:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1100027772016396",
+   "fixtureId": "id1100027772016398",
    "startTime": "2026-11-17T18:04:00.000Z",
-   "participant1Name": "Sodertalje BBK",
-   "participant2Name": "Boraas Basket",
+   "participant1Name": "Hogsbo Basket",
+   "participant2Name": "Uppsala Basket",
    "tournamentId": 277,
    "tournamentName": "SBL",
    "sportName": "Basketball"
@@ -2959,25 +2809,25 @@
   },
   "score": 1.0
  },
- "id1100027772016398": {
+ "id1100027772016396": {
   "tm": {
-   "id": "318992012718186496",
+   "id": "318992012801024000",
    "sport": "Kosárlabda",
-   "name": "Högsbo - Uppsala",
-   "home": "Högsbo",
-   "away": "Uppsala",
-   "home_pid": "182526991806812160",
-   "away_pid": "154429905397039104",
+   "name": "Södertälje - Boras",
+   "home": "Södertälje",
+   "away": "Boras",
+   "home_pid": "10895",
+   "away_pid": "82936",
    "tournament": "Svéd bajnokság",
    "category": "Svédország",
    "tm_sport_id": "8",
    "start": "2026-11-17T18:04:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1100027772016398",
+   "fixtureId": "id1100027772016396",
    "startTime": "2026-11-17T18:04:00.000Z",
-   "participant1Name": "Hogsbo Basket",
-   "participant2Name": "Uppsala Basket",
+   "participant1Name": "Sodertalje BBK",
+   "participant2Name": "Boraas Basket",
    "tournamentId": 277,
    "tournamentName": "SBL",
    "sportName": "Basketball"
@@ -3357,36 +3207,6 @@
    "id": 5586718,
    "name": "Zalgiris Kaunas - Bayern München",
    "score": 1.0
-  }
- },
- "id1102015473113308": {
-  "tm": {
-   "id": "318936739390496768",
-   "sport": "Kosárlabda",
-   "name": "Proteasz Voula - Kronosz Ag. Dimitriosz",
-   "home": "Proteasz Voula",
-   "away": "Kronosz Ag. Dimitriosz",
-   "home_pid": "182698690668974080",
-   "away_pid": "281248745845297152",
-   "tournament": "Görög 2.",
-   "category": "Görögország",
-   "tm_sport_id": "8",
-   "start": "2026-11-16T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102015473113308",
-   "startTime": "2026-11-16T18:00:00.000Z",
-   "participant1Name": "Proteas Voulas",
-   "participant2Name": "Kronos Agiou Dimitriou",
-   "tournamentId": 20154,
-   "tournamentName": "Elite League",
-   "sportName": "Basketball"
-  },
-  "score": 0.886,
-  "cl": {
-   "id": 5555056,
-   "name": "Proteasz Voula - Kronosz Agiou Dimitriou",
-   "score": 0.905
   }
  },
  "id1100026372676976": {
@@ -3874,36 +3694,6 @@
    "score": 1.0
   }
  },
- "id1500026772677596": {
-  "tm": {
-   "id": "318992019342041088",
-   "sport": "Jégkorong",
-   "name": "Bad Nauheim - Ravensburg",
-   "home": "Bad Nauheim",
-   "away": "Ravensburg",
-   "home_pid": "435659",
-   "away_pid": "1501962",
-   "tournament": "Német 2.",
-   "category": "Németország",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T18:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500026772677596",
-   "startTime": "2026-11-17T18:30:00.000Z",
-   "participant1Name": "EC Bad Nauheim",
-   "participant2Name": "Ravensburg Towerstars",
-   "tournamentId": 267,
-   "tournamentName": "DEL 2",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593640,
-   "name": "Bad Nauheim - Ravensburg",
-   "score": 1.0
-  }
- },
  "id1500026772677592": {
   "tm": {
    "id": "318992019615719424",
@@ -3931,6 +3721,36 @@
   "cl": {
    "id": 5593644,
    "name": "Crimmitschau - Kassel",
+   "score": 1.0
+  }
+ },
+ "id1500026772677596": {
+  "tm": {
+   "id": "318992019342041088",
+   "sport": "Jégkorong",
+   "name": "Bad Nauheim - Ravensburg",
+   "home": "Bad Nauheim",
+   "away": "Ravensburg",
+   "home_pid": "435659",
+   "away_pid": "1501962",
+   "tournament": "Német 2.",
+   "category": "Németország",
+   "tm_sport_id": "6",
+   "start": "2026-11-17T18:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500026772677596",
+   "startTime": "2026-11-17T18:30:00.000Z",
+   "participant1Name": "EC Bad Nauheim",
+   "participant2Name": "Ravensburg Towerstars",
+   "tournamentId": 267,
+   "tournamentName": "DEL 2",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5593640,
+   "name": "Bad Nauheim - Ravensburg",
    "score": 1.0
   }
  },
@@ -3964,36 +3784,6 @@
    "score": 1.0
   }
  },
- "id1500026772677598": {
-  "tm": {
-   "id": "318992019495133184",
-   "sport": "Jégkorong",
-   "name": "Lausitzer Füchse - Memmingen Indians",
-   "home": "Lausitzer Füchse",
-   "away": "Memmingen Indians",
-   "home_pid": "37314",
-   "away_pid": "165949311198347264",
-   "tournament": "Német 2.",
-   "category": "Németország",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T18:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500026772677598",
-   "startTime": "2026-11-17T18:30:00.000Z",
-   "participant1Name": "Lausitzer Fuchse",
-   "participant2Name": "Memmingen Indians",
-   "tournamentId": 267,
-   "tournamentName": "DEL 2",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593641,
-   "name": "Lausitzer Füchse - Memmingen Indians",
-   "score": 1.0
-  }
- },
  "id1500026772677594": {
   "tm": {
    "id": "318992019100868608",
@@ -4021,6 +3811,36 @@
   "cl": {
    "id": 5593643,
    "name": "Düsseldorf - Rosenheim",
+   "score": 1.0
+  }
+ },
+ "id1500026772677598": {
+  "tm": {
+   "id": "318992019495133184",
+   "sport": "Jégkorong",
+   "name": "Lausitzer Füchse - Memmingen Indians",
+   "home": "Lausitzer Füchse",
+   "away": "Memmingen Indians",
+   "home_pid": "37314",
+   "away_pid": "165949311198347264",
+   "tournament": "Német 2.",
+   "category": "Németország",
+   "tm_sport_id": "6",
+   "start": "2026-11-17T18:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500026772677598",
+   "startTime": "2026-11-17T18:30:00.000Z",
+   "participant1Name": "Lausitzer Fuchse",
+   "participant2Name": "Memmingen Indians",
+   "tournamentId": 267,
+   "tournamentName": "DEL 2",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5593641,
+   "name": "Lausitzer Füchse - Memmingen Indians",
    "score": 1.0
   }
  },
@@ -4759,50 +4579,25 @@
    "score": 1.0
   }
  },
- "id2503634976830604": {
+ "id2503634976830538": {
   "tm": {
-   "id": "320043354405543936",
+   "id": "320044440459747328",
    "sport": "Asztalitenisz",
-   "name": "Nadymacek Frantisek - David Szotek",
-   "home": "Nadymacek Frantisek",
-   "away": "David Szotek",
-   "home_pid": "309600792786571264",
-   "away_pid": "169718539420225536",
+   "name": "Tomas Nohejl - Framberk Jan",
+   "home": "Tomas Nohejl",
+   "away": "Framberk Jan",
+   "home_pid": "177420810673246208",
+   "away_pid": "184523105441468416",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-16T15:30:00+00:00"
+   "start": "2026-11-16T16:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976830604",
-   "startTime": "2026-11-16T15:30:00.000Z",
-   "participant1Name": "Nadymacek, Frantisek",
-   "participant2Name": "Szotek, David",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976830596": {
-  "tm": {
-   "id": "320043354475798528",
-   "sport": "Asztalitenisz",
-   "name": "Wagner Richard - Radim Urbaniec",
-   "home": "Wagner Richard",
-   "away": "Radim Urbaniec",
-   "home_pid": "307739875767709696",
-   "away_pid": "167634919836667904",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T15:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830596",
-   "startTime": "2026-11-16T15:30:00.000Z",
-   "participant1Name": "Wagner, Richard",
-   "participant2Name": "Urbaniec, Radim",
+   "fixtureId": "id2503634976830538",
+   "startTime": "2026-11-16T16:00:00.000Z",
+   "participant1Name": "Nohejl, Tomas",
+   "participant2Name": "Framberk, Jan",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -4859,27 +4654,102 @@
   },
   "score": 1.0
  },
- "id2503634976830538": {
+ "id2503634976830576": {
   "tm": {
-   "id": "320044440459747328",
+   "id": "320044440253177856",
    "sport": "Asztalitenisz",
-   "name": "Tomas Nohejl - Framberk Jan",
-   "home": "Tomas Nohejl",
-   "away": "Framberk Jan",
-   "home_pid": "177420810673246208",
-   "away_pid": "184523105441468416",
+   "name": "David Szotek - Michal Vavrecka",
+   "home": "David Szotek",
+   "away": "Michal Vavrecka",
+   "home_pid": "169718539420225536",
+   "away_pid": "167482783032201216",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T16:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830576",
+   "startTime": "2026-11-16T16:30:00.000Z",
+   "participant1Name": "Szotek, David",
+   "participant2Name": "Vavrecka, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830566": {
+  "tm": {
+   "id": "320043355000086528",
+   "sport": "Asztalitenisz",
+   "name": "Radim Urbaniec - Michal Zahradka",
+   "home": "Radim Urbaniec",
+   "away": "Michal Zahradka",
+   "home_pid": "167634919836667904",
+   "away_pid": "157416179233771520",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T16:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976830566",
+   "startTime": "2026-11-16T16:30:00.000Z",
+   "participant1Name": "Urbaniec, Radim",
+   "participant2Name": "Zahradka, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976830490": {
+  "tm": {
+   "id": "320043354201071616",
+   "sport": "Asztalitenisz",
+   "name": "Vaclav Nohejl 2005 - Wagner Richard",
+   "home": "Vaclav Nohejl 2005",
+   "away": "Wagner Richard",
+   "home_pid": "302561937129246720",
+   "away_pid": "307739875767709696",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
    "start": "2026-11-16T16:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976830538",
+   "fixtureId": "id2503634976830490",
    "startTime": "2026-11-16T16:00:00.000Z",
-   "participant1Name": "Nohejl, Tomas",
-   "participant2Name": "Framberk, Jan",
+   "participant1Name": "Nohejl, Vaclav (2005)",
+   "participant2Name": "Wagner, Richard",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503637776835054": {
+  "tm": {
+   "id": "320128323018629120",
+   "sport": "Asztalitenisz",
+   "name": "Mariusz Baron - Pawel Polok",
+   "home": "Mariusz Baron",
+   "away": "Pawel Polok",
+   "home_pid": "221477338961039360",
+   "away_pid": "310417721737768960",
+   "tournament": "TT Elite Series",
+   "category": "Lengyelország",
+   "tm_sport_id": "63",
+   "start": "2026-11-16T15:40:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503637776835054",
+   "startTime": "2026-11-16T15:40:00.000Z",
+   "participant1Name": "Baron, Mariusz",
+   "participant2Name": "Polok, Pawel",
+   "tournamentId": 36377,
+   "tournamentName": "TT Elite Series",
    "sportName": "Table Tennis"
   },
   "score": 1.0
@@ -5032,6 +4902,90 @@
    "tournament": "Metz, férfi egyes"
   }
  },
+ "id1200398776806564": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1200398776806564",
+   "startTime": "2026-11-17T09:00:00.000Z",
+   "participant1Name": "Svrcina, Dalibor",
+   "participant2Name": "Borg, Leo",
+   "tournamentId": 3987,
+   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663158,
+   "name": "D. Svrcina - Leo Borg",
+   "score": 1.0,
+   "home": "D. Svrcina",
+   "away": "Leo Borg",
+   "tournament": "Helsinki, férfi egyes"
+  }
+ },
+ "id1200398776806568": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1200398776806568",
+   "startTime": "2026-11-17T09:00:00.000Z",
+   "participant1Name": "Ribecai, Michele",
+   "participant2Name": "Butvilas, Edas",
+   "tournamentId": 3987,
+   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663163,
+   "name": "M. Ribecai - E. Butvilas",
+   "score": 1.0,
+   "home": "M. Ribecai",
+   "away": "E. Butvilas",
+   "tournament": "Helsinki, férfi egyes"
+  }
+ },
+ "id1200398776806566": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1200398776806566",
+   "startTime": "2026-11-17T09:00:00.000Z",
+   "participant1Name": "Glinka, Daniil",
+   "participant2Name": "Basavareddy, Nishesh",
+   "tournamentId": 3987,
+   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663181,
+   "name": "D. Glinka - Nishesh Basavareddy",
+   "score": 1.0,
+   "home": "D. Glinka",
+   "away": "Nishesh Basavareddy",
+   "tournament": "Helsinki, férfi egyes"
+  }
+ },
+ "id1200398776806570": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1200398776806570",
+   "startTime": "2026-11-17T09:00:00.000Z",
+   "participant1Name": "Duckworth, James",
+   "participant2Name": "Vasa, Eero",
+   "tournamentId": 3987,
+   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663196,
+   "name": "J. Duckworth - Eero Vasa",
+   "score": 1.0,
+   "home": "J. Duckworth",
+   "away": "Eero Vasa",
+   "tournament": "Helsinki, férfi egyes"
+  }
+ },
  "id1205210676807180": {
   "tm": null,
   "fx": {
@@ -5177,6 +5131,27 @@
    "home": "Hapoel Galil Elyon",
    "away": "Hapoel Eilat",
    "tournament": "Izraeli bajnokság"
+  }
+ },
+ "id1102015473113308": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1102015473113308",
+   "startTime": "2026-11-16T18:00:00.000Z",
+   "participant1Name": "Proteas Voulas",
+   "participant2Name": "Kronos Agiou Dimitriou",
+   "tournamentId": 20154,
+   "tournamentName": "Elite League",
+   "sportName": "Basketball"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5555056,
+   "name": "Proteasz Voula - Kronosz Agiou Dimitriou",
+   "score": 1.0,
+   "home": "Proteasz Voula",
+   "away": "Kronosz Agiou Dimitriou",
+   "tournament": "Görög 2."
   }
  },
  "id1500084472734750": {
