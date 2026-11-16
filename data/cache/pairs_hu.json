@@ -2027,7 +2027,12 @@
    "tournamentName": "Int. Friendly Games",
    "sportName": "Soccer"
   },
-  "score": 0.809
+  "score": 0.809,
+  "cl": {
+   "id": 5655241,
+   "name": "Kirgizisztán - Vietnám",
+   "score": 1.0
+  }
  },
  "id1002617476485392": {
   "tm": {
@@ -4602,7 +4607,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663672,
+   "name": "T. Nohejl - J. Framberk",
+   "score": 1.0
+  }
  },
  "id2503634976830468": {
   "tm": {
@@ -4627,7 +4637,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5664225,
+   "name": "T. Chmela - F. Nadymacek",
+   "score": 1.0
+  }
  },
  "id2503634976830584": {
   "tm": {
@@ -4652,7 +4667,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5664227,
+   "name": "J. Tazler - M. Pikous",
+   "score": 1.0
+  }
  },
  "id2503634976830576": {
   "tm": {
@@ -4677,7 +4697,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5664222,
+   "name": "D. Szotek - M. Vavrecka",
+   "score": 1.0
+  }
  },
  "id2503634976830566": {
   "tm": {
@@ -4702,7 +4727,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5664223,
+   "name": "R. Urbaniec - M. Zahradka",
+   "score": 1.0
+  }
  },
  "id2503634976830490": {
   "tm": {
@@ -4727,32 +4757,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
- },
- "id2503637776835054": {
-  "tm": {
-   "id": "320128323018629120",
-   "sport": "Asztalitenisz",
-   "name": "Mariusz Baron - Pawel Polok",
-   "home": "Mariusz Baron",
-   "away": "Pawel Polok",
-   "home_pid": "221477338961039360",
-   "away_pid": "310417721737768960",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-16T15:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776835054",
-   "startTime": "2026-11-16T15:40:00.000Z",
-   "participant1Name": "Baron, Mariusz",
-   "participant2Name": "Polok, Pawel",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5664229,
+   "name": "V. Nohejl - Richard Wagner",
+   "score": 1.0
+  }
  },
  "id2702157075326638": {
   "tm": {
@@ -4902,90 +4912,6 @@
    "tournament": "Metz, férfi egyes"
   }
  },
- "id1200398776806564": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200398776806564",
-   "startTime": "2026-11-17T09:00:00.000Z",
-   "participant1Name": "Svrcina, Dalibor",
-   "participant2Name": "Borg, Leo",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663158,
-   "name": "D. Svrcina - Leo Borg",
-   "score": 1.0,
-   "home": "D. Svrcina",
-   "away": "Leo Borg",
-   "tournament": "Helsinki, férfi egyes"
-  }
- },
- "id1200398776806568": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200398776806568",
-   "startTime": "2026-11-17T09:00:00.000Z",
-   "participant1Name": "Ribecai, Michele",
-   "participant2Name": "Butvilas, Edas",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663163,
-   "name": "M. Ribecai - E. Butvilas",
-   "score": 1.0,
-   "home": "M. Ribecai",
-   "away": "E. Butvilas",
-   "tournament": "Helsinki, férfi egyes"
-  }
- },
- "id1200398776806566": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200398776806566",
-   "startTime": "2026-11-17T09:00:00.000Z",
-   "participant1Name": "Glinka, Daniil",
-   "participant2Name": "Basavareddy, Nishesh",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663181,
-   "name": "D. Glinka - Nishesh Basavareddy",
-   "score": 1.0,
-   "home": "D. Glinka",
-   "away": "Nishesh Basavareddy",
-   "tournament": "Helsinki, férfi egyes"
-  }
- },
- "id1200398776806570": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200398776806570",
-   "startTime": "2026-11-17T09:00:00.000Z",
-   "participant1Name": "Duckworth, James",
-   "participant2Name": "Vasa, Eero",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663196,
-   "name": "J. Duckworth - Eero Vasa",
-   "score": 1.0,
-   "home": "J. Duckworth",
-   "away": "Eero Vasa",
-   "tournament": "Helsinki, férfi egyes"
-  }
- },
  "id1205210676807180": {
   "tm": null,
   "fx": {
@@ -5133,27 +5059,6 @@
    "tournament": "Izraeli bajnokság"
   }
  },
- "id1102015473113308": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1102015473113308",
-   "startTime": "2026-11-16T18:00:00.000Z",
-   "participant1Name": "Proteas Voulas",
-   "participant2Name": "Kronos Agiou Dimitriou",
-   "tournamentId": 20154,
-   "tournamentName": "Elite League",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5555056,
-   "name": "Proteasz Voula - Kronosz Agiou Dimitriou",
-   "score": 1.0,
-   "home": "Proteasz Voula",
-   "away": "Kronosz Agiou Dimitriou",
-   "tournament": "Görög 2."
-  }
- },
  "id1500084472734750": {
   "tm": null,
   "fx": {
@@ -5173,6 +5078,174 @@
    "home": "Hartford",
    "away": "Charlotte",
    "tournament": "AHL"
+  }
+ },
+ "id2503634976830488": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830488",
+   "startTime": "2026-11-16T16:30:00.000Z",
+   "participant1Name": "Pagac, Zbynek",
+   "participant2Name": "Chalupa, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663665,
+   "name": "Z. Pagac - M. Chalupa",
+   "score": 1.0,
+   "home": "Z. Pagac",
+   "away": "M. Chalupa",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830434": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830434",
+   "startTime": "2026-11-16T17:00:00.000Z",
+   "participant1Name": "Zahradka, Michal",
+   "participant2Name": "Wagner, Richard",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664312,
+   "name": "M. Zahradka - Richard Wagner",
+   "score": 1.0,
+   "home": "M. Zahradka",
+   "away": "Richard Wagner",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830508": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830508",
+   "startTime": "2026-11-16T17:00:00.000Z",
+   "participant1Name": "Vavrecka, Michal",
+   "participant2Name": "Nadymacek, Frantisek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664317,
+   "name": "M. Vavrecka - F. Nadymacek",
+   "score": 1.0,
+   "home": "M. Vavrecka",
+   "away": "F. Nadymacek",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830420": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830420",
+   "startTime": "2026-11-16T17:00:00.000Z",
+   "participant1Name": "Chalupa, Michal",
+   "participant2Name": "Simecek, Jakub",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664318,
+   "name": "M. Chalupa - Jakub Simecek",
+   "score": 1.0,
+   "home": "M. Chalupa",
+   "away": "Jakub Simecek",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830598": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830598",
+   "startTime": "2026-11-16T17:00:00.000Z",
+   "participant1Name": "Didi, Julius",
+   "participant2Name": "Framberk, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664321,
+   "name": "J. Didi - J. Framberk",
+   "score": 1.0,
+   "home": "J. Didi",
+   "away": "J. Framberk",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830500": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830500",
+   "startTime": "2026-11-16T17:30:00.000Z",
+   "participant1Name": "Nohejl, Vaclav (2005)",
+   "participant2Name": "Urbaniec, Radim",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664313,
+   "name": "V. Nohejl - R. Urbaniec",
+   "score": 1.0,
+   "home": "V. Nohejl",
+   "away": "R. Urbaniec",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830560": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830560",
+   "startTime": "2026-11-16T17:30:00.000Z",
+   "participant1Name": "Chmela, Tibor",
+   "participant2Name": "Szotek, David",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664315,
+   "name": "T. Chmela - D. Szotek",
+   "score": 1.0,
+   "home": "T. Chmela",
+   "away": "D. Szotek",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976830454": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976830454",
+   "startTime": "2026-11-16T17:30:00.000Z",
+   "participant1Name": "Holub, Marek",
+   "participant2Name": "Pagac, Zbynek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5664322,
+   "name": "M. Holub - Z. Pagac",
+   "score": 1.0,
+   "home": "M. Holub",
+   "away": "Z. Pagac",
+   "tournament": "Cseh Liga Pro"
   }
  },
  "id1400003171516032": {
