@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-14T19:50:53.645935+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.0% Dep. Cali – Dep. Tolima · Gólszám 2: Több @1.52 (fair 1.519)",
-   "-0.4% CD Recoleta – Libertad Asuncion · 1X2: Libertad Asuncion győz @1.94 (fair 1.948)",
-   "-0.4% Dep. Cali – Dep. Tolima · Gólszám 1.5: Több @1.32 (fair 1.325)",
-   "-0.4% Aguilas Doradas Rionegro – Independiente Medellin · Gólszám 1.5: Több @1.32 (fair 1.325)",
-   "-0.4% CD Recoleta – Libertad Asuncion · Ázsiai hendikep: Libertad Asuncion (-0) @1.42 (fair 1.426)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 3,
-  "fast": true,
-  "fixtures_checked": 33,
-  "fixtures_both": 20,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 6,
-  "classic_checked": 20,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+1.2% Haiti – USA · Gólszám 4: Kevesebb @1.39 (fair 1.373)",
-   "-0.8% Haiti – USA · Gólszám 3.75: Kevesebb @1.53 (fair 1.542)",
-   "-0.9% CD Recoleta – Libertad Asuncion · 1X2: Libertad Asuncion győz @1.93 (fair 1.948)",
-   "-1.6% Viddal Riley – S. Coupe · Győztes: Viddal Riley győz @1.03 (fair 1.047)",
-   "-1.9% Haiti – USA · Gólszám 3.5: Kevesebb @1.68 (fair 1.713)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 39
- },
- {
   "time": "2026-11-14T19:57:19.015798+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23670,5 +23636,39 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 73
+ },
+ {
+  "time": "2026-11-16T15:00:17.375079+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "+3.7% U23Algéria – U23Eswatini · Ázsiai hendikep: U23Algéria (-2) @1.9 (fair 1.833)",
+   "+2.4% U23Algéria – U23Eswatini · Ázsiai hendikep: U23Algéria (-1.75) @1.69 (fair 1.65)",
+   "+1.1% U23Algéria – U23Eswatini · Ázsiai hendikep: U23Algéria (-1.5) @1.55 (fair 1.533)",
+   "-0.4% Izland – Luxemburg · Gólszám 4.5: Kevesebb @1.17 (fair 1.174)",
+   "-0.6% Litvánia – Liechtenstein · 1X2: Litvánia győz @1.11 (fair 1.117)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 4,
+  "fast": true,
+  "fixtures_checked": 22,
+  "fixtures_both": 13,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 5,
+  "classic_checked": 17,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.1% Izland – Luxemburg · Gólszám 4.5: Kevesebb @1.15 (fair 1.174)",
+   "-2.3% VfB Stuttgart – Leverkusen · Gólszám 3.75: Kevesebb @1.46 (fair 1.495)",
+   "-2.7% Eritrea – Guinea · Gólszám 3.25: Kevesebb @1.35 (fair 1.387)",
+   "-2.9% Eritrea – Guinea · Gólszám 3: Kevesebb @1.43 (fair 1.473)",
+   "-3.0% Észtország – Bulgária · Ázsiai hendikep: Észtország (+0) @1.38 (fair 1.422)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 27
  }
 ]
