@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-15T02:34:10.530286+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 360,
-   "paired": 246,
-   "classic_only": 34
-  },
-  "tippmix_matches": 1304,
-  "pinnacle_fixtures": 1137,
-  "paired": 706,
-  "by_sport": {
-   "Soccer": [
-    584,
-    349
-   ],
-   "Tennis": [
-    116,
-    31
-   ],
-   "Basketball": [
-    247,
-    158
-   ],
-   "Ice Hockey": [
-    80,
-    61
-   ],
-   "Handball": [
-    39,
-    28
-   ],
-   "Volleyball": [
-    85,
-    35
-   ],
-   "Table Tennis": [
-    20,
-    8
-   ],
-   "Cricket": [
-    29,
-    9
-   ],
-   "Badminton": [
-    9,
-    3
-   ],
-   "Darts": [
-    16,
-    0
-   ],
-   "Futsal": [
-    5,
-    4
-   ],
-   "Waterpolo": [
-    2,
-    2
-   ],
-   "ESport Counter-Strike": [
-    19,
-    1
-   ],
-   "ESport Dota": [
-    6,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    39,
-    0
-   ],
-   "eBasketball": [
-    8,
-    0
-   ],
-   "American Football": [
-    0,
-    12
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    3
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    2
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+0.1% Új-Zéland – India · 1X2: Új-Zéland győz @1.09 (fair 1.089)",
-   "+0.1% Anaheim – NY Islanders · Hendikep (rendes játékidő): Anaheim (+1) @1.44 (fair 1.439)",
-   "-0.9% Új-Zéland – India · Gólszám 2.5: Több @1.35 (fair 1.363)",
-   "-1.0% Canberra Utd. – Brisbane Roar · 1X2: Canberra Utd. győz @1.68 (fair 1.697)",
-   "-1.4% Extremadura – Pontevedra · Gólszám 1.75: Több @1.37 (fair 1.389)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 22,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 100,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 15,
-  "classic_checked": 59,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.3% Sutherland Sharks – Canberra Croatia · Gólszám 3.5: Kevesebb @1.67 (fair 1.664)",
-   "-0.9% Új-Zéland – India · Gólszám 5.5: Kevesebb @1.16 (fair 1.17)",
-   "-1.1% Vanraure Hachnohe – Iwaki · Gólszám 3.5: Kevesebb @1.33 (fair 1.344)",
-   "-1.2% Cerezo Osaka – Urawa RD · Gólszám 3.25: Kevesebb @1.61 (fair 1.63)",
-   "-1.3% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 3: Kevesebb @1.32 (fair 1.337)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-15T02:52:36.598892+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 5,
-  "top_ev": [
-   "-1.0% Canberra Utd. – Brisbane Roar · 1X2: Canberra Utd. győz @1.68 (fair 1.697)",
-   "-2.0% Dimitris Sakellaridis – Toya Ishikawa · Győztes: Dimitris Sakellaridis győz @1.06 (fair 1.082)",
-   "-2.8% Canberra Utd. – Brisbane Roar · Gólszám 1.5: Több @1.16 (fair 1.194)",
-   "-3.0% Dimitris Sakellaridis – Toya Ishikawa · Játékszám 16.5: Több @1.48 (fair 1.526)",
-   "-3.3% Canberra Utd. – Brisbane Roar · Gólszám 2.5: Több @1.55 (fair 1.602)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 23,
-  "fixtures_both": 13,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 5,
-  "classic_checked": 18,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.3% Sutherland Sharks – Canberra Croatia · Gólszám 3.5: Kevesebb @1.67 (fair 1.664)",
-   "-1.3% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 3: Kevesebb @1.32 (fair 1.337)",
-   "-2.0% Canberra Capitals – Townsville Fire · Hendikep (hosszabbítással): Townsville Fire (-8.5) @1.73 (fair 1.766)",
-   "-2.2% Omiya Ardija Ventus – Mynavi Sendai · Gólszám 2.75: Kevesebb @1.48 (fair 1.513)",
-   "-2.2% Vanraure Hachnohe – Iwaki · Gólszám 3.5: Kevesebb @1.29 (fair 1.319)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 28
- },
- {
   "time": "2026-11-15T02:57:57.534102+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23055,5 +22864,196 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 22
+ },
+ {
+  "time": "2026-11-16T19:29:43.766747+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [
+   "-3.5% CD Moquegua – Atl. Grau · Gólszám 1.5: Több @1.36 (fair 1.409)",
+   "-4.4% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.03 (fair 2.123)",
+   "-6.0% CA Belgrano Cordoba – CA Banfield · Gólszám 2.5: Kevesebb @1.46 (fair 1.552)",
+   "-7.5% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.61 (fair 1.741)",
+   "-8.7% CA Belgrano Cordoba – CA Banfield · 1X2: Döntetlen @3.0 (fair 3.286)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 10,
+  "fixtures_both": 2,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 9,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-5.4% CD Moquegua – Atl. Grau · Gólszám 2.75: Kevesebb @1.47 (fair 1.553)",
+   "-5.8% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.0 (fair 2.123)",
+   "-6.4% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.63 (fair 1.741)",
+   "-6.6% CD Moquegua – Atl. Grau · Ázsiai hendikep: CD Moquegua (-0.5) @1.68 (fair 1.799)",
+   "-6.9% CD Moquegua – Atl. Grau · Ázsiai hendikep: Atl. Grau (+1.25) @1.38 (fair 1.482)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 10
+ },
+ {
+  "time": "2026-11-16T19:34:43.767106+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 4,
+  "boosts": 0,
+  "classic": {
+   "events": 361,
+   "paired": 78,
+   "classic_only": 5
+  },
+  "tippmix_matches": 847,
+  "pinnacle_fixtures": 658,
+  "paired": 135,
+  "by_sport": {
+   "Soccer": [
+    141,
+    46
+   ],
+   "Tennis": [
+    267,
+    5
+   ],
+   "Basketball": [
+    125,
+    35
+   ],
+   "Ice Hockey": [
+    37,
+    26
+   ],
+   "Handball": [
+    19,
+    11
+   ],
+   "Volleyball": [
+    22,
+    0
+   ],
+   "Table Tennis": [
+    37,
+    8
+   ],
+   "Cricket": [
+    8,
+    1
+   ],
+   "Badminton": [
+    34,
+    0
+   ],
+   "Darts": [
+    30,
+    2
+   ],
+   "Futsal": [
+    5,
+    0
+   ],
+   "Waterpolo": [
+    5,
+    0
+   ],
+   "ESport Counter-Strike": [
+    22,
+    0
+   ],
+   "ESport Dota": [
+    2,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    83,
+    0
+   ],
+   "eBasketball": [
+    10,
+    0
+   ],
+   "American Football": [
+    0,
+    1
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-1.2% NY Rangers – Montreal · Hendikep (rendes játékidő): NY Rangers (+1) @1.43 (fair 1.448)",
+   "-2.5% Montevideo Wanderers – Juventud De Las Piedras · Gólszám 1.5: Több @1.31 (fair 1.344)",
+   "-2.7% NY Rangers – Montreal · Hendikep (rendes játékidő): Montreal (+1) @1.41 (fair 1.448)",
+   "-3.0% NY Rangers – Montreal · Győztes (hosszabbítással): NY Rangers győz @1.94 (fair 2.0)",
+   "-3.5% CD Moquegua – Atl. Grau · Gólszám 1.5: Több @1.36 (fair 1.409)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 24,
+  "fixtures_both": 9,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 4,
+  "classic_checked": 17,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.5% Montevideo Wanderers – Juventud De Las Piedras · Gólszám 3.5: Kevesebb @1.31 (fair 1.329)",
+   "-1.7% Montevideo Wanderers – Juventud De Las Piedras · Gólszám 3: Kevesebb @1.45 (fair 1.476)",
+   "-1.9% Trinidad és Tobago – Antigua és Barbuda · Gólszám 3.5: Kevesebb @1.98 (fair 2.018)",
+   "-2.7% Montevideo Wanderers – Juventud De Las Piedras · Gólszám 2.75: Kevesebb @1.64 (fair 1.686)",
+   "-2.9% Kanada – Guatemala · Gólszám 4: Kevesebb @1.41 (fair 1.452)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 28
  }
 ]
