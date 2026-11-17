@@ -2544,6 +2544,31 @@
   },
   "score": 1.0
  },
+ "id1000211274886158": {
+  "tm": {
+   "id": "318780696223096832",
+   "sport": "Labdarúgás",
+   "name": "Plateau Utd. - Kun Khalifat FC",
+   "home": "Plateau Utd.",
+   "away": "Kun Khalifat FC",
+   "home_pid": "1415918",
+   "away_pid": "263715472272273408",
+   "tournament": "Nigériai bajnokság",
+   "category": "Nigéria",
+   "tm_sport_id": "1",
+   "start": "2026-11-17T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000211274886158",
+   "startTime": "2026-11-17T15:00:00.000Z",
+   "participant1Name": "Plateau United",
+   "participant2Name": "Kun Khalifat FC",
+   "tournamentId": 2112,
+   "tournamentName": "Premier League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1003694576792542": {
   "tm": {
    "id": "320156564924211200",
@@ -3037,126 +3062,6 @@
    "id": 5665001,
    "name": "Egyesült Arab Emirátusok - Szíria",
    "score": 1.0
-  }
- },
- "id1201316776868358": {
-  "tm": {
-   "id": "320120757548032000",
-   "sport": "Tenisz",
-   "name": "Ognjen Milic - Maximus Jones",
-   "home": "Ognjen Milic",
-   "away": "Maximus Jones",
-   "home_pid": "237225165324718080",
-   "away_pid": "149423748163883008",
-   "tournament": "Kobe, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316776868358",
-   "startTime": "2026-11-17T03:00:00.000Z",
-   "participant1Name": "Milic, Ognjen",
-   "participant2Name": "Jones, Maximus",
-   "tournamentId": 13167,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665936,
-   "name": "Ogn. Milic - Max. Jones",
-   "score": 0.83
-  }
- },
- "id1200946176793922": {
-  "tm": {
-   "id": "319979135807070208",
-   "sport": "Tenisz",
-   "name": "Tristan Schoolkate - Carl Emil Overbeck",
-   "home": "Tristan Schoolkate",
-   "away": "Carl Emil Overbeck",
-   "home_pid": "7643724978352128",
-   "away_pid": "140659489278840832",
-   "tournament": "Sydney, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T03:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200946176793922",
-   "startTime": "2026-11-17T03:10:00.000Z",
-   "participant1Name": "Schoolkate, Tristan",
-   "participant2Name": "Overbeck, Carl Emil",
-   "tournamentId": 9461,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5656174,
-   "name": "T. Schoolkate - C.E. Overbeck",
-   "score": 1.0
-  }
- },
- "id1201316776799012": {
-  "tm": {
-   "id": "319942218700890112",
-   "sport": "Tenisz",
-   "name": "Niels McDonald - Keegan Smith",
-   "home": "Niels McDonald",
-   "away": "Keegan Smith",
-   "home_pid": "259633552469385216",
-   "away_pid": "160838061940330496",
-   "tournament": "Kobe, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T03:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316776799012",
-   "startTime": "2026-11-17T03:10:00.000Z",
-   "participant1Name": "McDonald, Niels",
-   "participant2Name": "Smith, Keegan",
-   "tournamentId": 13167,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655953,
-   "name": "Niels McDonald - Kee. Smith",
-   "score": 0.9
-  }
- },
- "id1201316776868348": {
-  "tm": {
-   "id": "320120775174594560",
-   "sport": "Tenisz",
-   "name": "Masamichi Imamura - Yuta Shimizu",
-   "home": "Masamichi Imamura",
-   "away": "Yuta Shimizu",
-   "home_pid": "135560403132403712",
-   "away_pid": "1365257",
-   "tournament": "Kobe, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T03:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316776868348",
-   "startTime": "2026-11-17T03:10:00.000Z",
-   "participant1Name": "Imamura, Masamichi",
-   "participant2Name": "Shimizu, Yuta",
-   "tournamentId": 13167,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665935,
-   "name": "Mas. Imamura - Yuta Shimizu",
-   "score": 0.85
   }
  },
  "id1201316776799014": {
@@ -3933,36 +3838,6 @@
    "sportName": "Tennis"
   },
   "score": 1.0
- },
- "id1100064874270448": {
-  "tm": {
-   "id": "320070817261101056",
-   "sport": "Kosárlabda",
-   "name": "Saint Mary's (CA) Gaels - Portland State Vikings",
-   "home": "Saint Mary's (CA) Gaels",
-   "away": "Portland State Vikings",
-   "home_pid": "37638",
-   "away_pid": "38238",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064874270448",
-   "startTime": "2026-11-17T03:00:00.000Z",
-   "participant1Name": "Saint Marys Gaels",
-   "participant2Name": "Portland State Vikings",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5559493,
-   "name": "St Mary's Gaels - Portland State Vikings",
-   "score": 0.928
-  }
  },
  "id1100154073657566": {
   "tm": {
@@ -6152,36 +6027,6 @@
    "id": 5593509,
    "name": "Lengyelország - Törökország",
    "score": 1.0
-  }
- },
- "id1100064874565086": {
-  "tm": {
-   "id": "320092965958656000",
-   "sport": "Kosárlabda",
-   "name": "California San Diego Tritons - Texas Southern Tigers",
-   "home": "California San Diego Tritons",
-   "away": "Texas Southern Tigers",
-   "home_pid": "162701294992277504",
-   "away_pid": "181148",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064874565086",
-   "startTime": "2026-11-17T03:00:00.000Z",
-   "participant1Name": "UC San Diego Tritons",
-   "participant2Name": "Texas Southern Tigers",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 0.825,
-  "cl": {
-   "id": 5593451,
-   "name": "California San Diego Tritons - Texas Southern Tigers",
-   "score": 0.96
   }
  },
  "id1103605975752664": {
@@ -9139,56 +8984,6 @@
   },
   "score": 1.0
  },
- "id2503634976830574": {
-  "tm": {
-   "id": "320044445606158336",
-   "sport": "Asztalitenisz",
-   "name": "Michal Regner - Jakub Tazler",
-   "home": "Michal Regner",
-   "away": "Jakub Tazler",
-   "home_pid": "112731966551511040",
-   "away_pid": "216759636619055104",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830574",
-   "startTime": "2026-11-17T03:00:00.000Z",
-   "participant1Name": "Regner, Michal",
-   "participant2Name": "Tazler, Jakub",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976830382": {
-  "tm": {
-   "id": "320043492472594432",
-   "sport": "Asztalitenisz",
-   "name": "Vladimir Postelt - Martin Sochor",
-   "home": "Vladimir Postelt",
-   "away": "Martin Sochor",
-   "home_pid": "137415561019707392",
-   "away_pid": "193391653712719872",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976830382",
-   "startTime": "2026-11-17T03:00:00.000Z",
-   "participant1Name": "Postelt, Vladimir",
-   "participant2Name": "Sochor, Martin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2504935676873760": {
   "tm": {
    "id": "320130867330621440",
@@ -9488,31 +9283,6 @@
    "sportName": "Table Tennis"
   },
   "score": 1.0
- },
- "id2503637776835338": {
-  "tm": {
-   "id": "320170164105584640",
-   "sport": "Asztalitenisz",
-   "name": "Bartek Sulkowski - Milosz Kukawka",
-   "home": "Bartek Sulkowski",
-   "away": "Milosz Kukawka",
-   "home_pid": "238475768526966784",
-   "away_pid": "195356762099052544",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T02:55:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776835338",
-   "startTime": "2026-11-17T02:55:00.000Z",
-   "participant1Name": "Sulkowski, Bartosz",
-   "participant2Name": "Kukawka, Milosz",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 0.894
  },
  "id2701951875363894": {
   "tm": {
@@ -11168,48 +10938,6 @@
    "home": "Malajzia",
    "away": "Jemen",
    "tournament": "Válogatott mérkőzés"
-  }
- },
- "id1200946176793924": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200946176793924",
-   "startTime": "2026-11-17T03:10:00.000Z",
-   "participant1Name": "Bouzige, Moerani",
-   "participant2Name": "Shang, Juncheng",
-   "tournamentId": 9461,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5656168,
-   "name": "M. Bouzige - Juncheng Shang",
-   "score": 1.0,
-   "home": "M. Bouzige",
-   "away": "Juncheng Shang",
-   "tournament": "Sydney, férfi egyes"
-  }
- },
- "id1200946176793928": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200946176793928",
-   "startTime": "2026-11-17T03:10:00.000Z",
-   "participant1Name": "Sweeny, Dane",
-   "participant2Name": "Langmo, Christian",
-   "tournamentId": 9461,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5656176,
-   "name": "D. Sweeny - C. Langmo",
-   "score": 1.0,
-   "home": "D. Sweeny",
-   "away": "C. Langmo",
-   "tournament": "Sydney, férfi egyes"
   }
  },
  "id1202140876736488": {

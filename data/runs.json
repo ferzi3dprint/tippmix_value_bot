@@ -1,230 +1,5 @@
 [
  {
-  "time": "2026-11-15T15:41:55.974975+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.2% Fehéroroszország – Albánia · Ázsiai hendikep: Albánia (+0.25) @1.28 (fair 1.277)",
-   "+0.1% Fehéroroszország – Albánia · Ázsiai hendikep: Albánia (-0) @1.37 (fair 1.369)",
-   "-0.2% Fehéroroszország – Albánia · Ázsiai hendikep: Albánia (+0.5) @1.22 (fair 1.222)",
-   "-0.3% Odense – Metz · 1X2: Metz győz @1.85 (fair 1.856)",
-   "-0.8% Villach – Fehérvár · Hendikep (rendes játékidő): Fehérvár (+0.5) @1.77 (fair 1.784)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 10,
-  "fast": true,
-  "fixtures_checked": 83,
-  "fixtures_both": 34,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 10,
-  "classic_checked": 53,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.0% Cuneo – Vero Milano · Győztes: Vero Milano győz @1.06 (fair 1.06)",
-   "-0.6% Arsenal – London City Lionesses · Gólszám 3.75: Kevesebb @1.44 (fair 1.448)",
-   "-0.7% Cheshire – Newcastle · Összpontszám (hosszabbítással) 180.5: Kevesebb @1.8 (fair 1.813)",
-   "-0.8% Arsenal – London City Lionesses · Gólszám 3.5: Kevesebb @1.58 (fair 1.593)",
-   "-2.0% Arsenal – London City Lionesses · Gólszám 3.25: Kevesebb @1.71 (fair 1.745)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 89
- },
- {
-  "time": "2026-11-15T15:52:59.324629+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 403,
-   "paired": 158,
-   "classic_only": 20
-  },
-  "tippmix_matches": 885,
-  "pinnacle_fixtures": 1137,
-  "paired": 276,
-  "by_sport": {
-   "Soccer": [
-    234,
-    110
-   ],
-   "Tennis": [
-    130,
-    7
-   ],
-   "Basketball": [
-    185,
-    83
-   ],
-   "Ice Hockey": [
-    66,
-    37
-   ],
-   "Handball": [
-    41,
-    11
-   ],
-   "Volleyball": [
-    65,
-    11
-   ],
-   "Table Tennis": [
-    47,
-    0
-   ],
-   "Cricket": [
-    34,
-    3
-   ],
-   "Badminton": [
-    0,
-    0
-   ],
-   "Darts": [
-    15,
-    0
-   ],
-   "Futsal": [
-    16,
-    2
-   ],
-   "Waterpolo": [
-    5,
-    0
-   ],
-   "ESport Counter-Strike": [
-    11,
-    0
-   ],
-   "ESport Dota": [
-    7,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    25,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    11
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    1
-   ]
-  },
-  "top_ev": [
-   "+1.8% Finnország – San Marino · Gólszám 3.75: Több @1.62 (fair 1.592)",
-   "+0.7% Fehéroroszország – Albánia · Ázsiai hendikep: Albánia (+0.25) @1.28 (fair 1.271)",
-   "+0.7% Vienna Capitals – Klagenfurt · Győztes (hosszabbítással): Vienna Capitals győz @1.92 (fair 1.907)",
-   "+0.6% Fehéroroszország – Albánia · Ázsiai hendikep: Albánia (-0) @1.37 (fair 1.362)",
-   "+0.4% Finnország – San Marino · Ázsiai hendikep: Finnország (-3.25) @1.6 (fair 1.593)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 12,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 80,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 24,
-  "classic_checked": 96,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+2.1% Deportivo A Coruna – Barcelona · Gólszám 4.5: Kevesebb @1.78 (fair 1.743)",
-   "+1.6% Deportivo A Coruna – Barcelona · Gólszám 4.25: Kevesebb @1.95 (fair 1.919)",
-   "+0.3% Deportivo A Coruna – Barcelona · Gólszám 4: Kevesebb @2.21 (fair 2.203)",
-   "+0.0% Cuneo – Vero Milano · Győztes: Vero Milano győz @1.06 (fair 1.06)",
-   "-0.2% Finnország – San Marino · Ázsiai hendikep: Finnország (-3.25) @1.59 (fair 1.593)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-15T16:09:59.035280+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 7,
-  "top_ev": [
-   "+2.9% Villach – Fehérvár · Hendikep (rendes játékidő): Fehérvár (-0) @2.21 (fair 2.148)",
-   "+2.3% Finnország – San Marino · Ázsiai hendikep: Finnország (-3.25) @1.59 (fair 1.554)",
-   "+1.7% Finnország – San Marino · Gólszám 3.75: Több @1.61 (fair 1.583)",
-   "+1.3% Villach – Fehérvár · Hendikep (rendes játékidő): Fehérvár (+0.5) @1.73 (fair 1.707)",
-   "+0.8% Villach – Fehérvár · Győztes (hosszabbítással): Fehérvár győz @2.15 (fair 2.133)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 11,
-  "fast": true,
-  "fixtures_checked": 102,
-  "fixtures_both": 42,
-  "rejected_mismatch": 0,
-  "candidates": 1,
-  "steam_fixtures": 15,
-  "classic_checked": 70,
-  "classic_candidates": 1,
-  "top_ev_classic": [
-   "+2.3% Finnország – San Marino · Ázsiai hendikep: Finnország (-3.25) @1.59 (fair 1.554)",
-   "+2.1% Deportivo A Coruna – Barcelona · Gólszám 4.5: Kevesebb @1.78 (fair 1.743)",
-   "+1.6% Deportivo A Coruna – Barcelona · Gólszám 4.25: Kevesebb @1.95 (fair 1.919)",
-   "+1.3% Finnország – San Marino · Ázsiai hendikep: Finnország (-3.5) @1.75 (fair 1.728)",
-   "+1.1% Finnország – San Marino · Ázsiai hendikep: Finnország (-3.75) @1.91 (fair 1.889)"
-  ],
-  "placed": 1,
-  "not_executable": 1,
-  "api_calls": 0,
-  "free_calls": 109
- },
- {
   "time": "2026-11-15T16:22:32.316687+00:00",
   "mode": "hu",
   "settled": 0,
@@ -21717,5 +21492,230 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 111
+ },
+ {
+  "time": "2026-11-17T03:05:37.219369+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [
+   "-6.0% Kaichi Uchida – Benjamin Hassan · Győztes: Benjamin Hassan győz @1.66 (fair 1.765)",
+   "-7.1% Kaichi Uchida – Benjamin Hassan · Játékszám 22.5: Több @1.78 (fair 1.916)",
+   "-8.5% Kaichi Uchida – Benjamin Hassan · Győztes: Kaichi Uchida győz @2.11 (fair 2.307)",
+   "-8.6% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Kevesebb @1.69 (fair 1.848)",
+   "-8.7% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Több @1.99 (fair 2.179)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": true,
+  "fixtures_checked": 6,
+  "fixtures_both": 3,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 3,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-8.6% Kaichi Uchida – Benjamin Hassan · Játékszám 22.5: Több @1.75 (fair 1.916)",
+   "-8.8% Kaichi Uchida – Benjamin Hassan · Győztes: Benjamin Hassan győz @1.61 (fair 1.765)",
+   "-9.1% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Több @1.98 (fair 2.179)",
+   "-10.7% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Kevesebb @1.65 (fair 1.848)",
+   "-11.1% Kaichi Uchida – Benjamin Hassan · Győztes: Kaichi Uchida győz @2.05 (fair 2.307)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 6
+ },
+ {
+  "time": "2026-11-17T03:10:37.219128+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [
+   "-6.0% Kaichi Uchida – Benjamin Hassan · Győztes: Benjamin Hassan győz @1.66 (fair 1.765)",
+   "-7.1% Kaichi Uchida – Benjamin Hassan · Játékszám 22.5: Több @1.78 (fair 1.916)",
+   "-8.5% Kaichi Uchida – Benjamin Hassan · Győztes: Kaichi Uchida győz @2.11 (fair 2.307)",
+   "-8.6% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Kevesebb @1.69 (fair 1.848)",
+   "-8.7% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Több @1.99 (fair 2.179)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 2,
+  "fast": true,
+  "fixtures_checked": 4,
+  "fixtures_both": 3,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 3,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-8.6% Kaichi Uchida – Benjamin Hassan · Játékszám 22.5: Több @1.75 (fair 1.916)",
+   "-8.8% Kaichi Uchida – Benjamin Hassan · Győztes: Benjamin Hassan győz @1.61 (fair 1.765)",
+   "-9.1% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Több @1.98 (fair 2.179)",
+   "-10.7% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Kevesebb @1.65 (fair 1.848)",
+   "-11.1% Kaichi Uchida – Benjamin Hassan · Győztes: Kaichi Uchida győz @2.05 (fair 2.307)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 4
+ },
+ {
+  "time": "2026-11-17T03:15:37.219873+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 332,
+   "paired": 198,
+   "classic_only": 42
+  },
+  "tippmix_matches": 1179,
+  "pinnacle_fixtures": 984,
+  "paired": 435,
+  "by_sport": {
+   "Soccer": [
+    166,
+    114
+   ],
+   "Tennis": [
+    420,
+    53
+   ],
+   "Basketball": [
+    163,
+    92
+   ],
+   "Ice Hockey": [
+    91,
+    84
+   ],
+   "Handball": [
+    40,
+    18
+   ],
+   "Volleyball": [
+    20,
+    5
+   ],
+   "Table Tennis": [
+    21,
+    12
+   ],
+   "Cricket": [
+    28,
+    19
+   ],
+   "Badminton": [
+    52,
+    0
+   ],
+   "Darts": [
+    27,
+    23
+   ],
+   "Futsal": [
+    3,
+    2
+   ],
+   "Waterpolo": [
+    10,
+    6
+   ],
+   "ESport Counter-Strike": [
+    44,
+    6
+   ],
+   "ESport Dota": [
+    11,
+    1
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    75,
+    0
+   ],
+   "eBasketball": [
+    8,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-1.4% Frölunda – Växjö · 1X2 (rendes játékidő): Frölunda győz @1.57 (fair 1.592)",
+   "-1.8% Szaúd-Arábia – Üzbegisztán · Gólszám 1.5: Több @1.38 (fair 1.405)",
+   "-2.5% Trinec – Olomouc · Hendikep (rendes játékidő): Olomouc (+3) @1.36 (fair 1.395)",
+   "-2.6% Szaúd-Arábia – Üzbegisztán · Gólszám 1.75: Több @1.47 (fair 1.509)",
+   "-2.7% Szaúd-Arábia – Üzbegisztán · Gólszám 2: Több @1.63 (fair 1.676)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 21,
+  "fast": false,
+  "fixtures_checked": 121,
+  "fixtures_both": 56,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 69,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.8% Kuvait – Honduras · Gólszám 3.5: Kevesebb @1.28 (fair 1.304)",
+   "-3.0% Kuvait – Honduras · Gólszám 2.75: Kevesebb @1.58 (fair 1.629)",
+   "-3.2% Moez Echargui – Otto Virtanen · Játékszám 19.5: Több @1.55 (fair 1.6)",
+   "-3.2% James Duckworth – Eero Vasa · Győztes: James Duckworth győz @1.12 (fair 1.157)",
+   "-3.8% JYP – Vaasan Sport · Győztes (hosszabbítással): JYP győz @1.34 (fair 1.393)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 120
  }
 ]
