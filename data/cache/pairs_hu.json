@@ -1819,6 +1819,31 @@
   },
   "score": 1.0
  },
+ "id1103797375724008": {
+  "tm": {
+   "id": "319082798365351936",
+   "sport": "Kosárlabda",
+   "name": "Bernex - Goldcoast Wallabies",
+   "home": "Bernex",
+   "away": "Goldcoast Wallabies",
+   "home_pid": "194314742295326720",
+   "away_pid": "140484026745016320",
+   "tournament": "Svájci 2.",
+   "category": "Svájc",
+   "tm_sport_id": "8",
+   "start": "2026-11-18T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1103797375724008",
+   "startTime": "2026-11-18T19:00:00.000Z",
+   "participant1Name": "Bernex Basket",
+   "participant2Name": "Goldcoast Wallabies",
+   "tournamentId": 37973,
+   "tournamentName": "NLB",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1104684776678936": {
   "tm": {
    "id": "319621033834389504",
@@ -3589,56 +3614,6 @@
   },
   "score": 0.767
  },
- "id2503634976869648": {
-  "tm": {
-   "id": "320128343616856064",
-   "sport": "Asztalitenisz",
-   "name": "Radim Urbaniec - Ondrej Svacha",
-   "home": "Radim Urbaniec",
-   "away": "Ondrej Svacha",
-   "home_pid": "167634919836667904",
-   "away_pid": "192184043047120896",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T20:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869648",
-   "startTime": "2026-11-17T20:30:00.000Z",
-   "participant1Name": "Urbaniec, Radim",
-   "participant2Name": "Svacha, Ondrej",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976869350": {
-  "tm": {
-   "id": "320129516892659712",
-   "sport": "Asztalitenisz",
-   "name": "Marek Bereiter - Marek Holub",
-   "home": "Marek Bereiter",
-   "away": "Marek Holub",
-   "home_pid": "300022674765418496",
-   "away_pid": "167281163446046720",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T20:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869350",
-   "startTime": "2026-11-17T20:30:00.000Z",
-   "participant1Name": "Bereiter, Marek",
-   "participant2Name": "Holub, Marek",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976869720": {
   "tm": {
    "id": "320129446050865152",
@@ -3658,31 +3633,6 @@
    "startTime": "2026-11-17T21:00:00.000Z",
    "participant1Name": "Blaha, Michal",
    "participant2Name": "Adamczyk, Radek",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976869702": {
-  "tm": {
-   "id": "320128343516192768",
-   "sport": "Asztalitenisz",
-   "name": "Ondrej Svacha - Michal Zahradka",
-   "home": "Ondrej Svacha",
-   "away": "Michal Zahradka",
-   "home_pid": "192184043047120896",
-   "away_pid": "157416179233771520",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869702",
-   "startTime": "2026-11-17T21:00:00.000Z",
-   "participant1Name": "Svacha, Ondrej",
-   "participant2Name": "Zahradka, Michal",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -3714,6 +3664,31 @@
   },
   "score": 1.0
  },
+ "id2503634976869702": {
+  "tm": {
+   "id": "320128343516192768",
+   "sport": "Asztalitenisz",
+   "name": "Ondrej Svacha - Michal Zahradka",
+   "home": "Ondrej Svacha",
+   "away": "Michal Zahradka",
+   "home_pid": "192184043047120896",
+   "away_pid": "157416179233771520",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869702",
+   "startTime": "2026-11-17T21:00:00.000Z",
+   "participant1Name": "Svacha, Ondrej",
+   "participant2Name": "Zahradka, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976869314": {
   "tm": {
    "id": "320127357683834880",
@@ -3739,25 +3714,100 @@
   },
   "score": 1.0
  },
- "id2503634976869356": {
+ "id2503634976869740": {
   "tm": {
-   "id": "320127357768769536",
+   "id": "320129446368583680",
    "sport": "Asztalitenisz",
-   "name": "Eric Maresh - Jakub Vales",
-   "home": "Eric Maresh",
-   "away": "Jakub Vales",
-   "home_pid": "104575284237455360",
-   "away_pid": "256725669320712192",
+   "name": "Miroslav Stolba - Karel Zurek",
+   "home": "Miroslav Stolba",
+   "away": "Karel Zurek",
+   "home_pid": "286154286782779392",
+   "away_pid": "318840626998222848",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-17T20:30:00+00:00"
+   "start": "2026-11-17T21:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976869356",
-   "startTime": "2026-11-17T20:30:00.000Z",
-   "participant1Name": "Mares, Erik",
-   "participant2Name": "Vales, Jakub",
+   "fixtureId": "id2503634976869740",
+   "startTime": "2026-11-17T21:30:00.000Z",
+   "participant1Name": "Stolba, Miroslav",
+   "participant2Name": "Zurek, Karel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869690": {
+  "tm": {
+   "id": "320128753965539328",
+   "sport": "Asztalitenisz",
+   "name": "Ondrej Cmerda - Radim Urbaniec",
+   "home": "Ondrej Cmerda",
+   "away": "Radim Urbaniec",
+   "home_pid": "248565089548496896",
+   "away_pid": "167634919836667904",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869690",
+   "startTime": "2026-11-17T21:30:00.000Z",
+   "participant1Name": "Cmerda, Ondrej",
+   "participant2Name": "Urbaniec, Radim",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869222": {
+  "tm": {
+   "id": "320129517150609408",
+   "sport": "Asztalitenisz",
+   "name": "Daniel Unzeitig - Marek Bereiter",
+   "home": "Daniel Unzeitig",
+   "away": "Marek Bereiter",
+   "home_pid": "291037431712747520",
+   "away_pid": "300022674765418496",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869222",
+   "startTime": "2026-11-17T21:30:00.000Z",
+   "participant1Name": "Unzeitig, Daniel",
+   "participant2Name": "Bereiter, Marek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869358": {
+  "tm": {
+   "id": "320127347923689472",
+   "sport": "Asztalitenisz",
+   "name": "Jan Zajicek - Eric Maresh",
+   "home": "Jan Zajicek",
+   "away": "Eric Maresh",
+   "home_pid": "104575329880920064",
+   "away_pid": "104575284237455360",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869358",
+   "startTime": "2026-11-17T21:30:00.000Z",
+   "participant1Name": "Zajicek, Jan",
+   "participant2Name": "Mares, Erik",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -4169,36 +4219,6 @@
   },
   "score": 0.833
  },
- "id1900059776636310": {
-  "tm": {
-   "id": "319786207100870656",
-   "sport": "Darts",
-   "name": "James Wade - Ricky Evans",
-   "home": "James Wade",
-   "away": "Ricky Evans",
-   "home_pid": "35686",
-   "away_pid": "909000",
-   "tournament": "Grand Slam of Darts",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-17T20:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1900059776636310",
-   "startTime": "2026-11-17T20:45:00.000Z",
-   "participant1Name": "Wade, James",
-   "participant2Name": "Evans, Ricky",
-   "tournamentId": 597,
-   "tournamentName": "Grand Slam of Darts",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5654805,
-   "name": "J. Wade - Ric. Evans",
-   "score": 0.93
-  }
- },
  "id1900059776636320": {
   "tm": {
    "id": "319787592115625984",
@@ -4515,27 +4535,6 @@
    "score": 0.87,
    "home": "Fer. Labrana",
    "away": "A. Vergara Rivera",
-   "tournament": "Colina, női egyes"
-  }
- },
- "id1203756376812386": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1203756376812386",
-   "startTime": "2026-11-17T20:30:00.000Z",
-   "participant1Name": "Gatica, Barbara",
-   "participant2Name": "Lazaro Garcia, Andrea",
-   "tournamentId": 37563,
-   "tournamentName": "WTA 125K Colina, Chile Women Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.748,
-  "cl": {
-   "id": 5663486,
-   "name": "B. Gatica - A. Lazaro Garcia",
-   "score": 0.748,
-   "home": "B. Gatica",
-   "away": "A. Lazaro Garcia",
    "tournament": "Colina, női egyes"
   }
  },
