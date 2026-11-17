@@ -1610,11 +1610,11 @@
   "channel": "classic",
   "exec_checked_at": "2026-11-16T07:18:22.882182+00:00",
   "exec_odds": 3.45,
-  "closing_fair_prob": 0.33275,
-  "closing_fair_odds": 3.005,
+  "closing_fair_prob": 0.3322,
+  "closing_fair_odds": 3.01,
   "closing_sharp_odds": 2.79,
-  "closing_at": "2026-11-17T15:26:17.079437+00:00",
-  "clv": 0.148
+  "closing_at": "2026-11-17T15:51:10.957709+00:00",
+  "clv": 0.14608
  },
  {
   "id": "557c881e89",
@@ -1999,7 +1999,7 @@
  {
   "id": "20949f2934",
   "placed_at": "2026-11-17T07:55:20.582739+00:00",
-  "status": "open",
+  "status": "settled",
   "exec_status": "moved",
   "fixture_id": "id1000074874723616",
   "sport": "Soccer",
@@ -2039,6 +2039,11 @@
   "closing_fair_odds": 2.173,
   "closing_sharp_odds": 2.009,
   "closing_at": "2026-11-17T12:07:38.970186+00:00",
-  "clv": -0.15803
+  "clv": -0.15803,
+  "settle_tried_at": "2026-11-17T15:51:10.957709+00:00",
+  "result": "LOSE",
+  "payout": 0.0,
+  "profit": -1550.0,
+  "settled_at": "2026-11-17T15:51:10.957709+00:00"
  }
 ]

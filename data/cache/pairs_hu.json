@@ -1,64 +1,4 @@
 {
- "id1000085176169220": {
-  "tm": {
-   "id": "319925790090272768",
-   "sport": "Labdarúgás",
-   "name": "Szaúd-Arábia - Üzbegisztán",
-   "home": "Szaúd-Arábia",
-   "away": "Üzbegisztán",
-   "home_pid": "3441",
-   "away_pid": "3442",
-   "tournament": "Válogatott mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T15:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000085176169220",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "Saudi Arabia",
-   "participant2Name": "Uzbekistan",
-   "tournamentId": 851,
-   "tournamentName": "Int. Friendly Games",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666654,
-   "name": "Szaúd-Arábia - Üzbegisztán",
-   "score": 1.0
-  }
- },
- "id1000074874827240": {
-  "tm": {
-   "id": "320121917566689280",
-   "sport": "Labdarúgás",
-   "name": "U19San Marino - U19Georgia",
-   "home": "U19San Marino",
-   "away": "U19Georgia",
-   "home_pid": "2713790619582464",
-   "away_pid": "63458",
-   "tournament": "U19 Eb-selejtező, B Liga",
-   "category": "Európa",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T15:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000074874827240",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "San Marino",
-   "participant2Name": "Georgia",
-   "tournamentId": 748,
-   "tournamentName": "U19 UEFA European Championship, Qualification",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5649228,
-   "name": "U19San Marino - U19Georgia",
-   "score": 1.0
-  }
- },
  "id1000085175467650": {
   "tm": {
    "id": "318965578335330304",
@@ -2614,36 +2554,6 @@
   },
   "score": 0.738
  },
- "id1200398776877814": {
-  "tm": {
-   "id": "320144555687092224",
-   "sport": "Tenisz",
-   "name": "Moez Echargui - Otto Virtanen",
-   "home": "Moez Echargui",
-   "away": "Otto Virtanen",
-   "home_pid": "1123475",
-   "away_pid": "1481969",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T15:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776877814",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "Echargui, Moez",
-   "participant2Name": "Virtanen, Otto",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666260,
-   "name": "M. Echargui - O. Virtanen",
-   "score": 1.0
-  }
- },
  "id1200397576810134": {
   "tm": {
    "id": "319996091519016960",
@@ -2881,36 +2791,6 @@
   "cl": {
    "id": 5663226,
    "name": "A. Guerrieri - Toby Samuel",
-   "score": 1.0
-  }
- },
- "id1100107076711090": {
-  "tm": {
-   "id": "319712702084751360",
-   "sport": "Kosárlabda",
-   "name": "Észtország - Románia",
-   "home": "Észtország",
-   "away": "Románia",
-   "home_pid": "290608",
-   "away_pid": "1128572",
-   "tournament": "Eb-selejtező, női",
-   "category": "Európa",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T15:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100107076711090",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "Estonia",
-   "participant2Name": "Romania",
-   "tournamentId": 1070,
-   "tournamentName": "Eurobasket, Women, Qualification",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655246,
-   "name": "Észtország - Románia",
    "score": 1.0
   }
  },
@@ -5145,6 +5025,61 @@
    "participant2Name": "Ironi Nahariya",
    "tournamentId": 26864,
    "tournamentName": "National League",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100064874317672": {
+  "tm": {
+   "id": "320228691643801600",
+   "sport": "Kosárlabda",
+   "name": "Murray State Racers - Hofstra Pride",
+   "home": "Murray State Racers",
+   "away": "Hofstra Pride",
+   "home_pid": "186961476581380096",
+   "away_pid": "186960979967397888",
+   "tournament": "NCAA",
+   "category": "USA",
+   "tm_sport_id": "8",
+   "start": "2026-11-17T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100064874317672",
+   "startTime": "2026-11-17T17:00:00.000Z",
+   "participant1Name": "Murray State Racers",
+   "participant2Name": "Hofstra Pride",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
+   "sportName": "Basketball"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5593590,
+   "name": "Murray State Racers - Hofstra Pride",
+   "score": 1.0
+  }
+ },
+ "id1100064874064676": {
+  "tm": {
+   "id": "320228691708813312",
+   "sport": "Kosárlabda",
+   "name": "West Virginia Mountaineers - Auburn Tigers",
+   "home": "West Virginia Mountaineers",
+   "away": "Auburn Tigers",
+   "home_pid": "38063",
+   "away_pid": "38118",
+   "tournament": "NCAA",
+   "category": "USA",
+   "tm_sport_id": "8",
+   "start": "2026-11-18T05:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100064874064676",
+   "startTime": "2026-11-18T05:00:00.000Z",
+   "participant1Name": "West Virginia Mountaineers",
+   "participant2Name": "Auburn Tigers",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -8084,6 +8019,66 @@
   },
   "score": 1.0
  },
+ "id2200003076225226": {
+  "tm": {
+   "id": "319764738643927040",
+   "sport": "Kézilabda",
+   "name": "Aalborg - Füchse Berlin",
+   "home": "Aalborg",
+   "away": "Füchse Berlin",
+   "home_pid": "36819",
+   "away_pid": "36919",
+   "tournament": "BL, A csoport",
+   "category": "Európa",
+   "tm_sport_id": "7",
+   "start": "2026-11-18T17:45:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2200003076225226",
+   "startTime": "2026-11-18T17:45:00.000Z",
+   "participant1Name": "Aalborg Haandbold",
+   "participant2Name": "Fuchse Berlin",
+   "tournamentId": 30,
+   "tournamentName": "EHF Champions League",
+   "sportName": "Handball"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5667719,
+   "name": "Aalborg - Füchse Berlin",
+   "score": 1.0
+  }
+ },
+ "id2200003076225224": {
+  "tm": {
+   "id": "319764738562138112",
+   "sport": "Kézilabda",
+   "name": "Wisla Plock - Veszprém",
+   "home": "Wisla Plock",
+   "away": "Veszprém",
+   "home_pid": "39565",
+   "away_pid": "37046",
+   "tournament": "BL, A csoport",
+   "category": "Európa",
+   "tm_sport_id": "7",
+   "start": "2026-11-18T19:45:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2200003076225224",
+   "startTime": "2026-11-18T19:45:00.000Z",
+   "participant1Name": "Wisla Plock",
+   "participant2Name": "Veszprem KC",
+   "tournamentId": 30,
+   "tournamentName": "EHF Champions League",
+   "sportName": "Handball"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5667718,
+   "name": "Wisla Plock - Veszprém",
+   "score": 1.0
+  }
+ },
  "id2200005973709772": {
   "tm": {
    "id": "319626329204006912",
@@ -8339,123 +8334,33 @@
    "score": 1.0
   }
  },
- "id2503634976869302": {
+ "id2503634976869686": {
   "tm": {
-   "id": "320125720198193152",
+   "id": "320126407617355776",
    "sport": "Asztalitenisz",
-   "name": "Prikasky Libor - Michal Vavrecka",
-   "home": "Prikasky Libor",
-   "away": "Michal Vavrecka",
-   "home_pid": "282868470805467136",
-   "away_pid": "167482783032201216",
+   "name": "Rybar Vaclav - Michal Derco",
+   "home": "Rybar Vaclav",
+   "away": "Michal Derco",
+   "home_pid": "307739855678042112",
+   "away_pid": "275364070772838400",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-17T15:30:00+00:00"
+   "start": "2026-11-17T16:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976869302",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "Prikasky, Libor",
-   "participant2Name": "Vavrecka, Michal",
+   "fixtureId": "id2503634976869686",
+   "startTime": "2026-11-17T16:00:00.000Z",
+   "participant1Name": "Rybar, Vaclav",
+   "participant2Name": "Derco, Michal",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0,
   "cl": {
-   "id": 5666712,
-   "name": "L. Prikasky - M. Vavrecka",
-   "score": 1.0
-  }
- },
- "id2503634976869698": {
-  "tm": {
-   "id": "320126394490232832",
-   "sport": "Asztalitenisz",
-   "name": "Michal Derco - Matej Levicky",
-   "home": "Michal Derco",
-   "away": "Matej Levicky",
-   "home_pid": "275364070772838400",
-   "away_pid": "274994471166414848",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T15:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869698",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "Derco, Michal",
-   "participant2Name": "Levicky, Matej",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666709,
-   "name": "M. Derco - M. Levicky",
-   "score": 1.0
-  }
- },
- "id2503634976869340": {
-  "tm": {
-   "id": "320125720276836352",
-   "sport": "Asztalitenisz",
-   "name": "Frantisek Briza - Mihail Trinta",
-   "home": "Frantisek Briza",
-   "away": "Mihail Trinta",
-   "home_pid": "191461277224300544",
-   "away_pid": "184786608350875648",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T15:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869340",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "Briza, Frantisek",
-   "participant2Name": "Trinta, Mihail",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666703,
-   "name": "F. Briza - M. Trinta",
-   "score": 1.0
-  }
- },
- "id2503634976869716": {
-  "tm": {
-   "id": "320126124797534208",
-   "sport": "Asztalitenisz",
-   "name": "Vaclav Nohejl 2005 - Radim Urbaniec",
-   "home": "Vaclav Nohejl 2005",
-   "away": "Radim Urbaniec",
-   "home_pid": "302561937129246720",
-   "away_pid": "167634919836667904",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T15:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869716",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "Nohejl, Vaclav (2005)",
-   "participant2Name": "Urbaniec, Radim",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666702,
-   "name": "V. Nohejl - R. Urbaniec",
+   "id": 5666713,
+   "name": "V. Rybar - M. Derco",
    "score": 1.0
   }
  },
@@ -8519,35 +8424,80 @@
    "score": 1.0
   }
  },
- "id2503634976869686": {
+ "id2503634976869710": {
   "tm": {
-   "id": "320126407617355776",
+   "id": "320126407755767808",
    "sport": "Asztalitenisz",
-   "name": "Rybar Vaclav - Michal Derco",
-   "home": "Rybar Vaclav",
-   "away": "Michal Derco",
-   "home_pid": "307739855678042112",
-   "away_pid": "275364070772838400",
+   "name": "Matej Levicky - Pavel Schneider",
+   "home": "Matej Levicky",
+   "away": "Pavel Schneider",
+   "home_pid": "274994471166414848",
+   "away_pid": "318303045748334592",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-17T16:00:00+00:00"
+   "start": "2026-11-17T16:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976869686",
-   "startTime": "2026-11-17T16:00:00.000Z",
-   "participant1Name": "Rybar, Vaclav",
-   "participant2Name": "Derco, Michal",
+   "fixtureId": "id2503634976869710",
+   "startTime": "2026-11-17T16:30:00.000Z",
+   "participant1Name": "Levicky, Matej",
+   "participant2Name": "Schneider, Pavel",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0,
-  "cl": {
-   "id": 5666713,
-   "name": "V. Rybar - M. Derco",
-   "score": 1.0
-  }
+  "score": 1.0
+ },
+ "id2503634976869756": {
+  "tm": {
+   "id": "320126124520710144",
+   "sport": "Asztalitenisz",
+   "name": "Radim Urbaniec - Michal Zahradka",
+   "home": "Radim Urbaniec",
+   "away": "Michal Zahradka",
+   "home_pid": "167634919836667904",
+   "away_pid": "157416179233771520",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T16:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869756",
+   "startTime": "2026-11-17T16:30:00.000Z",
+   "participant1Name": "Urbaniec, Radim",
+   "participant2Name": "Zahradka, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869320": {
+  "tm": {
+   "id": "320125720955265024",
+   "sport": "Asztalitenisz",
+   "name": "Michal Vavrecka - Pavel Wawrosz",
+   "home": "Michal Vavrecka",
+   "away": "Pavel Wawrosz",
+   "home_pid": "167482783032201216",
+   "away_pid": "185657629937291264",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T16:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869320",
+   "startTime": "2026-11-17T16:30:00.000Z",
+   "participant1Name": "Vavrecka, Michal",
+   "participant2Name": "Wawrosz, Pavel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
  },
  "id2701553275362932": {
   "tm": {
@@ -8925,6 +8875,31 @@
    "participant2Name": "India",
    "tournamentId": 31949,
    "tournamentName": "Test Series New Zealand vs India",
+   "sportName": "Cricket"
+  },
+  "score": 1.0
+ },
+ "id2703857376122346": {
+  "tm": {
+   "id": "320228561476722688",
+   "sport": "Krikett",
+   "name": "Uae Bulls - Royal Champs",
+   "home": "Uae Bulls",
+   "away": "Royal Champs",
+   "home_pid": "189172283335561216",
+   "away_pid": "286865478595678208",
+   "tournament": "EAE Abu Dhabi T10 League",
+   "category": "Egyesült Arab Emirátusok",
+   "tm_sport_id": "26",
+   "start": "2026-11-17T16:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2703857376122346",
+   "startTime": "2026-11-17T16:00:00.000Z",
+   "participant1Name": "UAE Bulls",
+   "participant2Name": "Royal Champs",
+   "tournamentId": 38573,
+   "tournamentName": "Abu Dhabi T10",
    "sportName": "Cricket"
   },
   "score": 1.0
@@ -9848,27 +9823,6 @@
    "tournament": "Colina, női egyes"
   }
  },
- "id1100064874317672": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1100064874317672",
-   "startTime": "2026-11-17T17:00:00.000Z",
-   "participant1Name": "Murray State Racers",
-   "participant2Name": "Hofstra Pride",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593590,
-   "name": "Murray State Racers - Hofstra Pride",
-   "score": 1.0,
-   "home": "Murray State Racers",
-   "away": "Hofstra Pride",
-   "tournament": "NCAA"
-  }
- },
  "id1100118973062870": {
   "tm": null,
   "fx": {
@@ -10077,48 +10031,6 @@
    "home": "Bergischer",
    "away": "Sesvete",
    "tournament": "EL, D csoport"
-  }
- },
- "id2200003076225226": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2200003076225226",
-   "startTime": "2026-11-18T17:45:00.000Z",
-   "participant1Name": "Aalborg Haandbold",
-   "participant2Name": "Fuchse Berlin",
-   "tournamentId": 30,
-   "tournamentName": "EHF Champions League",
-   "sportName": "Handball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667719,
-   "name": "Aalborg - Füchse Berlin",
-   "score": 1.0,
-   "home": "Aalborg",
-   "away": "Füchse Berlin",
-   "tournament": "BL, I. csoport"
-  }
- },
- "id2200003076225224": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2200003076225224",
-   "startTime": "2026-11-18T19:45:00.000Z",
-   "participant1Name": "Wisla Plock",
-   "participant2Name": "Veszprem KC",
-   "tournamentId": 30,
-   "tournamentName": "EHF Champions League",
-   "sportName": "Handball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667718,
-   "name": "Wisla Plock - Veszprém",
-   "score": 1.0,
-   "home": "Wisla Plock",
-   "away": "Veszprém",
-   "tournament": "BL, I. csoport"
   }
  },
  "id2503634976869696": {
