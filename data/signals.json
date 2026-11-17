@@ -3555,11 +3555,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.59552,
-  "closing_fair_odds": 1.679,
-  "closing_sharp_odds": 1.591,
-  "closing_at": "2026-11-17T17:44:03.885260+00:00",
-  "clv": 0.06598
+  "closing_fair_prob": 0.5962,
+  "closing_fair_odds": 1.677,
+  "closing_sharp_odds": 1.588,
+  "closing_at": "2026-11-17T18:15:16.143883+00:00",
+  "clv": 0.0672
  },
  {
   "fixture_id": "id2200005973709892",
@@ -3598,7 +3598,12 @@
   "ev": 0.04978,
   "band": "1.50–1.80",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.7134,
+  "closing_fair_odds": 1.402,
+  "closing_sharp_odds": 1.37,
+  "closing_at": "2026-11-17T18:15:16.143883+00:00",
+  "clv": 0.07723
  },
  {
   "fixture_id": "id1000033473661312",
@@ -3615,7 +3620,12 @@
   "ev": 0.03915,
   "band": "1.50–1.80",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.64005,
+  "closing_fair_odds": 1.562,
+  "closing_sharp_odds": 1.505,
+  "closing_at": "2026-11-17T18:15:16.143883+00:00",
+  "clv": 0.08808
  },
  {
   "fixture_id": "id1000033473661312",
@@ -3631,6 +3641,28 @@
   "fair_prob": 0.65996,
   "ev": 0.02293,
   "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false,
+  "closing_fair_prob": 0.68288,
+  "closing_fair_odds": 1.464,
+  "closing_sharp_odds": 1.416,
+  "closing_at": "2026-11-17T18:15:16.143883+00:00",
+  "clv": 0.05847
+ },
+ {
+  "fixture_id": "id1500012972710506",
+  "market_id": 1594,
+  "outcome_id": 1595,
+  "first_at": "2026-11-17T18:15:16.143883+00:00",
+  "start": "2026-11-17T19:15:00.000Z",
+  "home": "Bellinzona",
+  "away": "Olten",
+  "tournament": "Svájci 2.",
+  "label": "Hendikep (rendes játékidő): Olten (-2)",
+  "odds": 1.81,
+  "fair_prob": 0.57325,
+  "ev": 0.03759,
+  "band": "1.80–2.10",
   "trigger": "steam",
   "bet": false
  }
