@@ -1,29 +1,4 @@
 {
- "id1002355176638356": {
-  "tm": {
-   "id": "319691403022114816",
-   "sport": "Labdarúgás",
-   "name": "Havadar SC - Mes Kerman",
-   "home": "Havadar SC",
-   "away": "Mes Kerman",
-   "home_pid": "6392906960224256",
-   "away_pid": "67877",
-   "tournament": "Iráni 2.",
-   "category": "Irán",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002355176638356",
-   "startTime": "2026-11-17T10:30:00.000Z",
-   "participant1Name": "Havadar SC",
-   "participant2Name": "Sanat Mes Kerman FC",
-   "tournamentId": 23551,
-   "tournamentName": "Azadegan League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000074874723538": {
   "tm": {
    "id": "320114701739565056",
@@ -4071,36 +4046,6 @@
   "cl": {
    "id": 5663226,
    "name": "A. Guerrieri - Toby Samuel",
-   "score": 1.0
-  }
- },
- "id1202140876736488": {
-  "tm": {
-   "id": "319988582484877312",
-   "sport": "Tenisz",
-   "name": "Heliovaara H./Patten H. - Arevalo M./Pavic M.",
-   "home": "Heliovaara H./Patten H.",
-   "away": "Arevalo M./Pavic M.",
-   "home_pid": "233099933615820800",
-   "away_pid": "224805790276538368",
-   "tournament": "ATP-vb, férfi páros, A csoport",
-   "category": "ATP",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1202140876736488",
-   "startTime": "2026-11-17T10:30:00.000Z",
-   "participant1Name": "Heliovaara H / Patten H",
-   "participant2Name": "Arevalo M / Pavic M",
-   "tournamentId": 21408,
-   "tournamentName": "ATP World Tour Finals Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655220,
-   "name": "Heliovaara H / Patten H - Arevalo M / Pavic M",
    "score": 1.0
   }
  },
@@ -9784,31 +9729,6 @@
   },
   "score": 1.0
  },
- "id2504936476873774": {
-  "tm": {
-   "id": "320149669719121920",
-   "sport": "Asztalitenisz",
-   "name": "Verdonschot W./Wan Y. - Yoo Y./Kwon H.",
-   "home": "Verdonschot W./Wan Y.",
-   "away": "Yoo Y./Kwon H.",
-   "home_pid": "293752593483862016",
-   "away_pid": "272119968870567936",
-   "tournament": "Muscat, vegyes páros",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504936476873774",
-   "startTime": "2026-11-17T10:30:00.000Z",
-   "participant1Name": "Verdonschot W / Wan Y",
-   "participant2Name": "Kwon H / Yoo Y",
-   "tournamentId": 49364,
-   "tournamentName": "WTT Star Contender Muscat, XD",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503212976880588": {
   "tm": {
    "id": "320159164724748288",
@@ -9830,31 +9750,6 @@
    "participant2Name": "Drozd, Kamil",
    "tournamentId": 32129,
    "tournamentName": "TT Cup",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976869334": {
-  "tm": {
-   "id": "320125182746370048",
-   "sport": "Asztalitenisz",
-   "name": "Frantisek Briza - Tibor Kolenic",
-   "home": "Frantisek Briza",
-   "away": "Tibor Kolenic",
-   "home_pid": "191461277224300544",
-   "away_pid": "153681663609589760",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869334",
-   "startTime": "2026-11-17T11:00:00.000Z",
-   "participant1Name": "Briza, Frantisek",
-   "participant2Name": "Kolenic, Tibor",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0
@@ -9909,25 +9804,25 @@
   },
   "score": 1.0
  },
- "id2503634976869262": {
+ "id2503634976869334": {
   "tm": {
-   "id": "320125204126834688",
+   "id": "320125182746370048",
    "sport": "Asztalitenisz",
-   "name": "Opanasiuk Dmytro - Tadeas Zika",
-   "home": "Opanasiuk Dmytro",
-   "away": "Tadeas Zika",
-   "home_pid": "302279007430545408",
-   "away_pid": "168097491692081152",
+   "name": "Frantisek Briza - Tibor Kolenic",
+   "home": "Frantisek Briza",
+   "away": "Tibor Kolenic",
+   "home_pid": "191461277224300544",
+   "away_pid": "153681663609589760",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
    "start": "2026-11-17T11:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976869262",
+   "fixtureId": "id2503634976869334",
    "startTime": "2026-11-17T11:00:00.000Z",
-   "participant1Name": "Opanasiuk, Dmytro",
-   "participant2Name": "Zika, Tadeas",
+   "participant1Name": "Briza, Frantisek",
+   "participant2Name": "Kolenic, Tibor",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -9955,6 +9850,131 @@
    "participant2Name": "Lysek, Jakub",
    "tournamentId": 32129,
    "tournamentName": "TT Cup",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503212976880600": {
+  "tm": {
+   "id": "320159164954386432",
+   "sport": "Asztalitenisz",
+   "name": "Martin Sulc - Adam Martin Rek",
+   "home": "Martin Sulc",
+   "away": "Adam Martin Rek",
+   "home_pid": "133114324259491840",
+   "away_pid": "198206020323012608",
+   "tournament": "TT Cup",
+   "category": "Világ",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T11:20:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503212976880600",
+   "startTime": "2026-11-17T11:20:00.000Z",
+   "participant1Name": "Sulc, Martin",
+   "participant2Name": "Rek, Adam Martin",
+   "tournamentId": 32129,
+   "tournamentName": "TT Cup",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869348": {
+  "tm": {
+   "id": "320125204669997056",
+   "sport": "Asztalitenisz",
+   "name": "Mihail Trinta - Tomas Nohejl",
+   "home": "Mihail Trinta",
+   "away": "Tomas Nohejl",
+   "home_pid": "184786608350875648",
+   "away_pid": "177420810673246208",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869348",
+   "startTime": "2026-11-17T11:30:00.000Z",
+   "participant1Name": "Trinta, Mihail",
+   "participant2Name": "Nohejl, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869278": {
+  "tm": {
+   "id": "320125204327112704",
+   "sport": "Asztalitenisz",
+   "name": "Martin Biolek - Jan Szotkowski",
+   "home": "Martin Biolek",
+   "away": "Jan Szotkowski",
+   "home_pid": "166722033420390400",
+   "away_pid": "274533435302875136",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869278",
+   "startTime": "2026-11-17T11:30:00.000Z",
+   "participant1Name": "Biolek, Martin",
+   "participant2Name": "Szotkowski, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869682": {
+  "tm": {
+   "id": "320125737651740672",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Kraninger - Antonin Schneeberger",
+   "home": "Tomas Kraninger",
+   "away": "Antonin Schneeberger",
+   "home_pid": "278604510088269824",
+   "away_pid": "258077961810731008",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869682",
+   "startTime": "2026-11-17T11:30:00.000Z",
+   "participant1Name": "Kraninger, Tomas",
+   "participant2Name": "Schneeberger, Antonin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869724": {
+  "tm": {
+   "id": "320125183535947776",
+   "sport": "Asztalitenisz",
+   "name": "Ludek Madle - Jiri Hyrsl",
+   "home": "Ludek Madle",
+   "away": "Jiri Hyrsl",
+   "home_pid": "153502079891066880",
+   "away_pid": "160762296637902848",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869724",
+   "startTime": "2026-11-17T11:30:00.000Z",
+   "participant1Name": "Madle, Ludek",
+   "participant2Name": "Hyrsl, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0
@@ -10626,66 +10646,6 @@
   "cl": {
    "id": 5649200,
    "name": "N. Aspinall - K. Sedlacek",
-   "score": 1.0
-  }
- },
- "id1903399476776164": {
-  "tm": {
-   "id": "319950857823133696",
-   "sport": "Darts",
-   "name": "Eleanor Cairns - Vicky Pruim",
-   "home": "Eleanor Cairns",
-   "away": "Vicky Pruim",
-   "home_pid": "319926301697843200",
-   "away_pid": "238234776172400640",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-17T10:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476776164",
-   "startTime": "2026-11-17T10:15:00.000Z",
-   "participant1Name": "Cairns, Eleanor",
-   "participant2Name": "Pruim, Vicky",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665904,
-   "name": "E. Cairns - V. Pruim",
-   "score": 1.0
-  }
- },
- "id1903399476776166": {
-  "tm": {
-   "id": "319950849322328064",
-   "sport": "Darts",
-   "name": "Trina Gulliver - Priscilla Steenbergen",
-   "home": "Trina Gulliver",
-   "away": "Priscilla Steenbergen",
-   "home_pid": "192258542936420352",
-   "away_pid": "287071197178662912",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-17T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476776166",
-   "startTime": "2026-11-17T10:30:00.000Z",
-   "participant1Name": "Gulliver, Trina",
-   "participant2Name": "Steenbergen, Priscilla",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665906,
-   "name": "T. Gulliver - P. Steenbergen",
    "score": 1.0
   }
  },
