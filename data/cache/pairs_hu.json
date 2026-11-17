@@ -1,54 +1,4 @@
 {
- "id1003091375591886": {
-  "tm": {
-   "id": "320136990174552064",
-   "sport": "Labdarúgás",
-   "name": "Santos - Sao Paulo",
-   "home": "Santos",
-   "away": "Sao Paulo",
-   "home_pid": "1397068",
-   "away_pid": "9713739484368896",
-   "tournament": "Brazil Paulista, női",
-   "category": "Brazília",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003091375591886",
-   "startTime": "2026-11-17T22:00:00.000Z",
-   "participant1Name": "Santos FC SP",
-   "participant2Name": "Sao Paulo FC SP",
-   "tournamentId": 30913,
-   "tournamentName": "Paulista, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1001441376515486": {
-  "tm": {
-   "id": "320139609783738368",
-   "sport": "Labdarúgás",
-   "name": "U20Atletico Mineiro - U20Sao Paulo",
-   "home": "U20Atletico Mineiro",
-   "away": "U20Sao Paulo",
-   "home_pid": "116757282984873984",
-   "away_pid": "1126102",
-   "tournament": "U20 Brazil Kupa",
-   "category": "Brazília",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001441376515486",
-   "startTime": "2026-11-17T22:00:00.000Z",
-   "participant1Name": "Atletico Mineiro MG",
-   "participant2Name": "Sao Paulo FC SP",
-   "tournamentId": 14413,
-   "tournamentName": "U20 Copa do Brasil",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000085176281536": {
   "tm": {
    "id": "319678773145444352",
@@ -933,31 +883,6 @@
    "name": "A. Guerrieri - Toby Samuel",
    "score": 1.0
   }
- },
- "id1101998076726346": {
-  "tm": {
-   "id": "319746726001975296",
-   "sport": "Kosárlabda",
-   "name": "Defensor Sporting - Hebraica Macabi",
-   "home": "Defensor Sporting",
-   "away": "Hebraica Macabi",
-   "home_pid": "185261836870930432",
-   "away_pid": "185330361228644352",
-   "tournament": "Uruguayi bajnokság",
-   "category": "Uruguay",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T22:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1101998076726346",
-   "startTime": "2026-11-17T22:15:00.000Z",
-   "participant1Name": "Defensor Sporting",
-   "participant2Name": "Hebraica Macabi",
-   "tournamentId": 19980,
-   "tournamentName": "LUB",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1100156274320768": {
   "tm": {
@@ -3589,6 +3514,31 @@
   },
   "score": 0.767
  },
+ "id2503634976869220": {
+  "tm": {
+   "id": "320129445950201856",
+   "sport": "Asztalitenisz",
+   "name": "Petr Picek - Martin Stefek",
+   "home": "Petr Picek",
+   "away": "Martin Stefek",
+   "home_pid": "182301067359342592",
+   "away_pid": "197171400897884160",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T23:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869220",
+   "startTime": "2026-11-17T23:00:00.000Z",
+   "participant1Name": "Picek, Petr",
+   "participant2Name": "Stefek, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2701553275362932": {
   "tm": {
    "id": "319482865448460288",
@@ -4172,27 +4122,6 @@
    "tournament": "Colina, női egyes"
   }
  },
- "id1203756376812388": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1203756376812388",
-   "startTime": "2026-11-17T22:00:00.000Z",
-   "participant1Name": "Labrana, Fernanda",
-   "participant2Name": "Vergara Rivera, Antonia",
-   "tournamentId": 37563,
-   "tournamentName": "WTA 125K Colina, Chile Women Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.87,
-  "cl": {
-   "id": 5663479,
-   "name": "Fer. Labrana - A. Vergara Rivera",
-   "score": 0.87,
-   "home": "Fer. Labrana",
-   "away": "A. Vergara Rivera",
-   "tournament": "Colina, női egyes"
-  }
- },
  "id1100168075364746": {
   "tm": null,
   "fx": {
@@ -4233,27 +4162,6 @@
    "home": "Pardubice 2",
    "away": "Havirov",
    "tournament": "Cseh 2."
-  }
- },
- "id1900059776636314": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1900059776636314",
-   "startTime": "2026-11-17T22:15:00.000Z",
-   "participant1Name": "van Gerwen, Michael",
-   "participant2Name": "de Graaf, Jeffrey",
-   "tournamentId": 597,
-   "tournamentName": "Grand Slam of Darts",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5654815,
-   "name": "M. van Gerwen - J. de Graaf",
-   "score": 1.0,
-   "home": "M. van Gerwen",
-   "away": "J. de Graaf",
-   "tournament": "Grand Slam, L csoport"
   }
  },
  "id1900059776636350": {
