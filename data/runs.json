@@ -1,30 +1,5 @@
 [
  {
-  "time": "2026-11-16T05:28:01.945071+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-9.3% U21Gamba Osaka – U21Shimizu · Gólszám 4: Több @1.74 (fair 1.919)",
-   "-10.9% U21Gamba Osaka – U21Shimizu · Gólszám 4: Kevesebb @1.86 (fair 2.088)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 1,
-  "fixtures_both": 1,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 1
- },
- {
   "time": "2026-11-16T05:33:01.945422+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23538,5 +23513,151 @@
   "not_executable": 0,
   "api_calls": 2,
   "free_calls": 155
+ },
+ {
+  "time": "2026-11-17T23:41:31.444211+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "boosts": 0,
+  "tippmix_matches": 1204,
+  "pinnacle_fixtures": 976,
+  "paired": 535,
+  "by_sport": {
+   "Soccer": [
+    173,
+    123
+   ],
+   "Tennis": [
+    419,
+    52
+   ],
+   "Basketball": [
+    177,
+    144
+   ],
+   "Ice Hockey": [
+    86,
+    74
+   ],
+   "Handball": [
+    36,
+    17
+   ],
+   "Volleyball": [
+    52,
+    16
+   ],
+   "Table Tennis": [
+    58,
+    42
+   ],
+   "Cricket": [
+    40,
+    26
+   ],
+   "Badminton": [
+    68,
+    13
+   ],
+   "Darts": [
+    23,
+    19
+   ],
+   "Futsal": [
+    4,
+    2
+   ],
+   "Waterpolo": [
+    12,
+    7
+   ],
+   "ESport Counter-Strike": [
+    22,
+    0
+   ],
+   "ESport Dota": [
+    6,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    22,
+    0
+   ],
+   "eBasketball": [
+    6,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+0.7% St. Louis – Anaheim · Hendikep (rendes játékidő): St. Louis (+1) @1.38 (fair 1.37)",
+   "-0.0% San Jose – Calgary · Hendikep (rendes játékidő): San Jose (+1) @1.36 (fair 1.36)",
+   "-1.7% Tampa Bay – Washington · Győztes (hosszabbítással): Tampa Bay győz @1.64 (fair 1.668)",
+   "-2.0% Corluspor 1947 – Musspor · Gólszám 2: Több @1.53 (fair 1.561)",
+   "-2.1% Minnesota – Nashville · Győztes (hosszabbítással): Minnesota győz @1.5 (fair 1.533)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 32,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 68,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 153
  }
 ]
