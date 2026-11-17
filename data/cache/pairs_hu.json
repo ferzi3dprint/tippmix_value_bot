@@ -884,36 +884,6 @@
    "score": 1.0
   }
  },
- "id1100156274320768": {
-  "tm": {
-   "id": "318992024268251136",
-   "sport": "Kosárlabda",
-   "name": "UNIFACISA - Botafogo",
-   "home": "UNIFACISA",
-   "away": "Botafogo",
-   "home_pid": "183884507726794752",
-   "away_pid": "164942880111120384",
-   "tournament": "Brazil bajnokság",
-   "category": "Brazília",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T22:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100156274320768",
-   "startTime": "2026-11-17T22:30:00.000Z",
-   "participant1Name": "Unifacisa",
-   "participant2Name": "Botafogo",
-   "tournamentId": 1562,
-   "tournamentName": "NBB",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593888,
-   "name": "Unifacisa - Botafogo",
-   "score": 1.0
-  }
- },
  "id1100168075364744": {
   "tm": {
    "id": "319082797982621696",
@@ -3533,6 +3503,31 @@
    "startTime": "2026-11-17T23:00:00.000Z",
    "participant1Name": "Picek, Petr",
    "participant2Name": "Stefek, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869250": {
+  "tm": {
+   "id": "320130125479878656",
+   "sport": "Asztalitenisz",
+   "name": "Milan Smrcek - Tomas Andrle",
+   "home": "Milan Smrcek",
+   "away": "Tomas Andrle",
+   "home_pid": "127592158820618240",
+   "away_pid": "116988456519913472",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T23:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869250",
+   "startTime": "2026-11-17T23:30:00.000Z",
+   "participant1Name": "Smrcek, Milan",
+   "participant2Name": "Andrle, Tomas",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
