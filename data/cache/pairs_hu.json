@@ -1,64 +1,4 @@
 {
- "id1000085476454722": {
-  "tm": {
-   "id": "320092268183756800",
-   "sport": "Labdarúgás",
-   "name": "U21Portugália - U21Norvégia",
-   "home": "U21Portugália",
-   "away": "U21Norvégia",
-   "home_pid": "19426",
-   "away_pid": "19704",
-   "tournament": "U21 válogatott mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T17:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000085476454722",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "Portugal",
-   "participant2Name": "Norway",
-   "tournamentId": 854,
-   "tournamentName": "U21 Friendly Games",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655256,
-   "name": "U21Portugália - U21Norvégia",
-   "score": 1.0
-  }
- },
- "id1000002675439652": {
-  "tm": {
-   "id": "319714083660177408",
-   "sport": "Labdarúgás",
-   "name": "U21Hollandia - U21Dánia",
-   "home": "U21Hollandia",
-   "away": "U21Dánia",
-   "home_pid": "19423",
-   "away_pid": "19447",
-   "tournament": "U21 Eb-selejtező",
-   "category": "Európa",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T17:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000002675439652",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "Netherlands",
-   "participant2Name": "Denmark",
-   "tournamentId": 26,
-   "tournamentName": "U21 UEFA European Championship, Qualification",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593570,
-   "name": "U21Hollandia - U21Dánia",
-   "score": 1.0
-  }
- },
  "id1000002675439656": {
   "tm": {
    "id": "320028997540978688",
@@ -4304,36 +4244,6 @@
    "score": 1.0
   }
  },
- "id1500024373739592": {
-  "tm": {
-   "id": "318992019871571968",
-   "sport": "Jégkorong",
-   "name": "Torun - Jastrzebie",
-   "home": "Torun",
-   "away": "Jastrzebie",
-   "home_pid": "5825984079521792",
-   "away_pid": "102657",
-   "tournament": "Lengyel bajnokság",
-   "category": "Lengyelország",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T17:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500024373739592",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "TKH Torun",
-   "participant2Name": "JKH GKS Jastrzebie",
-   "tournamentId": 243,
-   "tournamentName": "Polska Hokej Liga",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5632495,
-   "name": "Torun - Jastrzebie",
-   "score": 1.0
-  }
- },
  "id1500049475704508": {
   "tm": {
    "id": "318992026944217088",
@@ -5384,31 +5294,6 @@
    "score": 1.0
   }
  },
- "id1504829772120174": {
-  "tm": {
-   "id": "318992021203263488",
-   "sport": "Jégkorong",
-   "name": "U20Poruba - U20Brno",
-   "home": "U20Poruba",
-   "away": "U20Brno",
-   "home_pid": "5713139312551936",
-   "away_pid": "1382932",
-   "tournament": "U20 Cseh bajnokság",
-   "category": "Csehország",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T17:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1504829772120174",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "HC Poruba",
-   "participant2Name": "HC Kometa Brno",
-   "tournamentId": 48297,
-   "tournamentName": "U20 Extraliga Junioru",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
  "id1500025773350478": {
   "tm": {
    "id": "319082849572560896",
@@ -6279,31 +6164,6 @@
    "score": 1.0
   }
  },
- "id1504829772120180": {
-  "tm": {
-   "id": "318992021631082496",
-   "sport": "Jégkorong",
-   "name": "U20Rytiri Kladno - U20Sparta Praha",
-   "home": "U20Rytiri Kladno",
-   "away": "U20Sparta Praha",
-   "home_pid": "1381885",
-   "away_pid": "1386662",
-   "tournament": "U20 Cseh bajnokság",
-   "category": "Csehország",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T17:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1504829772120180",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "Rytiri Kladno",
-   "participant2Name": "HC Sparta Prague",
-   "tournamentId": 48297,
-   "tournamentName": "U20 Extraliga Junioru",
-   "sportName": "Ice Hockey"
-  },
-  "score": 0.8
- },
  "id1500073572119042": {
   "tm": {
    "id": "319082847016132608",
@@ -6961,126 +6821,6 @@
   "cl": {
    "id": 5593710,
    "name": "Chamalieres - Nantes",
-   "score": 1.0
-  }
- },
- "id2503634976869224": {
-  "tm": {
-   "id": "320125738122551296",
-   "sport": "Asztalitenisz",
-   "name": "Nadymacek Frantisek - Michal Vavrecka",
-   "home": "Nadymacek Frantisek",
-   "away": "Michal Vavrecka",
-   "home_pid": "309600792786571264",
-   "away_pid": "167482783032201216",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T17:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869224",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "Nadymacek, Frantisek",
-   "participant2Name": "Vavrecka, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666748,
-   "name": "F. Nadymacek - M. Vavrecka",
-   "score": 1.0
-  }
- },
- "id2503634976869242": {
-  "tm": {
-   "id": "320125720785395712",
-   "sport": "Asztalitenisz",
-   "name": "Tibor Kolenic - Mihail Trinta",
-   "home": "Tibor Kolenic",
-   "away": "Mihail Trinta",
-   "home_pid": "153681663609589760",
-   "away_pid": "184786608350875648",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T17:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869242",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "Kolenic, Tibor",
-   "participant2Name": "Trinta, Mihail",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666742,
-   "name": "T. Kolenic - M. Trinta",
-   "score": 1.0
-  }
- },
- "id2503634976869688": {
-  "tm": {
-   "id": "320126124592013312",
-   "sport": "Asztalitenisz",
-   "name": "Ondrej Cmerda - Radim Urbaniec",
-   "home": "Ondrej Cmerda",
-   "away": "Radim Urbaniec",
-   "home_pid": "248565089548496896",
-   "away_pid": "167634919836667904",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T17:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869688",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "Cmerda, Ondrej",
-   "participant2Name": "Urbaniec, Radim",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666747,
-   "name": "O. Cmerda - R. Urbaniec",
-   "score": 1.0
-  }
- },
- "id2503634976869666": {
-  "tm": {
-   "id": "320126395020812288",
-   "sport": "Asztalitenisz",
-   "name": "Rybar Vaclav - Matej Levicky",
-   "home": "Rybar Vaclav",
-   "away": "Matej Levicky",
-   "home_pid": "307739855678042112",
-   "away_pid": "274994471166414848",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T17:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869666",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "Rybar, Vaclav",
-   "participant2Name": "Levicky, Matej",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666746,
-   "name": "V. Rybar - M. Levicky",
    "score": 1.0
   }
  },
@@ -8106,27 +7846,6 @@
    "tournament": "Colina, női egyes"
   }
  },
- "id1200386776808170": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200386776808170",
-   "startTime": "2026-11-17T17:40:00.000Z",
-   "participant1Name": "Rocha, Henrique",
-   "participant2Name": "Aguilar Cardozo, Federico",
-   "tournamentId": 3867,
-   "tournamentName": "ATP Challenger Montevideo, Uruguay Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.919,
-  "cl": {
-   "id": 5663204,
-   "name": "Henrique Rocha - Fed. Aguilar Cardozo",
-   "score": 0.919,
-   "home": "Henrique Rocha",
-   "away": "Fed. Aguilar Cardozo",
-   "tournament": "Montevideo, férfi egyes"
-  }
- },
  "id1200386776808158": {
   "tm": null,
   "fx": {
@@ -8398,69 +8117,6 @@
    "home": "Radnicki Kragujevac",
    "away": "Oradea",
    "tournament": "BL, B csoport"
-  }
- },
- "id3300025573274070": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id3300025573274070",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "Storvreta IBK",
-   "participant2Name": "Nykvarns IBF Ungdom",
-   "tournamentId": 255,
-   "tournamentName": "Svenska Superligan",
-   "sportName": "Floorball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593679,
-   "name": "Storvreta - Nykvarns",
-   "score": 1.0,
-   "home": "Storvreta",
-   "away": "Nykvarns",
-   "tournament": "Svéd bajnokság"
-  }
- },
- "id3300025573274072": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id3300025573274072",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "IBF Falun",
-   "participant2Name": "Warberg IC",
-   "tournamentId": 255,
-   "tournamentName": "Svenska Superligan",
-   "sportName": "Floorball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593680,
-   "name": "Falun - Warberg",
-   "score": 1.0,
-   "home": "Falun",
-   "away": "Warberg",
-   "tournament": "Svéd bajnokság"
-  }
- },
- "id3300025573274068": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id3300025573274068",
-   "startTime": "2026-11-17T17:30:00.000Z",
-   "participant1Name": "Jonkopings IK",
-   "participant2Name": "Visby IBK",
-   "tournamentId": 255,
-   "tournamentName": "Svenska Superligan",
-   "sportName": "Floorball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593681,
-   "name": "Jönköping - Visby",
-   "score": 1.0,
-   "home": "Jönköping",
-   "away": "Visby",
-   "tournament": "Svéd bajnokság"
   }
  }
 }

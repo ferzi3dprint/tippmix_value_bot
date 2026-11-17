@@ -3555,11 +3555,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.57884,
-  "closing_fair_odds": 1.728,
-  "closing_sharp_odds": 1.632,
-  "closing_at": "2026-11-17T17:15:37.054307+00:00",
-  "clv": 0.03613
+  "closing_fair_prob": 0.59552,
+  "closing_fair_odds": 1.679,
+  "closing_sharp_odds": 1.591,
+  "closing_at": "2026-11-17T17:44:03.885260+00:00",
+  "clv": 0.06598
  },
  {
   "fixture_id": "id2200005973709892",
@@ -3582,5 +3582,56 @@
   "closing_sharp_odds": 1.512,
   "closing_at": "2026-11-17T17:15:37.054307+00:00",
   "clv": 0.044
+ },
+ {
+  "fixture_id": "id1000033473661312",
+  "market_id": 101,
+  "outcome_id": 101,
+  "first_at": "2026-11-17T17:44:03.885260+00:00",
+  "start": "2026-11-17T19:00:00.000Z",
+  "home": "Luton",
+  "away": "Peterborough",
+  "tournament": "Angol EFL Trophy",
+  "label": "1X2: Luton győz",
+  "odds": 1.51,
+  "fair_prob": 0.69522,
+  "ev": 0.04978,
+  "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1000033473661312",
+  "market_id": 1064,
+  "outcome_id": 1064,
+  "first_at": "2026-11-17T17:44:03.885260+00:00",
+  "start": "2026-11-17T19:00:00.000Z",
+  "home": "Luton",
+  "away": "Peterborough",
+  "tournament": "Angol EFL Trophy",
+  "label": "Ázsiai hendikep: Luton (-1)",
+  "odds": 1.7,
+  "fair_prob": 0.61127,
+  "ev": 0.03915,
+  "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1000033473661312",
+  "market_id": 1066,
+  "outcome_id": 1066,
+  "first_at": "2026-11-17T17:44:03.885260+00:00",
+  "start": "2026-11-17T19:00:00.000Z",
+  "home": "Luton",
+  "away": "Peterborough",
+  "tournament": "Angol EFL Trophy",
+  "label": "Ázsiai hendikep: Luton (-0.75)",
+  "odds": 1.55,
+  "fair_prob": 0.65996,
+  "ev": 0.02293,
+  "band": "1.50–1.80",
+  "trigger": "steam",
+  "bet": false
  }
 ]
