@@ -1,29 +1,4 @@
 {
- "id1003861372952516": {
-  "tm": {
-   "id": "320116843801026560",
-   "sport": "Labdarúgás",
-   "name": "Koprivnica - Solin",
-   "home": "Koprivnica",
-   "away": "Solin",
-   "home_pid": "221002901423804416",
-   "away_pid": "81912",
-   "tournament": "Horvát 3.",
-   "category": "Horvátország",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003861372952516",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "NK Koprivnica",
-   "participant2Name": "NK Solin",
-   "tournamentId": 38613,
-   "tournamentName": "Druga NL",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000085476369474": {
   "tm": {
    "id": "319965177125609472",
@@ -1999,36 +1974,6 @@
   },
   "score": 0.892
  },
- "id1000085176438858": {
-  "tm": {
-   "id": "318954226103427072",
-   "sport": "Labdarúgás",
-   "name": "Kuvait - Honduras",
-   "home": "Kuvait",
-   "away": "Honduras",
-   "home_pid": "161346000429043712",
-   "away_pid": "1528",
-   "tournament": "Válogatott mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000085176438858",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "Kuwait",
-   "participant2Name": "Honduras",
-   "tournamentId": 851,
-   "tournamentName": "Int. Friendly Games",
-   "sportName": "Soccer"
-  },
-  "score": 0.883,
-  "cl": {
-   "id": 5655242,
-   "name": "Kuvait - Honduras",
-   "score": 1.0
-  }
- },
  "id1000107276837268": {
   "tm": {
    "id": "320196829464567808",
@@ -2344,36 +2289,6 @@
   },
   "score": 0.738
  },
- "id1200398776877818": {
-  "tm": {
-   "id": "320144554189725696",
-   "sport": "Tenisz",
-   "name": "Kimmer Coppejans - Borna Gojo",
-   "home": "Kimmer Coppejans",
-   "away": "Borna Gojo",
-   "home_pid": "596255",
-   "away_pid": "1346947",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-17T16:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776877818",
-   "startTime": "2026-11-17T16:40:00.000Z",
-   "participant1Name": "Coppejans, Kimmer",
-   "participant2Name": "Gojo, Borna",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666262,
-   "name": "K. Coppejans - B. Gojo",
-   "score": 0.742
-  }
- },
  "id1202140876736490": {
   "tm": {
    "id": "319988582735486976",
@@ -2553,116 +2468,6 @@
    "name": "A. Guerrieri - Toby Samuel",
    "score": 1.0
   }
- },
- "id1103605975752668": {
-  "tm": {
-   "id": "318992025801269248",
-   "sport": "Kosárlabda",
-   "name": "KTP Kotka - Bisons Loimaa",
-   "home": "KTP Kotka",
-   "away": "Bisons Loimaa",
-   "home_pid": "183387908962570240",
-   "away_pid": "150902612776140800",
-   "tournament": "Finn Kupa",
-   "category": "Finnország",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103605975752668",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "KTP Basket Kotka",
-   "participant2Name": "Bisons Loimaa",
-   "tournamentId": 36059,
-   "tournamentName": "Suomen Cup",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5644321,
-   "name": "KTP Kotka - Bisons Loimaa",
-   "score": 1.0
-  }
- },
- "id1103605975752676": {
-  "tm": {
-   "id": "318992025957507072",
-   "sport": "Kosárlabda",
-   "name": "Kouvot Kouvola - Joensuun Kataja",
-   "home": "Kouvot Kouvola",
-   "away": "Joensuun Kataja",
-   "home_pid": "183451581718515712",
-   "away_pid": "183164181547110400",
-   "tournament": "Finn Kupa",
-   "category": "Finnország",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103605975752676",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "Kouvot Kouvola",
-   "participant2Name": "Kataja Basket Joensuu",
-   "tournamentId": 36059,
-   "tournamentName": "Suomen Cup",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5644322,
-   "name": "Kouvot Kouvola - Joensuun Kataja",
-   "score": 1.0
-  }
- },
- "id1102686475019234": {
-  "tm": {
-   "id": "318992014524882944",
-   "sport": "Kosárlabda",
-   "name": "Maccabi Raanana - Otef Darom",
-   "home": "Maccabi Raanana",
-   "away": "Otef Darom",
-   "home_pid": "1185610",
-   "away_pid": "251728768660443136",
-   "tournament": "Izraeli 2.",
-   "category": "Izrael",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102686475019234",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "Maccabi Raanana",
-   "participant2Name": "BC Otef Darom",
-   "tournamentId": 26864,
-   "tournamentName": "National League",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1102686475019236": {
-  "tm": {
-   "id": "318992014456725504",
-   "sport": "Kosárlabda",
-   "name": "Hapoel Hevel Modiin - Maccabi Rehovot",
-   "home": "Hapoel Hevel Modiin",
-   "away": "Maccabi Rehovot",
-   "home_pid": "314716798957809664",
-   "away_pid": "184505148246118400",
-   "tournament": "Izraeli 2.",
-   "category": "Izrael",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T16:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102686475019236",
-   "startTime": "2026-11-17T16:45:00.000Z",
-   "participant1Name": "Hapoel Hevel Modiin",
-   "participant2Name": "Maccabi Rehovot",
-   "tournamentId": 26864,
-   "tournamentName": "National League",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1100014172902592": {
   "tm": {
@@ -4839,36 +4644,6 @@
   },
   "score": 0.86
  },
- "id1103605975752664": {
-  "tm": {
-   "id": "318992025882009600",
-   "sport": "Kosárlabda",
-   "name": "Kauhajoen Karhu - Helsinki Seagulls",
-   "home": "Kauhajoen Karhu",
-   "away": "Helsinki Seagulls",
-   "home_pid": "182853476072607744",
-   "away_pid": "183387879662211072",
-   "tournament": "Finn Kupa",
-   "category": "Finnország",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103605975752664",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "Kauhajoki Karhu Basket",
-   "participant2Name": "Helsinki Seagulls",
-   "tournamentId": 36059,
-   "tournamentName": "Suomen Cup",
-   "sportName": "Basketball"
-  },
-  "score": 0.825,
-  "cl": {
-   "id": 5644324,
-   "name": "Kauhajoen Karhu - Helsinki Seagulls",
-   "score": 1.0
-  }
- },
  "id1104853973456698": {
   "tm": {
    "id": "318992023465041920",
@@ -5096,66 +4871,6 @@
   "cl": {
    "id": 5594191,
    "name": "Hradec Kralove - Sokol Pisek",
-   "score": 1.0
-  }
- },
- "id1500049475704504": {
-  "tm": {
-   "id": "318992026846699520",
-   "sport": "Jégkorong",
-   "name": "Plzen - Davos",
-   "home": "Plzen",
-   "away": "Davos",
-   "home_pid": "37340",
-   "away_pid": "37359",
-   "tournament": "BL",
-   "category": "Európa",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500049475704504",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "HC Plzen",
-   "participant2Name": "HC Davos",
-   "tournamentId": 494,
-   "tournamentName": "Champions Hockey League",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5577405,
-   "name": "Plzen - Davos",
-   "score": 1.0
-  }
- },
- "id1500049475704502": {
-  "tm": {
-   "id": "318992027031248896",
-   "sport": "Jégkorong",
-   "name": "Tappara - Mannheim",
-   "home": "Tappara",
-   "away": "Mannheim",
-   "home_pid": "37289",
-   "away_pid": "37301",
-   "tournament": "BL",
-   "category": "Európa",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500049475704502",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "Tappara Tampere",
-   "participant2Name": "Adler Mannheim",
-   "tournamentId": 494,
-   "tournamentName": "Champions Hockey League",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5577404,
-   "name": "Tappara - Mannheim",
    "score": 1.0
   }
  },
@@ -6293,31 +6008,6 @@
    "name": "Kolin - Jihlava",
    "score": 1.0
   }
- },
- "id1504829772120184": {
-  "tm": {
-   "id": "318992021450727424",
-   "sport": "Jégkorong",
-   "name": "U20Litvínov - U20Karlovy Vary",
-   "home": "U20Litvínov",
-   "away": "U20Karlovy Vary",
-   "home_pid": "1382928",
-   "away_pid": "1382931",
-   "tournament": "U20 Cseh bajnokság",
-   "category": "Csehország",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1504829772120184",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "HC Litvinov",
-   "participant2Name": "HC Energie Karlovy Vary",
-   "tournamentId": 48297,
-   "tournamentName": "U20 Extraliga Junioru",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
  },
  "id1504829772120174": {
   "tm": {
@@ -7954,75 +7644,25 @@
    "score": 1.0
   }
  },
- "id2503634976869756": {
+ "id2503634976869712": {
   "tm": {
-   "id": "320126124520710144",
+   "id": "320126394732453888",
    "sport": "Asztalitenisz",
-   "name": "Radim Urbaniec - Michal Zahradka",
-   "home": "Radim Urbaniec",
-   "away": "Michal Zahradka",
-   "home_pid": "167634919836667904",
-   "away_pid": "157416179233771520",
+   "name": "Pavel Schneider - Michal Derco",
+   "home": "Pavel Schneider",
+   "away": "Michal Derco",
+   "home_pid": "318303045748334592",
+   "away_pid": "275364070772838400",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-17T16:30:00+00:00"
+   "start": "2026-11-17T17:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976869756",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "Urbaniec, Radim",
-   "participant2Name": "Zahradka, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976869710": {
-  "tm": {
-   "id": "320126407755767808",
-   "sport": "Asztalitenisz",
-   "name": "Matej Levicky - Pavel Schneider",
-   "home": "Matej Levicky",
-   "away": "Pavel Schneider",
-   "home_pid": "274994471166414848",
-   "away_pid": "318303045748334592",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869710",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "Levicky, Matej",
-   "participant2Name": "Schneider, Pavel",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976869320": {
-  "tm": {
-   "id": "320125720955265024",
-   "sport": "Asztalitenisz",
-   "name": "Michal Vavrecka - Pavel Wawrosz",
-   "home": "Michal Vavrecka",
-   "away": "Pavel Wawrosz",
-   "home_pid": "167482783032201216",
-   "away_pid": "185657629937291264",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869320",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "Vavrecka, Michal",
-   "participant2Name": "Wawrosz, Pavel",
+   "fixtureId": "id2503634976869712",
+   "startTime": "2026-11-17T17:00:00.000Z",
+   "participant1Name": "Schneider, Pavel",
+   "participant2Name": "Derco, Michal",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -8054,31 +7694,6 @@
   },
   "score": 1.0
  },
- "id2503634976869712": {
-  "tm": {
-   "id": "320126394732453888",
-   "sport": "Asztalitenisz",
-   "name": "Pavel Schneider - Michal Derco",
-   "home": "Pavel Schneider",
-   "away": "Michal Derco",
-   "home_pid": "318303045748334592",
-   "away_pid": "275364070772838400",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T17:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869712",
-   "startTime": "2026-11-17T17:00:00.000Z",
-   "participant1Name": "Schneider, Pavel",
-   "participant2Name": "Derco, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976869286": {
   "tm": {
    "id": "320125738562953216",
@@ -8098,6 +7713,106 @@
    "startTime": "2026-11-17T17:00:00.000Z",
    "participant1Name": "Wawrosz, Pavel",
    "participant2Name": "Prikasky, Libor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869688": {
+  "tm": {
+   "id": "320126124592013312",
+   "sport": "Asztalitenisz",
+   "name": "Ondrej Cmerda - Radim Urbaniec",
+   "home": "Ondrej Cmerda",
+   "away": "Radim Urbaniec",
+   "home_pid": "248565089548496896",
+   "away_pid": "167634919836667904",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T17:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869688",
+   "startTime": "2026-11-17T17:30:00.000Z",
+   "participant1Name": "Cmerda, Ondrej",
+   "participant2Name": "Urbaniec, Radim",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869224": {
+  "tm": {
+   "id": "320125738122551296",
+   "sport": "Asztalitenisz",
+   "name": "Nadymacek Frantisek - Michal Vavrecka",
+   "home": "Nadymacek Frantisek",
+   "away": "Michal Vavrecka",
+   "home_pid": "309600792786571264",
+   "away_pid": "167482783032201216",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T17:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869224",
+   "startTime": "2026-11-17T17:30:00.000Z",
+   "participant1Name": "Nadymacek, Frantisek",
+   "participant2Name": "Vavrecka, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869242": {
+  "tm": {
+   "id": "320125720785395712",
+   "sport": "Asztalitenisz",
+   "name": "Tibor Kolenic - Mihail Trinta",
+   "home": "Tibor Kolenic",
+   "away": "Mihail Trinta",
+   "home_pid": "153681663609589760",
+   "away_pid": "184786608350875648",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T17:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869242",
+   "startTime": "2026-11-17T17:30:00.000Z",
+   "participant1Name": "Kolenic, Tibor",
+   "participant2Name": "Trinta, Mihail",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869666": {
+  "tm": {
+   "id": "320126395020812288",
+   "sport": "Asztalitenisz",
+   "name": "Rybar Vaclav - Matej Levicky",
+   "home": "Rybar Vaclav",
+   "away": "Matej Levicky",
+   "home_pid": "307739855678042112",
+   "away_pid": "274994471166414848",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T17:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869666",
+   "startTime": "2026-11-17T17:30:00.000Z",
+   "participant1Name": "Rybar, Vaclav",
+   "participant2Name": "Levicky, Matej",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -9021,48 +8736,6 @@
    "tournament": "CONCACAF Nemz.Ligája B div.Bcs"
   }
  },
- "id1203756376812392": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1203756376812392",
-   "startTime": "2026-11-17T16:20:00.000Z",
-   "participant1Name": "Carle, Maria",
-   "participant2Name": "Erjavec, Veronika",
-   "tournamentId": 37563,
-   "tournamentName": "WTA 125K Colina, Chile Women Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663472,
-   "name": "M.L. Carle - V. Erjavec",
-   "score": 1.0,
-   "home": "M.L. Carle",
-   "away": "V. Erjavec",
-   "tournament": "Colina, női egyes"
-  }
- },
- "id1200386776808172": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200386776808172",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "Prado Angelo, Juan Carlos",
-   "participant2Name": "Midon, Lautaro",
-   "tournamentId": 3867,
-   "tournamentName": "ATP Challenger Montevideo, Uruguay Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663205,
-   "name": "J.C. Prado Angelo - L. Midon",
-   "score": 1.0,
-   "home": "J.C. Prado Angelo",
-   "away": "L. Midon",
-   "tournament": "Montevideo, férfi egyes"
-  }
- },
  "id1205210676878750": {
   "tm": null,
   "fx": {
@@ -9271,27 +8944,6 @@
    "home": "P. Martinez Portero",
    "away": "M.W. Donald",
    "tournament": "Metz, férfi egyes"
-  }
- },
- "id1200386776808176": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200386776808176",
-   "startTime": "2026-11-17T16:30:00.000Z",
-   "participant1Name": "Soto, Matias",
-   "participant2Name": "Barrena, Alex",
-   "tournamentId": 3867,
-   "tournamentName": "ATP Challenger Montevideo, Uruguay Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.889,
-  "cl": {
-   "id": 5663228,
-   "name": "Mat. Soto - A. Barrena",
-   "score": 0.889,
-   "home": "Mat. Soto",
-   "away": "A. Barrena",
-   "tournament": "Montevideo, férfi egyes"
   }
  },
  "id1200386776808158": {
