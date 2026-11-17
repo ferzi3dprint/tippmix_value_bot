@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-15T10:43:58.335202+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.9% Budafok – MTK 2 · Gólszám 3.5: Több @1.81 (fair 1.793)",
-   "+0.9% Budafok – MTK 2 · Gólszám 4: Több @2.31 (fair 2.29)",
-   "-1.7% CD Basconia – Alavés 2 · Gólszám 2: Több @1.4 (fair 1.424)",
-   "-1.9% WE SC – Kahraba Ismailia · Gólszám 1.5: Több @1.5 (fair 1.528)",
-   "-1.9% CD Basconia – Alavés 2 · Gólszám 1.75: Több @1.31 (fair 1.336)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 10,
-  "fast": true,
-  "fixtures_checked": 50,
-  "fixtures_both": 39,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 11,
-  "classic_checked": 12,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.7% FC Copenhagen – Midtjylland · Gólszám 3.75: Kevesebb @1.47 (fair 1.481)",
-   "-1.8% FC Copenhagen – Midtjylland · Gólszám 3.5: Kevesebb @1.6 (fair 1.629)",
-   "-2.4% FC Copenhagen – Midtjylland · Gólszám 3.25: Kevesebb @1.74 (fair 1.782)",
-   "-3.4% FC Copenhagen – Midtjylland · Gólszám 3: Kevesebb @1.96 (fair 2.028)",
-   "-3.8% Sassuolo – Ternana · Gólszám 3.25: Kevesebb @1.35 (fair 1.403)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 56
- },
- {
-  "time": "2026-11-15T10:51:52.568100+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 603,
-   "paired": 288,
-   "classic_only": 28
-  },
-  "tippmix_matches": 1375,
-  "pinnacle_fixtures": 1137,
-  "paired": 609,
-  "by_sport": {
-   "Soccer": [
-    612,
-    324
-   ],
-   "Tennis": [
-    131,
-    8
-   ],
-   "Basketball": [
-    226,
-    131
-   ],
-   "Ice Hockey": [
-    103,
-    61
-   ],
-   "Handball": [
-    71,
-    26
-   ],
-   "Volleyball": [
-    88,
-    33
-   ],
-   "Table Tennis": [
-    31,
-    2
-   ],
-   "Cricket": [
-    24,
-    3
-   ],
-   "Badminton": [
-    0,
-    0
-   ],
-   "Darts": [
-    16,
-    0
-   ],
-   "Futsal": [
-    6,
-    4
-   ],
-   "Waterpolo": [
-    4,
-    2
-   ],
-   "ESport Counter-Strike": [
-    17,
-    0
-   ],
-   "ESport Dota": [
-    11,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    32,
-    0
-   ],
-   "eBasketball": [
-    3,
-    0
-   ],
-   "American Football": [
-    0,
-    12
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    1
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    2
-   ]
-  },
-  "top_ev": [
-   "+0.9% Budafok – MTK 2 · Gólszám 3.5: Több @1.81 (fair 1.793)",
-   "+0.9% Budafok – MTK 2 · Gólszám 4: Több @2.31 (fair 2.29)",
-   "+0.3% Ciprus – Montenegró · Gólszám 1.5: Több @1.26 (fair 1.256)",
-   "-0.2% Lettország – Örményország · Ázsiai hendikep: Örményország (+0.5) @1.34 (fair 1.342)",
-   "-0.6% Ciprus – Montenegró · Gólszám 2.25: Több @1.58 (fair 1.59)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 22,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 132,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 26,
-  "classic_checked": 44,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.8% Malmo FF – Vittsjö · Gólszám 4: Kevesebb @1.4 (fair 1.389)",
-   "-0.6% Malmo FF – Vittsjö · Gólszám 3.75: Kevesebb @1.55 (fair 1.559)",
-   "-0.7% GFA Rumilly Vallieres – St-Etienne · Gólszám 4: Kevesebb @1.37 (fair 1.379)",
-   "-0.7% Aston Villa – Birmingham · Gólszám 3.75: Kevesebb @1.46 (fair 1.47)",
-   "-0.7% Göztepe – Galatasaray · Győztes: Galatasaray győz @1.21 (fair 1.219)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
   "time": "2026-11-15T11:08:57.083931+00:00",
   "mode": "hu",
   "settled": 0,
@@ -21846,5 +21655,190 @@
   "not_executable": 0,
   "api_calls": 2,
   "free_calls": 154
+ },
+ {
+  "time": "2026-11-16T23:45:40.393071+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "top_ev": [
+   "-2.2% NY Rangers – Montreal · Hendikep (rendes játékidő): NY Rangers (+1) @1.43 (fair 1.463)",
+   "-2.5% NY Rangers – Montreal · Hendikep (rendes játékidő): Montreal (+1) @1.4 (fair 1.436)",
+   "-2.7% NY Rangers – Montreal · Hendikep (rendes játékidő): Montreal (-0) @1.91 (fair 1.963)",
+   "-3.4% NY Rangers – Montreal · Győztes (hosszabbítással): NY Rangers győz @1.96 (fair 2.03)",
+   "-3.6% Jilly Ádám – Spencer Johnson · Győztes: Spencer Johnson győz @1.14 (fair 1.183)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 13,
+  "fast": true,
+  "fixtures_checked": 38,
+  "fixtures_both": 20,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 5,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 2,
+  "free_calls": 41
+ },
+ {
+  "time": "2026-11-16T23:52:47.860573+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 5,
+  "boosts": 0,
+  "classic": {
+   "events": 298,
+   "paired": 187,
+   "classic_only": 50
+  },
+  "tippmix_matches": 1105,
+  "pinnacle_fixtures": 984,
+  "paired": 526,
+  "by_sport": {
+   "Soccer": [
+    167,
+    118
+   ],
+   "Tennis": [
+    378,
+    99
+   ],
+   "Basketball": [
+    182,
+    120
+   ],
+   "Ice Hockey": [
+    91,
+    78
+   ],
+   "Handball": [
+    39,
+    18
+   ],
+   "Volleyball": [
+    23,
+    6
+   ],
+   "Table Tennis": [
+    24,
+    14
+   ],
+   "Cricket": [
+    29,
+    22
+   ],
+   "Badminton": [
+    63,
+    12
+   ],
+   "Darts": [
+    25,
+    23
+   ],
+   "Futsal": [
+    4,
+    3
+   ],
+   "Waterpolo": [
+    10,
+    5
+   ],
+   "ESport Counter-Strike": [
+    29,
+    6
+   ],
+   "ESport Dota": [
+    10,
+    1
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    27,
+    0
+   ],
+   "eBasketball": [
+    4,
+    0
+   ],
+   "American Football": [
+    0,
+    1
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-0.8% Utah – Vancouver · Hendikep (rendes játékidő): Utah (+0) @1.27 (fair 1.281)",
+   "-1.4% Frölunda – Växjö · 1X2 (rendes játékidő): Frölunda győz @1.57 (fair 1.592)",
+   "-1.5% Moerani Bouzige – Juncheng Shang · Győztes: Juncheng Shang győz @1.05 (fair 1.066)",
+   "-2.1% Utah – Vancouver · Győztes (hosszabbítással): Utah győz @1.31 (fair 1.338)",
+   "-2.2% NY Rangers – Montreal · Hendikep (rendes játékidő): NY Rangers (+1) @1.43 (fair 1.463)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 40,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 81,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 8,
+  "classic_checked": 11,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-3.9% Frölunda – Växjö · 1X2 (rendes játékidő): Frölunda győz @1.53 (fair 1.592)",
+   "-5.5% Düsseldorf – Rosenheim · Győztes (hosszabbítással): Düsseldorf győz @1.41 (fair 1.492)",
+   "-6.3% Crimmitschau – Kassel · Hendikep (rendes játékidő): Crimmitschau (+0.5) @1.57 (fair 1.675)",
+   "-6.5% Frederikshavn – Esbjerg · Hendikep (rendes játékidő): Frederikshavn (+0.5) @1.55 (fair 1.658)",
+   "-6.6% Bad Nauheim – Ravensburg · Hendikep (rendes játékidő): Bad Nauheim (+0.5) @1.54 (fair 1.649)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 155
  }
 ]
