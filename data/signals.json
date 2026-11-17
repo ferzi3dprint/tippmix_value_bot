@@ -3489,11 +3489,11 @@
   "band": "1.00–1.30",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.93514,
-  "closing_fair_odds": 1.069,
-  "closing_sharp_odds": 1.057,
-  "closing_at": "2026-11-17T14:26:51.768260+00:00",
-  "clv": 0.06606
+  "closing_fair_prob": 0.94032,
+  "closing_fair_odds": 1.063,
+  "closing_sharp_odds": 1.052,
+  "closing_at": "2026-11-17T14:34:07.151683+00:00",
+  "clv": 0.07196
  },
  {
   "fixture_id": "id1002984273601834",
@@ -3516,5 +3516,22 @@
   "closing_sharp_odds": 2.07,
   "closing_at": "2026-11-17T12:38:52.203191+00:00",
   "clv": 0.0415
+ },
+ {
+  "fixture_id": "id1000074874827240",
+  "market_id": 10180,
+  "outcome_id": 10180,
+  "first_at": "2026-11-17T14:34:07.151683+00:00",
+  "start": "2026-11-17T15:30:00.000Z",
+  "home": "U19San Marino",
+  "away": "U19Georgia",
+  "tournament": "U19 Eb-selejtező, B Liga",
+  "label": "Gólszám 4: Több",
+  "odds": 2.13,
+  "fair_prob": 0.50681,
+  "ev": 0.07951,
+  "band": "2.10–2.50",
+  "trigger": "steam",
+  "bet": false
  }
 ]

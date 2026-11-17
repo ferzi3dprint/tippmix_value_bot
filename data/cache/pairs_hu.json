@@ -2824,36 +2824,6 @@
   },
   "score": 0.738
  },
- "id1000085176810112": {
-  "tm": {
-   "id": "319992618523107328",
-   "sport": "Labdarúgás",
-   "name": "Egyesült Arab Emirátusok - Szíria",
-   "home": "Egyesült Arab Emirátusok",
-   "away": "Szíria",
-   "home_pid": "1393",
-   "away_pid": "19846",
-   "tournament": "Válogatott mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T14:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000085176810112",
-   "startTime": "2026-11-17T14:10:00.000Z",
-   "participant1Name": "United Arab Emirates",
-   "participant2Name": "Syria",
-   "tournamentId": 851,
-   "tournamentName": "Int. Friendly Games",
-   "sportName": "Soccer"
-  },
-  "score": 0.734,
-  "cl": {
-   "id": 5665001,
-   "name": "Egyesült Arab Emirátusok - Szíria",
-   "score": 1.0
-  }
- },
  "id1200398776877814": {
   "tm": {
    "id": "320144555687092224",
@@ -3173,31 +3143,6 @@
    "name": "A. Guerrieri - Toby Samuel",
    "score": 1.0
   }
- },
- "id1100148272628604": {
-  "tm": {
-   "id": "320111416706146304",
-   "sport": "Kosárlabda",
-   "name": "Jindrichuv Hradec - Lynx Liberec",
-   "home": "Jindrichuv Hradec",
-   "away": "Lynx Liberec",
-   "home_pid": "764879",
-   "away_pid": "179957954072596480",
-   "tournament": "Cseh 2.",
-   "category": "Csehország",
-   "tm_sport_id": "8",
-   "start": "2026-11-17T14:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100148272628604",
-   "startTime": "2026-11-17T14:30:00.000Z",
-   "participant1Name": "Gba Lions Jindrichuv Hradec",
-   "participant2Name": "BA Lynx Liberec",
-   "tournamentId": 1482,
-   "tournamentName": "1. Liga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1100107076711090": {
   "tm": {
@@ -8654,31 +8599,6 @@
    "score": 1.0
   }
  },
- "id2503212976880656": {
-  "tm": {
-   "id": "320159164802342912",
-   "sport": "Asztalitenisz",
-   "name": "Martin Filipek - Frantisek Balcar",
-   "home": "Martin Filipek",
-   "away": "Frantisek Balcar",
-   "home_pid": "107744619091087360",
-   "away_pid": "198287985780879360",
-   "tournament": "TT Cup",
-   "category": "Világ",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T14:25:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503212976880656",
-   "startTime": "2026-11-17T14:25:00.000Z",
-   "participant1Name": "Filipek, Martin",
-   "participant2Name": "Balcar, Frantisek",
-   "tournamentId": 32129,
-   "tournamentName": "TT Cup",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976869684": {
   "tm": {
    "id": "320126139895980032",
@@ -8706,6 +8626,36 @@
   "cl": {
    "id": 5666664,
    "name": "M. Zahradka - O. Cmerda",
+   "score": 1.0
+  }
+ },
+ "id2503634976869652": {
+  "tm": {
+   "id": "320126407689707520",
+   "sport": "Asztalitenisz",
+   "name": "Pavel Schneider - Rybar Vaclav",
+   "home": "Pavel Schneider",
+   "away": "Rybar Vaclav",
+   "home_pid": "318303045748334592",
+   "away_pid": "307739855678042112",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869652",
+   "startTime": "2026-11-17T15:00:00.000Z",
+   "participant1Name": "Schneider, Pavel",
+   "participant2Name": "Rybar, Vaclav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5666665,
+   "name": "Pavel Schneider - V. Rybar",
    "score": 1.0
   }
  },
@@ -8739,33 +8689,93 @@
    "score": 1.0
   }
  },
- "id2503634976869652": {
+ "id2503634976869302": {
   "tm": {
-   "id": "320126407689707520",
+   "id": "320125720198193152",
    "sport": "Asztalitenisz",
-   "name": "Pavel Schneider - Rybar Vaclav",
-   "home": "Pavel Schneider",
-   "away": "Rybar Vaclav",
-   "home_pid": "318303045748334592",
-   "away_pid": "307739855678042112",
+   "name": "Prikasky Libor - Michal Vavrecka",
+   "home": "Prikasky Libor",
+   "away": "Michal Vavrecka",
+   "home_pid": "282868470805467136",
+   "away_pid": "167482783032201216",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-17T15:00:00+00:00"
+   "start": "2026-11-17T15:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976869652",
-   "startTime": "2026-11-17T15:00:00.000Z",
-   "participant1Name": "Schneider, Pavel",
-   "participant2Name": "Rybar, Vaclav",
+   "fixtureId": "id2503634976869302",
+   "startTime": "2026-11-17T15:30:00.000Z",
+   "participant1Name": "Prikasky, Libor",
+   "participant2Name": "Vavrecka, Michal",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0,
   "cl": {
-   "id": 5666665,
-   "name": "Pavel Schneider - V. Rybar",
+   "id": 5666712,
+   "name": "L. Prikasky - M. Vavrecka",
+   "score": 1.0
+  }
+ },
+ "id2503634976869698": {
+  "tm": {
+   "id": "320126394490232832",
+   "sport": "Asztalitenisz",
+   "name": "Michal Derco - Matej Levicky",
+   "home": "Michal Derco",
+   "away": "Matej Levicky",
+   "home_pid": "275364070772838400",
+   "away_pid": "274994471166414848",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T15:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869698",
+   "startTime": "2026-11-17T15:30:00.000Z",
+   "participant1Name": "Derco, Michal",
+   "participant2Name": "Levicky, Matej",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5666709,
+   "name": "M. Derco - M. Levicky",
+   "score": 1.0
+  }
+ },
+ "id2503634976869340": {
+  "tm": {
+   "id": "320125720276836352",
+   "sport": "Asztalitenisz",
+   "name": "Frantisek Briza - Mihail Trinta",
+   "home": "Frantisek Briza",
+   "away": "Mihail Trinta",
+   "home_pid": "191461277224300544",
+   "away_pid": "184786608350875648",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T15:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869340",
+   "startTime": "2026-11-17T15:30:00.000Z",
+   "participant1Name": "Briza, Frantisek",
+   "participant2Name": "Trinta, Mihail",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5666703,
+   "name": "F. Briza - M. Trinta",
    "score": 1.0
   }
  },
@@ -10405,69 +10415,6 @@
    "score": 1.0,
    "home": "V. Nohejl",
    "away": "R. Urbaniec",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976869340": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976869340",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "Briza, Frantisek",
-   "participant2Name": "Trinta, Mihail",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666703,
-   "name": "F. Briza - M. Trinta",
-   "score": 1.0,
-   "home": "F. Briza",
-   "away": "M. Trinta",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976869698": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976869698",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "Derco, Michal",
-   "participant2Name": "Levicky, Matej",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666709,
-   "name": "M. Derco - M. Levicky",
-   "score": 1.0,
-   "home": "M. Derco",
-   "away": "M. Levicky",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976869302": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976869302",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "Prikasky, Libor",
-   "participant2Name": "Vavrecka, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666712,
-   "name": "L. Prikasky - M. Vavrecka",
-   "score": 1.0,
-   "home": "L. Prikasky",
-   "away": "M. Vavrecka",
    "tournament": "Cseh Liga Pro"
   }
  },
