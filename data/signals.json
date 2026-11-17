@@ -2810,7 +2810,7 @@
   "closing_fair_prob": 0.37631,
   "closing_fair_odds": 2.657,
   "closing_sharp_odds": 2.53,
-  "closing_at": "2026-11-17T11:00:49.453785+00:00",
+  "closing_at": "2026-11-17T11:18:15.250809+00:00",
   "clv": 0.07248
  },
  {
@@ -2832,7 +2832,7 @@
   "closing_fair_prob": 0.70894,
   "closing_fair_odds": 1.411,
   "closing_sharp_odds": 1.367,
-  "closing_at": "2026-11-17T11:00:49.453785+00:00",
+  "closing_at": "2026-11-17T11:18:15.250809+00:00",
   "clv": 0.02796
  },
  {
@@ -3225,11 +3225,11 @@
   "band": "1.80–2.10",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.4955,
-  "closing_fair_odds": 2.018,
-  "closing_sharp_odds": 1.9,
-  "closing_at": "2026-11-17T11:00:49.453785+00:00",
-  "clv": -0.05359
+  "closing_fair_prob": 0.48531,
+  "closing_fair_odds": 2.061,
+  "closing_sharp_odds": 1.934,
+  "closing_at": "2026-11-17T11:18:15.250809+00:00",
+  "clv": -0.07306
  },
  {
   "fixture_id": "id1000074875244198",
@@ -3247,11 +3247,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.61984,
-  "closing_fair_odds": 1.613,
+  "closing_fair_prob": 0.61974,
+  "closing_fair_odds": 1.614,
   "closing_sharp_odds": 1.568,
-  "closing_at": "2026-11-17T11:00:49.453785+00:00",
-  "clv": 0.06613
+  "closing_at": "2026-11-17T11:18:15.250809+00:00",
+  "clv": 0.06595
  },
  {
   "fixture_id": "id1000074875140424",
@@ -3334,6 +3334,23 @@
   "ev": 0.05376,
   "band": "1.80–2.10",
   "trigger": "steam",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1000074874723378",
+  "market_id": 101,
+  "outcome_id": 103,
+  "first_at": "2026-11-17T11:18:15.250809+00:00",
+  "start": "2026-11-17T12:00:00.000Z",
+  "home": "U19Finnország",
+  "away": "U19Spanyolország",
+  "tournament": "U19 Eb-selejtező, A Liga",
+  "label": "1X2: U19Spanyolország győz",
+  "odds": 1.12,
+  "fair_prob": 0.91259,
+  "ev": 0.02211,
+  "band": "1.00–1.30",
+  "trigger": "normál",
   "bet": false
  }
 ]
