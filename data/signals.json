@@ -2810,7 +2810,7 @@
   "closing_fair_prob": 0.38106,
   "closing_fair_odds": 2.624,
   "closing_sharp_odds": 2.47,
-  "closing_at": "2026-11-17T07:11:13.072198+00:00",
+  "closing_at": "2026-11-17T07:33:09.433113+00:00",
   "clv": 0.08602
  },
  {
@@ -2832,7 +2832,7 @@
   "closing_fair_prob": 0.70886,
   "closing_fair_odds": 1.411,
   "closing_sharp_odds": 1.361,
-  "closing_at": "2026-11-17T07:11:13.072198+00:00",
+  "closing_at": "2026-11-17T07:33:09.433113+00:00",
   "clv": 0.02784
  },
  {
@@ -3140,7 +3140,41 @@
   "closing_fair_prob": 0.7194,
   "closing_fair_odds": 1.39,
   "closing_sharp_odds": 1.352,
-  "closing_at": "2026-11-17T07:11:13.072198+00:00",
+  "closing_at": "2026-11-17T07:33:09.433113+00:00",
   "clv": 0.03594
+ },
+ {
+  "fixture_id": "id1000074874838730",
+  "market_id": 10176,
+  "outcome_id": 10177,
+  "first_at": "2026-11-17T07:33:09.433113+00:00",
+  "start": "2026-11-17T11:00:00.000Z",
+  "home": "U19Lengyelország",
+  "away": "U19Luxemburg",
+  "tournament": "U19 Eb-selejtező, B Liga",
+  "label": "Gólszám 3.25: Kevesebb",
+  "odds": 1.7,
+  "fair_prob": 0.60796,
+  "ev": 0.03354,
+  "band": "1.50–1.80",
+  "trigger": "normál",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1000074874838730",
+  "market_id": 1012,
+  "outcome_id": 1013,
+  "first_at": "2026-11-17T07:33:09.433113+00:00",
+  "start": "2026-11-17T11:00:00.000Z",
+  "home": "U19Lengyelország",
+  "away": "U19Luxemburg",
+  "tournament": "U19 Eb-selejtező, B Liga",
+  "label": "Gólszám 3.5: Kevesebb",
+  "odds": 1.58,
+  "fair_prob": 0.65497,
+  "ev": 0.03486,
+  "band": "1.50–1.80",
+  "trigger": "normál",
+  "bet": true
  }
 ]
