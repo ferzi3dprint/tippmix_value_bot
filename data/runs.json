@@ -1,73 +1,5 @@
 [
  {
-  "time": "2026-11-15T19:36:49.815130+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "-0.3% Godoy Cruz – Tristan Suarez · Ázsiai hendikep: Godoy Cruz (+0) @1.32 (fair 1.325)",
-   "-0.9% Godoy Cruz – Tristan Suarez · Ázsiai hendikep: Godoy Cruz (+0.25) @1.22 (fair 1.231)",
-   "-1.0% Envigado – Union Magdalena · Gólszám 1.5: Több @1.47 (fair 1.485)",
-   "-1.1% Envigado – Union Magdalena · Gólszám 1.75: Több @1.61 (fair 1.628)",
-   "-1.1% Envigado – Union Magdalena · Gólszám 2: Több @1.85 (fair 1.871)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 22,
-  "fixtures_both": 19,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 7,
-  "classic_checked": 10,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.9% NJ/NY Gotham FC – Kansas City · Gólszám 3: Kevesebb @1.39 (fair 1.417)",
-   "-2.8% Juan Pablo II College – Dep. Garcilaso · Gólszám 3.25: Kevesebb @1.42 (fair 1.461)",
-   "-2.9% NJ/NY Gotham FC – Kansas City · Gólszám 2.75: Kevesebb @1.57 (fair 1.616)",
-   "-3.3% Godoy Cruz – Tristan Suarez · Gólszám 3.5: Kevesebb @1.08 (fair 1.117)",
-   "-3.7% Envigado – Union Magdalena · Gólszám 1.5: Több @1.43 (fair 1.485)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 28
- },
- {
-  "time": "2026-11-15T19:42:22.946361+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 3,
-  "top_ev": [
-   "-0.4% Envigado – Union Magdalena · Gólszám 1.5: Több @1.48 (fair 1.485)",
-   "-0.5% Envigado – Union Magdalena · Gólszám 1.75: Több @1.62 (fair 1.628)",
-   "-0.6% Envigado – Union Magdalena · Gólszám 2: Több @1.86 (fair 1.871)",
-   "-1.2% Envigado – Union Magdalena · Gólszám 1.25: Több @1.31 (fair 1.326)",
-   "-1.7% Cerro Porteno – Sol de America · 1X2: Cerro Porteno győz @1.49 (fair 1.515)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 14,
-  "fixtures_both": 11,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 3,
-  "classic_checked": 7,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.8% Juan Pablo II College – Dep. Garcilaso · Gólszám 3.25: Kevesebb @1.42 (fair 1.461)",
-   "-3.7% Envigado – Union Magdalena · Gólszám 1.5: Több @1.43 (fair 1.485)",
-   "-4.2% Envigado – Union Magdalena · Mindkét csapat szerez gólt: Igen @1.97 (fair 2.057)",
-   "-4.5% Juan Pablo II College – Dep. Garcilaso · Gólszám 3: Kevesebb @1.51 (fair 1.581)",
-   "-4.5% Juan Pablo II College – Dep. Garcilaso · Mindkét csapat szerez gólt: Igen @1.64 (fair 1.718)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 17
- },
- {
   "time": "2026-11-15T19:47:22.945943+00:00",
   "mode": "hu",
   "settled": 0,
@@ -21757,6 +21689,185 @@
    "-1.9% U19Észak-Írország – U19Svájc · Gólszám 3.5: Kevesebb @1.45 (fair 1.478)",
    "-1.9% Kuvait – Honduras · Gólszám 3.5: Kevesebb @1.28 (fair 1.305)",
    "-1.9% Szingapúr – Brazília · Gólszám 5.5: Több @1.65 (fair 1.683)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-17T07:06:13.072422+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 14,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 14
+ },
+ {
+  "time": "2026-11-17T07:11:13.072198+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 326,
+   "paired": 192,
+   "classic_only": 41
+  },
+  "tippmix_matches": 1179,
+  "pinnacle_fixtures": 984,
+  "paired": 451,
+  "by_sport": {
+   "Soccer": [
+    179,
+    120
+   ],
+   "Tennis": [
+    405,
+    46
+   ],
+   "Basketball": [
+    185,
+    97
+   ],
+   "Ice Hockey": [
+    94,
+    87
+   ],
+   "Handball": [
+    40,
+    18
+   ],
+   "Volleyball": [
+    22,
+    5
+   ],
+   "Table Tennis": [
+    41,
+    22
+   ],
+   "Cricket": [
+    26,
+    18
+   ],
+   "Badminton": [
+    50,
+    0
+   ],
+   "Darts": [
+    27,
+    23
+   ],
+   "Futsal": [
+    3,
+    2
+   ],
+   "Waterpolo": [
+    10,
+    6
+   ],
+   "ESport Counter-Strike": [
+    45,
+    6
+   ],
+   "ESport Dota": [
+    12,
+    1
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    37,
+    0
+   ],
+   "eBasketball": [
+    3,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+5.0% U19Dánia – U19Bosznia-Hercegovina · 1X2: U19Dánia győz @1.46 (fair 1.39)",
+   "+4.8% Etiópia – Mozambik · 1X2: Döntetlen @2.75 (fair 2.624)",
+   "+3.4% Botswana – Uganda · 1X2: Döntetlen @2.75 (fair 2.66)",
+   "+2.4% U19Észak-Írország – U19Svájc · 1X2: U19Svájc győz @1.73 (fair 1.69)",
+   "+2.1% Etiópia – Mozambik · Ázsiai hendikep: Etiópia (+0.5) @1.44 (fair 1.411)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 18,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 66,
+  "rejected_mismatch": 0,
+  "candidates": 2,
+  "steam_fixtures": 10,
+  "classic_checked": 74,
+  "classic_candidates": 1,
+  "top_ev_classic": [
+   "+7.5% Etiópia – Mozambik · 1X2: Döntetlen @2.82 (fair 2.624)",
+   "+5.3% Botswana – Uganda · 1X2: Döntetlen @2.8 (fair 2.66)",
+   "+1.9% Ruanda – Mali · 1X2: Döntetlen @3.1 (fair 3.042)",
+   "+1.0% Portugália – Németország · Hendikep (hosszabbítással): Németország (-6.5) @1.79 (fair 1.772)",
+   "-0.0% Portugália – Németország · Összpontszám (hosszabbítással) 136.5: Több @1.78 (fair 1.78)"
   ],
   "placed": 0,
   "not_executable": 0,
