@@ -1219,31 +1219,6 @@
   },
   "score": 1.0
  },
- "id1000111175799144": {
-  "tm": {
-   "id": "318980083186475008",
-   "sport": "Labdarúgás",
-   "name": "Guiseley AFC - Ashton Utd.",
-   "home": "Guiseley AFC",
-   "away": "Ashton Utd.",
-   "home_pid": "9071",
-   "away_pid": "9035",
-   "tournament": "Angol NPL",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T19:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000111175799144",
-   "startTime": "2026-11-17T19:45:00.000Z",
-   "participant1Name": "Guiseley FC",
-   "participant2Name": "Ashton United FC",
-   "tournamentId": 1111,
-   "tournamentName": "Northern Premier League Premier",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000111176586856": {
   "tm": {
    "id": "319420069863038976",
@@ -1288,6 +1263,31 @@
    "startTime": "2026-11-17T19:45:00.000Z",
    "participant1Name": "Hyde United FC",
    "participant2Name": "Warrington Rylands 1906 FC",
+   "tournamentId": 1111,
+   "tournamentName": "Northern Premier League Premier",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000111175799144": {
+  "tm": {
+   "id": "318980083186475008",
+   "sport": "Labdarúgás",
+   "name": "Guiseley AFC - Ashton Utd.",
+   "home": "Guiseley AFC",
+   "away": "Ashton Utd.",
+   "home_pid": "9071",
+   "away_pid": "9035",
+   "tournament": "Angol NPL",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-17T19:45:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000111175799144",
+   "startTime": "2026-11-17T19:45:00.000Z",
+   "participant1Name": "Guiseley FC",
+   "participant2Name": "Ashton United FC",
    "tournamentId": 1111,
    "tournamentName": "Northern Premier League Premier",
    "sportName": "Soccer"
@@ -1494,31 +1494,6 @@
   },
   "score": 1.0
  },
- "id1002605875584038": {
-  "tm": {
-   "id": "318980082881339392",
-   "sport": "Labdarúgás",
-   "name": "Chippenham Town - Sholing",
-   "home": "Chippenham Town",
-   "away": "Sholing",
-   "home_pid": "9052",
-   "away_pid": "1495096",
-   "tournament": "Angol Southern League, Premier Dél",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T19:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002605875584038",
-   "startTime": "2026-11-17T19:45:00.000Z",
-   "participant1Name": "Chippenham Town FC",
-   "participant2Name": "Sholing FC",
-   "tournamentId": 26058,
-   "tournamentName": "Southern League Premier South",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002605876583930": {
   "tm": {
    "id": "319716789283004416",
@@ -1538,6 +1513,31 @@
    "startTime": "2026-11-17T19:45:00.000Z",
    "participant1Name": "Havant & Waterlooville",
    "participant2Name": "Bracknell Town FC",
+   "tournamentId": 26058,
+   "tournamentName": "Southern League Premier South",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002605875584038": {
+  "tm": {
+   "id": "318980082881339392",
+   "sport": "Labdarúgás",
+   "name": "Chippenham Town - Sholing",
+   "home": "Chippenham Town",
+   "away": "Sholing",
+   "home_pid": "9052",
+   "away_pid": "1495096",
+   "tournament": "Angol Southern League, Premier Dél",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-17T19:45:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002605875584038",
+   "startTime": "2026-11-17T19:45:00.000Z",
+   "participant1Name": "Chippenham Town FC",
+   "participant2Name": "Sholing FC",
    "tournamentId": 26058,
    "tournamentName": "Southern League Premier South",
    "sportName": "Soccer"
@@ -1569,31 +1569,6 @@
   },
   "score": 1.0
  },
- "id1002605676871564": {
-  "tm": {
-   "id": "319974748583960576",
-   "sport": "Labdarúgás",
-   "name": "Leiston - Stratford Town",
-   "home": "Leiston",
-   "away": "Stratford Town",
-   "home_pid": "125710",
-   "away_pid": "1227657",
-   "tournament": "Angol Southern League, Premier Közép",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T19:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002605676871564",
-   "startTime": "2026-11-17T19:45:00.000Z",
-   "participant1Name": "Leiston FC",
-   "participant2Name": "Stratford Town",
-   "tournamentId": 26056,
-   "tournamentName": "Southern League Premier Central",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002605676871504": {
   "tm": {
    "id": "319974734255169536",
@@ -1613,6 +1588,31 @@
    "startTime": "2026-11-17T19:45:00.000Z",
    "participant1Name": "Leamington FC",
    "participant2Name": "Halesowen Town FC",
+   "tournamentId": 26056,
+   "tournamentName": "Southern League Premier Central",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002605676871564": {
+  "tm": {
+   "id": "319974748583960576",
+   "sport": "Labdarúgás",
+   "name": "Leiston - Stratford Town",
+   "home": "Leiston",
+   "away": "Stratford Town",
+   "home_pid": "125710",
+   "away_pid": "1227657",
+   "tournament": "Angol Southern League, Premier Közép",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-17T19:45:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002605676871564",
+   "startTime": "2026-11-17T19:45:00.000Z",
+   "participant1Name": "Leiston FC",
+   "participant2Name": "Stratford Town",
    "tournamentId": 26056,
    "tournamentName": "Southern League Premier Central",
    "sportName": "Soccer"
@@ -1924,6 +1924,31 @@
    "score": 1.0
   }
  },
+ "id1003091375591888": {
+  "tm": {
+   "id": "320137060364132352",
+   "sport": "Labdarúgás",
+   "name": "Bragantino - Corinthians Paulista",
+   "home": "Bragantino",
+   "away": "Corinthians Paulista",
+   "home_pid": "119192044580163584",
+   "away_pid": "1565678",
+   "tournament": "Brazil Paulista, női",
+   "category": "Brazília",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T00:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1003091375591888",
+   "startTime": "2026-11-18T00:00:00.000Z",
+   "participant1Name": "Red Bull Bragantino SP",
+   "participant2Name": "SC Corinthians SP",
+   "tournamentId": 30913,
+   "tournamentName": "Paulista, Women",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1002742075512554": {
   "tm": {
    "id": "320144683781136384",
@@ -1953,6 +1978,31 @@
    "name": "Salvador - Saint-Martin",
    "score": 1.0
   }
+ },
+ "id1002710276822364": {
+  "tm": {
+   "id": "320015373594337280",
+   "sport": "Labdarúgás",
+   "name": "CD Arabe Unido - Veraguas FC",
+   "home": "CD Arabe Unido",
+   "away": "Veraguas FC",
+   "home_pid": "494950",
+   "away_pid": "10507811078934528",
+   "tournament": "Panamai bajnokság",
+   "category": "Panama",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T01:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002710276822364",
+   "startTime": "2026-11-18T01:30:00.000Z",
+   "participant1Name": "CD Arabe Unido",
+   "participant2Name": "Veraguas United FC",
+   "tournamentId": 27102,
+   "tournamentName": "Liga Panamena",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
  },
  "id1002742075466990": {
   "tm": {
@@ -2349,56 +2399,6 @@
   },
   "score": 1.0
  },
- "id1003091375591888": {
-  "tm": {
-   "id": "320137060364132352",
-   "sport": "Labdarúgás",
-   "name": "Bragantino - Corinthians Paulista",
-   "home": "Bragantino",
-   "away": "Corinthians Paulista",
-   "home_pid": "119192044580163584",
-   "away_pid": "1565678",
-   "tournament": "Brazil Paulista, női",
-   "category": "Brazília",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T00:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003091375591888",
-   "startTime": "2026-11-18T00:00:00.000Z",
-   "participant1Name": "Red Bull Bragantino SP",
-   "participant2Name": "SC Corinthians SP",
-   "tournamentId": 30913,
-   "tournamentName": "Paulista, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002710276822364": {
-  "tm": {
-   "id": "320015373594337280",
-   "sport": "Labdarúgás",
-   "name": "CD Arabe Unido - Veraguas FC",
-   "home": "CD Arabe Unido",
-   "away": "Veraguas FC",
-   "home_pid": "494950",
-   "away_pid": "10507811078934528",
-   "tournament": "Panamai bajnokság",
-   "category": "Panama",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002710276822364",
-   "startTime": "2026-11-18T01:30:00.000Z",
-   "participant1Name": "CD Arabe Unido",
-   "participant2Name": "Veraguas United FC",
-   "tournamentId": 27102,
-   "tournamentName": "Liga Panamena",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1003694576792542": {
   "tm": {
    "id": "320156564924211200",
@@ -2479,6 +2479,31 @@
    "score": 1.0
   }
  },
+ "id1000107276837268": {
+  "tm": {
+   "id": "320196829464567808",
+   "sport": "Labdarúgás",
+   "name": "U23Szaúd-Arábia - U23Kuvait",
+   "home": "U23Szaúd-Arábia",
+   "away": "U23Kuvait",
+   "home_pid": "976964",
+   "away_pid": "144105849847074816",
+   "tournament": "U23 válogatott mérkőzés",
+   "category": "Világ",
+   "tm_sport_id": "1",
+   "start": "2026-11-17T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000107276837268",
+   "startTime": "2026-11-17T17:00:00.000Z",
+   "participant1Name": "Saudi Arabia",
+   "participant2Name": "Kuwait",
+   "tournamentId": 1072,
+   "tournamentName": "U23 Friendly Games",
+   "sportName": "Soccer"
+  },
+  "score": 0.883
+ },
  "id1000184875802308": {
   "tm": {
    "id": "319353366059753472",
@@ -2508,31 +2533,6 @@
    "name": "Ruanda - Mali",
    "score": 1.0
   }
- },
- "id1000107276837268": {
-  "tm": {
-   "id": "320196829464567808",
-   "sport": "Labdarúgás",
-   "name": "U23Szaúd-Arábia - U23Kuvait",
-   "home": "U23Szaúd-Arábia",
-   "away": "U23Kuvait",
-   "home_pid": "976964",
-   "away_pid": "144105849847074816",
-   "tournament": "U23 válogatott mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T17:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000107276837268",
-   "startTime": "2026-11-17T17:00:00.000Z",
-   "participant1Name": "Saudi Arabia",
-   "participant2Name": "Kuwait",
-   "tournamentId": 1072,
-   "tournamentName": "U23 Friendly Games",
-   "sportName": "Soccer"
-  },
-  "score": 0.883
  },
  "id1000184875802284": {
   "tm": {
@@ -3063,56 +3063,6 @@
    "name": "D. Glinka - Nishesh Basavareddy",
    "score": 1.0
   }
- },
- "id1200398776806570": {
-  "tm": {
-   "id": "319986673085652992",
-   "sport": "Tenisz",
-   "name": "James Duckworth - Eero Vasa",
-   "home": "James Duckworth",
-   "away": "Eero Vasa",
-   "home_pid": "352916",
-   "away_pid": "1157209",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-18T11:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776806570",
-   "startTime": "2026-11-18T11:30:00.000Z",
-   "participant1Name": "Duckworth, James",
-   "participant2Name": "Vasa, Eero",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
- "id1200398776806568": {
-  "tm": {
-   "id": "319986673279639552",
-   "sport": "Tenisz",
-   "name": "Michele Ribecai - Edas Butvilas",
-   "home": "Michele Ribecai",
-   "away": "Edas Butvilas",
-   "home_pid": "193770240456421376",
-   "away_pid": "142533406964633600",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-18T11:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776806568",
-   "startTime": "2026-11-18T11:30:00.000Z",
-   "participant1Name": "Ribecai, Michele",
-   "participant2Name": "Butvilas, Edas",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
  },
  "id1200398776693998": {
   "tm": {
@@ -4799,6 +4749,31 @@
   },
   "score": 1.0
  },
+ "id1103552276845280": {
+  "tm": {
+   "id": "320114956803579904",
+   "sport": "Kosárlabda",
+   "name": "Pollitas de Isabela - Gagantes de Carolina",
+   "home": "Pollitas de Isabela",
+   "away": "Gagantes de Carolina",
+   "home_pid": "211782737154166784",
+   "away_pid": "150934720142852096",
+   "tournament": "Puerto Ricó-i bajnokság, női",
+   "category": "Puerto Rico",
+   "tm_sport_id": "8",
+   "start": "2026-11-18T00:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1103552276845280",
+   "startTime": "2026-11-18T00:00:00.000Z",
+   "participant1Name": "Pollitas de Isabela",
+   "participant2Name": "Gigantes de Carolina",
+   "tournamentId": 35522,
+   "tournamentName": "BSNF, Women",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1103449675756102": {
   "tm": {
    "id": "319082802906734592",
@@ -5380,31 +5355,6 @@
    "participant2Name": "Ironi Nahariya",
    "tournamentId": 26864,
    "tournamentName": "National League",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1103552276845280": {
-  "tm": {
-   "id": "320114956803579904",
-   "sport": "Kosárlabda",
-   "name": "Pollitas de Isabela - Gagantes de Carolina",
-   "home": "Pollitas de Isabela",
-   "away": "Gagantes de Carolina",
-   "home_pid": "211782737154166784",
-   "away_pid": "150934720142852096",
-   "tournament": "Puerto Ricó-i bajnokság, női",
-   "category": "Puerto Rico",
-   "tm_sport_id": "8",
-   "start": "2026-11-18T00:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103552276845280",
-   "startTime": "2026-11-18T00:00:00.000Z",
-   "participant1Name": "Pollitas de Isabela",
-   "participant2Name": "Gigantes de Carolina",
-   "tournamentId": 35522,
-   "tournamentName": "BSNF, Women",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -6499,36 +6449,6 @@
    "score": 1.0
   }
  },
- "id1500023472909518": {
-  "tm": {
-   "id": "319082845276545024",
-   "sport": "Jégkorong",
-   "name": "Chicago - Toronto",
-   "home": "Chicago",
-   "away": "Toronto",
-   "home_pid": "37455",
-   "away_pid": "37429",
-   "tournament": "NHL (alapszakasz)",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-18T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500023472909518",
-   "startTime": "2026-11-18T00:30:00.000Z",
-   "participant1Name": "Chicago Blackhawks",
-   "participant2Name": "Toronto Maple Leafs",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593914,
-   "name": "Chicago - Toronto",
-   "score": 1.0
-  }
- },
  "id1500023472909510": {
   "tm": {
    "id": "319082845039566848",
@@ -6556,6 +6476,36 @@
   "cl": {
    "id": 5593912,
    "name": "Tampa Bay - Washington",
+   "score": 1.0
+  }
+ },
+ "id1500023472909518": {
+  "tm": {
+   "id": "319082845276545024",
+   "sport": "Jégkorong",
+   "name": "Chicago - Toronto",
+   "home": "Chicago",
+   "away": "Toronto",
+   "home_pid": "37455",
+   "away_pid": "37429",
+   "tournament": "NHL (alapszakasz)",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-18T00:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500023472909518",
+   "startTime": "2026-11-18T00:30:00.000Z",
+   "participant1Name": "Chicago Blackhawks",
+   "participant2Name": "Toronto Maple Leafs",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5593914,
+   "name": "Chicago - Toronto",
    "score": 1.0
   }
  },
@@ -7109,36 +7059,6 @@
    "score": 1.0
   }
  },
- "id1500013472116528": {
-  "tm": {
-   "id": "319082848920346624",
-   "sport": "Jégkorong",
-   "name": "KalPa - Lukko",
-   "home": "KalPa",
-   "away": "Lukko",
-   "home_pid": "37725",
-   "away_pid": "37290",
-   "tournament": "Finn bajnokság",
-   "category": "Finnország",
-   "tm_sport_id": "6",
-   "start": "2026-11-18T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500013472116528",
-   "startTime": "2026-11-18T16:30:00.000Z",
-   "participant1Name": "KalPa Hockey",
-   "participant2Name": "Lukko Rauma",
-   "tournamentId": 134,
-   "tournamentName": "Liiga",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594017,
-   "name": "Kalpa - Lukko",
-   "score": 1.0
-  }
- },
  "id1500013472116524": {
   "tm": {
    "id": "319082848778788864",
@@ -7166,6 +7086,36 @@
   "cl": {
    "id": 5594019,
    "name": "Jukurit - Jokerit",
+   "score": 1.0
+  }
+ },
+ "id1500013472116528": {
+  "tm": {
+   "id": "319082848920346624",
+   "sport": "Jégkorong",
+   "name": "KalPa - Lukko",
+   "home": "KalPa",
+   "away": "Lukko",
+   "home_pid": "37725",
+   "away_pid": "37290",
+   "tournament": "Finn bajnokság",
+   "category": "Finnország",
+   "tm_sport_id": "6",
+   "start": "2026-11-18T16:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500013472116528",
+   "startTime": "2026-11-18T16:30:00.000Z",
+   "participant1Name": "KalPa Hockey",
+   "participant2Name": "Lukko Rauma",
+   "tournamentId": 134,
+   "tournamentName": "Liiga",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594017,
+   "name": "Kalpa - Lukko",
    "score": 1.0
   }
  },
@@ -8779,6 +8729,36 @@
    "score": 1.0
   }
  },
+ "id2503634976869716": {
+  "tm": {
+   "id": "320126124797534208",
+   "sport": "Asztalitenisz",
+   "name": "Vaclav Nohejl 2005 - Radim Urbaniec",
+   "home": "Vaclav Nohejl 2005",
+   "away": "Radim Urbaniec",
+   "home_pid": "302561937129246720",
+   "away_pid": "167634919836667904",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T15:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869716",
+   "startTime": "2026-11-17T15:30:00.000Z",
+   "participant1Name": "Nohejl, Vaclav (2005)",
+   "participant2Name": "Urbaniec, Radim",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5666702,
+   "name": "V. Nohejl - R. Urbaniec",
+   "score": 1.0
+  }
+ },
  "id2503634976869244": {
   "tm": {
    "id": "320125720873476096",
@@ -8909,31 +8889,6 @@
   },
   "score": 1.0
  },
- "id2702833376631356": {
-  "tm": {
-   "id": "320097221974499328",
-   "sport": "Krikett",
-   "name": "Chandigarh - Rajasthan",
-   "home": "Chandigarh",
-   "away": "Rajasthan",
-   "home_pid": "192104243792080896",
-   "away_pid": "218275345571401728",
-   "tournament": "Indiai Syed Mustaq Ali Trophy",
-   "category": "India",
-   "tm_sport_id": "26",
-   "start": "2026-11-18T05:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702833376631356",
-   "startTime": "2026-11-18T05:30:00.000Z",
-   "participant1Name": "Chandigarh",
-   "participant2Name": "E Rajasthan",
-   "tournamentId": 28333,
-   "tournamentName": "Syed Mushtaq Ali Trophy Elite",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
- },
  "id2702833376122610": {
   "tm": {
    "id": "320097221580234752",
@@ -8953,6 +8908,31 @@
    "startTime": "2026-11-18T05:30:00.000Z",
    "participant1Name": "Punjab",
    "participant2Name": "Railways",
+   "tournamentId": 28333,
+   "tournamentName": "Syed Mushtaq Ali Trophy Elite",
+   "sportName": "Cricket"
+  },
+  "score": 1.0
+ },
+ "id2702833376631356": {
+  "tm": {
+   "id": "320097221974499328",
+   "sport": "Krikett",
+   "name": "Chandigarh - Rajasthan",
+   "home": "Chandigarh",
+   "away": "Rajasthan",
+   "home_pid": "192104243792080896",
+   "away_pid": "218275345571401728",
+   "tournament": "Indiai Syed Mustaq Ali Trophy",
+   "category": "India",
+   "tm_sport_id": "26",
+   "start": "2026-11-18T05:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2702833376631356",
+   "startTime": "2026-11-18T05:30:00.000Z",
+   "participant1Name": "Chandigarh",
+   "participant2Name": "E Rajasthan",
    "tournamentId": 28333,
    "tournamentName": "Syed Mushtaq Ali Trophy Elite",
    "sportName": "Cricket"
@@ -9059,31 +9039,6 @@
   },
   "score": 1.0
  },
- "id2704941876121534": {
-  "tm": {
-   "id": "320144912540573696",
-   "sport": "Krikett",
-   "name": "Hollandia - Zimbabwe",
-   "home": "Hollandia",
-   "away": "Zimbabwe",
-   "home_pid": "144468715658858496",
-   "away_pid": "148631936875679744",
-   "tournament": "T20 Series, női",
-   "category": "Világ",
-   "tm_sport_id": "26",
-   "start": "2026-11-18T09:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2704941876121534",
-   "startTime": "2026-11-18T09:15:00.000Z",
-   "participant1Name": "Netherlands",
-   "participant2Name": "Zimbabwe",
-   "tournamentId": 49418,
-   "tournamentName": "T20 Emerging Nations Trophy, Women",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
- },
  "id2704941876121536": {
   "tm": {
    "id": "320144747011317760",
@@ -9103,6 +9058,31 @@
    "startTime": "2026-11-18T09:15:00.000Z",
    "participant1Name": "Bangladesh",
    "participant2Name": "Thailand",
+   "tournamentId": 49418,
+   "tournamentName": "T20 Emerging Nations Trophy, Women",
+   "sportName": "Cricket"
+  },
+  "score": 1.0
+ },
+ "id2704941876121534": {
+  "tm": {
+   "id": "320144912540573696",
+   "sport": "Krikett",
+   "name": "Hollandia - Zimbabwe",
+   "home": "Hollandia",
+   "away": "Zimbabwe",
+   "home_pid": "144468715658858496",
+   "away_pid": "148631936875679744",
+   "tournament": "T20 Series, női",
+   "category": "Világ",
+   "tm_sport_id": "26",
+   "start": "2026-11-18T09:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2704941876121534",
+   "startTime": "2026-11-18T09:15:00.000Z",
+   "participant1Name": "Netherlands",
+   "participant2Name": "Zimbabwe",
    "tournamentId": 49418,
    "tournamentName": "T20 Emerging Nations Trophy, Women",
    "sportName": "Cricket"
@@ -10395,27 +10375,6 @@
    "home": "Wisla Plock",
    "away": "Veszprém",
    "tournament": "BL, I. csoport"
-  }
- },
- "id2503634976869716": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976869716",
-   "startTime": "2026-11-17T15:30:00.000Z",
-   "participant1Name": "Nohejl, Vaclav (2005)",
-   "participant2Name": "Urbaniec, Radim",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666702,
-   "name": "V. Nohejl - R. Urbaniec",
-   "score": 1.0,
-   "home": "V. Nohejl",
-   "away": "R. Urbaniec",
-   "tournament": "Cseh Liga Pro"
   }
  },
  "id2503634976869292": {

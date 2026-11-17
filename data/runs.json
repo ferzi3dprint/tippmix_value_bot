@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-15T23:34:17.869431+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "top_ev": [
-   "-1.7% Dallas – Florida · Hendikep (rendes játékidő): Dallas (+1) @1.33 (fair 1.353)",
-   "-1.8% Philadelphia – Edmonton · Hendikep (rendes játékidő): Philadelphia (+1) @1.59 (fair 1.62)",
-   "-2.7% Dep. Quindio – Cartagena · Gólszám 1.5: Több @1.39 (fair 1.428)",
-   "-2.8% Philadelphia – Edmonton · Győztes (hosszabbítással): Edmonton győz @1.69 (fair 1.739)",
-   "-2.9% Derek Pham – Pavle Marinkov · Győztes: Derek Pham győz @1.74 (fair 1.791)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 30,
-  "fixtures_both": 12,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 4,
-  "classic_checked": 17,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-4.0% Derek Pham – Pavle Marinkov · Győztes: Derek Pham győz @1.72 (fair 1.791)",
-   "-4.6% La Union Formosa – Asociacion Deportiva Atenas Cordoba · Összpontszám (hosszabbítással) 162.5: Több @1.82 (fair 1.907)",
-   "-4.7% Saint Johns Red Storm – Syracuse Orange · Győztes (hosszabbítással): Saint Johns Red Storm győz @1.08 (fair 1.133)",
-   "-4.7% San Martin de Corientes – Quimsa Santiago Del Estero · Győztes (hosszabbítással): Quimsa Santiago Del Estero győz @1.37 (fair 1.438)",
-   "-4.9% Milwaukee – Atlanta · Győztes (hosszabbítással): Atlanta győz @1.27 (fair 1.336)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 34
- },
- {
   "time": "2026-11-15T23:40:16.529780+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22848,5 +22814,162 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 47
+ },
+ {
+  "time": "2026-11-17T14:58:44.777605+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 578,
+   "paired": 222,
+   "classic_only": 45
+  },
+  "tippmix_matches": 1254,
+  "pinnacle_fixtures": 984,
+  "paired": 388,
+  "by_sport": {
+   "Soccer": [
+    206,
+    104
+   ],
+   "Tennis": [
+    391,
+    27
+   ],
+   "Basketball": [
+    213,
+    95
+   ],
+   "Ice Hockey": [
+    97,
+    85
+   ],
+   "Handball": [
+    53,
+    21
+   ],
+   "Volleyball": [
+    38,
+    3
+   ],
+   "Table Tennis": [
+    49,
+    13
+   ],
+   "Cricket": [
+    35,
+    16
+   ],
+   "Badminton": [
+    46,
+    0
+   ],
+   "Darts": [
+    27,
+    8
+   ],
+   "Futsal": [
+    5,
+    2
+   ],
+   "Waterpolo": [
+    10,
+    6
+   ],
+   "ESport Counter-Strike": [
+    40,
+    2
+   ],
+   "ESport Dota": [
+    5,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    35,
+    0
+   ],
+   "eBasketball": [
+    4,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    6
+   ]
+  },
+  "top_ev": [
+   "+5.3% U19San Marino – U19Georgia · 1X2: U19Georgia győz @1.12 (fair 1.063)",
+   "+1.7% Botswana – Uganda · 1X2: Döntetlen @2.75 (fair 2.705)",
+   "+0.5% Ruanda – Mali · Gólszám 1.5: Több @1.54 (fair 1.532)",
+   "+0.2% Mauritánia – Burkina Faso · 1X2: Döntetlen @2.8 (fair 2.795)",
+   "+0.2% Botswana – Uganda · Gólszám 1.5: Több @1.6 (fair 1.597)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 10,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 69,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 23,
+  "classic_checked": 112,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+4.8% Ruanda – Mali · 1X2: Döntetlen @3.15 (fair 3.005)",
+   "+4.1% Mauritánia – Burkina Faso · 1X2: Döntetlen @2.91 (fair 2.795)",
+   "+2.3% Gambia – Elefántcsontpart · 1X2: Döntetlen @3.7 (fair 3.617)",
+   "+0.7% Bissau-Guinea – Madagaszkár · 1X2: Döntetlen @4.1 (fair 4.073)",
+   "+0.2% Líbia – Tunézia · 1X2: Döntetlen @3.15 (fair 3.145)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 155
  }
 ]
