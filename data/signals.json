@@ -3159,11 +3159,11 @@
   "band": "1.50–1.80",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.59772,
-  "closing_fair_odds": 1.673,
-  "closing_sharp_odds": 1.609,
-  "closing_at": "2026-11-17T09:49:59.056786+00:00",
-  "clv": 0.01613
+  "closing_fair_prob": 0.59685,
+  "closing_fair_odds": 1.675,
+  "closing_sharp_odds": 1.613,
+  "closing_at": "2026-11-17T10:07:39.823744+00:00",
+  "clv": 0.01464
  },
  {
   "fixture_id": "id1000074874838730",
@@ -3181,11 +3181,11 @@
   "band": "1.50–1.80",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.64671,
-  "closing_fair_odds": 1.546,
-  "closing_sharp_odds": 1.485,
-  "closing_at": "2026-11-17T09:49:59.056786+00:00",
-  "clv": 0.0218
+  "closing_fair_prob": 0.64616,
+  "closing_fair_odds": 1.548,
+  "closing_sharp_odds": 1.487,
+  "closing_at": "2026-11-17T10:07:39.823744+00:00",
+  "clv": 0.02094
  },
  {
   "fixture_id": "id1000074874838730",
@@ -3203,11 +3203,11 @@
   "band": "1.30–1.50",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.72605,
-  "closing_fair_odds": 1.377,
-  "closing_sharp_odds": 1.347,
-  "closing_at": "2026-11-17T09:49:59.056786+00:00",
-  "clv": 0.02373
+  "closing_fair_prob": 0.72675,
+  "closing_fair_odds": 1.376,
+  "closing_sharp_odds": 1.346,
+  "closing_at": "2026-11-17T10:07:39.823744+00:00",
+  "clv": 0.02472
  },
  {
   "fixture_id": "id1000074874723616",
@@ -3247,11 +3247,11 @@
   "band": "1.50–1.80",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.62072,
-  "closing_fair_odds": 1.611,
-  "closing_sharp_odds": 1.555,
-  "closing_at": "2026-11-17T09:49:59.056786+00:00",
-  "clv": 0.06765
+  "closing_fair_prob": 0.61984,
+  "closing_fair_odds": 1.613,
+  "closing_sharp_odds": 1.568,
+  "closing_at": "2026-11-17T10:07:39.823744+00:00",
+  "clv": 0.06613
  },
  {
   "fixture_id": "id1000074875140424",
@@ -3274,5 +3274,39 @@
   "closing_sharp_odds": 2.09,
   "closing_at": "2026-11-17T09:49:59.056786+00:00",
   "clv": 0.04667
+ },
+ {
+  "fixture_id": "id1504829772120186",
+  "market_id": 151,
+  "outcome_id": 151,
+  "first_at": "2026-11-17T10:07:39.823744+00:00",
+  "start": "2026-11-17T11:30:00.000Z",
+  "home": "U20Jihlava",
+  "away": "U20Motor Ceske Budejovice",
+  "tournament": "U20 Cseh bajnokság",
+  "label": "Győztes (hosszabbítással): U20Jihlava győz",
+  "odds": 2.95,
+  "fair_prob": 0.40038,
+  "ev": 0.18112,
+  "band": "2.50–5.00",
+  "trigger": "normál",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1504829772120186",
+  "market_id": 1590,
+  "outcome_id": 1590,
+  "first_at": "2026-11-17T10:07:39.823744+00:00",
+  "start": "2026-11-17T11:30:00.000Z",
+  "home": "U20Jihlava",
+  "away": "U20Motor Ceske Budejovice",
+  "tournament": "U20 Cseh bajnokság",
+  "label": "Hendikep (rendes játékidő): U20Jihlava (+1)",
+  "odds": 1.91,
+  "fair_prob": 0.54432,
+  "ev": 0.03964,
+  "band": "1.80–2.10",
+  "trigger": "steam",
+  "bet": false
  }
 ]
