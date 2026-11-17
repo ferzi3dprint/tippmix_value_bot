@@ -1709,7 +1709,7 @@
   "closing_fair_prob": 0.38106,
   "closing_fair_odds": 2.624,
   "closing_sharp_odds": 2.47,
-  "closing_at": "2026-11-17T07:33:09.433113+00:00",
+  "closing_at": "2026-11-17T07:55:20.582739+00:00",
   "clv": 0.06697
  },
  {
@@ -1755,7 +1755,7 @@
   "closing_fair_prob": 0.38106,
   "closing_fair_odds": 2.624,
   "closing_sharp_odds": 2.47,
-  "closing_at": "2026-11-17T07:33:09.433113+00:00",
+  "closing_at": "2026-11-17T07:55:20.582739+00:00",
   "clv": 0.10126
  },
  {
@@ -1850,7 +1850,7 @@
   "closing_fair_prob": 0.7194,
   "closing_fair_odds": 1.39,
   "closing_sharp_odds": 1.352,
-  "closing_at": "2026-11-17T07:33:09.433113+00:00",
+  "closing_at": "2026-11-17T07:55:20.582739+00:00",
   "clv": 0.03594
  },
  {
@@ -1978,6 +1978,51 @@
   "min_odds": 1.54,
   "expected_profit": 22.81,
   "exec_checked_at": "2026-11-17T07:49:41.358762+00:00",
-  "exec_odds": 1.55
+  "exec_odds": 1.55,
+  "closing_fair_prob": 0.64785,
+  "closing_fair_odds": 1.544,
+  "closing_sharp_odds": 1.476,
+  "closing_at": "2026-11-17T07:55:20.582739+00:00",
+  "clv": 0.00417
+ },
+ {
+  "id": "20949f2934",
+  "placed_at": "2026-11-17T07:55:20.582739+00:00",
+  "status": "open",
+  "exec_status": "moved",
+  "fixture_id": "id1000074874723616",
+  "sport": "Soccer",
+  "tournament": "U19 Eb-selejtező, B Liga",
+  "home": "U19Moldova",
+  "away": "U19Bulgária",
+  "start": "2026-11-17T12:30:00.000Z",
+  "label": "Gólszám 3: Kevesebb",
+  "band": "1.80–2.10",
+  "stake": 1550,
+  "signal_odds": 1.91,
+  "signal_ev": 0.05687,
+  "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/europa/u19-eb-selejtezo-b-liga/u19moldova-u19bulgaria/320119140514865152/nepszeru",
+  "tm_id": "320119140514865152",
+  "tm_url": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/europa/u19-eb-selejtezo-b-liga/u19moldova-u19bulgaria/320119140514865152/nepszeru",
+  "market_id": 10174,
+  "market": "Over Under Full Time 3",
+  "outcome_id": 10175,
+  "outcome": "Under",
+  "odds": 1.83,
+  "sharp_odds": 1.694,
+  "fair_prob": 0.55334,
+  "fair_odds": 1.807,
+  "ev": 0.01261,
+  "sharp_overround": 1.0781,
+  "line": 3.0,
+  "mtype": "totals",
+  "ref": "Pinnacle",
+  "steam": null,
+  "trigger": "normál",
+  "tm_tip": "Gólszám 3 - Rendes játékidő → Kevesebb, mint 3",
+  "min_odds": 1.83,
+  "expected_profit": 19.55,
+  "exec_checked_at": "2026-11-17T08:12:01.946339+00:00",
+  "exec_odds": 1.83
  }
 ]
