@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-15T21:44:47.857349+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "top_ev": [
-   "-0.4% Deportes Recoleta – Deportes Iquique · Gólszám 2: Több @1.3 (fair 1.306)",
-   "-1.4% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 3.5: Kevesebb @1.14 (fair 1.156)",
-   "-2.4% Defensor Montevideo – Penarol Montevideo · 1X2: Penarol Montevideo győz @1.68 (fair 1.721)",
-   "-2.4% Deportes Recoleta – Deportes Iquique · Gólszám 2.25: Több @1.48 (fair 1.517)",
-   "-2.6% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 2.5: Kevesebb @1.45 (fair 1.488)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 9,
-  "fixtures_both": 7,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 4,
-  "classic_checked": 4,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.1% Defensor Montevideo – Penarol Montevideo · Gólszám 3.5: Kevesebb @1.27 (fair 1.297)",
-   "-2.5% Panama – Curacao · Gólszám 3: Kevesebb @1.39 (fair 1.426)",
-   "-3.2% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 3.5: Kevesebb @1.12 (fair 1.156)",
-   "-3.7% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 0.5: Több @1.09 (fair 1.132)",
-   "-3.8% Panama – Curacao · Gólszám 2.75: Kevesebb @1.57 (fair 1.632)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 13
- },
- {
   "time": "2026-11-15T21:49:47.857187+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22356,5 +22322,162 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 49
+ },
+ {
+  "time": "2026-11-17T11:25:37.378386+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 563,
+   "paired": 258,
+   "classic_only": 50
+  },
+  "tippmix_matches": 1196,
+  "pinnacle_fixtures": 984,
+  "paired": 447,
+  "by_sport": {
+   "Soccer": [
+    203,
+    128
+   ],
+   "Tennis": [
+    400,
+    41
+   ],
+   "Basketball": [
+    197,
+    98
+   ],
+   "Ice Hockey": [
+    101,
+    89
+   ],
+   "Handball": [
+    47,
+    21
+   ],
+   "Volleyball": [
+    17,
+    3
+   ],
+   "Table Tennis": [
+    22,
+    14
+   ],
+   "Cricket": [
+    26,
+    17
+   ],
+   "Badminton": [
+    32,
+    0
+   ],
+   "Darts": [
+    20,
+    16
+   ],
+   "Futsal": [
+    4,
+    2
+   ],
+   "Waterpolo": [
+    10,
+    6
+   ],
+   "ESport Counter-Strike": [
+    44,
+    5
+   ],
+   "ESport Dota": [
+    9,
+    1
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    55,
+    0
+   ],
+   "eBasketball": [
+    9,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    6
+   ]
+  },
+  "top_ev": [
+   "+5.3% U19Moldova – U19Bulgária · Ázsiai hendikep: U19Bulgária (-1) @1.4 (fair 1.33)",
+   "+5.1% U19Moldova – U19Bulgária · Ázsiai hendikep: U19Bulgária (-1.25) @1.61 (fair 1.532)",
+   "+3.7% U19Moldova – U19Bulgária · Ázsiai hendikep: U19Bulgária (-1.5) @1.8 (fair 1.736)",
+   "+3.5% U19Észak-Írország – U19Svájc · 1X2: U19Svájc győz @1.67 (fair 1.614)",
+   "+3.5% Etiópia – Mozambik · 1X2: Döntetlen @2.75 (fair 2.657)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 4,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 73,
+  "rejected_mismatch": 0,
+  "candidates": 6,
+  "steam_fixtures": 33,
+  "classic_checked": 113,
+  "classic_candidates": 1,
+  "top_ev_classic": [
+   "+6.1% Etiópia – Mozambik · 1X2: Döntetlen @2.82 (fair 2.657)",
+   "+0.5% Gambia – Elefántcsontpart · 1X2: Döntetlen @3.65 (fair 3.634)",
+   "+0.3% Eleanor Cairns – Priscilla Steenbergen · Győztes: Eleanor Cairns győz @2.27 (fair 2.263)",
+   "+0.2% Japán – Paraguay · Gólszám 4.5: Kevesebb @1.17 (fair 1.167)",
+   "-0.1% Kirgizisztán – Vietnám · 1X2: Kirgizisztán győz @2.55 (fair 2.552)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
