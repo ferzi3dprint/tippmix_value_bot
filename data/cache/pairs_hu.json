@@ -357,7 +357,12 @@
    "tournamentName": "UEFA Champions League Women",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594113,
+   "name": "Häcken - Manchester City",
+   "score": 1.0
+  }
  },
  "id1000032976482550": {
   "tm": {
@@ -1277,7 +1282,12 @@
    "tournamentName": "NCAA, Regular Season",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593976,
+   "name": "West Virginia Mountaineers - Auburn Tigers",
+   "score": 1.0
+  }
  },
  "id1100141072679848": {
   "tm": {
@@ -3629,25 +3639,25 @@
   },
   "score": 1.0
  },
- "id2503634976869680": {
+ "id2503634976869720": {
   "tm": {
-   "id": "320129446279454720",
+   "id": "320129446050865152",
    "sport": "Asztalitenisz",
-   "name": "Karel Zurek - Michal Blaha",
-   "home": "Karel Zurek",
-   "away": "Michal Blaha",
-   "home_pid": "318840626998222848",
-   "away_pid": "275364064173101056",
+   "name": "Michal Blaha - Radek Adamczyk",
+   "home": "Michal Blaha",
+   "away": "Radek Adamczyk",
+   "home_pid": "275364064173101056",
+   "away_pid": "299757437033156608",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-17T20:30:00+00:00"
+   "start": "2026-11-17T21:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976869680",
-   "startTime": "2026-11-17T20:30:00.000Z",
-   "participant1Name": "Zurek, Karel",
-   "participant2Name": "Blaha, Michal",
+   "fixtureId": "id2503634976869720",
+   "startTime": "2026-11-17T21:00:00.000Z",
+   "participant1Name": "Blaha, Michal",
+   "participant2Name": "Adamczyk, Radek",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -3698,31 +3708,6 @@
    "startTime": "2026-11-17T21:00:00.000Z",
    "participant1Name": "Dousa, Tomas",
    "participant2Name": "Krok, Lukas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976869720": {
-  "tm": {
-   "id": "320129446050865152",
-   "sport": "Asztalitenisz",
-   "name": "Michal Blaha - Radek Adamczyk",
-   "home": "Michal Blaha",
-   "away": "Radek Adamczyk",
-   "home_pid": "275364064173101056",
-   "away_pid": "299757437033156608",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869720",
-   "startTime": "2026-11-17T21:00:00.000Z",
-   "participant1Name": "Blaha, Michal",
-   "participant2Name": "Adamczyk, Radek",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -4184,36 +4169,6 @@
   },
   "score": 0.833
  },
- "id1900059776636332": {
-  "tm": {
-   "id": "319787591460265984",
-   "sport": "Darts",
-   "name": "Chris Dobey - Martin Schindler",
-   "home": "Chris Dobey",
-   "away": "Martin Schindler",
-   "home_pid": "1192196",
-   "away_pid": "1395325",
-   "tournament": "Grand Slam of Darts",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-17T20:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1900059776636332",
-   "startTime": "2026-11-17T20:15:00.000Z",
-   "participant1Name": "Dobey, Chris",
-   "participant2Name": "Schindler, Martin",
-   "tournamentId": 597,
-   "tournamentName": "Grand Slam of Darts",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5654814,
-   "name": "C. Dobey - M. Schindler",
-   "score": 1.0
-  }
- },
  "id1900059776636310": {
   "tm": {
    "id": "319786207100870656",
@@ -4500,27 +4455,6 @@
    "tournament": "Kolumbiai Kupa"
   }
  },
- "id1200386776808164": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200386776808164",
-   "startTime": "2026-11-17T21:10:00.000Z",
-   "participant1Name": "La Serna, Juan Manuel",
-   "participant2Name": "Comesana, Francisco",
-   "tournamentId": 3867,
-   "tournamentName": "ATP Challenger Montevideo, Uruguay Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663191,
-   "name": "J.M. La Serna - F. Comesana",
-   "score": 1.0,
-   "home": "J.M. La Serna",
-   "away": "F. Comesana",
-   "tournament": "Montevideo, férfi egyes"
-  }
- },
  "id1200386776808166": {
   "tm": null,
   "fx": {
@@ -4666,27 +4600,6 @@
    "home": "Pardubice 2",
    "away": "Havirov",
    "tournament": "Cseh 2."
-  }
- },
- "id2800126474973000": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2800126474973000",
-   "startTime": "2026-11-18T19:30:00.000Z",
-   "participant1Name": "Radnicki Kragujevac",
-   "participant2Name": "CSM Oradea",
-   "tournamentId": 1264,
-   "tournamentName": "Champions League",
-   "sportName": "Waterpolo"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594302,
-   "name": "Radnicki Kragujevac - Oradea",
-   "score": 1.0,
-   "home": "Radnicki Kragujevac",
-   "away": "Oradea",
-   "tournament": "BL, B csoport"
   }
  }
 }
