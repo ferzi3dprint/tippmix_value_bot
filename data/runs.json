@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-15T22:50:51.730582+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 2,
-  "top_ev": [
-   "+0.3% Deportes Recoleta – Deportes Iquique · Gólszám 2: Több @1.32 (fair 1.316)",
-   "-0.8% Deportes Recoleta – Deportes Iquique · 1X2: Döntetlen @3.25 (fair 3.276)",
-   "-1.6% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 3.5: Kevesebb @1.14 (fair 1.159)",
-   "-1.8% Ferro Carril Oeste – Gimnasia Tiro de Salta · 1X2: Ferro Carril Oeste győz @1.7 (fair 1.731)",
-   "-1.8% Philadelphia – Edmonton · Hendikep (rendes játékidő): Philadelphia (+1) @1.59 (fair 1.62)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 9,
-  "fixtures_both": 3,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 2,
-  "classic_checked": 4,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.9% La Union Formosa – Asociacion Deportiva Atenas Cordoba · Összpontszám (hosszabbítással) 161.5: Több @1.79 (fair 1.806)",
-   "-3.3% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 3.5: Kevesebb @1.12 (fair 1.159)",
-   "-3.6% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 0.5: Több @1.09 (fair 1.131)",
-   "-4.7% Ferro Carril Oeste – Gimnasia Tiro de Salta · 1X2: Ferro Carril Oeste győz @1.65 (fair 1.731)",
-   "-4.7% San Martin de Corientes – Quimsa Santiago Del Estero · Győztes (hosszabbítással): Quimsa Santiago Del Estero győz @1.37 (fair 1.438)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 11
- },
- {
   "time": "2026-11-15T22:55:51.730206+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22725,5 +22691,162 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 21
+ },
+ {
+  "time": "2026-11-17T13:46:01.856959+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 498,
+   "paired": 220,
+   "classic_only": 43
+  },
+  "tippmix_matches": 1184,
+  "pinnacle_fixtures": 984,
+  "paired": 389,
+  "by_sport": {
+   "Soccer": [
+    200,
+    109
+   ],
+   "Tennis": [
+    369,
+    32
+   ],
+   "Basketball": [
+    205,
+    96
+   ],
+   "Ice Hockey": [
+    102,
+    86
+   ],
+   "Handball": [
+    52,
+    21
+   ],
+   "Volleyball": [
+    32,
+    3
+   ],
+   "Table Tennis": [
+    24,
+    2
+   ],
+   "Cricket": [
+    29,
+    16
+   ],
+   "Badminton": [
+    36,
+    0
+   ],
+   "Darts": [
+    12,
+    8
+   ],
+   "Futsal": [
+    4,
+    2
+   ],
+   "Waterpolo": [
+    10,
+    6
+   ],
+   "ESport Counter-Strike": [
+    40,
+    2
+   ],
+   "ESport Dota": [
+    5,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    56,
+    0
+   ],
+   "eBasketball": [
+    8,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    6
+   ]
+  },
+  "top_ev": [
+   "+4.6% U19San Marino – U19Georgia · 1X2: U19Georgia győz @1.12 (fair 1.071)",
+   "+2.1% Botswana – Uganda · 1X2: Döntetlen @2.75 (fair 2.692)",
+   "+1.0% U19Feröer-szigetek – U19Azerbajdzsán · Gólszám 2.25: Több @1.46 (fair 1.445)",
+   "+0.8% HRK Izvidac – Schaffhausen · Gólszám 66.5: Kevesebb @1.71 (fair 1.697)",
+   "+0.8% Ruanda – Mali · Gólszám 1.5: Több @1.54 (fair 1.528)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 11,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 76,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 25,
+  "classic_checked": 109,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+5.7% Ruanda – Mali · 1X2: Döntetlen @3.15 (fair 2.981)",
+   "+5.3% Gambia – Elefántcsontpart · 1X2: Döntetlen @3.65 (fair 3.466)",
+   "+4.1% Mauritánia – Burkina Faso · 1X2: Döntetlen @2.91 (fair 2.795)",
+   "-1.1% Egyesült Arab Emirátusok – Szíria · Gólszám 4.5: Kevesebb @1.12 (fair 1.133)",
+   "-1.3% Bissau-Guinea – Madagaszkár · 1X2: Döntetlen @4.25 (fair 4.308)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]

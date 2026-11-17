@@ -2479,6 +2479,31 @@
   },
   "score": 1.0
  },
+ "id1002710276822364": {
+  "tm": {
+   "id": "320015373594337280",
+   "sport": "Labdarúgás",
+   "name": "CD Arabe Unido - Veraguas FC",
+   "home": "CD Arabe Unido",
+   "away": "Veraguas FC",
+   "home_pid": "494950",
+   "away_pid": "10507811078934528",
+   "tournament": "Panamai bajnokság",
+   "category": "Panama",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T01:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002710276822364",
+   "startTime": "2026-11-18T01:30:00.000Z",
+   "participant1Name": "CD Arabe Unido",
+   "participant2Name": "Veraguas United FC",
+   "tournamentId": 27102,
+   "tournamentName": "Liga Panamena",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1003694576792542": {
   "tm": {
    "id": "320156564924211200",
@@ -5899,36 +5924,6 @@
    "score": 1.0
   }
  },
- "id1503015673810692": {
-  "tm": {
-   "id": "318992018140372992",
-   "sport": "Jégkorong",
-   "name": "Torpedo Kamenogorszk - Kulager Petropavlovszk",
-   "home": "Torpedo Kamenogorszk",
-   "away": "Kulager Petropavlovszk",
-   "home_pid": "161287643105120256",
-   "away_pid": "1366495",
-   "tournament": "Kazah bajnokság",
-   "category": "Kazahsztán",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T13:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1503015673810692",
-   "startTime": "2026-11-17T13:30:00.000Z",
-   "participant1Name": "Torpedo Ust Kamenogorsk",
-   "participant2Name": "HC Kulager Petropavlsk",
-   "tournamentId": 30156,
-   "tournamentName": "Pro Hockey League",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593541,
-   "name": "Torpedo Kamenogorszk - Kulager Petropavlovszk",
-   "score": 1.0
-  }
- },
  "id1503015673810690": {
   "tm": {
    "id": "318992018221113344",
@@ -8149,31 +8144,6 @@
    "score": 1.0
   }
  },
- "id1504829772120178": {
-  "tm": {
-   "id": "318992021377327104",
-   "sport": "Jégkorong",
-   "name": "U20Plzen - U20Slavia Praha",
-   "home": "U20Plzen",
-   "away": "U20Slavia Praha",
-   "home_pid": "1342945",
-   "away_pid": "1381889",
-   "tournament": "U20 Cseh bajnokság",
-   "category": "Csehország",
-   "tm_sport_id": "6",
-   "start": "2026-11-17T13:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1504829772120178",
-   "startTime": "2026-11-17T13:45:00.000Z",
-   "participant1Name": "HC Skoda Plzen Youth",
-   "participant2Name": "HC Slavia Prague",
-   "tournamentId": 48297,
-   "tournamentName": "U20 Extraliga Junioru",
-   "sportName": "Ice Hockey"
-  },
-  "score": 0.8
- },
  "id1504829772120180": {
   "tm": {
    "id": "318992021631082496",
@@ -8829,31 +8799,6 @@
    "score": 1.0
   }
  },
- "id2503212976880648": {
-  "tm": {
-   "id": "320159362644516864",
-   "sport": "Asztalitenisz",
-   "name": "Frantisek Balcar - Fiala Jan",
-   "home": "Frantisek Balcar",
-   "away": "Fiala Jan",
-   "home_pid": "198287985780879360",
-   "away_pid": "193361209869889536",
-   "tournament": "TT Cup",
-   "category": "Világ",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T13:25:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503212976880648",
-   "startTime": "2026-11-17T13:25:00.000Z",
-   "participant1Name": "Balcar, Frantisek",
-   "participant2Name": "Fiala, Jan",
-   "tournamentId": 32129,
-   "tournamentName": "TT Cup",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503212976880654": {
   "tm": {
    "id": "320159281291796480",
@@ -8879,28 +8824,28 @@
   },
   "score": 1.0
  },
- "id2703857376122344": {
+ "id2503212976880656": {
   "tm": {
-   "id": "320138721851678720",
-   "sport": "Krikett",
-   "name": "Yas Lions - Arabian Aces",
-   "home": "Yas Lions",
-   "away": "Arabian Aces",
-   "home_pid": "319244428125478912",
-   "away_pid": "319244358830333952",
-   "tournament": "EAE Abu Dhabi T10 League",
-   "category": "Egyesült Arab Emirátusok",
-   "tm_sport_id": "26",
-   "start": "2026-11-17T13:45:00+00:00"
+   "id": "320159164802342912",
+   "sport": "Asztalitenisz",
+   "name": "Martin Filipek - Frantisek Balcar",
+   "home": "Martin Filipek",
+   "away": "Frantisek Balcar",
+   "home_pid": "107744619091087360",
+   "away_pid": "198287985780879360",
+   "tournament": "TT Cup",
+   "category": "Világ",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T14:25:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2703857376122344",
-   "startTime": "2026-11-17T13:45:00.000Z",
-   "participant1Name": "Yas Lions",
-   "participant2Name": "Arabian Aces",
-   "tournamentId": 38573,
-   "tournamentName": "Abu Dhabi T10",
-   "sportName": "Cricket"
+   "fixtureId": "id2503212976880656",
+   "startTime": "2026-11-17T14:25:00.000Z",
+   "participant1Name": "Filipek, Martin",
+   "participant2Name": "Balcar, Frantisek",
+   "tournamentId": 32129,
+   "tournamentName": "TT Cup",
+   "sportName": "Table Tennis"
   },
   "score": 1.0
  },
@@ -9804,31 +9749,6 @@
   },
   "score": 1.0
  },
- "id1604909976839014": {
-  "tm": {
-   "id": "320098499339296768",
-   "sport": "Dota 2",
-   "name": "PuckChamp - Nemiga",
-   "home": "PuckChamp",
-   "away": "Nemiga",
-   "home_pid": "305844681125359616",
-   "away_pid": "3167646725074944",
-   "tournament": "DreamLeague Division 2 Series 5",
-   "category": "Világ",
-   "tm_sport_id": "99",
-   "start": "2026-11-17T13:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1604909976839014",
-   "startTime": "2026-11-17T13:30:00.000Z",
-   "participant1Name": "Puckchamp",
-   "participant2Name": "Nemiga Gaming",
-   "tournamentId": 49099,
-   "tournamentName": "DreamLeague Division 2",
-   "sportName": "ESport Dota"
-  },
-  "score": 1.0
- },
  "id1000133576520696": {
   "tm": null,
   "fx": {
@@ -10583,27 +10503,6 @@
    "home": "Wisla Plock",
    "away": "Veszprém",
    "tournament": "BL, I. csoport"
-  }
- },
- "id1903399476776188": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1903399476776188",
-   "startTime": "2026-11-17T13:30:00.000Z",
-   "participant1Name": "Hayter, Gemma",
-   "participant2Name": "Gulliver, Trina",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665925,
-   "name": "G. Hayter - T. Gulliver",
-   "score": 1.0,
-   "home": "G. Hayter",
-   "away": "T. Gulliver",
-   "tournament": "Modus Super Series, női"
   }
  },
  "id2800126474973000": {
