@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-15T22:45:51.729929+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 2,
-  "top_ev": [
-   "+0.3% Deportes Recoleta – Deportes Iquique · Gólszám 2: Több @1.32 (fair 1.316)",
-   "-0.8% Deportes Recoleta – Deportes Iquique · 1X2: Döntetlen @3.25 (fair 3.276)",
-   "-1.6% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 3.5: Kevesebb @1.14 (fair 1.159)",
-   "-1.8% Ferro Carril Oeste – Gimnasia Tiro de Salta · 1X2: Ferro Carril Oeste győz @1.7 (fair 1.731)",
-   "-1.8% Philadelphia – Edmonton · Hendikep (rendes játékidő): Philadelphia (+1) @1.59 (fair 1.62)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 9,
-  "fixtures_both": 3,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 2,
-  "classic_checked": 4,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.9% La Union Formosa – Asociacion Deportiva Atenas Cordoba · Összpontszám (hosszabbítással) 161.5: Több @1.79 (fair 1.806)",
-   "-3.3% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 3.5: Kevesebb @1.12 (fair 1.159)",
-   "-3.6% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 0.5: Több @1.09 (fair 1.131)",
-   "-4.7% Ferro Carril Oeste – Gimnasia Tiro de Salta · 1X2: Ferro Carril Oeste győz @1.65 (fair 1.731)",
-   "-4.7% San Martin de Corientes – Quimsa Santiago Del Estero · Győztes (hosszabbítással): Quimsa Santiago Del Estero győz @1.37 (fair 1.438)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 11
- },
- {
   "time": "2026-11-15T22:50:51.730582+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22725,5 +22691,39 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-17T13:41:01.855218+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+4.6% U19San Marino – U19Georgia · 1X2: U19Georgia győz @1.12 (fair 1.071)",
+   "+1.0% U19Feröer-szigetek – U19Azerbajdzsán · Gólszám 2.25: Több @1.46 (fair 1.445)",
+   "+0.3% U19Litvánia – U19Németország · 1X2: U19Németország győz @1.07 (fair 1.067)",
+   "-0.7% U19Feröer-szigetek – U19Azerbajdzsán · Gólszám 2.5: Több @1.62 (fair 1.631)",
+   "-0.8% U19San Marino – U19Georgia · Gólszám 4: Több @2.03 (fair 2.046)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 15,
+  "fixtures_both": 11,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 7,
+  "classic_checked": 14,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.1% Egyesült Arab Emirátusok – Szíria · Gólszám 4.5: Kevesebb @1.12 (fair 1.133)",
+   "-1.9% U19San Marino – U19Georgia · 1X2: U19Georgia győz @1.05 (fair 1.071)",
+   "-2.5% U19Litvánia – U19Németország · 1X2: U19Németország győz @1.04 (fair 1.067)",
+   "-2.8% Szaúd-Arábia – Üzbegisztán · Gólszám 3.5: Kevesebb @1.24 (fair 1.276)",
+   "-3.3% Egyesült Arab Emirátusok – Szíria · Gólszám 3.5: Kevesebb @1.33 (fair 1.376)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 21
  }
 ]
