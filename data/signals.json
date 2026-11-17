@@ -2807,11 +2807,11 @@
   "band": "2.50–5.00",
   "trigger": "steam",
   "bet": true,
-  "closing_fair_prob": 0.38289,
-  "closing_fair_odds": 2.612,
-  "closing_sharp_odds": 2.46,
-  "closing_at": "2026-11-17T10:37:20.287526+00:00",
-  "clv": 0.09125
+  "closing_fair_prob": 0.37631,
+  "closing_fair_odds": 2.657,
+  "closing_sharp_odds": 2.53,
+  "closing_at": "2026-11-17T11:00:49.453785+00:00",
+  "clv": 0.07248
  },
  {
   "fixture_id": "id1000184875802302",
@@ -2829,11 +2829,11 @@
   "band": "1.30–1.50",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.70955,
-  "closing_fair_odds": 1.409,
-  "closing_sharp_odds": 1.359,
-  "closing_at": "2026-11-17T10:37:20.287526+00:00",
-  "clv": 0.02885
+  "closing_fair_prob": 0.70894,
+  "closing_fair_odds": 1.411,
+  "closing_sharp_odds": 1.367,
+  "closing_at": "2026-11-17T11:00:49.453785+00:00",
+  "clv": 0.02796
  },
  {
   "fixture_id": "id1002375568932078",
@@ -3225,11 +3225,11 @@
   "band": "1.80–2.10",
   "trigger": "normál",
   "bet": true,
-  "closing_fair_prob": 0.4786,
-  "closing_fair_odds": 2.089,
-  "closing_sharp_odds": 1.952,
-  "closing_at": "2026-11-17T10:54:23.425223+00:00",
-  "clv": -0.08587
+  "closing_fair_prob": 0.4955,
+  "closing_fair_odds": 2.018,
+  "closing_sharp_odds": 1.9,
+  "closing_at": "2026-11-17T11:00:49.453785+00:00",
+  "clv": -0.05359
  },
  {
   "fixture_id": "id1000074875244198",
@@ -3250,7 +3250,7 @@
   "closing_fair_prob": 0.61984,
   "closing_fair_odds": 1.613,
   "closing_sharp_odds": 1.568,
-  "closing_at": "2026-11-17T10:54:23.425223+00:00",
+  "closing_at": "2026-11-17T11:00:49.453785+00:00",
   "clv": 0.06613
  },
  {
@@ -3272,7 +3272,7 @@
   "closing_fair_prob": 0.44313,
   "closing_fair_odds": 2.257,
   "closing_sharp_odds": 2.14,
-  "closing_at": "2026-11-17T10:37:20.287526+00:00",
+  "closing_at": "2026-11-17T11:00:49.453785+00:00",
   "clv": 0.01921
  },
  {
@@ -3294,7 +3294,7 @@
   "closing_fair_prob": 0.36361,
   "closing_fair_odds": 2.75,
   "closing_sharp_odds": 2.46,
-  "closing_at": "2026-11-17T10:54:23.425223+00:00",
+  "closing_at": "2026-11-17T11:00:49.453785+00:00",
   "clv": 0.07265
  },
  {
@@ -3316,7 +3316,24 @@
   "closing_fair_prob": 0.51124,
   "closing_fair_odds": 1.956,
   "closing_sharp_odds": 1.833,
-  "closing_at": "2026-11-17T10:54:23.425223+00:00",
+  "closing_at": "2026-11-17T11:00:49.453785+00:00",
   "clv": -0.02353
+ },
+ {
+  "fixture_id": "id1000074874827240",
+  "market_id": 1012,
+  "outcome_id": 1012,
+  "first_at": "2026-11-17T11:00:49.453785+00:00",
+  "start": "2026-11-17T15:30:00.000Z",
+  "home": "U19San Marino",
+  "away": "U19Georgia",
+  "tournament": "U19 Eb-selejtező, B Liga",
+  "label": "Gólszám 3.5: Több",
+  "odds": 1.93,
+  "fair_prob": 0.54599,
+  "ev": 0.05376,
+  "band": "1.80–2.10",
+  "trigger": "steam",
+  "bet": false
  }
 ]
