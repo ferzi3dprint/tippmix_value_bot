@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-15T19:05:59.200929+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.3% Dep. Magallanes – Antofagasta · Gólszám 2: Több @1.33 (fair 1.326)",
-   "-0.9% Belgium – Olaszország · Ázsiai hendikep: Belgium (+0.5) @1.37 (fair 1.382)",
-   "-1.0% Envigado – Union Magdalena · Ázsiai hendikep: Envigado (+0.5) @1.29 (fair 1.303)",
-   "-1.1% Franciaország – Törökország · Gólszám 3: Több @1.37 (fair 1.385)",
-   "-1.2% Franciaország – Törökország · Gólszám 2.75: Több @1.31 (fair 1.326)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 1,
-  "fast": true,
-  "fixtures_checked": 29,
-  "fixtures_both": 26,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 12,
-  "classic_checked": 16,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.9% Belgium – Olaszország · Ázsiai hendikep: Belgium (+0) @1.6 (fair 1.614)",
-   "-1.6% Belgium – Olaszország · Ázsiai hendikep: Belgium (+0.25) @1.45 (fair 1.474)",
-   "-1.7% Danubio Montevideo – Liverpool Montevideo · Gólszám 3.5: Kevesebb @1.25 (fair 1.271)",
-   "-1.7% Belgium – Olaszország · 1X2: Belgium győz @2.15 (fair 2.187)",
-   "-1.9% NJ/NY Gotham FC – Kansas City · Gólszám 3: Kevesebb @1.39 (fair 1.417)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 35
- },
- {
   "time": "2026-11-15T19:12:06.090960+00:00",
   "mode": "hu",
   "settled": 0,
@@ -21663,5 +21629,33 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 122
+ },
+ {
+  "time": "2026-11-17T06:18:13.028163+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 11,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 1,
+  "classic_candidates": 1,
+  "top_ev_classic": [
+   "+3.5% Adelaide Lightning – Geelong Supercats · Hendikep (hosszabbítással): Geelong Supercats (+3.5) @1.8 (fair 1.739)",
+   "+2.7% Adelaide Lightning – Geelong Supercats · Győztes (hosszabbítással): Geelong Supercats győz @2.19 (fair 2.133)",
+   "+2.6% Adelaide Lightning – Geelong Supercats · Hendikep (hosszabbítással): Geelong Supercats (+2.5) @1.92 (fair 1.872)",
+   "-4.8% Adelaide Lightning – Geelong Supercats · Összpontszám (hosszabbítással) 151.5: Több @1.71 (fair 1.796)",
+   "-6.0% Adelaide Lightning – Geelong Supercats · Összpontszám (hosszabbítással) 152.5: Több @1.78 (fair 1.894)"
+  ],
+  "placed": 1,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 12
  }
 ]
