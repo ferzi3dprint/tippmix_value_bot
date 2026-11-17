@@ -1,162 +1,5 @@
 [
  {
-  "time": "2026-11-15T22:55:51.730206+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "boosts": 0,
-  "classic": {
-   "events": 162,
-   "paired": 42,
-   "classic_only": 3
-  },
-  "tippmix_matches": 469,
-  "pinnacle_fixtures": 1137,
-  "paired": 65,
-  "by_sport": {
-   "Soccer": [
-    105,
-    34
-   ],
-   "Tennis": [
-    139,
-    5
-   ],
-   "Basketball": [
-    54,
-    15
-   ],
-   "Ice Hockey": [
-    13,
-    6
-   ],
-   "Handball": [
-    3,
-    1
-   ],
-   "Volleyball": [
-    12,
-    0
-   ],
-   "Table Tennis": [
-    14,
-    0
-   ],
-   "Cricket": [
-    35,
-    3
-   ],
-   "Badminton": [
-    0,
-    0
-   ],
-   "Darts": [
-    22,
-    0
-   ],
-   "Futsal": [
-    12,
-    0
-   ],
-   "Waterpolo": [
-    0,
-    0
-   ],
-   "ESport Counter-Strike": [
-    13,
-    0
-   ],
-   "ESport Dota": [
-    5,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    32,
-    0
-   ],
-   "eBasketball": [
-    10,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+0.3% Deportes Recoleta – Deportes Iquique · Gólszám 2: Több @1.32 (fair 1.316)",
-   "-0.8% Deportes Recoleta – Deportes Iquique · 1X2: Döntetlen @3.25 (fair 3.276)",
-   "-1.2% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 3.5: Kevesebb @1.14 (fair 1.154)",
-   "-1.8% Philadelphia – Edmonton · Hendikep (rendes játékidő): Philadelphia (+1) @1.59 (fair 1.62)",
-   "-1.8% Deportes Recoleta – Deportes Iquique · Ázsiai hendikep: Deportes Recoleta (+0.5) @1.45 (fair 1.477)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": false,
-  "fixtures_checked": 17,
-  "fixtures_both": 10,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 4,
-  "classic_checked": 10,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.9% La Union Formosa – Asociacion Deportiva Atenas Cordoba · Összpontszám (hosszabbítással) 161.5: Több @1.79 (fair 1.806)",
-   "-3.0% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 3.5: Kevesebb @1.12 (fair 1.154)",
-   "-3.9% Ferro Carril Oeste – Gimnasia Tiro de Salta · Gólszám 0.5: Több @1.09 (fair 1.134)",
-   "-3.9% Naoya Honda – Liam Broady · Győztes: Liam Broady győz @1.22 (fair 1.27)",
-   "-4.1% Ferro Carril Oeste – Gimnasia Tiro de Salta · Ázsiai hendikep: Gimnasia Tiro de Salta (+1.25) @1.37 (fair 1.428)"
-  ],
-  "placed": 1,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 21
- },
- {
   "time": "2026-11-15T23:00:56.715970+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22848,5 +22691,39 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-17T14:03:07.679338+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+5.6% U19San Marino – U19Georgia · 1X2: U19Georgia győz @1.13 (fair 1.071)",
+   "+1.6% U19Feröer-szigetek – U19Azerbajdzsán · Gólszám 2.25: Több @1.46 (fair 1.438)",
+   "+0.6% U19Litvánia – U19Németország · 1X2: U19Németország győz @1.07 (fair 1.064)",
+   "-0.0% Gambia – Elefántcsontpart · Ázsiai hendikep: Elefántcsontpart (-0) @1.2 (fair 1.2)",
+   "-0.2% U19Feröer-szigetek – U19Azerbajdzsán · Gólszám 2.5: Több @1.62 (fair 1.623)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 30,
+  "fixtures_both": 20,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 11,
+  "classic_checked": 25,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+5.5% Gambia – Elefántcsontpart · 1X2: Döntetlen @3.65 (fair 3.459)",
+   "+1.1% Bissau-Guinea – Madagaszkár · 1X2: Döntetlen @4.1 (fair 4.054)",
+   "-1.8% Líbia – Tunézia · 1X2: Döntetlen @3.05 (fair 3.105)",
+   "-1.9% U19San Marino – U19Georgia · 1X2: U19Georgia győz @1.05 (fair 1.071)",
+   "-2.2% U19Litvánia – U19Németország · 1X2: U19Németország győz @1.04 (fair 1.064)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 36
  }
 ]
