@@ -9279,56 +9279,6 @@
   },
   "score": 1.0
  },
- "id2503212976880536": {
-  "tm": {
-   "id": "320159444493213696",
-   "sport": "Asztalitenisz",
-   "name": "Adam Strelec - Jakub Lysek",
-   "home": "Adam Strelec",
-   "away": "Jakub Lysek",
-   "home_pid": "167174959624409088",
-   "away_pid": "288947858453073920",
-   "tournament": "TT Cup",
-   "category": "Világ",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T06:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503212976880536",
-   "startTime": "2026-11-17T06:40:00.000Z",
-   "participant1Name": "Strelec, Adam",
-   "participant2Name": "Lysek, Jakub",
-   "tournamentId": 32129,
-   "tournamentName": "TT Cup",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976869746": {
-  "tm": {
-   "id": "320124142128013312",
-   "sport": "Asztalitenisz",
-   "name": "Tadeas Zika - Jakub Pilch",
-   "home": "Tadeas Zika",
-   "away": "Jakub Pilch",
-   "home_pid": "168097491692081152",
-   "away_pid": "274550304688705536",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T07:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869746",
-   "startTime": "2026-11-17T07:00:00.000Z",
-   "participant1Name": "Zika, Tadeas",
-   "participant2Name": "Pilch, Jakub",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976869086": {
   "tm": {
    "id": "320123476671275008",
@@ -9348,6 +9298,31 @@
    "startTime": "2026-11-17T07:00:00.000Z",
    "participant1Name": "Jira, Jiri",
    "participant2Name": "Koch, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869754": {
+  "tm": {
+   "id": "320124141119283200",
+   "sport": "Asztalitenisz",
+   "name": "Jiri Svec - Jan Potensky",
+   "home": "Jiri Svec",
+   "away": "Jan Potensky",
+   "home_pid": "117257474374946816",
+   "away_pid": "167900208636678144",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869754",
+   "startTime": "2026-11-17T07:00:00.000Z",
+   "participant1Name": "Svec, Jiri",
+   "participant2Name": "Potensky, Jan",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -9379,25 +9354,25 @@
   },
   "score": 1.0
  },
- "id2503634976869754": {
+ "id2503634976869746": {
   "tm": {
-   "id": "320124141119283200",
+   "id": "320124142128013312",
    "sport": "Asztalitenisz",
-   "name": "Jiri Svec - Jan Potensky",
-   "home": "Jiri Svec",
-   "away": "Jan Potensky",
-   "home_pid": "117257474374946816",
-   "away_pid": "167900208636678144",
+   "name": "Tadeas Zika - Jakub Pilch",
+   "home": "Tadeas Zika",
+   "away": "Jakub Pilch",
+   "home_pid": "168097491692081152",
+   "away_pid": "274550304688705536",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
    "start": "2026-11-17T07:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976869754",
+   "fixtureId": "id2503634976869746",
    "startTime": "2026-11-17T07:00:00.000Z",
-   "participant1Name": "Svec, Jiri",
-   "participant2Name": "Potensky, Jan",
+   "participant1Name": "Zika, Tadeas",
+   "participant2Name": "Pilch, Jakub",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -9447,6 +9422,156 @@
    "fixtureId": "id2503212976880542",
    "startTime": "2026-11-17T07:10:00.000Z",
    "participant1Name": "Chvojka, Peter",
+   "participant2Name": "Mandrysz, Filip",
+   "tournamentId": 32129,
+   "tournamentName": "TT Cup",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869352": {
+  "tm": {
+   "id": "320124141982261248",
+   "sport": "Asztalitenisz",
+   "name": "Martin Biolek - Radovan Polasek",
+   "home": "Martin Biolek",
+   "away": "Radovan Polasek",
+   "home_pid": "166722033420390400",
+   "away_pid": "173804475687948288",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869352",
+   "startTime": "2026-11-17T07:30:00.000Z",
+   "participant1Name": "Biolek, Martin",
+   "participant2Name": "Polasek, Radovan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869276": {
+  "tm": {
+   "id": "320124141335289856",
+   "sport": "Asztalitenisz",
+   "name": "Milan Smrcek - Martin Stefek",
+   "home": "Milan Smrcek",
+   "away": "Martin Stefek",
+   "home_pid": "127592158820618240",
+   "away_pid": "197171400897884160",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869276",
+   "startTime": "2026-11-17T07:30:00.000Z",
+   "participant1Name": "Smrcek, Milan",
+   "participant2Name": "Stefek, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869090": {
+  "tm": {
+   "id": "320123427943948288",
+   "sport": "Asztalitenisz",
+   "name": "Artem Bunchuzhnyi - Jiri Rychtar",
+   "home": "Artem Bunchuzhnyi",
+   "away": "Jiri Rychtar",
+   "home_pid": "317066715770986496",
+   "away_pid": "242132379813449728",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869090",
+   "startTime": "2026-11-17T07:30:00.000Z",
+   "participant1Name": "Bunchuzhnyi, Artem",
+   "participant2Name": "Rychtar, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869742": {
+  "tm": {
+   "id": "320124140717678592",
+   "sport": "Asztalitenisz",
+   "name": "Hejduk Alexander - Jiri Hyrsl",
+   "home": "Hejduk Alexander",
+   "away": "Jiri Hyrsl",
+   "home_pid": "177516179025350656",
+   "away_pid": "160762296637902848",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869742",
+   "startTime": "2026-11-17T07:30:00.000Z",
+   "participant1Name": "Hejduk, Alexander",
+   "participant2Name": "Hyrsl, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869752": {
+  "tm": {
+   "id": "320124140622258176",
+   "sport": "Asztalitenisz",
+   "name": "Dousek Tomas - Matyas Navedla",
+   "home": "Dousek Tomas",
+   "away": "Matyas Navedla",
+   "home_pid": "297037498825347072",
+   "away_pid": "167482776257351680",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869752",
+   "startTime": "2026-11-17T07:30:00.000Z",
+   "participant1Name": "Dousek, Tomas",
+   "participant2Name": "Navedla, Matyas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503212976880548": {
+  "tm": {
+   "id": "320159280751779840",
+   "sport": "Asztalitenisz",
+   "name": "Adam Strelec - Filip Mandrysz",
+   "home": "Adam Strelec",
+   "away": "Filip Mandrysz",
+   "home_pid": "167174959624409088",
+   "away_pid": "256363318141640704",
+   "tournament": "TT Cup",
+   "category": "Világ",
+   "tm_sport_id": "63",
+   "start": "2026-11-17T07:40:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503212976880548",
+   "startTime": "2026-11-17T07:40:00.000Z",
+   "participant1Name": "Strelec, Adam",
    "participant2Name": "Mandrysz, Filip",
    "tournamentId": 32129,
    "tournamentName": "TT Cup",

@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-15T19:23:45.172117+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 226,
-   "paired": 57,
-   "classic_only": 6
-  },
-  "tippmix_matches": 594,
-  "pinnacle_fixtures": 1137,
-  "paired": 97,
-  "by_sport": {
-   "Soccer": [
-    154,
-    59
-   ],
-   "Tennis": [
-    109,
-    6
-   ],
-   "Basketball": [
-    78,
-    15
-   ],
-   "Ice Hockey": [
-    23,
-    8
-   ],
-   "Handball": [
-    5,
-    1
-   ],
-   "Volleyball": [
-    15,
-    1
-   ],
-   "Table Tennis": [
-    38,
-    0
-   ],
-   "Cricket": [
-    35,
-    3
-   ],
-   "Badminton": [
-    0,
-    0
-   ],
-   "Darts": [
-    28,
-    0
-   ],
-   "Futsal": [
-    12,
-    0
-   ],
-   "Waterpolo": [
-    0,
-    0
-   ],
-   "ESport Counter-Strike": [
-    5,
-    0
-   ],
-   "ESport Dota": [
-    3,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    81,
-    0
-   ],
-   "eBasketball": [
-    8,
-    0
-   ],
-   "American Football": [
-    0,
-    4
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+3.9% Tivoli Gardens – Montego Bay United · Ázsiai hendikep: Montego Bay United (-1.75) @2.15 (fair 2.068)",
-   "-0.4% Franciaország – Törökország · Ázsiai hendikep: Franciaország (-1.5) @1.49 (fair 1.496)",
-   "-0.4% Belgium – Olaszország · Gólszám 3.75: Kevesebb @1.42 (fair 1.426)",
-   "-0.5% Franciaország – Törökország · 1X2: Franciaország győz @1.19 (fair 1.196)",
-   "-0.6% Franciaország – Törökország · Gólszám 2.75: Több @1.3 (fair 1.308)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": false,
-  "fixtures_checked": 47,
-  "fixtures_both": 36,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 11,
-  "classic_checked": 25,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.9% Spanyolország  – Anglia · Gólszám 4: Kevesebb @1.31 (fair 1.322)",
-   "-0.9% Belgium – Olaszország · Ázsiai hendikep: Belgium (+0) @1.54 (fair 1.555)",
-   "-1.3% Panama – Curacao · Gólszám 3: Kevesebb @1.39 (fair 1.408)",
-   "-1.5% Belgium – Olaszország · Ázsiai hendikep: Belgium (+0.25) @1.41 (fair 1.432)",
-   "-1.7% Defensor Montevideo – Penarol Montevideo · Gólszám 3.5: Kevesebb @1.27 (fair 1.292)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 53
- },
- {
-  "time": "2026-11-15T19:31:31.660008+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 5,
-  "top_ev": [
-   "-0.3% Godoy Cruz – Tristan Suarez · Ázsiai hendikep: Godoy Cruz (+0) @1.32 (fair 1.325)",
-   "-0.8% Dep. Magallanes – Antofagasta · Gólszám 2.25: Több @1.44 (fair 1.451)",
-   "-0.9% Godoy Cruz – Tristan Suarez · Ázsiai hendikep: Godoy Cruz (+0.25) @1.22 (fair 1.231)",
-   "-1.0% Envigado – Union Magdalena · Ázsiai hendikep: Envigado (+0.5) @1.29 (fair 1.303)",
-   "-1.5% Envigado – Union Magdalena · Ázsiai hendikep: Envigado (+0.25) @1.38 (fair 1.401)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 22,
-  "fixtures_both": 19,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 5,
-  "classic_checked": 10,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.9% NJ/NY Gotham FC – Kansas City · Gólszám 3: Kevesebb @1.39 (fair 1.417)",
-   "-2.8% Juan Pablo II College – Dep. Garcilaso · Gólszám 3.25: Kevesebb @1.42 (fair 1.461)",
-   "-2.9% NJ/NY Gotham FC – Kansas City · Gólszám 2.75: Kevesebb @1.57 (fair 1.616)",
-   "-3.3% Godoy Cruz – Tristan Suarez · Gólszám 3.5: Kevesebb @1.08 (fair 1.117)",
-   "-3.8% Envigado – Union Magdalena · Mindkét csapat szerez gólt: Igen @1.97 (fair 2.047)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 27
- },
- {
   "time": "2026-11-15T19:36:49.815130+00:00",
   "mode": "hu",
   "settled": 0,
@@ -21774,5 +21583,184 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 148
+ },
+ {
+  "time": "2026-11-17T06:44:19.985859+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 7,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 7
+ },
+ {
+  "time": "2026-11-17T06:49:19.985538+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 326,
+   "paired": 192,
+   "classic_only": 41
+  },
+  "tippmix_matches": 1185,
+  "pinnacle_fixtures": 984,
+  "paired": 446,
+  "by_sport": {
+   "Soccer": [
+    180,
+    120
+   ],
+   "Tennis": [
+    411,
+    46
+   ],
+   "Basketball": [
+    179,
+    92
+   ],
+   "Ice Hockey": [
+    94,
+    87
+   ],
+   "Handball": [
+    40,
+    18
+   ],
+   "Volleyball": [
+    22,
+    5
+   ],
+   "Table Tennis": [
+    43,
+    22
+   ],
+   "Cricket": [
+    26,
+    18
+   ],
+   "Badminton": [
+    50,
+    0
+   ],
+   "Darts": [
+    27,
+    23
+   ],
+   "Futsal": [
+    3,
+    2
+   ],
+   "Waterpolo": [
+    10,
+    6
+   ],
+   "ESport Counter-Strike": [
+    44,
+    6
+   ],
+   "ESport Dota": [
+    12,
+    1
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    40,
+    0
+   ],
+   "eBasketball": [
+    4,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+5.0% U19Dánia – U19Bosznia-Hercegovina · 1X2: U19Dánia győz @1.46 (fair 1.39)",
+   "+2.6% Szingapúr – Brazília · Gólszám 6.25: Több @2.22 (fair 2.164)",
+   "+2.4% U19Észak-Írország – U19Svájc · 1X2: U19Svájc győz @1.73 (fair 1.69)",
+   "+2.3% Szingapúr – Brazília · Gólszám 6: Több @2.01 (fair 1.964)",
+   "+2.3% Szingapúr – Brazília · Gólszám 5.75: Több @1.84 (fair 1.799)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 28,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 61,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 7,
+  "classic_checked": 86,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.6% Szingapúr – Brazília · Gólszám 5.75: Több @1.77 (fair 1.799)",
+   "-1.7% Szingapúr – Brazília · Gólszám 6: Több @1.93 (fair 1.964)",
+   "-1.9% U19Észak-Írország – U19Svájc · Gólszám 3.5: Kevesebb @1.45 (fair 1.478)",
+   "-1.9% Kuvait – Honduras · Gólszám 3.5: Kevesebb @1.28 (fair 1.305)",
+   "-1.9% Szingapúr – Brazília · Gólszám 5.5: Több @1.65 (fair 1.683)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]
