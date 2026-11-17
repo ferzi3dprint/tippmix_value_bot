@@ -1,29 +1,4 @@
 {
- "id1001415175546396": {
-  "tm": {
-   "id": "320114060035170304",
-   "sport": "Labdarúgás",
-   "name": "Pardubice 2 - FK Horni Redice",
-   "home": "Pardubice 2",
-   "away": "FK Horni Redice",
-   "home_pid": "830574042443776",
-   "away_pid": "205591274778161152",
-   "tournament": "Cseh 3., CFL, B csoport",
-   "category": "Csehország",
-   "tm_sport_id": "1",
-   "start": "2026-11-17T09:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001415175546396",
-   "startTime": "2026-11-17T09:15:00.000Z",
-   "participant1Name": "FK Pardubice B",
-   "participant2Name": "FK Horni Redice",
-   "tournamentId": 14151,
-   "tournamentName": "CFL",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000074874827238": {
   "tm": {
    "id": "320114548812095488",
@@ -3029,6 +3004,66 @@
   },
   "score": 1.0
  },
+ "id1002742075468432": {
+  "tm": {
+   "id": "320104447026995200",
+   "sport": "Labdarúgás",
+   "name": "Saint Kitts és Nevis - Bonaire",
+   "home": "Saint Kitts és Nevis",
+   "away": "Bonaire",
+   "home_pid": "182450735760588800",
+   "away_pid": "172354943317229568",
+   "tournament": "CONCACAF Nemzetek Ligája, B Divízió, C csoport",
+   "category": "Észak- és Közép-Amerika",
+   "tm_sport_id": "1",
+   "start": "2026-11-17T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002742075468432",
+   "startTime": "2026-11-17T19:00:00.000Z",
+   "participant1Name": "Saint Kitts and Nevis",
+   "participant2Name": "Bonaire",
+   "tournamentId": 27420,
+   "tournamentName": "CONCACAF Nations League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5586701,
+   "name": "Saint Kitts és Nevis - Bonaire",
+   "score": 1.0
+  }
+ },
+ "id1002742075468444": {
+  "tm": {
+   "id": "320103686007234560",
+   "sport": "Labdarúgás",
+   "name": "Belize - Sint Maarten",
+   "home": "Belize",
+   "away": "Sint Maarten",
+   "home_pid": "182450737171972352",
+   "away_pid": "172354555046055936",
+   "tournament": "CONCACAF Nemzetek Ligája, B Divízió, D csoport",
+   "category": "Észak- és Közép-Amerika",
+   "tm_sport_id": "1",
+   "start": "2026-11-17T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002742075468444",
+   "startTime": "2026-11-17T19:00:00.000Z",
+   "participant1Name": "Belize",
+   "participant2Name": "Sint Maarten",
+   "tournamentId": 27420,
+   "tournamentName": "CONCACAF Nations League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5586706,
+   "name": "Belize - Sint Maarten",
+   "score": 1.0
+  }
+ },
  "id1003694576792542": {
   "tm": {
    "id": "320156564924211200",
@@ -3539,6 +3574,36 @@
   },
   "score": 0.79
  },
+ "id1002742075468446": {
+  "tm": {
+   "id": "320197628491014144",
+   "sport": "Labdarúgás",
+   "name": "Francia Guyana - St-Vincent és Grenadine",
+   "home": "Francia Guyana",
+   "away": "St-Vincent és Grenadine",
+   "home_pid": "182450732521537792",
+   "away_pid": "182450726020366336",
+   "tournament": "CONCACAF Nemzetek Ligája, B Divízió, D csoport",
+   "category": "Észak- és Közép-Amerika",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T00:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002742075468446",
+   "startTime": "2026-11-18T00:00:00.000Z",
+   "participant1Name": "French Guiana",
+   "participant2Name": "Saint Vincent and the Grenadines",
+   "tournamentId": 27420,
+   "tournamentName": "CONCACAF Nations League",
+   "sportName": "Soccer"
+  },
+  "score": 0.774,
+  "cl": {
+   "id": 5593747,
+   "name": "Francia Guyana - St-Vincent és Grenadine",
+   "score": 1.0
+  }
+ },
  "id1003694576792548": {
   "tm": {
    "id": "320155054208262144",
@@ -4041,6 +4106,66 @@
   "cl": {
    "id": 5663226,
    "name": "A. Guerrieri - Toby Samuel",
+   "score": 1.0
+  }
+ },
+ "id1202140876736488": {
+  "tm": {
+   "id": "319988582484877312",
+   "sport": "Tenisz",
+   "name": "Heliovaara H./Patten H. - Arevalo M./Pavic M.",
+   "home": "Heliovaara H./Patten H.",
+   "away": "Arevalo M./Pavic M.",
+   "home_pid": "233099933615820800",
+   "away_pid": "224805790276538368",
+   "tournament": "ATP-vb, férfi páros, A csoport",
+   "category": "ATP",
+   "tm_sport_id": "3",
+   "start": "2026-11-17T10:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1202140876736488",
+   "startTime": "2026-11-17T10:30:00.000Z",
+   "participant1Name": "Heliovaara H / Patten H",
+   "participant2Name": "Arevalo M / Pavic M",
+   "tournamentId": 21408,
+   "tournamentName": "ATP World Tour Finals Men Doubles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5655220,
+   "name": "Heliovaara H / Patten H - Arevalo M / Pavic M",
+   "score": 1.0
+  }
+ },
+ "id1202140876736490": {
+  "tm": {
+   "id": "319988582735486976",
+   "sport": "Tenisz",
+   "name": "Arribage T./Olivetti A. - Luz O./Matos R.",
+   "home": "Arribage T./Olivetti A.",
+   "away": "Luz O./Matos R.",
+   "home_pid": "283250352205369344",
+   "away_pid": "291391966193946624",
+   "tournament": "ATP-vb, férfi páros, A csoport",
+   "category": "ATP",
+   "tm_sport_id": "3",
+   "start": "2026-11-17T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1202140876736490",
+   "startTime": "2026-11-17T17:00:00.000Z",
+   "participant1Name": "Arribage T / Olivetti A",
+   "participant2Name": "Luz O / Matos R",
+   "tournamentId": 21408,
+   "tournamentName": "ATP World Tour Finals Men Doubles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5655230,
+   "name": "Arribage T / Olivetti A - Luz O / Matos R",
    "score": 1.0
   }
  },
@@ -9764,31 +9889,6 @@
   },
   "score": 1.0
  },
- "id2503212976880572": {
-  "tm": {
-   "id": "320159281076838400",
-   "sport": "Asztalitenisz",
-   "name": "Filip Mandrysz - Jakub Lysek",
-   "home": "Filip Mandrysz",
-   "away": "Jakub Lysek",
-   "home_pid": "256363318141640704",
-   "away_pid": "288947858453073920",
-   "tournament": "TT Cup",
-   "category": "Világ",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T09:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503212976880572",
-   "startTime": "2026-11-17T09:10:00.000Z",
-   "participant1Name": "Mandrysz, Filip",
-   "participant2Name": "Lysek, Jakub",
-   "tournamentId": 32129,
-   "tournamentName": "TT Cup",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976869650": {
   "tm": {
    "id": "320124141271326720",
@@ -9910,156 +10010,6 @@
    "participant2Name": "Hyrsl, Jiri",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503212976880574": {
-  "tm": {
-   "id": "320159295233662976",
-   "sport": "Asztalitenisz",
-   "name": "Travnicek Jakub - Erik Precek",
-   "home": "Travnicek Jakub",
-   "away": "Erik Precek",
-   "home_pid": "288711579226378240",
-   "away_pid": "288969571305820160",
-   "tournament": "TT Cup",
-   "category": "Világ",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T09:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503212976880574",
-   "startTime": "2026-11-17T09:15:00.000Z",
-   "participant1Name": "Travnicek, Jakub",
-   "participant2Name": "Precek, Erik",
-   "tournamentId": 32129,
-   "tournamentName": "TT Cup",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503212976880576": {
-  "tm": {
-   "id": "320159295162359808",
-   "sport": "Asztalitenisz",
-   "name": "David Bochnak - Marek Kulisek",
-   "home": "David Bochnak",
-   "away": "Marek Kulisek",
-   "home_pid": "130154022749392896",
-   "away_pid": "130857183776657408",
-   "tournament": "TT Cup",
-   "category": "Világ",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T09:25:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503212976880576",
-   "startTime": "2026-11-17T09:25:00.000Z",
-   "participant1Name": "Bochnak, David",
-   "participant2Name": "Kulisek, Marek",
-   "tournamentId": 32129,
-   "tournamentName": "TT Cup",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2504935676873766": {
-  "tm": {
-   "id": "320142424607367168",
-   "sport": "Asztalitenisz",
-   "name": "Borgar Haug - Vincent Picard",
-   "home": "Borgar Haug",
-   "away": "Vincent Picard",
-   "home_pid": "130041008943583232",
-   "away_pid": "88182678199730176",
-   "tournament": "Muscat, férfi egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T09:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935676873766",
-   "startTime": "2026-11-17T09:10:00.000Z",
-   "participant1Name": "Haug, Borgar",
-   "participant2Name": "Picard, Vincent",
-   "tournamentId": 49356,
-   "tournamentName": "WTT Star Contender Muscat, MS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2504935676877548": {
-  "tm": {
-   "id": "320142619346804736",
-   "sport": "Asztalitenisz",
-   "name": "Bardet Lilian - Ibrahima Diaw",
-   "home": "Bardet Lilian",
-   "away": "Ibrahima Diaw",
-   "home_pid": "146803506541547520",
-   "away_pid": "197080709489389568",
-   "tournament": "Muscat, férfi egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T09:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935676877548",
-   "startTime": "2026-11-17T09:20:00.000Z",
-   "participant1Name": "Bardet, Lilian",
-   "participant2Name": "Diaw, Ibrahima",
-   "tournamentId": 49356,
-   "tournamentName": "WTT Star Contender Muscat, MS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2504935676873764": {
-  "tm": {
-   "id": "320142509222207488",
-   "sport": "Asztalitenisz",
-   "name": "Junsong Chen - Amir Hossein Hodaei",
-   "home": "Junsong Chen",
-   "away": "Amir Hossein Hodaei",
-   "home_pid": "214283887396933632",
-   "away_pid": "194276501450027008",
-   "tournament": "Muscat, férfi egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T09:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935676873764",
-   "startTime": "2026-11-17T09:20:00.000Z",
-   "participant1Name": "Chen, Junsong",
-   "participant2Name": "Hodaei, Amir Hossein",
-   "tournamentId": 49356,
-   "tournamentName": "WTT Star Contender Muscat, MS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2504935676873768": {
-  "tm": {
-   "id": "320177096913657856",
-   "sport": "Asztalitenisz",
-   "name": "Jo Yokotani - Tang Yiren",
-   "home": "Jo Yokotani",
-   "away": "Tang Yiren",
-   "home_pid": "170280488654655488",
-   "away_pid": "314419237594230784",
-   "tournament": "Muscat, férfi egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-17T09:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935676873768",
-   "startTime": "2026-11-17T09:20:00.000Z",
-   "participant1Name": "Yokotani, Jo",
-   "participant2Name": "Tang, Yiren",
-   "tournamentId": 49356,
-   "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
   "score": 1.0
@@ -11689,48 +11639,6 @@
   },
   "score": 1.0
  },
- "id1002742075468432": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1002742075468432",
-   "startTime": "2026-11-17T19:00:00.000Z",
-   "participant1Name": "Saint Kitts and Nevis",
-   "participant2Name": "Bonaire",
-   "tournamentId": 27420,
-   "tournamentName": "CONCACAF Nations League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5586701,
-   "name": "Saint Kitts és Nevis - Bonaire",
-   "score": 1.0,
-   "home": "Saint Kitts és Nevis",
-   "away": "Bonaire",
-   "tournament": "CONCACAF Nemz.Ligája B div.Ccs"
-  }
- },
- "id1002742075468444": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1002742075468444",
-   "startTime": "2026-11-17T19:00:00.000Z",
-   "participant1Name": "Belize",
-   "participant2Name": "Sint Maarten",
-   "tournamentId": 27420,
-   "tournamentName": "CONCACAF Nations League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5586706,
-   "name": "Belize - Sint Maarten",
-   "score": 1.0,
-   "home": "Belize",
-   "away": "Sint Maarten",
-   "tournament": "CONCACAF Nemz.Ligája B div.Dcs"
-  }
- },
  "id1000133576520696": {
   "tm": null,
   "fx": {
@@ -11771,48 +11679,6 @@
    "home": "St. Lucia",
    "away": "Barbados",
    "tournament": "CONCACAF Nemz.Ligája B div.Bcs"
-  }
- },
- "id1002742075468446": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1002742075468446",
-   "startTime": "2026-11-18T00:00:00.000Z",
-   "participant1Name": "French Guiana",
-   "participant2Name": "Saint Vincent and the Grenadines",
-   "tournamentId": 27420,
-   "tournamentName": "CONCACAF Nations League",
-   "sportName": "Soccer"
-  },
-  "score": 0.774,
-  "cl": {
-   "id": 5593747,
-   "name": "Francia Guyana - St-Vincent és Grenadine",
-   "score": 0.774,
-   "home": "Francia Guyana",
-   "away": "St-Vincent és Grenadine",
-   "tournament": "CONCACAF Nemz.Ligája B div.Dcs"
-  }
- },
- "id1202140876736488": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1202140876736488",
-   "startTime": "2026-11-17T10:30:00.000Z",
-   "participant1Name": "Heliovaara H / Patten H",
-   "participant2Name": "Arevalo M / Pavic M",
-   "tournamentId": 21408,
-   "tournamentName": "ATP World Tour Finals Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655220,
-   "name": "Heliovaara H / Patten H - Arevalo M / Pavic M",
-   "score": 1.0,
-   "home": "Heliovaara H / Patten H",
-   "away": "Arevalo M / Pavic M",
-   "tournament": "ATP-vb, férfi páros, A csoport"
   }
  },
  "id1205210676878758": {
@@ -12023,27 +11889,6 @@
    "home": "J.C. Prado Angelo",
    "away": "L. Midon",
    "tournament": "Montevideo, férfi egyes"
-  }
- },
- "id1202140876736490": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1202140876736490",
-   "startTime": "2026-11-17T17:00:00.000Z",
-   "participant1Name": "Arribage T / Olivetti A",
-   "participant2Name": "Luz O / Matos R",
-   "tournamentId": 21408,
-   "tournamentName": "ATP World Tour Finals Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655230,
-   "name": "Arribage T / Olivetti A - Luz O / Matos R",
-   "score": 1.0,
-   "home": "Arribage T / Olivetti A",
-   "away": "Luz O / Matos R",
-   "tournament": "ATP-vb, férfi páros, A csoport"
   }
  },
  "id1205210676878750": {
