@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-16T09:21:53.007866+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 422,
-   "paired": 145,
-   "classic_only": 44
-  },
-  "tippmix_matches": 742,
-  "pinnacle_fixtures": 658,
-  "paired": 262,
-  "by_sport": {
-   "Soccer": [
-    159,
-    88
-   ],
-   "Tennis": [
-    223,
-    43
-   ],
-   "Basketball": [
-    106,
-    53
-   ],
-   "Ice Hockey": [
-    39,
-    28
-   ],
-   "Handball": [
-    31,
-    14
-   ],
-   "Volleyball": [
-    15,
-    2
-   ],
-   "Table Tennis": [
-    30,
-    10
-   ],
-   "Cricket": [
-    11,
-    1
-   ],
-   "Badminton": [
-    0,
-    0
-   ],
-   "Darts": [
-    31,
-    2
-   ],
-   "Futsal": [
-    2,
-    0
-   ],
-   "Waterpolo": [
-    5,
-    0
-   ],
-   "ESport Counter-Strike": [
-    41,
-    1
-   ],
-   "ESport Dota": [
-    10,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    36,
-    0
-   ],
-   "eBasketball": [
-    3,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    19
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+1.4% U21Görögország – U21Izland · 1X2: U21Görögország győz @1.82 (fair 1.795)",
-   "+0.1% Kazahsztán – Szlovákia · Gólszám 2: Több @1.51 (fair 1.509)",
-   "-0.0% Trinidad és Tobago – Antigua és Barbuda · 1X2: Trinidad és Tobago győz @1.18 (fair 1.18)",
-   "-0.2% Zimbabwe – Egyenlítői-Guinea · Ázsiai hendikep: Zimbabwe (+0.5) @1.28 (fair 1.283)",
-   "-0.3% Feröer-szigetek – Moldova · Gólszám 1.75: Több @1.56 (fair 1.565)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 20,
-  "fast": false,
-  "fixtures_checked": 113,
-  "fixtures_both": 60,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 18,
-  "classic_checked": 94,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.7% Trinidad és Tobago – Antigua és Barbuda · Gólszám 4.25: Kevesebb @1.42 (fair 1.411)",
-   "-0.1% Trinidad és Tobago – Antigua és Barbuda · Gólszám 4: Kevesebb @1.5 (fair 1.501)",
-   "-0.1% Zimbabwe – Egyenlítői-Guinea · 1X2: Döntetlen @3.05 (fair 3.053)",
-   "-1.2% A. Zizins – A. Kowalski · Győztes: A. Zizins győz @1.69 (fair 1.71)",
-   "-1.2% Andorra – Azerbajdzsán · Gólszám 3.5: Kevesebb @1.15 (fair 1.164)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 119
- },
- {
-  "time": "2026-11-16T09:35:28.458041+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 2,
-  "top_ev": [
-   "-1.6% Arvid Nordquist – Svyatoslav Gulin · Győztes: Svyatoslav Gulin győz @1.34 (fair 1.361)",
-   "-6.4% U21Montenegró – U21Bosznia-Hercegovina · Gólszám 2.25: Több @1.65 (fair 1.762)",
-   "-6.7% Cezar Cretu – Moez Echargui · Győztes: Cezar Cretu győz @2.42 (fair 2.593)",
-   "-7.2% Arvid Nordquist – Svyatoslav Gulin · Játékszám 21.5: Kevesebb @1.83 (fair 1.972)",
-   "-7.2% Cezar Cretu – Moez Echargui · Győztes: Moez Echargui győz @1.51 (fair 1.628)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 29,
-  "fixtures_both": 5,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 2,
-  "classic_checked": 25,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.5% L. Nardi – Stefan Latinovic · Győztes: L. Nardi győz @1.01 (fair 1.026)",
-   "-3.0% Arvid Nordquist – Svyatoslav Gulin · Győztes: Svyatoslav Gulin győz @1.32 (fair 1.361)",
-   "-3.1% Hiroshima – Altiri Chiba · Hendikep (hosszabbítással): Altiri Chiba (+14.5) @1.7 (fair 1.754)",
-   "-4.1% Tokyo Alvark – Kobe Storks · Győztes (hosszabbítással): Tokyo Alvark győz @1.04 (fair 1.085)",
-   "-4.3% Gunma – Shiga · Győztes (hosszabbítással): Gunma győz @1.11 (fair 1.16)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 31
- },
- {
   "time": "2026-11-16T09:41:03.739228+00:00",
   "mode": "hu",
   "settled": 0,
@@ -24079,5 +23888,184 @@
   "not_executable": 0,
   "api_calls": 1,
   "free_calls": 9
+ },
+ {
+  "time": "2026-11-18T05:06:08.098081+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 9,
+  "fixtures_both": 3,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 9
+ },
+ {
+  "time": "2026-11-18T05:11:08.098361+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 252,
+   "paired": 158,
+   "classic_only": 15
+  },
+  "tippmix_matches": 1197,
+  "pinnacle_fixtures": 976,
+  "paired": 413,
+  "by_sport": {
+   "Soccer": [
+    177,
+    119
+   ],
+   "Tennis": [
+    402,
+    30
+   ],
+   "Basketball": [
+    164,
+    81
+   ],
+   "Ice Hockey": [
+    70,
+    66
+   ],
+   "Handball": [
+    37,
+    17
+   ],
+   "Volleyball": [
+    42,
+    11
+   ],
+   "Table Tennis": [
+    66,
+    40
+   ],
+   "Cricket": [
+    31,
+    19
+   ],
+   "Badminton": [
+    58,
+    1
+   ],
+   "Darts": [
+    23,
+    19
+   ],
+   "Futsal": [
+    4,
+    2
+   ],
+   "Waterpolo": [
+    12,
+    7
+   ],
+   "ESport Counter-Strike": [
+    30,
+    0
+   ],
+   "ESport Dota": [
+    7,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    62,
+    0
+   ],
+   "eBasketball": [
+    12,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    1
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+0.8% Tersana SC – WE SC · Ázsiai hendikep: Tersana SC (+0.25) @1.42 (fair 1.409)",
+   "+0.7% Tersana SC – WE SC · Ázsiai hendikep: Tersana SC (+0.5) @1.31 (fair 1.301)",
+   "+0.2% Tersana SC – WE SC · Ázsiai hendikep: Tersana SC (+0) @1.63 (fair 1.626)",
+   "+0.0% Corinthians SP – Botafogo RJ · 1X2: Corinthians SP győz @1.87 (fair 1.87)",
+   "-0.4% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.25) @1.43 (fair 1.435)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 17,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 64,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 6,
+  "classic_checked": 60,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.6% Al-Wasl – Hatta · Gólszám 5.5: Kevesebb @1.23 (fair 1.238)",
+   "-1.3% Remo – Chapecoense · Gólszám 4.5: Kevesebb @1.21 (fair 1.225)",
+   "-1.7% Nagoya Dolphins – Ryukyu Okinawa · Győztes (hosszabbítással): Nagoya Dolphins győz @1.15 (fair 1.17)",
+   "-2.0% Alianza Atletico – Melgar · Gólszám 3.25: Kevesebb @1.42 (fair 1.449)",
+   "-2.2% Remo – Chapecoense · Gólszám 3.25: Kevesebb @1.64 (fair 1.677)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 156
  }
 ]

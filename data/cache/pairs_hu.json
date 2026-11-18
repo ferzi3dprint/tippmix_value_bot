@@ -1,54 +1,4 @@
 {
- "id1003459072339094": {
-  "tm": {
-   "id": "320189416724307968",
-   "sport": "Labdarúgás",
-   "name": "Mynavi Sendai - Tokyo Verdy Beleza",
-   "home": "Mynavi Sendai",
-   "away": "Tokyo Verdy Beleza",
-   "home_pid": "183857791076716544",
-   "away_pid": "1191287",
-   "tournament": "Japán bajnokság, női",
-   "category": "Japán",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T05:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003459072339094",
-   "startTime": "2026-11-18T05:00:00.000Z",
-   "participant1Name": "Mynavi Sendai Ladies",
-   "participant2Name": "Tokyo Verdy Beleza",
-   "tournamentId": 34590,
-   "tournamentName": "WE League, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1003459072339100": {
-  "tm": {
-   "id": "320189406954725376",
-   "sport": "Labdarúgás",
-   "name": "Albirex Niigata - Saitama",
-   "home": "Albirex Niigata",
-   "away": "Saitama",
-   "home_pid": "182486105334009856",
-   "away_pid": "182486116793896960",
-   "tournament": "Japán bajnokság, női",
-   "category": "Japán",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T05:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003459072339100",
-   "startTime": "2026-11-18T05:00:00.000Z",
-   "participant1Name": "Albirex Niigata",
-   "participant2Name": "Chifure AS Elfen Saitama",
-   "tournamentId": 34590,
-   "tournamentName": "WE League, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000009772837330": {
   "tm": {
    "id": "320212155433558016",
@@ -197,7 +147,12 @@
    "tournamentName": "WK-League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655293,
+   "name": "Suwon - Gyeongju",
+   "score": 1.0
+  }
  },
  "id1000009772837916": {
   "tm": {
@@ -422,7 +377,12 @@
    "tournamentName": "Slovenia Cup",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5610492,
+   "name": "Tolmin - Brinje Grosuplje",
+   "score": 1.0
+  }
  },
  "id1000084875911698": {
   "tm": {
@@ -447,7 +407,12 @@
    "tournamentName": "I-League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5588800,
+   "name": "FC Bengaluru United - Sreenidi Deccan",
+   "score": 1.0
+  }
  },
  "id1001486473961732": {
   "tm": {
@@ -647,7 +612,12 @@
    "tournamentName": "Serbian Cup",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5576404,
+   "name": "Dubocica - Radnicki Nis",
+   "score": 1.0
+  }
  },
  "id1004851375737876": {
   "tm": {
@@ -697,7 +667,12 @@
    "tournamentName": "Slovenia Cup",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5610486,
+   "name": "Tabor Sezana - Fuzinar Ravne",
+   "score": 1.0
+  }
  },
  "id1000029176072284": {
   "tm": {
@@ -722,7 +697,12 @@
    "tournamentName": "Slovenia Cup",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5610485,
+   "name": "Race - Kalcer Radomlje",
+   "score": 1.0
+  }
  },
  "id1000084175049120": {
   "tm": {
@@ -747,7 +727,12 @@
    "tournamentName": "Ligue 1",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5522951,
+   "name": "Constantine - Ben Aknoun",
+   "score": 1.0
+  }
  },
  "id1004834376434704": {
   "tm": {
@@ -822,7 +807,12 @@
    "tournamentName": "Serbian Cup",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5576405,
+   "name": "Zemun - Radnicki 1923",
+   "score": 1.0
+  }
  },
  "id1000069674371858": {
   "tm": {
@@ -847,7 +837,12 @@
    "tournamentName": "UEFA Champions League Women",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594113,
+   "name": "Häcken - Manchester City",
+   "score": 1.0
+  }
  },
  "id1002486476484396": {
   "tm": {
@@ -897,7 +892,12 @@
    "tournamentName": "Copa del Rey",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5649349,
+   "name": "Portugalete - Real Union Irun",
+   "score": 1.0
+  }
  },
  "id1000032976661768": {
   "tm": {
@@ -922,7 +922,12 @@
    "tournamentName": "Copa del Rey",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655328,
+   "name": "Utebo - Sabadell",
+   "score": 1.0
+  }
  },
  "id1003694576792546": {
   "tm": {
@@ -1097,7 +1102,12 @@
    "tournamentName": "Copa del Rey",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5649328,
+   "name": "Alcoyano - Mallorca",
+   "score": 1.0
+  }
  },
  "id1000032976546760": {
   "tm": {
@@ -1122,7 +1132,12 @@
    "tournamentName": "Copa del Rey",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5649348,
+   "name": "Badajoz - Tenerife",
+   "score": 1.0
+  }
  },
  "id1000032976516978": {
   "tm": {
@@ -1147,7 +1162,12 @@
    "tournamentName": "Copa del Rey",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5649201,
+   "name": "Deportiva Minera - Cartagena",
+   "score": 1.0
+  }
  },
  "id1000032976516980": {
   "tm": {
@@ -1172,7 +1192,12 @@
    "tournamentName": "Copa del Rey",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5649329,
+   "name": "Reus FC Reddis - Barakaldo",
+   "score": 1.0
+  }
  },
  "id1000190876775946": {
   "tm": {
@@ -1247,7 +1272,12 @@
    "tournamentName": "Liga 1",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5632534,
+   "name": "Alianza Atletico - Melgar",
+   "score": 1.0
+  }
  },
  "id1000032566887172": {
   "tm": {
@@ -1272,7 +1302,12 @@
    "tournamentName": "Brasileiro Serie A",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594127,
+   "name": "Coritiba - Santos SP",
+   "score": 1.0
+  }
  },
  "id1000190876775948": {
   "tm": {
@@ -1322,7 +1357,12 @@
    "tournamentName": "Brasileiro Serie A",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594131,
+   "name": "Remo - Chapecoense",
+   "score": 1.0
+  }
  },
  "id1003903376845258": {
   "tm": {
@@ -1372,7 +1412,12 @@
    "tournamentName": "Brasileiro Serie A",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594122,
+   "name": "Cruzeiro MG - Palmeiras SP",
+   "score": 1.0
+  }
  },
  "id1000032566887164": {
   "tm": {
@@ -1397,7 +1442,12 @@
    "tournamentName": "Brasileiro Serie A",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594132,
+   "name": "Corinthians SP - Botafogo RJ",
+   "score": 1.0
+  }
  },
  "id1000032566887170": {
   "tm": {
@@ -1422,7 +1472,12 @@
    "tournamentName": "Brasileiro Serie A",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594123,
+   "name": "Gremio RS - Bahia BA",
+   "score": 1.0
+  }
  },
  "id1000084875834480": {
   "tm": {
@@ -1447,7 +1502,12 @@
    "tournamentName": "I-League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5584140,
+   "name": "Dempo - Shilong Lajong",
+   "score": 1.0
+  }
  },
  "id1001949273078854": {
   "tm": {
@@ -1547,7 +1607,12 @@
    "tournamentName": "Arabian Gulf League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594324,
+   "name": "Al-Wasl - Hatta",
+   "score": 1.0
+  }
  },
  "id1000084875834482": {
   "tm": {
@@ -1572,7 +1637,12 @@
    "tournamentName": "I-League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5584143,
+   "name": "Samaleswari SC - Nagaland United SC",
+   "score": 1.0
+  }
  },
  "id1000091576570790": {
   "tm": {
@@ -1672,7 +1742,12 @@
    "tournamentName": "Ligue 1",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5522953,
+   "name": "MC Alger - Olympique Akbou",
+   "score": 1.0
+  }
  },
  "id1000084175049106": {
   "tm": {
@@ -1697,7 +1772,12 @@
    "tournamentName": "Ligue 1",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5522949,
+   "name": "Rouisset - Belouizdad",
+   "score": 1.0
+  }
  },
  "id1000069674371866": {
   "tm": {
@@ -1747,7 +1827,12 @@
    "tournamentName": "1. Division",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5597130,
+   "name": "Fredericia - Hilleröd",
+   "score": 1.0
+  }
  },
  "id1000207576738346": {
   "tm": {
@@ -1797,7 +1882,12 @@
    "tournamentName": "Ligue 1",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5522948,
+   "name": "Kabylie - USM Alger",
+   "score": 1.0
+  }
  },
  "id1000027876883184": {
   "tm": {
@@ -1822,7 +1912,12 @@
    "tournamentName": "Primera Division",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5666699,
+   "name": "Progreso Montevideo - Montevideo City Torque",
+   "score": 1.0
+  }
  },
  "id1000027876883182": {
   "tm": {
@@ -1847,7 +1942,12 @@
    "tournamentName": "Primera Division",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5666736,
+   "name": "Penarol Montevideo - Cerro Largo Melo",
+   "score": 1.0
+  }
  },
  "id1000018372524032": {
   "tm": {
@@ -1972,7 +2072,12 @@
    "tournamentName": "Brasileiro Serie A",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594124,
+   "name": "Vitória BA - Bragantino",
+   "score": 1.0
+  }
  },
  "id1000032566887160": {
   "tm": {
@@ -1997,7 +2102,12 @@
    "tournamentName": "Brasileiro Serie A",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594133,
+   "name": "Vasco da Gama RJ - Internacional RS",
+   "score": 1.0
+  }
  },
  "id1000159273684978": {
   "tm": {
@@ -2072,7 +2182,12 @@
    "tournamentName": "Copa de SM La Reina",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655327,
+   "name": "Levante - Eibar",
+   "score": 1.0
+  }
  },
  "id1002486476517036": {
   "tm": {
@@ -2349,6 +2464,81 @@
   },
   "score": 1.0
  },
+ "id1002604273586596": {
+  "tm": {
+   "id": "319863023862882304",
+   "sport": "Labdarúgás",
+   "name": "Cartagena 2 - Santomera",
+   "home": "Cartagena 2",
+   "away": "Santomera",
+   "home_pid": "1797064419733504",
+   "away_pid": "247536836332351488",
+   "tournament": "Spanyol 5., 13. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002604273586596",
+   "startTime": "2026-11-18T17:00:00.000Z",
+   "participant1Name": "FC Cartagena B",
+   "participant2Name": "CF Santomera",
+   "tournamentId": 26042,
+   "tournamentName": "Tercera Federacion, Group 13",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002602876527188": {
+  "tm": {
+   "id": "320054575664013312",
+   "sport": "Labdarúgás",
+   "name": "Roda - Athletic Club Torrellano",
+   "home": "Roda",
+   "away": "Athletic Club Torrellano",
+   "home_pid": "1827848243408896",
+   "away_pid": "141125148867612672",
+   "tournament": "Spanyol 5., 6. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002602876527188",
+   "startTime": "2026-11-18T17:00:00.000Z",
+   "participant1Name": "CD Roda",
+   "participant2Name": "AC Torrellano",
+   "tournamentId": 26028,
+   "tournamentName": "Tercera Federacion, Group 6",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002603275910274": {
+  "tm": {
+   "id": "320249458022490112",
+   "sport": "Labdarúgás",
+   "name": "Atletico Mansilles - Guijuelo",
+   "home": "Atletico Mansilles",
+   "away": "Guijuelo",
+   "home_pid": "247537562124152832",
+   "away_pid": "36492",
+   "tournament": "Spanyol 5., 8. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002603275910274",
+   "startTime": "2026-11-18T17:00:00.000Z",
+   "participant1Name": "CD Atletico Mansilles",
+   "participant2Name": "CD Guijuelo",
+   "tournamentId": 26032,
+   "tournamentName": "Tercera Federacion, Group 8",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1003694576792542": {
   "tm": {
    "id": "320156564924211200",
@@ -2497,7 +2687,12 @@
    "tournamentName": "Primera Division",
    "sportName": "Soccer"
   },
-  "score": 0.869
+  "score": 0.869,
+  "cl": {
+   "id": 5666771,
+   "name": "Boston River - Dep. Maldonado",
+   "score": 1.0
+  }
  },
  "id1004805873085406": {
   "tm": {
@@ -2722,7 +2917,12 @@
    "tournamentName": "WE League, Women",
    "sportName": "Soccer"
   },
-  "score": 0.825
+  "score": 0.825,
+  "cl": {
+   "id": 5593933,
+   "name": "Cerezo Osaka - Urawa RD",
+   "score": 1.0
+  }
  },
  "id1000097175174740": {
   "tm": {
@@ -2747,7 +2947,12 @@
    "tournamentName": "Arabian Gulf League",
    "sportName": "Soccer"
   },
-  "score": 0.825
+  "score": 0.825,
+  "cl": {
+   "id": 5594537,
+   "name": "Al-Ain (UAE) - Al-Dhafra",
+   "score": 0.922
+  }
  },
  "id1000009772837922": {
   "tm": {
@@ -2822,7 +3027,12 @@
    "tournamentName": "WE League, Women",
    "sportName": "Soccer"
   },
-  "score": 0.806
+  "score": 0.806,
+  "cl": {
+   "id": 5593934,
+   "name": "Sanfrecce Hiroshima - Nojima Sagamihara",
+   "score": 1.0
+  }
  },
  "id1000136573050882": {
   "tm": {
@@ -2897,7 +3107,12 @@
    "tournamentName": "Egypt Cup",
    "sportName": "Soccer"
   },
-  "score": 0.78
+  "score": 0.78,
+  "cl": {
+   "id": 5655304,
+   "name": "El Gouna - Al-Ittihad (EGY)",
+   "score": 1.0
+  }
  },
  "id1003694576792548": {
   "tm": {
@@ -2997,7 +3212,12 @@
    "tournamentName": "ATP World Tour Finals Men Doubles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655227,
+   "name": "Harrison C / Skupski N - Bolelli S / Vavassori A",
+   "score": 1.0
+  }
  },
  "id1200398776806566": {
   "tm": {
@@ -3022,7 +3242,12 @@
    "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663181,
+   "name": "D. Glinka - Nishesh Basavareddy",
+   "score": 1.0
+  }
  },
  "id1200398776693998": {
   "tm": {
@@ -3047,7 +3272,12 @@
    "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663226,
+   "name": "A. Guerrieri - Toby Samuel",
+   "score": 1.0
+  }
  },
  "id1200398776694064": {
   "tm": {
@@ -3072,7 +3302,12 @@
    "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663221,
+   "name": "L. Giustino - S. Gulin",
+   "score": 1.0
+  }
  },
  "id1200398776694052": {
   "tm": {
@@ -3097,7 +3332,12 @@
    "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663223,
+   "name": "J. Rodionov - N. Budkov Kjaer",
+   "score": 1.0
+  }
  },
  "id1202140676736464": {
   "tm": {
@@ -3122,7 +3362,12 @@
    "tournamentName": "ATP World Tour Finals Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655226,
+   "name": "C. Alcaraz Garfia - D. Medvedev",
+   "score": 0.8
+  }
  },
  "id1200398776806570": {
   "tm": {
@@ -3147,7 +3392,12 @@
    "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663196,
+   "name": "J. Duckworth - Eero Vasa",
+   "score": 1.0
+  }
  },
  "id1202140876736470": {
   "tm": {
@@ -3172,7 +3422,12 @@
    "tournamentName": "ATP World Tour Finals Men Doubles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655231,
+   "name": "Granollers M / Zeballos H - Krawietz K / Puetz T",
+   "score": 1.0
+  }
  },
  "id1202140676736462": {
   "tm": {
@@ -3197,7 +3452,12 @@
    "tournamentName": "ATP World Tour Finals Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655232,
+   "name": "F. Cobolli - F. Tiafoe",
+   "score": 1.0
+  }
  },
  "id1200946176687418": {
   "tm": {
@@ -3222,7 +3482,12 @@
    "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5656177,
+   "name": "I. Becroft - Li Tu",
+   "score": 1.0
+  }
  },
  "id1200946176687396": {
   "tm": {
@@ -3247,7 +3512,12 @@
    "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5656179,
+   "name": "C. Langmo - F. Broska",
+   "score": 1.0
+  }
  },
  "id1201316776695058": {
   "tm": {
@@ -3272,7 +3542,12 @@
    "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655966,
+   "name": "Ben. Hassan - Kee. Smith",
+   "score": 0.817
+  }
  },
  "id1201316776695062": {
   "tm": {
@@ -3297,7 +3572,12 @@
    "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655959,
+   "name": "L. Staeheli - K. Samrej",
+   "score": 1.0
+  }
  },
  "id1205408676775306": {
   "tm": {
@@ -3322,7 +3602,12 @@
    "tournamentName": "UTR PTT Carvoeiro Women 09",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665998,
+   "name": "V. Avdeeva - V. Bokova",
+   "score": 1.0
+  }
  },
  "id1205408676775354": {
   "tm": {
@@ -3372,7 +3657,12 @@
    "tournamentName": "UTR PTT Carvoeiro Women 09",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665737,
+   "name": "E. Ristola - L. Nizetic",
+   "score": 1.0
+  }
  },
  "id1205408676775342": {
   "tm": {
@@ -3422,7 +3712,12 @@
    "tournamentName": "UTR PTT Carvoeiro Men 09",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665622,
+   "name": "Jul. Alias - N. Ion",
+   "score": 0.93
+  }
  },
  "id1205404476775128": {
   "tm": {
@@ -3447,7 +3742,12 @@
    "tournamentName": "UTR PTT Carvoeiro Men 09",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665676,
+   "name": "H. McElnea - D. Jeanne-Grandinot",
+   "score": 1.0
+  }
  },
  "id1205404476773164": {
   "tm": {
@@ -3472,7 +3772,12 @@
    "tournamentName": "UTR PTT Carvoeiro Men 09",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665599,
+   "name": "S. Ingles Garre - L.A. Corthey",
+   "score": 1.0
+  }
  },
  "id1205404476773178": {
   "tm": {
@@ -3497,32 +3802,42 @@
    "tournamentName": "UTR PTT Carvoeiro Men 09",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665678,
+   "name": "Peter Hatton - M. van der Merwe",
+   "score": 1.0
+  }
  },
- "id1100064874064676": {
+ "id1200398776694054": {
   "tm": {
-   "id": "320228691708813312",
-   "sport": "Kosárlabda",
-   "name": "West Virginia Mountaineers - Auburn Tigers",
-   "home": "West Virginia Mountaineers",
-   "away": "Auburn Tigers",
-   "home_pid": "38063",
-   "away_pid": "38118",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-18T05:00:00+00:00"
+   "id": "320223359914811392",
+   "sport": "Tenisz",
+   "name": "Laslo Djere - Jacob Fearnley",
+   "home": "Laslo Djere",
+   "away": "Jacob Fearnley",
+   "home_pid": "896822",
+   "away_pid": "147653605653008384",
+   "tournament": "Helsinki, férfi egyes",
+   "category": "Challenger",
+   "tm_sport_id": "3",
+   "start": "2026-11-18T12:40:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1100064874064676",
-   "startTime": "2026-11-18T05:00:00.000Z",
-   "participant1Name": "West Virginia Mountaineers",
-   "participant2Name": "Auburn Tigers",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
+   "fixtureId": "id1200398776694054",
+   "startTime": "2026-11-18T12:40:00.000Z",
+   "participant1Name": "Djere, Laslo",
+   "participant2Name": "Fearnley, Jacob",
+   "tournamentId": 3987,
+   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
+   "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663261,
+   "name": "L. Djere - J. Fearnley",
+   "score": 1.0
+  }
  },
  "id1104496575880530": {
   "tm": {
@@ -3622,7 +3937,12 @@
    "tournamentName": "WKBL",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593968,
+   "name": "Incheon S-Birds - Cheongju Stars",
+   "score": 1.0
+  }
  },
  "id1100150272696358": {
   "tm": {
@@ -3647,7 +3967,12 @@
    "tournamentName": "B League Premier",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593978,
+   "name": "Kobe Storks - Kawasaki Brave Thunders",
+   "score": 1.0
+  }
  },
  "id1100150272696354": {
   "tm": {
@@ -3672,7 +3997,12 @@
    "tournamentName": "B League Premier",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593985,
+   "name": "Nagoya Dolphins - Ryukyu Okinawa",
+   "score": 1.0
+  }
  },
  "id1100150272696356": {
   "tm": {
@@ -3722,7 +4052,12 @@
    "tournamentName": "B League Premier",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593979,
+   "name": "Gunma - Shimane",
+   "score": 1.0
+  }
  },
  "id1100150272696348": {
   "tm": {
@@ -3747,7 +4082,12 @@
    "tournamentName": "B League Premier",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593982,
+   "name": "Chiba Jets Funabashi - Akita",
+   "score": 1.0
+  }
  },
  "id1100150272696352": {
   "tm": {
@@ -3772,7 +4112,12 @@
    "tournamentName": "B League Premier",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593983,
+   "name": "Yokohama - Saga Ballooners",
+   "score": 0.79
+  }
  },
  "id1100150272696344": {
   "tm": {
@@ -3797,7 +4142,12 @@
    "tournamentName": "B League Premier",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593986,
+   "name": "Tochigi Utsunomiya Brex - Hokkaido",
+   "score": 1.0
+  }
  },
  "id1100150272696350": {
   "tm": {
@@ -3822,7 +4172,12 @@
    "tournamentName": "B League Premier",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593977,
+   "name": "Tokyo Sunrockers - Tokyo Alvark",
+   "score": 1.0
+  }
  },
  "id1100150272696360": {
   "tm": {
@@ -3847,7 +4202,12 @@
    "tournamentName": "B League Premier",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593984,
+   "name": "Kyoto - Shinshu",
+   "score": 1.0
+  }
  },
  "id1104496575880532": {
   "tm": {
@@ -4097,7 +4457,12 @@
    "tournamentName": "LKL",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593992,
+   "name": "Nevezis Kedainiai - Rytas Vilnius",
+   "score": 1.0
+  }
  },
  "id1100013873263176": {
   "tm": {
@@ -4122,7 +4487,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5586722,
+   "name": "Besiktas - Real Madrid",
+   "score": 1.0
+  }
  },
  "id1101405173110584": {
   "tm": {
@@ -4147,7 +4517,12 @@
    "tournamentName": "FIBA Champions League",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594003,
+   "name": "AEK Athén - Szombathely",
+   "score": 1.0
+  }
  },
  "id1100025072627104": {
   "tm": {
@@ -4172,7 +4547,12 @@
    "tournamentName": "NBL",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593990,
+   "name": "Plzen - Usti nad Labem",
+   "score": 1.0
+  }
  },
  "id1100025072627106": {
   "tm": {
@@ -4197,7 +4577,12 @@
    "tournamentName": "NBL",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593991,
+   "name": "Basket Brno - Ostrava",
+   "score": 1.0
+  }
  },
  "id1100014172902104": {
   "tm": {
@@ -4222,7 +4607,12 @@
    "tournamentName": "Eurocup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594199,
+   "name": "Cedevita Olimpija Ljubljana - San Pablo Burgos",
+   "score": 1.0
+  }
  },
  "id1100084372663222": {
   "tm": {
@@ -4297,7 +4687,12 @@
    "tournamentName": "Eurocup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594196,
+   "name": "Arisz - Le Mans",
+   "score": 1.0
+  }
  },
  "id1100014172902474": {
   "tm": {
@@ -4322,7 +4717,12 @@
    "tournamentName": "Eurocup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594200,
+   "name": "Buducnost Podgorica - Slask Wroclaw",
+   "score": 1.0
+  }
  },
  "id1100014172902480": {
   "tm": {
@@ -4347,7 +4747,12 @@
    "tournamentName": "Eurocup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594193,
+   "name": "Chemnitz - Tofas Bursa",
+   "score": 1.0
+  }
  },
  "id1100014172902318": {
   "tm": {
@@ -4372,7 +4777,12 @@
    "tournamentName": "Eurocup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594204,
+   "name": "Skyliners Frankfurt - Venezia",
+   "score": 1.0
+  }
  },
  "id1100014172902478": {
   "tm": {
@@ -4397,7 +4807,12 @@
    "tournamentName": "Eurocup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594214,
+   "name": "Bourg - Napoli",
+   "score": 1.0
+  }
  },
  "id1100014174290218": {
   "tm": {
@@ -4422,7 +4837,12 @@
    "tournamentName": "Eurocup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594209,
+   "name": "Bosna Sarajevo - Lietkabelis Panevezys",
+   "score": 1.0
+  }
  },
  "id1100014172902476": {
   "tm": {
@@ -4447,7 +4867,12 @@
    "tournamentName": "Eurocup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594202,
+   "name": "Trento - Neptunas Klaipeda",
+   "score": 1.0
+  }
  },
  "id1103797375724008": {
   "tm": {
@@ -4497,7 +4922,12 @@
    "tournamentName": "Eurocup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594198,
+   "name": "Manresa - PAOK",
+   "score": 1.0
+  }
  },
  "id1104871576028536": {
   "tm": {
@@ -4597,7 +5027,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5586715,
+   "name": "Zalgiris Kaunas - Panathinaikosz",
+   "score": 1.0
+  }
  },
  "id1100013873263182": {
   "tm": {
@@ -4622,7 +5057,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5583822,
+   "name": "Olimpia Milano - Fenerbahce",
+   "score": 1.0
+  }
  },
  "id1100013873263188": {
   "tm": {
@@ -4647,7 +5087,12 @@
    "tournamentName": "Euroleague",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5586716,
+   "name": "Valencia - Virtus Bologna",
+   "score": 1.0
+  }
  },
  "id1103928775123526": {
   "tm": {
@@ -5372,7 +5817,12 @@
    "tournamentName": "NBL",
    "sportName": "Basketball"
   },
-  "score": 0.816
+  "score": 0.816,
+  "cl": {
+   "id": 5593989,
+   "name": "USK Praha - Decin",
+   "score": 1.0
+  }
  },
  "id1100154073657568": {
   "tm": {
@@ -5397,7 +5847,12 @@
    "tournamentName": "KBL",
    "sportName": "Basketball"
   },
-  "score": 0.813
+  "score": 0.813,
+  "cl": {
+   "id": 5578782,
+   "name": "Seoul Thunders - Changwon Sakers",
+   "score": 1.0
+  }
  },
  "id1101405173110568": {
   "tm": {
@@ -5422,7 +5877,12 @@
    "tournamentName": "FIBA Champions League",
    "sportName": "Basketball"
   },
-  "score": 0.804
+  "score": 0.804,
+  "cl": {
+   "id": 5594001,
+   "name": "Galatasaray - Legia Varsó",
+   "score": 1.0
+  }
  },
  "id1100150272696342": {
   "tm": {
@@ -5447,7 +5907,12 @@
    "tournamentName": "B League Premier",
    "sportName": "Basketball"
   },
-  "score": 0.754
+  "score": 0.754,
+  "cl": {
+   "id": 5593980,
+   "name": "Sendai - Toyohashi Neophoenix",
+   "score": 1.0
+  }
  },
  "id1104111874765638": {
   "tm": {
@@ -5497,7 +5962,12 @@
    "tournamentName": "NBL",
    "sportName": "Basketball"
   },
-  "score": 0.745
+  "score": 0.745,
+  "cl": {
+   "id": 5594191,
+   "name": "Hradec Kralove - Sokol Pisek",
+   "score": 1.0
+  }
  },
  "id1101405173110572": {
   "tm": {
@@ -5522,7 +5992,12 @@
    "tournamentName": "FIBA Champions League",
    "sportName": "Basketball"
   },
-  "score": 0.745
+  "score": 0.745,
+  "cl": {
+   "id": 5594212,
+   "name": "Cibona Zágráb - Strasbourg",
+   "score": 1.0
+  }
  },
  "id1102645075109964": {
   "tm": {
@@ -5622,7 +6097,12 @@
    "tournamentName": "AHL",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594051,
+   "name": "Belleville - Laval",
+   "score": 1.0
+  }
  },
  "id1500023772019382": {
   "tm": {
@@ -5647,7 +6127,12 @@
    "tournamentName": "Extraliga",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594040,
+   "name": "Trinec - Olomouc",
+   "score": 1.0
+  }
  },
  "id1500073572119036": {
   "tm": {
@@ -5672,7 +6157,12 @@
    "tournamentName": "1. Liga",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594034,
+   "name": "Frydek-Mistek - Tabor",
+   "score": 1.0
+  }
  },
  "id1500073572119038": {
   "tm": {
@@ -5697,7 +6187,12 @@
    "tournamentName": "1. Liga",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594033,
+   "name": "Zlín - Litomerice",
+   "score": 1.0
+  }
  },
  "id1500073572119044": {
   "tm": {
@@ -5722,7 +6217,12 @@
    "tournamentName": "1. Liga",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594035,
+   "name": "Chomutov - Vsetin",
+   "score": 1.0
+  }
  },
  "id1500013472116528": {
   "tm": {
@@ -5747,7 +6247,12 @@
    "tournamentName": "Liiga",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594017,
+   "name": "Kalpa - Lukko",
+   "score": 1.0
+  }
  },
  "id1500013472116524": {
   "tm": {
@@ -5772,7 +6277,12 @@
    "tournamentName": "Liiga",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594019,
+   "name": "Jukurit - Jokerit",
+   "score": 1.0
+  }
  },
  "id1500013472116520": {
   "tm": {
@@ -5797,7 +6307,12 @@
    "tournamentName": "Liiga",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594015,
+   "name": "JYP - Vaasan Sport",
+   "score": 1.0
+  }
  },
  "id1500013472116532": {
   "tm": {
@@ -5822,7 +6337,12 @@
    "tournamentName": "Liiga",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594014,
+   "name": "Ässät - Lahti Pelicans",
+   "score": 1.0
+  }
  },
  "id1500013472116526": {
   "tm": {
@@ -5847,7 +6367,12 @@
    "tournamentName": "Liiga",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594013,
+   "name": "Kiekko-Espoo - Ilves",
+   "score": 1.0
+  }
  },
  "id1500049475704510": {
   "tm": {
@@ -5872,7 +6397,12 @@
    "tournamentName": "Champions Hockey League",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5578966,
+   "name": "Pardubice - SaiPa",
+   "score": 1.0
+  }
  },
  "id1500023776161980": {
   "tm": {
@@ -5897,7 +6427,12 @@
    "tournamentName": "Extraliga",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5619677,
+   "name": "Mountfield HK - Brno",
+   "score": 1.0
+  }
  },
  "id1500025773350478": {
   "tm": {
@@ -5922,7 +6457,12 @@
    "tournamentName": "Superisligaen",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594242,
+   "name": "Rungsted - Odense",
+   "score": 1.0
+  }
  },
  "id1500082872124124": {
   "tm": {
@@ -6022,7 +6562,12 @@
    "tournamentName": "Allsvenskan",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594238,
+   "name": "MODO - Kalmar",
+   "score": 1.0
+  }
  },
  "id1500041672005234": {
   "tm": {
@@ -6047,7 +6592,12 @@
    "tournamentName": "Allsvenskan",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594236,
+   "name": "Nybro - Leksand",
+   "score": 1.0
+  }
  },
  "id1500041672005238": {
   "tm": {
@@ -6072,7 +6622,12 @@
    "tournamentName": "Allsvenskan",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594240,
+   "name": "Vimmerby - Södertälje",
+   "score": 1.0
+  }
  },
  "id1500041672005236": {
   "tm": {
@@ -6097,7 +6652,12 @@
    "tournamentName": "Allsvenskan",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594237,
+   "name": "Karlskoga - Oskarshamn",
+   "score": 1.0
+  }
  },
  "id1500041672005232": {
   "tm": {
@@ -6122,7 +6682,12 @@
    "tournamentName": "Allsvenskan",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594239,
+   "name": "Almtuna - Östersund",
+   "score": 1.0
+  }
  },
  "id1500041672005240": {
   "tm": {
@@ -6147,7 +6712,12 @@
    "tournamentName": "Allsvenskan",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594235,
+   "name": "Västeras - Visby-Roma",
+   "score": 1.0
+  }
  },
  "id1500025673238372": {
   "tm": {
@@ -6172,7 +6742,12 @@
    "tournamentName": "ICE Hockey League",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594241,
+   "name": "Vienna Capitals - Olimpija Ljubljana",
+   "score": 1.0
+  }
  },
  "id1500049475704512": {
   "tm": {
@@ -6197,7 +6772,12 @@
    "tournamentName": "Champions Hockey League",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5578964,
+   "name": "Eisbären Berlin - Kookoo",
+   "score": 1.0
+  }
  },
  "id1500049475704514": {
   "tm": {
@@ -6222,7 +6802,12 @@
    "tournamentName": "Champions Hockey League",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5578965,
+   "name": "Fribourg - Servette",
+   "score": 1.0
+  }
  },
  "id1500012872123550": {
   "tm": {
@@ -6247,7 +6832,12 @@
    "tournamentName": "National League",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594243,
+   "name": "Zug - Ajoie",
+   "score": 1.0
+  }
  },
  "id1500073572119220": {
   "tm": {
@@ -6272,7 +6862,12 @@
    "tournamentName": "1. Liga",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5655323,
+   "name": "Kolin - Jihlava",
+   "score": 1.0
+  }
  },
  "id1500025773350480": {
   "tm": {
@@ -6322,7 +6917,12 @@
    "tournamentName": "DEL",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594617,
+   "name": "Krefeld - Straubing",
+   "score": 1.0
+  }
  },
  "id1500144272730854": {
   "tm": {
@@ -6347,7 +6947,12 @@
    "tournamentName": "Elite League",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594234,
+   "name": "Guildford - Nottingham",
+   "score": 1.0
+  }
  },
  "id1500144272730856": {
   "tm": {
@@ -6372,7 +6977,12 @@
    "tournamentName": "Elite League",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594618,
+   "name": "Manchester - Fife",
+   "score": 1.0
+  }
  },
  "id1500025972117462": {
   "tm": {
@@ -6572,7 +7182,12 @@
    "tournamentName": "National League",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594645,
+   "name": "Lausanne - Zürich Lions",
+   "score": 1.0
+  }
  },
  "id1500026171696584": {
   "tm": {
@@ -6597,7 +7212,12 @@
    "tournamentName": "SHL",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594642,
+   "name": "Malmö - Rögle",
+   "score": 1.0
+  }
  },
  "id1500026171696594": {
   "tm": {
@@ -6622,7 +7242,12 @@
    "tournamentName": "SHL",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594637,
+   "name": "Färjestad - Frölunda",
+   "score": 1.0
+  }
  },
  "id1500026171696592": {
   "tm": {
@@ -6647,7 +7272,12 @@
    "tournamentName": "SHL",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594635,
+   "name": "Växjö - Björklöven",
+   "score": 1.0
+  }
  },
  "id1500026171696588": {
   "tm": {
@@ -6672,7 +7302,12 @@
    "tournamentName": "SHL",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594636,
+   "name": "Djurgarden - Skelleftea",
+   "score": 1.0
+  }
  },
  "id1500026171696590": {
   "tm": {
@@ -6697,7 +7332,12 @@
    "tournamentName": "SHL",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594640,
+   "name": "Brynäs - Lulea",
+   "score": 1.0
+  }
  },
  "id1500026171696586": {
   "tm": {
@@ -6722,7 +7362,12 @@
    "tournamentName": "SHL",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594641,
+   "name": "Timra - Örebro",
+   "score": 1.0
+  }
  },
  "id1500149073705534": {
   "tm": {
@@ -6847,7 +7492,12 @@
    "tournamentName": "NHL",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594496,
+   "name": "New Jersey - Montreal",
+   "score": 1.0
+  }
  },
  "id1500023472909530": {
   "tm": {
@@ -6872,7 +7522,12 @@
    "tournamentName": "NHL",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594499,
+   "name": "Detroit - Boston",
+   "score": 1.0
+  }
  },
  "id1500023472909534": {
   "tm": {
@@ -6897,7 +7552,12 @@
    "tournamentName": "NHL",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5588802,
+   "name": "Utah - Colorado",
+   "score": 1.0
+  }
  },
  "id1500013472116530": {
   "tm": {
@@ -6922,7 +7582,12 @@
    "tournamentName": "Liiga",
    "sportName": "Ice Hockey"
   },
-  "score": 0.959
+  "score": 0.959,
+  "cl": {
+   "id": 5594016,
+   "name": "Turku PS - Kärpät",
+   "score": 1.0
+  }
  },
  "id1500023772019370": {
   "tm": {
@@ -6947,7 +7612,12 @@
    "tournamentName": "Extraliga",
    "sportName": "Ice Hockey"
   },
-  "score": 0.86
+  "score": 0.86,
+  "cl": {
+   "id": 5594644,
+   "name": "Motor Ceske Budejovice - Sparta Praha",
+   "score": 1.0
+  }
  },
  "id1500073572119048": {
   "tm": {
@@ -6972,7 +7642,12 @@
    "tournamentName": "1. Liga",
    "sportName": "Ice Hockey"
   },
-  "score": 0.8
+  "score": 0.8,
+  "cl": {
+   "id": 5594037,
+   "name": "Slavia Praha - Prerov",
+   "score": 1.0
+  }
  },
  "id1500073572119042": {
   "tm": {
@@ -6997,7 +7672,12 @@
    "tournamentName": "1. Liga",
    "sportName": "Ice Hockey"
   },
-  "score": 0.767
+  "score": 0.767,
+  "cl": {
+   "id": 5594036,
+   "name": "Slavia Trebic - Sokolov",
+   "score": 1.0
+  }
  },
  "id1503015673810698": {
   "tm": {
@@ -7047,7 +7727,12 @@
    "tournamentName": "Kvindeligaen, Women",
    "sportName": "Handball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594275,
+   "name": "HÖJ - Esbjerg",
+   "score": 1.0
+  }
  },
  "id2200015872850314": {
   "tm": {
@@ -7072,7 +7757,12 @@
    "tournamentName": "Kvindeligaen, Women",
    "sportName": "Handball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594273,
+   "name": "Viborg - Sönderjyske",
+   "score": 1.0
+  }
  },
  "id2200015872850320": {
   "tm": {
@@ -7097,7 +7787,12 @@
    "tournamentName": "Kvindeligaen, Women",
    "sportName": "Handball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594276,
+   "name": "Skanderborg - Herning-Ikast",
+   "score": 1.0
+  }
  },
  "id2200015872850312": {
   "tm": {
@@ -7147,7 +7842,12 @@
    "tournamentName": "EHF Champions League",
    "sportName": "Handball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667719,
+   "name": "Aalborg - Füchse Berlin",
+   "score": 1.0
+  }
  },
  "id2200015872850322": {
   "tm": {
@@ -7172,7 +7872,12 @@
    "tournamentName": "Kvindeligaen, Women",
    "sportName": "Handball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594279,
+   "name": "Ringköbing - Silkeborg",
+   "score": 1.0
+  }
  },
  "id2200236672760342": {
   "tm": {
@@ -7272,7 +7977,12 @@
    "tournamentName": "EHF Champions League",
    "sportName": "Handball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667718,
+   "name": "Wisla Plock - Veszprém",
+   "score": 1.0
+  }
  },
  "id2200003076225232": {
   "tm": {
@@ -7472,7 +8182,12 @@
    "tournamentName": "Kupa Voley, Women",
    "sportName": "Volleyball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5592849,
+   "name": "Eczacibasi Istanbul - Aras Kargo",
+   "score": 1.0
+  }
  },
  "id2300144673399766": {
   "tm": {
@@ -7522,7 +8237,12 @@
    "tournamentName": "Liga Siatkowki",
    "sportName": "Volleyball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594098,
+   "name": "Trefl Gdansk - Zawiercie",
+   "score": 1.0
+  }
  },
  "id2300083172764970": {
   "tm": {
@@ -8724,31 +9444,6 @@
   },
   "score": 1.0
  },
- "id2704941876121532": {
-  "tm": {
-   "id": "320130839524483072",
-   "sport": "Krikett",
-   "name": "Írország - Skócia",
-   "home": "Írország",
-   "away": "Skócia",
-   "home_pid": "138483496776683520",
-   "away_pid": "138483509225377792",
-   "tournament": "T20 Series, női",
-   "category": "Világ",
-   "tm_sport_id": "26",
-   "start": "2026-11-18T05:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2704941876121532",
-   "startTime": "2026-11-18T05:00:00.000Z",
-   "participant1Name": "Ireland",
-   "participant2Name": "Scotland",
-   "tournamentId": 49418,
-   "tournamentName": "T20 Emerging Nations Trophy, Women",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
- },
  "id2702833376122608": {
   "tm": {
    "id": "320097222169534464",
@@ -9224,31 +9919,6 @@
   },
   "score": 1.0
  },
- "id2704941876121530": {
-  "tm": {
-   "id": "320142618432446464",
-   "sport": "Krikett",
-   "name": "Pápua Új-Guinea - Egyesült Arab Emirátusok",
-   "home": "Pápua Új-Guinea",
-   "away": "Egyesült Arab Emirátusok",
-   "home_pid": "214022302372876288",
-   "away_pid": "155310360745791488",
-   "tournament": "T20 Series, női",
-   "category": "Világ",
-   "tm_sport_id": "26",
-   "start": "2026-11-18T05:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2704941876121530",
-   "startTime": "2026-11-18T05:00:00.000Z",
-   "participant1Name": "Papua New Guinea",
-   "participant2Name": "United Arab Emirates",
-   "tournamentId": 49418,
-   "tournamentName": "T20 Emerging Nations Trophy, Women",
-   "sportName": "Cricket"
-  },
-  "score": 0.757
- },
  "id4902150476905528": {
   "tm": {
    "id": "320254329051226112",
@@ -9272,7 +9942,12 @@
    "tournamentName": "Hong Kong Open, MD",
    "sportName": "Badminton"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667916,
+   "name": "Lundgaard D / Vestergaard M - Choi S G / Goh V S",
+   "score": 1.0
+  }
  },
  "id1900059776636480": {
   "tm": {
@@ -9297,7 +9972,12 @@
    "tournamentName": "Grand Slam of Darts",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665792,
+   "name": "Rob Cross - N. Springer",
+   "score": 1.0
+  }
  },
  "id1900059776636390": {
   "tm": {
@@ -9322,7 +10002,12 @@
    "tournamentName": "Grand Slam of Darts",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665791,
+   "name": "Ger. Price - R. Searle",
+   "score": 0.9
+  }
  },
  "id1900059776636386": {
   "tm": {
@@ -9347,7 +10032,12 @@
    "tournamentName": "Grand Slam of Darts",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665794,
+   "name": "L. Littler - J. Wattimena",
+   "score": 1.0
+  }
  },
  "id1900059776636388": {
   "tm": {
@@ -9372,7 +10062,12 @@
    "tournamentName": "Grand Slam of Darts",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665793,
+   "name": "K. Döts - C. Menzies",
+   "score": 1.0
+  }
  },
  "id1903399476776190": {
   "tm": {
@@ -9397,7 +10092,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665900,
+   "name": "F. Sherrock - V. Pruim",
+   "score": 1.0
+  }
  },
  "id1903399476776192": {
   "tm": {
@@ -9422,7 +10122,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665911,
+   "name": "T. Gulliver - P. Steenbergen",
+   "score": 1.0
+  }
  },
  "id1903399476776194": {
   "tm": {
@@ -9447,7 +10152,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665907,
+   "name": "E. Cairns - G. Hayter",
+   "score": 1.0
+  }
  },
  "id1903399476776196": {
   "tm": {
@@ -9472,7 +10182,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665922,
+   "name": "V. Pruim - T. Gulliver",
+   "score": 1.0
+  }
  },
  "id1903399476776198": {
   "tm": {
@@ -9497,7 +10212,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665917,
+   "name": "G. Hayter - F. Sherrock",
+   "score": 1.0
+  }
  },
  "id1903399476776200": {
   "tm": {
@@ -9522,7 +10242,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665923,
+   "name": "P. Steenbergen - E. Cairns",
+   "score": 1.0
+  }
  },
  "id1903399476776202": {
   "tm": {
@@ -9547,7 +10272,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665910,
+   "name": "V. Pruim - G. Hayter",
+   "score": 1.0
+  }
  },
  "id1903399476776204": {
   "tm": {
@@ -9572,7 +10302,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665918,
+   "name": "T. Gulliver - E. Cairns",
+   "score": 1.0
+  }
  },
  "id1903399476776206": {
   "tm": {
@@ -9597,7 +10332,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665903,
+   "name": "F. Sherrock - P. Steenbergen",
+   "score": 1.0
+  }
  },
  "id1903399476776208": {
   "tm": {
@@ -9622,7 +10362,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665926,
+   "name": "G. Hayter - T. Gulliver",
+   "score": 1.0
+  }
  },
  "id1903399476776210": {
   "tm": {
@@ -9822,7 +10567,12 @@
    "tournamentName": "Champions League",
    "sportName": "Waterpolo"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594302,
+   "name": "Radnicki Kragujevac - Oradea",
+   "score": 1.0
+  }
  },
  "id2800126474972964": {
   "tm": {
@@ -9847,7 +10597,12 @@
    "tournamentName": "Champions League",
    "sportName": "Waterpolo"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594305,
+   "name": "Olympiakosz - Waspo Hannover",
+   "score": 1.0
+  }
  },
  "id2800126474972966": {
   "tm": {
@@ -9872,7 +10627,12 @@
    "tournamentName": "Champions League",
    "sportName": "Waterpolo"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594303,
+   "name": "Sabadell - Jadran Herceg Novi",
+   "score": 1.0
+  }
  },
  "id2800126474973002": {
   "tm": {
@@ -9897,7 +10657,12 @@
    "tournamentName": "Champions League",
    "sportName": "Waterpolo"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594304,
+   "name": "Recco - Brescia",
+   "score": 1.0
+  }
  },
  "id2803029275712476": {
   "tm": {
@@ -9973,5 +10738,320 @@
    "sportName": "Waterpolo"
   },
   "score": 0.913
+ },
+ "id1000084175049112": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1000084175049112",
+   "startTime": "2026-11-18T16:45:00.000Z",
+   "participant1Name": "CR Temouchent",
+   "participant2Name": "Js El Biar",
+   "tournamentId": 841,
+   "tournamentName": "Ligue 1",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5522955,
+   "name": "CR Temouchent - El Biar",
+   "score": 1.0,
+   "home": "CR Temouchent",
+   "away": "El Biar",
+   "tournament": "Algériai bajnokság"
+  }
+ },
+ "id1205210676807196": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676807196",
+   "startTime": "2026-11-18T12:40:00.000Z",
+   "participant1Name": "Henning, Philip",
+   "participant2Name": "Gaston, Hugo",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663198,
+   "name": "P. Henning - H. Gaston",
+   "score": 1.0,
+   "home": "P. Henning",
+   "away": "H. Gaston",
+   "tournament": "Metz, férfi egyes"
+  }
+ },
+ "id1205210676694530": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676694530",
+   "startTime": "2026-11-18T17:00:00.000Z",
+   "participant1Name": "Tabur, Clement",
+   "participant2Name": "Montes-de la Torre, Inaki",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663263,
+   "name": "C. Tabur - I. Montes-de La Torre",
+   "score": 1.0,
+   "home": "C. Tabur",
+   "away": "I. Montes-de La Torre",
+   "tournament": "Metz, férfi egyes"
+  }
+ },
+ "id1205210676694608": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676694608",
+   "startTime": "2026-11-18T18:20:00.000Z",
+   "participant1Name": "Basilashvili, Nikoloz",
+   "participant2Name": "Passaro, Francesco",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5663239,
+   "name": "N. Basilashvili - F. Passaro",
+   "score": 1.0,
+   "home": "N. Basilashvili",
+   "away": "F. Passaro",
+   "tournament": "Metz, férfi egyes"
+  }
+ },
+ "id1201316776695054": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1201316776695054",
+   "startTime": "2026-11-19T02:00:00.000Z",
+   "participant1Name": "Friend, Jay",
+   "participant2Name": "Noguchi, Rio",
+   "tournamentId": 13167,
+   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5655962,
+   "name": "J.D.H. Friend - Rio Noguchi",
+   "score": 1.0,
+   "home": "J.D.H. Friend",
+   "away": "Rio Noguchi",
+   "tournament": "Kobe, férfi egyes"
+  }
+ },
+ "id1205210676878754": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676878754",
+   "startTime": "2026-11-18T11:10:00.000Z",
+   "participant1Name": "Martinez, Pedro",
+   "participant2Name": "Donald, Matthew William",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 0.907,
+  "cl": {
+   "id": 5666322,
+   "name": "P. Martinez Portero - M.W. Donald",
+   "score": 0.907,
+   "home": "P. Martinez Portero",
+   "away": "M.W. Donald",
+   "tournament": "Metz, férfi egyes"
+  }
+ },
+ "id1205210676807192": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1205210676807192",
+   "startTime": "2026-11-18T11:30:00.000Z",
+   "participant1Name": "Muller, Alexandre",
+   "participant2Name": "Piros, Zsombor",
+   "tournamentId": 52106,
+   "tournamentName": "ATP Challenger Metz, France Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 0.838,
+  "cl": {
+   "id": 5663197,
+   "name": "Ale. Muller - Piros Zsombor",
+   "score": 0.838,
+   "home": "Ale. Muller",
+   "away": "Piros Zsombor",
+   "tournament": "Metz, férfi egyes"
+  }
+ },
+ "id1500073572119046": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1500073572119046",
+   "startTime": "2026-11-18T17:00:00.000Z",
+   "participant1Name": "HC Dynamo Pardubice B",
+   "participant2Name": "HC Havirov Panthers",
+   "tournamentId": 735,
+   "tournamentName": "1. Liga",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594039,
+   "name": "Pardubice 2 - Havirov",
+   "score": 1.0,
+   "home": "Pardubice 2",
+   "away": "Havirov",
+   "tournament": "Cseh 2."
+  }
+ },
+ "id1500084472734756": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1500084472734756",
+   "startTime": "2026-11-18T23:35:00.000Z",
+   "participant1Name": "Wilkes-Barre/Scranton Penguins",
+   "participant2Name": "Milwaukee Admirals",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594246,
+   "name": "Wilkes-Barre/Scranton - Milwaukee",
+   "score": 1.0,
+   "home": "Wilkes-Barre/Scranton",
+   "away": "Milwaukee",
+   "tournament": "AHL"
+  }
+ },
+ "id1500084472734758": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1500084472734758",
+   "startTime": "2026-11-19T00:00:00.000Z",
+   "participant1Name": "Grand Rapids Griffins",
+   "participant2Name": "Manitoba Moose",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594249,
+   "name": "Grand Rapids - Manitoba",
+   "score": 1.0,
+   "home": "Grand Rapids",
+   "away": "Manitoba",
+   "tournament": "AHL"
+  }
+ },
+ "id1500084472734760": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1500084472734760",
+   "startTime": "2026-11-19T00:00:00.000Z",
+   "participant1Name": "Syracuse Crunch",
+   "participant2Name": "Rochester Americans",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594500,
+   "name": "Syracuse - Rochester",
+   "score": 1.0,
+   "home": "Syracuse",
+   "away": "Rochester",
+   "tournament": "AHL"
+  }
+ },
+ "id1500084472733772": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1500084472733772",
+   "startTime": "2026-11-19T03:00:00.000Z",
+   "participant1Name": "Ontario Reign",
+   "participant2Name": "Abbotsford Canucks",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594495,
+   "name": "Ontario Reign - Abbotsford",
+   "score": 1.0,
+   "home": "Ontario Reign",
+   "away": "Abbotsford",
+   "tournament": "AHL"
+  }
+ },
+ "id1500084472733774": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1500084472733774",
+   "startTime": "2026-11-19T03:00:00.000Z",
+   "participant1Name": "San Diego Gulls",
+   "participant2Name": "Bakersfield Condors",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594501,
+   "name": "San Diego - Bakersfield",
+   "score": 1.0,
+   "home": "San Diego",
+   "away": "Bakersfield",
+   "tournament": "AHL"
+  }
+ },
+ "id1500084472733776": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1500084472733776",
+   "startTime": "2026-11-19T03:00:00.000Z",
+   "participant1Name": "Henderson Silver Knights",
+   "participant2Name": "San Jose Barracuda",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594502,
+   "name": "Henderson - San Jose Barracuda",
+   "score": 1.0,
+   "home": "Henderson",
+   "away": "San Jose Barracuda",
+   "tournament": "AHL"
+  }
+ },
+ "id2102432776884204": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2102432776884204",
+   "startTime": "2026-11-18T07:30:00.000Z",
+   "participant1Name": "Camilleri, Joel",
+   "participant2Name": "Leek, Mitchell",
+   "tournamentId": 24327,
+   "tournamentName": "International Matchups",
+   "sportName": "Boxing"
+  },
+  "score": 0.833,
+  "cl": {
+   "id": 5667642,
+   "name": "J. Camilleri - Mit. Leek",
+   "score": 0.833,
+   "home": "J. Camilleri",
+   "away": "Mit. Leek",
+   "tournament": "Profi mérkőzés"
+  }
  }
 }
