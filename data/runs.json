@@ -1,71 +1,5 @@
 [
  {
-  "time": "2026-11-16T20:26:00.144960+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 3,
-  "fixtures_both": 0,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 3
- },
- {
-  "time": "2026-11-16T20:31:00.145393+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 5,
-  "fixtures_both": 0,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 5
- },
- {
-  "time": "2026-11-16T20:36:00.145567+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 5,
-  "fixtures_both": 0,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 5
- },
- {
   "time": "2026-11-16T20:41:00.145833+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25243,5 +25177,230 @@
   "not_executable": 1,
   "api_calls": 0,
   "free_calls": 14
+ },
+ {
+  "time": "2026-11-18T20:53:33.915479+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-1.2% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.5) @1.31 (fair 1.325)",
+   "-1.4% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.25) @1.38 (fair 1.399)",
+   "-1.4% Coritiba – Santos SP · Gólszám 1.5: Több @1.22 (fair 1.237)",
+   "-1.8% Coritiba – Santos SP · 1X2: Santos SP győz @2.04 (fair 2.077)",
+   "-1.9% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (-0) @1.49 (fair 1.518)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 11,
+  "fixtures_both": 3,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "classic_checked": 5,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.0% Coritiba – Santos SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.204)",
+   "-2.0% Colon FC – Club Oriental · Gólszám 3.5: Kevesebb @1.43 (fair 1.46)",
+   "-2.1% Coritiba – Santos SP · Gólszám 3.5: Kevesebb @1.48 (fair 1.511)",
+   "-2.5% Coritiba – Santos SP · Gólszám 3.25: Kevesebb @1.58 (fair 1.62)",
+   "-3.0% Coritiba – Santos SP · Gólszám 3: Kevesebb @1.73 (fair 1.783)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 13
+ },
+ {
+  "time": "2026-11-18T20:58:33.914944+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 3,
+  "top_ev": [
+   "-0.7% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.5) @1.31 (fair 1.32)",
+   "-0.8% Coritiba – Santos SP · 1X2: Santos SP győz @2.04 (fair 2.056)",
+   "-0.9% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.25) @1.38 (fair 1.392)",
+   "-1.1% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (-0) @1.49 (fair 1.506)",
+   "-1.4% Coritiba – Santos SP · Gólszám 1.5: Több @1.22 (fair 1.237)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 10,
+  "fixtures_both": 3,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 3,
+  "classic_checked": 4,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.0% Colon FC – Club Oriental · Gólszám 3.5: Kevesebb @1.43 (fair 1.46)",
+   "-2.1% Coritiba – Santos SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.205)",
+   "-2.1% Coritiba – Santos SP · Gólszám 3.5: Kevesebb @1.48 (fair 1.512)",
+   "-2.5% Coritiba – Santos SP · Gólszám 3.25: Kevesebb @1.58 (fair 1.62)",
+   "-3.1% DVO Tachira – Academia Puerto Cabello · Gólszám 2.5: Kevesebb @1.8 (fair 1.857)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 13
+ },
+ {
+  "time": "2026-11-18T21:03:33.916106+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 306,
+   "paired": 66,
+   "classic_only": 1
+  },
+  "tippmix_matches": 748,
+  "pinnacle_fixtures": 976,
+  "paired": 123,
+  "by_sport": {
+   "Soccer": [
+    109,
+    47
+   ],
+   "Tennis": [
+    228,
+    6
+   ],
+   "Basketball": [
+    130,
+    26
+   ],
+   "Ice Hockey": [
+    39,
+    26
+   ],
+   "Handball": [
+    16,
+    6
+   ],
+   "Volleyball": [
+    23,
+    0
+   ],
+   "Table Tennis": [
+    47,
+    4
+   ],
+   "Cricket": [
+    20,
+    3
+   ],
+   "Badminton": [
+    66,
+    0
+   ],
+   "Darts": [
+    6,
+    2
+   ],
+   "Futsal": [
+    4,
+    0
+   ],
+   "Waterpolo": [
+    8,
+    3
+   ],
+   "ESport Counter-Strike": [
+    10,
+    0
+   ],
+   "ESport Dota": [
+    5,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    31,
+    0
+   ],
+   "eBasketball": [
+    6,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-0.9% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.25) @1.38 (fair 1.392)",
+   "-0.9% Detroit – Boston · Hendikep (rendes játékidő): Detroit (+1) @1.43 (fair 1.443)",
+   "-1.1% Tersana SC – WE SC · Ázsiai hendikep: Tersana SC (+0.25) @1.4 (fair 1.415)",
+   "-1.1% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (-0) @1.49 (fair 1.506)",
+   "-1.2% Corinthians SP – Botafogo RJ · 1X2: Corinthians SP győz @1.72 (fair 1.741)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 8,
+  "fast": false,
+  "fixtures_checked": 82,
+  "fixtures_both": 59,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 11,
+  "classic_checked": 41,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.5% Al-Wasl – Hatta · Gólszám 5.5: Kevesebb @1.23 (fair 1.237)",
+   "-0.9% Al-Ain (UAE) – Al-Dharfa · Gólszám 4.5: Kevesebb @1.4 (fair 1.413)",
+   "-1.9% Al-Ain (UAE) – Al-Dharfa · Gólszám 4: Kevesebb @1.57 (fair 1.6)",
+   "-2.0% Colon FC – Club Oriental · Gólszám 3.5: Kevesebb @1.43 (fair 1.46)",
+   "-2.1% Coritiba – Santos SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.205)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 88
  }
 ]
