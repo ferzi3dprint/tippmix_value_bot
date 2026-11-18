@@ -3279,36 +3279,6 @@
   },
   "score": 0.72
  },
- "id1500025673238372": {
-  "tm": {
-   "id": "319082849671127040",
-   "sport": "Jégkorong",
-   "name": "Vienna Capitals - Olimpija Ljubljana",
-   "home": "Vienna Capitals",
-   "away": "Olimpija Ljubljana",
-   "home_pid": "291985",
-   "away_pid": "79545",
-   "tournament": "Osztrák bajnokság",
-   "category": "Ausztria",
-   "tm_sport_id": "6",
-   "start": "2026-11-18T18:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500025673238372",
-   "startTime": "2026-11-18T18:15:00.000Z",
-   "participant1Name": "Vienna Capitals",
-   "participant2Name": "HK Olimpija Ljubljana",
-   "tournamentId": 256,
-   "tournamentName": "ICE Hockey League",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594241,
-   "name": "Vienna Capitals - Olimpija Ljubljana",
-   "score": 1.0
-  }
- },
  "id1500049475704512": {
   "tm": {
    "id": "319082850088460288",
@@ -4529,6 +4499,36 @@
    "score": 1.0
   }
  },
+ "id2503634976899660": {
+  "tm": {
+   "id": "320223073515151360",
+   "sport": "Asztalitenisz",
+   "name": "Radim Adam - Ivo Taichman",
+   "home": "Radim Adam",
+   "away": "Ivo Taichman",
+   "home_pid": "274758232456695808",
+   "away_pid": "283955591792332800",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899660",
+   "startTime": "2026-11-18T19:00:00.000Z",
+   "participant1Name": "Adam, Radim",
+   "participant2Name": "Taichman, Ivo",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668696,
+   "name": "Adam Radim - I. Taichman",
+   "score": 1.0
+  }
+ },
  "id2503634976899080": {
   "tm": {
    "id": "320223163155816448",
@@ -4586,36 +4586,6 @@
   "cl": {
    "id": 5668698,
    "name": "M. Zahradka - F. Pusch",
-   "score": 1.0
-  }
- },
- "id2503634976899660": {
-  "tm": {
-   "id": "320223073515151360",
-   "sport": "Asztalitenisz",
-   "name": "Radim Adam - Ivo Taichman",
-   "home": "Radim Adam",
-   "away": "Ivo Taichman",
-   "home_pid": "274758232456695808",
-   "away_pid": "283955591792332800",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899660",
-   "startTime": "2026-11-18T19:00:00.000Z",
-   "participant1Name": "Adam, Radim",
-   "participant2Name": "Taichman, Ivo",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668696,
-   "name": "Adam Radim - I. Taichman",
    "score": 1.0
   }
  },
