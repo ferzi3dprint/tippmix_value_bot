@@ -1,34 +1,4 @@
 {
- "id1001928276114802": {
-  "tm": {
-   "id": "320230402683904000",
-   "sport": "Labdarúgás",
-   "name": "Carabobo FC - Zamora FC",
-   "home": "Carabobo FC",
-   "away": "Zamora FC",
-   "home_pid": "3768",
-   "away_pid": "65908",
-   "tournament": "Venezuelai Kupa",
-   "category": "Venezuela",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T20:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001928276114802",
-   "startTime": "2026-11-18T20:30:00.000Z",
-   "participant1Name": "Carabobo FC",
-   "participant2Name": "Zamora FC",
-   "tournamentId": 19282,
-   "tournamentName": "Copa Venezuela",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5610503,
-   "name": "Carabobo - Zamora Barinas",
-   "score": 1.0
-  }
- },
  "id1000032566887172": {
   "tm": {
    "id": "318777833708134400",
@@ -1018,6 +988,36 @@
    "sportName": "Soccer"
   },
   "score": 1.0
+ },
+ "id1004850774827372": {
+  "tm": {
+   "id": "319118903110344704",
+   "sport": "Labdarúgás",
+   "name": "Queensland Lions - Wollongong Wolves",
+   "home": "Queensland Lions",
+   "away": "Wollongong Wolves",
+   "home_pid": "667342",
+   "away_pid": "594686",
+   "tournament": "Ausztrál Championship",
+   "category": "Ausztrália",
+   "tm_sport_id": "1",
+   "start": "2026-11-19T08:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004850774827372",
+   "startTime": "2026-11-19T08:30:00.000Z",
+   "participant1Name": "Lions FC",
+   "participant2Name": "Wollongong Wolves FC",
+   "tournamentId": 48507,
+   "tournamentName": "Australian Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594316,
+   "name": "Queensland Lions - Wollongong Wolves",
+   "score": 1.0
+  }
  },
  "id1000069674371864": {
   "tm": {
@@ -3059,81 +3059,6 @@
   },
   "score": 0.887
  },
- "id2503634976899674": {
-  "tm": {
-   "id": "320223163377065984",
-   "sport": "Asztalitenisz",
-   "name": "Hanel Patrik - Radim Adam",
-   "home": "Hanel Patrik",
-   "away": "Radim Adam",
-   "home_pid": "301652782234243072",
-   "away_pid": "274758232456695808",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T20:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899674",
-   "startTime": "2026-11-18T20:30:00.000Z",
-   "participant1Name": "Hanel, Patrik",
-   "participant2Name": "Adam, Radim",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899240": {
-  "tm": {
-   "id": "320222163015639040",
-   "sport": "Asztalitenisz",
-   "name": "Jiri Ruzicka - Michal Zahradka",
-   "home": "Jiri Ruzicka",
-   "away": "Michal Zahradka",
-   "home_pid": "147893875839651840",
-   "away_pid": "157416179233771520",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T20:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899240",
-   "startTime": "2026-11-18T20:30:00.000Z",
-   "participant1Name": "Ruzicka, Jiri",
-   "participant2Name": "Zahradka, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899234": {
-  "tm": {
-   "id": "320222508247752704",
-   "sport": "Asztalitenisz",
-   "name": "Jakub Vales - Jakub Pilch",
-   "home": "Jakub Vales",
-   "away": "Jakub Pilch",
-   "home_pid": "256725669320712192",
-   "away_pid": "274550304688705536",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T20:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899234",
-   "startTime": "2026-11-18T20:30:00.000Z",
-   "participant1Name": "Vales, Jakub",
-   "participant2Name": "Pilch, Jakub",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976899666": {
   "tm": {
    "id": "320223216247316480",
@@ -3233,6 +3158,106 @@
    "sportName": "Table Tennis"
   },
   "score": 1.0
+ },
+ "id2503634976899636": {
+  "tm": {
+   "id": "320223216171819008",
+   "sport": "Asztalitenisz",
+   "name": "Ivo Taichman - Hanel Patrik",
+   "home": "Ivo Taichman",
+   "away": "Hanel Patrik",
+   "home_pid": "283955591792332800",
+   "away_pid": "301652782234243072",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899636",
+   "startTime": "2026-11-18T21:30:00.000Z",
+   "participant1Name": "Taichman, Ivo",
+   "participant2Name": "Hanel, Patrik",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899120": {
+  "tm": {
+   "id": "320222460967460864",
+   "sport": "Asztalitenisz",
+   "name": "Frantisek Pusch - Jiri Ruzicka",
+   "home": "Frantisek Pusch",
+   "away": "Jiri Ruzicka",
+   "home_pid": "104665493241221120",
+   "away_pid": "147893875839651840",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899120",
+   "startTime": "2026-11-18T21:30:00.000Z",
+   "participant1Name": "Pusch, Frantisek",
+   "participant2Name": "Ruzicka, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899658": {
+  "tm": {
+   "id": "320222508830760960",
+   "sport": "Asztalitenisz",
+   "name": "Radim Urbaniec - Martin Skakal",
+   "home": "Radim Urbaniec",
+   "away": "Martin Skakal",
+   "home_pid": "167634919836667904",
+   "away_pid": "169265262322831360",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899658",
+   "startTime": "2026-11-18T21:30:00.000Z",
+   "participant1Name": "Urbaniec, Radim",
+   "participant2Name": "Skakal, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899108": {
+  "tm": {
+   "id": "320222460707414016",
+   "sport": "Asztalitenisz",
+   "name": "Eric Maresh - Jakub Vales",
+   "home": "Eric Maresh",
+   "away": "Jakub Vales",
+   "home_pid": "104575284237455360",
+   "away_pid": "256725669320712192",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899108",
+   "startTime": "2026-11-18T21:30:00.000Z",
+   "participant1Name": "Mares, Erik",
+   "participant2Name": "Vales, Jakub",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.9
  },
  "id2703194973528274": {
   "tm": {
@@ -3457,27 +3482,6 @@
    "id": 5594710,
    "name": "Sabac - Spandau Berlin",
    "score": 1.0
-  }
- },
- "id1004850774827372": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1004850774827372",
-   "startTime": "2026-11-19T08:30:00.000Z",
-   "participant1Name": "Lions FC",
-   "participant2Name": "Wollongong Wolves FC",
-   "tournamentId": 48507,
-   "tournamentName": "Australian Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594316,
-   "name": "Queensland Lions - Wollongong Wolves",
-   "score": 1.0,
-   "home": "Queensland Lions",
-   "away": "Wollongong Wolves",
-   "tournament": "Ausztrál Championship, D csop."
   }
  },
  "id1500084472733774": {
