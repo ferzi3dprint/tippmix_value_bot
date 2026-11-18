@@ -1,29 +1,4 @@
 {
- "id1003459072339098": {
-  "tm": {
-   "id": "320185637879750656",
-   "sport": "Labdarúgás",
-   "name": "JEF United Chiba - Nagano Parceiro",
-   "home": "JEF United Chiba",
-   "away": "Nagano Parceiro",
-   "home_pid": "1242624",
-   "away_pid": "164420883221368832",
-   "tournament": "Japán bajnokság, női",
-   "category": "Japán",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T04:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003459072339098",
-   "startTime": "2026-11-18T04:00:00.000Z",
-   "participant1Name": "JEF United Ichihara Chiba",
-   "participant2Name": "AC Nagano Parceiro",
-   "tournamentId": 34590,
-   "tournamentName": "WE League, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1003459072339094": {
   "tm": {
    "id": "320189416724307968",
@@ -2349,6 +2324,31 @@
   },
   "score": 1.0
  },
+ "id1002583976773248": {
+  "tm": {
+   "id": "320058240413016064",
+   "sport": "Labdarúgás",
+   "name": "Barycz Sulow - Polonia Nysa",
+   "home": "Barycz Sulow",
+   "away": "Polonia Nysa",
+   "home_pid": "221004998033690624",
+   "away_pid": "109139069807775744",
+   "tournament": "Lengyel 4., 3. csoport",
+   "category": "Lengyelország",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T16:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002583976773248",
+   "startTime": "2026-11-18T16:00:00.000Z",
+   "participant1Name": "Barycz Sulow",
+   "participant2Name": "KS Polonia Nysa",
+   "tournamentId": 25839,
+   "tournamentName": "III Liga, Group 3",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1003694576792542": {
   "tm": {
    "id": "320156564924211200",
@@ -3546,56 +3546,6 @@
    "tournamentId": 54044,
    "tournamentName": "UTR PTT Carvoeiro Men 09",
    "sportName": "Tennis"
-  },
-  "score": 1.0
- },
- "id1100013273719684": {
-  "tm": {
-   "id": "319082804125179904",
-   "sport": "Kosárlabda",
-   "name": "LA Lakers - Charlotte",
-   "home": "LA Lakers",
-   "away": "Charlotte",
-   "home_pid": "2200",
-   "away_pid": "1138623",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-18T04:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273719684",
-   "startTime": "2026-11-18T04:00:00.000Z",
-   "participant1Name": "Los Angeles Lakers",
-   "participant2Name": "Charlotte Hornets",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100064875177776": {
-  "tm": {
-   "id": "320162875203198976",
-   "sport": "Kosárlabda",
-   "name": "Gonzaga Bulldogs - Montana State Bobcats",
-   "home": "Gonzaga Bulldogs",
-   "away": "Montana State Bobcats",
-   "home_pid": "38123",
-   "away_pid": "186961465646829568",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-18T04:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064875177776",
-   "startTime": "2026-11-18T04:00:00.000Z",
-   "participant1Name": "Gonzaga Bulldogs",
-   "participant2Name": "Montana State Bobcats",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
   },
   "score": 1.0
  },
