@@ -4829,36 +4829,6 @@
   },
   "score": 0.72
  },
- "id1503015673810694": {
-  "tm": {
-   "id": "319082843147935744",
-   "sport": "Jégkorong",
-   "name": "Aktobe - Gornyak Rudnyij",
-   "home": "Aktobe",
-   "away": "Gornyak Rudnyij",
-   "home_pid": "9982652060930048",
-   "away_pid": "1019800",
-   "tournament": "Kazah bajnokság",
-   "category": "Kazahsztán",
-   "tm_sport_id": "6",
-   "start": "2026-11-18T14:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1503015673810694",
-   "startTime": "2026-11-18T14:00:00.000Z",
-   "participant1Name": "HC Aktobe",
-   "participant2Name": "Gornyak Rudnyi",
-   "tournamentId": 30156,
-   "tournamentName": "Pro Hockey League",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594042,
-   "name": "Aktobe - Gornyak Rudnyij",
-   "score": 1.0
-  }
- },
  "id1500084472734754": {
   "tm": {
    "id": "319082850409324544",
@@ -6694,36 +6664,6 @@
    "score": 1.0
   }
  },
- "id1503015673810698": {
-  "tm": {
-   "id": "319082843072438272",
-   "sport": "Jégkorong",
-   "name": "Bejbarisz Atirau - Szarjaka Karaganda",
-   "home": "Bejbarisz Atirau",
-   "away": "Szarjaka Karaganda",
-   "home_pid": "1082833",
-   "away_pid": "756355",
-   "tournament": "Kazah bajnokság",
-   "category": "Kazahsztán",
-   "tm_sport_id": "6",
-   "start": "2026-11-18T14:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1503015673810698",
-   "startTime": "2026-11-18T14:00:00.000Z",
-   "participant1Name": "HK Beibarys Atyrau",
-   "participant2Name": "Saryarka Karaganda",
-   "tournamentId": 30156,
-   "tournamentName": "Pro Hockey League",
-   "sportName": "Ice Hockey"
-  },
-  "score": 0.761,
-  "cl": {
-   "id": 5594043,
-   "name": "Bejbarisz Atirau - Szarjarka Karaganda",
-   "score": 1.0
-  }
- },
  "id2203006074123140": {
   "tm": {
    "id": "319716931822231552",
@@ -7519,96 +7459,6 @@
    "score": 1.0
   }
  },
- "id2303903776751168": {
-  "tm": {
-   "id": "319866849271554048",
-   "sport": "Röplabda",
-   "name": "Lvice Praha - Liberec",
-   "home": "Lvice Praha",
-   "away": "Liberec",
-   "home_pid": "280548449893617664",
-   "away_pid": "185424233986314240",
-   "tournament": "Cseh Kupa, női",
-   "category": "Csehország",
-   "tm_sport_id": "20",
-   "start": "2026-11-18T14:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2303903776751168",
-   "startTime": "2026-11-18T14:00:00.000Z",
-   "participant1Name": "Vk Lvi Praha",
-   "participant2Name": "Vk Dukla Liberec",
-   "tournamentId": 39037,
-   "tournamentName": "Czech Cup, Women",
-   "sportName": "Volleyball"
-  },
-  "score": 0.848,
-  "cl": {
-   "id": 5655333,
-   "name": "Lvi Praha - Liberec",
-   "score": 0.93
-  }
- },
- "id2504935676909410": {
-  "tm": {
-   "id": "320236551203266560",
-   "sport": "Asztalitenisz",
-   "name": "Lubomir Jancarik - Alvaro Robles",
-   "home": "Lubomir Jancarik",
-   "away": "Alvaro Robles",
-   "home_pid": "681023",
-   "away_pid": "930335",
-   "tournament": "Muscat, férfi egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T14:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935676909410",
-   "startTime": "2026-11-18T14:10:00.000Z",
-   "participant1Name": "Jancarik, Lubomir",
-   "participant2Name": "Robles, Alvaro",
-   "tournamentId": 49356,
-   "tournamentName": "WTT Star Contender Muscat, MS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667957,
-   "name": "L. Jancarik - Alvaro Robles",
-   "score": 1.0
-  }
- },
- "id2504935876909492": {
-  "tm": {
-   "id": "320234735258378240",
-   "sport": "Asztalitenisz",
-   "name": "Audrey Zarif - Camille Lutz",
-   "home": "Audrey Zarif",
-   "away": "Camille Lutz",
-   "home_pid": "146988432723333120",
-   "away_pid": "137230500755460096",
-   "tournament": "Muscat, női egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T14:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935876909492",
-   "startTime": "2026-11-18T14:10:00.000Z",
-   "participant1Name": "Zarif, Audrey",
-   "participant2Name": "Lutz, Camille",
-   "tournamentId": 49358,
-   "tournamentName": "WTT Star Contender Muscat, WS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667975,
-   "name": "A. Zarif - Cam. Lutz",
-   "score": 0.86
-  }
- },
  "id2504935676909398": {
   "tm": {
    "id": "320236551273521152",
@@ -7999,36 +7849,6 @@
    "score": 1.0
   }
  },
- "id2504935676909454": {
-  "tm": {
-   "id": "320263216134430720",
-   "sport": "Asztalitenisz",
-   "name": "Andre Bertelsmeier - Tang Yiren",
-   "home": "Andre Bertelsmeier",
-   "away": "Tang Yiren",
-   "home_pid": "160300152253370368",
-   "away_pid": "314419237594230784",
-   "tournament": "Muscat, férfi egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T14:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935676909454",
-   "startTime": "2026-11-18T14:10:00.000Z",
-   "participant1Name": "Bertelsmeier, Andre",
-   "participant2Name": "Tang, Yiren",
-   "tournamentId": 49356,
-   "tournamentName": "WTT Star Contender Muscat, MS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667985,
-   "name": "A. Bertelsmeier - Yiren Tang",
-   "score": 1.0
-  }
- },
  "id2504935676909444": {
   "tm": {
    "id": "320239384736636928",
@@ -8056,36 +7876,6 @@
   "cl": {
    "id": 5668001,
    "name": "M. Grebnev - E. Otalvaro",
-   "score": 1.0
-  }
- },
- "id2504935876909418": {
-  "tm": {
-   "id": "320265365093425152",
-   "sport": "Asztalitenisz",
-   "name": "Manika Batra - Jingming Wei",
-   "home": "Manika Batra",
-   "away": "Jingming Wei",
-   "home_pid": "1101525",
-   "away_pid": "299859221112197120",
-   "tournament": "Muscat, női egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T14:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935876909418",
-   "startTime": "2026-11-18T14:10:00.000Z",
-   "participant1Name": "Batra, Manika",
-   "participant2Name": "Wei, Jingming",
-   "tournamentId": 49358,
-   "tournamentName": "WTT Star Contender Muscat, WS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667971,
-   "name": "M. Batra - Jingming Wei",
    "score": 1.0
   }
  },
@@ -8148,6 +7938,81 @@
    "name": "Chr. Kallberg - Yerin Yoo",
    "score": 0.86
   }
+ },
+ "id2503634976899622": {
+  "tm": {
+   "id": "320220880877723648",
+   "sport": "Asztalitenisz",
+   "name": "Lukas Velicka - Radomir Vavrecka",
+   "home": "Lukas Velicka",
+   "away": "Radomir Vavrecka",
+   "home_pid": "274722322446946304",
+   "away_pid": "167482807207120896",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899622",
+   "startTime": "2026-11-18T15:00:00.000Z",
+   "participant1Name": "Velicka, Lukas",
+   "participant2Name": "Vavrecka, Radomir",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899084": {
+  "tm": {
+   "id": "320220036378730496",
+   "sport": "Asztalitenisz",
+   "name": "Prikasky Libor - Filip Wolf",
+   "home": "Prikasky Libor",
+   "away": "Filip Wolf",
+   "home_pid": "282868470805467136",
+   "away_pid": "299296672416305152",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899084",
+   "startTime": "2026-11-18T15:00:00.000Z",
+   "participant1Name": "Prikasky, Libor",
+   "participant2Name": "Wolf, Filip",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899214": {
+  "tm": {
+   "id": "320221510177464320",
+   "sport": "Asztalitenisz",
+   "name": "Rostislav Niezgoda - Martin Skotnica",
+   "home": "Rostislav Niezgoda",
+   "away": "Martin Skotnica",
+   "home_pid": "167281169460678656",
+   "away_pid": "283418516597805056",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899214",
+   "startTime": "2026-11-18T15:00:00.000Z",
+   "participant1Name": "Niezgoda, Rostislav",
+   "participant2Name": "Skotnica, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
  },
  "id2703857376122350": {
   "tm": {
