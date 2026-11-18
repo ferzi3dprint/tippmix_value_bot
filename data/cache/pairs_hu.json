@@ -3059,106 +3059,6 @@
   },
   "score": 0.887
  },
- "id2503634976899636": {
-  "tm": {
-   "id": "320223216171819008",
-   "sport": "Asztalitenisz",
-   "name": "Ivo Taichman - Hanel Patrik",
-   "home": "Ivo Taichman",
-   "away": "Hanel Patrik",
-   "home_pid": "283955591792332800",
-   "away_pid": "301652782234243072",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899636",
-   "startTime": "2026-11-18T21:30:00.000Z",
-   "participant1Name": "Taichman, Ivo",
-   "participant2Name": "Hanel, Patrik",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899120": {
-  "tm": {
-   "id": "320222460967460864",
-   "sport": "Asztalitenisz",
-   "name": "Frantisek Pusch - Jiri Ruzicka",
-   "home": "Frantisek Pusch",
-   "away": "Jiri Ruzicka",
-   "home_pid": "104665493241221120",
-   "away_pid": "147893875839651840",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899120",
-   "startTime": "2026-11-18T21:30:00.000Z",
-   "participant1Name": "Pusch, Frantisek",
-   "participant2Name": "Ruzicka, Jiri",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899658": {
-  "tm": {
-   "id": "320222508830760960",
-   "sport": "Asztalitenisz",
-   "name": "Radim Urbaniec - Martin Skakal",
-   "home": "Radim Urbaniec",
-   "away": "Martin Skakal",
-   "home_pid": "167634919836667904",
-   "away_pid": "169265262322831360",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899658",
-   "startTime": "2026-11-18T21:30:00.000Z",
-   "participant1Name": "Urbaniec, Radim",
-   "participant2Name": "Skakal, Martin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899108": {
-  "tm": {
-   "id": "320222460707414016",
-   "sport": "Asztalitenisz",
-   "name": "Eric Maresh - Jakub Vales",
-   "home": "Eric Maresh",
-   "away": "Jakub Vales",
-   "home_pid": "104575284237455360",
-   "away_pid": "256725669320712192",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899108",
-   "startTime": "2026-11-18T21:30:00.000Z",
-   "participant1Name": "Mares, Erik",
-   "participant2Name": "Vales, Jakub",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 0.9
- },
  "id2703194973528274": {
   "tm": {
    "id": "320197383310991360",
@@ -3233,36 +3133,6 @@
    "sportName": "Cricket"
   },
   "score": 1.0
- },
- "id1900059776636386": {
-  "tm": {
-   "id": "320161610221035520",
-   "sport": "Darts",
-   "name": "Luke Littler - Jermaine Wattimena",
-   "home": "Luke Littler",
-   "away": "Jermaine Wattimena",
-   "home_pid": "167302296087089152",
-   "away_pid": "1210141",
-   "tournament": "Grand Slam of Darts",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-18T21:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1900059776636386",
-   "startTime": "2026-11-18T21:15:00.000Z",
-   "participant1Name": "Littler, Luke",
-   "participant2Name": "Wattimena, Jermaine",
-   "tournamentId": 597,
-   "tournamentName": "Grand Slam of Darts",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665794,
-   "name": "L. Littler - J. Wattimena",
-   "score": 1.0
-  }
  },
  "id1900059776636388": {
   "tm": {
@@ -3398,6 +3268,27 @@
    "home": "San Diego",
    "away": "Bakersfield",
    "tournament": "AHL"
+  }
+ },
+ "id1900059776636386": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1900059776636386",
+   "startTime": "2026-11-18T21:15:00.000Z",
+   "participant1Name": "Littler, Luke",
+   "participant2Name": "Wattimena, Jermaine",
+   "tournamentId": 597,
+   "tournamentName": "Grand Slam of Darts",
+   "sportName": "Darts"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5665794,
+   "name": "L. Littler - J. Wattimena",
+   "score": 1.0,
+   "home": "L. Littler",
+   "away": "J. Wattimena",
+   "tournament": "Grand Slam, rájátszás"
   }
  }
 }
