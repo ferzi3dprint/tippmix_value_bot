@@ -1,73 +1,5 @@
 [
  {
-  "time": "2026-11-16T18:38:49.345199+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+1.4% Németország – Hollandia · Gólszám 4: Kevesebb @1.53 (fair 1.509)",
-   "+0.1% Németország – Hollandia · Gólszám 3.25: Kevesebb @2.09 (fair 2.088)",
-   "-0.0% Németország – Hollandia · Gólszám 4.25: Kevesebb @1.43 (fair 1.431)",
-   "-0.2% Németország – Hollandia · Gólszám 4.5: Kevesebb @1.37 (fair 1.372)",
-   "-0.3% Németország – Hollandia · Gólszám 3.5: Kevesebb @1.86 (fair 1.865)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 1,
-  "fast": true,
-  "fixtures_checked": 30,
-  "fixtures_both": 17,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 12,
-  "classic_checked": 23,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+1.0% Görögország – Szerbia · Gólszám 4: Kevesebb @1.32 (fair 1.306)",
-   "+0.5% Görögország – Szerbia · Gólszám 3.75: Kevesebb @1.46 (fair 1.453)",
-   "-0.1% Görögország – Szerbia · Gólszám 3: Kevesebb @1.95 (fair 1.953)",
-   "-0.7% Görögország – Szerbia · Gólszám 3.5: Kevesebb @1.59 (fair 1.6)",
-   "-0.7% Görögország – Szerbia · Gólszám 3.25: Kevesebb @1.73 (fair 1.742)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 36
- },
- {
-  "time": "2026-11-16T18:45:01.666118+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.6% Görögország – Szerbia · Gólszám 4: Kevesebb @1.28 (fair 1.272)",
-   "+0.0% Görögország – Szerbia · Gólszám 3.75: Kevesebb @1.41 (fair 1.41)",
-   "-0.5% Perugia – Torres Sassari · Gólszám 2: Több @1.37 (fair 1.376)",
-   "-0.8% Görögország – Szerbia · Gólszám 3: Kevesebb @1.84 (fair 1.854)",
-   "-0.8% Görögország – Szerbia · Ázsiai hendikep: Szerbia (+2) @1.38 (fair 1.391)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 1,
-  "fast": true,
-  "fixtures_checked": 13,
-  "fixtures_both": 12,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 7,
-  "classic_checked": 12,
-  "classic_candidates": 5,
-  "top_ev_classic": [
-   "+5.2% Görögország – Szerbia · Gólszám 3: Kevesebb @1.95 (fair 1.854)",
-   "+3.8% Görögország – Szerbia · Gólszám 4: Kevesebb @1.32 (fair 1.272)",
-   "+3.7% Görögország – Szerbia · Gólszám 3.25: Kevesebb @1.73 (fair 1.669)",
-   "+2.9% Görögország – Szerbia · Gólszám 3.75: Kevesebb @1.45 (fair 1.41)",
-   "+2.8% Görögország – Szerbia · Gólszám 3.5: Kevesebb @1.59 (fair 1.547)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 19
- },
- {
   "time": "2026-11-16T18:50:01.666446+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25224,5 +25156,196 @@
   "not_executable": 0,
   "api_calls": 1,
   "free_calls": 108
+ },
+ {
+  "time": "2026-11-18T19:08:30.927638+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-1.7% ASC Gendrim – FC Tevragh Zeina · Gólszám 1.75: Több @1.58 (fair 1.607)",
+   "-1.7% Alianza Atletico – Melgar · Mindkét csapat szerez gólt: Igen @1.79 (fair 1.821)",
+   "-2.0% ASC Gendrim – FC Tevragh Zeina · Gólszám 2: Több @1.8 (fair 1.837)",
+   "-2.0% Guildford Flames – Nottingham Panthers · Győztes (hosszabbítással): Nottingham Panthers győz @1.86 (fair 1.899)",
+   "-2.5% Guildford Flames – Nottingham Panthers · Hendikep (rendes játékidő): Nottingham Panthers (+0.5) @1.55 (fair 1.59)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 4,
+  "fast": true,
+  "fixtures_checked": 31,
+  "fixtures_both": 17,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "classic_checked": 13,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.9% Reus FC Reddis – Barakaldo · 1X2: Döntetlen @3.15 (fair 3.177)",
+   "-2.2% Alianza Atletico – Melgar · Mindkét csapat szerez gólt: Igen @1.78 (fair 1.821)",
+   "-2.4% Atenas De San Carlos – Fenix Montevideo · Gólszám 2.5: Kevesebb @1.57 (fair 1.608)",
+   "-3.1% Reus FC Reddis – Barakaldo · Gólszám 3: Kevesebb @1.29 (fair 1.332)",
+   "-3.3% Alianza Atletico – Melgar · Gólszám 3.25: Kevesebb @1.37 (fair 1.417)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 37
+ },
+ {
+  "time": "2026-11-18T19:14:41.915119+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 339,
+   "paired": 80,
+   "classic_only": 2
+  },
+  "tippmix_matches": 871,
+  "pinnacle_fixtures": 976,
+  "paired": 155,
+  "by_sport": {
+   "Soccer": [
+    132,
+    61
+   ],
+   "Tennis": [
+    265,
+    7
+   ],
+   "Basketball": [
+    138,
+    31
+   ],
+   "Ice Hockey": [
+    40,
+    27
+   ],
+   "Handball": [
+    21,
+    7
+   ],
+   "Volleyball": [
+    34,
+    1
+   ],
+   "Table Tennis": [
+    44,
+    9
+   ],
+   "Cricket": [
+    20,
+    3
+   ],
+   "Badminton": [
+    66,
+    0
+   ],
+   "Darts": [
+    8,
+    4
+   ],
+   "Futsal": [
+    8,
+    1
+   ],
+   "Waterpolo": [
+    10,
+    4
+   ],
+   "ESport Counter-Strike": [
+    10,
+    0
+   ],
+   "ESport Dota": [
+    5,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    59,
+    0
+   ],
+   "eBasketball": [
+    11,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "+0.9% Wilkes-Barre/scranton Penguins – Milwaukee Admirals · Hendikep (rendes játékidő): Wilkes-Barre/scranton Penguins (+0) @1.79 (fair 1.774)",
+   "+0.0% Wilkes-Barre/scranton Penguins – Milwaukee Admirals · Győztes (hosszabbítással): Wilkes-Barre/scranton Penguins győz @1.8 (fair 1.799)",
+   "-0.9% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.5) @1.32 (fair 1.332)",
+   "-1.2% Detroit – Boston · Hendikep (rendes játékidő): Boston (+1) @1.45 (fair 1.467)",
+   "-1.2% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.25) @1.39 (fair 1.408)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": false,
+  "fixtures_checked": 46,
+  "fixtures_both": 29,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "classic_checked": 24,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.1% Alianza Atletico – Melgar · Mindkét csapat szerez gólt: Igen @1.78 (fair 1.817)",
+   "-2.1% Corinthians SP – Botafogo RJ · Gólszám 4.5: Kevesebb @1.13 (fair 1.154)",
+   "-2.3% Remo – Chapecoense · Gólszám 4.5: Kevesebb @1.15 (fair 1.177)",
+   "-2.5% Luke Littler – Jermaine Wattimena · Győztes: Luke Littler győz @1.08 (fair 1.108)",
+   "-2.7% Cruzeiro MG – Palmeiras SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.212)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 52
  }
 ]
