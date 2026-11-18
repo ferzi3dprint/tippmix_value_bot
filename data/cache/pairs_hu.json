@@ -7084,36 +7084,6 @@
    "score": 1.0
   }
  },
- "id2504935676909392": {
-  "tm": {
-   "id": "320237544665063424",
-   "sport": "Asztalitenisz",
-   "name": "Hyuk Kwon - Andrej Gacina",
-   "home": "Hyuk Kwon",
-   "away": "Andrej Gacina",
-   "home_pid": "193908444957405184",
-   "away_pid": "182120260297609216",
-   "tournament": "Muscat, férfi egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T15:55:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935676909392",
-   "startTime": "2026-11-18T15:55:00.000Z",
-   "participant1Name": "Kwon, Hyuk",
-   "participant2Name": "Gacina, Andrej",
-   "tournamentId": 49356,
-   "tournamentName": "WTT Star Contender Muscat, MS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667949,
-   "name": "Hyuk Kwon - A. Gacina",
-   "score": 1.0
-  }
- },
  "id2503634976899116": {
   "tm": {
    "id": "320221509646884864",
@@ -7499,6 +7469,56 @@
    "score": 1.0
   }
  },
+ "id2503634976899246": {
+  "tm": {
+   "id": "320221457534754816",
+   "sport": "Asztalitenisz",
+   "name": "Prikasky Libor - Jiri Nesnera",
+   "home": "Prikasky Libor",
+   "away": "Jiri Nesnera",
+   "home_pid": "282868470805467136",
+   "away_pid": "166994178671169536",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899246",
+   "startTime": "2026-11-18T17:00:00.000Z",
+   "participant1Name": "Prikasky, Libor",
+   "participant2Name": "Nesnera, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899128": {
+  "tm": {
+   "id": "320221510367256576",
+   "sport": "Asztalitenisz",
+   "name": "Rostislav Niezgoda - Jan Dzida",
+   "home": "Rostislav Niezgoda",
+   "away": "Jan Dzida",
+   "home_pid": "167281169460678656",
+   "away_pid": "169122671260389376",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899128",
+   "startTime": "2026-11-18T17:00:00.000Z",
+   "participant1Name": "Niezgoda, Rostislav",
+   "participant2Name": "Dzida, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2703194973528274": {
   "tm": {
    "id": "320197383310991360",
@@ -7570,6 +7590,31 @@
    "participant2Name": "Sydney Thunder",
    "tournamentId": 21570,
    "tournamentName": "Big Bash League, Women",
+   "sportName": "Cricket"
+  },
+  "score": 1.0
+ },
+ "id2703857376122350": {
+  "tm": {
+   "id": "319731104459333632",
+   "sport": "Krikett",
+   "name": "Emirates Eagles - Yas Lions",
+   "home": "Emirates Eagles",
+   "away": "Yas Lions",
+   "home_pid": "319244375240548352",
+   "away_pid": "319244428125478912",
+   "tournament": "EAE Abu Dhabi T10 League",
+   "category": "Egyesült Arab Emirátusok",
+   "tm_sport_id": "26",
+   "start": "2026-11-18T16:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2703857376122350",
+   "startTime": "2026-11-18T16:00:00.000Z",
+   "participant1Name": "Emirates Eagles",
+   "participant2Name": "Yas Lions",
+   "tournamentId": 38573,
+   "tournamentName": "Abu Dhabi T10",
    "sportName": "Cricket"
   },
   "score": 1.0
