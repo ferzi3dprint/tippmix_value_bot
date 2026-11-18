@@ -2498,8 +2498,8 @@
  {
   "id": "249818a461",
   "placed_at": "2026-11-18T20:42:36.642238+00:00",
-  "status": "open",
-  "exec_status": "pending",
+  "status": "skipped",
+  "exec_status": "gone",
   "fixture_id": "id1001928276114804",
   "sport": "Soccer",
   "tournament": "Venezuelai Kupa",
@@ -2531,6 +2531,8 @@
   "trigger": "steam",
   "tm_tip": "Ázsiai hendikep -0.75 - Rendes játékidő → Academia Puerto Cabello (+0.75)",
   "min_odds": 1.8,
-  "expected_profit": 148.3
+  "expected_profit": 148.3,
+  "exec_checked_at": "2026-11-18T20:48:33.913364+00:00",
+  "exec_odds": 1.72
  }
 ]

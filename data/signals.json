@@ -4059,7 +4059,7 @@
   "closing_fair_prob": 0.74137,
   "closing_fair_odds": 1.349,
   "closing_sharp_odds": 1.305,
-  "closing_at": "2026-11-18T20:42:36.642238+00:00",
+  "closing_at": "2026-11-18T20:48:33.913364+00:00",
   "clv": 0.17878
  },
  {
@@ -4077,7 +4077,12 @@
   "ev": 0.07415,
   "band": "1.80–2.10",
   "trigger": "steam",
-  "bet": true
+  "bet": true,
+  "closing_fair_prob": 0.55643,
+  "closing_fair_odds": 1.797,
+  "closing_sharp_odds": 1.684,
+  "closing_at": "2026-11-18T20:48:33.913364+00:00",
+  "clv": 0.06278
  },
  {
   "fixture_id": "id1001928276114804",
@@ -4094,6 +4099,11 @@
   "ev": 0.05339,
   "band": "2.10–2.50",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.4798,
+  "closing_fair_odds": 2.084,
+  "closing_sharp_odds": 1.943,
+  "closing_at": "2026-11-18T20:48:33.913364+00:00",
+  "clv": 0.04117
  }
 ]
