@@ -1,64 +1,4 @@
 {
- "id1000032566887172": {
-  "tm": {
-   "id": "318777833708134400",
-   "sport": "Labdarúgás",
-   "name": "Coritiba - Santos SP",
-   "home": "Coritiba",
-   "away": "Santos SP",
-   "home_pid": "3814",
-   "away_pid": "3805",
-   "tournament": "Brazil bajnokság",
-   "category": "Brazília",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T22:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000032566887172",
-   "startTime": "2026-11-18T22:30:00.000Z",
-   "participant1Name": "Coritiba FC PR",
-   "participant2Name": "Santos FC SP",
-   "tournamentId": 325,
-   "tournamentName": "Brasileiro Serie A",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594127,
-   "name": "Coritiba - Santos SP",
-   "score": 1.0
-  }
- },
- "id1000190876775948": {
-  "tm": {
-   "id": "319920504091779072",
-   "sport": "Labdarúgás",
-   "name": "Colon FC - Club Oriental",
-   "home": "Colon FC",
-   "away": "Club Oriental",
-   "home_pid": "5363999891128320",
-   "away_pid": "175448939286286336",
-   "tournament": "Uruguayi 2.",
-   "category": "Uruguay",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T22:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000190876775948",
-   "startTime": "2026-11-18T22:30:00.000Z",
-   "participant1Name": "Colon FC",
-   "participant2Name": "Club Oriental de Football",
-   "tournamentId": 1908,
-   "tournamentName": "Segunda Division",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655336,
-   "name": "Colon FC - Club Oriental de Football",
-   "score": 1.0
-  }
- },
  "id1000032566887176": {
   "tm": {
    "id": "318778140816121856",
@@ -3023,6 +2963,31 @@
    "sportName": "Table Tennis"
   },
   "score": 1.0
+ },
+ "id2503634976899222": {
+  "tm": {
+   "id": "320225497777774592",
+   "sport": "Asztalitenisz",
+   "name": "Jakub Pilch - Eric Maresh",
+   "home": "Jakub Pilch",
+   "away": "Eric Maresh",
+   "home_pid": "274550304688705536",
+   "away_pid": "104575284237455360",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T23:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899222",
+   "startTime": "2026-11-18T23:30:00.000Z",
+   "participant1Name": "Pilch, Jakub",
+   "participant2Name": "Mares, Erik",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.9
  },
  "id2702157075326640": {
   "tm": {
