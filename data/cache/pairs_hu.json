@@ -1,84 +1,4 @@
 {
- "id1000009772837340": {
-  "tm": {
-   "id": "320212665249112064",
-   "sport": "Labdarúgás",
-   "name": "Aliaga - Sebat Genclik Spor",
-   "home": "Aliaga",
-   "away": "Sebat Genclik Spor",
-   "home_pid": "141478903056224256",
-   "away_pid": "215300547972059136",
-   "tournament": "Török 3., Fehér csoport",
-   "category": "Törökország",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000009772837340",
-   "startTime": "2026-11-18T12:30:00.000Z",
-   "participant1Name": "Aliaga Futbol",
-   "participant2Name": "Sebat Genclik Spor",
-   "tournamentId": 97,
-   "tournamentName": "2. Lig",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000009772837918": {
-  "tm": {
-   "id": "320212277881020416",
-   "sport": "Labdarúgás",
-   "name": "Fethiyespor - Kütahyaspor",
-   "home": "Fethiyespor",
-   "away": "Kütahyaspor",
-   "home_pid": "67290",
-   "away_pid": "118618583261564928",
-   "tournament": "Török 3., Vörös csoport",
-   "category": "Törökország",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000009772837918",
-   "startTime": "2026-11-18T12:30:00.000Z",
-   "participant1Name": "Fethiyespor",
-   "participant2Name": "Kutahyaspor",
-   "tournamentId": 97,
-   "tournamentName": "2. Lig",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000029176072288": {
-  "tm": {
-   "id": "318729793672650752",
-   "sport": "Labdarúgás",
-   "name": "Tolmin - Brinje Grosuplje",
-   "home": "Tolmin",
-   "away": "Brinje Grosuplje",
-   "home_pid": "758428",
-   "away_pid": "482680873578496",
-   "tournament": "Szlovén Kupa",
-   "category": "Szlovénia",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000029176072288",
-   "startTime": "2026-11-18T12:30:00.000Z",
-   "participant1Name": "NK Tolmin",
-   "participant2Name": "NK Brinje Grosuplje",
-   "tournamentId": 291,
-   "tournamentName": "Slovenia Cup",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5610492,
-   "name": "Tolmin - Brinje Grosuplje",
-   "score": 1.0
-  }
- },
  "id1002984273601842": {
   "tm": {
    "id": "320208719568773120",
@@ -3009,31 +2929,6 @@
    "score": 0.922
   }
  },
- "id1000009772837922": {
-  "tm": {
-   "id": "320213016374222848",
-   "sport": "Labdarúgás",
-   "name": "Karacabey Bld. - Beyoglu Yeni Carsi",
-   "home": "Karacabey Bld.",
-   "away": "Beyoglu Yeni Carsi",
-   "home_pid": "128130",
-   "away_pid": "1481131",
-   "tournament": "Török 3., Vörös csoport",
-   "category": "Törökország",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000009772837922",
-   "startTime": "2026-11-18T12:30:00.000Z",
-   "participant1Name": "Karacabey Belediyespor",
-   "participant2Name": "Beyoglu Yeni Carsi",
-   "tournamentId": 97,
-   "tournamentName": "2. Lig",
-   "sportName": "Soccer"
-  },
-  "score": 0.82
- },
  "id1001949273078846": {
   "tm": {
    "id": "320215199766355968",
@@ -3188,66 +3083,6 @@
    "sportName": "Soccer"
   },
   "score": 0.738
- },
- "id1200398776694052": {
-  "tm": {
-   "id": "320218950774366208",
-   "sport": "Tenisz",
-   "name": "Jurij Rodionov - Nicolai Budkov Kjaer",
-   "home": "Jurij Rodionov",
-   "away": "Nicolai Budkov Kjaer",
-   "home_pid": "1301655",
-   "away_pid": "208880738011074560",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-18T12:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776694052",
-   "startTime": "2026-11-18T12:50:00.000Z",
-   "participant1Name": "Rodionov, Jurij",
-   "participant2Name": "Budkov Kjaer, Nicolai",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663223,
-   "name": "J. Rodionov - N. Budkov Kjaer",
-   "score": 1.0
-  }
- },
- "id1200398776694054": {
-  "tm": {
-   "id": "320223359914811392",
-   "sport": "Tenisz",
-   "name": "Laslo Djere - Jacob Fearnley",
-   "home": "Laslo Djere",
-   "away": "Jacob Fearnley",
-   "home_pid": "896822",
-   "away_pid": "147653605653008384",
-   "tournament": "Helsinki, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-18T12:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200398776694054",
-   "startTime": "2026-11-18T12:40:00.000Z",
-   "participant1Name": "Djere, Laslo",
-   "participant2Name": "Fearnley, Jacob",
-   "tournamentId": 3987,
-   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663261,
-   "name": "L. Djere - J. Fearnley",
-   "score": 1.0
-  }
  },
  "id1202140676736464": {
   "tm": {
@@ -3578,6 +3413,31 @@
    "name": "L. Staeheli - K. Samrej",
    "score": 1.0
   }
+ },
+ "id1200398776694052": {
+  "tm": {
+   "id": "320218950774366208",
+   "sport": "Tenisz",
+   "name": "Jurij Rodionov - Nicolai Budkov Kjaer",
+   "home": "Jurij Rodionov",
+   "away": "Nicolai Budkov Kjaer",
+   "home_pid": "1301655",
+   "away_pid": "208880738011074560",
+   "tournament": "Helsinki, férfi egyes",
+   "category": "Challenger",
+   "tm_sport_id": "3",
+   "start": "2026-11-18T13:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1200398776694052",
+   "startTime": "2026-11-18T12:50:00.000Z",
+   "participant1Name": "Rodionov, Jurij",
+   "participant2Name": "Budkov Kjaer, Nicolai",
+   "tournamentId": 3987,
+   "tournamentName": "ATP Challenger Helsinki, Finland Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0
  },
  "id1102665873455570": {
   "tm": {
@@ -7954,36 +7814,6 @@
    "score": 0.93
   }
  },
- "id2503634976899100": {
-  "tm": {
-   "id": "320218524530319360",
-   "sport": "Asztalitenisz",
-   "name": "Sebastian Kasnik - Milan Klement",
-   "home": "Sebastian Kasnik",
-   "away": "Milan Klement",
-   "home_pid": "167281173427441664",
-   "away_pid": "105751373563449344",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899100",
-   "startTime": "2026-11-18T12:30:00.000Z",
-   "participant1Name": "Kasnik, Sebastian",
-   "participant2Name": "Klement, Milan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668426,
-   "name": "Sebastian Kasnik - Milan Klement",
-   "score": 1.0
-  }
- },
  "id2503634976899142": {
   "tm": {
    "id": "320219046860627968",
@@ -8674,91 +8504,6 @@
    "score": 1.0
   }
  },
- "id2503634976899252": {
-  "tm": {
-   "id": "320220036946010112",
-   "sport": "Asztalitenisz",
-   "name": "Tibor Kolenic - Mihail Trinta",
-   "home": "Tibor Kolenic",
-   "away": "Mihail Trinta",
-   "home_pid": "153681663609589760",
-   "away_pid": "184786608350875648",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899252",
-   "startTime": "2026-11-18T12:30:00.000Z",
-   "participant1Name": "Kolenic, Tibor",
-   "participant2Name": "Trinta, Mihail",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668433,
-   "name": "T. Kolenic - M. Trinta",
-   "score": 1.0
-  }
- },
- "id2503634976899244": {
-  "tm": {
-   "id": "320219047004282880",
-   "sport": "Asztalitenisz",
-   "name": "Pavel Wawrosz - Tadeas Zika",
-   "home": "Pavel Wawrosz",
-   "away": "Tadeas Zika",
-   "home_pid": "185657629937291264",
-   "away_pid": "168097491692081152",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899244",
-   "startTime": "2026-11-18T12:30:00.000Z",
-   "participant1Name": "Wawrosz, Pavel",
-   "participant2Name": "Zika, Tadeas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668430,
-   "name": "P. Wawrosz - T. Zika",
-   "score": 1.0
-  }
- },
- "id2503637776903624": {
-  "tm": {
-   "id": "320296108360278016",
-   "sport": "Asztalitenisz",
-   "name": "Mariusz Baron - Brozek Piotr",
-   "home": "Mariusz Baron",
-   "away": "Brozek Piotr",
-   "home_pid": "221477338961039360",
-   "away_pid": "298484598109933568",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T12:25:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776903624",
-   "startTime": "2026-11-18T12:25:00.000Z",
-   "participant1Name": "Baron, Mariusz",
-   "participant2Name": "Brozek, Piotr",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2504935676909454": {
   "tm": {
    "id": "320263216134430720",
@@ -8969,25 +8714,100 @@
    "score": 0.86
   }
  },
- "id2503634976899626": {
+ "id2503634976899174": {
   "tm": {
-   "id": "320231583662546944",
+   "id": "320219046918299648",
    "sport": "Asztalitenisz",
-   "name": "Petr Hejl Jr. - Matej Becak",
-   "home": "Petr Hejl Jr.",
-   "away": "Matej Becak",
-   "home_pid": "317329889354129408",
-   "away_pid": "277795376980955136",
+   "name": "Michal Cabis - Pavel Wawrosz",
+   "home": "Michal Cabis",
+   "away": "Pavel Wawrosz",
+   "home_pid": "274550324960825344",
+   "away_pid": "185657629937291264",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-18T12:30:00+00:00"
+   "start": "2026-11-18T13:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976899626",
-   "startTime": "2026-11-18T12:30:00.000Z",
-   "participant1Name": "Hejl, Petr Junior",
-   "participant2Name": "Becak, Matej",
+   "fixtureId": "id2503634976899174",
+   "startTime": "2026-11-18T13:30:00.000Z",
+   "participant1Name": "Cabis, Michal",
+   "participant2Name": "Wawrosz, Pavel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899166": {
+  "tm": {
+   "id": "320218524666634240",
+   "sport": "Asztalitenisz",
+   "name": "Martin Sychra - Sebastian Kasnik",
+   "home": "Martin Sychra",
+   "away": "Sebastian Kasnik",
+   "home_pid": "225609756852768768",
+   "away_pid": "167281173427441664",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899166",
+   "startTime": "2026-11-18T13:30:00.000Z",
+   "participant1Name": "Sychra, Martin",
+   "participant2Name": "Kasnik, Sebastian",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899110": {
+  "tm": {
+   "id": "320220088652341248",
+   "sport": "Asztalitenisz",
+   "name": "Vladimir Havlicek - Tibor Kolenic",
+   "home": "Vladimir Havlicek",
+   "away": "Tibor Kolenic",
+   "home_pid": "112459598709018624",
+   "away_pid": "153681663609589760",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899110",
+   "startTime": "2026-11-18T13:30:00.000Z",
+   "participant1Name": "Havlicek, Vladimir",
+   "participant2Name": "Kolenic, Tibor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899652": {
+  "tm": {
+   "id": "320220036711129088",
+   "sport": "Asztalitenisz",
+   "name": "Ivo Taichman - Petr Hejl Jr.",
+   "home": "Ivo Taichman",
+   "away": "Petr Hejl Jr.",
+   "home_pid": "283955591792332800",
+   "away_pid": "317329889354129408",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899652",
+   "startTime": "2026-11-18T13:30:00.000Z",
+   "participant1Name": "Taichman, Ivo",
+   "participant2Name": "Hejl, Petr Junior",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -9780,27 +9600,6 @@
    "home": "San Diego",
    "away": "Bakersfield",
    "tournament": "AHL"
-  }
- },
- "id1903399476776212": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1903399476776212",
-   "startTime": "2026-11-18T12:40:00.000Z",
-   "participant1Name": "Cairns, Eleanor",
-   "participant2Name": "Sherrock, Fallon",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665902,
-   "name": "E. Cairns - F. Sherrock",
-   "score": 1.0,
-   "home": "E. Cairns",
-   "away": "F. Sherrock",
-   "tournament": "Modus Super Series, női"
   }
  },
  "id1903399476776214": {
