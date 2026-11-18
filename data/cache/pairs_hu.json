@@ -2539,6 +2539,81 @@
   },
   "score": 1.0
  },
+ "id1002604276759690": {
+  "tm": {
+   "id": "320208855856390144",
+   "sport": "Labdarúgás",
+   "name": "Bala Azul - Atletico Santa Cruz",
+   "home": "Bala Azul",
+   "away": "Atletico Santa Cruz",
+   "home_pid": "247536824165724160",
+   "away_pid": "256452638041038848",
+   "tournament": "Spanyol 5., 13. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002604276759690",
+   "startTime": "2026-11-18T18:00:00.000Z",
+   "participant1Name": "CD Bala Azul",
+   "participant2Name": "Atletico Santa Cruz",
+   "tournamentId": 26042,
+   "tournamentName": "Tercera Federacion, Group 13",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002602876682014": {
+  "tm": {
+   "id": "320017017531867136",
+   "sport": "Labdarúgás",
+   "name": "Union Deportiva Vall de Uxo - Torrent CF",
+   "home": "Union Deportiva Vall de Uxo",
+   "away": "Torrent CF",
+   "home_pid": "244367486571114496",
+   "away_pid": "110413375200186368",
+   "tournament": "Spanyol 5., 6. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002602876682014",
+   "startTime": "2026-11-18T18:00:00.000Z",
+   "participant1Name": "UD Vall de Uxo",
+   "participant2Name": "Torrent CF",
+   "tournamentId": 26028,
+   "tournamentName": "Tercera Federacion, Group 6",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004861576712406": {
+  "tm": {
+   "id": "320238411910815744",
+   "sport": "Labdarúgás",
+   "name": "U20Resende - U20Olaria RJ",
+   "home": "U20Resende",
+   "away": "U20Olaria RJ",
+   "home_pid": "1395832",
+   "away_pid": "149723847161073664",
+   "tournament": "U20 Brazil Carioca Serie A2",
+   "category": "Brazília",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004861576712406",
+   "startTime": "2026-11-18T18:00:00.000Z",
+   "participant1Name": "Resende FC RJ",
+   "participant2Name": "Olaria AC RJ",
+   "tournamentId": 48615,
+   "tournamentName": "U20 Carioca, Serie A2",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1003694576792542": {
   "tm": {
    "id": "320156564924211200",
@@ -7689,6 +7764,66 @@
   },
   "score": 1.0
  },
+ "id1500084472734758": {
+  "tm": {
+   "id": "319173151792635904",
+   "sport": "Jégkorong",
+   "name": "Grand Rapids Griffins - Manitoba Moose",
+   "home": "Grand Rapids Griffins",
+   "away": "Manitoba Moose",
+   "home_pid": "37766",
+   "away_pid": "1391701",
+   "tournament": "AHL",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-19T00:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500084472734758",
+   "startTime": "2026-11-19T00:00:00.000Z",
+   "participant1Name": "Grand Rapids Griffins",
+   "participant2Name": "Manitoba Moose",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594249,
+   "name": "Grand Rapids - Manitoba",
+   "score": 1.0
+  }
+ },
+ "id1500084472734760": {
+  "tm": {
+   "id": "319173151949922304",
+   "sport": "Jégkorong",
+   "name": "Syracuse Crunch - Rochester Americans",
+   "home": "Syracuse Crunch",
+   "away": "Rochester Americans",
+   "home_pid": "37762",
+   "away_pid": "37760",
+   "tournament": "AHL",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-19T00:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500084472734760",
+   "startTime": "2026-11-19T00:00:00.000Z",
+   "participant1Name": "Syracuse Crunch",
+   "participant2Name": "Rochester Americans",
+   "tournamentId": 844,
+   "tournamentName": "AHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594500,
+   "name": "Syracuse - Rochester",
+   "score": 1.0
+  }
+ },
  "id1500013472116530": {
   "tm": {
    "id": "319082849179344896",
@@ -9299,56 +9434,6 @@
   },
   "score": 1.0
  },
- "id2503637776903454": {
-  "tm": {
-   "id": "320274024884150272",
-   "sport": "Asztalitenisz",
-   "name": "Michal Murawski - Adrian Wiecek",
-   "home": "Michal Murawski",
-   "away": "Adrian Wiecek",
-   "home_pid": "186432263081218048",
-   "away_pid": "4850230411788288",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T06:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776903454",
-   "startTime": "2026-11-18T06:15:00.000Z",
-   "participant1Name": "Murawski, Michal",
-   "participant2Name": "Wiecek, Adrian",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503637776903456": {
-  "tm": {
-   "id": "320274015817113600",
-   "sport": "Asztalitenisz",
-   "name": "Mariusz Baron - Brozek Piotr",
-   "home": "Mariusz Baron",
-   "away": "Brozek Piotr",
-   "home_pid": "221477338961039360",
-   "away_pid": "298484598109933568",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T06:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776903456",
-   "startTime": "2026-11-18T06:15:00.000Z",
-   "participant1Name": "Baron, Mariusz",
-   "participant2Name": "Brozek, Piotr",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2504935676909472": {
   "tm": {
    "id": "320235736386314240",
@@ -9620,6 +9705,106 @@
    "participant2Name": "Lum N / Liu Y",
    "tournamentId": 49364,
    "tournamentName": "WTT Star Contender Muscat, XD",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899276": {
+  "tm": {
+   "id": "320218382972559360",
+   "sport": "Asztalitenisz",
+   "name": "Sebastian Kasnik - Viktor Vejvoda",
+   "home": "Sebastian Kasnik",
+   "away": "Viktor Vejvoda",
+   "home_pid": "167281173427441664",
+   "away_pid": "235783907253325824",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899276",
+   "startTime": "2026-11-18T07:00:00.000Z",
+   "participant1Name": "Kasnik, Sebastian",
+   "participant2Name": "Vejvoda, Viktor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899270": {
+  "tm": {
+   "id": "320217326824792064",
+   "sport": "Asztalitenisz",
+   "name": "Matyas Navedla - Pavel Wawrosz",
+   "home": "Matyas Navedla",
+   "away": "Pavel Wawrosz",
+   "home_pid": "167482776257351680",
+   "away_pid": "185657629937291264",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899270",
+   "startTime": "2026-11-18T07:00:00.000Z",
+   "participant1Name": "Navedla, Matyas",
+   "participant2Name": "Wawrosz, Pavel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899676": {
+  "tm": {
+   "id": "320217326903435264",
+   "sport": "Asztalitenisz",
+   "name": "Jiri Stach - Filip Zurek",
+   "home": "Jiri Stach",
+   "away": "Filip Zurek",
+   "home_pid": "168633047891103744",
+   "away_pid": "284596949191266304",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899676",
+   "startTime": "2026-11-18T07:00:00.000Z",
+   "participant1Name": "Stach, Jiri",
+   "participant2Name": "Zurek, Filip",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899104": {
+  "tm": {
+   "id": "320218335268642816",
+   "sport": "Asztalitenisz",
+   "name": "Jan Svoboda - Jiri Zuzanek",
+   "home": "Jan Svoboda",
+   "away": "Jiri Zuzanek",
+   "home_pid": "105751364499558400",
+   "away_pid": "189194976074190848",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899104",
+   "startTime": "2026-11-18T07:00:00.000Z",
+   "participant1Name": "Svoboda, Jan",
+   "participant2Name": "Zuzanek, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0
@@ -10955,48 +11140,6 @@
    "home": "Pardubice 2",
    "away": "Havirov",
    "tournament": "Cseh 2."
-  }
- },
- "id1500084472734758": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1500084472734758",
-   "startTime": "2026-11-19T00:00:00.000Z",
-   "participant1Name": "Grand Rapids Griffins",
-   "participant2Name": "Manitoba Moose",
-   "tournamentId": 844,
-   "tournamentName": "AHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594249,
-   "name": "Grand Rapids - Manitoba",
-   "score": 1.0,
-   "home": "Grand Rapids",
-   "away": "Manitoba",
-   "tournament": "AHL"
-  }
- },
- "id1500084472734760": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1500084472734760",
-   "startTime": "2026-11-19T00:00:00.000Z",
-   "participant1Name": "Syracuse Crunch",
-   "participant2Name": "Rochester Americans",
-   "tournamentId": 844,
-   "tournamentName": "AHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594500,
-   "name": "Syracuse - Rochester",
-   "score": 1.0,
-   "home": "Syracuse",
-   "away": "Rochester",
-   "tournament": "AHL"
   }
  },
  "id1500084472733772": {
