@@ -2924,56 +2924,6 @@
   },
   "score": 0.738
  },
- "id1201316976779892": {
-  "tm": {
-   "id": "319916697764044800",
-   "sport": "Tenisz",
-   "name": "Jecan M.A./Kielan S. - Loof T./Uesugi K.",
-   "home": "Jecan M.A./Kielan S.",
-   "away": "Loof T./Uesugi K.",
-   "home_pid": "315605650610221056",
-   "away_pid": "306726109001248768",
-   "tournament": "Kobe, férfi páros",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-18T04:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316976779892",
-   "startTime": "2026-11-18T04:20:00.000Z",
-   "participant1Name": "Jecan A / Kielan S",
-   "participant2Name": "Loof T / Uesugi K",
-   "tournamentId": 13169,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
- "id1201316976779896": {
-  "tm": {
-   "id": "319916698058694656",
-   "sport": "Tenisz",
-   "name": "Bass F./Duncan S. - Matsui T./Ramanathan R.",
-   "home": "Bass F./Duncan S.",
-   "away": "Matsui T./Ramanathan R.",
-   "home_pid": "304815950771482624",
-   "away_pid": "318065176318386176",
-   "tournament": "Kobe, férfi páros",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-18T04:25:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316976779896",
-   "startTime": "2026-11-18T04:20:00.000Z",
-   "participant1Name": "Bass F / Duncan S",
-   "participant2Name": "Matsui T / Ramanathan R",
-   "tournamentId": 13169,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
  "id1201316976779888": {
   "tm": {
    "id": "319916799090040832",
@@ -6870,6 +6820,81 @@
    "participant2Name": "HC Topolcany",
    "tournamentId": 1490,
    "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1500023472909532": {
+  "tm": {
+   "id": "319173153887690752",
+   "sport": "Jégkorong",
+   "name": "New Jersey - Montreal",
+   "home": "New Jersey",
+   "away": "Montreal",
+   "home_pid": "37431",
+   "away_pid": "37432",
+   "tournament": "NHL (alapszakasz)",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-19T00:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500023472909532",
+   "startTime": "2026-11-19T00:30:00.000Z",
+   "participant1Name": "New Jersey Devils",
+   "participant2Name": "Montreal Canadiens",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1500023472909530": {
+  "tm": {
+   "id": "319173153969479680",
+   "sport": "Jégkorong",
+   "name": "Detroit - Boston",
+   "home": "Detroit",
+   "away": "Boston",
+   "home_pid": "37441",
+   "away_pid": "37427",
+   "tournament": "NHL (alapszakasz)",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-19T00:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500023472909530",
+   "startTime": "2026-11-19T00:30:00.000Z",
+   "participant1Name": "Detroit Red Wings",
+   "participant2Name": "Boston Bruins",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1500023472909534": {
+  "tm": {
+   "id": "319173153832116224",
+   "sport": "Jégkorong",
+   "name": "Utah - Colorado",
+   "home": "Utah",
+   "away": "Colorado",
+   "home_pid": "240877360616214528",
+   "away_pid": "37444",
+   "tournament": "NHL (alapszakasz)",
+   "category": "USA",
+   "tm_sport_id": "6",
+   "start": "2026-11-19T03:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500023472909534",
+   "startTime": "2026-11-19T03:00:00.000Z",
+   "participant1Name": "Utah Mammoth",
+   "participant2Name": "Colorado Avalanche",
+   "tournamentId": 234,
+   "tournamentName": "NHL",
    "sportName": "Ice Hockey"
   },
   "score": 1.0
