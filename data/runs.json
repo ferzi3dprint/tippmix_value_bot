@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-16T13:20:06.283070+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 5,
-  "top_ev": [
-   "-0.4% Kazahsztán – Szlovákia · Gólszám 1.5: Több @1.32 (fair 1.325)",
-   "-0.5% Kazahsztán – Szlovákia · 1X2: Szlovákia győz @1.89 (fair 1.899)",
-   "-0.5% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-1) @1.99 (fair 2.0)",
-   "-0.8% Kazahsztán – Szlovákia · Ázsiai hendikep: Szlovákia (+0.25) @1.3 (fair 1.31)",
-   "-0.8% Kazahsztán – Szlovákia · Gólszám 2: Több @1.49 (fair 1.502)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 10,
-  "fast": true,
-  "fixtures_checked": 23,
-  "fixtures_both": 17,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 5,
-  "classic_checked": 21,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+1.3% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.75) @1.76 (fair 1.738)",
-   "+0.5% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.5) @1.59 (fair 1.582)",
-   "-1.4% Szomália – Ghána · Gólszám 3.75: Kevesebb @1.41 (fair 1.43)",
-   "-1.7% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-1.25) @2.32 (fair 2.36)",
-   "-1.8% A. Zizins – A. Kowalski · Győztes: A. Zizins győz @1.69 (fair 1.72)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 28
- },
- {
-  "time": "2026-11-16T13:25:36.482962+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 429,
-   "paired": 124,
-   "classic_only": 28
-  },
-  "tippmix_matches": 812,
-  "pinnacle_fixtures": 658,
-  "paired": 217,
-  "by_sport": {
-   "Soccer": [
-    147,
-    78
-   ],
-   "Tennis": [
-    228,
-    32
-   ],
-   "Basketball": [
-    116,
-    44
-   ],
-   "Ice Hockey": [
-    42,
-    28
-   ],
-   "Handball": [
-    29,
-    14
-   ],
-   "Volleyball": [
-    19,
-    2
-   ],
-   "Table Tennis": [
-    34,
-    3
-   ],
-   "Cricket": [
-    9,
-    1
-   ],
-   "Badminton": [
-    30,
-    0
-   ],
-   "Darts": [
-    16,
-    2
-   ],
-   "Futsal": [
-    2,
-    0
-   ],
-   "Waterpolo": [
-    5,
-    0
-   ],
-   "ESport Counter-Strike": [
-    39,
-    0
-   ],
-   "ESport Dota": [
-    8,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    79,
-    0
-   ],
-   "eBasketball": [
-    9,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    12
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+4.2% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-1) @1.95 (fair 1.872)",
-   "+2.7% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-1.25) @2.26 (fair 2.201)",
-   "+1.9% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.75) @1.69 (fair 1.658)",
-   "+1.4% Litvánia – Liechtenstein · Gólszám 3: Kevesebb @1.52 (fair 1.499)",
-   "+0.8% Litvánia – Liechtenstein · Gólszám 3.5: Kevesebb @1.35 (fair 1.339)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 16,
-  "fast": false,
-  "fixtures_checked": 75,
-  "fixtures_both": 48,
-  "rejected_mismatch": 0,
-  "candidates": 1,
-  "steam_fixtures": 10,
-  "classic_checked": 62,
-  "classic_candidates": 3,
-  "top_ev_classic": [
-   "+6.2% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.75) @1.76 (fair 1.658)",
-   "+5.4% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-1.25) @2.32 (fair 2.201)",
-   "+4.2% U21Koszovó – U21Luxemburg · Ázsiai hendikep: U21Koszovó (-0.5) @1.59 (fair 1.526)",
-   "-0.4% Borac Cacak – Slovan Bratislava · Összpontszám (hosszabbítással) 169.5: Kevesebb @1.8 (fair 1.806)",
-   "-0.9% Izland – Luxemburg · Gólszám 4.5: Kevesebb @1.16 (fair 1.171)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 81
- },
- {
   "time": "2026-11-16T13:35:45.805601+00:00",
   "mode": "hu",
   "settled": 0,
@@ -24614,6 +24423,197 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 0,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-18T11:07:43.539121+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "-1.3% Roan United – Chirundu United · Ázsiai hendikep: Roan United (+0) @1.5 (fair 1.52)",
+   "-1.6% Daniil Glinka – Nishesh Basavareddy · Győztes: Nishesh Basavareddy győz @1.26 (fair 1.281)",
+   "-1.9% Carlos Alcaraz – Daniil Medvedev · Győztes: Carlos Alcaraz győz @1.24 (fair 1.264)",
+   "-2.1% Laslo Djere – Jacob Fearnley · Győztes: Jacob Fearnley győz @1.32 (fair 1.348)",
+   "-2.4% Bengaluru Utd. – Sreenidi Deccan · Gólszám 2: Több @1.48 (fair 1.517)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 7,
+  "fast": true,
+  "fixtures_checked": 42,
+  "fixtures_both": 25,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 7,
+  "classic_checked": 23,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.7% Eleanor Cairns – Fallon Sherrock · Győztes: Fallon Sherrock győz @1.17 (fair 1.19)",
+   "-3.2% Daniil Glinka – Nishesh Basavareddy · Győztes: Nishesh Basavareddy győz @1.24 (fair 1.281)",
+   "-3.4% Carlos Alcaraz – Daniil Medvedev · Győztes: Carlos Alcaraz győz @1.22 (fair 1.264)",
+   "-3.6% Laslo Djere – Jacob Fearnley · Győztes: Jacob Fearnley győz @1.3 (fair 1.348)",
+   "-4.4% Priscilla Steenbergen – Vicky Pruim · Győztes: Priscilla Steenbergen győz @1.63 (fair 1.704)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 48
+ },
+ {
+  "time": "2026-11-18T11:14:58.049106+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 315,
+   "paired": 189,
+   "classic_only": 9
+  },
+  "tippmix_matches": 1102,
+  "pinnacle_fixtures": 976,
+  "paired": 375,
+  "by_sport": {
+   "Soccer": [
+    197,
+    123
+   ],
+   "Tennis": [
+    296,
+    25
+   ],
+   "Basketball": [
+    174,
+    65
+   ],
+   "Ice Hockey": [
+    89,
+    69
+   ],
+   "Handball": [
+    65,
+    19
+   ],
+   "Volleyball": [
+    51,
+    9
+   ],
+   "Table Tennis": [
+    53,
+    33
+   ],
+   "Cricket": [
+    9,
+    5
+   ],
+   "Badminton": [
+    35,
+    0
+   ],
+   "Darts": [
+    17,
+    13
+   ],
+   "Futsal": [
+    5,
+    2
+   ],
+   "Waterpolo": [
+    13,
+    7
+   ],
+   "ESport Counter-Strike": [
+    32,
+    0
+   ],
+   "ESport Dota": [
+    5,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    48,
+    0
+   ],
+   "eBasketball": [
+    8,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    5,
+    5
+   ]
+  },
+  "top_ev": [
+   "+0.1% Trinec – Olomouc · Győztes (hosszabbítással): Trinec győz @1.2 (fair 1.199)",
+   "+0.0% Pardubice – SaiPa · 1X2 (rendes játékidő): Döntetlen @5.5 (fair 5.497)",
+   "-0.1% Kiekko-Espoo – Ilves · Hendikep (rendes játékidő): Ilves (+1) @1.33 (fair 1.331)",
+   "-0.6% Mountfield HK – Brno · Győztes (hosszabbítással): Mountfield HK győz @1.69 (fair 1.699)",
+   "-1.2% Fribourg – Servette · 1X2 (rendes játékidő): Döntetlen @4.45 (fair 4.503)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 12,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 81,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 20,
+  "classic_checked": 99,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.9% Panathinaikosz – Thira · Győztes: Panathinaikosz győz @1.09 (fair 1.1)",
+   "-2.1% Eleanor Cairns – Fallon Sherrock · Győztes: Fallon Sherrock győz @1.17 (fair 1.196)",
+   "-2.4% Trinec – Olomouc · Győztes (hosszabbítással): Trinec győz @1.17 (fair 1.199)",
+   "-3.2% El Gouna FC – Al-Ittihad (EGY) · Gólszám 2.5: Kevesebb @1.4 (fair 1.447)",
+   "-3.5% CS Constantine – Ben Aknoun · Gólszám 2.75: Kevesebb @1.41 (fair 1.461)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
   "free_calls": 156
  }
 ]

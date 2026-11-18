@@ -1,29 +1,4 @@
 {
- "id1000009772837916": {
-  "tm": {
-   "id": "320213216053501952",
-   "sport": "Labdarúgás",
-   "name": "Ankaragücü - Kirklarelispor",
-   "home": "Ankaragücü",
-   "away": "Kirklarelispor",
-   "home_pid": "266",
-   "away_pid": "498968",
-   "tournament": "Török 3., Vörös csoport",
-   "category": "Törökország",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000009772837916",
-   "startTime": "2026-11-18T11:00:00.000Z",
-   "participant1Name": "MKE Ankaragucu",
-   "participant2Name": "Kirklarelispor",
-   "tournamentId": 97,
-   "tournamentName": "2. Lig",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1004805872597054": {
   "tm": {
    "id": "320170284353134592",
@@ -2898,31 +2873,6 @@
    "name": "Boston River - Dep. Maldonado",
    "score": 1.0
   }
- },
- "id1004805873085406": {
-  "tm": {
-   "id": "320170711831355392",
-   "sport": "Labdarúgás",
-   "name": "CLB TP Ho Chi Minh - Buriram Utd.",
-   "home": "CLB TP Ho Chi Minh",
-   "away": "Buriram Utd.",
-   "home_pid": "922117",
-   "away_pid": "609169",
-   "tournament": "Délkelet-ázsiai klubok bajnoksága",
-   "category": "Ázsia",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004805873085406",
-   "startTime": "2026-11-18T11:00:00.000Z",
-   "participant1Name": "Cong an TP Ho Chi Minh",
-   "participant2Name": "Buriram United",
-   "tournamentId": 48058,
-   "tournamentName": "ASEAN Club Championship",
-   "sportName": "Soccer"
-  },
-  "score": 0.86
  },
  "id1003694576792552": {
   "tm": {
@@ -9079,81 +9029,6 @@
    "score": 0.86
   }
  },
- "id2503634976899168": {
-  "tm": {
-   "id": "320218382626529280",
-   "sport": "Asztalitenisz",
-   "name": "Milan Klement - Martin Sychra",
-   "home": "Milan Klement",
-   "away": "Martin Sychra",
-   "home_pid": "105751373563449344",
-   "away_pid": "225609756852768768",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899168",
-   "startTime": "2026-11-18T11:00:00.000Z",
-   "participant1Name": "Klement, Milan",
-   "participant2Name": "Sychra, Martin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899170": {
-  "tm": {
-   "id": "320219091929473024",
-   "sport": "Asztalitenisz",
-   "name": "Tadeas Zika - Michal Cabis",
-   "home": "Tadeas Zika",
-   "away": "Michal Cabis",
-   "home_pid": "168097491692081152",
-   "away_pid": "274550324960825344",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899170",
-   "startTime": "2026-11-18T11:00:00.000Z",
-   "participant1Name": "Zika, Tadeas",
-   "participant2Name": "Cabis, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899190": {
-  "tm": {
-   "id": "320219615985737728",
-   "sport": "Asztalitenisz",
-   "name": "Tomas Nohejl - Tibor Kolenic",
-   "home": "Tomas Nohejl",
-   "away": "Tibor Kolenic",
-   "home_pid": "177420810673246208",
-   "away_pid": "153681663609589760",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T11:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899190",
-   "startTime": "2026-11-18T11:30:00.000Z",
-   "participant1Name": "Nohejl, Tomas",
-   "participant2Name": "Kolenic, Tibor",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976899176": {
   "tm": {
    "id": "320219092026990592",
@@ -9204,6 +9079,131 @@
   },
   "score": 1.0
  },
+ "id2503634976899190": {
+  "tm": {
+   "id": "320219615985737728",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Nohejl - Tibor Kolenic",
+   "home": "Tomas Nohejl",
+   "away": "Tibor Kolenic",
+   "home_pid": "177420810673246208",
+   "away_pid": "153681663609589760",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899190",
+   "startTime": "2026-11-18T11:30:00.000Z",
+   "participant1Name": "Nohejl, Tomas",
+   "participant2Name": "Kolenic, Tibor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899058": {
+  "tm": {
+   "id": "320219091829858304",
+   "sport": "Asztalitenisz",
+   "name": "Michal Cabis - Radovan Polasek",
+   "home": "Michal Cabis",
+   "away": "Radovan Polasek",
+   "home_pid": "274550324960825344",
+   "away_pid": "173804475687948288",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T12:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899058",
+   "startTime": "2026-11-18T12:00:00.000Z",
+   "participant1Name": "Cabis, Michal",
+   "participant2Name": "Polasek, Radovan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899618": {
+  "tm": {
+   "id": "320220088561115136",
+   "sport": "Asztalitenisz",
+   "name": "Ivo Taichman - Marek Blejchar",
+   "home": "Ivo Taichman",
+   "away": "Marek Blejchar",
+   "home_pid": "283955591792332800",
+   "away_pid": "189119526973001728",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T12:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899618",
+   "startTime": "2026-11-18T12:00:00.000Z",
+   "participant1Name": "Taichman, Ivo",
+   "participant2Name": "Blejchar, Marek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899198": {
+  "tm": {
+   "id": "320220088733081600",
+   "sport": "Asztalitenisz",
+   "name": "Vladimir Havlicek - Tomas Nohejl",
+   "home": "Vladimir Havlicek",
+   "away": "Tomas Nohejl",
+   "home_pid": "112459598709018624",
+   "away_pid": "177420810673246208",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T12:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899198",
+   "startTime": "2026-11-18T12:00:00.000Z",
+   "participant1Name": "Havlicek, Vladimir",
+   "participant2Name": "Nohejl, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899204": {
+  "tm": {
+   "id": "320218474088570880",
+   "sport": "Asztalitenisz",
+   "name": "Martin Sychra - Viktor Vejvoda",
+   "home": "Martin Sychra",
+   "away": "Viktor Vejvoda",
+   "home_pid": "225609756852768768",
+   "away_pid": "235783907253325824",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T12:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899204",
+   "startTime": "2026-11-18T12:00:00.000Z",
+   "participant1Name": "Sychra, Martin",
+   "participant2Name": "Vejvoda, Viktor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976899642": {
   "tm": {
    "id": "320220036478345216",
@@ -9228,106 +9228,6 @@
    "sportName": "Table Tennis"
   },
   "score": 0.9
- },
- "id2702833376122624": {
-  "tm": {
-   "id": "320097221826650112",
-   "sport": "Krikett",
-   "name": "Madhya Pradesh - Tripura",
-   "home": "Madhya Pradesh",
-   "away": "Tripura",
-   "home_pid": "192104477166301184",
-   "away_pid": "192104640881520640",
-   "tournament": "Indiai Syed Mustaq Ali Trophy",
-   "category": "India",
-   "tm_sport_id": "26",
-   "start": "2026-11-18T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702833376122624",
-   "startTime": "2026-11-18T11:00:00.000Z",
-   "participant1Name": "Madhya Pradesh",
-   "participant2Name": "Tripura",
-   "tournamentId": 28333,
-   "tournamentName": "Syed Mushtaq Ali Trophy Elite",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
- },
- "id2702833376122620": {
-  "tm": {
-   "id": "320097222058385408",
-   "sport": "Krikett",
-   "name": "Jammu & Kashmir Region - Saurashtra",
-   "home": "Jammu & Kashmir Region",
-   "away": "Saurashtra",
-   "home_pid": "192104417147908096",
-   "away_pid": "186319158102773760",
-   "tournament": "Indiai Syed Mustaq Ali Trophy",
-   "category": "India",
-   "tm_sport_id": "26",
-   "start": "2026-11-18T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702833376122620",
-   "startTime": "2026-11-18T11:00:00.000Z",
-   "participant1Name": "Jammu And Kashmir",
-   "participant2Name": "Saurashtra",
-   "tournamentId": 28333,
-   "tournamentName": "Syed Mushtaq Ali Trophy Elite",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
- },
- "id2702833376122626": {
-  "tm": {
-   "id": "320140994501746688",
-   "sport": "Krikett",
-   "name": "Uttarakhand - Gujarat",
-   "home": "Uttarakhand",
-   "away": "Gujarat",
-   "home_pid": "192104652569997312",
-   "away_pid": "221098908571553792",
-   "tournament": "Indiai Syed Mustaq Ali Trophy",
-   "category": "India",
-   "tm_sport_id": "26",
-   "start": "2026-11-18T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702833376122626",
-   "startTime": "2026-11-18T11:00:00.000Z",
-   "participant1Name": "Uttarakhand",
-   "participant2Name": "Gujarat",
-   "tournamentId": 28333,
-   "tournamentName": "Syed Mushtaq Ali Trophy Elite",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
- },
- "id2702833376122622": {
-  "tm": {
-   "id": "320097220858814464",
-   "sport": "Krikett",
-   "name": "Karnataka - Mizoram",
-   "home": "Karnataka",
-   "away": "Mizoram",
-   "home_pid": "155229502231859200",
-   "away_pid": "192104536054329344",
-   "tournament": "Indiai Syed Mustaq Ali Trophy",
-   "category": "India",
-   "tm_sport_id": "26",
-   "start": "2026-11-18T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702833376122622",
-   "startTime": "2026-11-18T11:00:00.000Z",
-   "participant1Name": "Karnataka",
-   "participant2Name": "Mizoram",
-   "tournamentId": 28333,
-   "tournamentName": "Syed Mushtaq Ali Trophy Elite",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
  },
  "id2703857376122348": {
   "tm": {
@@ -9571,36 +9471,6 @@
   "cl": {
    "id": 5665793,
    "name": "K. Döts - C. Menzies",
-   "score": 1.0
-  }
- },
- "id1903399476776200": {
-  "tm": {
-   "id": "319950849224810496",
-   "sport": "Darts",
-   "name": "Priscilla Steenbergen - Eleanor Cairns",
-   "home": "Priscilla Steenbergen",
-   "away": "Eleanor Cairns",
-   "home_pid": "287071197178662912",
-   "away_pid": "319926301697843200",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-18T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476776200",
-   "startTime": "2026-11-18T11:00:00.000Z",
-   "participant1Name": "Steenbergen, Priscilla",
-   "participant2Name": "Cairns, Eleanor",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665923,
-   "name": "P. Steenbergen - E. Cairns",
    "score": 1.0
   }
  },
@@ -10306,27 +10176,6 @@
    "home": "J.D.H. Friend",
    "away": "Rio Noguchi",
    "tournament": "Kobe, férfi egyes"
-  }
- },
- "id1205210676878754": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1205210676878754",
-   "startTime": "2026-11-18T11:10:00.000Z",
-   "participant1Name": "Martinez, Pedro",
-   "participant2Name": "Donald, Matthew William",
-   "tournamentId": 52106,
-   "tournamentName": "ATP Challenger Metz, France Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.907,
-  "cl": {
-   "id": 5666322,
-   "name": "P. Martinez Portero - M.W. Donald",
-   "score": 0.907,
-   "home": "P. Martinez Portero",
-   "away": "M.W. Donald",
-   "tournament": "Metz, férfi egyes"
   }
  },
  "id1205210676807192": {
