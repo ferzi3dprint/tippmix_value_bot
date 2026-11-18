@@ -1,264 +1,5 @@
 [
  {
-  "time": "2026-11-16T19:34:43.767106+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "boosts": 0,
-  "classic": {
-   "events": 361,
-   "paired": 78,
-   "classic_only": 5
-  },
-  "tippmix_matches": 847,
-  "pinnacle_fixtures": 658,
-  "paired": 135,
-  "by_sport": {
-   "Soccer": [
-    141,
-    46
-   ],
-   "Tennis": [
-    267,
-    5
-   ],
-   "Basketball": [
-    125,
-    35
-   ],
-   "Ice Hockey": [
-    37,
-    26
-   ],
-   "Handball": [
-    19,
-    11
-   ],
-   "Volleyball": [
-    22,
-    0
-   ],
-   "Table Tennis": [
-    37,
-    8
-   ],
-   "Cricket": [
-    8,
-    1
-   ],
-   "Badminton": [
-    34,
-    0
-   ],
-   "Darts": [
-    30,
-    2
-   ],
-   "Futsal": [
-    5,
-    0
-   ],
-   "Waterpolo": [
-    5,
-    0
-   ],
-   "ESport Counter-Strike": [
-    22,
-    0
-   ],
-   "ESport Dota": [
-    2,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    83,
-    0
-   ],
-   "eBasketball": [
-    10,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "-1.2% NY Rangers – Montreal · Hendikep (rendes játékidő): NY Rangers (+1) @1.43 (fair 1.448)",
-   "-2.5% Montevideo Wanderers – Juventud De Las Piedras · Gólszám 1.5: Több @1.31 (fair 1.344)",
-   "-2.7% NY Rangers – Montreal · Hendikep (rendes játékidő): Montreal (+1) @1.41 (fair 1.448)",
-   "-3.0% NY Rangers – Montreal · Győztes (hosszabbítással): NY Rangers győz @1.94 (fair 2.0)",
-   "-3.5% CD Moquegua – Atl. Grau · Gólszám 1.5: Több @1.36 (fair 1.409)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": false,
-  "fixtures_checked": 24,
-  "fixtures_both": 9,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 4,
-  "classic_checked": 17,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.5% Montevideo Wanderers – Juventud De Las Piedras · Gólszám 3.5: Kevesebb @1.31 (fair 1.329)",
-   "-1.7% Montevideo Wanderers – Juventud De Las Piedras · Gólszám 3: Kevesebb @1.45 (fair 1.476)",
-   "-1.9% Trinidad és Tobago – Antigua és Barbuda · Gólszám 3.5: Kevesebb @1.98 (fair 2.018)",
-   "-2.7% Montevideo Wanderers – Juventud De Las Piedras · Gólszám 2.75: Kevesebb @1.64 (fair 1.686)",
-   "-2.9% Kanada – Guatemala · Gólszám 4: Kevesebb @1.41 (fair 1.452)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 28
- },
- {
-  "time": "2026-11-16T19:40:52.433201+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-3.5% CD Moquegua – Atl. Grau · Gólszám 1.5: Több @1.36 (fair 1.409)",
-   "-4.4% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.03 (fair 2.123)",
-   "-7.5% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.61 (fair 1.741)",
-   "-8.9% CD Moquegua – Atl. Grau · Gólszám 2.5: Több @2.14 (fair 2.349)",
-   "-11.1% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Nem @1.68 (fair 1.891)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 5,
-  "fixtures_both": 1,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 5,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-5.4% CD Moquegua – Atl. Grau · Gólszám 2.75: Kevesebb @1.47 (fair 1.553)",
-   "-5.8% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.0 (fair 2.123)",
-   "-6.4% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.63 (fair 1.741)",
-   "-6.6% CD Moquegua – Atl. Grau · Ázsiai hendikep: CD Moquegua (-0.5) @1.68 (fair 1.799)",
-   "-6.9% CD Moquegua – Atl. Grau · Ázsiai hendikep: Atl. Grau (+1.25) @1.38 (fair 1.482)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 5
- },
- {
-  "time": "2026-11-16T19:45:52.432375+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-3.5% CD Moquegua – Atl. Grau · Gólszám 1.5: Több @1.36 (fair 1.409)",
-   "-4.4% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.03 (fair 2.123)",
-   "-7.5% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.61 (fair 1.741)",
-   "-8.9% CD Moquegua – Atl. Grau · Gólszám 2.5: Több @2.14 (fair 2.349)",
-   "-11.1% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Nem @1.68 (fair 1.891)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 5,
-  "fixtures_both": 1,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 5,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-5.4% CD Moquegua – Atl. Grau · Gólszám 2.75: Kevesebb @1.47 (fair 1.553)",
-   "-5.8% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.0 (fair 2.123)",
-   "-6.4% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.63 (fair 1.741)",
-   "-6.6% CD Moquegua – Atl. Grau · Ázsiai hendikep: CD Moquegua (-0.5) @1.68 (fair 1.799)",
-   "-6.9% CD Moquegua – Atl. Grau · Ázsiai hendikep: Atl. Grau (+1.25) @1.38 (fair 1.482)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 5
- },
- {
-  "time": "2026-11-16T19:50:52.433178+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-3.2% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.03 (fair 2.098)",
-   "-4.3% CD Moquegua – Atl. Grau · Gólszám 1.5: Több @1.36 (fair 1.421)",
-   "-4.8% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.62 (fair 1.701)",
-   "-12.1% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Nem @1.68 (fair 1.911)",
-   "-12.2% CD Moquegua – Atl. Grau · Gólszám 2.5: Több @2.13 (fair 2.426)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 5,
-  "fixtures_both": 1,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 5,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.0% CD Moquegua – Atl. Grau · Ázsiai hendikep: Atl. Grau (+1.25) @1.4 (fair 1.428)",
-   "-3.5% CD Moquegua – Atl. Grau · Gólszám 2.75: Kevesebb @1.47 (fair 1.523)",
-   "-3.7% CD Moquegua – Atl. Grau · Mindkét csapat szerez gólt: Igen @2.02 (fair 2.098)",
-   "-4.0% CD Moquegua – Atl. Grau · Ázsiai hendikep: Atl. Grau (+0.75) @1.76 (fair 1.832)",
-   "-4.2% CD Moquegua – Atl. Grau · Gólszám 2.5: Kevesebb @1.63 (fair 1.701)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 5
- },
- {
   "time": "2026-11-16T19:55:52.433304+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25345,5 +25086,261 @@
   "not_executable": 0,
   "api_calls": 0,
   "free_calls": 40
+ },
+ {
+  "time": "2026-11-18T20:04:41.266568+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [
+   "-6.3% Carabobo FC – Zamora FC · Ázsiai hendikep: Carabobo FC (-1.25) @1.63 (fair 1.739)",
+   "-6.5% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: DVO Tachira (-0.5) @1.58 (fair 1.69)",
+   "-7.0% Carabobo FC – Zamora FC · Ázsiai hendikep: Carabobo FC (-1.5) @1.84 (fair 1.978)",
+   "-7.3% DVO Tachira – Academia Puerto Cabello · Gólszám 2.75: Kevesebb @1.6 (fair 1.726)",
+   "-7.5% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: DVO Tachira (-0.75) @1.76 (fair 1.902)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 8,
+  "fixtures_both": 2,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 3,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.8% Luke Littler – Jermaine Wattimena · Győztes: Luke Littler győz @1.08 (fair 1.111)",
+   "-5.0% DVO Tachira – Academia Puerto Cabello · Gólszám 2.5: Kevesebb @1.85 (fair 1.948)",
+   "-14.4% DVO Tachira – Academia Puerto Cabello · Gólszám 2.5: Több @1.76 (fair 2.055)",
+   "-32.6% Luke Littler – Jermaine Wattimena · Győztes: Jermaine Wattimena győz @6.75 (fair 10.022)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 8
+ },
+ {
+  "time": "2026-11-18T20:09:41.267236+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-0.7% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: DVO Tachira (-0.75) @1.74 (fair 1.752)",
+   "-0.7% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: DVO Tachira (-1) @2.05 (fair 2.065)",
+   "-4.7% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: DVO Tachira (-1.25) @2.37 (fair 2.486)",
+   "-6.3% Carabobo FC – Zamora FC · Ázsiai hendikep: Carabobo FC (-1.25) @1.63 (fair 1.739)",
+   "-6.8% DVO Tachira – Academia Puerto Cabello · Gólszám 2.25: Több @1.63 (fair 1.748)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 8,
+  "fixtures_both": 2,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 3,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.8% Luke Littler – Jermaine Wattimena · Győztes: Luke Littler győz @1.08 (fair 1.111)",
+   "-7.1% DVO Tachira – Academia Puerto Cabello · Gólszám 2.5: Kevesebb @1.85 (fair 1.991)",
+   "-12.4% DVO Tachira – Academia Puerto Cabello · Gólszám 2.5: Több @1.76 (fair 2.009)",
+   "-32.6% Luke Littler – Jermaine Wattimena · Győztes: Jermaine Wattimena győz @6.75 (fair 10.022)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 9
+ },
+ {
+  "time": "2026-11-18T20:14:41.266457+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-1.8% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: DVO Tachira (-0.75) @1.72 (fair 1.752)",
+   "-3.1% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: DVO Tachira (-1) @2.0 (fair 2.065)",
+   "-7.1% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: DVO Tachira (-1.25) @2.31 (fair 2.486)",
+   "-7.3% DVO Tachira – Academia Puerto Cabello · Gólszám 2.25: Több @1.62 (fair 1.748)",
+   "-9.2% DVO Tachira – Academia Puerto Cabello · Gólszám 2.75: Kevesebb @1.6 (fair 1.762)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 4,
+  "fixtures_both": 1,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 2,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.8% Luke Littler – Jermaine Wattimena · Győztes: Luke Littler győz @1.08 (fair 1.111)",
+   "-7.1% DVO Tachira – Academia Puerto Cabello · Gólszám 2.5: Kevesebb @1.85 (fair 1.991)",
+   "-12.4% DVO Tachira – Academia Puerto Cabello · Gólszám 2.5: Több @1.76 (fair 2.009)",
+   "-32.6% Luke Littler – Jermaine Wattimena · Győztes: Jermaine Wattimena győz @6.75 (fair 10.022)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 5
+ },
+ {
+  "time": "2026-11-18T20:19:41.266620+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 314,
+   "paired": 67,
+   "classic_only": 2
+  },
+  "tippmix_matches": 781,
+  "pinnacle_fixtures": 976,
+  "paired": 127,
+  "by_sport": {
+   "Soccer": [
+    110,
+    48
+   ],
+   "Tennis": [
+    250,
+    6
+   ],
+   "Basketball": [
+    132,
+    26
+   ],
+   "Ice Hockey": [
+    39,
+    26
+   ],
+   "Handball": [
+    18,
+    6
+   ],
+   "Volleyball": [
+    23,
+    0
+   ],
+   "Table Tennis": [
+    24,
+    7
+   ],
+   "Cricket": [
+    20,
+    3
+   ],
+   "Badminton": [
+    66,
+    0
+   ],
+   "Darts": [
+    6,
+    2
+   ],
+   "Futsal": [
+    4,
+    0
+   ],
+   "Waterpolo": [
+    8,
+    3
+   ],
+   "ESport Counter-Strike": [
+    10,
+    0
+   ],
+   "ESport Dota": [
+    5,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    54,
+    0
+   ],
+   "eBasketball": [
+    12,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-0.8% Detroit – Boston · Hendikep (rendes játékidő): Boston (+1) @1.45 (fair 1.461)",
+   "-1.1% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.25) @1.39 (fair 1.406)",
+   "-1.1% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (-0) @1.51 (fair 1.527)",
+   "-1.5% Utah – Colorado · Hendikep (rendes játékidő): Colorado (+1) @1.44 (fair 1.461)",
+   "-1.5% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.5) @1.31 (fair 1.33)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 47,
+  "fixtures_both": 30,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 8,
+  "classic_checked": 28,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.9% Coritiba – Santos SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.203)",
+   "-2.0% Corinthians SP – Botafogo RJ · Gólszám 4.5: Kevesebb @1.13 (fair 1.153)",
+   "-2.0% Coritiba – Santos SP · Gólszám 3.5: Kevesebb @1.48 (fair 1.51)",
+   "-2.1% Colon FC – Club Oriental · Gólszám 3.5: Kevesebb @1.4 (fair 1.43)",
+   "-2.3% Coritiba – Santos SP · Gólszám 3.25: Kevesebb @1.58 (fair 1.618)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 53
  }
 ]

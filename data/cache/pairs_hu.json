@@ -1,59 +1,4 @@
 {
- "id1002604276759688": {
-  "tm": {
-   "id": "320208883125657600",
-   "sport": "Labdarúgás",
-   "name": "Cotillas - Union Molinense CF 2020",
-   "home": "Cotillas",
-   "away": "Union Molinense CF 2020",
-   "home_pid": "314258463277084672",
-   "away_pid": "181589965246877696",
-   "tournament": "Spanyol 5., 13. csoport",
-   "category": "Spanyolország",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T20:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002604276759688",
-   "startTime": "2026-11-18T20:00:00.000Z",
-   "participant1Name": "Cotillas CD",
-   "participant2Name": "Union Molinense CF 2020",
-   "tournamentId": 26042,
-   "tournamentName": "Tercera Federacion, Group 13",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000040676414512": {
-  "tm": {
-   "id": "319471760630161408",
-   "sport": "Labdarúgás",
-   "name": "Alianza Atletico - Melgar",
-   "home": "Alianza Atletico",
-   "away": "Melgar",
-   "home_pid": "1233443",
-   "away_pid": "1338",
-   "tournament": "Perui bajnokság",
-   "category": "Peru",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T20:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000040676414512",
-   "startTime": "2026-11-18T20:00:00.000Z",
-   "participant1Name": "Alianza Atletico",
-   "participant2Name": "FBC Melgar",
-   "tournamentId": 406,
-   "tournamentName": "Liga 1",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5632534,
-   "name": "Alianza Atletico - Melgar",
-   "score": 1.0
-  }
- },
  "id1001928276114802": {
   "tm": {
    "id": "320230402683904000",
@@ -1554,31 +1499,6 @@
    "score": 1.0
   }
  },
- "id1104871576069632": {
-  "tm": {
-   "id": "318992030967603200",
-   "sport": "Kosárlabda",
-   "name": "Spanish Basketball Academy - Estela",
-   "home": "Spanish Basketball Academy",
-   "away": "Estela",
-   "home_pid": "282279802469224448",
-   "away_pid": "183447429881843712",
-   "tournament": "Spanyol FEB Kupa",
-   "category": "Spanyolország",
-   "tm_sport_id": "8",
-   "start": "2026-11-18T20:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104871576069632",
-   "startTime": "2026-11-18T20:00:00.000Z",
-   "participant1Name": "Spanish Basketball Academy",
-   "participant2Name": "CD Estela",
-   "tournamentId": 48715,
-   "tournamentName": "Copa Espana",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
  "id1103449675755980": {
   "tm": {
    "id": "320241545016057856",
@@ -2118,6 +2038,31 @@
    "name": "Valencia - Virtus Bologna",
    "score": 1.0
   }
+ },
+ "id1104880375138034": {
+  "tm": {
+   "id": "319173429658984448",
+   "sport": "Kosárlabda",
+   "name": "ZKK Maribor - Celje",
+   "home": "ZKK Maribor",
+   "away": "Celje",
+   "home_pid": "183446463368450048",
+   "away_pid": "1413125",
+   "tournament": "Szlovén bajnokság, női",
+   "category": "Szlovénia",
+   "tm_sport_id": "8",
+   "start": "2026-11-19T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104880375138034",
+   "startTime": "2026-11-19T19:00:00.000Z",
+   "participant1Name": "Zkd Maribor",
+   "participant2Name": "ZKK Celje",
+   "tournamentId": 48803,
+   "tournamentName": "1. SKL, Women",
+   "sportName": "Basketball"
+  },
+  "score": 0.936
  },
  "id1102645075109954": {
   "tm": {
@@ -3189,6 +3134,106 @@
   },
   "score": 1.0
  },
+ "id2503634976899666": {
+  "tm": {
+   "id": "320223216247316480",
+   "sport": "Asztalitenisz",
+   "name": "Radim Adam - Vitezslav Bosak",
+   "home": "Radim Adam",
+   "away": "Vitezslav Bosak",
+   "home_pid": "274758232456695808",
+   "away_pid": "280054724205613056",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899666",
+   "startTime": "2026-11-18T21:00:00.000Z",
+   "participant1Name": "Adam, Radim",
+   "participant2Name": "Bosak, Vitezslav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899274": {
+  "tm": {
+   "id": "320222508575956992",
+   "sport": "Asztalitenisz",
+   "name": "Michal Zahradka - Prikasky Libor",
+   "home": "Michal Zahradka",
+   "away": "Prikasky Libor",
+   "home_pid": "157416179233771520",
+   "away_pid": "282868470805467136",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899274",
+   "startTime": "2026-11-18T21:00:00.000Z",
+   "participant1Name": "Zahradka, Michal",
+   "participant2Name": "Prikasky, Libor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899124": {
+  "tm": {
+   "id": "320222460864700416",
+   "sport": "Asztalitenisz",
+   "name": "Jakub Simecek - Lukas Kern",
+   "home": "Jakub Simecek",
+   "away": "Lukas Kern",
+   "home_pid": "274758198321352704",
+   "away_pid": "289236740302213120",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899124",
+   "startTime": "2026-11-18T21:00:00.000Z",
+   "participant1Name": "Simecek, Jakub",
+   "participant2Name": "Kern, Lukas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899258": {
+  "tm": {
+   "id": "320222508686057472",
+   "sport": "Asztalitenisz",
+   "name": "Jakub Pilch - Koubek Vojtech",
+   "home": "Jakub Pilch",
+   "away": "Koubek Vojtech",
+   "home_pid": "274550304688705536",
+   "away_pid": "152799853219467264",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899258",
+   "startTime": "2026-11-18T21:00:00.000Z",
+   "participant1Name": "Pilch, Jakub",
+   "participant2Name": "Koubek, Vojtech",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2703194973528274": {
   "tm": {
    "id": "320197383310991360",
@@ -3263,36 +3308,6 @@
    "sportName": "Cricket"
   },
   "score": 1.0
- },
- "id1900059776636390": {
-  "tm": {
-   "id": "320160643720224768",
-   "sport": "Darts",
-   "name": "Gerwyn Price - Ryan Searle",
-   "home": "Gerwyn Price",
-   "away": "Ryan Searle",
-   "home_pid": "1149315",
-   "away_pid": "1561019",
-   "tournament": "Grand Slam of Darts",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-18T20:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1900059776636390",
-   "startTime": "2026-11-18T20:15:00.000Z",
-   "participant1Name": "Price, Gerwyn",
-   "participant2Name": "Searle, Ryan",
-   "tournamentId": 597,
-   "tournamentName": "Grand Slam of Darts",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665791,
-   "name": "Ger. Price - R. Searle",
-   "score": 0.9
-  }
  },
  "id1900059776636386": {
   "tm": {
