@@ -2362,7 +2362,12 @@
   "min_odds": 1.64,
   "expected_profit": 309.42,
   "exec_checked_at": "2026-11-18T18:20:36.657222+00:00",
-  "exec_odds": 1.79
+  "exec_odds": 1.79,
+  "closing_fair_prob": 0.65548,
+  "closing_fair_odds": 1.526,
+  "closing_sharp_odds": 1.456,
+  "closing_at": "2026-11-18T18:21:15.586559+00:00",
+  "clv": 0.17331
  },
  {
   "id": "da4cbd3d28",
@@ -2443,6 +2448,11 @@
   "expected_profit": 230.53,
   "channel": "classic",
   "exec_checked_at": "2026-11-18T18:20:36.657222+00:00",
-  "exec_odds": 1.62
+  "exec_odds": 1.62,
+  "closing_fair_prob": 0.68374,
+  "closing_fair_odds": 1.463,
+  "closing_sharp_odds": 1.4,
+  "closing_at": "2026-11-18T18:21:15.586559+00:00",
+  "clv": 0.10766
  }
 ]

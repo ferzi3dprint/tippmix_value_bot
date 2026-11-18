@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-16T18:00:39.001900+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.3% Görögország – Szerbia · 1X2: Görögország győz @1.43 (fair 1.425)",
-   "-0.3% Németország – Hollandia · 1X2: Németország győz @1.87 (fair 1.876)",
-   "-0.4% Svájc – Skócia · Gólszám 1.5: Több @1.24 (fair 1.246)",
-   "-0.5% Perugia – Torres Sassari · Gólszám 2: Több @1.37 (fair 1.376)",
-   "-0.7% Észak-Macedónia – Szlovénia · Ázsiai hendikep: Észak-Macedónia (+2) @1.24 (fair 1.249)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 1,
-  "fast": true,
-  "fixtures_checked": 26,
-  "fixtures_both": 16,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 13,
-  "classic_checked": 22,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+1.4% Görögország – Szerbia · Gólszám 4: Kevesebb @1.32 (fair 1.302)",
-   "+0.8% Görögország – Szerbia · Gólszám 3.75: Kevesebb @1.46 (fair 1.448)",
-   "+0.8% Studentski Centar Podgorica – BC Vienna · Összpontszám (hosszabbítással) 169.5: Kevesebb @1.77 (fair 1.756)",
-   "+0.3% Görögország – Szerbia · Gólszám 3: Kevesebb @1.95 (fair 1.944)",
-   "-0.0% Görögország – Szerbia · Gólszám 3.25: Kevesebb @1.73 (fair 1.731)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 32
- },
- {
   "time": "2026-11-16T18:06:41.515801+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25224,5 +25190,39 @@
   "not_executable": 1,
   "api_calls": 1,
   "free_calls": 86
+ },
+ {
+  "time": "2026-11-18T18:21:15.586559+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+20.2% West Ham – Wolverhampton · Ázsiai hendikep: Wolverhampton (+1) @3.1 (fair 2.58)",
+   "+14.5% West Ham – Wolverhampton · Ázsiai hendikep: Wolverhampton (+1.25) @2.45 (fair 2.14)",
+   "+14.1% West Ham – Wolverhampton · Ázsiai hendikep: Wolverhampton (+0.75) @3.4 (fair 2.981)",
+   "+11.8% West Ham – Wolverhampton · Ázsiai hendikep: Wolverhampton (+1.75) @1.91 (fair 1.709)",
+   "+11.5% West Ham – Wolverhampton · Ázsiai hendikep: Wolverhampton (+1.5) @2.11 (fair 1.892)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 9,
+  "fast": true,
+  "fixtures_checked": 55,
+  "fixtures_both": 35,
+  "rejected_mismatch": 0,
+  "candidates": 6,
+  "steam_fixtures": 14,
+  "classic_checked": 32,
+  "classic_candidates": 7,
+  "top_ev_classic": [
+   "+8.9% West Ham – Wolverhampton · Ázsiai hendikep: Wolverhampton (+1.25) @2.33 (fair 2.14)",
+   "+7.7% West Ham – Wolverhampton · Ázsiai hendikep: Wolverhampton (+1.75) @1.84 (fair 1.709)",
+   "+7.3% West Ham – Wolverhampton · Ázsiai hendikep: Wolverhampton (+1.5) @2.03 (fair 1.892)",
+   "+6.7% West Ham – Wolverhampton · Gólszám 4: Kevesebb @1.56 (fair 1.463)",
+   "+5.9% West Ham – Wolverhampton · Gólszám 3.75: Kevesebb @1.74 (fair 1.643)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 61
  }
 ]

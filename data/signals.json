@@ -3796,7 +3796,12 @@
   "ev": 0.03912,
   "band": "1.80–2.10",
   "trigger": "steam",
-  "bet": true
+  "bet": true,
+  "closing_fair_prob": 0.54364,
+  "closing_fair_odds": 1.839,
+  "closing_sharp_odds": 1.74,
+  "closing_at": "2026-11-18T18:21:15.586559+00:00",
+  "clv": 0.11447
  },
  {
   "fixture_id": "id1002765973607362",
@@ -3813,7 +3818,12 @@
   "ev": 0.02269,
   "band": "1.50–1.80",
   "trigger": "steam",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.66633,
+  "closing_fair_odds": 1.501,
+  "closing_sharp_odds": 1.434,
+  "closing_at": "2026-11-18T18:21:15.586559+00:00",
+  "clv": 0.06612
  },
  {
   "fixture_id": "id1002765973607362",
@@ -3864,7 +3874,12 @@
   "ev": 0.1585,
   "band": "2.10–2.50",
   "trigger": "normál",
-  "bet": true
+  "bet": true,
+  "closing_fair_prob": 0.65548,
+  "closing_fair_odds": 1.526,
+  "closing_sharp_odds": 1.456,
+  "closing_at": "2026-11-18T18:21:15.586559+00:00",
+  "clv": 0.40928
  },
  {
   "fixture_id": "id1002765973607444",
@@ -3881,7 +3896,12 @@
   "ev": 0.13415,
   "band": "2.10–2.50",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.58523,
+  "closing_fair_odds": 1.709,
+  "closing_sharp_odds": 1.625,
+  "closing_at": "2026-11-18T18:21:15.586559+00:00",
+  "clv": 0.387
  },
  {
   "fixture_id": "id1002765973607444",
@@ -3898,7 +3918,12 @@
   "ev": 0.11808,
   "band": "2.50–5.00",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.52854,
+  "closing_fair_odds": 1.892,
+  "closing_sharp_odds": 1.8,
+  "closing_at": "2026-11-18T18:21:15.586559+00:00",
+  "clv": 0.3795
  },
  {
   "fixture_id": "id1002765973607444",
@@ -3915,7 +3940,12 @@
   "ev": 0.12048,
   "band": "2.50–5.00",
   "trigger": "normál",
-  "bet": false
+  "bet": false,
+  "closing_fair_prob": 0.4673,
+  "closing_fair_odds": 2.14,
+  "closing_sharp_odds": 2.0,
+  "closing_at": "2026-11-18T18:21:15.586559+00:00",
+  "clv": 0.44863
  },
  {
   "fixture_id": "id1002765973607444",
@@ -3932,6 +3962,45 @@
   "ev": 0.05397,
   "band": "1.50–1.80",
   "trigger": "steam",
+  "bet": false,
+  "closing_fair_prob": 0.68374,
+  "closing_fair_odds": 1.463,
+  "closing_sharp_odds": 1.4,
+  "closing_at": "2026-11-18T18:21:15.586559+00:00",
+  "clv": 0.13501
+ },
+ {
+  "fixture_id": "id1002765973607444",
+  "market_id": 1064,
+  "outcome_id": 1065,
+  "first_at": "2026-11-18T18:21:15.586559+00:00",
+  "start": "2026-11-18T19:00:00.000Z",
+  "home": "West Ham",
+  "away": "Wolverhampton",
+  "tournament": "Angol Liga-kupa, női",
+  "label": "Ázsiai hendikep: Wolverhampton (+1)",
+  "odds": 3.1,
+  "fair_prob": 0.38759,
+  "ev": 0.20152,
+  "band": "2.50–5.00",
+  "trigger": "normál",
+  "bet": false
+ },
+ {
+  "fixture_id": "id1002765973607444",
+  "market_id": 1066,
+  "outcome_id": 1067,
+  "first_at": "2026-11-18T18:21:15.586559+00:00",
+  "start": "2026-11-18T19:00:00.000Z",
+  "home": "West Ham",
+  "away": "Wolverhampton",
+  "tournament": "Angol Liga-kupa, női",
+  "label": "Ázsiai hendikep: Wolverhampton (+0.75)",
+  "odds": 3.4,
+  "fair_prob": 0.33548,
+  "ev": 0.14062,
+  "band": "2.50–5.00",
+  "trigger": "normál",
   "bet": false
  }
 ]
