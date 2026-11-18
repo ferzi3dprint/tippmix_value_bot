@@ -264,6 +264,36 @@
   },
   "score": 1.0
  },
+ "id1004850774827372": {
+  "tm": {
+   "id": "319118903110344704",
+   "sport": "Labdarúgás",
+   "name": "Queensland Lions - Wollongong Wolves",
+   "home": "Queensland Lions",
+   "away": "Wollongong Wolves",
+   "home_pid": "667342",
+   "away_pid": "594686",
+   "tournament": "Ausztrál Championship",
+   "category": "Ausztrália",
+   "tm_sport_id": "1",
+   "start": "2026-11-19T08:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004850774827372",
+   "startTime": "2026-11-19T08:30:00.000Z",
+   "participant1Name": "Lions FC",
+   "participant2Name": "Wollongong Wolves FC",
+   "tournamentId": 48507,
+   "tournamentName": "Australian Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594316,
+   "name": "Queensland Lions - Wollongong Wolves",
+   "score": 1.0
+  }
+ },
  "id1000084875834480": {
   "tm": {
    "id": "319127104210935808",
@@ -314,31 +344,6 @@
   },
   "score": 1.0
  },
- "id1001949273078848": {
-  "tm": {
-   "id": "320215259391533056",
-   "sport": "Labdarúgás",
-   "name": "El Dakhleya SC - Ismaily",
-   "home": "El Dakhleya SC",
-   "away": "Ismaily",
-   "home_pid": "630305",
-   "away_pid": "60776",
-   "tournament": "Egyiptomi 2.",
-   "category": "Egyiptom",
-   "tm_sport_id": "1",
-   "start": "2026-11-19T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001949273078848",
-   "startTime": "2026-11-19T12:30:00.000Z",
-   "participant1Name": "El Dakhleya Sc",
-   "participant2Name": "Ismaily SC",
-   "tournamentId": 19492,
-   "tournamentName": "2. Division A",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1001949273078852": {
   "tm": {
    "id": "320214949859237888",
@@ -358,6 +363,31 @@
    "startTime": "2026-11-19T12:30:00.000Z",
    "participant1Name": "Pharco FC",
    "participant2Name": "El Entag El Harby",
+   "tournamentId": 19492,
+   "tournamentName": "2. Division A",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1001949273078848": {
+  "tm": {
+   "id": "320215259391533056",
+   "sport": "Labdarúgás",
+   "name": "El Dakhleya SC - Ismaily",
+   "home": "El Dakhleya SC",
+   "away": "Ismaily",
+   "home_pid": "630305",
+   "away_pid": "60776",
+   "tournament": "Egyiptomi 2.",
+   "category": "Egyiptom",
+   "tm_sport_id": "1",
+   "start": "2026-11-19T12:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1001949273078848",
+   "startTime": "2026-11-19T12:30:00.000Z",
+   "participant1Name": "El Dakhleya Sc",
+   "participant2Name": "Ismaily SC",
    "tournamentId": 19492,
    "tournamentName": "2. Division A",
    "sportName": "Soccer"
@@ -879,36 +909,6 @@
   },
   "score": 1.0
  },
- "id1000032566887174": {
-  "tm": {
-   "id": "318778592604528640",
-   "sport": "Labdarúgás",
-   "name": "Vitória BA - Bragantino",
-   "home": "Vitória BA",
-   "away": "Bragantino",
-   "home_pid": "354183",
-   "away_pid": "3448716809367552",
-   "tournament": "Brazil bajnokság",
-   "category": "Brazília",
-   "tm_sport_id": "1",
-   "start": "2026-11-19T22:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000032566887174",
-   "startTime": "2026-11-19T22:30:00.000Z",
-   "participant1Name": "EC Vitoria BA",
-   "participant2Name": "Red Bull Bragantino SP",
-   "tournamentId": 325,
-   "tournamentName": "Brasileiro Serie A",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594124,
-   "name": "Vitória BA - Bragantino",
-   "score": 1.0
-  }
- },
  "id1000032566887160": {
   "tm": {
    "id": "318778440468733952",
@@ -936,6 +936,36 @@
   "cl": {
    "id": 5594133,
    "name": "Vasco da Gama RJ - Internacional RS",
+   "score": 1.0
+  }
+ },
+ "id1000032566887174": {
+  "tm": {
+   "id": "318778592604528640",
+   "sport": "Labdarúgás",
+   "name": "Vitória BA - Bragantino",
+   "home": "Vitória BA",
+   "away": "Bragantino",
+   "home_pid": "354183",
+   "away_pid": "3448716809367552",
+   "tournament": "Brazil bajnokság",
+   "category": "Brazília",
+   "tm_sport_id": "1",
+   "start": "2026-11-19T22:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000032566887174",
+   "startTime": "2026-11-19T22:30:00.000Z",
+   "participant1Name": "EC Vitoria BA",
+   "participant2Name": "Red Bull Bragantino SP",
+   "tournamentId": 325,
+   "tournamentName": "Brasileiro Serie A",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594124,
+   "name": "Vitória BA - Bragantino",
    "score": 1.0
   }
  },
@@ -988,36 +1018,6 @@
    "sportName": "Soccer"
   },
   "score": 1.0
- },
- "id1004850774827372": {
-  "tm": {
-   "id": "319118903110344704",
-   "sport": "Labdarúgás",
-   "name": "Queensland Lions - Wollongong Wolves",
-   "home": "Queensland Lions",
-   "away": "Wollongong Wolves",
-   "home_pid": "667342",
-   "away_pid": "594686",
-   "tournament": "Ausztrál Championship",
-   "category": "Ausztrália",
-   "tm_sport_id": "1",
-   "start": "2026-11-19T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004850774827372",
-   "startTime": "2026-11-19T08:30:00.000Z",
-   "participant1Name": "Lions FC",
-   "participant2Name": "Wollongong Wolves FC",
-   "tournamentId": 48507,
-   "tournamentName": "Australian Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594316,
-   "name": "Queensland Lions - Wollongong Wolves",
-   "score": 1.0
-  }
  },
  "id1000069674371864": {
   "tm": {
@@ -1098,36 +1098,6 @@
    "sportName": "Soccer"
   },
   "score": 0.86
- },
- "id1001928276114804": {
-  "tm": {
-   "id": "320227207600480256",
-   "sport": "Labdarúgás",
-   "name": "DVO Tachira - Academia Puerto Cabello",
-   "home": "DVO Tachira",
-   "away": "Academia Puerto Cabello",
-   "home_pid": "1304",
-   "away_pid": "1318250",
-   "tournament": "Venezuelai Kupa",
-   "category": "Venezuela",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001928276114804",
-   "startTime": "2026-11-18T22:00:00.000Z",
-   "participant1Name": "Deportivo Tachira",
-   "participant2Name": "Academia Puerto Cabello",
-   "tournamentId": 19282,
-   "tournamentName": "Copa Venezuela",
-   "sportName": "Soccer"
-  },
-  "score": 0.85,
-  "cl": {
-   "id": 5610505,
-   "name": "Dep. Tachira - Puerto Cabello",
-   "score": 0.873
-  }
  },
  "id1000082575996024": {
   "tm": {
@@ -1294,31 +1264,6 @@
   },
   "score": 0.816
  },
- "id1004005774835682": {
-  "tm": {
-   "id": "320288550506536960",
-   "sport": "Labdarúgás",
-   "name": "FC Atletico Cearense - Ceara B",
-   "home": "FC Atletico Cearense",
-   "away": "Ceara B",
-   "home_pid": "1373296",
-   "away_pid": "253358640499908608",
-   "tournament": "Brazil Copa Fares Lopes",
-   "category": "Brazília",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004005774835682",
-   "startTime": "2026-11-18T22:00:00.000Z",
-   "participant1Name": "FC Atletico CE",
-   "participant2Name": "Ceara SC CE",
-   "tournamentId": 40057,
-   "tournamentName": "Taca Fares Lopes",
-   "sportName": "Soccer"
-  },
-  "score": 0.79
- },
  "id1200946176687418": {
   "tm": {
    "id": "320188991495282688",
@@ -1377,36 +1322,6 @@
    "id": 5656179,
    "name": "C. Langmo - F. Broska",
    "score": 1.0
-  }
- },
- "id1200386776694762": {
-  "tm": {
-   "id": "320244671383150592",
-   "sport": "Tenisz",
-   "name": "Elmer Moller - Gonzalo Bueno",
-   "home": "Elmer Moller",
-   "away": "Gonzalo Bueno",
-   "home_pid": "140008885420347392",
-   "away_pid": "140008908680908800",
-   "tournament": "Montevideo, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-18T23:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200386776694762",
-   "startTime": "2026-11-18T23:00:00.000Z",
-   "participant1Name": "Moller, Elmer",
-   "participant2Name": "Bueno, Gonzalo",
-   "tournamentId": 3867,
-   "tournamentName": "ATP Challenger Montevideo, Uruguay Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663233,
-   "name": "Elmer Möller - Gon. Bueno",
-   "score": 0.873
   }
  },
  "id1201316776695058": {
@@ -1904,31 +1819,6 @@
   },
   "score": 1.0
  },
- "id1101445572467052": {
-  "tm": {
-   "id": "319173438822490112",
-   "sport": "Kosárlabda",
-   "name": "Armann - Stjarnan",
-   "home": "Armann",
-   "away": "Stjarnan",
-   "home_pid": "184782127994294272",
-   "away_pid": "889763",
-   "tournament": "Izlandi bajnokság",
-   "category": "Izland",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T19:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1101445572467052",
-   "startTime": "2026-11-19T19:15:00.000Z",
-   "participant1Name": "Armann",
-   "participant2Name": "Stjarnan",
-   "tournamentId": 14455,
-   "tournamentName": "Urvalsdeild",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
  "id1101445572467044": {
   "tm": {
    "id": "319173438647377920",
@@ -1948,6 +1838,31 @@
    "startTime": "2026-11-19T19:15:00.000Z",
    "participant1Name": "Alftanes",
    "participant2Name": "UMF Grindavik",
+   "tournamentId": 14455,
+   "tournamentName": "Urvalsdeild",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1101445572467052": {
+  "tm": {
+   "id": "319173438822490112",
+   "sport": "Kosárlabda",
+   "name": "Armann - Stjarnan",
+   "home": "Armann",
+   "away": "Stjarnan",
+   "home_pid": "184782127994294272",
+   "away_pid": "889763",
+   "tournament": "Izlandi bajnokság",
+   "category": "Izland",
+   "tm_sport_id": "8",
+   "start": "2026-11-19T19:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1101445572467052",
+   "startTime": "2026-11-19T19:15:00.000Z",
+   "participant1Name": "Armann",
+   "participant2Name": "Stjarnan",
    "tournamentId": 14455,
    "tournamentName": "Urvalsdeild",
    "sportName": "Basketball"
@@ -2674,36 +2589,6 @@
    "score": 1.0
   }
  },
- "id1500026171696592": {
-  "tm": {
-   "id": "319173152333701120",
-   "sport": "Jégkorong",
-   "name": "Växjö - Björklöven",
-   "home": "Växjö",
-   "away": "Björklöven",
-   "home_pid": "37264",
-   "away_pid": "37273",
-   "tournament": "Svéd bajnokság",
-   "category": "Svédország",
-   "tm_sport_id": "6",
-   "start": "2026-11-19T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500026171696592",
-   "startTime": "2026-11-19T18:00:00.000Z",
-   "participant1Name": "Vaxjo Lakers",
-   "participant2Name": "IF Bjorkloven",
-   "tournamentId": 261,
-   "tournamentName": "SHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594635,
-   "name": "Växjö - Björklöven",
-   "score": 1.0
-  }
- },
  "id1500026171696584": {
   "tm": {
    "id": "319173152496230400",
@@ -2764,33 +2649,33 @@
    "score": 1.0
   }
  },
- "id1500026171696586": {
+ "id1500026171696592": {
   "tm": {
-   "id": "319173152260300800",
+   "id": "319173152333701120",
    "sport": "Jégkorong",
-   "name": "Timra - Örebro",
-   "home": "Timra",
-   "away": "Örebro",
-   "home_pid": "37250",
-   "away_pid": "39459",
+   "name": "Växjö - Björklöven",
+   "home": "Växjö",
+   "away": "Björklöven",
+   "home_pid": "37264",
+   "away_pid": "37273",
    "tournament": "Svéd bajnokság",
    "category": "Svédország",
    "tm_sport_id": "6",
    "start": "2026-11-19T18:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1500026171696586",
+   "fixtureId": "id1500026171696592",
    "startTime": "2026-11-19T18:00:00.000Z",
-   "participant1Name": "Timraa IK",
-   "participant2Name": "HC Orebro",
+   "participant1Name": "Vaxjo Lakers",
+   "participant2Name": "IF Bjorkloven",
    "tournamentId": 261,
    "tournamentName": "SHL",
    "sportName": "Ice Hockey"
   },
   "score": 1.0,
   "cl": {
-   "id": 5594641,
-   "name": "Timra - Örebro",
+   "id": 5594635,
+   "name": "Växjö - Björklöven",
    "score": 1.0
   }
  },
@@ -2821,6 +2706,36 @@
   "cl": {
    "id": 5594640,
    "name": "Brynäs - Lulea",
+   "score": 1.0
+  }
+ },
+ "id1500026171696586": {
+  "tm": {
+   "id": "319173152260300800",
+   "sport": "Jégkorong",
+   "name": "Timra - Örebro",
+   "home": "Timra",
+   "away": "Örebro",
+   "home_pid": "37250",
+   "away_pid": "39459",
+   "tournament": "Svéd bajnokság",
+   "category": "Svédország",
+   "tm_sport_id": "6",
+   "start": "2026-11-19T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500026171696586",
+   "startTime": "2026-11-19T18:00:00.000Z",
+   "participant1Name": "Timraa IK",
+   "participant2Name": "HC Orebro",
+   "tournamentId": 261,
+   "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594641,
+   "name": "Timra - Örebro",
    "score": 1.0
   }
  },
@@ -3059,28 +2974,53 @@
   },
   "score": 0.887
  },
- "id2703194973528274": {
+ "id2503634976899606": {
   "tm": {
-   "id": "320197383310991360",
-   "sport": "Krikett",
-   "name": "Új-Zéland - India",
-   "home": "Új-Zéland",
-   "away": "India",
-   "home_pid": "38148",
-   "away_pid": "38159",
-   "tournament": "Test Series",
-   "category": "Világ",
-   "tm_sport_id": "26",
-   "start": "2026-11-18T22:00:00+00:00"
+   "id": "320225498373365760",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Franek - Ondrej Svacha",
+   "home": "Tomas Franek",
+   "away": "Ondrej Svacha",
+   "home_pid": "225094649478533120",
+   "away_pid": "192184043047120896",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T23:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2703194973528274",
-   "startTime": "2026-11-18T22:00:00.000Z",
-   "participant1Name": "New Zealand",
-   "participant2Name": "India",
-   "tournamentId": 31949,
-   "tournamentName": "Test Series New Zealand vs India",
-   "sportName": "Cricket"
+   "fixtureId": "id2503634976899606",
+   "startTime": "2026-11-18T23:00:00.000Z",
+   "participant1Name": "Franek, Tomas",
+   "participant2Name": "Svacha, Ondrej",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899096": {
+  "tm": {
+   "id": "320225392650690560",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Postelt - Zdenek Bilek",
+   "home": "Tomas Postelt",
+   "away": "Zdenek Bilek",
+   "home_pid": "135653744769552384",
+   "away_pid": "107383063310389248",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T23:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899096",
+   "startTime": "2026-11-18T23:00:00.000Z",
+   "participant1Name": "Postelt, Tomas",
+   "participant2Name": "Bilek, Zdenek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
   },
   "score": 1.0
  },
@@ -3146,7 +3086,7 @@
    "tournament": "Grand Slam of Darts",
    "category": "Világ",
    "tm_sport_id": "45",
-   "start": "2026-11-18T22:15:00+00:00"
+   "start": "2026-11-18T22:10:00+00:00"
   },
   "fx": {
    "fixtureId": "id1900059776636388",
@@ -3248,6 +3188,27 @@
    "sportName": "Waterpolo"
   },
   "score": 0.767
+ },
+ "id1200386776694762": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1200386776694762",
+   "startTime": "2026-11-18T23:00:00.000Z",
+   "participant1Name": "Moller, Elmer",
+   "participant2Name": "Bueno, Gonzalo",
+   "tournamentId": 3867,
+   "tournamentName": "ATP Challenger Montevideo, Uruguay Men Singles",
+   "sportName": "Tennis"
+  },
+  "score": 0.873,
+  "cl": {
+   "id": 5663233,
+   "name": "Elmer Möller - Gon. Bueno",
+   "score": 0.873,
+   "home": "Elmer Möller",
+   "away": "Gon. Bueno",
+   "tournament": "Montevideo, férfi egyes"
+  }
  },
  "id1500084472733774": {
   "tm": null,
