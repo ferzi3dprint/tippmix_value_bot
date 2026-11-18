@@ -2614,31 +2614,6 @@
   },
   "score": 1.0
  },
- "id1005372875429054": {
-  "tm": {
-   "id": "320188785537130496",
-   "sport": "Labdarúgás",
-   "name": "U22Wofoo Tai Po - U22Eastern District",
-   "home": "U22Wofoo Tai Po",
-   "away": "U22Eastern District",
-   "home_pid": "254278913218699264",
-   "away_pid": "284607272926351360",
-   "tournament": "U22 Hongkongi bajnokság",
-   "category": "Hongkong",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1005372875429054",
-   "startTime": "2026-11-18T10:30:00.000Z",
-   "participant1Name": "Tai Po FC",
-   "participant2Name": "Eastern District",
-   "tournamentId": 53728,
-   "tournamentName": "U22 Premier League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000100675619134": {
   "tm": {
    "id": "320214600584863744",
@@ -3334,36 +3309,6 @@
   },
   "score": 0.738
  },
- "id1202140876736468": {
-  "tm": {
-   "id": "320079211407679488",
-   "sport": "Tenisz",
-   "name": "Harrison C./Skupski N. - Bolelli S./Vavassori A.",
-   "home": "Harrison C./Skupski N.",
-   "away": "Bolelli S./Vavassori A.",
-   "home_pid": "292114485670612992",
-   "away_pid": "206436789072850944",
-   "tournament": "ATP-vb, férfi páros, B csoport",
-   "category": "ATP",
-   "tm_sport_id": "3",
-   "start": "2026-11-18T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1202140876736468",
-   "startTime": "2026-11-18T10:30:00.000Z",
-   "participant1Name": "Harrison C / Skupski N",
-   "participant2Name": "Bolelli S / Vavassori A",
-   "tournamentId": 21408,
-   "tournamentName": "ATP World Tour Finals Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655227,
-   "name": "Harrison C / Skupski N - Bolelli S / Vavassori A",
-   "score": 1.0
-  }
- },
  "id1200398776806566": {
   "tm": {
    "id": "319986752894869504",
@@ -3831,36 +3776,6 @@
   "cl": {
    "id": 5655959,
    "name": "L. Staeheli - K. Samrej",
-   "score": 1.0
-  }
- },
- "id1205408676775306": {
-  "tm": {
-   "id": "320173874073378816",
-   "sport": "Tenisz",
-   "name": "Valeria Avdeeva - Vladlena Bokova",
-   "home": "Valeria Avdeeva",
-   "away": "Vladlena Bokova",
-   "home_pid": "314133674706235392",
-   "away_pid": "6334444247990272",
-   "tournament": "Carvoeiro, női egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-18T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205408676775306",
-   "startTime": "2026-11-18T10:30:00.000Z",
-   "participant1Name": "Avdeeva, Valeria",
-   "participant2Name": "Bokova, Vladlena",
-   "tournamentId": 54086,
-   "tournamentName": "UTR PTT Carvoeiro Women 09",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665998,
-   "name": "V. Avdeeva - V. Bokova",
    "score": 1.0
   }
  },
@@ -9214,30 +9129,105 @@
   },
   "score": 1.0
  },
- "id2503634976899072": {
+ "id2503634976899190": {
   "tm": {
-   "id": "320219660974891008",
+   "id": "320219615985737728",
    "sport": "Asztalitenisz",
-   "name": "Mihail Trinta - Vladimir Havlicek",
-   "home": "Mihail Trinta",
-   "away": "Vladimir Havlicek",
-   "home_pid": "184786608350875648",
-   "away_pid": "112459598709018624",
+   "name": "Tomas Nohejl - Tibor Kolenic",
+   "home": "Tomas Nohejl",
+   "away": "Tibor Kolenic",
+   "home_pid": "177420810673246208",
+   "away_pid": "153681663609589760",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-18T11:00:00+00:00"
+   "start": "2026-11-18T11:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976899072",
-   "startTime": "2026-11-18T11:00:00.000Z",
-   "participant1Name": "Trinta, Mihail",
-   "participant2Name": "Havlicek, Vladimir",
+   "fixtureId": "id2503634976899190",
+   "startTime": "2026-11-18T11:30:00.000Z",
+   "participant1Name": "Nohejl, Tomas",
+   "participant2Name": "Kolenic, Tibor",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0
+ },
+ "id2503634976899176": {
+  "tm": {
+   "id": "320219092026990592",
+   "sport": "Asztalitenisz",
+   "name": "Radovan Polasek - Pavel Wawrosz",
+   "home": "Radovan Polasek",
+   "away": "Pavel Wawrosz",
+   "home_pid": "173804475687948288",
+   "away_pid": "185657629937291264",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899176",
+   "startTime": "2026-11-18T11:30:00.000Z",
+   "participant1Name": "Polasek, Radovan",
+   "participant2Name": "Wawrosz, Pavel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899090": {
+  "tm": {
+   "id": "320218473981616128",
+   "sport": "Asztalitenisz",
+   "name": "Viktor Vejvoda - Sebastian Kasnik",
+   "home": "Viktor Vejvoda",
+   "away": "Sebastian Kasnik",
+   "home_pid": "235783907253325824",
+   "away_pid": "167281173427441664",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899090",
+   "startTime": "2026-11-18T11:30:00.000Z",
+   "participant1Name": "Vejvoda, Viktor",
+   "participant2Name": "Kasnik, Sebastian",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899642": {
+  "tm": {
+   "id": "320220036478345216",
+   "sport": "Asztalitenisz",
+   "name": "Marek Blejchar - Petr Hejl Jr.",
+   "home": "Marek Blejchar",
+   "away": "Petr Hejl Jr.",
+   "home_pid": "189119526973001728",
+   "away_pid": "317329889354129408",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899642",
+   "startTime": "2026-11-18T11:30:00.000Z",
+   "participant1Name": "Blejchar, Marek",
+   "participant2Name": "Hejl, Petr Junior",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.9
  },
  "id2702833376122624": {
   "tm": {
@@ -9581,66 +9571,6 @@
   "cl": {
    "id": 5665793,
    "name": "K. Döts - C. Menzies",
-   "score": 1.0
-  }
- },
- "id1903399476776196": {
-  "tm": {
-   "id": "319950857395314688",
-   "sport": "Darts",
-   "name": "Vicky Pruim - Trina Gulliver",
-   "home": "Vicky Pruim",
-   "away": "Trina Gulliver",
-   "home_pid": "238234776172400640",
-   "away_pid": "192258542936420352",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-18T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476776196",
-   "startTime": "2026-11-18T10:30:00.000Z",
-   "participant1Name": "Pruim, Vicky",
-   "participant2Name": "Gulliver, Trina",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665922,
-   "name": "V. Pruim - T. Gulliver",
-   "score": 1.0
-  }
- },
- "id1903399476776198": {
-  "tm": {
-   "id": "319950857454034944",
-   "sport": "Darts",
-   "name": "Gemma Hayter - Fallon Sherrock",
-   "home": "Gemma Hayter",
-   "away": "Fallon Sherrock",
-   "home_pid": "248038251353993216",
-   "away_pid": "1041701",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-18T10:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476776198",
-   "startTime": "2026-11-18T10:45:00.000Z",
-   "participant1Name": "Hayter, Gemma",
-   "participant2Name": "Sherrock, Fallon",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665917,
-   "name": "G. Hayter - F. Sherrock",
    "score": 1.0
   }
  },
