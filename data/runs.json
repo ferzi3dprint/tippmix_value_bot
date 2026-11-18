@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-16T12:43:01.517365+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 447,
-   "paired": 135,
-   "classic_only": 26
-  },
-  "tippmix_matches": 866,
-  "pinnacle_fixtures": 658,
-  "paired": 230,
-  "by_sport": {
-   "Soccer": [
-    157,
-    84
-   ],
-   "Tennis": [
-    241,
-    33
-   ],
-   "Basketball": [
-    114,
-    44
-   ],
-   "Ice Hockey": [
-    42,
-    28
-   ],
-   "Handball": [
-    31,
-    14
-   ],
-   "Volleyball": [
-    18,
-    2
-   ],
-   "Table Tennis": [
-    60,
-    9
-   ],
-   "Cricket": [
-    9,
-    1
-   ],
-   "Badminton": [
-    30,
-    0
-   ],
-   "Darts": [
-    18,
-    2
-   ],
-   "Futsal": [
-    2,
-    0
-   ],
-   "Waterpolo": [
-    5,
-    0
-   ],
-   "ESport Counter-Strike": [
-    38,
-    0
-   ],
-   "ESport Dota": [
-    9,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    82,
-    0
-   ],
-   "eBasketball": [
-    10,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    12
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+4.6% Ruanda – Mali · 1X2: Döntetlen @3.1 (fair 2.964)",
-   "+2.4% Botswana – Uganda · 1X2: Döntetlen @2.8 (fair 2.733)",
-   "+0.8% Litvánia – Liechtenstein · Gólszám 4.5: Kevesebb @1.14 (fair 1.131)",
-   "+0.7% Trinidad és Tobago – Antigua és Barbuda · 1X2: Trinidad és Tobago győz @1.18 (fair 1.171)",
-   "+0.2% Szomália – Ghána · Gólszám 3.5: Kevesebb @1.56 (fair 1.556)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 26,
-  "fast": false,
-  "fixtures_checked": 142,
-  "fixtures_both": 90,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 20,
-  "classic_checked": 102,
-  "classic_candidates": 2,
-  "top_ev_classic": [
-   "+16.4% Ruanda – Mali · 1X2: Döntetlen @3.45 (fair 2.964)",
-   "+7.9% Botswana – Uganda · 1X2: Döntetlen @2.95 (fair 2.733)",
-   "+0.5% Trinidad és Tobago – Antigua és Barbuda · Mindkét csapat szerez gólt: Nem @1.84 (fair 1.831)",
-   "-0.1% Szomália – Ghána · Gólszám 3.75: Kevesebb @1.41 (fair 1.411)",
-   "-0.1% Litvánia – Liechtenstein · Gólszám 4.5: Kevesebb @1.13 (fair 1.131)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 148
- },
- {
-  "time": "2026-11-16T12:59:11.450722+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-6.1% U20Olaszország – U20Svájc · Gólszám 4: Kevesebb @1.31 (fair 1.395)",
-   "-6.7% U20Olaszország – U20Svájc · Gólszám 2.5: Több @1.44 (fair 1.543)",
-   "-6.9% U20Olaszország – U20Svájc · 1X2: U20Olaszország győz @1.57 (fair 1.686)",
-   "-7.0% U20Olaszország – U20Svájc · Ázsiai hendikep: U20Svájc (+1.75) @1.32 (fair 1.42)",
-   "-7.8% U20Olaszország – U20Svájc · Ázsiai hendikep: U20Olaszország (-0.25) @1.38 (fair 1.497)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 5,
-  "fast": true,
-  "fixtures_checked": 15,
-  "fixtures_both": 7,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 14,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.8% A. Zizins – A. Kowalski · Győztes: A. Zizins győz @1.69 (fair 1.72)",
-   "-3.3% J.R. Clarke – Huang Jiahao · Győztes: J.R. Clarke győz @1.41 (fair 1.458)",
-   "-7.5% U20Olaszország – U20Svájc · 1X2: U20Olaszország győz @1.56 (fair 1.686)",
-   "-10.1% Daniel Zigmund – Jiri Motak · Győztes: Jiri Motak győz @1.84 (fair 2.047)",
-   "-12.8% Jiri Pozarsky – Dalecky Petr · Győztes: Jiri Pozarsky győz @1.73 (fair 1.983)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 15
- },
- {
   "time": "2026-11-16T13:04:11.451940+00:00",
   "mode": "hu",
   "settled": 0,
@@ -24614,6 +24423,197 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 1,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-18T10:21:45.775781+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 3,
+  "top_ev": [
+   "-3.5% Tampines Rovers – Ratchaburi · Ázsiai hendikep: Ratchaburi (+0.5) @1.34 (fair 1.389)",
+   "-3.5% Pusamania Borneo – Manila Digger FC · Ázsiai hendikep: Manila Digger FC (+2) @1.27 (fair 1.316)",
+   "-3.6% Daniil Glinka – Nishesh Basavareddy · Győztes: Nishesh Basavareddy győz @1.28 (fair 1.327)",
+   "-3.6% CLB TP Ho Chi Minh – Buriram Utd. · Gólszám 3.5: Kevesebb @1.37 (fair 1.421)",
+   "-3.8% Andrea Guerrieri – Toby Samuel · Győztes: Toby Samuel győz @1.39 (fair 1.444)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 7,
+  "fast": true,
+  "fixtures_checked": 34,
+  "fixtures_both": 15,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 3,
+  "classic_checked": 17,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-3.4% Priscilla Steenbergen – Eleanor Cairns · Győztes: Priscilla Steenbergen győz @1.27 (fair 1.315)",
+   "-5.1% Gemma Hayter – Trina Gulliver · Győztes: Gemma Hayter győz @1.21 (fair 1.275)",
+   "-5.1% Andrea Guerrieri – Toby Samuel · Győztes: Toby Samuel győz @1.37 (fair 1.444)",
+   "-5.5% P. Martinez Portero – M.W. Donald · Győztes: P. Martinez Portero győz @1.33 (fair 1.407)",
+   "-5.8% Daniil Glinka – Nishesh Basavareddy · Győztes: Nishesh Basavareddy győz @1.25 (fair 1.327)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 37
+ },
+ {
+  "time": "2026-11-18T10:27:54.231486+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 332,
+   "paired": 194,
+   "classic_only": 10
+  },
+  "tippmix_matches": 1132,
+  "pinnacle_fixtures": 976,
+  "paired": 383,
+  "by_sport": {
+   "Soccer": [
+    205,
+    126
+   ],
+   "Tennis": [
+    331,
+    28
+   ],
+   "Basketball": [
+    174,
+    65
+   ],
+   "Ice Hockey": [
+    89,
+    69
+   ],
+   "Handball": [
+    63,
+    19
+   ],
+   "Volleyball": [
+    43,
+    9
+   ],
+   "Table Tennis": [
+    51,
+    28
+   ],
+   "Cricket": [
+    14,
+    9
+   ],
+   "Badminton": [
+    40,
+    0
+   ],
+   "Darts": [
+    20,
+    16
+   ],
+   "Futsal": [
+    5,
+    2
+   ],
+   "Waterpolo": [
+    13,
+    7
+   ],
+   "ESport Counter-Strike": [
+    33,
+    0
+   ],
+   "ESport Dota": [
+    5,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    36,
+    0
+   ],
+   "eBasketball": [
+    5,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    5,
+    5
+   ]
+  },
+  "top_ev": [
+   "+0.1% Trinec – Olomouc · Győztes (hosszabbítással): Trinec győz @1.2 (fair 1.199)",
+   "-0.2% Portugalete – Real Union Irun · Gólszám 1.5: Több @1.36 (fair 1.362)",
+   "-0.3% Portugalete – Real Union Irun · Gólszám 2: Több @1.58 (fair 1.584)",
+   "-0.6% Aalborg – Füchse Berlin · Hendikep (rendes játékidő): Aalborg (+1.5) @1.86 (fair 1.871)",
+   "-0.6% Portugalete – Real Union Irun · Gólszám 1.75: Több @1.44 (fair 1.449)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 25,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 81,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 19,
+  "classic_checked": 89,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.7% Häcken – Manchester City · Gólszám 4.25: Kevesebb @1.48 (fair 1.491)",
+   "-0.9% Panathinaikosz – Thira · Győztes: Panathinaikosz győz @1.09 (fair 1.1)",
+   "-1.2% Häcken – Manchester City · Gólszám 4: Kevesebb @1.58 (fair 1.599)",
+   "-1.6% Aalborg – Füchse Berlin · Hendikep (rendes játékidő): Aalborg (+1.5) @1.84 (fair 1.871)",
+   "-2.3% Buducnost Podgorica – Slask Wroclaw · Győztes (hosszabbítással): Buducnost Podgorica győz @1.06 (fair 1.084)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
   "free_calls": 156
  }
 ]
