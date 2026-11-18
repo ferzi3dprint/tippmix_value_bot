@@ -1,29 +1,4 @@
 {
- "id1002742075512556": {
-  "tm": {
-   "id": "320220884367384576",
-   "sport": "Labdarúgás",
-   "name": "Nicaragua - Montserrat",
-   "home": "Nicaragua",
-   "away": "Montserrat",
-   "home_pid": "13782",
-   "away_pid": "314754571368558592",
-   "tournament": "CONCACAF Nemzetek Ligája, osztályozó",
-   "category": "Észak- és Közép-Amerika",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002742075512556",
-   "startTime": "2026-11-18T03:00:00.000Z",
-   "participant1Name": "Nicaragua",
-   "participant2Name": "Montserrat",
-   "tournamentId": 27420,
-   "tournamentName": "CONCACAF Nations League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1003459072339098": {
   "tm": {
    "id": "320185637879750656",
@@ -2349,6 +2324,31 @@
   },
   "score": 1.0
  },
+ "id1000211275944338": {
+  "tm": {
+   "id": "319052632788377600",
+   "sport": "Labdarúgás",
+   "name": "Ranchers Bees - Doma United FC",
+   "home": "Ranchers Bees",
+   "away": "Doma United FC",
+   "home_pid": "288245309991325696",
+   "away_pid": "193109143993872384",
+   "tournament": "Nigériai bajnokság",
+   "category": "Nigéria",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000211275944338",
+   "startTime": "2026-11-18T15:00:00.000Z",
+   "participant1Name": "Ranchers Bees",
+   "participant2Name": "Doma United FC",
+   "tournamentId": 2112,
+   "tournamentName": "Premier League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1003694576792542": {
   "tm": {
    "id": "320156564924211200",
@@ -3623,56 +3623,6 @@
    "sportName": "Tennis"
   },
   "score": 0.953
- },
- "id1100064872911588": {
-  "tm": {
-   "id": "320162875140284416",
-   "sport": "Kosárlabda",
-   "name": "California Baptist Lancers - Seattle Redhawks",
-   "home": "California Baptist Lancers",
-   "away": "Seattle Redhawks",
-   "home_pid": "186960511011704832",
-   "away_pid": "129559",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-18T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064872911588",
-   "startTime": "2026-11-18T03:00:00.000Z",
-   "participant1Name": "California Baptist Lancers",
-   "participant2Name": "Seattle Redhawks",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100064873742976": {
-  "tm": {
-   "id": "320162875316445184",
-   "sport": "Kosárlabda",
-   "name": "Stanford Cardinal - UC Irvine",
-   "home": "Stanford Cardinal",
-   "away": "UC Irvine",
-   "home_pid": "37643",
-   "away_pid": "187330351358595072",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-18T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873742976",
-   "startTime": "2026-11-18T03:00:00.000Z",
-   "participant1Name": "Stanford Cardinal",
-   "participant2Name": "UC Irvine Anteaters",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1100013273719686": {
   "tm": {
@@ -5824,31 +5774,6 @@
   },
   "score": 0.72
  },
- "id1500023472909528": {
-  "tm": {
-   "id": "319082845428588544",
-   "sport": "Jégkorong",
-   "name": "San Jose - Calgary",
-   "home": "San Jose",
-   "away": "Calgary",
-   "home_pid": "37442",
-   "away_pid": "37446",
-   "tournament": "NHL (alapszakasz)",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-18T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500023472909528",
-   "startTime": "2026-11-18T03:00:00.000Z",
-   "participant1Name": "San Jose Sharks",
-   "participant2Name": "Calgary Flames",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
  "id1503015673810696": {
   "tm": {
    "id": "319082842979115008",
@@ -7949,31 +7874,6 @@
   },
   "score": 0.789
  },
- "id2503634976869234": {
-  "tm": {
-   "id": "320130058000867328",
-   "sport": "Asztalitenisz",
-   "name": "Tomas Andrle - Martin Stefek",
-   "home": "Tomas Andrle",
-   "away": "Martin Stefek",
-   "home_pid": "116988456519913472",
-   "away_pid": "197171400897884160",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869234",
-   "startTime": "2026-11-18T03:00:00.000Z",
-   "participant1Name": "Andrle, Tomas",
-   "participant2Name": "Stefek, Martin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976869254": {
   "tm": {
    "id": "320129446634921984",
@@ -8749,31 +8649,6 @@
   },
   "score": 1.0
  },
- "id2503637776868950": {
-  "tm": {
-   "id": "320260530296135680",
-   "sport": "Asztalitenisz",
-   "name": "Grzegorz Marud - Oracz Lukasz",
-   "home": "Grzegorz Marud",
-   "away": "Oracz Lukasz",
-   "home_pid": "242065297285484544",
-   "away_pid": "193463863056953344",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T02:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776868950",
-   "startTime": "2026-11-18T02:45:00.000Z",
-   "participant1Name": "Marud, Grzegorz",
-   "participant2Name": "Oracz, Lukasz",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503637776868956": {
   "tm": {
    "id": "320262665472647168",
@@ -9096,31 +8971,6 @@
    "tournamentId": 49364,
    "tournamentName": "WTT Star Contender Muscat, XD",
    "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2702833376122602": {
-  "tm": {
-   "id": "320141848391786496",
-   "sport": "Krikett",
-   "name": "Kerala - Andhra",
-   "home": "Kerala",
-   "away": "Andhra",
-   "home_pid": "192104456840704000",
-   "away_pid": "192104145804750848",
-   "tournament": "Indiai Syed Mustaq Ali Trophy",
-   "category": "India",
-   "tm_sport_id": "26",
-   "start": "2026-11-18T03:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702833376122602",
-   "startTime": "2026-11-18T03:00:00.000Z",
-   "participant1Name": "Kerala",
-   "participant2Name": "Andhra",
-   "tournamentId": 28333,
-   "tournamentName": "Syed Mushtaq Ali Trophy Elite",
-   "sportName": "Cricket"
   },
   "score": 1.0
  },
