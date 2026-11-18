@@ -3214,6 +3214,31 @@
   },
   "score": 0.738
  },
+ "id1002602876479090": {
+  "tm": {
+   "id": "320017175650836480",
+   "sport": "Labdarúgás",
+   "name": "Saguntino - Jove Espanyol",
+   "home": "Saguntino",
+   "away": "Jove Espanyol",
+   "home_pid": "428096",
+   "away_pid": "6145706126753792",
+   "tournament": "Spanyol 5., 6. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T18:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002602876479090",
+   "startTime": "2026-11-18T18:30:00.000Z",
+   "participant1Name": "Atletico Saguntino",
+   "participant2Name": "CD Espanol San Vicente",
+   "tournamentId": 26028,
+   "tournamentName": "Tercera Federacion, Group 6",
+   "sportName": "Soccer"
+  },
+  "score": 0.738
+ },
  "id1202140876736468": {
   "tm": {
    "id": "320079211407679488",
@@ -9709,25 +9734,25 @@
   },
   "score": 1.0
  },
- "id2503634976899276": {
+ "id2503634976899676": {
   "tm": {
-   "id": "320218382972559360",
+   "id": "320217326903435264",
    "sport": "Asztalitenisz",
-   "name": "Sebastian Kasnik - Viktor Vejvoda",
-   "home": "Sebastian Kasnik",
-   "away": "Viktor Vejvoda",
-   "home_pid": "167281173427441664",
-   "away_pid": "235783907253325824",
+   "name": "Jiri Stach - Filip Zurek",
+   "home": "Jiri Stach",
+   "away": "Filip Zurek",
+   "home_pid": "168633047891103744",
+   "away_pid": "284596949191266304",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
    "start": "2026-11-18T07:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976899276",
+   "fixtureId": "id2503634976899676",
    "startTime": "2026-11-18T07:00:00.000Z",
-   "participant1Name": "Kasnik, Sebastian",
-   "participant2Name": "Vejvoda, Viktor",
+   "participant1Name": "Stach, Jiri",
+   "participant2Name": "Zurek, Filip",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -9759,25 +9784,25 @@
   },
   "score": 1.0
  },
- "id2503634976899676": {
+ "id2503634976899276": {
   "tm": {
-   "id": "320217326903435264",
+   "id": "320218382972559360",
    "sport": "Asztalitenisz",
-   "name": "Jiri Stach - Filip Zurek",
-   "home": "Jiri Stach",
-   "away": "Filip Zurek",
-   "home_pid": "168633047891103744",
-   "away_pid": "284596949191266304",
+   "name": "Sebastian Kasnik - Viktor Vejvoda",
+   "home": "Sebastian Kasnik",
+   "away": "Viktor Vejvoda",
+   "home_pid": "167281173427441664",
+   "away_pid": "235783907253325824",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
    "start": "2026-11-18T07:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976899676",
+   "fixtureId": "id2503634976899276",
    "startTime": "2026-11-18T07:00:00.000Z",
-   "participant1Name": "Stach, Jiri",
-   "participant2Name": "Zurek, Filip",
+   "participant1Name": "Kasnik, Sebastian",
+   "participant2Name": "Vejvoda, Viktor",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -9803,6 +9828,106 @@
    "startTime": "2026-11-18T07:00:00.000Z",
    "participant1Name": "Svoboda, Jan",
    "participant2Name": "Zuzanek, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899608": {
+  "tm": {
+   "id": "320218334806220800",
+   "sport": "Asztalitenisz",
+   "name": "Alexandr Virag - Eduard Sionkala",
+   "home": "Alexandr Virag",
+   "away": "Eduard Sionkala",
+   "home_pid": "274731950412009472",
+   "away_pid": "169167381197803520",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899608",
+   "startTime": "2026-11-18T07:30:00.000Z",
+   "participant1Name": "Virag, Alexandr",
+   "participant2Name": "Sionkala, Eduard",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899196": {
+  "tm": {
+   "id": "320217326539579392",
+   "sport": "Asztalitenisz",
+   "name": "Radovan Polasek - Dousek Tomas",
+   "home": "Radovan Polasek",
+   "away": "Dousek Tomas",
+   "home_pid": "173804475687948288",
+   "away_pid": "297037498825347072",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899196",
+   "startTime": "2026-11-18T07:30:00.000Z",
+   "participant1Name": "Polasek, Radovan",
+   "participant2Name": "Dousek, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899098": {
+  "tm": {
+   "id": "320217326648631296",
+   "sport": "Asztalitenisz",
+   "name": "Martin Sychra - Michal Regner",
+   "home": "Martin Sychra",
+   "away": "Michal Regner",
+   "home_pid": "225609756852768768",
+   "away_pid": "112731966551511040",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899098",
+   "startTime": "2026-11-18T07:30:00.000Z",
+   "participant1Name": "Sychra, Martin",
+   "participant2Name": "Regner, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899268": {
+  "tm": {
+   "id": "320218383636307968",
+   "sport": "Asztalitenisz",
+   "name": "Tomasch David - Jan Potensky",
+   "home": "Tomasch David",
+   "away": "Jan Potensky",
+   "home_pid": "184140265205846016",
+   "away_pid": "167900208636678144",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899268",
+   "startTime": "2026-11-18T07:30:00.000Z",
+   "participant1Name": "Tomasch, David",
+   "participant2Name": "Potensky, Jan",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -10973,6 +11098,106 @@
    "sportName": "Waterpolo"
   },
   "score": 0.913
+ },
+ "id3300025573274074": {
+  "tm": {
+   "id": "319716801030201344",
+   "sport": "Floorball",
+   "name": "Mullsjö - Linköping",
+   "home": "Mullsjö",
+   "away": "Linköping",
+   "home_pid": "420849",
+   "away_pid": "420843",
+   "tournament": "Svéd bajnokság",
+   "category": "Svédország",
+   "tm_sport_id": "41",
+   "start": "2026-11-18T17:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id3300025573274074",
+   "startTime": "2026-11-18T17:30:00.000Z",
+   "participant1Name": "Mullsjo AIS",
+   "participant2Name": "Linkoping IBK",
+   "tournamentId": 255,
+   "tournamentName": "Svenska Superligan",
+   "sportName": "Floorball"
+  },
+  "score": 1.0
+ },
+ "id3300025573274078": {
+  "tm": {
+   "id": "319716801307025408",
+   "sport": "Floorball",
+   "name": "Pixbo Wallenstam - Växjö",
+   "home": "Pixbo Wallenstam",
+   "away": "Växjö",
+   "home_pid": "54415",
+   "away_pid": "1015644",
+   "tournament": "Svéd bajnokság",
+   "category": "Svédország",
+   "tm_sport_id": "41",
+   "start": "2026-11-18T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id3300025573274078",
+   "startTime": "2026-11-18T18:00:00.000Z",
+   "participant1Name": "Pixbo Wallenstam",
+   "participant2Name": "Vaxjo IBK",
+   "tournamentId": 255,
+   "tournamentName": "Svenska Superligan",
+   "sportName": "Floorball"
+  },
+  "score": 1.0
+ },
+ "id3300025573274076": {
+  "tm": {
+   "id": "319716801195876352",
+   "sport": "Floorball",
+   "name": "Kalmarsund - Lund Elit",
+   "home": "Kalmarsund",
+   "away": "Lund Elit",
+   "home_pid": "987437",
+   "away_pid": "195578867064401920",
+   "tournament": "Svéd bajnokság",
+   "category": "Svédország",
+   "tm_sport_id": "41",
+   "start": "2026-11-18T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id3300025573274076",
+   "startTime": "2026-11-18T18:00:00.000Z",
+   "participant1Name": "FBC Kalmarsund",
+   "participant2Name": "IBK Lund Elit",
+   "tournamentId": 255,
+   "tournamentName": "Svenska Superligan",
+   "sportName": "Floorball"
+  },
+  "score": 1.0
+ },
+ "id3300025573274080": {
+  "tm": {
+   "id": "319716801110941696",
+   "sport": "Floorball",
+   "name": "AIK - Dalen",
+   "home": "AIK",
+   "away": "Dalen",
+   "home_pid": "195409339322888192",
+   "away_pid": "35630",
+   "tournament": "Svéd bajnokság",
+   "category": "Svédország",
+   "tm_sport_id": "41",
+   "start": "2026-11-18T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id3300025573274080",
+   "startTime": "2026-11-18T18:00:00.000Z",
+   "participant1Name": "AIK Innebandy",
+   "participant2Name": "IBK Dalen",
+   "tournamentId": 255,
+   "tournamentName": "Svenska Superligan",
+   "sportName": "Floorball"
+  },
+  "score": 1.0
  },
  "id1000084175049112": {
   "tm": null,
