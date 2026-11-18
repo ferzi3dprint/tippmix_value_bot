@@ -2719,31 +2719,6 @@
   },
   "score": 1.0
  },
- "id1002604276734250": {
-  "tm": {
-   "id": "320208855758872576",
-   "sport": "Labdarúgás",
-   "name": "Aguilas FC 2 - UCAM Murcia 2",
-   "home": "Aguilas FC 2",
-   "away": "UCAM Murcia 2",
-   "home_pid": "247536819236368384",
-   "away_pid": "1481981",
-   "tournament": "Spanyol 5., 13. csoport",
-   "category": "Spanyolország",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T19:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002604276734250",
-   "startTime": "2026-11-18T19:30:00.000Z",
-   "participant1Name": "Aguilas FC B",
-   "participant2Name": "UCAM Murcia II",
-   "tournamentId": 26042,
-   "tournamentName": "Tercera Federacion, Group 13",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002604276779566": {
   "tm": {
    "id": "320236623478464512",
@@ -2788,6 +2763,31 @@
    "startTime": "2026-11-18T19:30:00.000Z",
    "participant1Name": "San Javier Mar Menor CF",
    "participant2Name": "Bullas Deportivo",
+   "tournamentId": 26042,
+   "tournamentName": "Tercera Federacion, Group 13",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002604276734250": {
+  "tm": {
+   "id": "320208855758872576",
+   "sport": "Labdarúgás",
+   "name": "Aguilas FC 2 - UCAM Murcia 2",
+   "home": "Aguilas FC 2",
+   "away": "UCAM Murcia 2",
+   "home_pid": "247536819236368384",
+   "away_pid": "1481981",
+   "tournament": "Spanyol 5., 13. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002604276734250",
+   "startTime": "2026-11-18T19:30:00.000Z",
+   "participant1Name": "Aguilas FC B",
+   "participant2Name": "UCAM Murcia II",
    "tournamentId": 26042,
    "tournamentName": "Tercera Federacion, Group 13",
    "sportName": "Soccer"
@@ -9064,66 +9064,6 @@
    "score": 1.0
   }
  },
- "id2504935876909420": {
-  "tm": {
-   "id": "320233273779363840",
-   "sport": "Asztalitenisz",
-   "name": "Sofia Xuan Zhang - Minhyung Jee",
-   "home": "Sofia Xuan Zhang",
-   "away": "Minhyung Jee",
-   "home_pid": "2008803155668992",
-   "away_pid": "153964414938173440",
-   "tournament": "Muscat, női egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T08:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935876909420",
-   "startTime": "2026-11-18T08:45:00.000Z",
-   "participant1Name": "Zhang, Sofia-Xuan",
-   "participant2Name": "Jee, Minhyung",
-   "tournamentId": 49358,
-   "tournamentName": "WTT Star Contender Muscat, WS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667977,
-   "name": "Xuan Zhang - Minhyung Jee",
-   "score": 1.0
-  }
- },
- "id2504936276909426": {
-  "tm": {
-   "id": "320236230942990336",
-   "sport": "Asztalitenisz",
-   "name": "Tofant A./Cok I. - Szocs B./Samara E.",
-   "home": "Tofant A./Cok I.",
-   "away": "Szocs B./Samara E.",
-   "home_pid": "246134443211354112",
-   "away_pid": "273400520664813568",
-   "tournament": "Muscat, női páros",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T08:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504936276909426",
-   "startTime": "2026-11-18T08:45:00.000Z",
-   "participant1Name": "Cok I / Tofant A",
-   "participant2Name": "Samara E / Szocs B",
-   "tournamentId": 49362,
-   "tournamentName": "WTT Star Contender Muscat, WD",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667994,
-   "name": "Cok I / Tofant A - Samara E / Szőcs B",
-   "score": 1.0
-  }
- },
  "id2504935676909466": {
   "tm": {
    "id": "320236081127694336",
@@ -9754,36 +9694,6 @@
    "score": 1.0
   }
  },
- "id2504935676909472": {
-  "tm": {
-   "id": "320235736386314240",
-   "sport": "Asztalitenisz",
-   "name": "Manush Utpalbhai Shah - Kawakami Ryuusei",
-   "home": "Manush Utpalbhai Shah",
-   "away": "Kawakami Ryuusei",
-   "home_pid": "146804313767858176",
-   "away_pid": "272024692678856704",
-   "tournament": "Muscat, férfi egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T08:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935676909472",
-   "startTime": "2026-11-18T08:45:00.000Z",
-   "participant1Name": "Shah, Manush Utpalbhai",
-   "participant2Name": "Kawakami, Ryuusei",
-   "tournamentId": 49356,
-   "tournamentName": "WTT Star Contender Muscat, MS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667983,
-   "name": "M.U. Shah - Ryu. Kawakami",
-   "score": 0.9
-  }
- },
  "id2504935676909454": {
   "tm": {
    "id": "320263216134430720",
@@ -10084,36 +9994,6 @@
    "score": 1.0
   }
  },
- "id2503634976899152": {
-  "tm": {
-   "id": "320218335177416704",
-   "sport": "Asztalitenisz",
-   "name": "Sebastian Kasnik - Martin Sychra",
-   "home": "Sebastian Kasnik",
-   "away": "Martin Sychra",
-   "home_pid": "167281173427441664",
-   "away_pid": "225609756852768768",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T09:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899152",
-   "startTime": "2026-11-18T09:00:00.000Z",
-   "participant1Name": "Kasnik, Sebastian",
-   "participant2Name": "Sychra, Martin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668265,
-   "name": "Sebastian Kasnik - M. Sychra",
-   "score": 1.0
-  }
- },
  "id2503634976899076": {
   "tm": {
    "id": "320218335098773504",
@@ -10174,6 +10054,36 @@
    "score": 0.892
   }
  },
+ "id2503634976899152": {
+  "tm": {
+   "id": "320218335177416704",
+   "sport": "Asztalitenisz",
+   "name": "Sebastian Kasnik - Martin Sychra",
+   "home": "Sebastian Kasnik",
+   "away": "Martin Sychra",
+   "home_pid": "167281173427441664",
+   "away_pid": "225609756852768768",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T09:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899152",
+   "startTime": "2026-11-18T09:00:00.000Z",
+   "participant1Name": "Kasnik, Sebastian",
+   "participant2Name": "Sychra, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668265,
+   "name": "Sebastian Kasnik - M. Sychra",
+   "score": 1.0
+  }
+ },
  "id2503634976899664": {
   "tm": {
    "id": "320218383814565888",
@@ -10202,6 +10112,126 @@
    "id": 5668258,
    "name": "J. Stach - Alex. Virag",
    "score": 0.883
+  }
+ },
+ "id2503634976899224": {
+  "tm": {
+   "id": "320218334558756864",
+   "sport": "Asztalitenisz",
+   "name": "Viktor Vejvoda - Michal Regner",
+   "home": "Viktor Vejvoda",
+   "away": "Michal Regner",
+   "home_pid": "235783907253325824",
+   "away_pid": "112731966551511040",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T09:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899224",
+   "startTime": "2026-11-18T09:30:00.000Z",
+   "participant1Name": "Vejvoda, Viktor",
+   "participant2Name": "Regner, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668267,
+   "name": "V. Vejvoda - Michal Regner",
+   "score": 1.0
+  }
+ },
+ "id2503634976899620": {
+  "tm": {
+   "id": "320218334306050048",
+   "sport": "Asztalitenisz",
+   "name": "Filip Zurek - Eduard Sionkala",
+   "home": "Filip Zurek",
+   "away": "Eduard Sionkala",
+   "home_pid": "284596949191266304",
+   "away_pid": "169167381197803520",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T09:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899620",
+   "startTime": "2026-11-18T09:30:00.000Z",
+   "participant1Name": "Zurek, Filip",
+   "participant2Name": "Sionkala, Eduard",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668262,
+   "name": "F. Zurek - E. Sionkala",
+   "score": 1.0
+  }
+ },
+ "id2503634976899066": {
+  "tm": {
+   "id": "320218334883815424",
+   "sport": "Asztalitenisz",
+   "name": "Lubos Forman - Jan Potensky",
+   "home": "Lubos Forman",
+   "away": "Jan Potensky",
+   "home_pid": "273746596995403776",
+   "away_pid": "167900208636678144",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T09:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899066",
+   "startTime": "2026-11-18T09:30:00.000Z",
+   "participant1Name": "Forman, Lubos",
+   "participant2Name": "Potensky, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668266,
+   "name": "L. Forman - J. Potensky",
+   "score": 1.0
+  }
+ },
+ "id2503634976899094": {
+  "tm": {
+   "id": "320218383444418560",
+   "sport": "Asztalitenisz",
+   "name": "Pavel Wawrosz - Dousek Tomas",
+   "home": "Pavel Wawrosz",
+   "away": "Dousek Tomas",
+   "home_pid": "185657629937291264",
+   "away_pid": "297037498825347072",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T09:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899094",
+   "startTime": "2026-11-18T09:30:00.000Z",
+   "participant1Name": "Wawrosz, Pavel",
+   "participant2Name": "Dousek, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668259,
+   "name": "P. Wawrosz - Tom. Dousek",
+   "score": 0.936
   }
  },
  "id2704941876121536": {
@@ -11630,90 +11660,6 @@
    "tournament": "AHL"
   }
  },
- "id2503634976899180": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899180",
-   "startTime": "2026-11-18T08:30:00.000Z",
-   "participant1Name": "Regner, Michal",
-   "participant2Name": "Kasnik, Sebastian",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668256,
-   "name": "Michal Regner - Sebastian Kasnik",
-   "score": 1.0,
-   "home": "Michal Regner",
-   "away": "Sebastian Kasnik",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899140": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899140",
-   "startTime": "2026-11-18T08:30:00.000Z",
-   "participant1Name": "Sobisek, Martin",
-   "participant2Name": "Svoboda, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668257,
-   "name": "M. Sobisek - Jan Svoboda",
-   "score": 1.0,
-   "home": "M. Sobisek",
-   "away": "Jan Svoboda",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899624": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899624",
-   "startTime": "2026-11-18T08:30:00.000Z",
-   "participant1Name": "Sionkala, Eduard",
-   "participant2Name": "Stach, Jiri",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668260,
-   "name": "E. Sionkala - J. Stach",
-   "score": 1.0,
-   "home": "E. Sionkala",
-   "away": "J. Stach",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899092": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899092",
-   "startTime": "2026-11-18T08:30:00.000Z",
-   "participant1Name": "Potensky, Jan",
-   "participant2Name": "Grohsgott, Jiri",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668264,
-   "name": "J. Potensky - J. Grohsgott",
-   "score": 1.0,
-   "home": "J. Potensky",
-   "away": "J. Grohsgott",
-   "tournament": "Cseh Liga Pro"
-  }
- },
  "id2503634976899150": {
   "tm": null,
   "fx": {
@@ -11753,111 +11699,6 @@
    "score": 1.0,
    "home": "Jiri Zuzanek",
    "away": "M. Sobisek",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899620": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899620",
-   "startTime": "2026-11-18T09:30:00.000Z",
-   "participant1Name": "Zurek, Filip",
-   "participant2Name": "Sionkala, Eduard",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668262,
-   "name": "F. Zurek - E. Sionkala",
-   "score": 1.0,
-   "home": "F. Zurek",
-   "away": "E. Sionkala",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899066": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899066",
-   "startTime": "2026-11-18T09:30:00.000Z",
-   "participant1Name": "Forman, Lubos",
-   "participant2Name": "Potensky, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668266,
-   "name": "L. Forman - J. Potensky",
-   "score": 1.0,
-   "home": "L. Forman",
-   "away": "J. Potensky",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899224": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899224",
-   "startTime": "2026-11-18T09:30:00.000Z",
-   "participant1Name": "Vejvoda, Viktor",
-   "participant2Name": "Regner, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668267,
-   "name": "V. Vejvoda - Michal Regner",
-   "score": 1.0,
-   "home": "V. Vejvoda",
-   "away": "Michal Regner",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899074": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899074",
-   "startTime": "2026-11-18T08:30:00.000Z",
-   "participant1Name": "Dousek, Tomas",
-   "participant2Name": "Navedla, Matyas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 0.936,
-  "cl": {
-   "id": 5668263,
-   "name": "Tom. Dousek - M. Navedla",
-   "score": 0.936,
-   "home": "Tom. Dousek",
-   "away": "M. Navedla",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899094": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899094",
-   "startTime": "2026-11-18T09:30:00.000Z",
-   "participant1Name": "Wawrosz, Pavel",
-   "participant2Name": "Dousek, Tomas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 0.936,
-  "cl": {
-   "id": 5668259,
-   "name": "P. Wawrosz - Tom. Dousek",
-   "score": 0.936,
-   "home": "P. Wawrosz",
-   "away": "Tom. Dousek",
    "tournament": "Cseh Liga Pro"
   }
  },
