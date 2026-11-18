@@ -1,114 +1,4 @@
 {
- "id1004834376591270": {
-  "tm": {
-   "id": "319709218408046592",
-   "sport": "Labdarúgás",
-   "name": "U19Valencia - U19UCAM Murcia",
-   "home": "U19Valencia",
-   "away": "U19UCAM Murcia",
-   "home_pid": "193459912970498048",
-   "away_pid": "252084861871886336",
-   "tournament": "U19 Spanyol bajnokság",
-   "category": "Spanyolország",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004834376591270",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "CF Valencia",
-   "participant2Name": "UCAM Murcia",
-   "tournamentId": 48343,
-   "tournamentName": "U19 Division de Honor Juvenil",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000211275944338": {
-  "tm": {
-   "id": "319052632788377600",
-   "sport": "Labdarúgás",
-   "name": "Ranchers Bees - Doma United FC",
-   "home": "Ranchers Bees",
-   "away": "Doma United FC",
-   "home_pid": "288245309991325696",
-   "away_pid": "193109143993872384",
-   "tournament": "Nigériai bajnokság",
-   "category": "Nigéria",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000211275944338",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "Ranchers Bees",
-   "participant2Name": "Doma United FC",
-   "tournamentId": 2112,
-   "tournamentName": "Premier League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593929,
-   "name": "Ranchers Bees - Doma United FC",
-   "score": 1.0
-  }
- },
- "id1000031475573036": {
-  "tm": {
-   "id": "320223647128166400",
-   "sport": "Labdarúgás",
-   "name": "Dubocica - Radnicki Nis",
-   "home": "Dubocica",
-   "away": "Radnicki Nis",
-   "home_pid": "6540424309260288",
-   "away_pid": "747108",
-   "tournament": "Szerb Kupa",
-   "category": "Szerbia",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000031475573036",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "Gfk Dubocica",
-   "participant2Name": "FK Radnicki Nis",
-   "tournamentId": 314,
-   "tournamentName": "Serbian Cup",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5576404,
-   "name": "Dubocica - Radnicki Nis",
-   "score": 1.0
-  }
- },
- "id1004851375737876": {
-  "tm": {
-   "id": "320205016671526912",
-   "sport": "Labdarúgás",
-   "name": "U21Al-Watan - U21Al-Orobah",
-   "home": "U21Al-Watan",
-   "away": "U21Al-Orobah",
-   "home_pid": "312448218851602432",
-   "away_pid": "281509339696599040",
-   "tournament": "U21 Szaúdi bajnokság",
-   "category": "Szaúd-Arábia",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T15:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004851375737876",
-   "startTime": "2026-11-18T15:10:00.000Z",
-   "participant1Name": "AL Watan",
-   "participant2Name": "AL Orobah",
-   "tournamentId": 48513,
-   "tournamentName": "U21 Elite League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002583976773248": {
   "tm": {
    "id": "320058240413016064",
@@ -2804,36 +2694,6 @@
   },
   "score": 0.79
  },
- "id1000207576738340": {
-  "tm": {
-   "id": "319924186452664320",
-   "sport": "Labdarúgás",
-   "name": "El Gouna FC - Al-Ittihad (EGY)",
-   "home": "El Gouna FC",
-   "away": "Al-Ittihad (EGY)",
-   "home_pid": "250291",
-   "away_pid": "60777",
-   "tournament": "Egyiptomi Kupa",
-   "category": "Egyiptom",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000207576738340",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "El Gouna FC",
-   "participant2Name": "Al Ittihad Alexandria Club",
-   "tournamentId": 2075,
-   "tournamentName": "Egypt Cup",
-   "sportName": "Soccer"
-  },
-  "score": 0.78,
-  "cl": {
-   "id": 5655304,
-   "name": "El Gouna - Al-Ittihad (EGY)",
-   "score": 1.0
-  }
- },
  "id1003694576792548": {
   "tm": {
    "id": "320155054208262144",
@@ -3183,61 +3043,6 @@
    "name": "L. Staeheli - K. Samrej",
    "score": 1.0
   }
- },
- "id1102665873455570": {
-  "tm": {
-   "id": "319082803897638912",
-   "sport": "Kosárlabda",
-   "name": "Mornar - Vojvodina",
-   "home": "Mornar",
-   "away": "Vojvodina",
-   "home_pid": "485623",
-   "away_pid": "182314509205032960",
-   "tournament": "ABA Liga 2.",
-   "category": "Európa",
-   "tm_sport_id": "8",
-   "start": "2026-11-18T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102665873455570",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "KK Mornar Bar",
-   "participant2Name": "KK Vojvodina",
-   "tournamentId": 26658,
-   "tournamentName": "ABA Liga 2",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5593997,
-   "name": "Mornar - Vojvodina",
-   "score": 1.0
-  }
- },
- "id1100141072679848": {
-  "tm": {
-   "id": "319082797860986880",
-   "sport": "Kosárlabda",
-   "name": "Slovan Bratislava - Svit",
-   "home": "Slovan Bratislava",
-   "away": "Svit",
-   "home_pid": "598562",
-   "away_pid": "183449947122749440",
-   "tournament": "Szlovák bajnokság",
-   "category": "Szlovákia",
-   "tm_sport_id": "8",
-   "start": "2026-11-18T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100141072679848",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "BC Slovan Bratislava",
-   "participant2Name": "BK Iskra Svit",
-   "tournamentId": 1410,
-   "tournamentName": "Extraliga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1102669674476628": {
   "tm": {
@@ -5984,31 +5789,6 @@
   },
   "score": 1.0
  },
- "id1504830372176014": {
-  "tm": {
-   "id": "319082846677442560",
-   "sport": "Jégkorong",
-   "name": "U20SaiPa - U20Jokerit",
-   "home": "U20SaiPa",
-   "away": "U20Jokerit",
-   "home_pid": "213944130026491904",
-   "away_pid": "196840392095854592",
-   "tournament": "U20 Finn bajnokság",
-   "category": "Finnország",
-   "tm_sport_id": "6",
-   "start": "2026-11-18T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1504830372176014",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "SaiPa Lappeenranta",
-   "participant2Name": "Jokerit",
-   "tournamentId": 48303,
-   "tournamentName": "U20 SM Sarja",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
  "id1504830372176016": {
   "tm": {
    "id": "319082846599847936",
@@ -7204,36 +6984,6 @@
    "score": 1.0
   }
  },
- "id2300121973072842": {
-  "tm": {
-   "id": "319716843683127296",
-   "sport": "Röplabda",
-   "name": "Panathinaikosz - Thira",
-   "home": "Panathinaikosz",
-   "away": "Thira",
-   "home_pid": "40869",
-   "away_pid": "1193046",
-   "tournament": "Görög bajnokság, női",
-   "category": "Görögország",
-   "tm_sport_id": "20",
-   "start": "2026-11-18T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2300121973072842",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "Panathinaikos Athens",
-   "participant2Name": "AO Thiras",
-   "tournamentId": 1219,
-   "tournamentName": "A1, Women",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594093,
-   "name": "Panathinaikosz - Thira",
-   "score": 1.0
-  }
- },
  "id2302836875899086": {
   "tm": {
    "id": "319716845369237504",
@@ -7293,31 +7043,6 @@
    "name": "AEK Athén - Panioniosz",
    "score": 1.0
   }
- },
- "id2300144673399766": {
-  "tm": {
-   "id": "319716861107314688",
-   "sport": "Röplabda",
-   "name": "Club Italia - Marsala",
-   "home": "Club Italia",
-   "away": "Marsala",
-   "home_pid": "166573492629721088",
-   "away_pid": "188411959877619712",
-   "tournament": "Olasz 2., női",
-   "category": "Olaszország",
-   "tm_sport_id": "20",
-   "start": "2026-11-18T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2300144673399766",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "Club Italia Crai",
-   "participant2Name": "Sigel Marsala",
-   "tournamentId": 1446,
-   "tournamentName": "Serie A2, Women",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0
  },
  "id2300083172765038": {
   "tm": {
@@ -7439,116 +7164,6 @@
    "score": 1.0
   }
  },
- "id2504935676909398": {
-  "tm": {
-   "id": "320236551273521152",
-   "sport": "Asztalitenisz",
-   "name": "Ricardo Walther - Joe Seyfried",
-   "home": "Ricardo Walther",
-   "away": "Joe Seyfried",
-   "home_pid": "765066",
-   "away_pid": "193908465241059328",
-   "tournament": "Muscat, férfi egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T14:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935676909398",
-   "startTime": "2026-11-18T14:45:00.000Z",
-   "participant1Name": "Walther, Ricardo",
-   "participant2Name": "Seyfried, Joe",
-   "tournamentId": 49356,
-   "tournamentName": "WTT Star Contender Muscat, MS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2504935676909464": {
-  "tm": {
-   "id": "320236702331379712",
-   "sport": "Asztalitenisz",
-   "name": "Nicholas Lum - Navid Shams",
-   "home": "Nicholas Lum",
-   "away": "Navid Shams",
-   "home_pid": "165277973383008256",
-   "away_pid": "159857275602784256",
-   "tournament": "Muscat, férfi egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T14:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935676909464",
-   "startTime": "2026-11-18T14:45:00.000Z",
-   "participant1Name": "Lum, Nicholas",
-   "participant2Name": "Shams, Navid",
-   "tournamentId": 49356,
-   "tournamentName": "WTT Star Contender Muscat, MS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667973,
-   "name": "Nicholas Lum - N. Shams",
-   "score": 1.0
-  }
- },
- "id2504935876909408": {
-  "tm": {
-   "id": "320234448653197312",
-   "sport": "Asztalitenisz",
-   "name": "Xiaotong Wang - Giorgia Piccolin",
-   "home": "Xiaotong Wang",
-   "away": "Giorgia Piccolin",
-   "home_pid": "206654320503058432",
-   "away_pid": "1179826",
-   "tournament": "Muscat, női egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T14:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935876909408",
-   "startTime": "2026-11-18T14:45:00.000Z",
-   "participant1Name": "Wang, Xiaotong",
-   "participant2Name": "Piccolin, Giorgia",
-   "tournamentId": 49358,
-   "tournamentName": "WTT Star Contender Muscat, WS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2504935876909452": {
-  "tm": {
-   "id": "320234448400490496",
-   "sport": "Asztalitenisz",
-   "name": "Elena Zaharia - Lutz Charlotte",
-   "home": "Elena Zaharia",
-   "away": "Lutz Charlotte",
-   "home_pid": "154152974346670080",
-   "away_pid": "179159083617669120",
-   "tournament": "Muscat, női egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T14:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935876909452",
-   "startTime": "2026-11-18T14:45:00.000Z",
-   "participant1Name": "Zaharia, Elena",
-   "participant2Name": "Lutz, Charlotte",
-   "tournamentId": 49358,
-   "tournamentName": "WTT Star Contender Muscat, WS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667998,
-   "name": "E. Zaharia - Cha. Lutz",
-   "score": 0.809
-  }
- },
  "id2504935676909412": {
   "tm": {
    "id": "320237544733220864",
@@ -7572,12 +7187,7 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0,
-  "cl": {
-   "id": 5668000,
-   "name": "M.V. Thakkar - Dongsoo Kang",
-   "score": 1.0
-  }
+  "score": 1.0
  },
  "id2504935676909404": {
   "tm": {
@@ -7862,12 +7472,7 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0,
-  "cl": {
-   "id": 5667961,
-   "name": "Shuhan Fan - Huize Yang",
-   "score": 1.0
-  }
+  "score": 1.0
  },
  "id2504935876909474": {
   "tm": {
@@ -7894,93 +7499,63 @@
   },
   "score": 1.0
  },
- "id2503634976899214": {
+ "id2503634976899188": {
   "tm": {
-   "id": "320221510177464320",
+   "id": "320220881219559424",
    "sport": "Asztalitenisz",
-   "name": "Rostislav Niezgoda - Martin Skotnica",
-   "home": "Rostislav Niezgoda",
-   "away": "Martin Skotnica",
-   "home_pid": "167281169460678656",
-   "away_pid": "283418516597805056",
+   "name": "Marek Placek - Frantisek Briza",
+   "home": "Marek Placek",
+   "away": "Frantisek Briza",
+   "home_pid": "165384457800437760",
+   "away_pid": "191461277224300544",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-18T15:00:00+00:00"
+   "start": "2026-11-18T15:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976899214",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "Niezgoda, Rostislav",
-   "participant2Name": "Skotnica, Martin",
+   "fixtureId": "id2503634976899188",
+   "startTime": "2026-11-18T15:30:00.000Z",
+   "participant1Name": "Placek, Marek",
+   "participant2Name": "Briza, Frantisek",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0,
   "cl": {
-   "id": 5668498,
-   "name": "R. Niezgoda - M. Skotnica",
+   "id": 5668551,
+   "name": "M. Placek - F. Briza",
    "score": 1.0
   }
  },
- "id2503634976899084": {
+ "id2503634976899628": {
   "tm": {
-   "id": "320220036378730496",
+   "id": "320220881047592960",
    "sport": "Asztalitenisz",
-   "name": "Prikasky Libor - Filip Wolf",
-   "home": "Prikasky Libor",
-   "away": "Filip Wolf",
-   "home_pid": "282868470805467136",
-   "away_pid": "299296672416305152",
+   "name": "David Heczko - Jaroslav Schwan",
+   "home": "David Heczko",
+   "away": "Jaroslav Schwan",
+   "home_pid": "275618793472004096",
+   "away_pid": "168636141458739200",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-18T15:00:00+00:00"
+   "start": "2026-11-18T15:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976899084",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "Prikasky, Libor",
-   "participant2Name": "Wolf, Filip",
+   "fixtureId": "id2503634976899628",
+   "startTime": "2026-11-18T15:30:00.000Z",
+   "participant1Name": "Heczko, David",
+   "participant2Name": "Schwan, Jaroslav",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0,
   "cl": {
-   "id": 5668503,
-   "name": "L. Prikasky - Filip Wolf",
-   "score": 1.0
-  }
- },
- "id2503634976899622": {
-  "tm": {
-   "id": "320220880877723648",
-   "sport": "Asztalitenisz",
-   "name": "Lukas Velicka - Radomir Vavrecka",
-   "home": "Lukas Velicka",
-   "away": "Radomir Vavrecka",
-   "home_pid": "274722322446946304",
-   "away_pid": "167482807207120896",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899622",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "Velicka, Lukas",
-   "participant2Name": "Vavrecka, Radomir",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668505,
-   "name": "Lukas Velicka - R. Vavrecka",
+   "id": 5668547,
+   "name": "David Heczko - J. Schwan",
    "score": 1.0
   }
  },
@@ -8014,33 +7589,33 @@
    "score": 1.0
   }
  },
- "id2503634976899188": {
+ "id2503634976899060": {
   "tm": {
-   "id": "320220881219559424",
+   "id": "320221458798288896",
    "sport": "Asztalitenisz",
-   "name": "Marek Placek - Frantisek Briza",
-   "home": "Marek Placek",
-   "away": "Frantisek Briza",
-   "home_pid": "165384457800437760",
-   "away_pid": "191461277224300544",
+   "name": "Jan Dzida - Ondrej Paril",
+   "home": "Jan Dzida",
+   "away": "Ondrej Paril",
+   "home_pid": "169122671260389376",
+   "away_pid": "167402877649735936",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
    "start": "2026-11-18T15:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976899188",
+   "fixtureId": "id2503634976899060",
    "startTime": "2026-11-18T15:30:00.000Z",
-   "participant1Name": "Placek, Marek",
-   "participant2Name": "Briza, Frantisek",
+   "participant1Name": "Dzida, Jan",
+   "participant2Name": "Paril, Ondrej",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0,
   "cl": {
-   "id": 5668551,
-   "name": "M. Placek - F. Briza",
+   "id": 5668556,
+   "name": "J. Dzida - O. Paril",
    "score": 1.0
   }
  },
@@ -8074,63 +7649,123 @@
    "score": 1.0
   }
  },
- "id2503634976899060": {
+ "id2503634976899116": {
   "tm": {
-   "id": "320221458798288896",
+   "id": "320221509646884864",
    "sport": "Asztalitenisz",
-   "name": "Jan Dzida - Ondrej Paril",
-   "home": "Jan Dzida",
-   "away": "Ondrej Paril",
-   "home_pid": "169122671260389376",
-   "away_pid": "167402877649735936",
+   "name": "Milan Kolar - Marek Placek",
+   "home": "Milan Kolar",
+   "away": "Marek Placek",
+   "home_pid": "115765271733522432",
+   "away_pid": "165384457800437760",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-18T15:30:00+00:00"
+   "start": "2026-11-18T16:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976899060",
-   "startTime": "2026-11-18T15:30:00.000Z",
-   "participant1Name": "Dzida, Jan",
-   "participant2Name": "Paril, Ondrej",
+   "fixtureId": "id2503634976899116",
+   "startTime": "2026-11-18T16:00:00.000Z",
+   "participant1Name": "Kolar, Milan",
+   "participant2Name": "Placek, Marek",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0,
   "cl": {
-   "id": 5668556,
-   "name": "J. Dzida - O. Paril",
+   "id": 5668550,
+   "name": "Milan Kolar - M. Placek",
    "score": 1.0
   }
  },
- "id2503634976899628": {
+ "id2503634976899632": {
   "tm": {
-   "id": "320220881047592960",
+   "id": "320221509730770944",
    "sport": "Asztalitenisz",
-   "name": "David Heczko - Jaroslav Schwan",
-   "home": "David Heczko",
-   "away": "Jaroslav Schwan",
-   "home_pid": "275618793472004096",
-   "away_pid": "168636141458739200",
+   "name": "Radomir Vavrecka - David Heczko",
+   "home": "Radomir Vavrecka",
+   "away": "David Heczko",
+   "home_pid": "167482807207120896",
+   "away_pid": "275618793472004096",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-18T15:30:00+00:00"
+   "start": "2026-11-18T16:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976899628",
-   "startTime": "2026-11-18T15:30:00.000Z",
-   "participant1Name": "Heczko, David",
-   "participant2Name": "Schwan, Jaroslav",
+   "fixtureId": "id2503634976899632",
+   "startTime": "2026-11-18T16:00:00.000Z",
+   "participant1Name": "Vavrecka, Radomir",
+   "participant2Name": "Heczko, David",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0,
   "cl": {
-   "id": 5668547,
-   "name": "David Heczko - J. Schwan",
+   "id": 5668554,
+   "name": "R. Vavrecka - David Heczko",
+   "score": 1.0
+  }
+ },
+ "id2503634976899070": {
+  "tm": {
+   "id": "320221458354741248",
+   "sport": "Asztalitenisz",
+   "name": "Martin Skotnica - Jan Dzida",
+   "home": "Martin Skotnica",
+   "away": "Jan Dzida",
+   "home_pid": "283418516597805056",
+   "away_pid": "169122671260389376",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T16:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899070",
+   "startTime": "2026-11-18T16:00:00.000Z",
+   "participant1Name": "Skotnica, Martin",
+   "participant2Name": "Dzida, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668549,
+   "name": "M. Skotnica - J. Dzida",
+   "score": 1.0
+  }
+ },
+ "id2503634976899172": {
+  "tm": {
+   "id": "320220088808579072",
+   "sport": "Asztalitenisz",
+   "name": "Filip Wolf - Jiri Nesnera",
+   "home": "Filip Wolf",
+   "away": "Jiri Nesnera",
+   "home_pid": "299296672416305152",
+   "away_pid": "166994178671169536",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T16:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899172",
+   "startTime": "2026-11-18T16:00:00.000Z",
+   "participant1Name": "Wolf, Filip",
+   "participant2Name": "Nesnera, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668553,
+   "name": "Filip Wolf - J. Nesnera",
    "score": 1.0
   }
  },
@@ -8895,111 +8530,6 @@
    "home": "San Diego",
    "away": "Bakersfield",
    "tournament": "AHL"
-  }
- },
- "id2503634976899212": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899212",
-   "startTime": "2026-11-18T15:00:00.000Z",
-   "participant1Name": "Kosar, Vaclav",
-   "participant2Name": "Regner, Tomas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668499,
-   "name": "V. Kosar - T. Regner",
-   "score": 1.0,
-   "home": "V. Kosar",
-   "away": "T. Regner",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899070": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899070",
-   "startTime": "2026-11-18T16:00:00.000Z",
-   "participant1Name": "Skotnica, Martin",
-   "participant2Name": "Dzida, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668549,
-   "name": "M. Skotnica - J. Dzida",
-   "score": 1.0,
-   "home": "M. Skotnica",
-   "away": "J. Dzida",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899116": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899116",
-   "startTime": "2026-11-18T16:00:00.000Z",
-   "participant1Name": "Kolar, Milan",
-   "participant2Name": "Placek, Marek",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668550,
-   "name": "Milan Kolar - M. Placek",
-   "score": 1.0,
-   "home": "Milan Kolar",
-   "away": "M. Placek",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899172": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899172",
-   "startTime": "2026-11-18T16:00:00.000Z",
-   "participant1Name": "Wolf, Filip",
-   "participant2Name": "Nesnera, Jiri",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668553,
-   "name": "Filip Wolf - J. Nesnera",
-   "score": 1.0,
-   "home": "Filip Wolf",
-   "away": "J. Nesnera",
-   "tournament": "Cseh Liga Pro"
-  }
- },
- "id2503634976899632": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976899632",
-   "startTime": "2026-11-18T16:00:00.000Z",
-   "participant1Name": "Vavrecka, Radomir",
-   "participant2Name": "Heczko, David",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668554,
-   "name": "R. Vavrecka - David Heczko",
-   "score": 1.0,
-   "home": "R. Vavrecka",
-   "away": "David Heczko",
-   "tournament": "Cseh Liga Pro"
   }
  },
  "id2503634976899088": {
