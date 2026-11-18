@@ -612,7 +612,12 @@
    "tournamentName": "Premier League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593929,
+   "name": "Ranchers Bees - Doma United FC",
+   "score": 1.0
+  }
  },
  "id1000031475573036": {
   "tm": {
@@ -2714,6 +2719,31 @@
   },
   "score": 1.0
  },
+ "id1002604276734250": {
+  "tm": {
+   "id": "320208855758872576",
+   "sport": "Labdarúgás",
+   "name": "Aguilas FC 2 - UCAM Murcia 2",
+   "home": "Aguilas FC 2",
+   "away": "UCAM Murcia 2",
+   "home_pid": "247536819236368384",
+   "away_pid": "1481981",
+   "tournament": "Spanyol 5., 13. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-18T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002604276734250",
+   "startTime": "2026-11-18T19:30:00.000Z",
+   "participant1Name": "Aguilas FC B",
+   "participant2Name": "UCAM Murcia II",
+   "tournamentId": 26042,
+   "tournamentName": "Tercera Federacion, Group 13",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1002604276779566": {
   "tm": {
    "id": "320236623478464512",
@@ -2758,31 +2788,6 @@
    "startTime": "2026-11-18T19:30:00.000Z",
    "participant1Name": "San Javier Mar Menor CF",
    "participant2Name": "Bullas Deportivo",
-   "tournamentId": 26042,
-   "tournamentName": "Tercera Federacion, Group 13",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002604276734250": {
-  "tm": {
-   "id": "320208855758872576",
-   "sport": "Labdarúgás",
-   "name": "Aguilas FC 2 - UCAM Murcia 2",
-   "home": "Aguilas FC 2",
-   "away": "UCAM Murcia 2",
-   "home_pid": "247536819236368384",
-   "away_pid": "1481981",
-   "tournament": "Spanyol 5., 13. csoport",
-   "category": "Spanyolország",
-   "tm_sport_id": "1",
-   "start": "2026-11-18T19:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002604276734250",
-   "startTime": "2026-11-18T19:30:00.000Z",
-   "participant1Name": "Aguilas FC B",
-   "participant2Name": "UCAM Murcia II",
    "tournamentId": 26042,
    "tournamentName": "Tercera Federacion, Group 13",
    "sportName": "Soccer"
@@ -2937,7 +2942,12 @@
    "tournamentName": "Division 1",
    "sportName": "Soccer"
   },
-  "score": 0.922
+  "score": 0.922,
+  "cl": {
+   "id": 5655306,
+   "name": "Al-Adalh - Al-Orubah",
+   "score": 1.0
+  }
  },
  "id1000069674371864": {
   "tm": {
@@ -3267,12 +3277,7 @@
    "tournamentName": "WE League, Women",
    "sportName": "Soccer"
   },
-  "score": 0.825,
-  "cl": {
-   "id": 5593933,
-   "name": "Cerezo Osaka - Urawa RD",
-   "score": 1.0
-  }
+  "score": 0.825
  },
  "id1000097175174740": {
   "tm": {
@@ -3377,12 +3382,7 @@
    "tournamentName": "WE League, Women",
    "sportName": "Soccer"
   },
-  "score": 0.806,
-  "cl": {
-   "id": 5593934,
-   "name": "Sanfrecce Hiroshima - Nojima Sagamihara",
-   "score": 1.0
-  }
+  "score": 0.806
  },
  "id1000136573050882": {
   "tm": {
@@ -3777,7 +3777,12 @@
    "tournamentName": "ATP Challenger Montevideo, Uruguay Men Singles",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5663236,
+   "name": "M. Pucinelli de Almeida - J.C. Prado Angelo",
+   "score": 1.0
+  }
  },
  "id1202140876736470": {
   "tm": {
@@ -4557,7 +4562,12 @@
    "tournamentName": "CBA Club Cup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593965,
+   "name": "Shandong - Guangdong",
+   "score": 1.0
+  }
  },
  "id1104496575880466": {
   "tm": {
@@ -4582,7 +4592,12 @@
    "tournamentName": "CBA Club Cup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593966,
+   "name": "Ningbo Rockets - Liaoning",
+   "score": 1.0
+  }
  },
  "id1104496575880396": {
   "tm": {
@@ -4607,7 +4622,12 @@
    "tournamentName": "CBA Club Cup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593964,
+   "name": "Sichuan - Qingdao",
+   "score": 1.0
+  }
  },
  "id1104496575880376": {
   "tm": {
@@ -4632,7 +4652,12 @@
    "tournamentName": "CBA Club Cup",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593963,
+   "name": "Jiangsu Dragons - Beijing Ducks",
+   "score": 1.0
+  }
  },
  "id1102665873455570": {
   "tm": {
@@ -4657,7 +4682,12 @@
    "tournamentName": "ABA Liga 2",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5593997,
+   "name": "Mornar - Vojvodina",
+   "score": 1.0
+  }
  },
  "id1100141072679848": {
   "tm": {
@@ -4962,7 +4992,12 @@
    "tournamentName": "Basketligaen",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594188,
+   "name": "Randers - Horsens",
+   "score": 1.0
+  }
  },
  "id1102686475019240": {
   "tm": {
@@ -6042,7 +6077,12 @@
    "tournamentName": "ABA Liga 2",
    "sportName": "Basketball"
   },
-  "score": 0.833
+  "score": 0.833,
+  "cl": {
+   "id": 5594208,
+   "name": "Borac Banja Luka - Sencur Kranj",
+   "score": 1.0
+  }
  },
  "id1104871576028538": {
   "tm": {
@@ -6237,7 +6277,12 @@
    "tournamentName": "European North Basketball League",
    "sportName": "Basketball"
   },
-  "score": 0.752
+  "score": 0.752,
+  "cl": {
+   "id": 5594213,
+   "name": "Kapfenberg - Kavkasia",
+   "score": 1.0
+  }
  },
  "id1100025072627112": {
   "tm": {
@@ -6347,7 +6392,12 @@
    "tournamentName": "Pro Hockey League",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594044,
+   "name": "Torpedo Kamenogorszk - Kulager Petropavlovszk",
+   "score": 1.0
+  }
  },
  "id1503015673810694": {
   "tm": {
@@ -6372,7 +6422,12 @@
    "tournamentName": "Pro Hockey League",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594042,
+   "name": "Aktobe - Gornyak Rudnyij",
+   "score": 1.0
+  }
  },
  "id1500084472734754": {
   "tm": {
@@ -8167,7 +8222,12 @@
    "tournamentName": "Pro Hockey League",
    "sportName": "Ice Hockey"
   },
-  "score": 0.761
+  "score": 0.761,
+  "cl": {
+   "id": 5594043,
+   "name": "Bejbarisz Atirau - Szarjarka Karaganda",
+   "score": 1.0
+  }
  },
  "id2200015872850316": {
   "tm": {
@@ -8472,7 +8532,12 @@
    "tournamentName": "EHF Champions League",
    "sportName": "Handball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667754,
+   "name": "Kielce - Barcelona",
+   "score": 1.0
+  }
  },
  "id2200003076225230": {
   "tm": {
@@ -8497,7 +8562,12 @@
    "tournamentName": "EHF Champions League",
    "sportName": "Handball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667745,
+   "name": "GOG - Magdeburg",
+   "score": 1.0
+  }
  },
  "id2200015972749016": {
   "tm": {
@@ -8597,7 +8667,12 @@
    "tournamentName": "NB I, Women",
    "sportName": "Handball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5578961,
+   "name": "Fehérvár - Győr",
+   "score": 1.0
+  }
  },
  "id2200236672760344": {
   "tm": {
@@ -8807,7 +8882,12 @@
    "tournamentName": "V League, Women",
    "sportName": "Volleyball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594090,
+   "name": "Gwangju Soopers - Suwon Hillstate",
+   "score": 1.0
+  }
  },
  "id2300121973072842": {
   "tm": {
@@ -8832,7 +8912,12 @@
    "tournamentName": "A1, Women",
    "sportName": "Volleyball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594093,
+   "name": "Panathinaikosz - Thira",
+   "score": 1.0
+  }
  },
  "id2300121973072846": {
   "tm": {
@@ -8882,7 +8967,12 @@
    "tournamentName": "Mestaruusliiga, Women",
    "sportName": "Volleyball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594089,
+   "name": "Viesti Salo - LiigaPloki",
+   "score": 1.0
+  }
  },
  "id2301447472523352": {
   "tm": {
@@ -8907,7 +8997,12 @@
    "tournamentName": "Mestaruusliiga, Women",
    "sportName": "Volleyball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5594088,
+   "name": "Kangasala - Kuusamo",
+   "score": 1.0
+  }
  },
  "id2303903776751168": {
   "tm": {
@@ -8932,7 +9027,12 @@
    "tournamentName": "Czech Cup, Women",
    "sportName": "Volleyball"
   },
-  "score": 0.848
+  "score": 0.848,
+  "cl": {
+   "id": 5655333,
+   "name": "Lvi Praha - Liberec",
+   "score": 0.93
+  }
  },
  "id2300214875310200": {
   "tm": {
@@ -8957,107 +9057,12 @@
    "tournamentName": "V League",
    "sportName": "Volleyball"
   },
-  "score": 0.789
- },
- "id2504935676909484": {
-  "tm": {
-   "id": "320232754510897152",
-   "sport": "Asztalitenisz",
-   "name": "Licen Yuan - Jonathan Groth",
-   "home": "Licen Yuan",
-   "away": "Jonathan Groth",
-   "home_pid": "164115166544318464",
-   "away_pid": "872001",
-   "tournament": "Muscat, férfi egyes",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T08:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504935676909484",
-   "startTime": "2026-11-18T08:10:00.000Z",
-   "participant1Name": "Yuan, Licen",
-   "participant2Name": "Groth, Jonathan",
-   "tournamentId": 49356,
-   "tournamentName": "WTT Star Contender Muscat, MS",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2504936076909438": {
-  "tm": {
-   "id": "320251583172517888",
-   "sport": "Asztalitenisz",
-   "name": "Bertelsmeier A./Verdonschot W. - AL Balushi M./AL Riyami A.",
-   "home": "Bertelsmeier A./Verdonschot W.",
-   "away": "AL Balushi M./AL Riyami A.",
-   "home_pid": "273904178754097152",
-   "away_pid": "287130239242637312",
-   "tournament": "Muscat, férfi páros",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T08:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504936076909438",
-   "startTime": "2026-11-18T08:10:00.000Z",
-   "participant1Name": "Bertelsmeier A / Verdonschot W",
-   "participant2Name": "AL Balushi M / AL Riyami A",
-   "tournamentId": 49360,
-   "tournamentName": "WTT Star Contender Muscat, MD",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2504936276909480": {
-  "tm": {
-   "id": "320264054394396672",
-   "sport": "Asztalitenisz",
-   "name": "Shibata S./Aoki S. - Dragoman A./Diaconu A.",
-   "home": "Shibata S./Aoki S.",
-   "away": "Dragoman A./Diaconu A.",
-   "home_pid": "320231803521671168",
-   "away_pid": "165484060502708224",
-   "tournament": "Muscat, női páros",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T08:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504936276909480",
-   "startTime": "2026-11-18T08:10:00.000Z",
-   "participant1Name": "Aoki S / Shibata S",
-   "participant2Name": "Diaconu A / Dragoman A",
-   "tournamentId": 49362,
-   "tournamentName": "WTT Star Contender Muscat, WD",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2504936276909430": {
-  "tm": {
-   "id": "320234462698872832",
-   "sport": "Asztalitenisz",
-   "name": "Lutz C./Zarif A. - Wang X./Xu Y.",
-   "home": "Lutz C./Zarif A.",
-   "away": "Wang X./Xu Y.",
-   "home_pid": "204600316989173760",
-   "away_pid": "282548265956806656",
-   "tournament": "Muscat, női páros",
-   "category": "Omán",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T08:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2504936276909430",
-   "startTime": "2026-11-18T08:10:00.000Z",
-   "participant1Name": "Lutz CA / Zarif A",
-   "participant2Name": "Wang Xiaot / Xu Yi",
-   "tournamentId": 49362,
-   "tournamentName": "WTT Star Contender Muscat, WD",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
+  "score": 0.789,
+  "cl": {
+   "id": 5594091,
+   "name": "Deajeon Blue Fangs - Seoul Woori",
+   "score": 1.0
+  }
  },
  "id2504935876909420": {
   "tm": {
@@ -9082,7 +9087,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667977,
+   "name": "Xuan Zhang - Minhyung Jee",
+   "score": 1.0
+  }
  },
  "id2504936276909426": {
   "tm": {
@@ -9107,7 +9117,12 @@
    "tournamentName": "WTT Star Contender Muscat, WD",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667994,
+   "name": "Cok I / Tofant A - Samara E / Szőcs B",
+   "score": 1.0
+  }
  },
  "id2504935676909466": {
   "tm": {
@@ -9132,7 +9147,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667981,
+   "name": "B. Haug - Ryoichi Yoshiyama",
+   "score": 0.72
+  }
  },
  "id2504935876909448": {
   "tm": {
@@ -9157,7 +9177,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667978,
+   "name": "F. Bergand - E. Harac",
+   "score": 1.0
+  }
  },
  "id2504935676909416": {
   "tm": {
@@ -9182,7 +9207,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667958,
+   "name": "Yuta Tanaka - I. Chirita",
+   "score": 1.0
+  }
  },
  "id2504935676909490": {
   "tm": {
@@ -9207,7 +9237,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667969,
+   "name": "L. Bardet - Ganghyeon Park",
+   "score": 1.0
+  }
  },
  "id2504935876909468": {
   "tm": {
@@ -9232,7 +9267,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667991,
+   "name": "Sachi Aoki - Geman Zong",
+   "score": 1.0
+  }
  },
  "id2504935876909462": {
   "tm": {
@@ -9257,7 +9297,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667990,
+   "name": "Yixuan Feng - Xiaoxin Yang",
+   "score": 1.0
+  }
  },
  "id2504935876909478": {
   "tm": {
@@ -9282,7 +9327,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667972,
+   "name": "A. Tofant - A. Dragoman",
+   "score": 1.0
+  }
  },
  "id2504935676909410": {
   "tm": {
@@ -9307,7 +9357,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667957,
+   "name": "L. Jancarik - Alvaro Robles",
+   "score": 1.0
+  }
  },
  "id2504935876909492": {
   "tm": {
@@ -9332,7 +9387,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667975,
+   "name": "A. Zarif - Cam. Lutz",
+   "score": 0.86
+  }
  },
  "id2504935676909398": {
   "tm": {
@@ -9357,7 +9417,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667968,
+   "name": "R. Walther - Joe Seyfried",
+   "score": 1.0
+  }
  },
  "id2504935676909464": {
   "tm": {
@@ -9382,7 +9447,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667973,
+   "name": "Nicholas Lum - N. Shams",
+   "score": 1.0
+  }
  },
  "id2504935876909408": {
   "tm": {
@@ -9407,7 +9477,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667962,
+   "name": "Xiaotong Wang - Gio. Piccolin",
+   "score": 0.9
+  }
  },
  "id2504935876909452": {
   "tm": {
@@ -9432,7 +9507,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667998,
+   "name": "E. Zaharia - Cha. Lutz",
+   "score": 0.809
+  }
  },
  "id2504935676909412": {
   "tm": {
@@ -9457,7 +9537,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5668000,
+   "name": "M.V. Thakkar - Dongsoo Kang",
+   "score": 1.0
+  }
  },
  "id2504935676909404": {
   "tm": {
@@ -9482,7 +9567,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667947,
+   "name": "E. Ionescu - Finn Luu",
+   "score": 1.0
+  }
  },
  "id2504935876909432": {
   "tm": {
@@ -9507,7 +9597,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667988,
+   "name": "G. Monfardini - T. Kukulkova",
+   "score": 1.0
+  }
  },
  "id2504935676909392": {
   "tm": {
@@ -9532,7 +9627,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667949,
+   "name": "Hyuk Kwon - A. Gacina",
+   "score": 1.0
+  }
  },
  "id2504935876909402": {
   "tm": {
@@ -9557,7 +9657,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667953,
+   "name": "S. Mirkadirova - Saki Shibata",
+   "score": 1.0
+  }
  },
  "id2504935876909482": {
   "tm": {
@@ -9582,7 +9687,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667963,
+   "name": "S. de Nutte - Sreeja Akula",
+   "score": 1.0
+  }
  },
  "id2504935676909406": {
   "tm": {
@@ -9607,7 +9717,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667965,
+   "name": "Marcos Freitas - Youzheng Huang",
+   "score": 1.0
+  }
  },
  "id2504935876909486": {
   "tm": {
@@ -9632,7 +9747,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667964,
+   "name": "Maria Xiao - Sofia Polcanova",
+   "score": 1.0
+  }
  },
  "id2504935676909472": {
   "tm": {
@@ -9657,7 +9777,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667983,
+   "name": "M.U. Shah - Ryu. Kawakami",
+   "score": 0.9
+  }
  },
  "id2504935676909454": {
   "tm": {
@@ -9682,7 +9807,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667985,
+   "name": "A. Bertelsmeier - Yiren Tang",
+   "score": 1.0
+  }
  },
  "id2504935676909444": {
   "tm": {
@@ -9707,7 +9837,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5668001,
+   "name": "M. Grebnev - E. Otalvaro",
+   "score": 1.0
+  }
  },
  "id2504935676909390": {
   "tm": {
@@ -9732,7 +9867,12 @@
    "tournamentName": "WTT Star Contender Muscat, MS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667948,
+   "name": "A. Bhattacharjee - Yang Sun",
+   "score": 1.0
+  }
  },
  "id2504936076909456": {
   "tm": {
@@ -9757,7 +9897,12 @@
    "tournamentName": "WTT Star Contender Muscat, MD",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667982,
+   "name": "Chirita I / Istrate A T - Grebnev M / Katsman L",
+   "score": 1.0
+  }
  },
  "id2504936076909460": {
   "tm": {
@@ -9782,7 +9927,12 @@
    "tournamentName": "WTT Star Contender Muscat, MD",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667997,
+   "name": "Lim J / OH J - Kawakami R / Yoshiyama R",
+   "score": 1.0
+  }
  },
  "id2504935876909418": {
   "tm": {
@@ -9807,7 +9957,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667971,
+   "name": "M. Batra - Jingming Wei",
+   "score": 1.0
+  }
  },
  "id2504935876909394": {
   "tm": {
@@ -9832,7 +9987,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667961,
+   "name": "Shuhan Fan - Huize Yang",
+   "score": 1.0
+  }
  },
  "id2504935876909474": {
   "tm": {
@@ -9857,7 +10017,12 @@
    "tournamentName": "WTT Star Contender Muscat, WS",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667986,
+   "name": "Chr. Kallberg - Yerin Yoo",
+   "score": 0.86
+  }
  },
  "id2504936276909446": {
   "tm": {
@@ -9882,7 +10047,12 @@
    "tournamentName": "WTT Star Contender Muscat, WD",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667980,
+   "name": "Fan S / Feng Y - Bergand F / Monfardini G",
+   "score": 1.0
+  }
  },
  "id2504936476909470": {
   "tm": {
@@ -9907,107 +10077,12 @@
    "tournamentName": "WTT Star Contender Muscat, XD",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
- },
- "id2503634976899074": {
-  "tm": {
-   "id": "320218382473437184",
-   "sport": "Asztalitenisz",
-   "name": "Dousek Tomas - Matyas Navedla",
-   "home": "Dousek Tomas",
-   "away": "Matyas Navedla",
-   "home_pid": "297037498825347072",
-   "away_pid": "167482776257351680",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899074",
-   "startTime": "2026-11-18T08:30:00.000Z",
-   "participant1Name": "Dousek, Tomas",
-   "participant2Name": "Navedla, Matyas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899180": {
-  "tm": {
-   "id": "320218384076709888",
-   "sport": "Asztalitenisz",
-   "name": "Michal Regner - Sebastian Kasnik",
-   "home": "Michal Regner",
-   "away": "Sebastian Kasnik",
-   "home_pid": "112731966551511040",
-   "away_pid": "167281173427441664",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899180",
-   "startTime": "2026-11-18T08:30:00.000Z",
-   "participant1Name": "Regner, Michal",
-   "participant2Name": "Kasnik, Sebastian",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899624": {
-  "tm": {
-   "id": "320218334710800384",
-   "sport": "Asztalitenisz",
-   "name": "Eduard Sionkala - Jiri Stach",
-   "home": "Eduard Sionkala",
-   "away": "Jiri Stach",
-   "home_pid": "169167381197803520",
-   "away_pid": "168633047891103744",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899624",
-   "startTime": "2026-11-18T08:30:00.000Z",
-   "participant1Name": "Sionkala, Eduard",
-   "participant2Name": "Stach, Jiri",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899076": {
-  "tm": {
-   "id": "320218335098773504",
-   "sport": "Asztalitenisz",
-   "name": "Jan Svoboda - Denis Hofman",
-   "home": "Jan Svoboda",
-   "away": "Denis Hofman",
-   "home_pid": "105751364499558400",
-   "away_pid": "152335255628468224",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T09:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899076",
-   "startTime": "2026-11-18T09:00:00.000Z",
-   "participant1Name": "Svoboda, Jan",
-   "participant2Name": "Hofman, Denis",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5667984,
+   "name": "Gunduz I / Yoo S - Lum N / Liu Y",
+   "score": 1.0
+  }
  },
  "id2503634976899152": {
   "tm": {
@@ -10032,7 +10107,42 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5668265,
+   "name": "Sebastian Kasnik - M. Sychra",
+   "score": 1.0
+  }
+ },
+ "id2503634976899076": {
+  "tm": {
+   "id": "320218335098773504",
+   "sport": "Asztalitenisz",
+   "name": "Jan Svoboda - Denis Hofman",
+   "home": "Jan Svoboda",
+   "away": "Denis Hofman",
+   "home_pid": "105751364499558400",
+   "away_pid": "152335255628468224",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T09:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899076",
+   "startTime": "2026-11-18T09:00:00.000Z",
+   "participant1Name": "Svoboda, Jan",
+   "participant2Name": "Hofman, Denis",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668255,
+   "name": "Jan Svoboda - Denis Hofman",
+   "score": 1.0
+  }
  },
  "id2503634976899082": {
   "tm": {
@@ -10057,7 +10167,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5668261,
+   "name": "M. Navedla - Rad. Polasek",
+   "score": 0.892
+  }
  },
  "id2503634976899664": {
   "tm": {
@@ -10082,7 +10197,12 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5668258,
+   "name": "J. Stach - Alex. Virag",
+   "score": 0.883
+  }
  },
  "id2704941876121536": {
   "tm": {
@@ -10802,7 +10922,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665927,
+   "name": "P. Steenbergen - V. Pruim",
+   "score": 1.0
+  }
  },
  "id1903399476776212": {
   "tm": {
@@ -10827,7 +10952,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665902,
+   "name": "E. Cairns - F. Sherrock",
+   "score": 1.0
+  }
  },
  "id1903399476776214": {
   "tm": {
@@ -10852,7 +10982,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665908,
+   "name": "P. Steenbergen - G. Hayter",
+   "score": 1.0
+  }
  },
  "id1903399476776216": {
   "tm": {
@@ -10877,7 +11012,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665919,
+   "name": "F. Sherrock - T. Gulliver",
+   "score": 1.0
+  }
  },
  "id1903399476776218": {
   "tm": {
@@ -10902,7 +11042,12 @@
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665929,
+   "name": "V. Pruim - E. Cairns",
+   "score": 1.0
+  }
  },
  "id2900059372629738": {
   "tm": {
@@ -10952,7 +11097,12 @@
    "tournamentName": "Ekstraklasa",
    "sportName": "Futsal"
   },
-  "score": 0.804
+  "score": 0.804,
+  "cl": {
+   "id": 5594306,
+   "name": "Slask Wroclaw - Legia Varsó",
+   "score": 1.0
+  }
  },
  "id2800126474973000": {
   "tm": {
@@ -11249,27 +11399,6 @@
   },
   "score": 1.0
  },
- "id1000084175049112": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1000084175049112",
-   "startTime": "2026-11-18T16:45:00.000Z",
-   "participant1Name": "CR Temouchent",
-   "participant2Name": "Js El Biar",
-   "tournamentId": 841,
-   "tournamentName": "Ligue 1",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5522955,
-   "name": "CR Temouchent - El Biar",
-   "score": 1.0,
-   "home": "CR Temouchent",
-   "away": "El Biar",
-   "tournament": "Algériai bajnokság"
-  }
- },
  "id1205210676807196": {
   "tm": null,
   "fx": {
@@ -11396,6 +11525,27 @@
    "tournament": "Metz, férfi egyes"
   }
  },
+ "id1104111874765634": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id1104111874765634",
+   "startTime": "2026-11-18T16:50:00.000Z",
+   "participant1Name": "BC Jonava",
+   "participant2Name": "BBC Lausanne",
+   "tournamentId": 41118,
+   "tournamentName": "European North Basketball League",
+   "sportName": "Basketball"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594210,
+   "name": "Jonava - Lausanne",
+   "score": 1.0,
+   "home": "Jonava",
+   "away": "Lausanne",
+   "tournament": "ENBL, A csoport"
+  }
+ },
  "id1500073572119046": {
   "tm": null,
   "fx": {
@@ -11478,6 +11628,258 @@
    "home": "Henderson",
    "away": "San Jose Barracuda",
    "tournament": "AHL"
+  }
+ },
+ "id2503634976899180": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976899180",
+   "startTime": "2026-11-18T08:30:00.000Z",
+   "participant1Name": "Regner, Michal",
+   "participant2Name": "Kasnik, Sebastian",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668256,
+   "name": "Michal Regner - Sebastian Kasnik",
+   "score": 1.0,
+   "home": "Michal Regner",
+   "away": "Sebastian Kasnik",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976899140": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976899140",
+   "startTime": "2026-11-18T08:30:00.000Z",
+   "participant1Name": "Sobisek, Martin",
+   "participant2Name": "Svoboda, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668257,
+   "name": "M. Sobisek - Jan Svoboda",
+   "score": 1.0,
+   "home": "M. Sobisek",
+   "away": "Jan Svoboda",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976899624": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976899624",
+   "startTime": "2026-11-18T08:30:00.000Z",
+   "participant1Name": "Sionkala, Eduard",
+   "participant2Name": "Stach, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668260,
+   "name": "E. Sionkala - J. Stach",
+   "score": 1.0,
+   "home": "E. Sionkala",
+   "away": "J. Stach",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976899092": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976899092",
+   "startTime": "2026-11-18T08:30:00.000Z",
+   "participant1Name": "Potensky, Jan",
+   "participant2Name": "Grohsgott, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668264,
+   "name": "J. Potensky - J. Grohsgott",
+   "score": 1.0,
+   "home": "J. Potensky",
+   "away": "J. Grohsgott",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976899150": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976899150",
+   "startTime": "2026-11-18T09:00:00.000Z",
+   "participant1Name": "Grohsgott, Jiri",
+   "participant2Name": "Tomasch, David",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668253,
+   "name": "J. Grohsgott - D. Tomasch",
+   "score": 1.0,
+   "home": "J. Grohsgott",
+   "away": "D. Tomasch",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976899264": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976899264",
+   "startTime": "2026-11-18T09:30:00.000Z",
+   "participant1Name": "Zuzanek, Jiri",
+   "participant2Name": "Sobisek, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668254,
+   "name": "Jiri Zuzanek - M. Sobisek",
+   "score": 1.0,
+   "home": "Jiri Zuzanek",
+   "away": "M. Sobisek",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976899620": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976899620",
+   "startTime": "2026-11-18T09:30:00.000Z",
+   "participant1Name": "Zurek, Filip",
+   "participant2Name": "Sionkala, Eduard",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668262,
+   "name": "F. Zurek - E. Sionkala",
+   "score": 1.0,
+   "home": "F. Zurek",
+   "away": "E. Sionkala",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976899066": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976899066",
+   "startTime": "2026-11-18T09:30:00.000Z",
+   "participant1Name": "Forman, Lubos",
+   "participant2Name": "Potensky, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668266,
+   "name": "L. Forman - J. Potensky",
+   "score": 1.0,
+   "home": "L. Forman",
+   "away": "J. Potensky",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976899224": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976899224",
+   "startTime": "2026-11-18T09:30:00.000Z",
+   "participant1Name": "Vejvoda, Viktor",
+   "participant2Name": "Regner, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5668267,
+   "name": "V. Vejvoda - Michal Regner",
+   "score": 1.0,
+   "home": "V. Vejvoda",
+   "away": "Michal Regner",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976899074": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976899074",
+   "startTime": "2026-11-18T08:30:00.000Z",
+   "participant1Name": "Dousek, Tomas",
+   "participant2Name": "Navedla, Matyas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.936,
+  "cl": {
+   "id": 5668263,
+   "name": "Tom. Dousek - M. Navedla",
+   "score": 0.936,
+   "home": "Tom. Dousek",
+   "away": "M. Navedla",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976899094": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976899094",
+   "startTime": "2026-11-18T09:30:00.000Z",
+   "participant1Name": "Wawrosz, Pavel",
+   "participant2Name": "Dousek, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.936,
+  "cl": {
+   "id": 5668259,
+   "name": "P. Wawrosz - Tom. Dousek",
+   "score": 0.936,
+   "home": "P. Wawrosz",
+   "away": "Tom. Dousek",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id3300045673061054": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id3300045673061054",
+   "startTime": "2026-11-18T16:30:00.000Z",
+   "participant1Name": "Eraviikingit",
+   "participant2Name": "Koovee",
+   "tournamentId": 456,
+   "tournamentName": "F-Liiga, Women",
+   "sportName": "Floorball"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594069,
+   "name": "Eraviikingit - Koovee",
+   "score": 1.0,
+   "home": "Eraviikingit",
+   "away": "Koovee",
+   "tournament": "Finn bajnokság, női"
   }
  }
 }
