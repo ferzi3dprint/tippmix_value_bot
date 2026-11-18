@@ -1,49 +1,5 @@
 [
  {
-  "time": "2026-11-16T06:31:42.339544+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 5,
-  "fixtures_both": 0,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 5
- },
- {
-  "time": "2026-11-16T06:36:42.339637+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 5,
-  "fixtures_both": 0,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 5
- },
- {
   "time": "2026-11-16T06:41:42.339666+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23896,5 +23852,179 @@
   "not_executable": 0,
   "api_calls": 1,
   "free_calls": 153
+ },
+ {
+  "time": "2026-11-18T01:51:24.376361+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "top_ev": [
+   "-0.7% San Jose – Calgary · Hendikep (rendes játékidő): San Jose (+1) @1.35 (fair 1.36)",
+   "-2.3% Mexikó – Jamaika · Gólszám 4.5: Kevesebb @1.43 (fair 1.463)",
+   "-2.5% Yusuke Watanuki – Fajing Sun · Győztes: Yusuke Watanuki győz @1.07 (fair 1.097)",
+   "-2.5% Mexikó – Jamaika · Ázsiai hendikep: Jamaika (+3) @1.36 (fair 1.395)",
+   "-2.5% San Jose – Calgary · 1X2 (rendes játékidő): San Jose győz @2.24 (fair 2.298)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 6,
+  "fast": true,
+  "fixtures_checked": 28,
+  "fixtures_both": 14,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 1,
+  "free_calls": 30
+ },
+ {
+  "time": "2026-11-18T01:57:03.180007+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "boosts": 0,
+  "tippmix_matches": 1097,
+  "pinnacle_fixtures": 976,
+  "paired": 439,
+  "by_sport": {
+   "Soccer": [
+    164,
+    117
+   ],
+   "Tennis": [
+    401,
+    44
+   ],
+   "Basketball": [
+    143,
+    93
+   ],
+   "Ice Hockey": [
+    70,
+    58
+   ],
+   "Handball": [
+    37,
+    17
+   ],
+   "Volleyball": [
+    43,
+    11
+   ],
+   "Table Tennis": [
+    51,
+    38
+   ],
+   "Cricket": [
+    40,
+    26
+   ],
+   "Badminton": [
+    57,
+    7
+   ],
+   "Darts": [
+    23,
+    19
+   ],
+   "Futsal": [
+    4,
+    2
+   ],
+   "Waterpolo": [
+    12,
+    7
+   ],
+   "ESport Counter-Strike": [
+    22,
+    0
+   ],
+   "ESport Dota": [
+    6,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    20,
+    0
+   ],
+   "eBasketball": [
+    4,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-0.7% San Jose – Calgary · Hendikep (rendes játékidő): San Jose (+1) @1.35 (fair 1.36)",
+   "-1.0% Ringsted – Fredericia · 1X2: Fredericia győz @1.36 (fair 1.374)",
+   "-1.4% Mexikó – Jamaika · Gólszám 3: Több @1.36 (fair 1.379)",
+   "-1.8% Vasco da Gama RJ – Internacional RS · 1X2: Vasco da Gama RJ győz @1.66 (fair 1.69)",
+   "-1.9% Vitória BA – Bragantino · Gólszám 1.5: Több @1.25 (fair 1.274)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 17,
+  "fast": false,
+  "fixtures_checked": 111,
+  "fixtures_both": 50,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 113
  }
 ]

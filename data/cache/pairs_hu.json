@@ -2924,31 +2924,6 @@
   },
   "score": 0.738
  },
- "id1200946376780210": {
-  "tm": {
-   "id": "319929341952729088",
-   "sport": "Tenisz",
-   "name": "Ellis B./Tu L. - Santillan A./Zheng B.",
-   "home": "Ellis B./Tu L.",
-   "away": "Santillan A./Zheng B.",
-   "home_pid": "317571362307776512",
-   "away_pid": "267553411186167808",
-   "tournament": "Sydney, férfi páros",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-18T01:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200946376780210",
-   "startTime": "2026-11-18T01:40:00.000Z",
-   "participant1Name": "Ellis B / Tu L",
-   "participant2Name": "Santillan A / Zheng B",
-   "tournamentId": 9463,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
  "id1200946176687422": {
   "tm": {
    "id": "320182822593699840",
@@ -6999,31 +6974,6 @@
   },
   "score": 1.0
  },
- "id1501436172712530": {
-  "tm": {
-   "id": "319082846232846336",
-   "sport": "Jégkorong",
-   "name": "Penticton Vees - Seattle Thunderbirds",
-   "home": "Penticton Vees",
-   "away": "Seattle Thunderbirds",
-   "home_pid": "280256832854953984",
-   "away_pid": "184072134028480512",
-   "tournament": "WHL",
-   "category": "Kanada",
-   "tm_sport_id": "6",
-   "start": "2026-11-18T01:35:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1501436172712530",
-   "startTime": "2026-11-18T01:35:00.000Z",
-   "participant1Name": "Penticton Vees",
-   "participant2Name": "Seattle Thunderbirds",
-   "tournamentId": 14361,
-   "tournamentName": "WHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
  "id1501436172712532": {
   "tm": {
    "id": "319082845997965312",
@@ -9374,56 +9324,6 @@
   },
   "score": 1.0
  },
- "id2503634976869316": {
-  "tm": {
-   "id": "320130125586833408",
-   "sport": "Asztalitenisz",
-   "name": "Tomas Andrle - Petr Picek",
-   "home": "Tomas Andrle",
-   "away": "Petr Picek",
-   "home_pid": "116988456519913472",
-   "away_pid": "182301067359342592",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869316",
-   "startTime": "2026-11-18T02:00:00.000Z",
-   "participant1Name": "Andrle, Tomas",
-   "participant2Name": "Picek, Petr",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976869216": {
-  "tm": {
-   "id": "320129516598009856",
-   "sport": "Asztalitenisz",
-   "name": "Milan Smrcek - Radek Bartunek",
-   "home": "Milan Smrcek",
-   "away": "Radek Bartunek",
-   "home_pid": "127592158820618240",
-   "away_pid": "110829192985333760",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-18T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976869216",
-   "startTime": "2026-11-18T02:30:00.000Z",
-   "participant1Name": "Smrcek, Milan",
-   "participant2Name": "Bartunek, Radek",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976869644": {
   "tm": {
    "id": "320130126114267136",
@@ -9468,6 +9368,31 @@
    "startTime": "2026-11-18T02:30:00.000Z",
    "participant1Name": "Plachy, Jiri",
    "participant2Name": "Holovatiuk, Yurii",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976869216": {
+  "tm": {
+   "id": "320129516598009856",
+   "sport": "Asztalitenisz",
+   "name": "Milan Smrcek - Radek Bartunek",
+   "home": "Milan Smrcek",
+   "away": "Radek Bartunek",
+   "home_pid": "127592158820618240",
+   "away_pid": "110829192985333760",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-18T02:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976869216",
+   "startTime": "2026-11-18T02:30:00.000Z",
+   "participant1Name": "Smrcek, Milan",
+   "participant2Name": "Bartunek, Radek",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -10174,31 +10099,6 @@
   },
   "score": 0.757
  },
- "id4900157876902010": {
-  "tm": {
-   "id": "320212132380614656",
-   "sport": "Tollaslabda",
-   "name": "Nhat Nguyen - Toma Junior Popov",
-   "home": "Nhat Nguyen",
-   "away": "Toma Junior Popov",
-   "home_pid": "1559423",
-   "away_pid": "162262583242752",
-   "tournament": "Hongkong Open, férfi egyes",
-   "category": "Hongkong",
-   "tm_sport_id": "14",
-   "start": "2026-11-18T01:50:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4900157876902010",
-   "startTime": "2026-11-18T01:50:00.000Z",
-   "participant1Name": "Nguyen, Nhat",
-   "participant2Name": "Popov, Toma Junior",
-   "tournamentId": 1578,
-   "tournamentName": "Hong Kong Open, MS",
-   "sportName": "Badminton"
-  },
-  "score": 1.0
- },
  "id4900157876902022": {
   "tm": {
    "id": "320212520358977536",
@@ -10370,31 +10270,6 @@
    "participant2Name": "Saeheng, Tonrug",
    "tournamentId": 21510,
    "tournamentName": "Hong Kong Open, WS",
-   "sportName": "Badminton"
-  },
-  "score": 1.0
- },
- "id4902150676875528": {
-  "tm": {
-   "id": "320138268089851904",
-   "sport": "Tollaslabda",
-   "name": "Chen T.J./Chan W.T. - Jomkoh S./Sudjaipraparat J.",
-   "home": "Chen T.J./Chan W.T.",
-   "away": "Jomkoh S./Sudjaipraparat J.",
-   "home_pid": "316297680015925248",
-   "away_pid": "320119251339911168",
-   "tournament": "Hongkong Open, vegyes páros",
-   "category": "Hongkong",
-   "tm_sport_id": "14",
-   "start": "2026-11-18T01:50:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4902150676875528",
-   "startTime": "2026-11-18T01:50:00.000Z",
-   "participant1Name": "Chen T J / Chan W T",
-   "participant2Name": "Jomkoh S / Sudjaipraparat J",
-   "tournamentId": 21506,
-   "tournamentName": "Hong Kong Open, XD",
    "sportName": "Badminton"
   },
   "score": 1.0
