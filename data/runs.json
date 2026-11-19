@@ -1,162 +1,5 @@
 [
  {
-  "time": "2026-11-17T12:15:07.499130+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 530,
-   "paired": 237,
-   "classic_only": 49
-  },
-  "tippmix_matches": 1282,
-  "pinnacle_fixtures": 984,
-  "paired": 429,
-  "by_sport": {
-   "Soccer": [
-    210,
-    121
-   ],
-   "Tennis": [
-    417,
-    37
-   ],
-   "Basketball": [
-    197,
-    97
-   ],
-   "Ice Hockey": [
-    104,
-    88
-   ],
-   "Handball": [
-    52,
-    21
-   ],
-   "Volleyball": [
-    32,
-    3
-   ],
-   "Table Tennis": [
-    37,
-    14
-   ],
-   "Cricket": [
-    30,
-    17
-   ],
-   "Badminton": [
-    36,
-    0
-   ],
-   "Darts": [
-    16,
-    13
-   ],
-   "Futsal": [
-    4,
-    2
-   ],
-   "Waterpolo": [
-    10,
-    6
-   ],
-   "ESport Counter-Strike": [
-    38,
-    3
-   ],
-   "ESport Dota": [
-    9,
-    1
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    79,
-    0
-   ],
-   "eBasketball": [
-    11,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    6
-   ]
-  },
-  "top_ev": [
-   "+5.8% U19San Marino – U19Georgia · 1X2: U19Georgia győz @1.14 (fair 1.077)",
-   "+4.9% U21Sheffield Wed. – U21Hull City · 1X2: U21Hull City győz @2.27 (fair 2.164)",
-   "+3.3% Plzen – Davos · Hendikep (rendes játékidő): Plzen (-1.5) @2.51 (fair 2.43)",
-   "+2.2% Etiópia – Mozambik · Ázsiai hendikep: Etiópia (+0.5) @1.4 (fair 1.37)",
-   "+1.4% Etiópia – Mozambik · Ázsiai hendikep: Etiópia (+0.25) @1.52 (fair 1.5)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 15,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 79,
-  "rejected_mismatch": 0,
-  "candidates": 3,
-  "steam_fixtures": 31,
-  "classic_checked": 103,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.5% Gambia – Elefántcsontpart · 1X2: Döntetlen @3.65 (fair 3.634)",
-   "-0.1% Japán – Paraguay · Gólszám 4.5: Kevesebb @1.17 (fair 1.172)",
-   "-1.2% Plzen – Davos · Hendikep (rendes játékidő): Plzen (-1.5) @2.4 (fair 2.43)",
-   "-1.2% Japán – Paraguay · Ázsiai hendikep: Japán (-0.25) @1.41 (fair 1.428)",
-   "-1.3% Bissau-Guinea – Madagaszkár · 1X2: Döntetlen @4.25 (fair 4.308)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 156
- },
- {
   "time": "2026-11-17T12:32:19.139424+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25909,5 +25752,33 @@
   "not_executable": 0,
   "api_calls": 1,
   "free_calls": 156
+ },
+ {
+  "time": "2026-11-19T14:30:09.893795+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "top_ev": [
+   "+3.3% Al-Mokawloon Arab – El Qanah · Ázsiai hendikep: Al-Mokawloon Arab (+0) @1.5 (fair 1.452)",
+   "+1.4% Al-Mokawloon Arab – El Qanah · Ázsiai hendikep: Al-Mokawloon Arab (+0.25) @1.35 (fair 1.331)",
+   "+1.1% Al-Mokawloon Arab – El Qanah · 1X2: Al-Mokawloon Arab győz @2.18 (fair 2.155)",
+   "+0.4% Al-Ain (UAE) – Al-Dharfa · Gólszám 4.5: Kevesebb @1.47 (fair 1.464)",
+   "-0.4% Al-Mokawloon Arab – El Qanah · Ázsiai hendikep: Al-Mokawloon Arab (-0.25) @1.8 (fair 1.807)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 3,
+  "fast": true,
+  "fixtures_checked": 35,
+  "fixtures_both": 16,
+  "rejected_mismatch": 0,
+  "candidates": 1,
+  "steam_fixtures": 7,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 41
  }
 ]
