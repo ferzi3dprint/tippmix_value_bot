@@ -3449,31 +3449,6 @@
   },
   "score": 0.726
  },
- "id1203756376682272": {
-  "tm": {
-   "id": "320228814385913856",
-   "sport": "Tenisz",
-   "name": "Anastasia Zolotareva - Irene Burillo Escorihuela",
-   "home": "Anastasia Zolotareva",
-   "away": "Irene Burillo Escorihuela",
-   "home_pid": "4630212365256704",
-   "away_pid": "908963",
-   "tournament": "Colina, női egyes",
-   "category": "WTA-Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-19T18:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1203756376682272",
-   "startTime": "2026-11-19T18:30:00.000Z",
-   "participant1Name": "Zolotareva, Anastasia",
-   "participant2Name": "Burillo Escorihuela, Irene",
-   "tournamentId": 37563,
-   "tournamentName": "WTA 125K Colina, Chile Women Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0
- },
  "id1202140676736450": {
   "tm": {
    "id": "319988581164720128",
@@ -5824,31 +5799,6 @@
   },
   "score": 1.0
  },
- "id1500022572484110": {
-  "tm": {
-   "id": "319173152893640704",
-   "sport": "Jégkorong",
-   "name": "Krefeld - Straubing",
-   "home": "Krefeld",
-   "away": "Straubing",
-   "home_pid": "37304",
-   "away_pid": "37310",
-   "tournament": "Német bajnokság",
-   "category": "Németország",
-   "tm_sport_id": "6",
-   "start": "2026-11-19T18:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500022572484110",
-   "startTime": "2026-11-19T18:30:00.000Z",
-   "participant1Name": "Krefeld Pinguine",
-   "participant2Name": "Straubing Tigers",
-   "tournamentId": 225,
-   "tournamentName": "DEL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
  "id1500022572484112": {
   "tm": {
    "id": "319263963519983616",
@@ -7724,6 +7674,81 @@
   },
   "score": 1.0
  },
+ "id2503634976921592": {
+  "tm": {
+   "id": "320310367072886784",
+   "sport": "Asztalitenisz",
+   "name": "Karel Schopf - Karel Kapras",
+   "home": "Karel Schopf",
+   "away": "Karel Kapras",
+   "home_pid": "257798482170339328",
+   "away_pid": "266385066411823104",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921592",
+   "startTime": "2026-11-19T19:30:00.000Z",
+   "participant1Name": "Schopf, Karel",
+   "participant2Name": "Kapras, Karel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976921368": {
+  "tm": {
+   "id": "320310331405574144",
+   "sport": "Asztalitenisz",
+   "name": "Jakub Pilch - Prikasky Libor",
+   "home": "Jakub Pilch",
+   "away": "Prikasky Libor",
+   "home_pid": "274550304688705536",
+   "away_pid": "282868470805467136",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921368",
+   "startTime": "2026-11-19T19:30:00.000Z",
+   "participant1Name": "Pilch, Jakub",
+   "participant2Name": "Prikasky, Libor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976921624": {
+  "tm": {
+   "id": "320314838553272320",
+   "sport": "Asztalitenisz",
+   "name": "Roman Hudeczek - Jakub Simecek",
+   "home": "Roman Hudeczek",
+   "away": "Jakub Simecek",
+   "home_pid": "168173686262648832",
+   "away_pid": "274758198321352704",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921624",
+   "startTime": "2026-11-19T19:30:00.000Z",
+   "participant1Name": "Hudeczek, Roman",
+   "participant2Name": "Simecek, Jakub",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976921396": {
   "tm": {
    "id": "320310329861021696",
@@ -8296,31 +8321,6 @@
    "tournamentId": 33994,
    "tournamentName": "Modus Super Series",
    "sportName": "Darts"
-  },
-  "score": 1.0
- },
- "id2803029275712476": {
-  "tm": {
-   "id": "320122725281636352",
-   "sport": "Vízilabda",
-   "name": "Honvéd - BVSC",
-   "home": "Honvéd",
-   "away": "BVSC",
-   "home_pid": "6697314383577088",
-   "away_pid": "761754",
-   "tournament": "Európa Kupa",
-   "category": "Európa",
-   "tm_sport_id": "22",
-   "start": "2026-11-19T18:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2803029275712476",
-   "startTime": "2026-11-19T18:30:00.000Z",
-   "participant1Name": "Budapesti Honved",
-   "participant2Name": "BVSC- Zuglo",
-   "tournamentId": 30292,
-   "tournamentName": "LEN Euro Cup",
-   "sportName": "Waterpolo"
   },
   "score": 1.0
  },
