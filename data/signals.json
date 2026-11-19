@@ -4411,7 +4411,7 @@
   "closing_fair_prob": 0.45793,
   "closing_fair_odds": 2.184,
   "closing_sharp_odds": 2.07,
-  "closing_at": "2026-11-19T17:48:27.415329+00:00",
+  "closing_at": "2026-11-19T18:09:59.512991+00:00",
   "clv": 0.00286
  },
  {
@@ -4479,5 +4479,22 @@
   "closing_sharp_odds": 1.268,
   "closing_at": "2026-11-19T17:25:50.035991+00:00",
   "clv": 0.01709
+ },
+ {
+  "fixture_id": "id1500022572484110",
+  "market_id": 151,
+  "outcome_id": 151,
+  "first_at": "2026-11-19T18:09:59.512991+00:00",
+  "start": "2026-11-19T18:30:00.000Z",
+  "home": "Krefeld",
+  "away": "Straubing",
+  "tournament": "Német bajnokság",
+  "label": "Győztes (hosszabbítással): Krefeld győz",
+  "odds": 2.46,
+  "fair_prob": 0.43944,
+  "ev": 0.08101,
+  "band": "2.10–2.50",
+  "trigger": "steam",
+  "bet": false
  }
 ]
