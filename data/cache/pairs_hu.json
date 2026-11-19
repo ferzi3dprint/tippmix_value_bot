@@ -1,64 +1,4 @@
 {
- "id1000032566887164": {
-  "tm": {
-   "id": "318777705084559360",
-   "sport": "Labdarúgás",
-   "name": "Corinthians SP - Botafogo RJ",
-   "home": "Corinthians SP",
-   "away": "Botafogo RJ",
-   "home_pid": "3815",
-   "away_pid": "87729",
-   "tournament": "Brazil bajnokság",
-   "category": "Brazília",
-   "tm_sport_id": "1",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000032566887164",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "SC Corinthians SP",
-   "participant2Name": "Botafogo FR RJ",
-   "tournamentId": 325,
-   "tournamentName": "Brasileiro Serie A",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594132,
-   "name": "Corinthians SP - Botafogo RJ",
-   "score": 1.0
-  }
- },
- "id1000032566887170": {
-  "tm": {
-   "id": "318778065938358272",
-   "sport": "Labdarúgás",
-   "name": "Gremio RS - Bahia BA",
-   "home": "Gremio RS",
-   "away": "Bahia BA",
-   "home_pid": "3801",
-   "away_pid": "3803",
-   "tournament": "Brazil bajnokság",
-   "category": "Brazília",
-   "tm_sport_id": "1",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000032566887170",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Gremio FB Porto Alegrense RS",
-   "participant2Name": "EC Bahia BA",
-   "tournamentId": 325,
-   "tournamentName": "Brasileiro Serie A",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594123,
-   "name": "Gremio RS - Bahia BA",
-   "score": 1.0
-  }
- },
  "id1002710276822362": {
   "tm": {
    "id": "320142804525326336",
@@ -5229,96 +5169,6 @@
    "score": 1.0
   }
  },
- "id1200946176687398": {
-  "tm": {
-   "id": "320200105883934720",
-   "sport": "Tenisz",
-   "name": "Sebastian Gorzny - Moerani Bouzige",
-   "home": "Sebastian Gorzny",
-   "away": "Moerani Bouzige",
-   "home_pid": "284766680664805376",
-   "away_pid": "1393474",
-   "tournament": "Sydney, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200946176687398",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Gorzny, Sebastian",
-   "participant2Name": "Bouzige, Moerani",
-   "tournamentId": 9461,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5656188,
-   "name": "S. Gorzny - M. Bouzige",
-   "score": 1.0
-  }
- },
- "id1200946376688058": {
-  "tm": {
-   "id": "320268857636888576",
-   "sport": "Tenisz",
-   "name": "Hoole C./Vujic S. - Hoeyeraal H./Padgham E.",
-   "home": "Hoole C./Vujic S.",
-   "away": "Hoeyeraal H./Padgham E.",
-   "home_pid": "319916899046596608",
-   "away_pid": "315676009233981440",
-   "tournament": "Sydney, férfi páros",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200946376688058",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Hoole C / Vujic S",
-   "participant2Name": "Hoeyeraal H / Padgham E",
-   "tournamentId": 9463,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668890,
-   "name": "Hoole C / Vujic S - Hoeyeraal H / Padgham E",
-   "score": 1.0
-  }
- },
- "id1201229176683304": {
-  "tm": {
-   "id": "320254354658500608",
-   "sport": "Tenisz",
-   "name": "Darwin Blanch - Samir Banerjee",
-   "home": "Darwin Blanch",
-   "away": "Samir Banerjee",
-   "home_pid": "161472661252263936",
-   "away_pid": "140008978308452352",
-   "tournament": "Drummondville, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-19T00:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201229176683304",
-   "startTime": "2026-11-19T00:40:00.000Z",
-   "participant1Name": "Blanch, Darwin",
-   "participant2Name": "Banerjee, Samir",
-   "tournamentId": 12291,
-   "tournamentName": "ATP Challenger Drummondville, Canada Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663246,
-   "name": "Darwin Blanch - S. Banerjee",
-   "score": 1.0
-  }
- },
  "id1200397776807270": {
   "tm": {
    "id": "319973479648665600",
@@ -6681,221 +6531,6 @@
    "tournamentId": 12291,
    "tournamentName": "ATP Challenger Drummondville, Canada Men Singles",
    "sportName": "Tennis"
-  },
-  "score": 1.0
- },
- "id1100013273719698": {
-  "tm": {
-   "id": "319173430175932416",
-   "sport": "Kosárlabda",
-   "name": "Toronto - Washington",
-   "home": "Toronto",
-   "away": "Washington",
-   "home_pid": "2197",
-   "away_pid": "2182",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273719698",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Toronto Raptors",
-   "participant2Name": "Washington Wizards",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594413,
-   "name": "Toronto - Washington",
-   "score": 1.0
-  }
- },
- "id1100013273719696": {
-  "tm": {
-   "id": "319173429760696320",
-   "sport": "Kosárlabda",
-   "name": "Brooklyn - Chicago",
-   "home": "Brooklyn",
-   "away": "Chicago",
-   "home_pid": "731740",
-   "away_pid": "2192",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273719696",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Brooklyn Nets",
-   "participant2Name": "Chicago Bulls",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594438,
-   "name": "Brooklyn - Chicago",
-   "score": 1.0
-  }
- },
- "id1100064873935410": {
-  "tm": {
-   "id": "320263663325880320",
-   "sport": "Kosárlabda",
-   "name": "Cincinnati Bearcats - Youngstown State Penguins",
-   "home": "Cincinnati Bearcats",
-   "away": "Youngstown State Penguins",
-   "home_pid": "37225",
-   "away_pid": "37492",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873935410",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Cincinnati Bearcats",
-   "participant2Name": "Youngstown State Penguins",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100064872714578": {
-  "tm": {
-   "id": "320263766266683392",
-   "sport": "Kosárlabda",
-   "name": "Marquette Golden Eagles - Northern Illinois Huskies",
-   "home": "Marquette Golden Eagles",
-   "away": "Northern Illinois Huskies",
-   "home_pid": "186935090671046656",
-   "away_pid": "187320804633006080",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064872714578",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Marquette Golden Eagles",
-   "participant2Name": "Northern Illinois Huskies",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100064873716270": {
-  "tm": {
-   "id": "320271508049043456",
-   "sport": "Kosárlabda",
-   "name": "Texas Tech Red Raiders - New Orleans Privateers",
-   "home": "Texas Tech Red Raiders",
-   "away": "New Orleans Privateers",
-   "home_pid": "38069",
-   "away_pid": "38020",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873716270",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Texas Tech Red Raiders",
-   "participant2Name": "LSU New Orleans Privateers",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100064876921456": {
-  "tm": {
-   "id": "320310936652029952",
-   "sport": "Kosárlabda",
-   "name": "Kansas Jayhawks - West Virginia Mountaineers",
-   "home": "Kansas Jayhawks",
-   "away": "West Virginia Mountaineers",
-   "home_pid": "37228",
-   "away_pid": "38063",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064876921456",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Kansas Jayhawks",
-   "participant2Name": "West Virginia Mountaineers",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5670030,
-   "name": "Kansas Jayhawks - West Virginia Mountaineers",
-   "score": 1.0
-  }
- },
- "id1103449675755976": {
-  "tm": {
-   "id": "319173438231093248",
-   "sport": "Kosárlabda",
-   "name": "Barrio Parque - Sportivo Suardi",
-   "home": "Barrio Parque",
-   "away": "Sportivo Suardi",
-   "home_pid": "1388718",
-   "away_pid": "196642023676211200",
-   "tournament": "Argentin 2.",
-   "category": "Argentína",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103449675755976",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Barrio Parque",
-   "participant2Name": "Sportivo Suardi",
-   "tournamentId": 34496,
-   "tournamentName": "Liga Argentina",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1101998075452308": {
-  "tm": {
-   "id": "319747100969607168",
-   "sport": "Kosárlabda",
-   "name": "Club Malvin - Larranaga",
-   "home": "Club Malvin",
-   "away": "Larranaga",
-   "home_pid": "185261817105272832",
-   "away_pid": "152926188827000832",
-   "tournament": "Uruguayi bajnokság",
-   "category": "Uruguay",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1101998075452308",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Club Malvin",
-   "participant2Name": "CS Larranaga",
-   "tournamentId": 19980,
-   "tournamentName": "LUB",
-   "sportName": "Basketball"
   },
   "score": 1.0
  },
@@ -10223,66 +9858,6 @@
    "sportName": "Basketball"
   },
   "score": 0.72
- },
- "id1500023472909532": {
-  "tm": {
-   "id": "319173153887690752",
-   "sport": "Jégkorong",
-   "name": "New Jersey - Montreal",
-   "home": "New Jersey",
-   "away": "Montreal",
-   "home_pid": "37431",
-   "away_pid": "37432",
-   "tournament": "NHL (alapszakasz)",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500023472909532",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "New Jersey Devils",
-   "participant2Name": "Montreal Canadiens",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594496,
-   "name": "New Jersey - Montreal",
-   "score": 1.0
-  }
- },
- "id1500023472909530": {
-  "tm": {
-   "id": "319173153969479680",
-   "sport": "Jégkorong",
-   "name": "Detroit - Boston",
-   "home": "Detroit",
-   "away": "Boston",
-   "home_pid": "37441",
-   "away_pid": "37427",
-   "tournament": "NHL (alapszakasz)",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500023472909530",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Detroit Red Wings",
-   "participant2Name": "Boston Bruins",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594499,
-   "name": "Detroit - Boston",
-   "score": 1.0
-  }
  },
  "id1500023472909534": {
   "tm": {
@@ -14324,81 +13899,6 @@
   },
   "score": 1.0
  },
- "id2503634976899162": {
-  "tm": {
-   "id": "320225392965263360",
-   "sport": "Asztalitenisz",
-   "name": "Tomas Postelt - Jakub Pilch",
-   "home": "Tomas Postelt",
-   "away": "Jakub Pilch",
-   "home_pid": "135653744769552384",
-   "away_pid": "274550304688705536",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899162",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Postelt, Tomas",
-   "participant2Name": "Pilch, Jakub",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899156": {
-  "tm": {
-   "id": "320225497599516672",
-   "sport": "Asztalitenisz",
-   "name": "Petr Bruzek - Framberk Jan",
-   "home": "Petr Bruzek",
-   "away": "Framberk Jan",
-   "home_pid": "255911197929758720",
-   "away_pid": "184523105441468416",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899156",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Bruzek, Petr",
-   "participant2Name": "Framberk, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899634": {
-  "tm": {
-   "id": "320225498973151232",
-   "sport": "Asztalitenisz",
-   "name": "Tomas Franek - Martin Skakal",
-   "home": "Tomas Franek",
-   "away": "Martin Skakal",
-   "home_pid": "225094649478533120",
-   "away_pid": "169265262322831360",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T00:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899634",
-   "startTime": "2026-11-19T00:30:00.000Z",
-   "participant1Name": "Franek, Tomas",
-   "participant2Name": "Skakal, Martin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976899670": {
   "tm": {
    "id": "320225393065926656",
@@ -14418,6 +13918,56 @@
    "startTime": "2026-11-19T01:00:00.000Z",
    "participant1Name": "Wagner, Mark Robin",
    "participant2Name": "Urbaniec, Radim",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899614": {
+  "tm": {
+   "id": "320225498036772864",
+   "sport": "Asztalitenisz",
+   "name": "Ondrej Svacha - Martin Skakal",
+   "home": "Ondrej Svacha",
+   "away": "Martin Skakal",
+   "home_pid": "192184043047120896",
+   "away_pid": "169265262322831360",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T01:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899614",
+   "startTime": "2026-11-19T01:30:00.000Z",
+   "participant1Name": "Svacha, Ondrej",
+   "participant2Name": "Skakal, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899200": {
+  "tm": {
+   "id": "320225497872146432",
+   "sport": "Asztalitenisz",
+   "name": "Zdenek Bilek - Jakub Pilch",
+   "home": "Zdenek Bilek",
+   "away": "Jakub Pilch",
+   "home_pid": "107383063310389248",
+   "away_pid": "274550304688705536",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T01:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899200",
+   "startTime": "2026-11-19T01:30:00.000Z",
+   "participant1Name": "Bilek, Zdenek",
+   "participant2Name": "Pilch, Jakub",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
