@@ -2593,8 +2593,8 @@
  {
   "id": "907add1f16",
   "placed_at": "2026-11-19T04:01:08.554170+00:00",
-  "status": "open",
-  "exec_status": "pending",
+  "status": "skipped",
+  "exec_status": "gone",
   "fixture_id": "id1000097175174742",
   "sport": "Soccer",
   "tournament": "Egyesült Arab Emirátusok bajnokság",
@@ -2626,6 +2626,8 @@
   "trigger": "steam",
   "tm_tip": "Ázsiai hendikep 1 - Rendes játékidő → Al-Sharjah (-1)",
   "min_odds": 3.17,
-  "expected_profit": 65.9
+  "expected_profit": 65.9,
+  "exec_checked_at": "2026-11-19T04:06:31.154805+00:00",
+  "exec_odds": 3.05
  }
 ]

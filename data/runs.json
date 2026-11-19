@@ -1,73 +1,5 @@
 [
  {
-  "time": "2026-11-17T03:05:37.219369+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-6.0% Kaichi Uchida – Benjamin Hassan · Győztes: Benjamin Hassan győz @1.66 (fair 1.765)",
-   "-7.1% Kaichi Uchida – Benjamin Hassan · Játékszám 22.5: Több @1.78 (fair 1.916)",
-   "-8.5% Kaichi Uchida – Benjamin Hassan · Győztes: Kaichi Uchida győz @2.11 (fair 2.307)",
-   "-8.6% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Kevesebb @1.69 (fair 1.848)",
-   "-8.7% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Több @1.99 (fair 2.179)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 6,
-  "fixtures_both": 3,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 3,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-8.6% Kaichi Uchida – Benjamin Hassan · Játékszám 22.5: Több @1.75 (fair 1.916)",
-   "-8.8% Kaichi Uchida – Benjamin Hassan · Győztes: Benjamin Hassan győz @1.61 (fair 1.765)",
-   "-9.1% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Több @1.98 (fair 2.179)",
-   "-10.7% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Kevesebb @1.65 (fair 1.848)",
-   "-11.1% Kaichi Uchida – Benjamin Hassan · Győztes: Kaichi Uchida győz @2.05 (fair 2.307)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 6
- },
- {
-  "time": "2026-11-17T03:10:37.219128+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-6.0% Kaichi Uchida – Benjamin Hassan · Győztes: Benjamin Hassan győz @1.66 (fair 1.765)",
-   "-7.1% Kaichi Uchida – Benjamin Hassan · Játékszám 22.5: Több @1.78 (fair 1.916)",
-   "-8.5% Kaichi Uchida – Benjamin Hassan · Győztes: Kaichi Uchida győz @2.11 (fair 2.307)",
-   "-8.6% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Kevesebb @1.69 (fair 1.848)",
-   "-8.7% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Több @1.99 (fair 2.179)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 4,
-  "fixtures_both": 3,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 3,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-8.6% Kaichi Uchida – Benjamin Hassan · Játékszám 22.5: Több @1.75 (fair 1.916)",
-   "-8.8% Kaichi Uchida – Benjamin Hassan · Győztes: Benjamin Hassan győz @1.61 (fair 1.765)",
-   "-9.1% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Több @1.98 (fair 2.179)",
-   "-10.7% Kaichi Uchida – Benjamin Hassan · Játékszám 23.5: Kevesebb @1.65 (fair 1.848)",
-   "-11.1% Kaichi Uchida – Benjamin Hassan · Győztes: Kaichi Uchida győz @2.05 (fair 2.307)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 4
- },
- {
   "time": "2026-11-17T03:15:37.219873+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25414,5 +25346,184 @@
   "not_executable": 0,
   "api_calls": 1,
   "free_calls": 153
+ },
+ {
+  "time": "2026-11-19T04:01:31.154497+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 1,
+  "fast": true,
+  "fixtures_checked": 4,
+  "fixtures_both": 1,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 4
+ },
+ {
+  "time": "2026-11-19T04:06:31.154805+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "boosts": 0,
+  "classic": {
+   "events": 276,
+   "paired": 208,
+   "classic_only": 20
+  },
+  "tippmix_matches": 1153,
+  "pinnacle_fixtures": 1073,
+  "paired": 549,
+  "by_sport": {
+   "Soccer": [
+    255,
+    188
+   ],
+   "Tennis": [
+    327,
+    58
+   ],
+   "Basketball": [
+    141,
+    94
+   ],
+   "Ice Hockey": [
+    110,
+    99
+   ],
+   "Handball": [
+    22,
+    16
+   ],
+   "Volleyball": [
+    31,
+    5
+   ],
+   "Table Tennis": [
+    38,
+    35
+   ],
+   "Cricket": [
+    25,
+    16
+   ],
+   "Badminton": [
+    57,
+    5
+   ],
+   "Darts": [
+    29,
+    27
+   ],
+   "Futsal": [
+    1,
+    0
+   ],
+   "Waterpolo": [
+    9,
+    5
+   ],
+   "ESport Counter-Strike": [
+    14,
+    0
+   ],
+   "ESport Dota": [
+    11,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    79,
+    0
+   ],
+   "eBasketball": [
+    4,
+    0
+   ],
+   "American Football": [
+    0,
+    1
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-0.5% Granollers – Atl. Valladolid · 1X2: Granollers győz @1.59 (fair 1.598)",
+   "-0.6% Leksand – Visby-Roma · Gólszám 6.5: Kevesebb @1.88 (fair 1.891)",
+   "-0.7% Eisbären Berlin – Ingolstadt · 1X2 (rendes játékidő): Döntetlen @4.55 (fair 4.58)",
+   "-0.8% Annecy – Clermont · Gólszám 1.5: Több @1.33 (fair 1.34)",
+   "-1.0% Independiente del Valle – Macara Ambato · Ázsiai hendikep: Independiente del Valle (+0) @1.15 (fair 1.162)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 17,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 102,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 60,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "+0.8% Preston Lions – South Hobart · Gólszám 4.5: Kevesebb @1.53 (fair 1.517)",
+   "-1.4% Piast Gliwice – Korona Kielce · 1X2: Korona Kielce győz @2.6 (fair 2.636)",
+   "-1.6% Piast Gliwice – Korona Kielce · Gólszám 4.5: Kevesebb @1.17 (fair 1.189)",
+   "-1.7% Stade Ouchy – Kriens · Gólszám 4.5: Kevesebb @1.29 (fair 1.313)",
+   "-2.2% Piast Gliwice – Korona Kielce · Gólszám 3.5: Kevesebb @1.46 (fair 1.493)"
+  ],
+  "placed": 0,
+  "not_executable": 1,
+  "api_calls": 1,
+  "free_calls": 151
  }
 ]
