@@ -5119,66 +5119,6 @@
    "score": 1.0
   }
  },
- "id1200946176687400": {
-  "tm": {
-   "id": "320198384080199680",
-   "sport": "Tenisz",
-   "name": "Tristan Schoolkate - Olukayode Alafia Damina Ayeni",
-   "home": "Tristan Schoolkate",
-   "away": "Olukayode Alafia Damina Ayeni",
-   "home_pid": "7643724978352128",
-   "away_pid": "1334488",
-   "tournament": "Sydney, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-19T01:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200946176687400",
-   "startTime": "2026-11-19T01:40:00.000Z",
-   "participant1Name": "Schoolkate, Tristan",
-   "participant2Name": "Ayeni, Alafia",
-   "tournamentId": 9461,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5656184,
-   "name": "T. Schoolkate - A. Ayeni",
-   "score": 1.0
-  }
- },
- "id1200946376688056": {
-  "tm": {
-   "id": "320287294102773760",
-   "sport": "Tenisz",
-   "name": "Kubler J./Puttergill C. - Hazawa S./Sueoka Y.",
-   "home": "Kubler J./Puttergill C.",
-   "away": "Hazawa S./Sueoka Y.",
-   "home_pid": "318662551870185472",
-   "away_pid": "238933965709676544",
-   "tournament": "Sydney, férfi páros",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-19T01:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200946376688056",
-   "startTime": "2026-11-19T01:40:00.000Z",
-   "participant1Name": "Kubler J / Puttergill C",
-   "participant2Name": "Hazawa S / Sueoka Y",
-   "tournamentId": 9463,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5670054,
-   "name": "Kubler J / Puttergill C - Hazawa S / Sueoka Y",
-   "score": 1.0
-  }
- },
  "id1201316776695058": {
   "tm": {
    "id": "320195707998904320",
@@ -13364,31 +13304,6 @@
   },
   "score": 1.0
  },
- "id2503634976899186": {
-  "tm": {
-   "id": "320225497965469696",
-   "sport": "Asztalitenisz",
-   "name": "Framberk Jan - Martin Novak",
-   "home": "Framberk Jan",
-   "away": "Martin Novak",
-   "home_pid": "184523105441468416",
-   "away_pid": "175784046462291968",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899186",
-   "startTime": "2026-11-19T02:30:00.000Z",
-   "participant1Name": "Framberk, Jan",
-   "participant2Name": "Novak, Martin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976899668": {
   "tm": {
    "id": "320225534092058624",
@@ -13408,6 +13323,31 @@
    "startTime": "2026-11-19T02:30:00.000Z",
    "participant1Name": "Skakal, Martin",
    "participant2Name": "Wagner, Mark Robin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899186": {
+  "tm": {
+   "id": "320225497965469696",
+   "sport": "Asztalitenisz",
+   "name": "Framberk Jan - Martin Novak",
+   "home": "Framberk Jan",
+   "away": "Martin Novak",
+   "home_pid": "184523105441468416",
+   "away_pid": "175784046462291968",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T02:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899186",
+   "startTime": "2026-11-19T02:30:00.000Z",
+   "participant1Name": "Framberk, Jan",
+   "participant2Name": "Novak, Martin",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -13463,31 +13403,6 @@
    "sportName": "Table Tennis"
   },
   "score": 0.97
- },
- "id2503634976899182": {
-  "tm": {
-   "id": "320225497686548480",
-   "sport": "Asztalitenisz",
-   "name": "Eric Maresh - Tomas Postelt",
-   "home": "Eric Maresh",
-   "away": "Tomas Postelt",
-   "home_pid": "104575284237455360",
-   "away_pid": "135653744769552384",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T02:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899182",
-   "startTime": "2026-11-19T02:00:00.000Z",
-   "participant1Name": "Mares, Erik",
-   "participant2Name": "Postelt, Tomas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 0.9
  },
  "id2702157075326640": {
   "tm": {
@@ -14181,36 +14096,6 @@
   "cl": {
    "id": 5670003,
    "name": "P.K. Wardani - Tonrug Saeheng",
-   "score": 1.0
-  }
- },
- "id4902150876914496": {
-  "tm": {
-   "id": "320266451314352128",
-   "sport": "Tollaslabda",
-   "name": "Stoeva G./Stoeva S. - Nakade S./Takahashi M.",
-   "home": "Stoeva G./Stoeva S.",
-   "away": "Nakade S./Takahashi M.",
-   "home_pid": "824799",
-   "away_pid": "297730572980359168",
-   "tournament": "Hongkong Open, női páros",
-   "category": "Hongkong",
-   "tm_sport_id": "14",
-   "start": "2026-11-19T01:50:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4902150876914496",
-   "startTime": "2026-11-19T01:50:00.000Z",
-   "participant1Name": "Stoeva G / Stoeva S",
-   "participant2Name": "Nakade S / Takahashi M",
-   "tournamentId": 21508,
-   "tournamentName": "Hong Kong Open, WD",
-   "sportName": "Badminton"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668081,
-   "name": "Stoeva G / Stoeva S - Nakade S / Takahashi M",
    "score": 1.0
   }
  },
