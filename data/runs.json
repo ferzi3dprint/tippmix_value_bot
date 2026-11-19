@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-16T23:52:47.860573+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 5,
-  "boosts": 0,
-  "classic": {
-   "events": 298,
-   "paired": 187,
-   "classic_only": 50
-  },
-  "tippmix_matches": 1105,
-  "pinnacle_fixtures": 984,
-  "paired": 526,
-  "by_sport": {
-   "Soccer": [
-    167,
-    118
-   ],
-   "Tennis": [
-    378,
-    99
-   ],
-   "Basketball": [
-    182,
-    120
-   ],
-   "Ice Hockey": [
-    91,
-    78
-   ],
-   "Handball": [
-    39,
-    18
-   ],
-   "Volleyball": [
-    23,
-    6
-   ],
-   "Table Tennis": [
-    24,
-    14
-   ],
-   "Cricket": [
-    29,
-    22
-   ],
-   "Badminton": [
-    63,
-    12
-   ],
-   "Darts": [
-    25,
-    23
-   ],
-   "Futsal": [
-    4,
-    3
-   ],
-   "Waterpolo": [
-    10,
-    5
-   ],
-   "ESport Counter-Strike": [
-    29,
-    6
-   ],
-   "ESport Dota": [
-    10,
-    1
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    27,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "-0.8% Utah – Vancouver · Hendikep (rendes játékidő): Utah (+0) @1.27 (fair 1.281)",
-   "-1.4% Frölunda – Växjö · 1X2 (rendes játékidő): Frölunda győz @1.57 (fair 1.592)",
-   "-1.5% Moerani Bouzige – Juncheng Shang · Győztes: Juncheng Shang győz @1.05 (fair 1.066)",
-   "-2.1% Utah – Vancouver · Győztes (hosszabbítással): Utah győz @1.31 (fair 1.338)",
-   "-2.2% NY Rangers – Montreal · Hendikep (rendes játékidő): NY Rangers (+1) @1.43 (fair 1.463)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 40,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 81,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 8,
-  "classic_checked": 11,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-3.9% Frölunda – Växjö · 1X2 (rendes játékidő): Frölunda győz @1.53 (fair 1.592)",
-   "-5.5% Düsseldorf – Rosenheim · Győztes (hosszabbítással): Düsseldorf győz @1.41 (fair 1.492)",
-   "-6.3% Crimmitschau – Kassel · Hendikep (rendes játékidő): Crimmitschau (+0.5) @1.57 (fair 1.675)",
-   "-6.5% Frederikshavn – Esbjerg · Hendikep (rendes játékidő): Frederikshavn (+0.5) @1.55 (fair 1.658)",
-   "-6.6% Bad Nauheim – Ravensburg · Hendikep (rendes játékidő): Bad Nauheim (+0.5) @1.54 (fair 1.649)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 155
- },
- {
-  "time": "2026-11-17T00:09:39.044407+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "-1.9% NY Rangers – Montreal · Hendikep (rendes játékidő): Montreal (+1) @1.39 (fair 1.417)",
-   "-2.3% Wen Jing Xu – Min Sun Kim · Győztes: Wen Jing Xu győz @1.13 (fair 1.157)",
-   "-2.7% NY Rangers – Montreal · Győztes (hosszabbítással): Montreal győz @1.87 (fair 1.922)",
-   "-2.8% NY Rangers – Montreal · 1X2 (rendes játékidő): Montreal győz @2.38 (fair 2.449)",
-   "-2.8% NY Rangers – Montreal · Hendikep (rendes játékidő): NY Rangers (+1) @1.45 (fair 1.492)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 15,
-  "fast": true,
-  "fixtures_checked": 49,
-  "fixtures_both": 28,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 6,
-  "classic_checked": 28,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.0% Kanada – Guatemala · Gólszám 4: Kevesebb @1.52 (fair 1.519)",
-   "-0.1% New Mexico United – Sacramento · Gólszám 3.5: Kevesebb @1.37 (fair 1.371)",
-   "-0.2% Kanada – Guatemala · Gólszám 4.25: Kevesebb @1.43 (fair 1.433)",
-   "-2.3% Kanada – Guatemala · Gólszám 3.75: Kevesebb @1.68 (fair 1.72)",
-   "-2.6% Kanada – Guatemala · Ázsiai hendikep: Guatemala (+2.75) @1.47 (fair 1.509)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 54
- },
- {
   "time": "2026-11-17T00:17:18.892297+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25579,5 +25388,196 @@
   "not_executable": 0,
   "api_calls": 2,
   "free_calls": 153
+ },
+ {
+  "time": "2026-11-19T01:07:06.642209+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 1,
+  "top_ev": [
+   "-1.1% Utah – Colorado · Hendikep (rendes játékidő): Colorado (+1) @1.44 (fair 1.456)",
+   "-1.6% Tristan Schoolkate – Olukayode Alafia Damina Ayeni · Győztes: Tristan Schoolkate győz @1.21 (fair 1.23)",
+   "-2.5% Utah – Colorado · Hendikep (rendes játékidő): Utah (+1) @1.43 (fair 1.466)",
+   "-2.6% Utah – Colorado · Hendikep (rendes játékidő): Colorado (-0) @1.93 (fair 1.981)",
+   "-2.9% Independiente de La Chorrera – Tauro FC · Gólszám 2: Több @1.36 (fair 1.401)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 9,
+  "fast": true,
+  "fixtures_checked": 40,
+  "fixtures_both": 19,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 1,
+  "classic_checked": 27,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-2.9% Colorado Buffaloes – Portland Pilots · Győztes (hosszabbítással): Colorado Buffaloes győz @1.05 (fair 1.081)",
+   "-3.2% Tristan Schoolkate – Olukayode Alafia Damina Ayeni · Győztes: Tristan Schoolkate győz @1.19 (fair 1.23)",
+   "-4.0% Colorado State Rams – North Dakota State Bison · Győztes (hosszabbítással): Colorado State Rams győz @1.07 (fair 1.115)",
+   "-4.1% LA Lakers – Utah · Győztes (hosszabbítással): LA Lakers győz @1.16 (fair 1.209)",
+   "-4.7% Denver – Boston · Hendikep (hosszabbítással): Denver (+4.5) @1.63 (fair 1.71)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 41
+ },
+ {
+  "time": "2026-11-19T01:13:36.885558+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 2,
+  "boosts": 0,
+  "classic": {
+   "events": 329,
+   "paired": 235,
+   "classic_only": 31
+  },
+  "tippmix_matches": 1084,
+  "pinnacle_fixtures": 1073,
+  "paired": 596,
+  "by_sport": {
+   "Soccer": [
+    244,
+    189
+   ],
+   "Tennis": [
+    296,
+    63
+   ],
+   "Basketball": [
+    145,
+    112
+   ],
+   "Ice Hockey": [
+    115,
+    105
+   ],
+   "Handball": [
+    21,
+    16
+   ],
+   "Volleyball": [
+    31,
+    5
+   ],
+   "Table Tennis": [
+    46,
+    39
+   ],
+   "Cricket": [
+    25,
+    16
+   ],
+   "Badminton": [
+    76,
+    18
+   ],
+   "Darts": [
+    28,
+    27
+   ],
+   "Futsal": [
+    2,
+    0
+   ],
+   "Waterpolo": [
+    9,
+    5
+   ],
+   "ESport Counter-Strike": [
+    11,
+    0
+   ],
+   "ESport Dota": [
+    11,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    19,
+    0
+   ],
+   "eBasketball": [
+    5,
+    0
+   ],
+   "American Football": [
+    0,
+    1
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-0.1% Western Sydney Wanderers – Adelaide Utd. · 1X2: Western Sydney Wanderers győz @1.69 (fair 1.692)",
+   "-0.5% Seattle – Salt Lake · 1X2: Seattle győz @1.97 (fair 1.979)",
+   "-1.1% Utah – Colorado · Hendikep (rendes játékidő): Colorado (+1) @1.44 (fair 1.456)",
+   "-1.5% Western Sydney Wanderers – Adelaide Utd. · Gólszám 1.5: Több @1.14 (fair 1.158)",
+   "-1.6% Sao Paulo SP – Fluminense RJ · Gólszám 1.5: Több @1.37 (fair 1.392)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 25,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 73,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 2,
+  "classic_checked": 78,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-1.3% Kashiwa Reysol – JEF United Chiba · Gólszám 4.5: Kevesebb @1.21 (fair 1.226)",
+   "-1.9% East Bengal – SC Delhi · Gólszám 4.5: Kevesebb @1.26 (fair 1.284)",
+   "-2.6% Orlando – Cincinnati · Gólszám 5.5: Kevesebb @1.21 (fair 1.242)",
+   "-2.6% Preston Lions – South Hobart · Gólszám 4.5: Kevesebb @1.54 (fair 1.582)",
+   "-2.7% Vissel Kobe – Mito · Gólszám 4.5: Kevesebb @1.13 (fair 1.161)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 2,
+  "free_calls": 151
  }
 ]

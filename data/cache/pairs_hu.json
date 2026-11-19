@@ -3949,31 +3949,6 @@
   },
   "score": 1.0
  },
- "id1001949076875154": {
-  "tm": {
-   "id": "320314234032431104",
-   "sport": "Labdarúgás",
-   "name": "Aguilas Universidad de Panama - Udelas FC",
-   "home": "Aguilas Universidad de Panama",
-   "away": "Udelas FC",
-   "home_pid": "215294691806171136",
-   "away_pid": "130988779024470016",
-   "tournament": "Panamai 2.",
-   "category": "Panama",
-   "tm_sport_id": "1",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1001949076875154",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Aguilas de la Universidad de Panama",
-   "participant2Name": "Udelas FC",
-   "tournamentId": 19490,
-   "tournamentName": "Liga Prom",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000021476860576": {
   "tm": {
    "id": "320313510037889024",
@@ -5166,36 +5141,6 @@
   "cl": {
    "id": 5611660,
    "name": "Independiente del Valle - Macara Ambato",
-   "score": 1.0
-  }
- },
- "id1200397776807270": {
-  "tm": {
-   "id": "319973479648665600",
-   "sport": "Tenisz",
-   "name": "Heck H./Miyoshi K. - Wells C./Zhang J.",
-   "home": "Heck H./Miyoshi K.",
-   "away": "Wells C./Zhang J.",
-   "home_pid": "314215581376737280",
-   "away_pid": "319973437296680960",
-   "tournament": "Champaign, férfi páros",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-19T01:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200397776807270",
-   "startTime": "2026-11-19T01:10:00.000Z",
-   "participant1Name": "Heck H / Miyoshi K",
-   "participant2Name": "Wells C / Zhang J",
-   "tournamentId": 3977,
-   "tournamentName": "ATP Challenger Champaign, USA Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663647,
-   "name": "Heck H / Miyoshi K - Wells C / Zhang J",
    "score": 1.0
   }
  },
@@ -6509,6 +6454,31 @@
    "score": 0.816
   }
  },
+ "id1200397776807270": {
+  "tm": {
+   "id": "319973479648665600",
+   "sport": "Tenisz",
+   "name": "Heck H./Miyoshi K. - Wells C./Zhang J.",
+   "home": "Heck H./Miyoshi K.",
+   "away": "Wells C./Zhang J.",
+   "home_pid": "314215581376737280",
+   "away_pid": "319973437296680960",
+   "tournament": "Champaign, férfi páros",
+   "category": "Challenger",
+   "tm_sport_id": "3",
+   "start": "2026-11-19T01:20:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1200397776807270",
+   "startTime": "2026-11-19T01:10:00.000Z",
+   "participant1Name": "Heck H / Miyoshi K",
+   "participant2Name": "Wells C / Zhang J",
+   "tournamentId": 3977,
+   "tournamentName": "ATP Challenger Champaign, USA Men Doubles",
+   "sportName": "Tennis"
+  },
+  "score": 1.0
+ },
  "id1201229176683314": {
   "tm": {
    "id": "320329127084236800",
@@ -6533,321 +6503,6 @@
    "sportName": "Tennis"
   },
   "score": 1.0
- },
- "id1100013273719702": {
-  "tm": {
-   "id": "319173430490505216",
-   "sport": "Kosárlabda",
-   "name": "Oklahoma City - Atlanta",
-   "home": "Oklahoma City",
-   "away": "Atlanta",
-   "home_pid": "2204",
-   "away_pid": "2190",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273719702",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Oklahoma City Thunder",
-   "participant2Name": "Atlanta Hawks",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594394,
-   "name": "Oklahoma City - Atlanta",
-   "score": 1.0
-  }
- },
- "id1100013273719700": {
-  "tm": {
-   "id": "319173430322733056",
-   "sport": "Kosárlabda",
-   "name": "New Orleans - Detroit",
-   "home": "New Orleans",
-   "away": "Detroit",
-   "home_pid": "2191",
-   "away_pid": "2194",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273719700",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "New Orleans Pelicans",
-   "participant2Name": "Detroit Pistons",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594446,
-   "name": "New Orleans - Detroit",
-   "score": 1.0
-  }
- },
- "id1100013273719706": {
-  "tm": {
-   "id": "319173430573342720",
-   "sport": "Kosárlabda",
-   "name": "Dallas - Golden State",
-   "home": "Dallas",
-   "away": "Golden State",
-   "home_pid": "2555507963883520",
-   "away_pid": "2198",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273719706",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Dallas Mavericks",
-   "participant2Name": "Golden State Warriors",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594362,
-   "name": "Dallas - Golden State",
-   "score": 1.0
-  }
- },
- "id1100064874713968": {
-  "tm": {
-   "id": "320271507653730304",
-   "sport": "Kosárlabda",
-   "name": "Texas State Bobcats - Incarnate Word Cardinals",
-   "home": "Texas State Bobcats",
-   "away": "Incarnate Word Cardinals",
-   "home_pid": "186961982703849472",
-   "away_pid": "186961332496551936",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064874713968",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Texas State Bobcats",
-   "participant2Name": "Incarnate Word Cardinals",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594363,
-   "name": "Texas State Bobcats - Incarnate Word Cardinals",
-   "score": 1.0
-  }
- },
- "id1100064873693072": {
-  "tm": {
-   "id": "320263766543507456",
-   "sport": "Kosárlabda",
-   "name": "Syracuse Orange - Cornell Big Red",
-   "home": "Syracuse Orange",
-   "away": "Cornell Big Red",
-   "home_pid": "38111",
-   "away_pid": "154095635880005632",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873693072",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Syracuse Orange",
-   "participant2Name": "Cornell Big Red",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100064873212432": {
-  "tm": {
-   "id": "320263798596378624",
-   "sport": "Kosárlabda",
-   "name": "Oklahoma Sooners - Campbell Fighting Camels",
-   "home": "Oklahoma Sooners",
-   "away": "Campbell Fighting Camels",
-   "home_pid": "38064",
-   "away_pid": "187320658594680832",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873212432",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Oklahoma Sooners",
-   "participant2Name": "Campbell Fighting Camels",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100064873935682": {
-  "tm": {
-   "id": "320263798534512640",
-   "sport": "Kosárlabda",
-   "name": "Harvard Crimson - Boston College Eagles",
-   "home": "Harvard Crimson",
-   "away": "Boston College Eagles",
-   "home_pid": "37642",
-   "away_pid": "38023",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873935682",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Harvard Crimson",
-   "participant2Name": "Boston College Eagles",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594443,
-   "name": "Harvard Crimson - Boston College Eagles",
-   "score": 1.0
-  }
- },
- "id1100064873435924": {
-  "tm": {
-   "id": "320271870759870464",
-   "sport": "Kosárlabda",
-   "name": "Stonehill Skyhawks - New Hampshire Wildcats",
-   "home": "Stonehill Skyhawks",
-   "away": "New Hampshire Wildcats",
-   "home_pid": "186961928981106688",
-   "away_pid": "174360",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873435924",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Stonehill Skyhawks",
-   "participant2Name": "New Hampshire Wildcats",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594444,
-   "name": "Stonehill Skyhawks - New Hampshire Wildcats",
-   "score": 1.0
-  }
- },
- "id1100064873935800": {
-  "tm": {
-   "id": "320271507951525888",
-   "sport": "Kosárlabda",
-   "name": "Arkansas State Red Wolves  - Arkansas Pine Bluff Golden Lions",
-   "home": "Arkansas State Red Wolves ",
-   "away": "Arkansas Pine Bluff Golden Lions",
-   "home_pid": "187411790241517568",
-   "away_pid": "186960450750042112",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873935800",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Arkansas State Red Wolves",
-   "participant2Name": "Arkansas Pine Bluff Golden Lions",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100064875051064": {
-  "tm": {
-   "id": "320263766347423744",
-   "sport": "Kosárlabda",
-   "name": "Loyola-Chicago Ramblers - Wichita State Shockers",
-   "home": "Loyola-Chicago Ramblers",
-   "away": "Wichita State Shockers",
-   "home_pid": "38222",
-   "away_pid": "38231",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064875051064",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Loyola Chicago Ramblers",
-   "participant2Name": "Wichita State Shockers",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594405,
-   "name": "Loyola Chicago Ramblers - Wichita State Shockers",
-   "score": 1.0
-  }
- },
- "id1100064874128002": {
-  "tm": {
-   "id": "320264813270867968",
-   "sport": "Kosárlabda",
-   "name": "Bradley Braves - Indiana Purdue Fort Wayne Mastodons",
-   "home": "Bradley Braves",
-   "away": "Indiana Purdue Fort Wayne Mastodons",
-   "home_pid": "187678202238390272",
-   "away_pid": "186959584540282880",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064874128002",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Bradley Braves",
-   "participant2Name": "Purdue Fort Wayne Mastodons",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594339,
-   "name": "Bradley Braves - Purdue Fort Wayne Mastodons",
-   "score": 1.0
-  }
  },
  "id1100064873268452": {
   "tm": {
@@ -9624,36 +9279,6 @@
    "score": 1.0
   }
  },
- "id1100064872911542": {
-  "tm": {
-   "id": "320273124803289088",
-   "sport": "Kosárlabda",
-   "name": "Gardner-Webb Bulldogs - North Carolina Greensboro Spartans",
-   "home": "Gardner-Webb Bulldogs",
-   "away": "North Carolina Greensboro Spartans",
-   "home_pid": "69675",
-   "away_pid": "1559388",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064872911542",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Gardner-Webb Runnin´ Bulldogs",
-   "participant2Name": "UNC Greensboro Spartans",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 0.767,
-  "cl": {
-   "id": 5594420,
-   "name": "Gardner-Webb Bulldogs - North Carolina Greensboro Spartans",
-   "score": 1.0
-  }
- },
  "id1104496575880380": {
   "tm": {
    "id": "319173431279034368",
@@ -9778,36 +9403,6 @@
    "sportName": "Basketball"
   },
   "score": 0.745
- },
- "id1100064875394922": {
-  "tm": {
-   "id": "320273124701577216",
-   "sport": "Kosárlabda",
-   "name": "Texas-San Antonio Roadrunners - Florida A&M Rattlers",
-   "home": "Texas-San Antonio Roadrunners",
-   "away": "Florida A&M Rattlers",
-   "home_pid": "187320875049078784",
-   "away_pid": "186960674898890752",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064875394922",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "UTSA Roadrunners",
-   "participant2Name": "Florida A&M Rattlers",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 0.736,
-  "cl": {
-   "id": 5594162,
-   "name": "UTSA Roadrunners - Florida AM Rattlers",
-   "score": 0.728
-  }
  },
  "id1103449675756108": {
   "tm": {
@@ -9940,31 +9535,6 @@
    "participant2Name": "EC Die Adler Kitzbuhel",
    "tournamentId": 14005,
    "tournamentName": "Alps Hockey League",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
- "id1502989872163468": {
-  "tm": {
-   "id": "319173155780370432",
-   "sport": "Jégkorong",
-   "name": "Wichita Thunder - Allen Americans",
-   "home": "Wichita Thunder",
-   "away": "Allen Americans",
-   "home_pid": "156102684398796800",
-   "away_pid": "184395742668967936",
-   "tournament": "ECHL",
-   "category": "USA",
-   "tm_sport_id": "6",
-   "start": "2026-11-19T01:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1502989872163468",
-   "startTime": "2026-11-19T01:05:00.000Z",
-   "participant1Name": "Wichita Thunder",
-   "participant2Name": "Allen Americans",
-   "tournamentId": 29898,
-   "tournamentName": "ECHL",
    "sportName": "Ice Hockey"
   },
   "score": 1.0
@@ -10973,56 +10543,6 @@
    "name": "Angers - Marseille",
    "score": 1.0
   }
- },
- "id1501436172712536": {
-  "tm": {
-   "id": "319173154775834624",
-   "sport": "Jégkorong",
-   "name": "Swift Current Broncos - Edmonton Oil Kings",
-   "home": "Swift Current Broncos",
-   "away": "Edmonton Oil Kings",
-   "home_pid": "184072146702618624",
-   "away_pid": "184072115638554624",
-   "tournament": "WHL",
-   "category": "Kanada",
-   "tm_sport_id": "6",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1501436172712536",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Swift Current Broncos",
-   "participant2Name": "Edmonton Oil Kings",
-   "tournamentId": 14361,
-   "tournamentName": "WHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
- "id1501436172712534": {
-  "tm": {
-   "id": "319173154855526400",
-   "sport": "Jégkorong",
-   "name": "Moose Jaw Warriors - Wenatchee Wild",
-   "home": "Moose Jaw Warriors",
-   "away": "Wenatchee Wild",
-   "home_pid": "183986585853808640",
-   "away_pid": "214954346421571584",
-   "tournament": "WHL",
-   "category": "Kanada",
-   "tm_sport_id": "6",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1501436172712534",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Moose Jaw Warriors",
-   "participant2Name": "Wenatchee Wild",
-   "tournamentId": 14361,
-   "tournamentName": "WHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
  },
  "id1501436172712538": {
   "tm": {
@@ -13899,31 +13419,6 @@
   },
   "score": 1.0
  },
- "id2503634976899670": {
-  "tm": {
-   "id": "320225393065926656",
-   "sport": "Asztalitenisz",
-   "name": "Mark Robin Wagner - Radim Urbaniec",
-   "home": "Mark Robin Wagner",
-   "away": "Radim Urbaniec",
-   "home_pid": "308720887378178048",
-   "away_pid": "167634919836667904",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899670",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Wagner, Mark Robin",
-   "participant2Name": "Urbaniec, Radim",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976899614": {
   "tm": {
    "id": "320225498036772864",
@@ -13968,6 +13463,31 @@
    "startTime": "2026-11-19T01:30:00.000Z",
    "participant1Name": "Bilek, Zdenek",
    "participant2Name": "Pilch, Jakub",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899648": {
+  "tm": {
+   "id": "320225533863469056",
+   "sport": "Asztalitenisz",
+   "name": "Radim Urbaniec - Tomas Franek",
+   "home": "Radim Urbaniec",
+   "away": "Tomas Franek",
+   "home_pid": "167634919836667904",
+   "away_pid": "225094649478533120",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T02:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899648",
+   "startTime": "2026-11-19T02:00:00.000Z",
+   "participant1Name": "Urbaniec, Radim",
+   "participant2Name": "Franek, Tomas",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -14024,25 +13544,25 @@
   },
   "score": 0.97
  },
- "id2503634976899262": {
+ "id2503634976899182": {
   "tm": {
-   "id": "320225498117513216",
+   "id": "320225497686548480",
    "sport": "Asztalitenisz",
-   "name": "Jakub Vales - Eric Maresh",
-   "home": "Jakub Vales",
-   "away": "Eric Maresh",
-   "home_pid": "256725669320712192",
-   "away_pid": "104575284237455360",
+   "name": "Eric Maresh - Tomas Postelt",
+   "home": "Eric Maresh",
+   "away": "Tomas Postelt",
+   "home_pid": "104575284237455360",
+   "away_pid": "135653744769552384",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-19T01:00:00+00:00"
+   "start": "2026-11-19T02:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976899262",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Vales, Jakub",
-   "participant2Name": "Mares, Erik",
+   "fixtureId": "id2503634976899182",
+   "startTime": "2026-11-19T02:00:00.000Z",
+   "participant1Name": "Mares, Erik",
+   "participant2Name": "Postelt, Tomas",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -14629,36 +14149,6 @@
    "score": 1.0
   }
  },
- "id4902150476914478": {
-  "tm": {
-   "id": "320266138595434496",
-   "sport": "Tollaslabda",
-   "name": "Hu K.Y./Lin X.Y. - Kumagai K./Nishi H.",
-   "home": "Hu K.Y./Lin X.Y.",
-   "away": "Kumagai K./Nishi H.",
-   "home_pid": "244727656270655488",
-   "away_pid": "255363135750660096",
-   "tournament": "Hongkong Open, férfi páros",
-   "category": "Hongkong",
-   "tm_sport_id": "14",
-   "start": "2026-11-19T01:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4902150476914478",
-   "startTime": "2026-11-19T01:10:00.000Z",
-   "participant1Name": "Hu K Y / Lin X Y",
-   "participant2Name": "Kumagai K / Nishi H",
-   "tournamentId": 21504,
-   "tournamentName": "Hong Kong Open, MD",
-   "sportName": "Badminton"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5668083,
-   "name": "Hu K Y / Lin X Y - Kumagai K / Nishi H",
-   "score": 1.0
-  }
- },
  "id4902150476918988": {
   "tm": {
    "id": "320288836082016256",
@@ -14686,66 +14176,6 @@
   "cl": {
    "id": 5670016,
    "name": "Alfian F / Fikri M S - Lundgaard D / Vestergaard M",
-   "score": 1.0
-  }
- },
- "id4902151076922970": {
-  "tm": {
-   "id": "320295505705902080",
-   "sport": "Tollaslabda",
-   "name": "Tomoka Miyazaki - Pin-Chian Chiu",
-   "home": "Tomoka Miyazaki",
-   "away": "Pin-Chian Chiu",
-   "home_pid": "188751231693410304",
-   "away_pid": "182031693135269888",
-   "tournament": "Hongkong Open, női egyes",
-   "category": "Hongkong",
-   "tm_sport_id": "14",
-   "start": "2026-11-19T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4902151076922970",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Miyazaki, Tomoka",
-   "participant2Name": "Chiu, Pin-Chian",
-   "tournamentId": 21510,
-   "tournamentName": "Hong Kong Open, WS",
-   "sportName": "Badminton"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5670001,
-   "name": "Tomoka Miyazaki - Pin-Chian Chiu",
-   "score": 1.0
-  }
- },
- "id4902151076915272": {
-  "tm": {
-   "id": "320276203277721600",
-   "sport": "Tollaslabda",
-   "name": "Hina Akechi - Ashmita Chaliha",
-   "home": "Hina Akechi",
-   "away": "Ashmita Chaliha",
-   "home_pid": "188309351231967232",
-   "away_pid": "159930745980243968",
-   "tournament": "Hongkong Open, női egyes",
-   "category": "Hongkong",
-   "tm_sport_id": "14",
-   "start": "2026-11-19T01:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4902151076915272",
-   "startTime": "2026-11-19T01:10:00.000Z",
-   "participant1Name": "Akechi, Hina",
-   "participant2Name": "Chaliha, Ashmita",
-   "tournamentId": 21510,
-   "tournamentName": "Hong Kong Open, WS",
-   "sportName": "Badminton"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5670002,
-   "name": "Hina Akechi - A. Chaliha",
    "score": 1.0
   }
  },
@@ -16224,27 +15654,6 @@
    "home": "S. Gueymard Wayenburg",
    "away": "Art. Nagel",
    "tournament": "Metz, férfi egyes"
-  }
- },
- "id1500084472734338": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1500084472734338",
-   "startTime": "2026-11-19T01:00:00.000Z",
-   "participant1Name": "Calgary Wranglers",
-   "participant2Name": "Coachella Valley Firebirds",
-   "tournamentId": 844,
-   "tournamentName": "AHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594497,
-   "name": "Calgary Wranglers - Coachella Valley",
-   "score": 1.0,
-   "home": "Calgary Wranglers",
-   "away": "Coachella Valley",
-   "tournament": "AHL"
   }
  },
  "id1500084472733774": {
