@@ -3554,6 +3554,31 @@
   },
   "score": 1.0
  },
+ "id1000070973409338": {
+  "tm": {
+   "id": "319404751310626816",
+   "sport": "Labdarúgás",
+   "name": "Sumqayit - Sabah Masazir",
+   "home": "Sumqayit",
+   "away": "Sabah Masazir",
+   "home_pid": "1612107583483904",
+   "away_pid": "2485560829571072",
+   "tournament": "Azeri bajnokság",
+   "category": "Azerbajdzsán",
+   "tm_sport_id": "1",
+   "start": "2026-11-20T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000070973409338",
+   "startTime": "2026-11-20T15:00:00.000Z",
+   "participant1Name": "Sumqayit FK",
+   "participant2Name": "Sabah Masazir",
+   "tournamentId": 709,
+   "tournamentName": "Premier League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000101573576720": {
   "tm": {
    "id": "319399801185705984",
@@ -4033,36 +4058,6 @@
    "sportName": "Soccer"
   },
   "score": 0.833
- },
- "id1000097175174740": {
-  "tm": {
-   "id": "319386912387309568",
-   "sport": "Labdarúgás",
-   "name": "Al-Ain (UAE) - Al-Dharfa",
-   "home": "Al-Ain (UAE)",
-   "away": "Al-Dharfa",
-   "home_pid": "11950",
-   "away_pid": "762578",
-   "tournament": "Egyesült Arab Emirátusok bajnokság",
-   "category": "Egyesült Arab Emirátusok",
-   "tm_sport_id": "1",
-   "start": "2026-11-19T15:25:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000097175174740",
-   "startTime": "2026-11-19T15:25:00.000Z",
-   "participant1Name": "Al Ain FC",
-   "participant2Name": "Al Dhafra SSC",
-   "tournamentId": 971,
-   "tournamentName": "Arabian Gulf League",
-   "sportName": "Soccer"
-  },
-  "score": 0.825,
-  "cl": {
-   "id": 5594537,
-   "name": "Al-Ain (UAE) - Al-Dhafra",
-   "score": 0.922
-  }
  },
  "id1000097175174744": {
   "tm": {
@@ -10851,36 +10846,6 @@
   "cl": {
    "id": 5665803,
    "name": "J. Wade - M. van Gerwen",
-   "score": 1.0
-  }
- },
- "id1903399476939964": {
-  "tm": {
-   "id": "320327252496687104",
-   "sport": "Darts",
-   "name": "Deta Hedman - Maria Carli",
-   "home": "Deta Hedman",
-   "away": "Maria Carli",
-   "home_pid": "628728",
-   "away_pid": "287071041927548928",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-19T15:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476939964",
-   "startTime": "2026-11-19T15:15:00.000Z",
-   "participant1Name": "Hedman, Deta",
-   "participant2Name": "Carli, Maria",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5670337,
-   "name": "D. Hedman - Maria Carli",
    "score": 1.0
   }
  },
