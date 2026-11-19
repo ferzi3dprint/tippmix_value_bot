@@ -1959,7 +1959,7 @@
   "closing_sharp_odds": 1.621,
   "closing_at": "2026-11-17T06:23:13.028090+00:00",
   "clv": 0.04615,
-  "settle_tried_at": "2026-11-19T20:33:36.867536+00:00"
+  "settle_tried_at": "2026-11-19T22:40:06.136458+00:00"
  },
  {
   "id": "a08e3ea3c4",
@@ -2589,7 +2589,7 @@
   "closing_sharp_odds": 2.87,
   "closing_at": "2026-11-19T12:35:02.928650+00:00",
   "clv": -0.08893,
-  "settle_tried_at": "2026-11-19T20:33:36.867536+00:00"
+  "settle_tried_at": "2026-11-19T22:40:06.136458+00:00"
  },
  {
   "id": "907add1f16",
@@ -2818,7 +2818,7 @@
  {
   "id": "dbad0a95da",
   "placed_at": "2026-11-19T09:58:01.860241+00:00",
-  "status": "open",
+  "status": "settled",
   "exec_status": "ok",
   "fixture_id": "id2200015972749014",
   "sport": "Handball",
@@ -2858,7 +2858,12 @@
   "closing_fair_odds": 2.184,
   "closing_sharp_odds": 2.07,
   "closing_at": "2026-11-19T19:09:12.244762+00:00",
-  "clv": 0.00286
+  "clv": 0.00286,
+  "settle_tried_at": "2026-11-19T22:40:06.136458+00:00",
+  "result": "LOSE",
+  "payout": 0.0,
+  "profit": -1350.0,
+  "settled_at": "2026-11-19T22:40:06.136458+00:00"
  },
  {
   "id": "6fde867677",
