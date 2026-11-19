@@ -17554,66 +17554,6 @@
    "score": 1.0
   }
  },
- "id1204736376942860": {
-  "tm": {
-   "id": "320360708584841216",
-   "sport": "Tenisz",
-   "name": "Kanan Gasimov - Yerassyl Yerdilda",
-   "home": "Kanan Gasimov",
-   "away": "Yerassyl Yerdilda",
-   "home_pid": "166511827136598016",
-   "away_pid": "310047100779524096",
-   "tournament": "Tuscaloosa, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-19T23:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204736376942860",
-   "startTime": "2026-11-19T23:10:00.000Z",
-   "participant1Name": "Gasimov, Kanan",
-   "participant2Name": "Yerdilda, Yerassyl",
-   "tournamentId": 47363,
-   "tournamentName": "UTR PTT Tuscaloosa Men 02",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671839,
-   "name": "K. Gasimov - Y. Yerdilda",
-   "score": 1.0
-  }
- },
- "id1204736376942766": {
-  "tm": {
-   "id": "320406664263049216",
-   "sport": "Tenisz",
-   "name": "Max Freedman - Damien Nezar",
-   "home": "Max Freedman",
-   "away": "Damien Nezar",
-   "home_pid": "318670924134031360",
-   "away_pid": "271737163042918400",
-   "tournament": "Tuscaloosa, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-19T23:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204736376942766",
-   "startTime": "2026-11-19T23:10:00.000Z",
-   "participant1Name": "Freedman, Max",
-   "participant2Name": "Nezar, Damien",
-   "tournamentId": 47363,
-   "tournamentName": "UTR PTT Tuscaloosa Men 02",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671860,
-   "name": "Max Freedman - D. Nezar",
-   "score": 1.0
-  }
- },
  "id1204820376946482": {
   "tm": {
    "id": "320400074414825472",
@@ -23145,6 +23085,131 @@
    "participant2Name": "Club Nacional",
    "tournamentId": 19980,
    "tournamentName": "LUB",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100064873505836": {
+  "tm": {
+   "id": "320438690604195840",
+   "sport": "Kosárlabda",
+   "name": "Florida State Seminoles - Wisconsin-Green Bay Phoenix",
+   "home": "Florida State Seminoles",
+   "away": "Wisconsin-Green Bay Phoenix",
+   "home_pid": "37500",
+   "away_pid": "38042",
+   "tournament": "NCAA",
+   "category": "USA",
+   "tm_sport_id": "8",
+   "start": "2026-11-20T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100064873505836",
+   "startTime": "2026-11-20T17:00:00.000Z",
+   "participant1Name": "Florida State Seminoles",
+   "participant2Name": "Green Bay Phoenix",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100064874565006": {
+  "tm": {
+   "id": "320438194921349120",
+   "sport": "Kosárlabda",
+   "name": "Oklahoma State Cowboys - Minnesota Golden Gophers",
+   "home": "Oklahoma State Cowboys",
+   "away": "Minnesota Golden Gophers",
+   "home_pid": "38062",
+   "away_pid": "38702",
+   "tournament": "NCAA",
+   "category": "USA",
+   "tm_sport_id": "8",
+   "start": "2026-11-20T17:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100064874565006",
+   "startTime": "2026-11-20T17:30:00.000Z",
+   "participant1Name": "Oklahoma State Cowboys",
+   "participant2Name": "Minnesota Golden Gophers",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100064874067240": {
+  "tm": {
+   "id": "320438343783489536",
+   "sport": "Kosárlabda",
+   "name": "UAB Alabama Birmingham Blazers - George Washington Revolutionaries",
+   "home": "UAB Alabama Birmingham Blazers",
+   "away": "George Washington Revolutionaries",
+   "home_pid": "190281207189131264",
+   "away_pid": "187320724179963904",
+   "tournament": "NCAA",
+   "category": "USA",
+   "tm_sport_id": "8",
+   "start": "2026-11-20T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100064874067240",
+   "startTime": "2026-11-20T19:00:00.000Z",
+   "participant1Name": "UAB Blazers",
+   "participant2Name": "George Washington Revolutionaries",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100064874565016": {
+  "tm": {
+   "id": "320438343704846336",
+   "sport": "Kosárlabda",
+   "name": "Northwestern Wildcats - Virginia Tech Hokies",
+   "home": "Northwestern Wildcats",
+   "away": "Virginia Tech Hokies",
+   "home_pid": "38049",
+   "away_pid": "38251",
+   "tournament": "NCAA",
+   "category": "USA",
+   "tm_sport_id": "8",
+   "start": "2026-11-20T20:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100064874565016",
+   "startTime": "2026-11-20T20:00:00.000Z",
+   "participant1Name": "Northwestern Wildcats",
+   "participant2Name": "Virginia Tech Hokies",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100064874065756": {
+  "tm": {
+   "id": "320438520128806912",
+   "sport": "Kosárlabda",
+   "name": "Stephen F. Austin Lumberjacks - Indiana State Sycamores",
+   "home": "Stephen F. Austin Lumberjacks",
+   "away": "Indiana State Sycamores",
+   "home_pid": "187242875775406080",
+   "away_pid": "186961338459803648",
+   "tournament": "NCAA",
+   "category": "USA",
+   "tm_sport_id": "8",
+   "start": "2026-11-20T20:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100064874065756",
+   "startTime": "2026-11-20T20:00:00.000Z",
+   "participant1Name": "Stephen F Austin Lumberjacks",
+   "participant2Name": "Indiana State Sycamores",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -29754,31 +29819,6 @@
    "score": 0.97
   }
  },
- "id2503637776922850": {
-  "tm": {
-   "id": "320429067999453184",
-   "sport": "Asztalitenisz",
-   "name": "Bartek Sulkowski - Rudomina Kamil",
-   "home": "Bartek Sulkowski",
-   "away": "Rudomina Kamil",
-   "home_pid": "238475768526966784",
-   "away_pid": "194320558499983360",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T23:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776922850",
-   "startTime": "2026-11-19T23:10:00.000Z",
-   "participant1Name": "Sulkowski, Bartosz",
-   "participant2Name": "Rudomina, Kamil",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 0.894
- },
  "id2503637776922862": {
   "tm": {
    "id": "320430314281312256",
@@ -30704,36 +30744,6 @@
    "score": 0.9
   }
  },
- "id1903399476939988": {
-  "tm": {
-   "id": "320327254649413632",
-   "sport": "Darts",
-   "name": "Fallon Sherrock - Mayumi Ouchi",
-   "home": "Fallon Sherrock",
-   "away": "Mayumi Ouchi",
-   "home_pid": "1041701",
-   "away_pid": "221348980162973696",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-19T23:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476939988",
-   "startTime": "2026-11-19T23:20:00.000Z",
-   "participant1Name": "Sherrock, Fallon",
-   "participant2Name": "Ouchi, Mayumi",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5670933,
-   "name": "F. Sherrock - Mayumi Ouchi",
-   "score": 1.0
-  }
- },
  "id1903399476939990": {
   "tm": {
    "id": "320327253830475776",
@@ -31648,27 +31658,6 @@
    "home": "Atlético MG",
    "away": "Boca Juniors",
    "tournament": "Copa Sudamericana"
-  }
- },
- "id1200386776694760": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200386776694760",
-   "startTime": "2026-11-19T23:10:00.000Z",
-   "participant1Name": "Roncadelli, Franco",
-   "participant2Name": "La Serna, Juan Manuel",
-   "tournamentId": 3867,
-   "tournamentName": "ATP Challenger Montevideo, Uruguay Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663257,
-   "name": "F. Roncadelli - J.M. La Serna",
-   "score": 1.0,
-   "home": "F. Roncadelli",
-   "away": "J.M. La Serna",
-   "tournament": "Montevideo, férfi egyes"
   }
  },
  "id1200946176687402": {
