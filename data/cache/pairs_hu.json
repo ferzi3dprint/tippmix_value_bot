@@ -6619,36 +6619,6 @@
    "score": 0.816
   }
  },
- "id1100013273719704": {
-  "tm": {
-   "id": "319173429924274176",
-   "sport": "Kosárlabda",
-   "name": "Denver - Boston",
-   "home": "Denver",
-   "away": "Boston",
-   "home_pid": "2184",
-   "away_pid": "2176",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273719704",
-   "startTime": "2026-11-19T02:30:00.000Z",
-   "participant1Name": "Denver Nuggets",
-   "participant2Name": "Boston Celtics",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594390,
-   "name": "Denver - Boston",
-   "score": 1.0
-  }
- },
  "id1100013273719708": {
   "tm": {
    "id": "319173430397181952",
@@ -8963,36 +8933,6 @@
    "sportName": "Basketball"
   },
   "score": 0.879
- },
- "id1100064873246260": {
-  "tm": {
-   "id": "320263979214643200",
-   "sport": "Kosárlabda",
-   "name": "San Diego Toreros - California Riverside Highlanders",
-   "home": "San Diego Toreros",
-   "away": "California Riverside Highlanders",
-   "home_pid": "187125923335688192",
-   "away_pid": "186960540990492672",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873246260",
-   "startTime": "2026-11-19T02:30:00.000Z",
-   "participant1Name": "San Diego Toreros",
-   "participant2Name": "UC Riverside Highlanders",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 0.825,
-  "cl": {
-   "id": 5594462,
-   "name": "San Diego Toreros - California Riverside Highlanders",
-   "score": 0.914
-  }
  },
  "id1100194873833420": {
   "tm": {
@@ -12389,81 +12329,6 @@
   },
   "score": 1.0
  },
- "id2503634976899256": {
-  "tm": {
-   "id": "320225533446135808",
-   "sport": "Asztalitenisz",
-   "name": "Jakub Pilch - Jakub Vales",
-   "home": "Jakub Pilch",
-   "away": "Jakub Vales",
-   "home_pid": "274550304688705536",
-   "away_pid": "256725669320712192",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899256",
-   "startTime": "2026-11-19T02:30:00.000Z",
-   "participant1Name": "Pilch, Jakub",
-   "participant2Name": "Vales, Jakub",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899186": {
-  "tm": {
-   "id": "320225497965469696",
-   "sport": "Asztalitenisz",
-   "name": "Framberk Jan - Martin Novak",
-   "home": "Framberk Jan",
-   "away": "Martin Novak",
-   "home_pid": "184523105441468416",
-   "away_pid": "175784046462291968",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899186",
-   "startTime": "2026-11-19T02:30:00.000Z",
-   "participant1Name": "Framberk, Jan",
-   "participant2Name": "Novak, Martin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976899668": {
-  "tm": {
-   "id": "320225534092058624",
-   "sport": "Asztalitenisz",
-   "name": "Martin Skakal - Mark Robin Wagner",
-   "home": "Martin Skakal",
-   "away": "Mark Robin Wagner",
-   "home_pid": "169265262322831360",
-   "away_pid": "308720887378178048",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976899668",
-   "startTime": "2026-11-19T02:30:00.000Z",
-   "participant1Name": "Skakal, Martin",
-   "participant2Name": "Wagner, Mark Robin",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976899662": {
   "tm": {
    "id": "320225533635928064",
@@ -13360,6 +13225,81 @@
    "participant2Name": "Abraamian, Elizabet",
    "tournamentId": 49358,
    "tournamentName": "WTT Star Contender Muscat, WS",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899062": {
+  "tm": {
+   "id": "320225533272072192",
+   "sport": "Asztalitenisz",
+   "name": "Jakub Vales - Tomas Postelt",
+   "home": "Jakub Vales",
+   "away": "Tomas Postelt",
+   "home_pid": "256725669320712192",
+   "away_pid": "135653744769552384",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T03:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899062",
+   "startTime": "2026-11-19T03:30:00.000Z",
+   "participant1Name": "Vales, Jakub",
+   "participant2Name": "Postelt, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899610": {
+  "tm": {
+   "id": "320225498815864832",
+   "sport": "Asztalitenisz",
+   "name": "Mark Robin Wagner - Tomas Franek",
+   "home": "Mark Robin Wagner",
+   "away": "Tomas Franek",
+   "home_pid": "308720887378178048",
+   "away_pid": "225094649478533120",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T03:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899610",
+   "startTime": "2026-11-19T03:30:00.000Z",
+   "participant1Name": "Wagner, Mark Robin",
+   "participant2Name": "Franek, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976899216": {
+  "tm": {
+   "id": "320225498196156416",
+   "sport": "Asztalitenisz",
+   "name": "Martin Novak - Petr Bruzek",
+   "home": "Martin Novak",
+   "away": "Petr Bruzek",
+   "home_pid": "175784046462291968",
+   "away_pid": "255911197929758720",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T03:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976899216",
+   "startTime": "2026-11-19T03:30:00.000Z",
+   "participant1Name": "Novak, Martin",
+   "participant2Name": "Bruzek, Petr",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0
@@ -15258,27 +15198,6 @@
    "home": "Winnipeg",
    "away": "NY Islanders",
    "tournament": "NHL"
-  }
- },
- "id4902151076932556": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id4902151076932556",
-   "startTime": "2026-11-19T02:30:00.000Z",
-   "participant1Name": "Wong, Ling Ching",
-   "participant2Name": "Intanon, Ratchanok",
-   "tournamentId": 21510,
-   "tournamentName": "Hong Kong Open, WS",
-   "sportName": "Badminton"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5670122,
-   "name": "Ling Ching Wong - Ratchanok Intanon",
-   "score": 1.0,
-   "home": "Ling Ching Wong",
-   "away": "Ratchanok Intanon",
-   "tournament": "Hongkong Open, női egyes"
   }
  },
  "id4900157876922976": {
