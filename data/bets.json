@@ -1959,7 +1959,7 @@
   "closing_sharp_odds": 1.621,
   "closing_at": "2026-11-17T06:23:13.028090+00:00",
   "clv": 0.04615,
-  "settle_tried_at": "2026-11-19T07:24:29.600624+00:00"
+  "settle_tried_at": "2026-11-19T09:36:14.841033+00:00"
  },
  {
   "id": "a08e3ea3c4",
@@ -2587,7 +2587,7 @@
   "closing_fair_prob": 0.2616,
   "closing_fair_odds": 3.823,
   "closing_sharp_odds": 3.3,
-  "closing_at": "2026-11-19T09:14:37.871154+00:00",
+  "closing_at": "2026-11-19T09:36:14.841033+00:00",
   "clv": -0.22827
  },
  {
@@ -2672,7 +2672,7 @@
   "closing_fair_prob": 0.52889,
   "closing_fair_odds": 1.891,
   "closing_sharp_odds": 1.775,
-  "closing_at": "2026-11-19T07:47:17.057699+00:00",
+  "closing_at": "2026-11-19T09:36:14.841033+00:00",
   "clv": 0.18472
  },
  {
@@ -2718,7 +2718,7 @@
   "closing_fair_prob": 0.52889,
   "closing_fair_odds": 1.891,
   "closing_sharp_odds": 1.775,
-  "closing_at": "2026-11-19T07:47:17.057699+00:00",
+  "closing_at": "2026-11-19T09:36:14.841033+00:00",
   "clv": 0.14241
  },
  {
@@ -2766,5 +2766,45 @@
   "closing_sharp_odds": 1.602,
   "closing_at": "2026-11-19T08:32:07.603951+00:00",
   "clv": 0.00531
+ },
+ {
+  "id": "3bb183167b",
+  "placed_at": "2026-11-19T09:36:14.841033+00:00",
+  "status": "skipped",
+  "exec_status": "gone",
+  "fixture_id": "id1001949273078846",
+  "sport": "Soccer",
+  "tournament": "Egyiptomi 2.",
+  "home": "La Viena",
+  "away": "Al-Sekka",
+  "start": "2026-11-19T12:30:00.000Z",
+  "label": "Ázsiai hendikep: Al-Sekka (-0)",
+  "band": "1.50–1.80",
+  "stake": 950,
+  "signal_odds": 1.78,
+  "signal_ev": 0.03053,
+  "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/egyiptom/egyiptomi-2/la-viena-al-sekka/320215199766355968/nepszeru",
+  "tm_id": "320215199766355968",
+  "tm_url": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/1/labdarugas/egyiptom/egyiptomi-2/la-viena-al-sekka/320215199766355968/nepszeru",
+  "market_id": 1072,
+  "market": "Asian Handicap",
+  "outcome_id": 1073,
+  "outcome": "2",
+  "odds": 1.78,
+  "sharp_odds": 1.641,
+  "fair_prob": 0.57895,
+  "fair_odds": 1.727,
+  "ev": 0.03053,
+  "sharp_overround": 1.066,
+  "line": 0.0,
+  "mtype": "spreads",
+  "ref": "Pinnacle",
+  "steam": 0.2484,
+  "trigger": "steam",
+  "tm_tip": "Ázsiai hendikep 0 - Rendes játékidő → Al-Sekka (0)",
+  "min_odds": 1.74,
+  "expected_profit": 29.0,
+  "exec_checked_at": "2026-11-19T09:52:30.895473+00:00",
+  "exec_odds": 1.69
  }
 ]
