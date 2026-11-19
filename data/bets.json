@@ -1959,7 +1959,7 @@
   "closing_sharp_odds": 1.621,
   "closing_at": "2026-11-17T06:23:13.028090+00:00",
   "clv": 0.04615,
-  "settle_tried_at": "2026-11-19T14:12:59.217874+00:00"
+  "settle_tried_at": "2026-11-19T16:13:04.506358+00:00"
  },
  {
   "id": "a08e3ea3c4",
@@ -2588,7 +2588,8 @@
   "closing_fair_odds": 3.238,
   "closing_sharp_odds": 2.87,
   "closing_at": "2026-11-19T12:35:02.928650+00:00",
-  "clv": -0.08893
+  "clv": -0.08893,
+  "settle_tried_at": "2026-11-19T16:13:04.506358+00:00"
  },
  {
   "id": "907add1f16",
@@ -2669,11 +2670,11 @@
   "expected_profit": 535.69,
   "exec_checked_at": "2026-11-19T04:44:19.714622+00:00",
   "exec_odds": 2.24,
-  "closing_fair_prob": 0.52889,
-  "closing_fair_odds": 1.891,
-  "closing_sharp_odds": 1.775,
-  "closing_at": "2026-11-19T15:25:23.725214+00:00",
-  "clv": 0.18472
+  "closing_fair_prob": 0.4081,
+  "closing_fair_odds": 2.45,
+  "closing_sharp_odds": 2.3,
+  "closing_at": "2026-11-19T16:04:36.867147+00:00",
+  "clv": -0.08586
  },
  {
   "id": "8d266417d5",
@@ -2715,11 +2716,11 @@
   "channel": "classic",
   "exec_checked_at": "2026-11-19T04:44:19.714622+00:00",
   "exec_odds": 2.16,
-  "closing_fair_prob": 0.52889,
-  "closing_fair_odds": 1.891,
-  "closing_sharp_odds": 1.775,
-  "closing_at": "2026-11-19T15:25:23.725214+00:00",
-  "clv": 0.14241
+  "closing_fair_prob": 0.4081,
+  "closing_fair_odds": 2.45,
+  "closing_sharp_odds": 2.3,
+  "closing_at": "2026-11-19T16:04:36.867147+00:00",
+  "clv": -0.11851
  },
  {
   "id": "79bc9743d0",
@@ -2854,7 +2855,7 @@
   "closing_fair_prob": 0.45793,
   "closing_fair_odds": 2.184,
   "closing_sharp_odds": 2.07,
-  "closing_at": "2026-11-19T15:47:47.146532+00:00",
+  "closing_at": "2026-11-19T16:13:04.506358+00:00",
   "clv": 0.00286
  }
 ]
