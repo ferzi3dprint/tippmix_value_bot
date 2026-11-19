@@ -1,59 +1,4 @@
 {
- "id1004805874846742": {
-  "tm": {
-   "id": "320261403807129600",
-   "sport": "Labdarúgás",
-   "name": "Persib Bandung - Shan Utd.",
-   "home": "Persib Bandung",
-   "away": "Shan Utd.",
-   "home_pid": "74807",
-   "away_pid": "1400746",
-   "tournament": "Délkelet-ázsiai klubok bajnoksága",
-   "category": "Ázsia",
-   "tm_sport_id": "1",
-   "start": "2026-11-19T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004805874846742",
-   "startTime": "2026-11-19T12:00:00.000Z",
-   "participant1Name": "Persib Bandung",
-   "participant2Name": "Shan United",
-   "tournamentId": 48058,
-   "tournamentName": "ASEAN Club Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000030375948778": {
-  "tm": {
-   "id": "318874418843557888",
-   "sport": "Labdarúgás",
-   "name": "MFK Zvolen - FC Kosice",
-   "home": "MFK Zvolen",
-   "away": "FC Kosice",
-   "home_pid": "1164493",
-   "away_pid": "53117",
-   "tournament": "Szlovák Kupa",
-   "category": "Szlovákia",
-   "tm_sport_id": "1",
-   "start": "2026-11-19T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000030375948778",
-   "startTime": "2026-11-19T12:00:00.000Z",
-   "participant1Name": "MFK Zvolen",
-   "participant2Name": "FK Kosice",
-   "tournamentId": 303,
-   "tournamentName": "Slovensky Pohar",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594323,
-   "name": "Lokomotív Zvolen - FC Kosice",
-   "score": 0.731
-  }
- },
  "id1001949273078852": {
   "tm": {
    "id": "320214949859237888",
@@ -5009,31 +4954,6 @@
    "score": 1.0
   }
  },
- "id1004805872597092": {
-  "tm": {
-   "id": "320259691738374144",
-   "sport": "Labdarúgás",
-   "name": "Preah Khan Reach Svay Rieng - Port FC",
-   "home": "Preah Khan Reach Svay Rieng",
-   "away": "Port FC",
-   "home_pid": "1481706",
-   "away_pid": "1081721",
-   "tournament": "Délkelet-ázsiai klubok bajnoksága",
-   "category": "Ázsia",
-   "tm_sport_id": "1",
-   "start": "2026-11-19T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004805872597092",
-   "startTime": "2026-11-19T12:00:00.000Z",
-   "participant1Name": "PKR Svay Rieng",
-   "participant2Name": "Port FC",
-   "tournamentId": 48058,
-   "tournamentName": "ASEAN Club Championship",
-   "sportName": "Soccer"
-  },
-  "score": 0.767
- },
  "id1000051572398828": {
   "tm": {
    "id": "319763940907229184",
@@ -5981,96 +5901,6 @@
   "cl": {
    "id": 5665713,
    "name": "M. Förster - A. Sysoeva",
-   "score": 1.0
-  }
- },
- "id1104496575880400": {
-  "tm": {
-   "id": "319173431488749568",
-   "sport": "Kosárlabda",
-   "name": "Shanghai Sharks - Sichuan Blue Whales",
-   "home": "Shanghai Sharks",
-   "away": "Sichuan Blue Whales",
-   "home_pid": "184123412611911680",
-   "away_pid": "184123442963992576",
-   "tournament": "Kínai Liga-kupa",
-   "category": "Kína",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104496575880400",
-   "startTime": "2026-11-19T12:00:00.000Z",
-   "participant1Name": "Shanghai Sharks",
-   "participant2Name": "Sichuan Blue Whales",
-   "tournamentId": 44965,
-   "tournamentName": "CBA Club Cup",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594330,
-   "name": "Shanghai Sharks - Sichuan",
-   "score": 1.0
-  }
- },
- "id1104496575880536": {
-  "tm": {
-   "id": "319173431676444672",
-   "sport": "Kosárlabda",
-   "name": "Guangdong Southern Tigers - Zhejiang Golden Bulls",
-   "home": "Guangdong Southern Tigers",
-   "away": "Zhejiang Golden Bulls",
-   "home_pid": "184123140005220352",
-   "away_pid": "184120041709555712",
-   "tournament": "Kínai Liga-kupa",
-   "category": "Kína",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104496575880536",
-   "startTime": "2026-11-19T12:00:00.000Z",
-   "participant1Name": "Guangdong Southern Tigers",
-   "participant2Name": "Zhejiang Golden Bulls",
-   "tournamentId": 44965,
-   "tournamentName": "CBA Club Cup",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594332,
-   "name": "Guangdong - Zhejiang Golden Bulls",
-   "score": 1.0
-  }
- },
- "id1104496575880470": {
-  "tm": {
-   "id": "319173431768719360",
-   "sport": "Kosárlabda",
-   "name": "Shaanxi Loongs Brave Tigers - Ningbo Rockets",
-   "home": "Shaanxi Loongs Brave Tigers",
-   "away": "Ningbo Rockets",
-   "home_pid": "151840230426595584",
-   "away_pid": "151840256420794368",
-   "tournament": "Kínai Liga-kupa",
-   "category": "Kína",
-   "tm_sport_id": "8",
-   "start": "2026-11-19T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104496575880470",
-   "startTime": "2026-11-19T12:00:00.000Z",
-   "participant1Name": "Shanxi Loongs",
-   "participant2Name": "Ningbo Rockets",
-   "tournamentId": 44965,
-   "tournamentName": "CBA Club Cup",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594329,
-   "name": "Shanxi - Ningbo Rockets",
    "score": 1.0
   }
  },
@@ -11384,106 +11214,6 @@
    "score": 1.0
   }
  },
- "id2503634976921658": {
-  "tm": {
-   "id": "320316737266458624",
-   "sport": "Asztalitenisz",
-   "name": "Pavel Varecha - Alexandr Virag",
-   "home": "Pavel Varecha",
-   "away": "Alexandr Virag",
-   "home_pid": "277111881496399872",
-   "away_pid": "274731950412009472",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976921658",
-   "startTime": "2026-11-19T12:00:00.000Z",
-   "participant1Name": "Varecha, Pavel",
-   "participant2Name": "Virag, Alexandr",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976921418": {
-  "tm": {
-   "id": "320310362871242752",
-   "sport": "Asztalitenisz",
-   "name": "Martin Stefek - Miroslav Svedik",
-   "home": "Martin Stefek",
-   "away": "Miroslav Svedik",
-   "home_pid": "197171400897884160",
-   "away_pid": "104894216886439936",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976921418",
-   "startTime": "2026-11-19T12:00:00.000Z",
-   "participant1Name": "Stefek, Martin",
-   "participant2Name": "Svedik, Miroslav",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976921492": {
-  "tm": {
-   "id": "320310365166575616",
-   "sport": "Asztalitenisz",
-   "name": "Tadeas Zika - Jan Szotkowski",
-   "home": "Tadeas Zika",
-   "away": "Jan Szotkowski",
-   "home_pid": "168097491692081152",
-   "away_pid": "274533435302875136",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976921492",
-   "startTime": "2026-11-19T12:00:00.000Z",
-   "participant1Name": "Zika, Tadeas",
-   "participant2Name": "Szotkowski, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976921582": {
-  "tm": {
-   "id": "320310331323785216",
-   "sport": "Asztalitenisz",
-   "name": "Milan Kolar - Jan Varcl Jr.",
-   "home": "Milan Kolar",
-   "away": "Jan Varcl Jr.",
-   "home_pid": "115765271733522432",
-   "away_pid": "166009355154542592",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976921582",
-   "startTime": "2026-11-19T12:00:00.000Z",
-   "participant1Name": "Kolar, Milan",
-   "participant2Name": "Varcl Jr, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976921574": {
   "tm": {
    "id": "320310332393332736",
@@ -12038,6 +11768,81 @@
    "name": "E. Zaharia - E. Abraamian",
    "score": 1.0
   }
+ },
+ "id2503634976921566": {
+  "tm": {
+   "id": "320310331068981248",
+   "sport": "Asztalitenisz",
+   "name": "Jiri Stach - Alexandr Virag",
+   "home": "Jiri Stach",
+   "away": "Alexandr Virag",
+   "home_pid": "168633047891103744",
+   "away_pid": "274731950412009472",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T13:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921566",
+   "startTime": "2026-11-19T13:00:00.000Z",
+   "participant1Name": "Stach, Jiri",
+   "participant2Name": "Virag, Alexandr",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976921576": {
+  "tm": {
+   "id": "320310331496800256",
+   "sport": "Asztalitenisz",
+   "name": "Michal Sedlacek - Jan Szotkowski",
+   "home": "Michal Sedlacek",
+   "away": "Jan Szotkowski",
+   "home_pid": "168173650074193920",
+   "away_pid": "274533435302875136",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T13:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921576",
+   "startTime": "2026-11-19T13:00:00.000Z",
+   "participant1Name": "Sedlacek, Michael",
+   "participant2Name": "Szotkowski, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976921376": {
+  "tm": {
+   "id": "320310364503875584",
+   "sport": "Asztalitenisz",
+   "name": "Jan Steffan - Miroslav Svedik",
+   "home": "Jan Steffan",
+   "away": "Miroslav Svedik",
+   "home_pid": "189194970642567168",
+   "away_pid": "104894216886439936",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T13:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921376",
+   "startTime": "2026-11-19T13:00:00.000Z",
+   "participant1Name": "Steffan, Jan",
+   "participant2Name": "Svedik, Miroslav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
  },
  "id2703857376122354": {
   "tm": {

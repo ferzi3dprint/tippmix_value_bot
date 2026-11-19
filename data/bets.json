@@ -816,7 +816,7 @@
   "closing_sharp_odds": 1.526,
   "closing_at": "2026-11-14T03:32:43.323904+00:00",
   "clv": 0.12803,
-  "settle_tried_at": "2026-11-19T09:58:01.860241+00:00"
+  "settle_tried_at": "2026-11-19T12:18:12.170918+00:00"
  },
  {
   "id": "c906acbfca",
@@ -2584,11 +2584,11 @@
   "expected_profit": 269.36,
   "exec_checked_at": "2026-11-19T00:20:11.388237+00:00",
   "exec_odds": 2.95,
-  "closing_fair_prob": 0.34871,
-  "closing_fair_odds": 2.868,
-  "closing_sharp_odds": 2.62,
-  "closing_at": "2026-11-19T11:52:51.842175+00:00",
-  "clv": 0.02871
+  "closing_fair_prob": 0.30998,
+  "closing_fair_odds": 3.226,
+  "closing_sharp_odds": 2.86,
+  "closing_at": "2026-11-19T12:18:12.170918+00:00",
+  "clv": -0.08555
  },
  {
   "id": "907add1f16",
@@ -2669,11 +2669,11 @@
   "expected_profit": 535.69,
   "exec_checked_at": "2026-11-19T04:44:19.714622+00:00",
   "exec_odds": 2.24,
-  "closing_fair_prob": 0.52889,
-  "closing_fair_odds": 1.891,
-  "closing_sharp_odds": 1.775,
-  "closing_at": "2026-11-19T11:29:23.797787+00:00",
-  "clv": 0.18472
+  "closing_fair_prob": 0.40746,
+  "closing_fair_odds": 2.454,
+  "closing_sharp_odds": 2.3,
+  "closing_at": "2026-11-19T12:18:12.170918+00:00",
+  "clv": -0.08729
  },
  {
   "id": "8d266417d5",
@@ -2715,16 +2715,16 @@
   "channel": "classic",
   "exec_checked_at": "2026-11-19T04:44:19.714622+00:00",
   "exec_odds": 2.16,
-  "closing_fair_prob": 0.52889,
-  "closing_fair_odds": 1.891,
-  "closing_sharp_odds": 1.775,
-  "closing_at": "2026-11-19T11:29:23.797787+00:00",
-  "clv": 0.14241
+  "closing_fair_prob": 0.40746,
+  "closing_fair_odds": 2.454,
+  "closing_sharp_odds": 2.3,
+  "closing_at": "2026-11-19T12:18:12.170918+00:00",
+  "clv": -0.11988
  },
  {
   "id": "79bc9743d0",
   "placed_at": "2026-11-19T07:24:29.600624+00:00",
-  "status": "open",
+  "status": "settled",
   "exec_status": "ok",
   "fixture_id": "id1003459072339096",
   "sport": "Soccer",
@@ -2765,7 +2765,12 @@
   "closing_fair_odds": 1.671,
   "closing_sharp_odds": 1.602,
   "closing_at": "2026-11-19T08:32:07.603951+00:00",
-  "clv": 0.00531
+  "clv": 0.00531,
+  "settle_tried_at": "2026-11-19T12:18:12.170918+00:00",
+  "result": "LOSE",
+  "payout": 0.0,
+  "profit": -1400.0,
+  "settled_at": "2026-11-19T12:18:12.170918+00:00"
  },
  {
   "id": "3bb183167b",
@@ -2845,6 +2850,11 @@
   "min_odds": 2.07,
   "expected_profit": 90.76,
   "exec_checked_at": "2026-11-19T10:14:28.542560+00:00",
-  "exec_odds": 2.19
+  "exec_odds": 2.19,
+  "closing_fair_prob": 0.46888,
+  "closing_fair_odds": 2.133,
+  "closing_sharp_odds": 2.029,
+  "closing_at": "2026-11-19T12:18:12.170918+00:00",
+  "clv": 0.02685
  }
 ]
