@@ -3034,6 +3034,66 @@
   },
   "score": 1.0
  },
+ "id1004850774827300": {
+  "tm": {
+   "id": "319400054285737984",
+   "sport": "Labdarúgás",
+   "name": "South Melbourne - Canberra Croatia",
+   "home": "South Melbourne",
+   "away": "Canberra Croatia",
+   "home_pid": "1267",
+   "away_pid": "246821",
+   "tournament": "Ausztrál Championship",
+   "category": "Ausztrália",
+   "tm_sport_id": "1",
+   "start": "2026-11-20T08:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004850774827300",
+   "startTime": "2026-11-20T08:30:00.000Z",
+   "participant1Name": "South Melbourne FC",
+   "participant2Name": "Canberra Croatia FC",
+   "tournamentId": 48507,
+   "tournamentName": "Australian Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594737,
+   "name": "South Melbourne - Canberra Croatia",
+   "score": 1.0
+  }
+ },
+ "id1004850774827302": {
+  "tm": {
+   "id": "319400054132645888",
+   "sport": "Labdarúgás",
+   "name": "Sydney Utd. - Sutherland Sharks",
+   "home": "Sydney Utd.",
+   "away": "Sutherland Sharks",
+   "home_pid": "1269",
+   "away_pid": "64420",
+   "tournament": "Ausztrál Championship",
+   "category": "Ausztrália",
+   "tm_sport_id": "1",
+   "start": "2026-11-20T08:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004850774827302",
+   "startTime": "2026-11-20T08:30:00.000Z",
+   "participant1Name": "Sydney United 58 FC",
+   "participant2Name": "Sutherland Sharks",
+   "tournamentId": 48507,
+   "tournamentName": "Australian Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5594735,
+   "name": "Sydney Utd. - Sutherland Sharks",
+   "score": 1.0
+  }
+ },
  "id1000101573576720": {
   "tm": {
    "id": "319399801185705984",
@@ -7889,75 +7949,25 @@
    "score": 1.0
   }
  },
- "id2503634976921564": {
+ "id2503634976921408": {
   "tm": {
-   "id": "320310366419623936",
+   "id": "320309489807990784",
    "sport": "Asztalitenisz",
-   "name": "Lukas Velicka - Radomir Vavrecka",
-   "home": "Lukas Velicka",
-   "away": "Radomir Vavrecka",
-   "home_pid": "274722322446946304",
-   "away_pid": "167482807207120896",
+   "name": "Yurii Holovatiuk - Plachy Jiri",
+   "home": "Yurii Holovatiuk",
+   "away": "Plachy Jiri",
+   "home_pid": "218992960200658944",
+   "away_pid": "146365753072865280",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-19T20:30:00+00:00"
+   "start": "2026-11-19T21:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976921564",
-   "startTime": "2026-11-19T20:30:00.000Z",
-   "participant1Name": "Velicka, Lukas",
-   "participant2Name": "Vavrecka, Radomir",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976921578": {
-  "tm": {
-   "id": "320310364579373056",
-   "sport": "Asztalitenisz",
-   "name": "Jakub Simecek - David Szotek",
-   "home": "Jakub Simecek",
-   "away": "David Szotek",
-   "home_pid": "274758198321352704",
-   "away_pid": "169718539420225536",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T20:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976921578",
-   "startTime": "2026-11-19T20:30:00.000Z",
-   "participant1Name": "Simecek, Jakub",
-   "participant2Name": "Szotek, David",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976921536": {
-  "tm": {
-   "id": "320310366522384384",
-   "sport": "Asztalitenisz",
-   "name": "Karel Kapras - Tomas Zahradnik",
-   "home": "Karel Kapras",
-   "away": "Tomas Zahradnik",
-   "home_pid": "266385066411823104",
-   "away_pid": "108758538869952512",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T20:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976921536",
-   "startTime": "2026-11-19T20:30:00.000Z",
-   "participant1Name": "Kapras, Karel",
-   "participant2Name": "Zahradnik, Tomas",
+   "fixtureId": "id2503634976921408",
+   "startTime": "2026-11-19T21:00:00.000Z",
+   "participant1Name": "Holovatiuk, Yurii",
+   "participant2Name": "Plachy, Jiri",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -8014,55 +8024,105 @@
   },
   "score": 1.0
  },
- "id2503634976921408": {
+ "id2503634976921642": {
   "tm": {
-   "id": "320309489807990784",
+   "id": "320309473147166720",
    "sport": "Asztalitenisz",
-   "name": "Yurii Holovatiuk - Plachy Jiri",
-   "home": "Yurii Holovatiuk",
-   "away": "Plachy Jiri",
-   "home_pid": "218992960200658944",
-   "away_pid": "146365753072865280",
+   "name": "Jiri Zuzanek - Karel Kapras",
+   "home": "Jiri Zuzanek",
+   "away": "Karel Kapras",
+   "home_pid": "189194976074190848",
+   "away_pid": "266385066411823104",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-19T21:00:00+00:00"
+   "start": "2026-11-19T21:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976921408",
-   "startTime": "2026-11-19T21:00:00.000Z",
-   "participant1Name": "Holovatiuk, Yurii",
-   "participant2Name": "Plachy, Jiri",
+   "fixtureId": "id2503634976921642",
+   "startTime": "2026-11-19T21:30:00.000Z",
+   "participant1Name": "Zuzanek, Jiri",
+   "participant2Name": "Kapras, Karel",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0
  },
- "id2503634976921412": {
+ "id2503634976921364": {
   "tm": {
-   "id": "320310363872632832",
+   "id": "320309473753243648",
    "sport": "Asztalitenisz",
-   "name": "Prikasky Libor - Eric Maresh",
-   "home": "Prikasky Libor",
-   "away": "Eric Maresh",
-   "home_pid": "282868470805467136",
-   "away_pid": "104575284237455360",
+   "name": "Jakub Kycelt - Prikasky Libor",
+   "home": "Jakub Kycelt",
+   "away": "Prikasky Libor",
+   "home_pid": "249111932305444864",
+   "away_pid": "282868470805467136",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-19T20:30:00+00:00"
+   "start": "2026-11-19T21:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976921412",
-   "startTime": "2026-11-19T20:30:00.000Z",
-   "participant1Name": "Prikasky, Libor",
-   "participant2Name": "Mares, Erik",
+   "fixtureId": "id2503634976921364",
+   "startTime": "2026-11-19T21:30:00.000Z",
+   "participant1Name": "Kycelt, Jakub",
+   "participant2Name": "Prikasky, Libor",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 0.9
+  "score": 1.0
+ },
+ "id2503634976921470": {
+  "tm": {
+   "id": "320309489887682560",
+   "sport": "Asztalitenisz",
+   "name": "Jakub Levicky - Lukas Velicka",
+   "home": "Jakub Levicky",
+   "away": "Lukas Velicka",
+   "home_pid": "167174971199639552",
+   "away_pid": "274722322446946304",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921470",
+   "startTime": "2026-11-19T21:30:00.000Z",
+   "participant1Name": "Levicky, Jakub",
+   "participant2Name": "Velicka, Lukas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976921572": {
+  "tm": {
+   "id": "320309489956888576",
+   "sport": "Asztalitenisz",
+   "name": "Michal Chalupa - Jakub Simecek",
+   "home": "Michal Chalupa",
+   "away": "Jakub Simecek",
+   "home_pid": "274550333304344576",
+   "away_pid": "274758198321352704",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921572",
+   "startTime": "2026-11-19T21:30:00.000Z",
+   "participant1Name": "Chalupa, Michal",
+   "participant2Name": "Simecek, Jakub",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
  },
  "id2503634976921378": {
   "tm": {
@@ -8288,36 +8348,6 @@
    "sportName": "Cricket"
   },
   "score": 1.0
- },
- "id1900059776636510": {
-  "tm": {
-   "id": "320250586710745088",
-   "sport": "Darts",
-   "name": "Gian van Veen - Martin Schindler",
-   "home": "Gian van Veen",
-   "away": "Martin Schindler",
-   "home_pid": "165124730906529792",
-   "away_pid": "1395325",
-   "tournament": "Grand Slam of Darts",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-19T20:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1900059776636510",
-   "startTime": "2026-11-19T20:15:00.000Z",
-   "participant1Name": "van Veen, Gian",
-   "participant2Name": "Schindler, Martin",
-   "tournamentId": 597,
-   "tournamentName": "Grand Slam of Darts",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665801,
-   "name": "G. van Veen - M. Schindler",
-   "score": 1.0
-  }
  },
  "id1900059776636506": {
   "tm": {
@@ -8707,48 +8737,6 @@
    "id": 5669860,
    "name": "Ruslan Abdullaev - J.M. Angulo",
    "score": 1.0
-  }
- },
- "id1004850774827302": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1004850774827302",
-   "startTime": "2026-11-20T08:30:00.000Z",
-   "participant1Name": "Sydney United 58 FC",
-   "participant2Name": "Sutherland Sharks",
-   "tournamentId": 48507,
-   "tournamentName": "Australian Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594735,
-   "name": "Sydney Utd. - Sutherland Sharks",
-   "score": 1.0,
-   "home": "Sydney Utd.",
-   "away": "Sutherland Sharks",
-   "tournament": "Ausztrál Championship, A csop."
-  }
- },
- "id1004850774827300": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1004850774827300",
-   "startTime": "2026-11-20T08:30:00.000Z",
-   "participant1Name": "South Melbourne FC",
-   "participant2Name": "Canberra Croatia FC",
-   "tournamentId": 48507,
-   "tournamentName": "Australian Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594737,
-   "name": "South Melbourne - Canberra Croatia",
-   "score": 1.0,
-   "home": "South Melbourne",
-   "away": "Canberra Croatia",
-   "tournament": "Ausztrál Championship, A csop."
   }
  },
  "id1000098476676802": {
