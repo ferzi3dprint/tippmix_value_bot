@@ -5364,6 +5364,31 @@
   },
   "score": 1.0
  },
+ "id1100148272629066": {
+  "tm": {
+   "id": "319264042048888832",
+   "sport": "Kosárlabda",
+   "name": "Zlín - Opava 2",
+   "home": "Zlín",
+   "away": "Opava 2",
+   "home_pid": "163234543678050304",
+   "away_pid": "179957898032500736",
+   "tournament": "Cseh 2.",
+   "category": "Csehország",
+   "tm_sport_id": "8",
+   "start": "2026-11-20T17:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100148272629066",
+   "startTime": "2026-11-20T17:30:00.000Z",
+   "participant1Name": "SKB Zlin",
+   "participant2Name": "BK Opava B",
+   "tournamentId": 1482,
+   "tournamentName": "1. Liga",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1103632172319234": {
   "tm": {
    "id": "319264047796133888",
@@ -7949,31 +7974,6 @@
    "score": 1.0
   }
  },
- "id2503634976921408": {
-  "tm": {
-   "id": "320309489807990784",
-   "sport": "Asztalitenisz",
-   "name": "Yurii Holovatiuk - Plachy Jiri",
-   "home": "Yurii Holovatiuk",
-   "away": "Plachy Jiri",
-   "home_pid": "218992960200658944",
-   "away_pid": "146365753072865280",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976921408",
-   "startTime": "2026-11-19T21:00:00.000Z",
-   "participant1Name": "Holovatiuk, Yurii",
-   "participant2Name": "Plachy, Jiri",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976921654": {
   "tm": {
    "id": "320309489729347584",
@@ -8018,6 +8018,31 @@
    "startTime": "2026-11-19T21:00:00.000Z",
    "participant1Name": "Zahradnik, Tomas",
    "participant2Name": "Schopf, Karel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976921408": {
+  "tm": {
+   "id": "320309489807990784",
+   "sport": "Asztalitenisz",
+   "name": "Yurii Holovatiuk - Plachy Jiri",
+   "home": "Yurii Holovatiuk",
+   "away": "Plachy Jiri",
+   "home_pid": "218992960200658944",
+   "away_pid": "146365753072865280",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-19T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921408",
+   "startTime": "2026-11-19T21:00:00.000Z",
+   "participant1Name": "Holovatiuk, Yurii",
+   "participant2Name": "Plachy, Jiri",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
