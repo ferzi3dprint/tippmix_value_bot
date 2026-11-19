@@ -4276,11 +4276,11 @@
   "band": "2.10–2.50",
   "trigger": "steam",
   "bet": true,
-  "closing_fair_prob": 0.55677,
-  "closing_fair_odds": 1.796,
-  "closing_sharp_odds": 1.694,
-  "closing_at": "2026-11-19T16:38:03.943059+00:00",
-  "clv": 0.24716
+  "closing_fair_prob": 0.40982,
+  "closing_fair_odds": 2.44,
+  "closing_sharp_odds": 2.29,
+  "closing_at": "2026-11-19T17:01:32.464275+00:00",
+  "clv": -0.082
  },
  {
   "fixture_id": "id1001949273078846",
@@ -4364,11 +4364,11 @@
   "band": "2.50–5.00",
   "trigger": "normál",
   "bet": false,
-  "closing_fair_prob": 0.46546,
-  "closing_fair_odds": 2.148,
-  "closing_sharp_odds": 1.99,
-  "closing_at": "2026-11-19T16:38:03.943059+00:00",
-  "clv": 0.25674
+  "closing_fair_prob": 0.31672,
+  "closing_fair_odds": 3.157,
+  "closing_sharp_odds": 2.87,
+  "closing_at": "2026-11-19T17:01:32.464275+00:00",
+  "clv": -0.14485
  },
  {
   "fixture_id": "id1500026171696594",
@@ -4386,11 +4386,11 @@
   "band": "1.30–1.50",
   "trigger": "steam",
   "bet": false,
-  "closing_fair_prob": 0.68754,
-  "closing_fair_odds": 1.454,
-  "closing_sharp_odds": 1.409,
-  "closing_at": "2026-11-19T16:38:03.943059+00:00",
-  "clv": 0.00382
+  "closing_fair_prob": 0.6923,
+  "closing_fair_odds": 1.444,
+  "closing_sharp_odds": 1.4,
+  "closing_at": "2026-11-19T17:01:32.464275+00:00",
+  "clv": 0.01075
  },
  {
   "fixture_id": "id2200015972749014",
@@ -4411,7 +4411,7 @@
   "closing_fair_prob": 0.45793,
   "closing_fair_odds": 2.184,
   "closing_sharp_odds": 2.07,
-  "closing_at": "2026-11-19T16:38:03.943059+00:00",
+  "closing_at": "2026-11-19T17:01:32.464275+00:00",
   "clv": 0.00286
  },
  {
@@ -4457,5 +4457,22 @@
   "closing_sharp_odds": 1.381,
   "closing_at": "2026-11-19T14:36:43.424829+00:00",
   "clv": 0.04629
+ },
+ {
+  "fixture_id": "id1000207576738346",
+  "market_id": 1076,
+  "outcome_id": 1076,
+  "first_at": "2026-11-19T17:01:32.464275+00:00",
+  "start": "2026-11-19T18:00:00.000Z",
+  "home": "ZED FC",
+  "away": "Smouha",
+  "tournament": "Egyiptomi Kupa",
+  "label": "Ázsiai hendikep: ZED FC (+0.5)",
+  "odds": 1.33,
+  "fair_prob": 0.76726,
+  "ev": 0.02046,
+  "band": "1.30–1.50",
+  "trigger": "normál",
+  "bet": false
  }
 ]
