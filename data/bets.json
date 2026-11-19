@@ -816,7 +816,7 @@
   "closing_sharp_odds": 1.526,
   "closing_at": "2026-11-14T03:32:43.323904+00:00",
   "clv": 0.12803,
-  "settle_tried_at": "2026-11-19T07:47:17.057699+00:00"
+  "settle_tried_at": "2026-11-19T09:58:01.860241+00:00"
  },
  {
   "id": "c906acbfca",
@@ -2587,7 +2587,7 @@
   "closing_fair_prob": 0.2616,
   "closing_fair_odds": 3.823,
   "closing_sharp_odds": 3.3,
-  "closing_at": "2026-11-19T09:36:14.841033+00:00",
+  "closing_at": "2026-11-19T09:58:01.860241+00:00",
   "clv": -0.22827
  },
  {
@@ -2806,5 +2806,45 @@
   "expected_profit": 29.0,
   "exec_checked_at": "2026-11-19T09:52:30.895473+00:00",
   "exec_odds": 1.69
+ },
+ {
+  "id": "dbad0a95da",
+  "placed_at": "2026-11-19T09:58:01.860241+00:00",
+  "status": "open",
+  "exec_status": "ok",
+  "fixture_id": "id2200015972749014",
+  "sport": "Handball",
+  "tournament": "Francia bajnokság",
+  "home": "Caen",
+  "away": "Nimes",
+  "start": "2026-11-19T19:30:00.000Z",
+  "label": "Hendikep (rendes játékidő): Nimes (-2.5)",
+  "band": "2.10–2.50",
+  "stake": 1350,
+  "signal_odds": 2.19,
+  "signal_ev": 0.06723,
+  "link": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/7/kezilabda/franciaorszag/francia-bajnoksag/caen-nimes/319807476743610368/nepszeru",
+  "tm_id": "319807476743610368",
+  "tm_url": "https://www.tippmixpro.hu/hu/fogadas/i/esemenyek/7/kezilabda/franciaorszag/francia-bajnoksag/caen-nimes/319807476743610368/nepszeru",
+  "market_id": 22316,
+  "market": "Handicap",
+  "outcome_id": 22317,
+  "outcome": "2",
+  "odds": 2.19,
+  "sharp_odds": 1.952,
+  "fair_prob": 0.48732,
+  "fair_odds": 2.052,
+  "ev": 0.06723,
+  "sharp_overround": 1.0494,
+  "line": 2.5,
+  "mtype": "spreads",
+  "ref": "Pinnacle",
+  "steam": 0.047,
+  "trigger": "steam",
+  "tm_tip": "Ázsiai hendikep 2.5 - Rendes játékidő → Nimes (-2.5)",
+  "min_odds": 2.07,
+  "expected_profit": 90.76,
+  "exec_checked_at": "2026-11-19T10:14:28.542560+00:00",
+  "exec_odds": 2.19
  }
 ]
