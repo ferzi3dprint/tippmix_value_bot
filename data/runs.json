@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-18T15:00:01.007760+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "-0.5% Trinec – Olomouc · Győztes (hosszabbítással): Trinec győz @1.19 (fair 1.196)",
-   "-0.6% Mountfield HK – Brno · Győztes (hosszabbítással): Mountfield HK győz @1.69 (fair 1.699)",
-   "-0.7% Kiekko-Espoo – Ilves · Hendikep (rendes játékidő): Ilves (+1) @1.34 (fair 1.35)",
-   "-0.7% Ässät – Lahti Pelicans · Győztes (hosszabbítással): Ässät győz @1.51 (fair 1.521)",
-   "-0.8% KalPa – Lukko · 1X2 (rendes játékidő): Döntetlen @3.85 (fair 3.88)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 3,
-  "fast": true,
-  "fixtures_checked": 81,
-  "fixtures_both": 38,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 9,
-  "classic_checked": 58,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.7% USK Praha – Decin · Hendikep (hosszabbítással): Decin (+2.5) @1.82 (fair 1.852)",
-   "-1.8% USK Praha – Decin · Győztes (hosszabbítással): Decin győz @2.06 (fair 2.099)",
-   "-2.1% Trinec – Olomouc · Győztes (hosszabbítással): Trinec győz @1.17 (fair 1.196)",
-   "-3.5% KalPa – Lukko · Hendikep (rendes játékidő): Lukko (+0.5) @1.41 (fair 1.462)",
-   "-3.8% CS Constantine – Ben Aknoun · Gólszám 2.75: Kevesebb @1.41 (fair 1.466)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 87
- },
- {
-  "time": "2026-11-18T15:10:28.688309+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 7,
-  "boosts": 0,
-  "classic": {
-   "events": 558,
-   "paired": 183,
-   "classic_only": 14
-  },
-  "tippmix_matches": 1061,
-  "pinnacle_fixtures": 976,
-  "paired": 312,
-  "by_sport": {
-   "Soccer": [
-    173,
-    101
-   ],
-   "Tennis": [
-    294,
-    14
-   ],
-   "Basketball": [
-    169,
-    59
-   ],
-   "Ice Hockey": [
-    97,
-    65
-   ],
-   "Handball": [
-    68,
-    19
-   ],
-   "Volleyball": [
-    52,
-    6
-   ],
-   "Table Tennis": [
-    43,
-    26
-   ],
-   "Cricket": [
-    15,
-    4
-   ],
-   "Badminton": [
-    54,
-    0
-   ],
-   "Darts": [
-    8,
-    4
-   ],
-   "Futsal": [
-    4,
-    2
-   ],
-   "Waterpolo": [
-    16,
-    7
-   ],
-   "ESport Counter-Strike": [
-    25,
-    0
-   ],
-   "ESport Dota": [
-    2,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    32,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    5,
-    5
-   ]
-  },
-  "top_ev": [
-   "+4.6% U20America RJ – U20Americano RJ · Ázsiai hendikep: U20America RJ (-0.25) @1.95 (fair 1.865)",
-   "+2.0% Fribourg – Servette · 1X2 (rendes játékidő): Döntetlen @4.35 (fair 4.263)",
-   "+0.4% Nottingham – Liverpool · Ázsiai hendikep: Nottingham (+1.25) @1.76 (fair 1.753)",
-   "+0.3% Aalborg – Füchse Berlin · 1X2: Füchse Berlin győz @1.59 (fair 1.586)",
-   "+0.1% Nottingham – Liverpool · Ázsiai hendikep: Nottingham (+1) @2.02 (fair 2.018)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 18,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 89,
-  "rejected_mismatch": 0,
-  "candidates": 1,
-  "steam_fixtures": 25,
-  "classic_checked": 106,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.7% Cacereno – Alavés · Gólszám 2.5: Kevesebb @1.95 (fair 1.936)",
-   "+0.4% Arisz – Le Mans · Összpontszám (hosszabbítással) 168.5: Több @1.73 (fair 1.723)",
-   "+0.0% Arisz – Le Mans · Összpontszám (hosszabbítással) 169.5: Több @1.8 (fair 1.799)",
-   "-0.5% Arisz – Le Mans · Összpontszám (hosszabbítással) 170.5: Több @1.89 (fair 1.899)",
-   "-1.1% Alcoyano – Mallorca · Gólszám 3.25: Kevesebb @1.45 (fair 1.467)"
-  ],
-  "placed": 1,
-  "not_executable": 1,
-  "api_calls": 0,
-  "free_calls": 157
- },
- {
   "time": "2026-11-18T15:27:14.170328+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25791,6 +25600,173 @@
    "Floorball": [
     8,
     8
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 151,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-20T17:27:15.221481+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 128,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 127,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-20T17:38:08.358169+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 799,
+   "paired": 496,
+   "classic_only": 41
+  },
+  "tippmix_matches": 1755,
+  "pinnacle_fixtures": 2042,
+  "paired": 948,
+  "by_sport": {
+   "Soccer": [
+    771,
+    567
+   ],
+   "Tennis": [
+    108,
+    1
+   ],
+   "Basketball": [
+    368,
+    194
+   ],
+   "Ice Hockey": [
+    140,
+    104
+   ],
+   "Handball": [
+    75,
+    38
+   ],
+   "Volleyball": [
+    116,
+    13
+   ],
+   "Table Tennis": [
+    22,
+    0
+   ],
+   "Cricket": [
+    35,
+    3
+   ],
+   "Badminton": [
+    12,
+    0
+   ],
+   "Darts": [
+    9,
+    2
+   ],
+   "Futsal": [
+    13,
+    1
+   ],
+   "Waterpolo": [
+    21,
+    1
+   ],
+   "ESport Counter-Strike": [
+    15,
+    0
+   ],
+   "ESport Dota": [
+    5,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    27,
+    0
+   ],
+   "eBasketball": [
+    3,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    8,
+    6
+   ],
+   "MMA": [
+    0,
+    5
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    2
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    4
+   ],
+   "Floorball": [
+    7,
+    7
    ]
   },
   "top_ev": [],
