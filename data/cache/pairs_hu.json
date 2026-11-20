@@ -1,34 +1,4 @@
 {
- "id1000189473928184": {
-  "tm": {
-   "id": "319397792680321024",
-   "sport": "Labdarúgás",
-   "name": "Western Sydney Wanderers - Wellington Phoenix",
-   "home": "Western Sydney Wanderers",
-   "away": "Wellington Phoenix",
-   "home_pid": "183800244801163520",
-   "away_pid": "156144905583906816",
-   "tournament": "Ausztrál bajnokság, női",
-   "category": "Ausztrália",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T05:50:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000189473928184",
-   "startTime": "2026-11-20T05:50:00.000Z",
-   "participant1Name": "Western Sydney Wanderers",
-   "participant2Name": "Wellington Phoenix",
-   "tournamentId": 1894,
-   "tournamentName": "A-League, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594736,
-   "name": "Western Sydney Wanderers - Wellington Phoenix",
-   "score": 1.0
-  }
- },
  "id1004850774827302": {
   "tm": {
    "id": "319400054132645888",
@@ -15044,6 +15014,31 @@
   },
   "score": 1.0
  },
+ "id1000017472758320": {
+  "tm": {
+   "id": "319423066401742848",
+   "sport": "Labdarúgás",
+   "name": "Chesham Utd. - Hampton & Richmond Borough",
+   "home": "Chesham Utd.",
+   "away": "Hampton & Richmond Borough",
+   "home_pid": "3487",
+   "away_pid": "3488",
+   "tournament": "Angol Nemzeti Liga 2., Dél",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017472758320",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Chesham United",
+   "participant2Name": "Hampton & Richmond Borough",
+   "tournamentId": 174,
+   "tournamentName": "National League South",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000017472758336": {
   "tm": {
    "id": "319423063354580992",
@@ -15088,31 +15083,6 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Maidstone United FC",
    "participant2Name": "Farnham Town",
-   "tournamentId": 174,
-   "tournamentName": "National League South",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000017472758320": {
-  "tm": {
-   "id": "319423066401742848",
-   "sport": "Labdarúgás",
-   "name": "Chesham Utd. - Hampton & Richmond Borough",
-   "home": "Chesham Utd.",
-   "away": "Hampton & Richmond Borough",
-   "home_pid": "3487",
-   "away_pid": "3488",
-   "tournament": "Angol Nemzeti Liga 2., Dél",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017472758320",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Chesham United",
-   "participant2Name": "Hampton & Richmond Borough",
    "tournamentId": 174,
    "tournamentName": "National League South",
    "sportName": "Soccer"
@@ -15194,31 +15164,6 @@
   },
   "score": 1.0
  },
- "id1000017472758322": {
-  "tm": {
-   "id": "319423062873284608",
-   "sport": "Labdarúgás",
-   "name": "Dorking - Ebbsfleet Utd.",
-   "home": "Dorking",
-   "away": "Ebbsfleet Utd.",
-   "home_pid": "1177685",
-   "away_pid": "3485",
-   "tournament": "Angol Nemzeti Liga 2., Dél",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017472758322",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Dorking Wanderers",
-   "participant2Name": "Ebbsfleet United FC",
-   "tournamentId": 174,
-   "tournamentName": "National League South",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000017472758328": {
   "tm": {
    "id": "319423067061297152",
@@ -15238,6 +15183,31 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Maidenhead United FC",
    "participant2Name": "Folkestone Invicta",
+   "tournamentId": 174,
+   "tournamentName": "National League South",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000017472758322": {
+  "tm": {
+   "id": "319423062873284608",
+   "sport": "Labdarúgás",
+   "name": "Dorking - Ebbsfleet Utd.",
+   "home": "Dorking",
+   "away": "Ebbsfleet Utd.",
+   "home_pid": "1177685",
+   "away_pid": "3485",
+   "tournament": "Angol Nemzeti Liga 2., Dél",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017472758322",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Dorking Wanderers",
+   "participant2Name": "Ebbsfleet United FC",
    "tournamentId": 174,
    "tournamentName": "National League South",
    "sportName": "Soccer"
@@ -15294,31 +15264,6 @@
   },
   "score": 1.0
  },
- "id1000017672759480": {
-  "tm": {
-   "id": "319423067755454464",
-   "sport": "Labdarúgás",
-   "name": "Oxford City - Scarborough Athletic",
-   "home": "Oxford City",
-   "away": "Scarborough Athletic",
-   "home_pid": "1315",
-   "away_pid": "1001125",
-   "tournament": "Angol Nemzeti Liga 2., Észak",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017672759480",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Oxford City",
-   "participant2Name": "Scarborough Athletic",
-   "tournamentId": 176,
-   "tournamentName": "National League North",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000017672759472": {
   "tm": {
    "id": "319423064999796736",
@@ -15338,6 +15283,31 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Chester FC",
    "participant2Name": "Macclesfield FC",
+   "tournamentId": 176,
+   "tournamentName": "National League North",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000017672759480": {
+  "tm": {
+   "id": "319423067755454464",
+   "sport": "Labdarúgás",
+   "name": "Oxford City - Scarborough Athletic",
+   "home": "Oxford City",
+   "away": "Scarborough Athletic",
+   "home_pid": "1315",
+   "away_pid": "1001125",
+   "tournament": "Angol Nemzeti Liga 2., Észak",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017672759480",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Oxford City",
+   "participant2Name": "Scarborough Athletic",
    "tournamentId": 176,
    "tournamentName": "National League North",
    "sportName": "Soccer"
@@ -15369,31 +15339,6 @@
   },
   "score": 1.0
  },
- "id1000017672759474": {
-  "tm": {
-   "id": "319423063116554240",
-   "sport": "Labdarúgás",
-   "name": "Hebburn Town - Marine",
-   "home": "Hebburn Town",
-   "away": "Marine",
-   "home_pid": "136845969726689280",
-   "away_pid": "3506",
-   "tournament": "Angol Nemzeti Liga 2., Észak",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017672759474",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Hebburn Town",
-   "participant2Name": "Marine FC",
-   "tournamentId": 176,
-   "tournamentName": "National League North",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000017672759468": {
   "tm": {
    "id": "319423061242748928",
@@ -15413,56 +15358,6 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Bedford Town Football Club",
    "participant2Name": "South Shields",
-   "tournamentId": 176,
-   "tournamentName": "National League North",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000017672759482": {
-  "tm": {
-   "id": "319423067432493056",
-   "sport": "Labdarúgás",
-   "name": "Radcliffe Bor - Telford",
-   "home": "Radcliffe Bor",
-   "away": "Telford",
-   "home_pid": "9092",
-   "away_pid": "979",
-   "tournament": "Angol Nemzeti Liga 2., Észak",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017672759482",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Radcliffe FC",
-   "participant2Name": "AFC Telford United",
-   "tournamentId": 176,
-   "tournamentName": "National League North",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000017672759470": {
-  "tm": {
-   "id": "319423064561491968",
-   "sport": "Labdarúgás",
-   "name": "Buxton FC - Hednesford Town",
-   "home": "Buxton FC",
-   "away": "Hednesford Town",
-   "home_pid": "15677",
-   "away_pid": "966",
-   "tournament": "Angol Nemzeti Liga 2., Észak",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017672759470",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Buxton FC",
-   "participant2Name": "Hednesford Town",
    "tournamentId": 176,
    "tournamentName": "National League North",
    "sportName": "Soccer"
@@ -15519,6 +15414,31 @@
   },
   "score": 1.0
  },
+ "id1000017672759474": {
+  "tm": {
+   "id": "319423063116554240",
+   "sport": "Labdarúgás",
+   "name": "Hebburn Town - Marine",
+   "home": "Hebburn Town",
+   "away": "Marine",
+   "home_pid": "136845969726689280",
+   "away_pid": "3506",
+   "tournament": "Angol Nemzeti Liga 2., Észak",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017672759474",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Hebburn Town",
+   "participant2Name": "Marine FC",
+   "tournamentId": 176,
+   "tournamentName": "National League North",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000017672759488": {
   "tm": {
    "id": "319423060393402368",
@@ -15544,6 +15464,31 @@
   },
   "score": 1.0
  },
+ "id1000017672759470": {
+  "tm": {
+   "id": "319423064561491968",
+   "sport": "Labdarúgás",
+   "name": "Buxton FC - Hednesford Town",
+   "home": "Buxton FC",
+   "away": "Hednesford Town",
+   "home_pid": "15677",
+   "away_pid": "966",
+   "tournament": "Angol Nemzeti Liga 2., Észak",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017672759470",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Buxton FC",
+   "participant2Name": "Hednesford Town",
+   "tournamentId": 176,
+   "tournamentName": "National League North",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000017672759476": {
   "tm": {
    "id": "319423063621967872",
@@ -15563,6 +15508,31 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Hereford FC",
    "participant2Name": "Darlington FC",
+   "tournamentId": 176,
+   "tournamentName": "National League North",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000017672759482": {
+  "tm": {
+   "id": "319423067432493056",
+   "sport": "Labdarúgás",
+   "name": "Radcliffe Bor - Telford",
+   "home": "Radcliffe Bor",
+   "away": "Telford",
+   "home_pid": "9092",
+   "away_pid": "979",
+   "tournament": "Angol Nemzeti Liga 2., Észak",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017672759482",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Radcliffe FC",
+   "participant2Name": "AFC Telford United",
    "tournamentId": 176,
    "tournamentName": "National League North",
    "sportName": "Soccer"
@@ -28673,6 +28643,106 @@
    "name": "V. Sidorenko - I. Chirita",
    "score": 1.0
   }
+ },
+ "id2503634976956950": {
+  "tm": {
+   "id": "320401499724259328",
+   "sport": "Asztalitenisz",
+   "name": "Radim Adam - Ivo Taichman",
+   "home": "Radim Adam",
+   "away": "Ivo Taichman",
+   "home_pid": "274758232456695808",
+   "away_pid": "283955591792332800",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956950",
+   "startTime": "2026-11-20T07:00:00.000Z",
+   "participant1Name": "Adam, Radim",
+   "participant2Name": "Taichman, Ivo",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956896": {
+  "tm": {
+   "id": "320401640190451712",
+   "sport": "Asztalitenisz",
+   "name": "Radomir Revay - Lukas Velebil",
+   "home": "Radomir Revay",
+   "away": "Lukas Velebil",
+   "home_pid": "166722222185041920",
+   "away_pid": "294325549638389760",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956896",
+   "startTime": "2026-11-20T07:00:00.000Z",
+   "participant1Name": "Revay, Radomir",
+   "participant2Name": "Velebil, Lukas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956858": {
+  "tm": {
+   "id": "320401501791002624",
+   "sport": "Asztalitenisz",
+   "name": "Milan Chalupnicek - Jiri Svec",
+   "home": "Milan Chalupnicek",
+   "away": "Jiri Svec",
+   "home_pid": "201695662530785280",
+   "away_pid": "117257474374946816",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956858",
+   "startTime": "2026-11-20T07:00:00.000Z",
+   "participant1Name": "Chalupnicek, Milan",
+   "participant2Name": "Svec, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956834": {
+  "tm": {
+   "id": "320401502213578752",
+   "sport": "Asztalitenisz",
+   "name": "Viktor Vejvoda - Radim Urbaniec",
+   "home": "Viktor Vejvoda",
+   "away": "Radim Urbaniec",
+   "home_pid": "235783907253325824",
+   "away_pid": "167634919836667904",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956834",
+   "startTime": "2026-11-20T07:00:00.000Z",
+   "participant1Name": "Vejvoda, Viktor",
+   "participant2Name": "Urbaniec, Radim",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
  },
  "id2504935876965498": {
   "tm": {

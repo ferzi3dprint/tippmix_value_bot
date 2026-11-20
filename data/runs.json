@@ -1,61 +1,5 @@
 [
  {
-  "time": "2026-11-18T03:16:56.869263+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 1,
-  "top_ev": [
-   "-4.4% Mynavi Sendai – Tokyo Verdy Beleza · 1X2: Tokyo Verdy Beleza győz @1.56 (fair 1.631)",
-   "-4.4% Bass F./Duncan S. – Matsui T./Ramanathan R. · Győztes: Bass F./Duncan S. győz @1.32 (fair 1.381)",
-   "-4.8% JEF United Chiba – Nagano Parceiro · Ázsiai hendikep: JEF United Chiba (+0.5) @1.25 (fair 1.313)",
-   "-5.3% Mynavi Sendai – Tokyo Verdy Beleza · Gólszám 3.25: Kevesebb @1.36 (fair 1.437)",
-   "-5.4% JEF United Chiba – Nagano Parceiro · 1X2: Döntetlen @3.05 (fair 3.224)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 1,
-  "fast": true,
-  "fixtures_checked": 10,
-  "fixtures_both": 5,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 1,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 11
- },
- {
-  "time": "2026-11-18T03:21:56.869650+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 1,
-  "top_ev": [
-   "-1.8% JEF United Chiba – Nagano Parceiro · Ázsiai hendikep: JEF United Chiba (+0.5) @1.27 (fair 1.294)",
-   "-2.4% JEF United Chiba – Nagano Parceiro · Ázsiai hendikep: JEF United Chiba (+0.25) @1.34 (fair 1.372)",
-   "-2.4% JEF United Chiba – Nagano Parceiro · Ázsiai hendikep: JEF United Chiba (+0) @1.47 (fair 1.506)",
-   "-4.4% Mynavi Sendai – Tokyo Verdy Beleza · 1X2: Tokyo Verdy Beleza győz @1.56 (fair 1.631)",
-   "-4.4% Bass F./Duncan S. – Matsui T./Ramanathan R. · Győztes: Bass F./Duncan S. győz @1.32 (fair 1.381)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 1,
-  "fast": true,
-  "fixtures_checked": 10,
-  "fixtures_both": 5,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 1,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 11
- },
- {
   "time": "2026-11-18T03:26:56.869628+00:00",
   "mode": "hu",
   "settled": 0,
@@ -26187,6 +26131,191 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 0,
+  "free_calls": 156
+ },
+ {
+  "time": "2026-11-20T05:59:56.185649+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 8,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 4,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-4.9% Miyu Nagasaki – Xiaoxin Yang · Győztes: Miyu Nagasaki győz @1.13 (fair 1.188)",
+   "-7.5% Vladimir Sidorenko – Iulian Chirita · Győztes: Vladimir Sidorenko győz @1.25 (fair 1.351)",
+   "-9.6% Kim Na Yeong – Elizabet Abraamian · Győztes: Elizabet Abraamian győz @1.61 (fair 1.781)",
+   "-17.1% Kim Na Yeong – Elizabet Abraamian · Győztes: Kim Na Yeong győz @1.89 (fair 2.28)",
+   "-26.0% Vladimir Sidorenko – Iulian Chirita · Győztes: Iulian Chirita győz @2.85 (fair 3.85)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 0,
+  "free_calls": 8
+ },
+ {
+  "time": "2026-11-20T06:04:56.184457+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 6,
+  "boosts": 0,
+  "classic": {
+   "events": 627,
+   "paired": 412,
+   "classic_only": 36
+  },
+  "tippmix_matches": 1920,
+  "pinnacle_fixtures": 2042,
+  "paired": 1155,
+  "by_sport": {
+   "Soccer": [
+    794,
+    658
+   ],
+   "Tennis": [
+    232,
+    15
+   ],
+   "Basketball": [
+    354,
+    214
+   ],
+   "Ice Hockey": [
+    187,
+    147
+   ],
+   "Handball": [
+    71,
+    38
+   ],
+   "Volleyball": [
+    61,
+    19
+   ],
+   "Table Tennis": [
+    37,
+    9
+   ],
+   "Cricket": [
+    31,
+    11
+   ],
+   "Badminton": [
+    44,
+    7
+   ],
+   "Darts": [
+    19,
+    17
+   ],
+   "Futsal": [
+    2,
+    1
+   ],
+   "Waterpolo": [
+    3,
+    1
+   ],
+   "ESport Counter-Strike": [
+    24,
+    1
+   ],
+   "ESport Dota": [
+    10,
+    3
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    36,
+    0
+   ],
+   "eBasketball": [
+    8,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    7,
+    7
+   ],
+   "MMA": [
+    0,
+    5
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    2
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    0,
+    0
+   ]
+  },
+  "top_ev": [
+   "-0.1% Igdir FK – Ümraniyespor · 1X2: Igdir FK győz @1.85 (fair 1.852)",
+   "-0.6% JYP – HIFK · Győztes (hosszabbítással): JYP győz @1.57 (fair 1.579)",
+   "-0.9% Western Sydney Wanderers – Adelaide Utd. · 1X2: Western Sydney Wanderers győz @1.66 (fair 1.674)",
+   "-1.0% Piast Gliwice – Korona Kielce · Gólszám 1.5: Több @1.22 (fair 1.232)",
+   "-1.1% St. Pölten – Voitsberg · 1X2: St. Pölten győz @1.88 (fair 1.901)"
+  ],
+  "rejected_examples": [],
+  "no_main_market": 15,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 89,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 18,
+  "classic_checked": 69,
+  "classic_candidates": 0,
+  "top_ev_classic": [
+   "-0.0% East Bengal – SC Delhi · Gólszám 4.5: Kevesebb @1.39 (fair 1.39)",
+   "-0.0% East Bengal – SC Delhi · Gólszám 4: Kevesebb @1.56 (fair 1.561)",
+   "-1.0% Beijing Guoan – Shanghai Port · Gólszám 3.5: Kevesebb @1.49 (fair 1.505)",
+   "-1.2% Beijing Guoan – Shanghai Port · Gólszám 3.25: Kevesebb @1.59 (fair 1.609)",
+   "-1.2% Piast Gliwice – Korona Kielce · 1X2: Korona Kielce győz @2.6 (fair 2.632)"
+  ],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 2,
   "free_calls": 156
  }
 ]
