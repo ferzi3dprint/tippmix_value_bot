@@ -15489,31 +15489,6 @@
   },
   "score": 1.0
  },
- "id1000017672759488": {
-  "tm": {
-   "id": "319423060393402368",
-   "sport": "Labdarúgás",
-   "name": "Spennymoor Town - Harborough Town",
-   "home": "Spennymoor Town",
-   "away": "Harborough Town",
-   "home_pid": "615483",
-   "away_pid": "142629086584426496",
-   "tournament": "Angol Nemzeti Liga 2., Észak",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017672759488",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Spennymoor Town FC",
-   "participant2Name": "Harborough Town FC",
-   "tournamentId": 176,
-   "tournamentName": "National League North",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000017672759470": {
   "tm": {
    "id": "319423064561491968",
@@ -15539,25 +15514,50 @@
   },
   "score": 1.0
  },
- "id1000017672759478": {
+ "id1000017672759488": {
   "tm": {
-   "id": "319423060313710592",
+   "id": "319423060393402368",
    "sport": "Labdarúgás",
-   "name": "Morecambe - Kings Lynn",
-   "home": "Morecambe",
-   "away": "Kings Lynn",
-   "home_pid": "971",
-   "away_pid": "5611",
+   "name": "Spennymoor Town - Harborough Town",
+   "home": "Spennymoor Town",
+   "away": "Harborough Town",
+   "home_pid": "615483",
+   "away_pid": "142629086584426496",
    "tournament": "Angol Nemzeti Liga 2., Észak",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000017672759478",
+   "fixtureId": "id1000017672759488",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Morecambe FC",
-   "participant2Name": "King's Lynn Town",
+   "participant1Name": "Spennymoor Town FC",
+   "participant2Name": "Harborough Town FC",
+   "tournamentId": 176,
+   "tournamentName": "National League North",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000017672759476": {
+  "tm": {
+   "id": "319423063621967872",
+   "sport": "Labdarúgás",
+   "name": "Hereford - Darlington",
+   "home": "Hereford",
+   "away": "Darlington",
+   "home_pid": "151865505794281472",
+   "away_pid": "92",
+   "tournament": "Angol Nemzeti Liga 2., Észak",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017672759476",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Hereford FC",
+   "participant2Name": "Darlington FC",
    "tournamentId": 176,
    "tournamentName": "National League North",
    "sportName": "Soccer"
@@ -15589,25 +15589,25 @@
   },
   "score": 1.0
  },
- "id1000017672759476": {
+ "id1000017672759478": {
   "tm": {
-   "id": "319423063621967872",
+   "id": "319423060313710592",
    "sport": "Labdarúgás",
-   "name": "Hereford - Darlington",
-   "home": "Hereford",
-   "away": "Darlington",
-   "home_pid": "151865505794281472",
-   "away_pid": "92",
+   "name": "Morecambe - Kings Lynn",
+   "home": "Morecambe",
+   "away": "Kings Lynn",
+   "home_pid": "971",
+   "away_pid": "5611",
    "tournament": "Angol Nemzeti Liga 2., Észak",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000017672759476",
+   "fixtureId": "id1000017672759478",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Hereford FC",
-   "participant2Name": "Darlington FC",
+   "participant1Name": "Morecambe FC",
+   "participant2Name": "King's Lynn Town",
    "tournamentId": 176,
    "tournamentName": "National League North",
    "sportName": "Soccer"
@@ -18026,36 +18026,6 @@
   "cl": {
    "id": 5665639,
    "name": "M.A. Coman - M. van der Merwe",
-   "score": 1.0
-  }
- },
- "id1104496575880382": {
-  "tm": {
-   "id": "319264048843661312",
-   "sport": "Kosárlabda",
-   "name": "Shanghai Blackbird - Shenzhen Leopards",
-   "home": "Shanghai Blackbird",
-   "away": "Shenzhen Leopards",
-   "home_pid": "290137444993765376",
-   "away_pid": "184123428475817984",
-   "tournament": "Kínai Liga-kupa",
-   "category": "Kína",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104496575880382",
-   "startTime": "2026-11-20T08:00:00.000Z",
-   "participant1Name": "Shanghai Blackbird",
-   "participant2Name": "Shenzhen Leopards",
-   "tournamentId": 44965,
-   "tournamentName": "CBA Club Cup",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594766,
-   "name": "Shanghai Blackbird - Shenzhen",
    "score": 1.0
   }
  },
@@ -22399,6 +22369,31 @@
   },
   "score": 1.0
  },
+ "id1104853973456704": {
+  "tm": {
+   "id": "319264036906672128",
+   "sport": "Kosárlabda",
+   "name": "Mulhouse - Val de Seine",
+   "home": "Mulhouse",
+   "away": "Val de Seine",
+   "home_pid": "182686550913503232",
+   "away_pid": "280343364150366208",
+   "tournament": "Francia 3.",
+   "category": "Franciaország",
+   "tm_sport_id": "8",
+   "start": "2026-11-20T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104853973456704",
+   "startTime": "2026-11-20T19:00:00.000Z",
+   "participant1Name": "Mulhouse Basket Agglomeration",
+   "participant2Name": "Val de Seine Basket",
+   "tournamentId": 48539,
+   "tournamentName": "Nationale 1",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1104853973457056": {
   "tm": {
    "id": "319264036989509632",
@@ -22443,31 +22438,6 @@
    "startTime": "2026-11-20T19:00:00.000Z",
    "participant1Name": "JSA Bordeaux",
    "participant2Name": "Union Rennes Basket 35",
-   "tournamentId": 48539,
-   "tournamentName": "Nationale 1",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1104853973456704": {
-  "tm": {
-   "id": "319264036906672128",
-   "sport": "Kosárlabda",
-   "name": "Mulhouse - Val de Seine",
-   "home": "Mulhouse",
-   "away": "Val de Seine",
-   "home_pid": "182686550913503232",
-   "away_pid": "280343364150366208",
-   "tournament": "Francia 3.",
-   "category": "Franciaország",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104853973456704",
-   "startTime": "2026-11-20T19:00:00.000Z",
-   "participant1Name": "Mulhouse Basket Agglomeration",
-   "participant2Name": "Val de Seine Basket",
    "tournamentId": 48539,
    "tournamentName": "Nationale 1",
    "sportName": "Basketball"
@@ -28654,56 +28624,6 @@
   },
   "score": 0.86
  },
- "id2503634976956880": {
-  "tm": {
-   "id": "320401645057941504",
-   "sport": "Asztalitenisz",
-   "name": "Lukas Velebil - Pavel Wawrosz",
-   "home": "Lukas Velebil",
-   "away": "Pavel Wawrosz",
-   "home_pid": "294325549638389760",
-   "away_pid": "185657629937291264",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956880",
-   "startTime": "2026-11-20T08:00:00.000Z",
-   "participant1Name": "Velebil, Lukas",
-   "participant2Name": "Wawrosz, Pavel",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976956824": {
-  "tm": {
-   "id": "320401501875937280",
-   "sport": "Asztalitenisz",
-   "name": "Jiri Svec - Ladislav Novotny",
-   "home": "Jiri Svec",
-   "away": "Ladislav Novotny",
-   "home_pid": "117257474374946816",
-   "away_pid": "219268601318887424",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956824",
-   "startTime": "2026-11-20T08:00:00.000Z",
-   "participant1Name": "Svec, Jiri",
-   "participant2Name": "Novotny, Ladislav",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503212976966544": {
   "tm": {
    "id": "320434014892662784",
@@ -28725,6 +28645,56 @@
    "participant2Name": "Benak, Jan",
    "tournamentId": 32129,
    "tournamentName": "TT Cup",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956908": {
+  "tm": {
+   "id": "320401640280629248",
+   "sport": "Asztalitenisz",
+   "name": "Michal Vavrecka - Radomir Revay",
+   "home": "Michal Vavrecka",
+   "away": "Radomir Revay",
+   "home_pid": "167482783032201216",
+   "away_pid": "166722222185041920",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T08:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956908",
+   "startTime": "2026-11-20T08:30:00.000Z",
+   "participant1Name": "Vavrecka, Michal",
+   "participant2Name": "Revay, Radomir",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956890": {
+  "tm": {
+   "id": "320401500088115200",
+   "sport": "Asztalitenisz",
+   "name": "Stepan Nemec - Viktor Vejvoda",
+   "home": "Stepan Nemec",
+   "away": "Viktor Vejvoda",
+   "home_pid": "319310176184246272",
+   "away_pid": "235783907253325824",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T08:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956890",
+   "startTime": "2026-11-20T08:30:00.000Z",
+   "participant1Name": "Nemec, Stepan",
+   "participant2Name": "Vejvoda, Viktor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0
@@ -28773,56 +28743,6 @@
    "startTime": "2026-11-20T08:30:00.000Z",
    "participant1Name": "Milota, Tomas",
    "participant2Name": "Adam, Radim",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976956890": {
-  "tm": {
-   "id": "320401500088115200",
-   "sport": "Asztalitenisz",
-   "name": "Stepan Nemec - Viktor Vejvoda",
-   "home": "Stepan Nemec",
-   "away": "Viktor Vejvoda",
-   "home_pid": "319310176184246272",
-   "away_pid": "235783907253325824",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956890",
-   "startTime": "2026-11-20T08:30:00.000Z",
-   "participant1Name": "Nemec, Stepan",
-   "participant2Name": "Vejvoda, Viktor",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976956908": {
-  "tm": {
-   "id": "320401640280629248",
-   "sport": "Asztalitenisz",
-   "name": "Michal Vavrecka - Radomir Revay",
-   "home": "Michal Vavrecka",
-   "away": "Radomir Revay",
-   "home_pid": "167482783032201216",
-   "away_pid": "166722222185041920",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T08:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956908",
-   "startTime": "2026-11-20T08:30:00.000Z",
-   "participant1Name": "Vavrecka, Michal",
-   "participant2Name": "Revay, Radomir",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -28879,6 +28799,81 @@
   },
   "score": 1.0
  },
+ "id2503634976956866": {
+  "tm": {
+   "id": "320401640534384640",
+   "sport": "Asztalitenisz",
+   "name": "Radomir Revay - Pavel Wawrosz",
+   "home": "Radomir Revay",
+   "away": "Pavel Wawrosz",
+   "home_pid": "166722222185041920",
+   "away_pid": "185657629937291264",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T09:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956866",
+   "startTime": "2026-11-20T09:00:00.000Z",
+   "participant1Name": "Revay, Radomir",
+   "participant2Name": "Wawrosz, Pavel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956966": {
+  "tm": {
+   "id": "320401501643153408",
+   "sport": "Asztalitenisz",
+   "name": "Jan Pleskot - Julius Didi",
+   "home": "Jan Pleskot",
+   "away": "Julius Didi",
+   "home_pid": "174030321820422144",
+   "away_pid": "249527683600388096",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T09:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956966",
+   "startTime": "2026-11-20T09:00:00.000Z",
+   "participant1Name": "Pleskot, Jan",
+   "participant2Name": "Didi, Julius",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956932": {
+  "tm": {
+   "id": "320404524205416448",
+   "sport": "Asztalitenisz",
+   "name": "Milan Chalupnicek - Ladislav Novotny",
+   "home": "Milan Chalupnicek",
+   "away": "Ladislav Novotny",
+   "home_pid": "201695662530785280",
+   "away_pid": "219268601318887424",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T09:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956932",
+   "startTime": "2026-11-20T09:00:00.000Z",
+   "participant1Name": "Chalupnicek, Milan",
+   "participant2Name": "Novotny, Ladislav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976956930": {
   "tm": {
    "id": "320401500354453504",
@@ -28904,105 +28899,30 @@
   },
   "score": 0.979
  },
- "id2503634976956968": {
+ "id2503634976957006": {
   "tm": {
-   "id": "320401499920343040",
+   "id": "320405405968703488",
    "sport": "Asztalitenisz",
-   "name": "Ivo Taichman - Petr Hejl Jr.",
-   "home": "Ivo Taichman",
+   "name": "Radim Adam - Petr Hejl Jr.",
+   "home": "Radim Adam",
    "away": "Petr Hejl Jr.",
-   "home_pid": "283955591792332800",
+   "home_pid": "274758232456695808",
    "away_pid": "317329889354129408",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-20T08:00:00+00:00"
+   "start": "2026-11-20T09:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976956968",
-   "startTime": "2026-11-20T08:00:00.000Z",
-   "participant1Name": "Taichman, Ivo",
+   "fixtureId": "id2503634976957006",
+   "startTime": "2026-11-20T09:00:00.000Z",
+   "participant1Name": "Adam, Radim",
    "participant2Name": "Hejl, Petr Junior",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 0.9
- },
- "id2702833376122648": {
-  "tm": {
-   "id": "320324415577464832",
-   "sport": "Krikett",
-   "name": "Delhi - Saurashtra",
-   "home": "Delhi",
-   "away": "Saurashtra",
-   "home_pid": "293037435666075648",
-   "away_pid": "186319158102773760",
-   "tournament": "Indiai Syed Mustaq Ali Trophy",
-   "category": "India",
-   "tm_sport_id": "26",
-   "start": "2026-11-20T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702833376122648",
-   "startTime": "2026-11-20T08:00:00.000Z",
-   "participant1Name": "Delhi",
-   "participant2Name": "Saurashtra",
-   "tournamentId": 28333,
-   "tournamentName": "Syed Mushtaq Ali Trophy Elite",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
- },
- "id2702833376122644": {
-  "tm": {
-   "id": "320325010506981376",
-   "sport": "Krikett",
-   "name": "Bengal - Mizoram",
-   "home": "Bengal",
-   "away": "Mizoram",
-   "home_pid": "186319070071672832",
-   "away_pid": "192104536054329344",
-   "tournament": "Indiai Syed Mustaq Ali Trophy",
-   "category": "India",
-   "tm_sport_id": "26",
-   "start": "2026-11-20T08:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702833376122644",
-   "startTime": "2026-11-20T08:00:00.000Z",
-   "participant1Name": "Bengal",
-   "participant2Name": "Mizoram",
-   "tournamentId": 28333,
-   "tournamentName": "Syed Mushtaq Ali Trophy Elite",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
- },
- "id2702157075326644": {
-  "tm": {
-   "id": "319898208975265792",
-   "sport": "Krikett",
-   "name": "Adelaide Strikers - Melbourne Renegades",
-   "home": "Adelaide Strikers",
-   "away": "Melbourne Renegades",
-   "home_pid": "1374798",
-   "away_pid": "1374801",
-   "tournament": "Ausztrál T20 Big Bash League, női",
-   "category": "Ausztrália",
-   "tm_sport_id": "26",
-   "start": "2026-11-20T08:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702157075326644",
-   "startTime": "2026-11-20T08:10:00.000Z",
-   "participant1Name": "Adelaide Strikers",
-   "participant2Name": "Melbourne Renegades",
-   "tournamentId": 21570,
-   "tournamentName": "Big Bash League, Women",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
  },
  "id2704941876122406": {
   "tm": {
