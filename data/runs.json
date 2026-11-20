@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-18T20:53:33.915479+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 2,
-  "top_ev": [
-   "-1.2% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.5) @1.31 (fair 1.325)",
-   "-1.4% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.25) @1.38 (fair 1.399)",
-   "-1.4% Coritiba – Santos SP · Gólszám 1.5: Több @1.22 (fair 1.237)",
-   "-1.8% Coritiba – Santos SP · 1X2: Santos SP győz @2.04 (fair 2.077)",
-   "-1.9% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (-0) @1.49 (fair 1.518)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 11,
-  "fixtures_both": 3,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 2,
-  "classic_checked": 5,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.0% Coritiba – Santos SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.204)",
-   "-2.0% Colon FC – Club Oriental · Gólszám 3.5: Kevesebb @1.43 (fair 1.46)",
-   "-2.1% Coritiba – Santos SP · Gólszám 3.5: Kevesebb @1.48 (fair 1.511)",
-   "-2.5% Coritiba – Santos SP · Gólszám 3.25: Kevesebb @1.58 (fair 1.62)",
-   "-3.0% Coritiba – Santos SP · Gólszám 3: Kevesebb @1.73 (fair 1.783)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 13
- },
- {
   "time": "2026-11-18T20:58:33.914944+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25351,6 +25317,151 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 81,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-20T23:32:01.811645+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 608,
+   "paired": 457,
+   "classic_only": 47
+  },
+  "tippmix_matches": 2372,
+  "pinnacle_fixtures": 2467,
+  "paired": 1511,
+  "by_sport": {
+   "Soccer": [
+    1074,
+    821
+   ],
+   "Tennis": [
+    119,
+    23
+   ],
+   "Basketball": [
+    520,
+    344
+   ],
+   "Ice Hockey": [
+    158,
+    126
+   ],
+   "Handball": [
+    83,
+    57
+   ],
+   "Volleyball": [
+    200,
+    65
+   ],
+   "Table Tennis": [
+    23,
+    7
+   ],
+   "Cricket": [
+    74,
+    12
+   ],
+   "Badminton": [
+    24,
+    8
+   ],
+   "Darts": [
+    16,
+    7
+   ],
+   "Futsal": [
+    10,
+    3
+   ],
+   "Waterpolo": [
+    18,
+    8
+   ],
+   "ESport Counter-Strike": [
+    13,
+    0
+   ],
+   "ESport Dota": [
+    6,
+    2
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    17,
+    0
+   ],
+   "eBasketball": [
+    4,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    3,
+    7
+   ],
+   "MMA": [
+    0,
+    12
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    2
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    10,
+    7
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 150,
   "free_calls": 0
  }
 ]
