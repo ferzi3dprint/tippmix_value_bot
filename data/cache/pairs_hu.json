@@ -1,94 +1,4 @@
 {
- "id1000077268380656": {
-  "tm": {
-   "id": "319765425475887104",
-   "sport": "Labdarúgás",
-   "name": "Navbahor Namangan - Neftcsi Fargona",
-   "home": "Navbahor Namangan",
-   "away": "Neftcsi Fargona",
-   "home_pid": "396072",
-   "away_pid": "180435",
-   "tournament": "Üzbég bajnokság",
-   "category": "Üzbegisztán",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T13:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000077268380656",
-   "startTime": "2026-11-20T13:30:00.000Z",
-   "participant1Name": "Navbahor",
-   "participant2Name": "FK Neftchi Fargona",
-   "tournamentId": 772,
-   "tournamentName": "Superliga",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594539,
-   "name": "Navbahor Namangan - Neftcsi Fargona",
-   "score": 1.0
-  }
- },
- "id1000098476676798": {
-  "tm": {
-   "id": "319844469866307584",
-   "sport": "Labdarúgás",
-   "name": "Hammam-Lif - ES Metlaoui",
-   "home": "Hammam-Lif",
-   "away": "ES Metlaoui",
-   "home_pid": "57786",
-   "away_pid": "184661461419741184",
-   "tournament": "Tunéziai bajnokság",
-   "category": "Tunézia",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T13:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000098476676798",
-   "startTime": "2026-11-20T13:30:00.000Z",
-   "participant1Name": "Club S Hammam-Lif",
-   "participant2Name": "ES Metlaoui",
-   "tournamentId": 984,
-   "tournamentName": "Ligue 1",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655388,
-   "name": "Hammam-Lif - Metlaoui",
-   "score": 1.0
-  }
- },
- "id1000098476676800": {
-  "tm": {
-   "id": "319844469941805056",
-   "sport": "Labdarúgás",
-   "name": "Olympique de Beja - AS Marsa",
-   "home": "Olympique de Beja",
-   "away": "AS Marsa",
-   "home_pid": "183484831160651776",
-   "away_pid": "187324430056214528",
-   "tournament": "Tunéziai bajnokság",
-   "category": "Tunézia",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T13:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000098476676800",
-   "startTime": "2026-11-20T13:30:00.000Z",
-   "participant1Name": "Olympique de Beja",
-   "participant2Name": "Avenir S Marsa",
-   "tournamentId": 984,
-   "tournamentName": "Ligue 1",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655387,
-   "name": "Olympique de Beja - Avenir Marsa",
-   "score": 1.0
-  }
- },
  "id1001432176741790": {
   "tm": {
    "id": "320308262574563328",
@@ -15064,6 +14974,31 @@
   },
   "score": 1.0
  },
+ "id1000111773831514": {
+  "tm": {
+   "id": "320283312184696832",
+   "sport": "Labdarúgás",
+   "name": "U21La Louviere - U21Kortrijk",
+   "home": "U21La Louviere",
+   "away": "U21Kortrijk",
+   "home_pid": "246813022818529280",
+   "away_pid": "285594945404047360",
+   "tournament": "U21 Belga bajnokság",
+   "category": "Belgium",
+   "tm_sport_id": "1",
+   "start": "2026-11-20T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000111773831514",
+   "startTime": "2026-11-20T19:30:00.000Z",
+   "participant1Name": "RAAL La Louviere",
+   "participant2Name": "Jeugd KV Kortrijk",
+   "tournamentId": 1117,
+   "tournamentName": "U21 Pro League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1001924276880306": {
   "tm": {
    "id": "320276213146918912",
@@ -21699,6 +21634,31 @@
   },
   "score": 1.0
  },
+ "id1103043872399434": {
+  "tm": {
+   "id": "319354652681379840",
+   "sport": "Kosárlabda",
+   "name": "Brahe Basket - Södertälje",
+   "home": "Brahe Basket",
+   "away": "Södertälje",
+   "home_pid": "281343356771110912",
+   "away_pid": "1364368",
+   "tournament": "Svéd bajnokság, női",
+   "category": "Svédország",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T13:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1103043872399434",
+   "startTime": "2026-11-21T13:00:00.000Z",
+   "participant1Name": "Brahe Basket",
+   "participant2Name": "Sodertalje BBK",
+   "tournamentId": 30438,
+   "tournamentName": "SBL, Women",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1104801472660466": {
   "tm": {
    "id": "319264051411623936",
@@ -27959,36 +27919,6 @@
    "score": 1.0
   }
  },
- "id2503634976956810": {
-  "tm": {
-   "id": "320405598841675776",
-   "sport": "Asztalitenisz",
-   "name": "Sebastian Kasnik - Stepan Nemec",
-   "home": "Sebastian Kasnik",
-   "away": "Stepan Nemec",
-   "home_pid": "167281173427441664",
-   "away_pid": "319310176184246272",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T13:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956810",
-   "startTime": "2026-11-20T13:30:00.000Z",
-   "participant1Name": "Kasnik, Sebastian",
-   "participant2Name": "Nemec, Stepan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5672446,
-   "name": "Sebastian Kasnik - Stepan Nemec",
-   "score": 1.0
-  }
- },
  "id2702157075326646": {
   "tm": {
    "id": "319988662859276288",
@@ -28127,66 +28057,6 @@
    "id": 5665797,
    "name": "Ger. Price - N. Springer",
    "score": 0.9
-  }
- },
- "id1903399476940002": {
-  "tm": {
-   "id": "320327254053822464",
-   "sport": "Darts",
-   "name": "Deta Hedman - Nicole Regnaud",
-   "home": "Deta Hedman",
-   "away": "Nicole Regnaud",
-   "home_pid": "628728",
-   "away_pid": "221348925718810624",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-20T13:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476940002",
-   "startTime": "2026-11-20T13:30:00.000Z",
-   "participant1Name": "Hedman, Deta",
-   "participant2Name": "Regnaud, Nicole",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671180,
-   "name": "D. Hedman - N. Regnaud",
-   "score": 1.0
-  }
- },
- "id1903399476940004": {
-  "tm": {
-   "id": "320327254498418688",
-   "sport": "Darts",
-   "name": "Vicky Pruim - Trina Gulliver",
-   "home": "Vicky Pruim",
-   "away": "Trina Gulliver",
-   "home_pid": "238234776172400640",
-   "away_pid": "192258542936420352",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-20T13:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476940004",
-   "startTime": "2026-11-20T13:45:00.000Z",
-   "participant1Name": "Pruim, Vicky",
-   "participant2Name": "Gulliver, Trina",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671181,
-   "name": "V. Pruim - T. Gulliver",
-   "score": 1.0
   }
  },
  "id1903399476940006": {
@@ -28944,27 +28814,6 @@
   },
   "score": 1.0
  },
- "id1000098476676802": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1000098476676802",
-   "startTime": "2026-11-20T13:30:00.000Z",
-   "participant1Name": "ES Hammam Sousse",
-   "participant2Name": "A Sakiet Edayer",
-   "tournamentId": 984,
-   "tournamentName": "Ligue 1",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655389,
-   "name": "Hammam Sousse - A Sakiet Edayer",
-   "score": 1.0,
-   "home": "Hammam Sousse",
-   "away": "A Sakiet Edayer",
-   "tournament": "Tunéziai bajnokság"
-  }
- },
  "id1000021672176646": {
   "tm": null,
   "fx": {
@@ -29593,27 +29442,6 @@
    "home": "Morrazo Cangas",
    "away": "BM Triana",
    "tournament": "Spanyol bajnokság"
-  }
- },
- "id2503634976956818": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2503634976956818",
-   "startTime": "2026-11-20T13:30:00.000Z",
-   "participant1Name": "Skacelik, Richard",
-   "participant2Name": "Byrtus, Samuel",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5672441,
-   "name": "R. Skacelik - Samuel Byrtus",
-   "score": 1.0,
-   "home": "R. Skacelik",
-   "away": "Samuel Byrtus",
-   "tournament": "Cseh Liga Pro"
   }
  },
  "id2102432776424052": {
