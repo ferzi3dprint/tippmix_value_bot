@@ -2910,12 +2910,12 @@
   "closing_sharp_odds": 2.14,
   "closing_at": "2026-11-20T05:23:22.277133+00:00",
   "clv": -0.2669,
-  "settle_tried_at": "2026-11-20T20:23:58.063081+00:00"
+  "settle_tried_at": "2026-11-20T22:44:13.520503+00:00"
  },
  {
   "id": "b103359faa",
   "placed_at": "2026-11-20T02:25:17.555238+00:00",
-  "status": "open",
+  "status": "settled",
   "exec_status": "ok",
   "fixture_id": "id2200024872982650",
   "sport": "Handball",
@@ -2956,7 +2956,12 @@
   "closing_fair_odds": 1.982,
   "closing_sharp_odds": 1.892,
   "closing_at": "2026-11-20T05:01:20.161751+00:00",
-  "clv": 0.00927
+  "clv": 0.00927,
+  "settle_tried_at": "2026-11-20T22:44:13.520503+00:00",
+  "result": "WIN",
+  "payout": 5400.0,
+  "profit": 2700.0,
+  "settled_at": "2026-11-20T22:44:13.520503+00:00"
  },
  {
   "id": "2a01f1b8a8",

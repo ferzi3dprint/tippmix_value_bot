@@ -13789,36 +13789,6 @@
   },
   "score": 0.726
  },
- "id1100064874565020": {
-  "tm": {
-   "id": "320440297242828800",
-   "sport": "Kosárlabda",
-   "name": "Dayton Flyers - Utah Runnin' Utes",
-   "home": "Dayton Flyers",
-   "away": "Utah Runnin' Utes",
-   "home_pid": "38124",
-   "away_pid": "38507",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T22:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064874565020",
-   "startTime": "2026-11-20T22:30:00.000Z",
-   "participant1Name": "Dayton Flyers",
-   "participant2Name": "Utah Utes",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595331,
-   "name": "Dayton Flyers - Utah Utes",
-   "score": 1.0
-  }
- },
  "id1103560576377390": {
   "tm": {
    "id": "319264046811521024",
@@ -17174,36 +17144,6 @@
    "score": 1.0
   }
  },
- "id1100064874065824": {
-  "tm": {
-   "id": "320439981477797888",
-   "sport": "Kosárlabda",
-   "name": "Southern Illinois Salukis - Tennessee Martin Skyhawks",
-   "home": "Southern Illinois Salukis",
-   "away": "Tennessee Martin Skyhawks",
-   "home_pid": "186961859231928320",
-   "away_pid": "186961943405318144",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T22:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064874065824",
-   "startTime": "2026-11-20T22:30:00.000Z",
-   "participant1Name": "Southern Illinois Salukis",
-   "participant2Name": "UT Martin Skyhawks",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 0.853,
-  "cl": {
-   "id": 5595308,
-   "name": "Southern Illinois Salukis - Tennessee Martin Skyhawks",
-   "score": 1.0
-  }
- },
  "id1100022773451882": {
   "tm": {
    "id": "319354637978247168",
@@ -19654,31 +19594,6 @@
   },
   "score": 1.0
  },
- "id2503634976956946": {
-  "tm": {
-   "id": "320404237447143424",
-   "sport": "Asztalitenisz",
-   "name": "Jiri Louda - Michal Chalupa",
-   "home": "Jiri Louda",
-   "away": "Michal Chalupa",
-   "home_pid": "113870749359558656",
-   "away_pid": "274550333304344576",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T23:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956946",
-   "startTime": "2026-11-20T23:00:00.000Z",
-   "participant1Name": "Louda, Jiri",
-   "participant2Name": "Chalupa, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976957340": {
   "tm": {
    "id": "320404524283011072",
@@ -19723,6 +19638,81 @@
    "startTime": "2026-11-20T23:00:00.000Z",
    "participant1Name": "Tuma, Daniel",
    "participant2Name": "Pycha, Patrik",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956946": {
+  "tm": {
+   "id": "320404237447143424",
+   "sport": "Asztalitenisz",
+   "name": "Jiri Louda - Michal Chalupa",
+   "home": "Jiri Louda",
+   "away": "Michal Chalupa",
+   "home_pid": "113870749359558656",
+   "away_pid": "274550333304344576",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T23:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956946",
+   "startTime": "2026-11-20T23:00:00.000Z",
+   "participant1Name": "Louda, Jiri",
+   "participant2Name": "Chalupa, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956992": {
+  "tm": {
+   "id": "320404322418499584",
+   "sport": "Asztalitenisz",
+   "name": "David Szotek - Michal Regner",
+   "home": "David Szotek",
+   "away": "Michal Regner",
+   "home_pid": "169718539420225536",
+   "away_pid": "112731966551511040",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T23:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956992",
+   "startTime": "2026-11-20T23:30:00.000Z",
+   "participant1Name": "Szotek, David",
+   "participant2Name": "Regner, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976957362": {
+  "tm": {
+   "id": "320404463960530944",
+   "sport": "Asztalitenisz",
+   "name": "Tadeas Zika - Jan Cernik",
+   "home": "Tadeas Zika",
+   "away": "Jan Cernik",
+   "home_pid": "168097491692081152",
+   "away_pid": "271873443427913728",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T23:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976957362",
+   "startTime": "2026-11-20T23:30:00.000Z",
+   "participant1Name": "Zika, Tadeas",
+   "participant2Name": "Cernik, Jan",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
