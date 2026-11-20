@@ -1,54 +1,4 @@
 {
- "id1000073876224038": {
-  "tm": {
-   "id": "319408937953730560",
-   "sport": "Labdarúgás",
-   "name": "SP Tre Fiori - AC Juvenes/Dogana",
-   "home": "SP Tre Fiori",
-   "away": "AC Juvenes/Dogana",
-   "home_pid": "182186882673725440",
-   "away_pid": "180897297397239808",
-   "tournament": "San Marinó-i bajnokság",
-   "category": "San Marino",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T20:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000073876224038",
-   "startTime": "2026-11-20T20:15:00.000Z",
-   "participant1Name": "SP Tre Fiori",
-   "participant2Name": "AC Juvenes/Dogana",
-   "tournamentId": 738,
-   "tournamentName": "Campionato Sammarinese",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000073876224036": {
-  "tm": {
-   "id": "319408937827901440",
-   "sport": "Labdarúgás",
-   "name": "La Fiorita - SS Folgore/Falciano",
-   "home": "La Fiorita",
-   "away": "SS Folgore/Falciano",
-   "home_pid": "430772",
-   "away_pid": "430775",
-   "tournament": "San Marinó-i bajnokság",
-   "category": "San Marino",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T20:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000073876224036",
-   "startTime": "2026-11-20T20:15:00.000Z",
-   "participant1Name": "SP La Fiorita",
-   "participant2Name": "SS Folgore Falciano Calcio",
-   "tournamentId": 738,
-   "tournamentName": "Campionato Sammarinese",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000033676080462": {
   "tm": {
    "id": "320127396424523776",
@@ -13639,36 +13589,6 @@
    "score": 1.0
   }
  },
- "id1003483473068224": {
-  "tm": {
-   "id": "320248053307088896",
-   "sport": "Labdarúgás",
-   "name": "Real Madrid 2 - Real Murcia",
-   "home": "Real Madrid 2",
-   "away": "Real Murcia",
-   "home_pid": "36278",
-   "away_pid": "2077",
-   "tournament": "Spanyol 3., 2. csoport",
-   "category": "Spanyolország",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T20:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003483473068224",
-   "startTime": "2026-11-20T20:15:00.000Z",
-   "participant1Name": "Real Madrid Castilla",
-   "participant2Name": "Real Murcia CF",
-   "tournamentId": 34834,
-   "tournamentName": "Primera Federacion",
-   "sportName": "Soccer"
-  },
-  "score": 0.806,
-  "cl": {
-   "id": 5611450,
-   "name": "Real Madrid 2 - Real Murcia",
-   "score": 1.0
-  }
- },
  "id1000136573050916": {
   "tm": {
    "id": "320402205355089920",
@@ -19854,6 +19774,31 @@
   },
   "score": 1.0
  },
+ "id2503634976956920": {
+  "tm": {
+   "id": "320399892689264640",
+   "sport": "Asztalitenisz",
+   "name": "Frantisek Pusch - Radek Rose",
+   "home": "Frantisek Pusch",
+   "away": "Radek Rose",
+   "home_pid": "104665493241221120",
+   "away_pid": "107027290643386368",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T20:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956920",
+   "startTime": "2026-11-20T20:30:00.000Z",
+   "participant1Name": "Pusch, Frantisek",
+   "participant2Name": "Rose, Radek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976956912": {
   "tm": {
    "id": "320403520388931584",
@@ -19879,25 +19824,100 @@
   },
   "score": 1.0
  },
- "id2503634976956920": {
+ "id2503634976956844": {
   "tm": {
-   "id": "320399892689264640",
+   "id": "320399952041811968",
    "sport": "Asztalitenisz",
-   "name": "Frantisek Pusch - Radek Rose",
-   "home": "Frantisek Pusch",
-   "away": "Radek Rose",
-   "home_pid": "104665493241221120",
-   "away_pid": "107027290643386368",
+   "name": "Radek Rose - Wagner Richard",
+   "home": "Radek Rose",
+   "away": "Wagner Richard",
+   "home_pid": "107027290643386368",
+   "away_pid": "307739875767709696",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-20T20:30:00+00:00"
+   "start": "2026-11-20T21:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976956920",
-   "startTime": "2026-11-20T20:30:00.000Z",
-   "participant1Name": "Pusch, Frantisek",
-   "participant2Name": "Rose, Radek",
+   "fixtureId": "id2503634976956844",
+   "startTime": "2026-11-20T21:00:00.000Z",
+   "participant1Name": "Rose, Radek",
+   "participant2Name": "Wagner, Richard",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956902": {
+  "tm": {
+   "id": "320403520457089024",
+   "sport": "Asztalitenisz",
+   "name": "Martin Biolek - Jan Dzida",
+   "home": "Martin Biolek",
+   "away": "Jan Dzida",
+   "home_pid": "166722033420390400",
+   "away_pid": "169122671260389376",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956902",
+   "startTime": "2026-11-20T21:00:00.000Z",
+   "participant1Name": "Biolek, Martin",
+   "participant2Name": "Dzida, Jan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956752": {
+  "tm": {
+   "id": "320403807734407168",
+   "sport": "Asztalitenisz",
+   "name": "Simon Kadavy - Daniel Tuma",
+   "home": "Simon Kadavy",
+   "away": "Daniel Tuma",
+   "home_pid": "188832931008008192",
+   "away_pid": "135496075040575488",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956752",
+   "startTime": "2026-11-20T21:00:00.000Z",
+   "participant1Name": "Kadavy, Simon",
+   "participant2Name": "Tuma, Daniel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956820": {
+  "tm": {
+   "id": "320403807845556224",
+   "sport": "Asztalitenisz",
+   "name": "Jaromir Benek - Roman Hudeczek",
+   "home": "Jaromir Benek",
+   "away": "Roman Hudeczek",
+   "home_pid": "318312091843895296",
+   "away_pid": "168173686262648832",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956820",
+   "startTime": "2026-11-20T21:00:00.000Z",
+   "participant1Name": "Benek, Jaromir",
+   "participant2Name": "Hudeczek, Roman",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
