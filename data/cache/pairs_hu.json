@@ -14674,6 +14674,31 @@
   },
   "score": 1.0
  },
+ "id1004383172676166": {
+  "tm": {
+   "id": "320365061545730048",
+   "sport": "Labdarúgás",
+   "name": "TWL Elektra - FC 1980 Wien",
+   "home": "TWL Elektra",
+   "away": "FC 1980 Wien",
+   "home_pid": "1231536",
+   "away_pid": "1372072",
+   "tournament": "Osztrák Landesliga, Wien",
+   "category": "Ausztria",
+   "tm_sport_id": "1",
+   "start": "2026-11-20T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004383172676166",
+   "startTime": "2026-11-20T17:00:00.000Z",
+   "participant1Name": "TWL Elektra",
+   "participant2Name": "FC 1980 Wien",
+   "tournamentId": 43831,
+   "tournamentName": "Wiener Stadtliga",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000094773296496": {
   "tm": {
    "id": "319417045454233600",
@@ -17329,96 +17354,6 @@
    "score": 1.0
   }
  },
- "id1204820376946482": {
-  "tm": {
-   "id": "320400074414825472",
-   "sport": "Tenisz",
-   "name": "Kotaro Mochizuki - Kazuki Sugimoto",
-   "home": "Kotaro Mochizuki",
-   "away": "Kazuki Sugimoto",
-   "home_pid": "236788481408798720",
-   "away_pid": "245210222407839744",
-   "tournament": "Jokohama, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204820376946482",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Mochizuki, Kotaro",
-   "participant2Name": "Sugimoto, Kazuki",
-   "tournamentId": 48203,
-   "tournamentName": "UTR PTT Yokohama Men 06",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671874,
-   "name": "Kot. Mochizuki - Kaz. Sugimoto",
-   "score": 0.891
-  }
- },
- "id1204820376945052": {
-  "tm": {
-   "id": "320400074580500480",
-   "sport": "Tenisz",
-   "name": "Matsumura Ryotaro - Kosuke Shibano",
-   "home": "Matsumura Ryotaro",
-   "away": "Kosuke Shibano",
-   "home_pid": "148880978071310336",
-   "away_pid": "195392847405543424",
-   "tournament": "Jokohama, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204820376945052",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Matsumura, Ryotero",
-   "participant2Name": "Shibano, Kosuke",
-   "tournamentId": 48203,
-   "tournamentName": "UTR PTT Yokohama Men 06",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671969,
-   "name": "Ryo. Matsumura - Kos. Shibano",
-   "score": 0.871
-  }
- },
- "id1204820376943796": {
-  "tm": {
-   "id": "320400074509197312",
-   "sport": "Tenisz",
-   "name": "Edward Wang - Julian Messina Messina",
-   "home": "Edward Wang",
-   "away": "Julian Messina Messina",
-   "home_pid": "319860671024013312",
-   "away_pid": "150967277020303360",
-   "tournament": "Jokohama, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204820376943796",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Wang, Edward",
-   "participant2Name": "Messina, Julian",
-   "tournamentId": 48203,
-   "tournamentName": "UTR PTT Yokohama Men 06",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671971,
-   "name": "Edward Wang - Julian Messina",
-   "score": 1.0
-  }
- },
  "id1204820376946480": {
   "tm": {
    "id": "320404447070068736",
@@ -17503,66 +17438,6 @@
    "sportName": "Tennis"
   },
   "score": 1.0
- },
- "id1204808876944248": {
-  "tm": {
-   "id": "320400074726252544",
-   "sport": "Tenisz",
-   "name": "Junri Namigata - Miyu Nakashima",
-   "home": "Junri Namigata",
-   "away": "Miyu Nakashima",
-   "home_pid": "246296036235669504",
-   "away_pid": "198848316594876416",
-   "tournament": "Jokohama, női egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204808876944248",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Namigata, Junri",
-   "participant2Name": "Nakashima, Miyu",
-   "tournamentId": 48088,
-   "tournamentName": "UTR PTT Yokohama Women 05",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671875,
-   "name": "Jun. Namigata - Miyu Nakashima",
-   "score": 0.946
-  }
- },
- "id1204808876944106": {
-  "tm": {
-   "id": "320400074659143680",
-   "sport": "Tenisz",
-   "name": "Hiroko Kuwata - Nana Kawagishi",
-   "home": "Hiroko Kuwata",
-   "away": "Nana Kawagishi",
-   "home_pid": "658900",
-   "away_pid": "6541471068995584",
-   "tournament": "Jokohama, női egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1204808876944106",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Kuwata, Hiroko",
-   "participant2Name": "Kawagishi, Nana",
-   "tournamentId": 48088,
-   "tournamentName": "UTR PTT Yokohama Women 05",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671970,
-   "name": "Hir. Kuwata - Nana Kawagishi",
-   "score": 0.909
-  }
  },
  "id1204808876945980": {
   "tm": {
@@ -17713,311 +17588,6 @@
    "name": "M.A. Coman - M. van der Merwe",
    "score": 1.0
   }
- },
- "id1100013273719716": {
-  "tm": {
-   "id": "319264037314568192",
-   "sport": "Kosárlabda",
-   "name": "Minnesota - New York",
-   "home": "Minnesota",
-   "away": "New York",
-   "home_pid": "2186",
-   "away_pid": "2179",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273719716",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Minnesota Timberwolves",
-   "participant2Name": "New York Knicks",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594803,
-   "name": "Minnesota - New York",
-   "score": 1.0
-  }
- },
- "id1100013273719712": {
-  "tm": {
-   "id": "319264037230682112",
-   "sport": "Kosárlabda",
-   "name": "Memphis - Golden State",
-   "home": "Memphis",
-   "away": "Golden State",
-   "home_pid": "5729",
-   "away_pid": "2198",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273719712",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Memphis Grizzlies",
-   "participant2Name": "Golden State Warriors",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594814,
-   "name": "Memphis - Golden State",
-   "score": 1.0
-  }
- },
- "id1100013273719718": {
-  "tm": {
-   "id": "319264037380628480",
-   "sport": "Kosárlabda",
-   "name": "San Antonio - LA Clippers",
-   "home": "San Antonio",
-   "away": "LA Clippers",
-   "home_pid": "2187",
-   "away_pid": "2199",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273719718",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "San Antonio Spurs",
-   "participant2Name": "LA Clippers",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594796,
-   "name": "San Antonio - LA Clippers",
-   "score": 1.0
-  }
- },
- "id1100013273719714": {
-  "tm": {
-   "id": "319264037452980224",
-   "sport": "Kosárlabda",
-   "name": "Milwaukee - Portland",
-   "home": "Milwaukee",
-   "away": "Portland",
-   "home_pid": "2196",
-   "away_pid": "2202",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273719714",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Milwaukee Bucks",
-   "participant2Name": "Portland Trail Blazers",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594801,
-   "name": "Milwaukee - Portland",
-   "score": 1.0
-  }
- },
- "id1100064874238892": {
-  "tm": {
-   "id": "320360817212071936",
-   "sport": "Kosárlabda",
-   "name": "Louisville Cardinals - Stetson Hatters",
-   "home": "Louisville Cardinals",
-   "away": "Stetson Hatters",
-   "home_pid": "38061",
-   "away_pid": "186961921591791616",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064874238892",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Louisville Cardinals",
-   "participant2Name": "Stetson Hatters",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100064873528246": {
-  "tm": {
-   "id": "320360736768466944",
-   "sport": "Kosárlabda",
-   "name": "Houston Christian Huskies - Georgia Southern Eagles",
-   "home": "Houston Christian Huskies",
-   "away": "Georgia Southern Eagles",
-   "home_pid": "186960992758976512",
-   "away_pid": "187033520671084544",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873528246",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Houston Christian Huskies",
-   "participant2Name": "Georgia Southern Eagles",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594782,
-   "name": "Houston Baptist Huskies - Georgia Southern Eagles",
-   "score": 0.854
-  }
- },
- "id1100064873409604": {
-  "tm": {
-   "id": "320350664221859840",
-   "sport": "Kosárlabda",
-   "name": "Texas Longhorns - Southern Utah Thunderbirds",
-   "home": "Texas Longhorns",
-   "away": "Southern Utah Thunderbirds",
-   "home_pid": "38073",
-   "away_pid": "186961909180846080",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873409604",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Texas Longhorns",
-   "participant2Name": "Southern Utah Thunderbirds",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1102138473660678": {
-  "tm": {
-   "id": "319264038131408896",
-   "sport": "Kosárlabda",
-   "name": "LSU Tigers - Fairleigh Dickinson Knights",
-   "home": "LSU Tigers",
-   "away": "Fairleigh Dickinson Knights",
-   "home_pid": "241558478070910976",
-   "away_pid": "186970582934409216",
-   "tournament": "WNCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102138473660678",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "LSU Tigers",
-   "participant2Name": "Fairleigh Dickinson Knights",
-   "tournamentId": 21384,
-   "tournamentName": "NCAA Women, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1103447476783614": {
-  "tm": {
-   "id": "319940641424482304",
-   "sport": "Kosárlabda",
-   "name": "Toros del Valle - Paisas",
-   "home": "Toros del Valle",
-   "away": "Paisas",
-   "home_pid": "236525405893726208",
-   "away_pid": "250435209158234112",
-   "tournament": "Kolumbiai bajnokság",
-   "category": "Kolumbia",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103447476783614",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Toros Del Valle",
-   "participant2Name": "Paisas Basketball",
-   "tournamentId": 34474,
-   "tournamentName": "LBP",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100168075364750": {
-  "tm": {
-   "id": "319264049374240768",
-   "sport": "Kosárlabda",
-   "name": "Ciclista Olimpico De La Banda - Ferro Carril Oeste",
-   "home": "Ciclista Olimpico De La Banda",
-   "away": "Ferro Carril Oeste",
-   "home_pid": "149810259028922368",
-   "away_pid": "153656265101492224",
-   "tournament": "Argentin bajnokság",
-   "category": "Argentína",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100168075364750",
-   "startTime": "2026-11-20T01:05:00.000Z",
-   "participant1Name": "Ciclista Olimpico de La Banda",
-   "participant2Name": "Ferro Carril Oeste",
-   "tournamentId": 1680,
-   "tournamentName": "LNB",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594855,
-   "name": "Ciclista Olimpico - Ferro Carril Oeste",
-   "score": 1.0
-  }
- },
- "id1103447276917538": {
-  "tm": {
-   "id": "320287499519860736",
-   "sport": "Kosárlabda",
-   "name": "Cojute - Aguila San Miguel BC",
-   "home": "Cojute",
-   "away": "Aguila San Miguel BC",
-   "home_pid": "182106452002918400",
-   "away_pid": "313808185723613184",
-   "tournament": "Salvadori bajnokság",
-   "category": "Salvador",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103447276917538",
-   "startTime": "2026-11-20T01:15:00.000Z",
-   "participant1Name": "CB Cojute",
-   "participant2Name": "Aguila San Miguel BC",
-   "tournamentId": 34472,
-   "tournamentName": "Liga Mayor de Baloncesto",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1100064874064582": {
   "tm": {
@@ -20186,36 +19756,6 @@
   "cl": {
    "id": 5594846,
    "name": "Stanford Cardinal - Sacramento State Hornets",
-   "score": 1.0
-  }
- },
- "id1102138474066778": {
-  "tm": {
-   "id": "319264040247435264",
-   "sport": "Kosárlabda",
-   "name": "Iowa Hawkeyes - Montana State Bobcats",
-   "home": "Iowa Hawkeyes",
-   "away": "Montana State Bobcats",
-   "home_pid": "187515930654330880",
-   "away_pid": "187413270808809472",
-   "tournament": "WNCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102138474066778",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Iowa Hawkeyes",
-   "participant2Name": "Montana State Bobcats",
-   "tournamentId": 21384,
-   "tournamentName": "NCAA Women, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594794,
-   "name": "Iowa Hawkeyes - Montana State Bobcats",
    "score": 1.0
   }
  },
@@ -22849,36 +22389,6 @@
    "score": 0.893
   }
  },
- "id1100064874518270": {
-  "tm": {
-   "id": "320380244022337536",
-   "sport": "Kosárlabda",
-   "name": "Saint Thomas Tommies - Southeast Missouri State Redhawks",
-   "home": "Saint Thomas Tommies",
-   "away": "Southeast Missouri State Redhawks",
-   "home_pid": "154095938716094464",
-   "away_pid": "186961851259604992",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064874518270",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "St. Thomas (MN) Tommies",
-   "participant2Name": "Southeast Missouri State Redhawks",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 0.895,
-  "cl": {
-   "id": 5594848,
-   "name": "St. Thomas Tommies - Southeast Missouri State Redhawks",
-   "score": 0.943
-  }
- },
  "id1102015473113324": {
   "tm": {
    "id": "319354589694468096",
@@ -23438,36 +22948,6 @@
    "sportName": "Basketball"
   },
   "score": 0.785
- },
- "id1100064874149026": {
-  "tm": {
-   "id": "320350664407457792",
-   "sport": "Kosárlabda",
-   "name": "Texas Christian Horned Frogs - Texas A&M Aggies",
-   "home": "Texas Christian Horned Frogs",
-   "away": "Texas A&M Aggies",
-   "home_pid": "37237",
-   "away_pid": "38706",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T01:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064874149026",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "TCU Horned Frogs",
-   "participant2Name": "Texas A&M Aggies",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 0.767,
-  "cl": {
-   "id": 5594780,
-   "name": "TCU Horned Frogs - Texas A & M Aggies ",
-   "score": 0.767
-  }
  },
  "id1104496575880384": {
   "tm": {
@@ -28809,31 +28289,6 @@
    "score": 1.0
   }
  },
- "id2503634976921560": {
-  "tm": {
-   "id": "320310363111366656",
-   "sport": "Asztalitenisz",
-   "name": "Martin Stefek - Vaclav Kosar",
-   "home": "Martin Stefek",
-   "away": "Vaclav Kosar",
-   "home_pid": "197171400897884160",
-   "away_pid": "226213776326807552",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976921560",
-   "startTime": "2026-11-20T01:30:00.000Z",
-   "participant1Name": "Stefek, Martin",
-   "participant2Name": "Kosar, Vaclav",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976921504": {
   "tm": {
    "id": "320310330055008256",
@@ -28859,6 +28314,31 @@
   },
   "score": 1.0
  },
+ "id2503634976921560": {
+  "tm": {
+   "id": "320310363111366656",
+   "sport": "Asztalitenisz",
+   "name": "Martin Stefek - Vaclav Kosar",
+   "home": "Martin Stefek",
+   "away": "Vaclav Kosar",
+   "home_pid": "197171400897884160",
+   "away_pid": "226213776326807552",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T01:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921560",
+   "startTime": "2026-11-20T01:30:00.000Z",
+   "participant1Name": "Stefek, Martin",
+   "participant2Name": "Kosar, Vaclav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976921532": {
   "tm": {
    "id": "320312056649687040",
@@ -28878,6 +28358,81 @@
    "startTime": "2026-11-20T01:30:00.000Z",
    "participant1Name": "Klimenta, Matous",
    "participant2Name": "Prikasky, Libor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976921598": {
+  "tm": {
+   "id": "320310367339225088",
+   "sport": "Asztalitenisz",
+   "name": "Jan Steffan - Tomas Andrle",
+   "home": "Jan Steffan",
+   "away": "Tomas Andrle",
+   "home_pid": "189194970642567168",
+   "away_pid": "116988456519913472",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T02:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921598",
+   "startTime": "2026-11-20T02:00:00.000Z",
+   "participant1Name": "Steffan, Jan",
+   "participant2Name": "Andrle, Tomas",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976921568": {
+  "tm": {
+   "id": "320310329780281344",
+   "sport": "Asztalitenisz",
+   "name": "Milan Klement - Sebastian Kasnik",
+   "home": "Milan Klement",
+   "away": "Sebastian Kasnik",
+   "home_pid": "105751373563449344",
+   "away_pid": "167281173427441664",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T02:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921568",
+   "startTime": "2026-11-20T02:00:00.000Z",
+   "participant1Name": "Klement, Milan",
+   "participant2Name": "Kasnik, Sebastian",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976921538": {
+  "tm": {
+   "id": "320310364846759936",
+   "sport": "Asztalitenisz",
+   "name": "Michal Zahradka - Martin Huk",
+   "home": "Michal Zahradka",
+   "away": "Martin Huk",
+   "home_pid": "157416179233771520",
+   "away_pid": "104505550771998720",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T02:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921538",
+   "startTime": "2026-11-20T02:00:00.000Z",
+   "participant1Name": "Zahradka, Michal",
+   "participant2Name": "Huk, Martin",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -30580,27 +30135,6 @@
    "tournament": "Copa Sudamericana"
   }
  },
- "id1200946176687402": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200946176687402",
-   "startTime": "2026-11-20T01:10:00.000Z",
-   "participant1Name": "Sekulic, Philip",
-   "participant2Name": "Aguiard, Enzo",
-   "tournamentId": 9461,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5669999,
-   "name": "P. Sekulic - E. Aguiard",
-   "score": 1.0,
-   "home": "P. Sekulic",
-   "away": "E. Aguiard",
-   "tournament": "Sydney, férfi egyes"
-  }
- },
  "id1205410076776556": {
   "tm": null,
   "fx": {
@@ -30727,27 +30261,6 @@
    "tournament": "Metz, férfi egyes"
   }
  },
- "id1200946176687416": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1200946176687416",
-   "startTime": "2026-11-20T01:10:00.000Z",
-   "participant1Name": "Moriya, Hiroki",
-   "participant2Name": "Jasika, Omar",
-   "tournamentId": 9461,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.909,
-  "cl": {
-   "id": 5670000,
-   "name": "Hir. Moriya - O. Jasika",
-   "score": 0.909,
-   "home": "Hir. Moriya",
-   "away": "O. Jasika",
-   "tournament": "Sydney, férfi egyes"
-  }
- },
  "id1205408476776102": {
   "tm": null,
   "fx": {
@@ -30767,27 +30280,6 @@
    "home": "Bra. Tallakson",
    "away": "P. Bushuev",
    "tournament": "Newport Beach, férfi egyes"
-  }
- },
- "id1205409876776292": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1205409876776292",
-   "startTime": "2026-11-20T00:55:00.000Z",
-   "participant1Name": "Nicholson, Scarlett",
-   "participant2Name": "Kocak, Berrak",
-   "tournamentId": 54098,
-   "tournamentName": "UTR PTT Miami Women 02",
-   "sportName": "Tennis"
-  },
-  "score": 0.745,
-  "cl": {
-   "id": 5665683,
-   "name": "Scarlett Nicholson - B. Kocak",
-   "score": 0.745,
-   "home": "Scarlett Nicholson",
-   "away": "B. Kocak",
-   "tournament": "Miami, női egyes"
   }
  },
  "id1100064873936272": {
@@ -30830,48 +30322,6 @@
    "home": "Jena",
    "away": "Rostock",
    "tournament": "Német bajnokság"
-  }
- },
- "id1500023472909548": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1500023472909548",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Chicago Blackhawks",
-   "participant2Name": "Columbus Blue Jackets",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594875,
-   "name": "Chicago - Columbus",
-   "score": 1.0,
-   "home": "Chicago",
-   "away": "Columbus",
-   "tournament": "NHL"
-  }
- },
- "id1500023472909552": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1500023472909552",
-   "startTime": "2026-11-20T01:00:00.000Z",
-   "participant1Name": "Calgary Flames",
-   "participant2Name": "Minnesota Wild",
-   "tournamentId": 234,
-   "tournamentName": "NHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594876,
-   "name": "Calgary - Minnesota",
-   "score": 1.0,
-   "home": "Calgary",
-   "away": "Minnesota",
-   "tournament": "NHL"
   }
  },
  "id1500023472909554": {
@@ -31166,27 +30616,6 @@
    "home": "Rankireddy S / Shetty C",
    "away": "Hu K Y / Lin X Y",
    "tournament": "Hongkong Open, férfi páros"
-  }
- },
- "id1400003171516034": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1400003171516034",
-   "startTime": "2026-11-20T01:15:00.000Z",
-   "participant1Name": "Houston Texans",
-   "participant2Name": "Indianapolis Colts",
-   "tournamentId": 31,
-   "tournamentName": "NFL",
-   "sportName": "American Football"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594883,
-   "name": "Houston - Indianapolis",
-   "score": 1.0,
-   "home": "Houston",
-   "away": "Indianapolis",
-   "tournament": "NFL"
   }
  },
  "id2102432776424052": {
