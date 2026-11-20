@@ -1,34 +1,4 @@
 {
- "id1000070973409334": {
-  "tm": {
-   "id": "319401344460988416",
-   "sport": "Labdarúgás",
-   "name": "Imisli FK - Zira",
-   "home": "Imisli FK",
-   "away": "Zira",
-   "home_pid": "195273016632045568",
-   "away_pid": "1177313",
-   "tournament": "Azeri bajnokság",
-   "category": "Azerbajdzsán",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000070973409334",
-   "startTime": "2026-11-20T10:30:00.000Z",
-   "participant1Name": "Imisli FK",
-   "participant2Name": "Zira FK",
-   "tournamentId": 709,
-   "tournamentName": "Premier League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594738,
-   "name": "Imisli FK - Zira",
-   "score": 1.0
-  }
- },
  "id1000190075110510": {
   "tm": {
    "id": "319402114279350272",
@@ -15889,6 +15859,31 @@
   },
   "score": 1.0
  },
+ "id1000070973409342": {
+  "tm": {
+   "id": "319419437617848320",
+   "sport": "Labdarúgás",
+   "name": "Shamakhi - Turan Tovuz",
+   "home": "Shamakhi",
+   "away": "Turan Tovuz",
+   "home_pid": "62985",
+   "away_pid": "182140350304931840",
+   "tournament": "Azeri bajnokság",
+   "category": "Azerbajdzsán",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T10:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000070973409342",
+   "startTime": "2026-11-21T10:30:00.000Z",
+   "participant1Name": "Shamakhi FK",
+   "participant2Name": "Turan Tovuz",
+   "tournamentId": 709,
+   "tournamentName": "Premier League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000094773296496": {
   "tm": {
    "id": "319417045454233600",
@@ -18134,36 +18129,6 @@
   },
   "score": 0.724
  },
- "id1202140876736476": {
-  "tm": {
-   "id": "320079211558674432",
-   "sport": "Tenisz",
-   "name": "Harrison C./Skupski N. - Granollers M./Zeballos H.",
-   "home": "Harrison C./Skupski N.",
-   "away": "Granollers M./Zeballos H.",
-   "home_pid": "292114485670612992",
-   "away_pid": "9866849053577216",
-   "tournament": "ATP-vb, férfi páros, B csoport",
-   "category": "ATP",
-   "tm_sport_id": "3",
-   "start": "2026-11-20T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1202140876736476",
-   "startTime": "2026-11-20T10:30:00.000Z",
-   "participant1Name": "Harrison C / Skupski N",
-   "participant2Name": "Granollers M / Zeballos H",
-   "tournamentId": 21408,
-   "tournamentName": "ATP World Tour Finals Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655229,
-   "name": "Harrison C / Skupski N - Granollers M / Zeballos H",
-   "score": 1.0
-  }
- },
  "id1200398776693994": {
   "tm": {
    "id": "320320112718585856",
@@ -18398,56 +18363,6 @@
    "name": "M. Kubka - C.W. Hennemann",
    "score": 1.0
   }
- },
- "id1102686475019246": {
-  "tm": {
-   "id": "319264051131654144",
-   "sport": "Kosárlabda",
-   "name": "Hapoel Migdal Haemek - Maccabi Kiryat Matzkin",
-   "home": "Hapoel Migdal Haemek",
-   "away": "Maccabi Kiryat Matzkin",
-   "home_pid": "252579249029943296",
-   "away_pid": "293421738162950144",
-   "tournament": "Izraeli 2.",
-   "category": "Izrael",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102686475019246",
-   "startTime": "2026-11-20T10:30:00.000Z",
-   "participant1Name": "Hapoel Migdal Haemek Jezreel",
-   "participant2Name": "Maccabi Kiryat Motzkin",
-   "tournamentId": 26864,
-   "tournamentName": "National League",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1102686475019244": {
-  "tm": {
-   "id": "319264051224977408",
-   "sport": "Kosárlabda",
-   "name": "Elitzur Ashkelon - Maccabi Petah Tikva Elitzur",
-   "home": "Elitzur Ashkelon",
-   "away": "Maccabi Petah Tikva Elitzur",
-   "home_pid": "184505100751917056",
-   "away_pid": "272757209829609472",
-   "tournament": "Izraeli 2.",
-   "category": "Izrael",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T10:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102686475019244",
-   "startTime": "2026-11-20T10:30:00.000Z",
-   "participant1Name": "Elizur Ashkelon",
-   "participant2Name": "Maccabi Petah Tikva Elitzur",
-   "tournamentId": 26864,
-   "tournamentName": "National League",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1100119774527800": {
   "tm": {
@@ -29529,6 +29444,31 @@
   },
   "score": 1.0
  },
+ "id2503634976956796": {
+  "tm": {
+   "id": "320402344767463424",
+   "sport": "Asztalitenisz",
+   "name": "Viktor Vejvoda - Stepan Nemec",
+   "home": "Viktor Vejvoda",
+   "away": "Stepan Nemec",
+   "home_pid": "235783907253325824",
+   "away_pid": "319310176184246272",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956796",
+   "startTime": "2026-11-20T11:30:00.000Z",
+   "participant1Name": "Vejvoda, Viktor",
+   "participant2Name": "Nemec, Stepan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503212976966584": {
   "tm": {
    "id": "320436295574822912",
@@ -29550,6 +29490,31 @@
    "participant2Name": "Velky Jr, Dalibor",
    "tournamentId": 32129,
    "tournamentName": "TT Cup",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.979
+ },
+ "id2503634976956784": {
+  "tm": {
+   "id": "320401946097819648",
+   "sport": "Asztalitenisz",
+   "name": "Julius Didi - Vaclav Hruska Snr",
+   "home": "Julius Didi",
+   "away": "Vaclav Hruska Snr",
+   "home_pid": "249527683600388096",
+   "away_pid": "167482794808758272",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956784",
+   "startTime": "2026-11-20T11:30:00.000Z",
+   "participant1Name": "Didi, Julius",
+   "participant2Name": "Hruska Sr, Vaclav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 0.979
@@ -30655,6 +30620,106 @@
    "participant2Name": "Nurmon Jymy",
    "tournamentId": 306,
    "tournamentName": "F-Liiga",
+   "sportName": "Floorball"
+  },
+  "score": 1.0
+ },
+ "id3300031873061644": {
+  "tm": {
+   "id": "319988820509532160",
+   "sport": "Floorball",
+   "name": "Akerselva - Greaker",
+   "home": "Akerselva",
+   "away": "Greaker",
+   "home_pid": "185232632206905344",
+   "away_pid": "185232574977724416",
+   "tournament": "Norvég bajnokság",
+   "category": "Norvégia",
+   "tm_sport_id": "41",
+   "start": "2026-11-21T10:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id3300031873061644",
+   "startTime": "2026-11-21T10:00:00.000Z",
+   "participant1Name": "IK Akerselva",
+   "participant2Name": "Greaker IBK",
+   "tournamentId": 318,
+   "tournamentName": "Eliteserien",
+   "sportName": "Floorball"
+  },
+  "score": 1.0
+ },
+ "id3300031873061646": {
+  "tm": {
+   "id": "319988820752801792",
+   "sport": "Floorball",
+   "name": "Gjellerasen - Harstad",
+   "home": "Gjellerasen",
+   "away": "Harstad",
+   "home_pid": "185232770374619136",
+   "away_pid": "185232606393061376",
+   "tournament": "Norvég bajnokság",
+   "category": "Norvégia",
+   "tm_sport_id": "41",
+   "start": "2026-11-21T14:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id3300031873061646",
+   "startTime": "2026-11-21T14:00:00.000Z",
+   "participant1Name": "Gjellerasen Fighters",
+   "participant2Name": "Harstad IBK",
+   "tournamentId": 318,
+   "tournamentName": "Eliteserien",
+   "sportName": "Floorball"
+  },
+  "score": 1.0
+ },
+ "id3300025573274086": {
+  "tm": {
+   "id": "319988803064373248",
+   "sport": "Floorball",
+   "name": "Linköping - AIK",
+   "home": "Linköping",
+   "away": "AIK",
+   "home_pid": "420843",
+   "away_pid": "195409339322888192",
+   "tournament": "Svéd bajnokság",
+   "category": "Svédország",
+   "tm_sport_id": "41",
+   "start": "2026-11-21T14:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id3300025573274086",
+   "startTime": "2026-11-21T14:00:00.000Z",
+   "participant1Name": "Linkoping IBK",
+   "participant2Name": "AIK Innebandy",
+   "tournamentId": 255,
+   "tournamentName": "Svenska Superligan",
+   "sportName": "Floorball"
+  },
+  "score": 1.0
+ },
+ "id3300025573274084": {
+  "tm": {
+   "id": "319988803244728320",
+   "sport": "Floorball",
+   "name": "Warberg - Kalmarsund",
+   "home": "Warberg",
+   "away": "Kalmarsund",
+   "home_pid": "195578929402245120",
+   "away_pid": "987437",
+   "tournament": "Svéd bajnokság",
+   "category": "Svédország",
+   "tm_sport_id": "41",
+   "start": "2026-11-21T14:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id3300025573274084",
+   "startTime": "2026-11-21T14:00:00.000Z",
+   "participant1Name": "Warberg IC",
+   "participant2Name": "FBC Kalmarsund",
+   "tournamentId": 255,
+   "tournamentName": "Svenska Superligan",
    "sportName": "Floorball"
   },
   "score": 1.0
