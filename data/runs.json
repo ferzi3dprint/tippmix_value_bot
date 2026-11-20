@@ -1,33 +1,5 @@
 [
  {
-  "time": "2026-11-18T15:27:14.170328+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 73,
-  "fixtures_both": 0,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 13,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-4.4% Jonava – Lausanne · Összpontszám (hosszabbítással) 160.5: Több @1.8 (fair 1.883)",
-   "-5.0% Pardubice 2 – Havirov · Gólszám 5.5: Több @1.73 (fair 1.821)",
-   "-6.2% Pardubice 2 – Havirov · Győztes (hosszabbítással): Pardubice 2 győz @1.31 (fair 1.397)",
-   "-6.6% C. Tabur – I. Montes-de La Torre · Győztes: C. Tabur győz @1.41 (fair 1.51)",
-   "-7.5% O. Paril – R. Niezgoda · Győztes: R. Niezgoda győz @1.37 (fair 1.481)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 14
- },
- {
   "time": "2026-11-18T15:32:14.173048+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25784,6 +25756,28 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 151,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-20T17:51:41.810919+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 145,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 145,
   "free_calls": 0
  }
 ]
