@@ -1,34 +1,4 @@
 {
- "id1000091576570800": {
-  "tm": {
-   "id": "320030357980258304",
-   "sport": "Labdarúgás",
-   "name": "Sanat Naft - Esteghlal Khuzestan",
-   "home": "Sanat Naft",
-   "away": "Esteghlal Khuzestan",
-   "home_pid": "397091",
-   "away_pid": "958705",
-   "tournament": "Iráni bajnokság",
-   "category": "Irán",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T14:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000091576570800",
-   "startTime": "2026-11-20T14:30:00.000Z",
-   "participant1Name": "Sanat Naft Abadan FC",
-   "participant2Name": "Esteghlal Khuzestan FC",
-   "tournamentId": 915,
-   "tournamentName": "Pro League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5655434,
-   "name": "Sanat Naft Abadan - Esteghlal Khuzestan",
-   "score": 1.0
-  }
- },
  "id1000072072814304": {
   "tm": {
    "id": "320359158983499776",
@@ -14894,31 +14864,6 @@
   },
   "score": 0.959
  },
- "id1005117876111500": {
-  "tm": {
-   "id": "320396660141268992",
-   "sport": "Labdarúgás",
-   "name": "Foresters FC - Cote d'Or",
-   "home": "Foresters FC",
-   "away": "Cote d'Or",
-   "home_pid": "195561082544353280",
-   "away_pid": "187855893753286656",
-   "tournament": "Seychelle-szigeteki bajnokság",
-   "category": "Seychelle-szigetek",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T14:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1005117876111500",
-   "startTime": "2026-11-20T14:30:00.000Z",
-   "participant1Name": "Foresters FC",
-   "participant2Name": "Cote Dor FC",
-   "tournamentId": 51178,
-   "tournamentName": "Premier League",
-   "sportName": "Soccer"
-  },
-  "score": 0.953
- },
  "id1003861372952512": {
   "tm": {
    "id": "320321107961913344",
@@ -27734,6 +27679,31 @@
    "score": 1.0
   }
  },
+ "id2503634976956790": {
+  "tm": {
+   "id": "320405691771723776",
+   "sport": "Asztalitenisz",
+   "name": "Roman Hudeczek - Jaromir Benek",
+   "home": "Roman Hudeczek",
+   "away": "Jaromir Benek",
+   "home_pid": "168173686262648832",
+   "away_pid": "318312091843895296",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956790",
+   "startTime": "2026-11-20T15:00:00.000Z",
+   "participant1Name": "Hudeczek, Roman",
+   "participant2Name": "Benek, Jaromir",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2503634976956828": {
   "tm": {
    "id": "320402625867620352",
@@ -27759,25 +27729,50 @@
   },
   "score": 1.0
  },
- "id2503634976956790": {
+ "id2503634976956842": {
   "tm": {
-   "id": "320405691771723776",
+   "id": "320402517563351040",
    "sport": "Asztalitenisz",
-   "name": "Roman Hudeczek - Jaromir Benek",
-   "home": "Roman Hudeczek",
-   "away": "Jaromir Benek",
-   "home_pid": "168173686262648832",
-   "away_pid": "318312091843895296",
+   "name": "Wagner Richard - Frantisek Pusch",
+   "home": "Wagner Richard",
+   "away": "Frantisek Pusch",
+   "home_pid": "307739875767709696",
+   "away_pid": "104665493241221120",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-20T15:00:00+00:00"
+   "start": "2026-11-20T15:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976956790",
-   "startTime": "2026-11-20T15:00:00.000Z",
-   "participant1Name": "Hudeczek, Roman",
-   "participant2Name": "Benek, Jaromir",
+   "fixtureId": "id2503634976956842",
+   "startTime": "2026-11-20T15:30:00.000Z",
+   "participant1Name": "Wagner, Richard",
+   "participant2Name": "Pusch, Frantisek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956910": {
+  "tm": {
+   "id": "320402946597658624",
+   "sport": "Asztalitenisz",
+   "name": "Antonin Schneeberger - Alexandr Virag",
+   "home": "Antonin Schneeberger",
+   "away": "Alexandr Virag",
+   "home_pid": "258077961810731008",
+   "away_pid": "274731950412009472",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T15:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956910",
+   "startTime": "2026-11-20T15:30:00.000Z",
+   "participant1Name": "Schneeberger, Antonin",
+   "participant2Name": "Virag, Alexandr",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -27922,36 +27917,6 @@
    "id": 5665797,
    "name": "Ger. Price - N. Springer",
    "score": 0.9
-  }
- },
- "id1903399476940008": {
-  "tm": {
-   "id": "320327255548043264",
-   "sport": "Darts",
-   "name": "Eleanor Cairns - Trina Gulliver",
-   "home": "Eleanor Cairns",
-   "away": "Trina Gulliver",
-   "home_pid": "319926301697843200",
-   "away_pid": "192258542936420352",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-20T14:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476940008",
-   "startTime": "2026-11-20T14:20:00.000Z",
-   "participant1Name": "Cairns, Eleanor",
-   "participant2Name": "Gulliver, Trina",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671224,
-   "name": "E. Cairns - T. Gulliver",
-   "score": 1.0
   }
  },
  "id1903399476940010": {
@@ -28623,6 +28588,81 @@
    "sportName": "Floorball"
   },
   "score": 1.0
+ },
+ "id3300031873061648": {
+  "tm": {
+   "id": "319988820680450048",
+   "sport": "Floorball",
+   "name": "Sveiva - Slevik",
+   "home": "Sveiva",
+   "away": "Slevik",
+   "home_pid": "185232790539784192",
+   "away_pid": "185232820510183424",
+   "tournament": "Norvég bajnokság",
+   "category": "Norvégia",
+   "tm_sport_id": "41",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id3300031873061648",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Sveiva IBK",
+   "participant2Name": "IBK Slevik",
+   "tournamentId": 318,
+   "tournamentName": "Eliteserien",
+   "sportName": "Floorball"
+  },
+  "score": 1.0
+ },
+ "id3300025573274088": {
+  "tm": {
+   "id": "319988803163987968",
+   "sport": "Floorball",
+   "name": "Nykvarns - Pixbo Wallenstam",
+   "home": "Nykvarns",
+   "away": "Pixbo Wallenstam",
+   "home_pid": "195566145817964544",
+   "away_pid": "54415",
+   "tournament": "Svéd bajnokság",
+   "category": "Svédország",
+   "tm_sport_id": "41",
+   "start": "2026-11-21T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id3300025573274088",
+   "startTime": "2026-11-21T17:00:00.000Z",
+   "participant1Name": "Nykvarns IBF Ungdom",
+   "participant2Name": "Pixbo Wallenstam",
+   "tournamentId": 255,
+   "tournamentName": "Svenska Superligan",
+   "sportName": "Floorball"
+  },
+  "score": 1.0
+ },
+ "id3300031873061650": {
+  "tm": {
+   "id": "319988820596563968",
+   "sport": "Floorball",
+   "name": "Ullensaker/Kisa - Sjetne",
+   "home": "Ullensaker/Kisa",
+   "away": "Sjetne",
+   "home_pid": "185232853064273920",
+   "away_pid": "313943640593035264",
+   "tournament": "Norvég bajnokság",
+   "category": "Norvégia",
+   "tm_sport_id": "41",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id3300031873061650",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Ull/Kisa",
+   "participant2Name": "Sjetne",
+   "tournamentId": 318,
+   "tournamentName": "Eliteserien",
+   "sportName": "Floorball"
+  },
+  "score": 0.787
  },
  "id1000021672176646": {
   "tm": null,
