@@ -14689,6 +14689,31 @@
   },
   "score": 1.0
  },
+ "id1002583973204178": {
+  "tm": {
+   "id": "320158335182643200",
+   "sport": "Labdarúgás",
+   "name": "Rakow Czestochowa 2 - Gornik Polkowice",
+   "home": "Rakow Czestochowa 2",
+   "away": "Gornik Polkowice",
+   "home_pid": "182450736021684224",
+   "away_pid": "9014",
+   "tournament": "Lengyel 4., 3. csoport",
+   "category": "Lengyelország",
+   "tm_sport_id": "1",
+   "start": "2026-11-20T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002583973204178",
+   "startTime": "2026-11-20T11:30:00.000Z",
+   "participant1Name": "Rakow II Czestochowa",
+   "participant2Name": "KS Gornik Polkowice",
+   "tournamentId": 25839,
+   "tournamentName": "III Liga, Group 3",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000094773296496": {
   "tm": {
    "id": "319417045454233600",
@@ -16878,36 +16903,6 @@
    "sportName": "Soccer"
   },
   "score": 0.724
- },
- "id1201229176683306": {
-  "tm": {
-   "id": "320280531734437888",
-   "sport": "Tenisz",
-   "name": "Daniel Milavsky - Liam Draxl",
-   "home": "Daniel Milavsky",
-   "away": "Liam Draxl",
-   "home_pid": "126707737467867136",
-   "away_pid": "1453185",
-   "tournament": "Drummondville, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-19T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201229176683306",
-   "startTime": "2026-11-19T23:30:00.000Z",
-   "participant1Name": "Milavsky, Daniel",
-   "participant2Name": "Draxl, Liam",
-   "tournamentId": 12291,
-   "tournamentName": "ATP Challenger Drummondville, Canada Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5663220,
-   "name": "D. Milavsky - L. Draxl",
-   "score": 1.0
-  }
  },
  "id1200946176687414": {
   "tm": {
@@ -23214,6 +23209,81 @@
   },
   "score": 1.0
  },
+ "id1100064872885208": {
+  "tm": {
+   "id": "320439981677027328",
+   "sport": "Kosárlabda",
+   "name": "Idaho State Bengals - South Dakota State Jackrabbits",
+   "home": "Idaho State Bengals",
+   "away": "South Dakota State Jackrabbits",
+   "home_pid": "186961315990917120",
+   "away_pid": "186961845911867392",
+   "tournament": "NCAA",
+   "category": "USA",
+   "tm_sport_id": "8",
+   "start": "2026-11-20T21:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100064872885208",
+   "startTime": "2026-11-20T21:00:00.000Z",
+   "participant1Name": "Idaho State Bengals",
+   "participant2Name": "South Dakota State Jackrabbits",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100064874067244": {
+  "tm": {
+   "id": "320439981556441088",
+   "sport": "Kosárlabda",
+   "name": "Liberty Flames - Rhode Island Rams",
+   "home": "Liberty Flames",
+   "away": "Rhode Island Rams",
+   "home_pid": "43990",
+   "away_pid": "38643",
+   "tournament": "NCAA",
+   "category": "USA",
+   "tm_sport_id": "8",
+   "start": "2026-11-20T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100064874067244",
+   "startTime": "2026-11-20T21:30:00.000Z",
+   "participant1Name": "Liberty Flames",
+   "participant2Name": "Rhode Island Rams",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100064873115950": {
+  "tm": {
+   "id": "320440297144262656",
+   "sport": "Kosárlabda",
+   "name": "Miami (Florida) Hurricanes - Manhattan Jaspers",
+   "home": "Miami (Florida) Hurricanes",
+   "away": "Manhattan Jaspers",
+   "home_pid": "38483",
+   "away_pid": "186961433296162816",
+   "tournament": "NCAA",
+   "category": "USA",
+   "tm_sport_id": "8",
+   "start": "2026-11-20T22:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100064873115950",
+   "startTime": "2026-11-20T22:00:00.000Z",
+   "participant1Name": "Miami Hurricanes",
+   "participant2Name": "Manhattan Jaspers",
+   "tournamentId": 648,
+   "tournamentName": "NCAA, Regular Season",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1104801472660466": {
   "tm": {
    "id": "319264051411623936",
@@ -29504,56 +29574,6 @@
   },
   "score": 0.86
  },
- "id2503634976921542": {
-  "tm": {
-   "id": "320310367547891712",
-   "sport": "Asztalitenisz",
-   "name": "Vaclav Kosar - Jan Steffan",
-   "home": "Vaclav Kosar",
-   "away": "Jan Steffan",
-   "home_pid": "226213776326807552",
-   "away_pid": "189194970642567168",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976921542",
-   "startTime": "2026-11-19T23:30:00.000Z",
-   "participant1Name": "Kosar, Vaclav",
-   "participant2Name": "Steffan, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976921606": {
-  "tm": {
-   "id": "320310329685909504",
-   "sport": "Asztalitenisz",
-   "name": "Martin Sychra - Milan Klement",
-   "home": "Martin Sychra",
-   "away": "Milan Klement",
-   "home_pid": "225609756852768768",
-   "away_pid": "105751373563449344",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976921606",
-   "startTime": "2026-11-19T23:30:00.000Z",
-   "participant1Name": "Sychra, Martin",
-   "participant2Name": "Klement, Milan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976921526": {
   "tm": {
    "id": "320310331589074944",
@@ -29684,31 +29704,6 @@
    "score": 1.0
   }
  },
- "id2503634976921656": {
-  "tm": {
-   "id": "320310330386358272",
-   "sport": "Asztalitenisz",
-   "name": "Prikasky Libor - Michal Zahradka",
-   "home": "Prikasky Libor",
-   "away": "Michal Zahradka",
-   "home_pid": "282868470805467136",
-   "away_pid": "157416179233771520",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T23:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976921656",
-   "startTime": "2026-11-19T23:30:00.000Z",
-   "participant1Name": "Prikasky, Libor",
-   "participant2Name": "Zahradka, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503637776922868": {
   "tm": {
    "id": "320430493453590528",
@@ -29789,6 +29784,81 @@
    "score": 1.0
   }
  },
+ "id2503634976921652": {
+  "tm": {
+   "id": "320310331008163840",
+   "sport": "Asztalitenisz",
+   "name": "Martin Huk - Prikasky Libor",
+   "home": "Martin Huk",
+   "away": "Prikasky Libor",
+   "home_pid": "104505550771998720",
+   "away_pid": "282868470805467136",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T00:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921652",
+   "startTime": "2026-11-20T00:30:00.000Z",
+   "participant1Name": "Huk, Martin",
+   "participant2Name": "Prikasky, Libor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976921476": {
+  "tm": {
+   "id": "320310366785576960",
+   "sport": "Asztalitenisz",
+   "name": "Tomas Andrle - Vaclav Kosar",
+   "home": "Tomas Andrle",
+   "away": "Vaclav Kosar",
+   "home_pid": "116988456519913472",
+   "away_pid": "226213776326807552",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T00:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921476",
+   "startTime": "2026-11-20T00:30:00.000Z",
+   "participant1Name": "Andrle, Tomas",
+   "participant2Name": "Kosar, Vaclav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976921544": {
+  "tm": {
+   "id": "320310363709054976",
+   "sport": "Asztalitenisz",
+   "name": "Sebastian Kasnik - Martin Sychra",
+   "home": "Sebastian Kasnik",
+   "away": "Martin Sychra",
+   "home_pid": "167281173427441664",
+   "away_pid": "225609756852768768",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T00:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976921544",
+   "startTime": "2026-11-20T00:30:00.000Z",
+   "participant1Name": "Kasnik, Sebastian",
+   "participant2Name": "Sychra, Martin",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2504935876965498": {
   "tm": {
    "id": "320414663973085184",
@@ -29818,31 +29888,6 @@
    "name": "Nayeong Kim - E. Abraamian",
    "score": 0.97
   }
- },
- "id2503637776922862": {
-  "tm": {
-   "id": "320430314281312256",
-   "sport": "Asztalitenisz",
-   "name": "Dawid Kotwica - Bartek Sulkowski",
-   "home": "Dawid Kotwica",
-   "away": "Bartek Sulkowski",
-   "home_pid": "169614503751766016",
-   "away_pid": "238475768526966784",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-19T23:35:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776922862",
-   "startTime": "2026-11-19T23:35:00.000Z",
-   "participant1Name": "Kotwica, Dawid",
-   "participant2Name": "Sulkowski, Bartosz",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 0.894
  },
  "id2702833376122628": {
   "tm": {
@@ -30742,36 +30787,6 @@
    "id": 5665797,
    "name": "Ger. Price - N. Springer",
    "score": 0.9
-  }
- },
- "id1903399476939990": {
-  "tm": {
-   "id": "320327253830475776",
-   "sport": "Darts",
-   "name": "Emine Dursun - Laura Turner",
-   "home": "Emine Dursun",
-   "away": "Laura Turner",
-   "home_pid": "287071066454790144",
-   "away_pid": "221032196777070592",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-19T23:40:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476939990",
-   "startTime": "2026-11-19T23:40:00.000Z",
-   "participant1Name": "Dursun, Emine",
-   "participant2Name": "Turner, Laura",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5670932,
-   "name": "E. Dursun - Lau. Turner",
-   "score": 0.936
   }
  },
  "id1903399476939992": {
