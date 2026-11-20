@@ -1,34 +1,4 @@
 {
- "id1000033676080462": {
-  "tm": {
-   "id": "320127396424523776",
-   "sport": "Labdarúgás",
-   "name": "Porto - Paredes",
-   "home": "Porto",
-   "away": "Paredes",
-   "home_pid": "357",
-   "away_pid": "6156855917690880",
-   "tournament": "Portugál Kupa",
-   "category": "Portugália",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T20:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000033676080462",
-   "startTime": "2026-11-20T20:45:00.000Z",
-   "participant1Name": "FC Porto",
-   "participant2Name": "Uniao SC Paredes",
-   "tournamentId": 336,
-   "tournamentName": "Taca de Portugal",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5610658,
-   "name": "Porto - Paredes",
-   "score": 1.0
-  }
- },
  "id1002604073585798": {
   "tm": {
    "id": "320388735212527616",
@@ -12169,31 +12139,6 @@
   },
   "score": 1.0
  },
- "id1005377675481050": {
-  "tm": {
-   "id": "320405943483441152",
-   "sport": "Labdarúgás",
-   "name": "U19Tijuana - U19FC Atlante",
-   "home": "U19Tijuana",
-   "away": "U19FC Atlante",
-   "home_pid": "246905217589309440",
-   "away_pid": "308961406144442368",
-   "tournament": "U19 Mexikói bajnokság",
-   "category": "Mexikó",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T20:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1005377675481050",
-   "startTime": "2026-11-20T20:45:00.000Z",
-   "participant1Name": "Club Tijuana de Caliente",
-   "participant2Name": "Atlante FC",
-   "tournamentId": 53776,
-   "tournamentName": "U19 Liga MX",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000015472304364": {
   "tm": {
    "id": "319422328700215296",
@@ -13613,36 +13558,6 @@
    "sportName": "Soccer"
   },
   "score": 0.804
- },
- "id1002709873038672": {
-  "tm": {
-   "id": "319701926513025024",
-   "sport": "Labdarúgás",
-   "name": "Ameliano Asuncion - Sp. Luqueno",
-   "home": "Ameliano Asuncion",
-   "away": "Sp. Luqueno",
-   "home_pid": "140478493851963392",
-   "away_pid": "1441",
-   "tournament": "Paraguayi bajnokság",
-   "category": "Paraguay",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T20:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002709873038672",
-   "startTime": "2026-11-20T20:30:00.000Z",
-   "participant1Name": "Sportivo Ameliano",
-   "participant2Name": "Sportivo Luqueno",
-   "tournamentId": 27098,
-   "tournamentName": "Division de Honor",
-   "sportName": "Soccer"
-  },
-  "score": 0.794,
-  "cl": {
-   "id": 5594110,
-   "name": "Ameliano Asuncion - Sp. Luqueno",
-   "score": 1.0
-  }
  },
  "id1002655473293362": {
   "tm": {
@@ -19774,50 +19689,50 @@
   },
   "score": 1.0
  },
- "id2503634976956920": {
+ "id2503634976956902": {
   "tm": {
-   "id": "320399892689264640",
+   "id": "320403520457089024",
    "sport": "Asztalitenisz",
-   "name": "Frantisek Pusch - Radek Rose",
-   "home": "Frantisek Pusch",
-   "away": "Radek Rose",
-   "home_pid": "104665493241221120",
-   "away_pid": "107027290643386368",
+   "name": "Martin Biolek - Jan Dzida",
+   "home": "Martin Biolek",
+   "away": "Jan Dzida",
+   "home_pid": "166722033420390400",
+   "away_pid": "169122671260389376",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-20T20:30:00+00:00"
+   "start": "2026-11-20T21:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976956920",
-   "startTime": "2026-11-20T20:30:00.000Z",
-   "participant1Name": "Pusch, Frantisek",
-   "participant2Name": "Rose, Radek",
+   "fixtureId": "id2503634976956902",
+   "startTime": "2026-11-20T21:00:00.000Z",
+   "participant1Name": "Biolek, Martin",
+   "participant2Name": "Dzida, Jan",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
   "score": 1.0
  },
- "id2503634976956912": {
+ "id2503634976956820": {
   "tm": {
-   "id": "320403520388931584",
+   "id": "320403807845556224",
    "sport": "Asztalitenisz",
-   "name": "Michal Cabis - Martin Biolek",
-   "home": "Michal Cabis",
-   "away": "Martin Biolek",
-   "home_pid": "274550324960825344",
-   "away_pid": "166722033420390400",
+   "name": "Jaromir Benek - Roman Hudeczek",
+   "home": "Jaromir Benek",
+   "away": "Roman Hudeczek",
+   "home_pid": "318312091843895296",
+   "away_pid": "168173686262648832",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-20T20:30:00+00:00"
+   "start": "2026-11-20T21:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976956912",
-   "startTime": "2026-11-20T20:30:00.000Z",
-   "participant1Name": "Cabis, Michal",
-   "participant2Name": "Biolek, Martin",
+   "fixtureId": "id2503634976956820",
+   "startTime": "2026-11-20T21:00:00.000Z",
+   "participant1Name": "Benek, Jaromir",
+   "participant2Name": "Hudeczek, Roman",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -19849,31 +19764,6 @@
   },
   "score": 1.0
  },
- "id2503634976956902": {
-  "tm": {
-   "id": "320403520457089024",
-   "sport": "Asztalitenisz",
-   "name": "Martin Biolek - Jan Dzida",
-   "home": "Martin Biolek",
-   "away": "Jan Dzida",
-   "home_pid": "166722033420390400",
-   "away_pid": "169122671260389376",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T21:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956902",
-   "startTime": "2026-11-20T21:00:00.000Z",
-   "participant1Name": "Biolek, Martin",
-   "participant2Name": "Dzida, Jan",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976956752": {
   "tm": {
    "id": "320403807734407168",
@@ -19899,25 +19789,50 @@
   },
   "score": 1.0
  },
- "id2503634976956820": {
+ "id2503634976956806": {
   "tm": {
-   "id": "320403807845556224",
+   "id": "320403520555655168",
    "sport": "Asztalitenisz",
-   "name": "Jaromir Benek - Roman Hudeczek",
-   "home": "Jaromir Benek",
-   "away": "Roman Hudeczek",
-   "home_pid": "318312091843895296",
-   "away_pid": "168173686262648832",
+   "name": "Ondrej Paril - Michal Cabis",
+   "home": "Ondrej Paril",
+   "away": "Michal Cabis",
+   "home_pid": "167402877649735936",
+   "away_pid": "274550324960825344",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-20T21:00:00+00:00"
+   "start": "2026-11-20T21:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976956820",
-   "startTime": "2026-11-20T21:00:00.000Z",
-   "participant1Name": "Benek, Jaromir",
-   "participant2Name": "Hudeczek, Roman",
+   "fixtureId": "id2503634976956806",
+   "startTime": "2026-11-20T21:30:00.000Z",
+   "participant1Name": "Paril, Ondrej",
+   "participant2Name": "Cabis, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956884": {
+  "tm": {
+   "id": "320403897922428928",
+   "sport": "Asztalitenisz",
+   "name": "David Szotek - Frantisek Pusch",
+   "home": "David Szotek",
+   "away": "Frantisek Pusch",
+   "home_pid": "169718539420225536",
+   "away_pid": "104665493241221120",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T21:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956884",
+   "startTime": "2026-11-20T21:30:00.000Z",
+   "participant1Name": "Szotek, David",
+   "participant2Name": "Pusch, Frantisek",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -20002,36 +19917,6 @@
    "id": 5595613,
    "name": "Ausztrália - Anglia",
    "score": 1.0
-  }
- },
- "id1900059776636516": {
-  "tm": {
-   "id": "320340522000523264",
-   "sport": "Darts",
-   "name": "Gerwyn Price - Niko Springer",
-   "home": "Gerwyn Price",
-   "away": "Niko Springer",
-   "home_pid": "1149315",
-   "away_pid": "135393877848805376",
-   "tournament": "Grand Slam of Darts",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-20T20:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1900059776636516",
-   "startTime": "2026-11-20T20:45:00.000Z",
-   "participant1Name": "Price, Gerwyn",
-   "participant2Name": "Springer, Niko",
-   "tournamentId": 597,
-   "tournamentName": "Grand Slam of Darts",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665797,
-   "name": "Ger. Price - N. Springer",
-   "score": 0.9
   }
  },
  "id2902644473322044": {
