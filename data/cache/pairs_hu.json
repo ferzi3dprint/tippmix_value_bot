@@ -1,34 +1,4 @@
 {
- "id1002697475949124": {
-  "tm": {
-   "id": "319385303975534592",
-   "sport": "Labdarúgás",
-   "name": "Duhok - Erbil SC",
-   "home": "Duhok",
-   "away": "Erbil SC",
-   "home_pid": "181683143938461696",
-   "away_pid": "188469561002086400",
-   "tournament": "Iraki bajnokság",
-   "category": "Irak",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T16:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002697475949124",
-   "startTime": "2026-11-20T16:15:00.000Z",
-   "participant1Name": "Duhok FC",
-   "participant2Name": "Erbil SC",
-   "tournamentId": 26974,
-   "tournamentName": "Stars League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594525,
-   "name": "Duhok - Erbil",
-   "score": 1.0
-  }
- },
  "id1001972475947238": {
   "tm": {
    "id": "320051714105352192",
@@ -14484,31 +14454,6 @@
   },
   "score": 1.0
  },
- "id1005118076877586": {
-  "tm": {
-   "id": "320385517963255808",
-   "sport": "Labdarúgás",
-   "name": "Bullom Stars - Wusum Stars",
-   "home": "Bullom Stars",
-   "away": "Wusum Stars",
-   "home_pid": "262342069985488896",
-   "away_pid": "232095741930541056",
-   "tournament": "Sierra Leone-i bajnokság",
-   "category": "Sierra Leone",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T16:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1005118076877586",
-   "startTime": "2026-11-20T16:15:00.000Z",
-   "participant1Name": "Bullom Stars FC",
-   "participant2Name": "Wusum Stars FC",
-   "tournamentId": 51180,
-   "tournamentName": "Premier League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1004850774827350": {
   "tm": {
    "id": "319414799823872000",
@@ -21749,6 +21694,31 @@
   },
   "score": 0.754
  },
+ "id1104111572965694": {
+  "tm": {
+   "id": "320502574831706112",
+   "sport": "Kosárlabda",
+   "name": "Galitos Aveiro - Galitos Barreiro",
+   "home": "Galitos Aveiro",
+   "away": "Galitos Barreiro",
+   "home_pid": "152509725624291328",
+   "away_pid": "977227",
+   "tournament": "Portugál 2.",
+   "category": "Portugália",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T18:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104111572965694",
+   "startTime": "2026-11-21T18:30:00.000Z",
+   "participant1Name": "Clube Dos Galitos",
+   "participant2Name": "Galitos Barreiro",
+   "tournamentId": 41115,
+   "tournamentName": "Proliga",
+   "sportName": "Basketball"
+  },
+  "score": 0.752
+ },
  "id1100074574267046": {
   "tm": {
    "id": "319354600303960064",
@@ -26919,56 +26889,6 @@
    "score": 1.0
   }
  },
- "id2503634976956786": {
-  "tm": {
-   "id": "320403233473372160",
-   "sport": "Asztalitenisz",
-   "name": "Milan Kolar - Yurii Holovatiuk",
-   "home": "Milan Kolar",
-   "away": "Yurii Holovatiuk",
-   "home_pid": "115765271733522432",
-   "away_pid": "218992960200658944",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956786",
-   "startTime": "2026-11-20T16:30:00.000Z",
-   "participant1Name": "Kolar, Milan",
-   "participant2Name": "Holovatiuk, Yurii",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976956862": {
-  "tm": {
-   "id": "320402517487853568",
-   "sport": "Asztalitenisz",
-   "name": "Frantisek Pusch - Prikasky Libor",
-   "home": "Frantisek Pusch",
-   "away": "Prikasky Libor",
-   "home_pid": "104665493241221120",
-   "away_pid": "282868470805467136",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956862",
-   "startTime": "2026-11-20T16:30:00.000Z",
-   "participant1Name": "Pusch, Frantisek",
-   "participant2Name": "Prikasky, Libor",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976956864": {
   "tm": {
    "id": "320403376789594112",
@@ -27132,36 +27052,6 @@
    "id": 5665797,
    "name": "Ger. Price - N. Springer",
    "score": 0.9
-  }
- },
- "id1903399476940022": {
-  "tm": {
-   "id": "320327250649096192",
-   "sport": "Darts",
-   "name": "Deta Hedman - Eleanor Cairns",
-   "home": "Deta Hedman",
-   "away": "Eleanor Cairns",
-   "home_pid": "628728",
-   "away_pid": "319926301697843200",
-   "tournament": "Modus Super Series",
-   "category": "Világ",
-   "tm_sport_id": "45",
-   "start": "2026-11-20T16:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1903399476940022",
-   "startTime": "2026-11-20T16:25:00.000Z",
-   "participant1Name": "Hedman, Deta",
-   "participant2Name": "Cairns, Eleanor",
-   "tournamentId": 33994,
-   "tournamentName": "Modus Super Series",
-   "sportName": "Darts"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671258,
-   "name": "D. Hedman - E. Cairns",
-   "score": 1.0
   }
  },
  "id1903399476940024": {
