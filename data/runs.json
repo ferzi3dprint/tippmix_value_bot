@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-18T13:27:58.201637+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 2,
-  "top_ev": [
-   "-2.4% El Gouna FC – Al-Ittihad (EGY) · Ázsiai hendikep: Al-Ittihad (EGY) (+0.25) @1.34 (fair 1.372)",
-   "-2.5% El Gouna FC – Al-Ittihad (EGY) · Ázsiai hendikep: Al-Ittihad (EGY) (+0.5) @1.25 (fair 1.283)",
-   "-2.8% U20SaiPa – U20Jokerit · Győztes (hosszabbítással): U20Jokerit győz @1.46 (fair 1.502)",
-   "-3.1% Dubocica – Radnicki Nis · Gólszám 2.25: Több @1.66 (fair 1.713)",
-   "-4.0% El Gouna FC – Al-Ittihad (EGY) · 1X2: Döntetlen @2.75 (fair 2.864)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 1,
-  "fast": true,
-  "fixtures_checked": 26,
-  "fixtures_both": 8,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 2,
-  "classic_checked": 21,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+1.8% Mornar – Vojvodina · Győztes (hosszabbítással): Mornar győz @1.87 (fair 1.837)",
-   "-0.1% Panathinaikosz – Thira · Győztes: Panathinaikosz győz @1.09 (fair 1.091)",
-   "-4.7% Bejbarisz Atirau – Szarjaka Karaganda · Győztes (hosszabbítással): Szarjaka Karaganda győz @1.2 (fair 1.259)",
-   "-4.8% El Gouna FC – Al-Ittihad (EGY) · Gólszám 2.5: Kevesebb @1.38 (fair 1.449)",
-   "-5.2% Aktobe – Gornyak Rudnyij · Győztes (hosszabbítással): Gornyak Rudnyij győz @1.21 (fair 1.276)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 28
- },
- {
-  "time": "2026-11-18T13:33:17.044691+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 457,
-   "paired": 198,
-   "classic_only": 9
-  },
-  "tippmix_matches": 1171,
-  "pinnacle_fixtures": 976,
-  "paired": 325,
-  "by_sport": {
-   "Soccer": [
-    183,
-    107
-   ],
-   "Tennis": [
-    330,
-    14
-   ],
-   "Basketball": [
-    172,
-    61
-   ],
-   "Ice Hockey": [
-    102,
-    68
-   ],
-   "Handball": [
-    64,
-    19
-   ],
-   "Volleyball": [
-    59,
-    9
-   ],
-   "Table Tennis": [
-    49,
-    24
-   ],
-   "Cricket": [
-    16,
-    5
-   ],
-   "Badminton": [
-    54,
-    0
-   ],
-   "Darts": [
-    8,
-    4
-   ],
-   "Futsal": [
-    5,
-    2
-   ],
-   "Waterpolo": [
-    16,
-    7
-   ],
-   "ESport Counter-Strike": [
-    25,
-    0
-   ],
-   "ESport Dota": [
-    2,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    73,
-    0
-   ],
-   "eBasketball": [
-    8,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    5,
-    5
-   ]
-  },
-  "top_ev": [
-   "+1.1% Pardubice – SaiPa · 1X2 (rendes játékidő): Döntetlen @5.5 (fair 5.44)",
-   "-0.6% Mountfield HK – Brno · Győztes (hosszabbítással): Mountfield HK győz @1.69 (fair 1.699)",
-   "-0.7% Aalborg – Füchse Berlin · Gólszám 64.5: Kevesebb @1.81 (fair 1.823)",
-   "-0.7% Kiekko-Espoo – Ilves · Hendikep (rendes játékidő): Ilves (+1) @1.34 (fair 1.35)",
-   "-0.8% Trinec – Olomouc · Győztes (hosszabbítással): Trinec győz @1.19 (fair 1.199)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 17,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 85,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 15,
-  "classic_checked": 111,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.1% Panathinaikosz – Thira · Győztes: Panathinaikosz győz @1.09 (fair 1.091)",
-   "-2.1% Buducnost Podgorica – Slask Wroclaw · Győztes (hosszabbítással): Buducnost Podgorica győz @1.06 (fair 1.082)",
-   "-2.4% Trinec – Olomouc · Győztes (hosszabbítással): Trinec győz @1.17 (fair 1.199)",
-   "-2.4% Häcken – Manchester City · Gólszám 4.25: Kevesebb @1.48 (fair 1.517)",
-   "-2.8% Häcken – Manchester City · Gólszám 4: Kevesebb @1.59 (fair 1.636)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 156
- },
- {
   "time": "2026-11-18T13:50:06.202559+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25904,6 +25713,173 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 151,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-20T15:57:36.412197+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 90,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 91,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-20T16:05:25.541831+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 912,
+   "paired": 554,
+   "classic_only": 43
+  },
+  "tippmix_matches": 1938,
+  "pinnacle_fixtures": 2042,
+  "paired": 1038,
+  "by_sport": {
+   "Soccer": [
+    808,
+    592
+   ],
+   "Tennis": [
+    145,
+    4
+   ],
+   "Basketball": [
+    383,
+    207
+   ],
+   "Ice Hockey": [
+    185,
+    139
+   ],
+   "Handball": [
+    86,
+    39
+   ],
+   "Volleyball": [
+    121,
+    14
+   ],
+   "Table Tennis": [
+    38,
+    3
+   ],
+   "Cricket": [
+    35,
+    3
+   ],
+   "Badminton": [
+    16,
+    0
+   ],
+   "Darts": [
+    13,
+    6
+   ],
+   "Futsal": [
+    15,
+    1
+   ],
+   "Waterpolo": [
+    23,
+    1
+   ],
+   "ESport Counter-Strike": [
+    19,
+    0
+   ],
+   "ESport Dota": [
+    5,
+    1
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    24,
+    0
+   ],
+   "eBasketball": [
+    4,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    7,
+    6
+   ],
+   "MMA": [
+    0,
+    5
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    2
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    4
+   ],
+   "Floorball": [
+    11,
+    11
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 149,
   "free_calls": 0
  }
 ]
