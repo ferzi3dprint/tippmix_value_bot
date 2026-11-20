@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-18T16:44:57.560796+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+1.7% Comet – Manglerud Star · Hendikep (rendes játékidő): Comet (-2) @1.86 (fair 1.83)",
-   "+0.6% Aalborg – Füchse Berlin · 1X2: Füchse Berlin győz @1.59 (fair 1.58)",
-   "+0.2% Grüner – Gjövik · Hendikep (rendes játékidő): Gjövik (-2.5) @2.42 (fair 2.415)",
-   "+0.1% Grüner – Gjövik · Hendikep (rendes játékidő): Gjövik (-2) @2.09 (fair 2.088)",
-   "-0.2% Aalborg – Füchse Berlin · Gólszám 64.5: Kevesebb @1.81 (fair 1.813)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 13,
-  "fast": true,
-  "fixtures_checked": 57,
-  "fixtures_both": 39,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 10,
-  "classic_checked": 42,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+2.5% Cacereno – Alavés · Gólszám 2.75: Kevesebb @1.75 (fair 1.707)",
-   "+1.9% Cacereno – Alavés · Gólszám 2.25: Kevesebb @2.27 (fair 2.228)",
-   "+0.7% Cacereno – Alavés · Gólszám 2.5: Kevesebb @1.95 (fair 1.936)",
-   "-0.3% Häcken – Manchester City · Gólszám 4.25: Kevesebb @1.5 (fair 1.505)",
-   "-0.8% Häcken – Manchester City · Gólszám 4: Kevesebb @1.61 (fair 1.624)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 63
- },
- {
-  "time": "2026-11-18T16:53:25.602738+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 478,
-   "paired": 146,
-   "classic_only": 6
-  },
-  "tippmix_matches": 1012,
-  "pinnacle_fixtures": 976,
-  "paired": 256,
-  "by_sport": {
-   "Soccer": [
-    168,
-    95
-   ],
-   "Tennis": [
-    280,
-    12
-   ],
-   "Basketball": [
-    164,
-    54
-   ],
-   "Ice Hockey": [
-    80,
-    50
-   ],
-   "Handball": [
-    63,
-    19
-   ],
-   "Volleyball": [
-    53,
-    2
-   ],
-   "Table Tennis": [
-    25,
-    4
-   ],
-   "Cricket": [
-    17,
-    3
-   ],
-   "Badminton": [
-    66,
-    0
-   ],
-   "Darts": [
-    8,
-    4
-   ],
-   "Futsal": [
-    7,
-    2
-   ],
-   "Waterpolo": [
-    16,
-    7
-   ],
-   "ESport Counter-Strike": [
-    25,
-    0
-   ],
-   "ESport Dota": [
-    2,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    29,
-    0
-   ],
-   "eBasketball": [
-    5,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    4,
-    4
-   ]
-  },
-  "top_ev": [
-   "+1.5% Aalborg – Füchse Berlin · 1X2: Füchse Berlin győz @1.59 (fair 1.566)",
-   "+0.2% Wisla Plock – Veszprém · Hendikep (rendes játékidő): Wisla Plock (+2.5) @1.82 (fair 1.816)",
-   "+0.1% Wisla Plock – Veszprém · Hendikep (rendes játékidő): Wisla Plock (+1.5) @2.13 (fair 2.128)",
-   "-0.2% Aalborg – Füchse Berlin · Gólszám 64.5: Kevesebb @1.81 (fair 1.813)",
-   "-0.3% U20America RJ – U20Americano RJ · Ázsiai hendikep: U20America RJ (+0) @1.57 (fair 1.575)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 22,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 101,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 25,
-  "classic_checked": 94,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+2.5% Cacereno – Alavés · Gólszám 2.75: Kevesebb @1.75 (fair 1.707)",
-   "+1.9% Cacereno – Alavés · Gólszám 2.25: Kevesebb @2.27 (fair 2.228)",
-   "+0.7% Cacereno – Alavés · Gólszám 2.5: Kevesebb @1.95 (fair 1.936)",
-   "-0.5% Häcken – Manchester City · Gólszám 4.25: Kevesebb @1.5 (fair 1.507)",
-   "-0.9% Cuprum Lubin – Lublin · Győztes: Lublin győz @1.1 (fair 1.11)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 156
- },
- {
   "time": "2026-11-18T17:10:30.267766+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25718,6 +25527,173 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 150,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-20T19:06:24.023050+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 73,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 73,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-20T19:12:40.225420+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 725,
+   "paired": 416,
+   "classic_only": 33
+  },
+  "tippmix_matches": 1756,
+  "pinnacle_fixtures": 2042,
+  "paired": 838,
+  "by_sport": {
+   "Soccer": [
+    754,
+    533
+   ],
+   "Tennis": [
+    103,
+    1
+   ],
+   "Basketball": [
+    358,
+    176
+   ],
+   "Ice Hockey": [
+    97,
+    66
+   ],
+   "Handball": [
+    59,
+    22
+   ],
+   "Volleyball": [
+    145,
+    8
+   ],
+   "Table Tennis": [
+    30,
+    7
+   ],
+   "Cricket": [
+    37,
+    3
+   ],
+   "Badminton": [
+    14,
+    0
+   ],
+   "Darts": [
+    22,
+    2
+   ],
+   "Futsal": [
+    12,
+    1
+   ],
+   "Waterpolo": [
+    19,
+    1
+   ],
+   "ESport Counter-Strike": [
+    13,
+    0
+   ],
+   "ESport Dota": [
+    4,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    62,
+    0
+   ],
+   "eBasketball": [
+    10,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    10,
+    4
+   ],
+   "MMA": [
+    0,
+    5
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    2
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    7,
+    7
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 151,
   "free_calls": 0
  }
 ]
