@@ -1,34 +1,4 @@
 {
- "id1002707076838152": {
-  "tm": {
-   "id": "320107691479474176",
-   "sport": "Labdarúgás",
-   "name": "Independiente Medellin - Independiente Santa Fe",
-   "home": "Independiente Medellin",
-   "away": "Independiente Santa Fe",
-   "home_pid": "4076",
-   "away_pid": "1227",
-   "tournament": "Kolumbiai bajnokság",
-   "category": "Kolumbia",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002707076838152",
-   "startTime": "2026-11-20T21:30:00.000Z",
-   "participant1Name": "Independiente Medellin",
-   "participant2Name": "Independiente Santa Fe",
-   "tournamentId": 27070,
-   "tournamentName": "Liga DIMAYOR",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671833,
-   "name": "Independiente Medellin - Independiente SF",
-   "score": 0.853
-  }
- },
  "id1004228576913254": {
   "tm": {
    "id": "320303958009651200",
@@ -12409,6 +12379,56 @@
   },
   "score": 1.0
  },
+ "id1001924873884856": {
+  "tm": {
+   "id": "320391947762081792",
+   "sport": "Labdarúgás",
+   "name": "Mahar Utd. - Myawady",
+   "home": "Mahar Utd.",
+   "away": "Myawady",
+   "home_pid": "175280332799528960",
+   "away_pid": "175520268828069888",
+   "tournament": "Mianmari bajnokság",
+   "category": "Mianmar",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T09:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1001924873884856",
+   "startTime": "2026-11-21T09:30:00.000Z",
+   "participant1Name": "Mahar Sagaing United FC",
+   "participant2Name": "Myawady FC",
+   "tournamentId": 19248,
+   "tournamentName": "National League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000137673628798": {
+  "tm": {
+   "id": "319440070838919168",
+   "sport": "Labdarúgás",
+   "name": "Scanzorosciate - Chievo Verona",
+   "home": "Scanzorosciate",
+   "away": "Chievo Verona",
+   "home_pid": "279429660571471872",
+   "away_pid": "180",
+   "tournament": "Olasz D, B csoport",
+   "category": "Olaszország",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000137673628798",
+   "startTime": "2026-11-21T13:30:00.000Z",
+   "participant1Name": "Usd Scanzorosciate Calcio",
+   "participant2Name": "AC Chievo Verona",
+   "tournamentId": 1376,
+   "tournamentName": "Serie D, Group B",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000094773296496": {
   "tm": {
    "id": "319417045454233600",
@@ -13718,36 +13738,6 @@
    "sportName": "Soccer"
   },
   "score": 0.726
- },
- "id1100064874067244": {
-  "tm": {
-   "id": "320439981556441088",
-   "sport": "Kosárlabda",
-   "name": "Liberty Flames - Rhode Island Rams",
-   "home": "Liberty Flames",
-   "away": "Rhode Island Rams",
-   "home_pid": "43990",
-   "away_pid": "38643",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064874067244",
-   "startTime": "2026-11-20T21:30:00.000Z",
-   "participant1Name": "Liberty Flames",
-   "participant2Name": "Rhode Island Rams",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595332,
-   "name": "Liberty Flames - Rhode Island Rams",
-   "score": 1.0
-  }
  },
  "id1100064873115950": {
   "tm": {
@@ -19474,36 +19464,6 @@
   },
   "score": 0.731
  },
- "id2300145275360654": {
-  "tm": {
-   "id": "319898172838191104",
-   "sport": "Röplabda",
-   "name": "Goias - Montes Claros Volei",
-   "home": "Goias",
-   "away": "Montes Claros Volei",
-   "home_pid": "195657863935455232",
-   "away_pid": "247303492507136000",
-   "tournament": "Brazil bajnokság",
-   "category": "Brazília",
-   "tm_sport_id": "20",
-   "start": "2026-11-20T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2300145275360654",
-   "startTime": "2026-11-20T21:30:00.000Z",
-   "participant1Name": "Goias EC",
-   "participant2Name": "Montes Claros",
-   "tournamentId": 1452,
-   "tournamentName": "Superliga",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595399,
-   "name": "Goiás - Montes Claros",
-   "score": 1.0
-  }
- },
  "id2300060374512706": {
   "tm": {
    "id": "319988713263276032",
@@ -19641,56 +19601,6 @@
    "tournamentId": 831,
    "tournamentName": "Liga Siatkowki",
    "sportName": "Volleyball"
-  },
-  "score": 1.0
- },
- "id2503634976956806": {
-  "tm": {
-   "id": "320403520555655168",
-   "sport": "Asztalitenisz",
-   "name": "Ondrej Paril - Michal Cabis",
-   "home": "Ondrej Paril",
-   "away": "Michal Cabis",
-   "home_pid": "167402877649735936",
-   "away_pid": "274550324960825344",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956806",
-   "startTime": "2026-11-20T21:30:00.000Z",
-   "participant1Name": "Paril, Ondrej",
-   "participant2Name": "Cabis, Michal",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976956884": {
-  "tm": {
-   "id": "320403897922428928",
-   "sport": "Asztalitenisz",
-   "name": "David Szotek - Frantisek Pusch",
-   "home": "David Szotek",
-   "away": "Frantisek Pusch",
-   "home_pid": "169718539420225536",
-   "away_pid": "104665493241221120",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T21:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956884",
-   "startTime": "2026-11-20T21:30:00.000Z",
-   "participant1Name": "Szotek, David",
-   "participant2Name": "Pusch, Frantisek",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
   },
   "score": 1.0
  },
@@ -19888,6 +19798,31 @@
    "name": "Ruslan Abdullaev - J.M. Angulo",
    "score": 1.0
   }
+ },
+ "id2102432776940172": {
+  "tm": {
+   "id": "320340451019268096",
+   "sport": "Ökölvívás",
+   "name": "Javier Meza - Jonathan Figueroa",
+   "home": "Javier Meza",
+   "away": "Jonathan Figueroa",
+   "home_pid": "268338191922237440",
+   "away_pid": "320340413713031168",
+   "tournament": "Profi mérkőzés",
+   "category": "Világ",
+   "tm_sport_id": "176",
+   "start": "2026-11-20T22:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2102432776940172",
+   "startTime": "2026-11-20T22:00:00.000Z",
+   "participant1Name": "Meza, Javier",
+   "participant2Name": "Figueroa, Jonathan",
+   "tournamentId": 24327,
+   "tournamentName": "International Matchups",
+   "sportName": "Boxing"
+  },
+  "score": 1.0
  },
  "id3300031873061644": {
   "tm": {
