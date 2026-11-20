@@ -14854,56 +14854,6 @@
   },
   "score": 1.0
  },
- "id1005365475372380": {
-  "tm": {
-   "id": "320392396845162496",
-   "sport": "Labdarúgás",
-   "name": "U19Sariyer - U19Bursaspor",
-   "home": "U19Sariyer",
-   "away": "U19Bursaspor",
-   "home_pid": "283505737546895360",
-   "away_pid": "1372091",
-   "tournament": "U19 Török bajnokság",
-   "category": "Törökország",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1005365475372380",
-   "startTime": "2026-11-20T11:00:00.000Z",
-   "participant1Name": "Sariyer",
-   "participant2Name": "Bursaspor",
-   "tournamentId": 53654,
-   "tournamentName": "U19 Gelisim Ligi",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1005365475372370": {
-  "tm": {
-   "id": "320457284004159488",
-   "sport": "Labdarúgás",
-   "name": "U19Karagümrük - U19Pendikspor",
-   "home": "U19Karagümrük",
-   "away": "U19Pendikspor",
-   "home_pid": "134211919891452160",
-   "away_pid": "187324295105531904",
-   "tournament": "U19 Török bajnokság",
-   "category": "Törökország",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1005365475372370",
-   "startTime": "2026-11-20T11:00:00.000Z",
-   "participant1Name": "Fatih Karagumruk",
-   "participant2Name": "Pendikspor",
-   "tournamentId": 53654,
-   "tournamentName": "U19 Gelisim Ligi",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000134776427142": {
   "tm": {
    "id": "319554530201116672",
@@ -15884,6 +15834,31 @@
   },
   "score": 1.0
  },
+ "id1000019972045830": {
+  "tm": {
+   "id": "319419823803146240",
+   "sport": "Labdarúgás",
+   "name": "FK Szkopje - Arsimi",
+   "home": "FK Szkopje",
+   "away": "Arsimi",
+   "home_pid": "419006",
+   "away_pid": "189242857011335168",
+   "tournament": "Észak-Macedón bajnokság",
+   "category": "Észak-Macedónia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T11:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000019972045830",
+   "startTime": "2026-11-21T11:00:00.000Z",
+   "participant1Name": "FK Skopje",
+   "participant2Name": "FK Arsimi 1973",
+   "tournamentId": 199,
+   "tournamentName": "1. MFL",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000094773296496": {
   "tm": {
    "id": "319417045454233600",
@@ -15933,31 +15908,6 @@
    "sportName": "Soccer"
   },
   "score": 0.972
- },
- "id1005117876111498": {
-  "tm": {
-   "id": "320396660051091456",
-   "sport": "Labdarúgás",
-   "name": "Lightstars - Real Maldive FC",
-   "home": "Lightstars",
-   "away": "Real Maldive FC",
-   "home_pid": "217057552995864576",
-   "away_pid": "247567502711320576",
-   "tournament": "Seychelle-szigeteki bajnokság",
-   "category": "Seychelle-szigetek",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T10:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1005117876111498",
-   "startTime": "2026-11-20T10:45:00.000Z",
-   "participant1Name": "Light Stars FC",
-   "participant2Name": "Real Maldives FC",
-   "tournamentId": 51178,
-   "tournamentName": "Premier League",
-   "sportName": "Soccer"
-  },
-  "score": 0.967
  },
  "id1000003971925100": {
   "tm": {
@@ -16601,36 +16551,6 @@
   "cl": {
    "id": 5596465,
    "name": "Szpartak Várna - Cserno More Várna",
-   "score": 1.0
-  }
- },
- "id1000067175881458": {
-  "tm": {
-   "id": "319401923936591872",
-   "sport": "Labdarúgás",
-   "name": "Van Csarencavan - Ararat-Armenia",
-   "home": "Van Csarencavan",
-   "away": "Ararat-Armenia",
-   "home_pid": "9971905501335552",
-   "away_pid": "5827899089938432",
-   "tournament": "Örmény bajnokság",
-   "category": "Örményország",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000067175881458",
-   "startTime": "2026-11-20T11:00:00.000Z",
-   "participant1Name": "FC Van Charentsavan",
-   "participant2Name": "FC Ararat-Armenia",
-   "tournamentId": 671,
-   "tournamentName": "Premier League",
-   "sportName": "Soccer"
-  },
-  "score": 0.887,
-  "cl": {
-   "id": 5594739,
-   "name": "Van Csarencavan - Ararat-Armenia",
    "score": 1.0
   }
  },
@@ -18361,36 +18281,6 @@
   "cl": {
    "id": 5672001,
    "name": "M. Kubka - C.W. Hennemann",
-   "score": 1.0
-  }
- },
- "id1100119774527800": {
-  "tm": {
-   "id": "319445263470108672",
-   "sport": "Kosárlabda",
-   "name": "Hapoel Migdal Jerusalem - Ashdod",
-   "home": "Hapoel Migdal Jerusalem",
-   "away": "Ashdod",
-   "home_pid": "36780",
-   "away_pid": "315944516151484416",
-   "tournament": "Izraeli bajnokság",
-   "category": "Izrael",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100119774527800",
-   "startTime": "2026-11-20T11:00:00.000Z",
-   "participant1Name": "Hapoel Jerusalem",
-   "participant2Name": "Maccabi Ashdod",
-   "tournamentId": 1197,
-   "tournamentName": "Super League",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5611474,
-   "name": "Hapoel Jerusalem - Maccabi Ashdod",
    "score": 1.0
   }
  },
@@ -24179,36 +24069,6 @@
    "score": 1.0
   }
  },
- "id1500023772019378": {
-  "tm": {
-   "id": "319263963069095936",
-   "sport": "Jégkorong",
-   "name": "Karlovy Vary - Vitkovice",
-   "home": "Karlovy Vary",
-   "away": "Vitkovice",
-   "home_pid": "37345",
-   "away_pid": "37341",
-   "tournament": "Cseh bajnokság",
-   "category": "Csehország",
-   "tm_sport_id": "6",
-   "start": "2026-11-20T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500023772019378",
-   "startTime": "2026-11-20T11:00:00.000Z",
-   "participant1Name": "Energie Karlovy Vary",
-   "participant2Name": "HC Vitkovice",
-   "tournamentId": 237,
-   "tournamentName": "Extraliga",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594871,
-   "name": "Karlovy Vary - Vitkovice",
-   "score": 1.0
-  }
- },
  "id1500023772019368": {
   "tm": {
    "id": "319263962974724096",
@@ -29289,31 +29149,6 @@
    "score": 1.0
   }
  },
- "id2304640974607626": {
-  "tm": {
-   "id": "319898173077266432",
-   "sport": "Röplabda",
-   "name": "Maccabi Hadera - Hapoel Kiryat Ata",
-   "home": "Maccabi Hadera",
-   "away": "Hapoel Kiryat Ata",
-   "home_pid": "187309766579638272",
-   "away_pid": "186673975646015488",
-   "tournament": "Izraeli bajnokság, női",
-   "category": "Izrael",
-   "tm_sport_id": "20",
-   "start": "2026-11-20T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2304640974607626",
-   "startTime": "2026-11-20T11:00:00.000Z",
-   "participant1Name": "Maccabi Hadera",
-   "participant2Name": "Hapoel Ironi Kiryat Ata",
-   "tournamentId": 46409,
-   "tournamentName": "Premier League, Women",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0
- },
  "id2304640974607628": {
   "tm": {
    "id": "319898172999671808",
@@ -29394,56 +29229,6 @@
    "score": 1.0
   }
  },
- "id2503634976956766": {
-  "tm": {
-   "id": "320405691696226304",
-   "sport": "Asztalitenisz",
-   "name": "Tomas Vantuch - Vlastimil Matysek",
-   "home": "Tomas Vantuch",
-   "away": "Vlastimil Matysek",
-   "home_pid": "300995611599343616",
-   "away_pid": "277820645563305984",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956766",
-   "startTime": "2026-11-20T11:00:00.000Z",
-   "participant1Name": "Vantuch, Tomas",
-   "participant2Name": "Matysek, Vlastimil",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976956854": {
-  "tm": {
-   "id": "320402344674140160",
-   "sport": "Asztalitenisz",
-   "name": "Frantisek Laburda - Richard Skacelik",
-   "home": "Frantisek Laburda",
-   "away": "Richard Skacelik",
-   "home_pid": "167934614345666560",
-   "away_pid": "166635211903258624",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-20T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956854",
-   "startTime": "2026-11-20T11:00:00.000Z",
-   "participant1Name": "Laburda, Frantisek",
-   "participant2Name": "Skacelik, Richard",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976956796": {
   "tm": {
    "id": "320402344767463424",
@@ -29463,6 +29248,81 @@
    "startTime": "2026-11-20T11:30:00.000Z",
    "participant1Name": "Vejvoda, Viktor",
    "participant2Name": "Nemec, Stepan",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956990": {
+  "tm": {
+   "id": "320402374391832576",
+   "sport": "Asztalitenisz",
+   "name": "Sebastian Kasnik - Viktor Vejvoda",
+   "home": "Sebastian Kasnik",
+   "away": "Viktor Vejvoda",
+   "home_pid": "167281173427441664",
+   "away_pid": "235783907253325824",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T12:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956990",
+   "startTime": "2026-11-20T12:00:00.000Z",
+   "participant1Name": "Kasnik, Sebastian",
+   "participant2Name": "Vejvoda, Viktor",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956750": {
+  "tm": {
+   "id": "320402344594448384",
+   "sport": "Asztalitenisz",
+   "name": "Vlastimil Matysek - Marcel Proksa",
+   "home": "Vlastimil Matysek",
+   "away": "Marcel Proksa",
+   "home_pid": "277820645563305984",
+   "away_pid": "282054005644988416",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T12:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956750",
+   "startTime": "2026-11-20T12:00:00.000Z",
+   "participant1Name": "Matysek, Vlastimil",
+   "participant2Name": "Proksa, Marcel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956952": {
+  "tm": {
+   "id": "320402374519758848",
+   "sport": "Asztalitenisz",
+   "name": "Richard Skacelik - Jaroslav Schwan",
+   "home": "Richard Skacelik",
+   "away": "Jaroslav Schwan",
+   "home_pid": "166635211903258624",
+   "away_pid": "168636141458739200",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T12:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956952",
+   "startTime": "2026-11-20T12:00:00.000Z",
+   "participant1Name": "Skacelik, Richard",
+   "participant2Name": "Schwan, Jaroslav",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -29518,56 +29378,6 @@
    "sportName": "Table Tennis"
   },
   "score": 0.979
- },
- "id2702833376631358": {
-  "tm": {
-   "id": "320097221668315136",
-   "sport": "Krikett",
-   "name": "Rajasthan - Baroda",
-   "home": "Rajasthan",
-   "away": "Baroda",
-   "home_pid": "218275345571401728",
-   "away_pid": "192104209703923712",
-   "tournament": "Indiai Syed Mustaq Ali Trophy",
-   "category": "India",
-   "tm_sport_id": "26",
-   "start": "2026-11-20T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702833376631358",
-   "startTime": "2026-11-20T11:00:00.000Z",
-   "participant1Name": "E Rajasthan",
-   "participant2Name": "Baroda",
-   "tournamentId": 28333,
-   "tournamentName": "Syed Mushtaq Ali Trophy Elite",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
- },
- "id2702833376122654": {
-  "tm": {
-   "id": "320097221044412416",
-   "sport": "Krikett",
-   "name": "Railways - Haryana",
-   "home": "Railways",
-   "away": "Haryana",
-   "home_pid": "192104602366275584",
-   "away_pid": "192103861701472256",
-   "tournament": "Indiai Syed Mustaq Ali Trophy",
-   "category": "India",
-   "tm_sport_id": "26",
-   "start": "2026-11-20T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2702833376122654",
-   "startTime": "2026-11-20T11:00:00.000Z",
-   "participant1Name": "Railways",
-   "participant2Name": "Haryana",
-   "tournamentId": 28333,
-   "tournamentName": "Syed Mushtaq Ali Trophy Elite",
-   "sportName": "Cricket"
-  },
-  "score": 1.0
  },
  "id2702157075326646": {
   "tm": {
@@ -30356,31 +30166,6 @@
    "tournamentId": 49568,
    "tournamentName": "NODWIN Clutch Series",
    "sportName": "ESport Counter-Strike"
-  },
-  "score": 1.0
- },
- "id1604514776915376": {
-  "tm": {
-   "id": "320288557441818624",
-   "sport": "Dota 2",
-   "name": "Team Yandex - PlayTime",
-   "home": "Team Yandex",
-   "away": "PlayTime",
-   "home_pid": "273838881273679872",
-   "away_pid": "292249860526346240",
-   "tournament": "BLAST Slam 5",
-   "category": "Világ",
-   "tm_sport_id": "99",
-   "start": "2026-11-20T11:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1604514776915376",
-   "startTime": "2026-11-20T11:00:00.000Z",
-   "participant1Name": "Team Yandex",
-   "participant2Name": "Playtime",
-   "tournamentId": 45147,
-   "tournamentName": "BLAST Slam",
-   "sportName": "ESport Dota"
   },
   "score": 1.0
  },
