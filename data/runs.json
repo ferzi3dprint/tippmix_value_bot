@@ -1,230 +1,5 @@
 [
  {
-  "time": "2026-11-18T20:32:36.642345+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 2,
-  "top_ev": [
-   "-1.2% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.5) @1.31 (fair 1.325)",
-   "-1.4% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.25) @1.38 (fair 1.399)",
-   "-1.4% Coritiba – Santos SP · Gólszám 1.5: Több @1.22 (fair 1.237)",
-   "-1.8% Coritiba – Santos SP · 1X2: Santos SP győz @2.04 (fair 2.077)",
-   "-1.9% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (-0) @1.49 (fair 1.518)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 11,
-  "fixtures_both": 3,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 2,
-  "classic_checked": 5,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.0% Coritiba – Santos SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.204)",
-   "-2.1% Coritiba – Santos SP · Gólszám 3.5: Kevesebb @1.48 (fair 1.511)",
-   "-2.5% Coritiba – Santos SP · Gólszám 3.25: Kevesebb @1.58 (fair 1.62)",
-   "-2.7% Colon FC – Club Oriental · Gólszám 3.5: Kevesebb @1.45 (fair 1.49)",
-   "-2.8% Luke Littler – Jermaine Wattimena · Győztes: Luke Littler győz @1.08 (fair 1.111)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 13
- },
- {
-  "time": "2026-11-18T20:37:36.643202+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 2,
-  "top_ev": [
-   "+1.4% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: Academia Puerto Cabello (+1) @1.7 (fair 1.677)",
-   "-1.0% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: Academia Puerto Cabello (+0.75) @1.98 (fair 2.0)",
-   "-1.2% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.5) @1.31 (fair 1.325)",
-   "-1.4% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.25) @1.38 (fair 1.399)",
-   "-1.4% Coritiba – Santos SP · Gólszám 1.5: Több @1.22 (fair 1.237)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 11,
-  "fixtures_both": 3,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 2,
-  "classic_checked": 5,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.0% Coritiba – Santos SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.204)",
-   "-2.1% Coritiba – Santos SP · Gólszám 3.5: Kevesebb @1.48 (fair 1.511)",
-   "-2.5% Coritiba – Santos SP · Gólszám 3.25: Kevesebb @1.58 (fair 1.62)",
-   "-2.7% Colon FC – Club Oriental · Gólszám 3.5: Kevesebb @1.45 (fair 1.49)",
-   "-2.8% Luke Littler – Jermaine Wattimena · Győztes: Luke Littler győz @1.08 (fair 1.111)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 13
- },
- {
-  "time": "2026-11-18T20:42:36.642238+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "boosts": 0,
-  "classic": {
-   "events": 303,
-   "paired": 67,
-   "classic_only": 1
-  },
-  "tippmix_matches": 764,
-  "pinnacle_fixtures": 976,
-  "paired": 127,
-  "by_sport": {
-   "Soccer": [
-    111,
-    47
-   ],
-   "Tennis": [
-    237,
-    6
-   ],
-   "Basketball": [
-    132,
-    26
-   ],
-   "Ice Hockey": [
-    39,
-    26
-   ],
-   "Handball": [
-    16,
-    6
-   ],
-   "Volleyball": [
-    23,
-    0
-   ],
-   "Table Tennis": [
-    39,
-    8
-   ],
-   "Cricket": [
-    20,
-    3
-   ],
-   "Badminton": [
-    66,
-    0
-   ],
-   "Darts": [
-    6,
-    2
-   ],
-   "Futsal": [
-    4,
-    0
-   ],
-   "Waterpolo": [
-    8,
-    3
-   ],
-   "ESport Counter-Strike": [
-    10,
-    0
-   ],
-   "ESport Dota": [
-    5,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    42,
-    0
-   ],
-   "eBasketball": [
-    6,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+7.4% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: Academia Puerto Cabello (+0.75) @1.91 (fair 1.778)",
-   "+5.5% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: Academia Puerto Cabello (+0.25) @2.64 (fair 2.502)",
-   "+5.3% DVO Tachira – Academia Puerto Cabello · Ázsiai hendikep: Academia Puerto Cabello (+0.5) @2.17 (fair 2.06)",
-   "-1.2% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.5) @1.31 (fair 1.325)",
-   "-1.4% Coritiba – Santos SP · Ázsiai hendikep: Santos SP (+0.25) @1.38 (fair 1.399)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": false,
-  "fixtures_checked": 79,
-  "fixtures_both": 17,
-  "rejected_mismatch": 0,
-  "candidates": 2,
-  "steam_fixtures": 7,
-  "classic_checked": 15,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.0% DVO Tachira – Academia Puerto Cabello · Gólszám 2.5: Kevesebb @1.85 (fair 1.849)",
-   "-2.0% Coritiba – Santos SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.204)",
-   "-2.0% Colon FC – Club Oriental · Gólszám 3.5: Kevesebb @1.43 (fair 1.46)",
-   "-2.1% Coritiba – Santos SP · Gólszám 3.5: Kevesebb @1.48 (fair 1.511)",
-   "-2.4% Remo – Chapecoense · Gólszám 4.5: Kevesebb @1.15 (fair 1.178)"
-  ],
-  "placed": 1,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 27
- },
- {
   "time": "2026-11-18T20:48:33.913364+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25399,6 +25174,195 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 152,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-20T22:57:56.192869+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 21,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 21,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-20T23:02:56.191743+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 30,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 30,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-20T23:07:56.191932+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 613,
+   "paired": 460,
+   "classic_only": 47
+  },
+  "tippmix_matches": 2393,
+  "pinnacle_fixtures": 2467,
+  "paired": 1518,
+  "by_sport": {
+   "Soccer": [
+    1075,
+    822
+   ],
+   "Tennis": [
+    121,
+    24
+   ],
+   "Basketball": [
+    522,
+    346
+   ],
+   "Ice Hockey": [
+    159,
+    126
+   ],
+   "Handball": [
+    83,
+    57
+   ],
+   "Volleyball": [
+    201,
+    66
+   ],
+   "Table Tennis": [
+    27,
+    8
+   ],
+   "Cricket": [
+    74,
+    12
+   ],
+   "Badminton": [
+    24,
+    8
+   ],
+   "Darts": [
+    17,
+    8
+   ],
+   "Futsal": [
+    10,
+    3
+   ],
+   "Waterpolo": [
+    18,
+    8
+   ],
+   "ESport Counter-Strike": [
+    13,
+    0
+   ],
+   "ESport Dota": [
+    6,
+    2
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    24,
+    0
+   ],
+   "eBasketball": [
+    6,
+    0
+   ],
+   "American Football": [
+    0,
+    0
+   ],
+   "Boxing": [
+    3,
+    7
+   ],
+   "MMA": [
+    0,
+    12
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    2
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    10,
+    7
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 153,
   "free_calls": 0
  }
 ]
