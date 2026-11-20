@@ -1,29 +1,4 @@
 {
- "id1004228576913254": {
-  "tm": {
-   "id": "320303958009651200",
-   "sport": "Labdarúgás",
-   "name": "Colo-Colo - Universidad Catolica",
-   "home": "Colo-Colo",
-   "away": "Universidad Catolica",
-   "home_pid": "1537186",
-   "away_pid": "99287741647290368",
-   "tournament": "Chilei bajnokság, női",
-   "category": "Chile",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004228576913254",
-   "startTime": "2026-11-20T22:00:00.000Z",
-   "participant1Name": "Colo Colo",
-   "participant2Name": "Universidad Catolica",
-   "tournamentId": 42285,
-   "tournamentName": "Primera Division, Women",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000015576649198": {
   "tm": {
    "id": "319559867408916480",
@@ -12404,6 +12379,31 @@
   },
   "score": 1.0
  },
+ "id1002584172517408": {
+  "tm": {
+   "id": "320143365903556608",
+   "sport": "Labdarúgás",
+   "name": "Korona Kielce 2 - Naprzod Jedrzejow",
+   "home": "Korona Kielce 2",
+   "away": "Naprzod Jedrzejow",
+   "home_pid": "10038335937449984",
+   "away_pid": "250110822493229056",
+   "tournament": "Lengyel 4., 4. csoport",
+   "category": "Lengyelország",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T10:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002584172517408",
+   "startTime": "2026-11-21T10:00:00.000Z",
+   "participant1Name": "Korona II Kielce SA",
+   "participant2Name": "KS Naprzod Jedrzejow",
+   "tournamentId": 25841,
+   "tournamentName": "III Liga, Group 4",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000016772549360": {
   "tm": {
    "id": "320366585836544000",
@@ -12450,6 +12450,31 @@
    "participant2Name": "AC Chievo Verona",
    "tournamentId": 1376,
    "tournamentName": "Serie D, Group B",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1003705172525498": {
+  "tm": {
+   "id": "320324929225564160",
+   "sport": "Labdarúgás",
+   "name": "La Chaux-de-fonds - CS Chenois",
+   "home": "La Chaux-de-fonds",
+   "away": "CS Chenois",
+   "home_pid": "977010",
+   "away_pid": "176465068331945984",
+   "tournament": "Svájci 4., 1. csoport",
+   "category": "Svájc",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T14:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1003705172525498",
+   "startTime": "2026-11-21T14:00:00.000Z",
+   "participant1Name": "FC La Chaux De Fonds",
+   "participant2Name": "CS Chenois",
+   "tournamentId": 37051,
+   "tournamentName": "1. Liga Classic",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -13763,31 +13788,6 @@
    "sportName": "Soccer"
   },
   "score": 0.726
- },
- "id1100064873115950": {
-  "tm": {
-   "id": "320440297144262656",
-   "sport": "Kosárlabda",
-   "name": "Miami (Florida) Hurricanes - Manhattan Jaspers",
-   "home": "Miami (Florida) Hurricanes",
-   "away": "Manhattan Jaspers",
-   "home_pid": "38483",
-   "away_pid": "186961433296162816",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064873115950",
-   "startTime": "2026-11-20T22:00:00.000Z",
-   "participant1Name": "Miami Hurricanes",
-   "participant2Name": "Manhattan Jaspers",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1100064874565020": {
   "tm": {
@@ -16969,6 +16969,31 @@
   },
   "score": 1.0
  },
+ "id1100148472838612": {
+  "tm": {
+   "id": "319354645035163648",
+   "sport": "Kosárlabda",
+   "name": "Zabiny Brno - SBS Ostrava",
+   "home": "Zabiny Brno",
+   "away": "SBS Ostrava",
+   "home_pid": "1988498010828800",
+   "away_pid": "1183840",
+   "tournament": "Cseh bajnokság, női",
+   "category": "Csehország",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T16:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100148472838612",
+   "startTime": "2026-11-21T16:00:00.000Z",
+   "participant1Name": "BK Zabiny Brno",
+   "participant2Name": "SBS Ostrava",
+   "tournamentId": 1484,
+   "tournamentName": "ZBL",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1104880373714212": {
   "tm": {
    "id": "319354627485147136",
@@ -19629,6 +19654,81 @@
   },
   "score": 1.0
  },
+ "id2503634976956946": {
+  "tm": {
+   "id": "320404237447143424",
+   "sport": "Asztalitenisz",
+   "name": "Jiri Louda - Michal Chalupa",
+   "home": "Jiri Louda",
+   "away": "Michal Chalupa",
+   "home_pid": "113870749359558656",
+   "away_pid": "274550333304344576",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T23:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956946",
+   "startTime": "2026-11-20T23:00:00.000Z",
+   "participant1Name": "Louda, Jiri",
+   "participant2Name": "Chalupa, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976957340": {
+  "tm": {
+   "id": "320404524283011072",
+   "sport": "Asztalitenisz",
+   "name": "Jan Szotkowski - Jakub Pilch",
+   "home": "Jan Szotkowski",
+   "away": "Jakub Pilch",
+   "home_pid": "274533435302875136",
+   "away_pid": "274550304688705536",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T23:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976957340",
+   "startTime": "2026-11-20T23:00:00.000Z",
+   "participant1Name": "Szotkowski, Jan",
+   "participant2Name": "Pilch, Jakub",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976957342": {
+  "tm": {
+   "id": "320404094766358528",
+   "sport": "Asztalitenisz",
+   "name": "Daniel Tuma - Patrik Pycha",
+   "home": "Daniel Tuma",
+   "away": "Patrik Pycha",
+   "home_pid": "135496075040575488",
+   "away_pid": "131044481783877632",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T23:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976957342",
+   "startTime": "2026-11-20T23:00:00.000Z",
+   "participant1Name": "Tuma, Daniel",
+   "participant2Name": "Pycha, Patrik",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2702157075326646": {
   "tm": {
    "id": "319988662859276288",
@@ -19763,91 +19863,6 @@
    "name": "Chiavari Nuoto - Trieste",
    "score": 1.0
   }
- },
- "id2102432776912982": {
-  "tm": {
-   "id": "320510639904727040",
-   "sport": "Ökölvívás",
-   "name": "Leonardo Sanchez - Victor Morales Jr",
-   "home": "Leonardo Sanchez",
-   "away": "Victor Morales Jr",
-   "home_pid": "240962502794842112",
-   "away_pid": "214968721806086144",
-   "tournament": "Profi mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "176",
-   "start": "2026-11-20T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2102432776912982",
-   "startTime": "2026-11-20T22:00:00.000Z",
-   "participant1Name": "Sanchez, Leonardo",
-   "participant2Name": "Morales Jr, Victor",
-   "tournamentId": 24327,
-   "tournamentName": "International Matchups",
-   "sportName": "Boxing"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5669856,
-   "name": "Leonardo Sanchez - Victor Morales Jr.",
-   "score": 1.0
-  }
- },
- "id2102432776912984": {
-  "tm": {
-   "id": "320390725366784000",
-   "sport": "Ökölvívás",
-   "name": "Ruslan Abdullaev - Juan Alfredo Meza Angulo",
-   "home": "Ruslan Abdullaev",
-   "away": "Juan Alfredo Meza Angulo",
-   "home_pid": "243095894417338368",
-   "away_pid": "320340446658240512",
-   "tournament": "Profi mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "176",
-   "start": "2026-11-20T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2102432776912984",
-   "startTime": "2026-11-20T22:00:00.000Z",
-   "participant1Name": "Abdullaev, Ruslan",
-   "participant2Name": "Angulo, Juan Meza",
-   "tournamentId": 24327,
-   "tournamentName": "International Matchups",
-   "sportName": "Boxing"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5669860,
-   "name": "Ruslan Abdullaev - J.M. Angulo",
-   "score": 1.0
-  }
- },
- "id2102432776940172": {
-  "tm": {
-   "id": "320340451019268096",
-   "sport": "Ökölvívás",
-   "name": "Javier Meza - Jonathan Figueroa",
-   "home": "Javier Meza",
-   "away": "Jonathan Figueroa",
-   "home_pid": "268338191922237440",
-   "away_pid": "320340413713031168",
-   "tournament": "Profi mérkőzés",
-   "category": "Világ",
-   "tm_sport_id": "176",
-   "start": "2026-11-20T22:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2102432776940172",
-   "startTime": "2026-11-20T22:00:00.000Z",
-   "participant1Name": "Meza, Javier",
-   "participant2Name": "Figueroa, Jonathan",
-   "tournamentId": 24327,
-   "tournamentName": "International Matchups",
-   "sportName": "Boxing"
-  },
-  "score": 1.0
  },
  "id3300031873061644": {
   "tm": {
