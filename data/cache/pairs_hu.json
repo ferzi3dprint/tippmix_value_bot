@@ -1,124 +1,4 @@
 {
- "id1003483473068226": {
-  "tm": {
-   "id": "320239913091014656",
-   "sport": "Labdarúgás",
-   "name": "Teruel - Hercules Alicante",
-   "home": "Teruel",
-   "away": "Hercules Alicante",
-   "home_pid": "77365",
-   "away_pid": "1331",
-   "tournament": "Spanyol 3., 2. csoport",
-   "category": "Spanyolország",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003483473068226",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "CD Teruel",
-   "participant2Name": "Hercules de Alicante CF",
-   "tournamentId": 34834,
-   "tournamentName": "Primera Federacion",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5611449,
-   "name": "Teruel - Hercules",
-   "score": 1.0
-  }
- },
- "id1000004772044408": {
-  "tm": {
-   "id": "319407016249466880",
-   "sport": "Labdarúgás",
-   "name": "Kolding IF - Aalborg",
-   "home": "Kolding IF",
-   "away": "Aalborg",
-   "home_pid": "23257",
-   "away_pid": "142",
-   "tournament": "Dán 2.",
-   "category": "Dánia",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000004772044408",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Kolding IF",
-   "participant2Name": "Aalborg BK",
-   "tournamentId": 47,
-   "tournamentName": "1. Division",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595136,
-   "name": "Kolding IF - Aalborg",
-   "score": 1.0
-  }
- },
- "id1000004772044410": {
-  "tm": {
-   "id": "319407016421433344",
-   "sport": "Labdarúgás",
-   "name": "Aarhus Fremad - Hobro",
-   "home": "Aarhus Fremad",
-   "away": "Hobro",
-   "home_pid": "146",
-   "away_pid": "5185",
-   "tournament": "Dán 2.",
-   "category": "Dánia",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000004772044410",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Aarhus Fremad",
-   "participant2Name": "Hobro IK",
-   "tournamentId": 47,
-   "tournamentName": "1. Division",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595134,
-   "name": "Aarhus Fremad - Hobro",
-   "score": 1.0
-  }
- },
- "id1000002067015472": {
-  "tm": {
-   "id": "319407015595155456",
-   "sport": "Labdarúgás",
-   "name": "Molde - Bodö/Glimt",
-   "home": "Molde",
-   "away": "Bodö/Glimt",
-   "home_pid": "370",
-   "away_pid": "376",
-   "tournament": "Norvég bajnokság",
-   "category": "Norvégia",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000002067015472",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Molde FK",
-   "participant2Name": "Bodoe/Glimt",
-   "tournamentId": 20,
-   "tournamentName": "Eliteserien",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5583136,
-   "name": "Molde - Bodö/Glimt",
-   "score": 1.0
-  }
- },
  "id1000111773831616": {
   "tm": {
    "id": "320283818008322048",
@@ -309,31 +189,6 @@
   },
   "score": 1.0
  },
- "id1000159273685000": {
-  "tm": {
-   "id": "320397720965685248",
-   "sport": "Labdarúgás",
-   "name": "U21Burnley - U21Fleetwood",
-   "home": "U21Burnley",
-   "away": "U21Fleetwood",
-   "home_pid": "178674655562878976",
-   "away_pid": "212388216208248832",
-   "tournament": "U21 Angol Premier League Cup",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000159273685000",
-   "startTime": "2026-11-20T19:00:00.000Z",
-   "participant1Name": "Burnley FC",
-   "participant2Name": "Fleetwood Town",
-   "tournamentId": 1592,
-   "tournamentName": "Premier League Cup",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000159273685106": {
   "tm": {
    "id": "320397720887042048",
@@ -353,6 +208,31 @@
    "startTime": "2026-11-20T19:00:00.000Z",
    "participant1Name": "Leeds United",
    "participant2Name": "Charlton Athletic",
+   "tournamentId": 1592,
+   "tournamentName": "Premier League Cup",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000159273685000": {
+  "tm": {
+   "id": "320397720965685248",
+   "sport": "Labdarúgás",
+   "name": "U21Burnley - U21Fleetwood",
+   "home": "U21Burnley",
+   "away": "U21Fleetwood",
+   "home_pid": "178674655562878976",
+   "away_pid": "212388216208248832",
+   "tournament": "U21 Angol Premier League Cup",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-20T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000159273685000",
+   "startTime": "2026-11-20T19:00:00.000Z",
+   "participant1Name": "Burnley FC",
+   "participant2Name": "Fleetwood Town",
    "tournamentId": 1592,
    "tournamentName": "Premier League Cup",
    "sportName": "Soccer"
@@ -584,36 +464,6 @@
   },
   "score": 1.0
  },
- "id1000013172044830": {
-  "tm": {
-   "id": "319407721107496960",
-   "sport": "Labdarúgás",
-   "name": "Almere City - NAC Breda",
-   "home": "Almere City",
-   "away": "NAC Breda",
-   "home_pid": "406940",
-   "away_pid": "1192",
-   "tournament": "Holland 2.",
-   "category": "Hollandia",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000013172044830",
-   "startTime": "2026-11-20T19:00:00.000Z",
-   "participant1Name": "Almere City FC",
-   "participant2Name": "NAC Breda",
-   "tournamentId": 131,
-   "tournamentName": "Eerste Divisie",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595138,
-   "name": "Almere City - NAC Breda",
-   "score": 1.0
-  }
- },
  "id1000013172044832": {
   "tm": {
    "id": "319407720515051520",
@@ -641,6 +491,36 @@
   "cl": {
    "id": 5595139,
    "name": "De Graafschap - Maastricht",
+   "score": 1.0
+  }
+ },
+ "id1000013172044830": {
+  "tm": {
+   "id": "319407721107496960",
+   "sport": "Labdarúgás",
+   "name": "Almere City - NAC Breda",
+   "home": "Almere City",
+   "away": "NAC Breda",
+   "home_pid": "406940",
+   "away_pid": "1192",
+   "tournament": "Holland 2.",
+   "category": "Hollandia",
+   "tm_sport_id": "1",
+   "start": "2026-11-20T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000013172044830",
+   "startTime": "2026-11-20T19:00:00.000Z",
+   "participant1Name": "Almere City FC",
+   "participant2Name": "NAC Breda",
+   "tournamentId": 131,
+   "tournamentName": "Eerste Divisie",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5595138,
+   "name": "Almere City - NAC Breda",
    "score": 1.0
   }
  },
@@ -1429,36 +1309,6 @@
    "score": 1.0
   }
  },
- "id1000025472522180": {
-  "tm": {
-   "id": "319408297621921792",
-   "sport": "Labdarúgás",
-   "name": "Llandudno - Barry Town",
-   "home": "Llandudno",
-   "away": "Barry Town",
-   "home_pid": "3829101939394560",
-   "away_pid": "293442",
-   "tournament": "Walesi bajnokság",
-   "category": "Wales",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T19:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000025472522180",
-   "startTime": "2026-11-20T19:45:00.000Z",
-   "participant1Name": "Llandudno FC",
-   "participant2Name": "Barry Town United FC",
-   "tournamentId": 254,
-   "tournamentName": "Cymru Premier",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595301,
-   "name": "Llandudno - Barry Town",
-   "score": 1.0
-  }
- },
  "id1000025472522172": {
   "tm": {
    "id": "319408297698467840",
@@ -1486,6 +1336,36 @@
   "cl": {
    "id": 5595302,
    "name": "Briton Ferry - Holywell Town",
+   "score": 1.0
+  }
+ },
+ "id1000025472522180": {
+  "tm": {
+   "id": "319408297621921792",
+   "sport": "Labdarúgás",
+   "name": "Llandudno - Barry Town",
+   "home": "Llandudno",
+   "away": "Barry Town",
+   "home_pid": "3829101939394560",
+   "away_pid": "293442",
+   "tournament": "Walesi bajnokság",
+   "category": "Wales",
+   "tm_sport_id": "1",
+   "start": "2026-11-20T19:45:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000025472522180",
+   "startTime": "2026-11-20T19:45:00.000Z",
+   "participant1Name": "Llandudno FC",
+   "participant2Name": "Barry Town United FC",
+   "tournamentId": 254,
+   "tournamentName": "Cymru Premier",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5595301,
+   "name": "Llandudno - Barry Town",
    "score": 1.0
   }
  },
@@ -2149,6 +2029,66 @@
    "score": 1.0
   }
  },
+ "id1004850774827348": {
+  "tm": {
+   "id": "319414799967526912",
+   "sport": "Labdarúgás",
+   "name": "Oakleigh Cannons - Bayswater City",
+   "home": "Oakleigh Cannons",
+   "away": "Bayswater City",
+   "home_pid": "50715",
+   "away_pid": "48661",
+   "tournament": "Ausztrál Championship",
+   "category": "Ausztrália",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T04:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004850774827348",
+   "startTime": "2026-11-21T04:00:00.000Z",
+   "participant1Name": "Oakleigh Cannons",
+   "participant2Name": "Bayswater City",
+   "tournamentId": 48507,
+   "tournamentName": "Australian Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5595617,
+   "name": "Oakleigh Cannons - Bayswater City",
+   "score": 1.0
+  }
+ },
+ "id1004850774827350": {
+  "tm": {
+   "id": "319414799823872000",
+   "sport": "Labdarúgás",
+   "name": "Marconi Stallions - Sydney Olympic",
+   "home": "Marconi Stallions",
+   "away": "Sydney Olympic",
+   "home_pid": "1261",
+   "away_pid": "1268",
+   "tournament": "Ausztrál Championship",
+   "category": "Ausztrália",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T04:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004850774827350",
+   "startTime": "2026-11-21T04:00:00.000Z",
+   "participant1Name": "Marconi Stallions",
+   "participant2Name": "Sydney Olympic FC",
+   "tournamentId": 48507,
+   "tournamentName": "Australian Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5595619,
+   "name": "Marconi Stallions - Sydney Olympic",
+   "score": 1.0
+  }
+ },
  "id1000041076045118": {
   "tm": {
    "id": "319415317761695744",
@@ -2414,36 +2354,6 @@
    "score": 1.0
   }
  },
- "id1000040272151378": {
-  "tm": {
-   "id": "319415317460754432",
-   "sport": "Labdarúgás",
-   "name": "Fujieda MYFC - Imabari",
-   "home": "Fujieda MYFC",
-   "away": "Imabari",
-   "home_pid": "896145",
-   "away_pid": "1465326",
-   "tournament": "Japán 2.",
-   "category": "Japán",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T05:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000040272151378",
-   "startTime": "2026-11-21T05:00:00.000Z",
-   "participant1Name": "Fujieda MYFC",
-   "participant2Name": "FC Imabari",
-   "tournamentId": 402,
-   "tournamentName": "J2 League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595643,
-   "name": "Fujieda MYFC - Imabari",
-   "score": 1.0
-  }
- },
  "id1000040272151382": {
   "tm": {
    "id": "319415316762402816",
@@ -2471,6 +2381,36 @@
   "cl": {
    "id": 5595636,
    "name": "Sagan Tosu - Vegalta Sendai",
+   "score": 1.0
+  }
+ },
+ "id1000040272151378": {
+  "tm": {
+   "id": "319415317460754432",
+   "sport": "Labdarúgás",
+   "name": "Fujieda MYFC - Imabari",
+   "home": "Fujieda MYFC",
+   "away": "Imabari",
+   "home_pid": "896145",
+   "away_pid": "1465326",
+   "tournament": "Japán 2.",
+   "category": "Japán",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T05:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000040272151378",
+   "startTime": "2026-11-21T05:00:00.000Z",
+   "participant1Name": "Fujieda MYFC",
+   "participant2Name": "FC Imabari",
+   "tournamentId": 402,
+   "tournamentName": "J2 League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5595643,
+   "name": "Fujieda MYFC - Imabari",
    "score": 1.0
   }
  },
@@ -4139,36 +4079,6 @@
    "score": 1.0
   }
  },
- "id1000001872340046": {
-  "tm": {
-   "id": "319328714455326720",
-   "sport": "Labdarúgás",
-   "name": "Southampton - Derby County",
-   "home": "Southampton",
-   "away": "Derby County",
-   "home_pid": "15",
-   "away_pid": "6",
-   "tournament": "Angol Liga bajnokság",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000001872340046",
-   "startTime": "2026-11-21T12:30:00.000Z",
-   "participant1Name": "Southampton FC",
-   "participant2Name": "Derby County",
-   "tournamentId": 18,
-   "tournamentName": "Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595797,
-   "name": "Southampton - Derby County",
-   "score": 1.0
-  }
- },
  "id1000001872340042": {
   "tm": {
    "id": "319328776304533504",
@@ -4199,33 +4109,33 @@
    "score": 1.0
   }
  },
- "id1000002472341384": {
+ "id1000001872340046": {
   "tm": {
-   "id": "319420986034298880",
+   "id": "319328714455326720",
    "sport": "Labdarúgás",
-   "name": "Blackpool - Wigan",
-   "home": "Blackpool",
-   "away": "Wigan",
-   "home_pid": "63",
-   "away_pid": "84",
-   "tournament": "Angol Liga 1.",
+   "name": "Southampton - Derby County",
+   "home": "Southampton",
+   "away": "Derby County",
+   "home_pid": "15",
+   "away_pid": "6",
+   "tournament": "Angol Liga bajnokság",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T12:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000002472341384",
+   "fixtureId": "id1000001872340046",
    "startTime": "2026-11-21T12:30:00.000Z",
-   "participant1Name": "Blackpool FC",
-   "participant2Name": "Wigan Athletic",
-   "tournamentId": 24,
-   "tournamentName": "League One",
+   "participant1Name": "Southampton FC",
+   "participant2Name": "Derby County",
+   "tournamentId": 18,
+   "tournamentName": "Championship",
    "sportName": "Soccer"
   },
   "score": 1.0,
   "cl": {
-   "id": 5595793,
-   "name": "Blackpool - Wigan",
+   "id": 5595797,
+   "name": "Southampton - Derby County",
    "score": 1.0
   }
  },
@@ -4256,6 +4166,36 @@
   "cl": {
    "id": 5595794,
    "name": "Reading - Bromley",
+   "score": 1.0
+  }
+ },
+ "id1000002472341384": {
+  "tm": {
+   "id": "319420986034298880",
+   "sport": "Labdarúgás",
+   "name": "Blackpool - Wigan",
+   "home": "Blackpool",
+   "away": "Wigan",
+   "home_pid": "63",
+   "away_pid": "84",
+   "tournament": "Angol Liga 1.",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T12:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000002472341384",
+   "startTime": "2026-11-21T12:30:00.000Z",
+   "participant1Name": "Blackpool FC",
+   "participant2Name": "Wigan Athletic",
+   "tournamentId": 24,
+   "tournamentName": "League One",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5595793,
+   "name": "Blackpool - Wigan",
    "score": 1.0
   }
  },
@@ -4319,36 +4259,6 @@
    "score": 1.0
   }
  },
- "id1000017372740818": {
-  "tm": {
-   "id": "319420986359357440",
-   "sport": "Labdarúgás",
-   "name": "Tamworth - Eastleigh",
-   "home": "Tamworth",
-   "away": "Eastleigh",
-   "home_pid": "1321",
-   "away_pid": "22908",
-   "tournament": "Angol Nemzeti Liga",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017372740818",
-   "startTime": "2026-11-21T12:30:00.000Z",
-   "participant1Name": "Tamworth FC",
-   "participant2Name": "Eastleigh FC",
-   "tournamentId": 173,
-   "tournamentName": "National League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595799,
-   "name": "Tamworth - Eastleigh",
-   "score": 1.0
-  }
- },
  "id1000017372740816": {
   "tm": {
    "id": "319420985349578752",
@@ -4376,6 +4286,36 @@
   "cl": {
    "id": 5595795,
    "name": "Solihull Moors - Altrincham",
+   "score": 1.0
+  }
+ },
+ "id1000017372740818": {
+  "tm": {
+   "id": "319420986359357440",
+   "sport": "Labdarúgás",
+   "name": "Tamworth - Eastleigh",
+   "home": "Tamworth",
+   "away": "Eastleigh",
+   "home_pid": "1321",
+   "away_pid": "22908",
+   "tournament": "Angol Nemzeti Liga",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T12:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017372740818",
+   "startTime": "2026-11-21T12:30:00.000Z",
+   "participant1Name": "Tamworth FC",
+   "participant2Name": "Eastleigh FC",
+   "tournamentId": 173,
+   "tournamentName": "National League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5595799,
+   "name": "Tamworth - Eastleigh",
    "score": 1.0
   }
  },
@@ -4614,31 +4554,6 @@
   },
   "score": 1.0
  },
- "id1003861372952506": {
-  "tm": {
-   "id": "320321107880124416",
-   "sport": "Labdarúgás",
-   "name": "Grobnican - Trnje",
-   "home": "Grobnican",
-   "away": "Trnje",
-   "home_pid": "5488881854054400",
-   "away_pid": "1239671",
-   "tournament": "Horvát 3.",
-   "category": "Horvátország",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T12:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1003861372952506",
-   "startTime": "2026-11-21T12:30:00.000Z",
-   "participant1Name": "NK Grobnican",
-   "participant2Name": "NK Trnje",
-   "tournamentId": 38613,
-   "tournamentName": "Druga NL",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1003861372952514": {
   "tm": {
    "id": "320321108118151168",
@@ -4689,25 +4604,25 @@
   },
   "score": 1.0
  },
- "id1003861372952510": {
+ "id1003861372952506": {
   "tm": {
-   "id": "320321960427986944",
+   "id": "320321107880124416",
    "sport": "Labdarúgás",
-   "name": "Varteks - Zagora Unesic",
-   "home": "Varteks",
-   "away": "Zagora Unesic",
-   "home_pid": "4128062946543616",
-   "away_pid": "1434398",
+   "name": "Grobnican - Trnje",
+   "home": "Grobnican",
+   "away": "Trnje",
+   "home_pid": "5488881854054400",
+   "away_pid": "1239671",
    "tournament": "Horvát 3.",
    "category": "Horvátország",
    "tm_sport_id": "1",
    "start": "2026-11-21T12:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1003861372952510",
+   "fixtureId": "id1003861372952506",
    "startTime": "2026-11-21T12:30:00.000Z",
-   "participant1Name": "NK Varteks",
-   "participant2Name": "NK Zagora",
+   "participant1Name": "NK Grobnican",
+   "participant2Name": "NK Trnje",
    "tournamentId": 38613,
    "tournamentName": "Druga NL",
    "sportName": "Soccer"
@@ -4733,6 +4648,31 @@
    "startTime": "2026-11-21T12:30:00.000Z",
    "participant1Name": "NK Jarun Zagreb",
    "participant2Name": "NK Hrvatski Dragovoljac",
+   "tournamentId": 38613,
+   "tournamentName": "Druga NL",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1003861372952510": {
+  "tm": {
+   "id": "320321960427986944",
+   "sport": "Labdarúgás",
+   "name": "Varteks - Zagora Unesic",
+   "home": "Varteks",
+   "away": "Zagora Unesic",
+   "home_pid": "4128062946543616",
+   "away_pid": "1434398",
+   "tournament": "Horvát 3.",
+   "category": "Horvátország",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T12:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1003861372952510",
+   "startTime": "2026-11-21T12:30:00.000Z",
+   "participant1Name": "NK Varteks",
+   "participant2Name": "NK Zagora",
    "tournamentId": 38613,
    "tournamentName": "Druga NL",
    "sportName": "Soccer"
@@ -7167,7 +7107,12 @@
    "tournamentName": "Premier League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5596249,
+   "name": "Bournemouth - Nottingham",
+   "score": 1.0
+  }
  },
  "id1000001772221410": {
   "tm": {
@@ -7192,7 +7137,12 @@
    "tournamentName": "Premier League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5596254,
+   "name": "Tottenham - Ipswich",
+   "score": 1.0
+  }
  },
  "id1000001772221400": {
   "tm": {
@@ -7224,6 +7174,36 @@
    "score": 1.0
   }
  },
+ "id1000001872340032": {
+  "tm": {
+   "id": "319328791200604160",
+   "sport": "Labdarúgás",
+   "name": "Bolton - Portsmouth",
+   "home": "Bolton",
+   "away": "Portsmouth",
+   "home_pid": "42",
+   "away_pid": "54",
+   "tournament": "Angol Liga bajnokság",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000001872340032",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Bolton Wanderers",
+   "participant2Name": "Portsmouth FC",
+   "tournamentId": 18,
+   "tournamentName": "Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5596263,
+   "name": "Bolton - Portsmouth",
+   "score": 1.0
+  }
+ },
  "id1000001872340052": {
   "tm": {
    "id": "319328913549500416",
@@ -7251,6 +7231,36 @@
   "cl": {
    "id": 5596270,
    "name": "West Ham - Preston",
+   "score": 1.0
+  }
+ },
+ "id1000001872340054": {
+  "tm": {
+   "id": "319328913676378112",
+   "sport": "Labdarúgás",
+   "name": "Wolverhampton - Charlton",
+   "home": "Wolverhampton",
+   "away": "Charlton",
+   "home_pid": "62",
+   "away_pid": "43",
+   "tournament": "Angol Liga bajnokság",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000001872340054",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Wolverhampton Wanderers",
+   "participant2Name": "Charlton Athletic",
+   "tournamentId": 18,
+   "tournamentName": "Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5596258,
+   "name": "Wolverhampton - Charlton",
    "score": 1.0
   }
  },
@@ -7314,36 +7324,6 @@
    "score": 1.0
   }
  },
- "id1000001872340054": {
-  "tm": {
-   "id": "319328913676378112",
-   "sport": "Labdarúgás",
-   "name": "Wolverhampton - Charlton",
-   "home": "Wolverhampton",
-   "away": "Charlton",
-   "home_pid": "62",
-   "away_pid": "43",
-   "tournament": "Angol Liga bajnokság",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000001872340054",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Wolverhampton Wanderers",
-   "participant2Name": "Charlton Athletic",
-   "tournamentId": 18,
-   "tournamentName": "Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5596258,
-   "name": "Wolverhampton - Charlton",
-   "score": 1.0
-  }
- },
  "id1000001872340044": {
   "tm": {
    "id": "319328776382128128",
@@ -7401,36 +7381,6 @@
   "cl": {
    "id": 5596279,
    "name": "Middlesbrough - Bristol City",
-   "score": 1.0
-  }
- },
- "id1000001872340032": {
-  "tm": {
-   "id": "319328791200604160",
-   "sport": "Labdarúgás",
-   "name": "Bolton - Portsmouth",
-   "home": "Bolton",
-   "away": "Portsmouth",
-   "home_pid": "42",
-   "away_pid": "54",
-   "tournament": "Angol Liga bajnokság",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000001872340032",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Bolton Wanderers",
-   "participant2Name": "Portsmouth FC",
-   "tournamentId": 18,
-   "tournamentName": "Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5596263,
-   "name": "Bolton - Portsmouth",
    "score": 1.0
   }
  },
@@ -7764,36 +7714,6 @@
    "score": 1.0
   }
  },
- "id1000002572342394": {
-  "tm": {
-   "id": "319422865857388544",
-   "sport": "Labdarúgás",
-   "name": "Grimsby - Rotherham",
-   "home": "Grimsby",
-   "away": "Rotherham",
-   "home_pid": "47",
-   "away_pid": "105",
-   "tournament": "Angol Liga 2.",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000002572342394",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Grimsby Town",
-   "participant2Name": "Rotherham United",
-   "tournamentId": 25,
-   "tournamentName": "League Two",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5596245,
-   "name": "Grimsby - Rotherham",
-   "score": 1.0
-  }
- },
  "id1000002572342388": {
   "tm": {
    "id": "319422866258993152",
@@ -7821,6 +7741,36 @@
   "cl": {
    "id": 5596280,
    "name": "Chesterfield - Shrewsbury",
+   "score": 1.0
+  }
+ },
+ "id1000002572342394": {
+  "tm": {
+   "id": "319422865857388544",
+   "sport": "Labdarúgás",
+   "name": "Grimsby - Rotherham",
+   "home": "Grimsby",
+   "away": "Rotherham",
+   "home_pid": "47",
+   "away_pid": "105",
+   "tournament": "Angol Liga 2.",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000002572342394",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Grimsby Town",
+   "participant2Name": "Rotherham United",
+   "tournamentId": 25,
+   "tournamentName": "League Two",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5596245,
+   "name": "Grimsby - Rotherham",
    "score": 1.0
   }
  },
@@ -8034,36 +7984,6 @@
    "score": 1.0
   }
  },
- "id1000017372740834": {
-  "tm": {
-   "id": "319422865597341696",
-   "sport": "Labdarúgás",
-   "name": "Worthing - Harrogate Town",
-   "home": "Worthing",
-   "away": "Harrogate Town",
-   "home_pid": "1313",
-   "away_pid": "6737",
-   "tournament": "Angol Nemzeti Liga",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017372740834",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Worthing FC",
-   "participant2Name": "Harrogate Town",
-   "tournamentId": 173,
-   "tournamentName": "National League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5596256,
-   "name": "Worthing - Harrogate Town",
-   "score": 1.0
-  }
- },
  "id1000017372740820": {
   "tm": {
    "id": "319422867854925824",
@@ -8091,6 +8011,36 @@
   "cl": {
    "id": 5596282,
    "name": "Aldershot - Scunthorpe",
+   "score": 1.0
+  }
+ },
+ "id1000017372740834": {
+  "tm": {
+   "id": "319422865597341696",
+   "sport": "Labdarúgás",
+   "name": "Worthing - Harrogate Town",
+   "home": "Worthing",
+   "away": "Harrogate Town",
+   "home_pid": "1313",
+   "away_pid": "6737",
+   "tournament": "Angol Nemzeti Liga",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017372740834",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Worthing FC",
+   "participant2Name": "Harrogate Town",
+   "tournamentId": 173,
+   "tournamentName": "National League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5596256,
+   "name": "Worthing - Harrogate Town",
    "score": 1.0
   }
  },
@@ -8294,6 +8244,31 @@
   },
   "score": 1.0
  },
+ "id1000017472758330": {
+  "tm": {
+   "id": "319423066878844928",
+   "sport": "Labdarúgás",
+   "name": "Maidstone United - Farnham Town",
+   "home": "Maidstone United",
+   "away": "Farnham Town",
+   "home_pid": "610874",
+   "away_pid": "214302986575433728",
+   "tournament": "Angol Nemzeti Liga 2., Dél",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017472758330",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Maidstone United FC",
+   "participant2Name": "Farnham Town",
+   "tournamentId": 174,
+   "tournamentName": "National League South",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000017472758320": {
   "tm": {
    "id": "319423066401742848",
@@ -8338,31 +8313,6 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Walton and Hersham FC",
    "participant2Name": "Chelmsford City",
-   "tournamentId": 174,
-   "tournamentName": "National League South",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000017472758330": {
-  "tm": {
-   "id": "319423066878844928",
-   "sport": "Labdarúgás",
-   "name": "Maidstone United - Farnham Town",
-   "home": "Maidstone United",
-   "away": "Farnham Town",
-   "home_pid": "610874",
-   "away_pid": "214302986575433728",
-   "tournament": "Angol Nemzeti Liga 2., Dél",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017472758330",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Maidstone United FC",
-   "participant2Name": "Farnham Town",
    "tournamentId": 174,
    "tournamentName": "National League South",
    "sportName": "Soccer"
@@ -8444,31 +8394,6 @@
   },
   "score": 1.0
  },
- "id1000017472758324": {
-  "tm": {
-   "id": "319423068452757504",
-   "sport": "Labdarúgás",
-   "name": "Dover Athletic - Horsham",
-   "home": "Dover Athletic",
-   "away": "Horsham",
-   "home_pid": "963",
-   "away_pid": "1339133",
-   "tournament": "Angol Nemzeti Liga 2., Dél",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017472758324",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Dover Athletic FC",
-   "participant2Name": "Horsham FC",
-   "tournamentId": 174,
-   "tournamentName": "National League South",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000017472758322": {
   "tm": {
    "id": "319423062873284608",
@@ -8519,27 +8444,27 @@
   },
   "score": 1.0
  },
- "id1000017672759472": {
+ "id1000017472758324": {
   "tm": {
-   "id": "319423064999796736",
+   "id": "319423068452757504",
    "sport": "Labdarúgás",
-   "name": "Chester City - Macclesfield",
-   "home": "Chester City",
-   "away": "Macclesfield",
-   "home_pid": "587310",
-   "away_pid": "99",
-   "tournament": "Angol Nemzeti Liga 2., Észak",
+   "name": "Dover Athletic - Horsham",
+   "home": "Dover Athletic",
+   "away": "Horsham",
+   "home_pid": "963",
+   "away_pid": "1339133",
+   "tournament": "Angol Nemzeti Liga 2., Dél",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000017672759472",
+   "fixtureId": "id1000017472758324",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Chester FC",
-   "participant2Name": "Macclesfield FC",
-   "tournamentId": 176,
-   "tournamentName": "National League North",
+   "participant1Name": "Dover Athletic FC",
+   "participant2Name": "Horsham FC",
+   "tournamentId": 174,
+   "tournamentName": "National League South",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -8563,6 +8488,56 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Spalding United",
    "participant2Name": "Merthyr Town",
+   "tournamentId": 176,
+   "tournamentName": "National League North",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000017672759480": {
+  "tm": {
+   "id": "319423067755454464",
+   "sport": "Labdarúgás",
+   "name": "Oxford City - Scarborough Athletic",
+   "home": "Oxford City",
+   "away": "Scarborough Athletic",
+   "home_pid": "1315",
+   "away_pid": "1001125",
+   "tournament": "Angol Nemzeti Liga 2., Észak",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017672759480",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Oxford City",
+   "participant2Name": "Scarborough Athletic",
+   "tournamentId": 176,
+   "tournamentName": "National League North",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000017672759472": {
+  "tm": {
+   "id": "319423064999796736",
+   "sport": "Labdarúgás",
+   "name": "Chester City - Macclesfield",
+   "home": "Chester City",
+   "away": "Macclesfield",
+   "home_pid": "587310",
+   "away_pid": "99",
+   "tournament": "Angol Nemzeti Liga 2., Észak",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017672759472",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Chester FC",
+   "participant2Name": "Macclesfield FC",
    "tournamentId": 176,
    "tournamentName": "National League North",
    "sportName": "Soccer"
@@ -8594,25 +8569,25 @@
   },
   "score": 1.0
  },
- "id1000017672759480": {
+ "id1000017672759474": {
   "tm": {
-   "id": "319423067755454464",
+   "id": "319423063116554240",
    "sport": "Labdarúgás",
-   "name": "Oxford City - Scarborough Athletic",
-   "home": "Oxford City",
-   "away": "Scarborough Athletic",
-   "home_pid": "1315",
-   "away_pid": "1001125",
+   "name": "Hebburn Town - Marine",
+   "home": "Hebburn Town",
+   "away": "Marine",
+   "home_pid": "136845969726689280",
+   "away_pid": "3506",
    "tournament": "Angol Nemzeti Liga 2., Észak",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000017672759480",
+   "fixtureId": "id1000017672759474",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Oxford City",
-   "participant2Name": "Scarborough Athletic",
+   "participant1Name": "Hebburn Town",
+   "participant2Name": "Marine FC",
    "tournamentId": 176,
    "tournamentName": "National League North",
    "sportName": "Soccer"
@@ -8694,31 +8669,6 @@
   },
   "score": 1.0
  },
- "id1000017672759488": {
-  "tm": {
-   "id": "319423060393402368",
-   "sport": "Labdarúgás",
-   "name": "Spennymoor Town - Harborough Town",
-   "home": "Spennymoor Town",
-   "away": "Harborough Town",
-   "home_pid": "615483",
-   "away_pid": "142629086584426496",
-   "tournament": "Angol Nemzeti Liga 2., Észak",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017672759488",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Spennymoor Town FC",
-   "participant2Name": "Harborough Town FC",
-   "tournamentId": 176,
-   "tournamentName": "National League North",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000017672759478": {
   "tm": {
    "id": "319423060313710592",
@@ -8744,31 +8694,6 @@
   },
   "score": 1.0
  },
- "id1000017672759474": {
-  "tm": {
-   "id": "319423063116554240",
-   "sport": "Labdarúgás",
-   "name": "Hebburn Town - Marine",
-   "home": "Hebburn Town",
-   "away": "Marine",
-   "home_pid": "136845969726689280",
-   "away_pid": "3506",
-   "tournament": "Angol Nemzeti Liga 2., Észak",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000017672759474",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Hebburn Town",
-   "participant2Name": "Marine FC",
-   "tournamentId": 176,
-   "tournamentName": "National League North",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000017672759484": {
   "tm": {
    "id": "319423063907180544",
@@ -8788,6 +8713,31 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Southport FC",
    "participant2Name": "Brackley Town FC",
+   "tournamentId": 176,
+   "tournamentName": "National League North",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000017672759488": {
+  "tm": {
+   "id": "319423060393402368",
+   "sport": "Labdarúgás",
+   "name": "Spennymoor Town - Harborough Town",
+   "home": "Spennymoor Town",
+   "away": "Harborough Town",
+   "home_pid": "615483",
+   "away_pid": "142629086584426496",
+   "tournament": "Angol Nemzeti Liga 2., Észak",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000017672759488",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Spennymoor Town FC",
+   "participant2Name": "Harborough Town FC",
    "tournamentId": 176,
    "tournamentName": "National League North",
    "sportName": "Soccer"
@@ -8842,7 +8792,12 @@
    "tournamentName": "Premiere Ligue, Women",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5596378,
+   "name": "Lens - Montpellier",
+   "score": 1.0
+  }
  },
  "id1000003872366462": {
   "tm": {
@@ -9989,6 +9944,56 @@
    "score": 1.0
   }
  },
+ "id1000063074079786": {
+  "tm": {
+   "id": "320393402552229888",
+   "sport": "Labdarúgás",
+   "name": "Vittoriosa Stars - Victoria Hotspurs",
+   "home": "Vittoriosa Stars",
+   "away": "Victoria Hotspurs",
+   "home_pid": "280347308810440704",
+   "away_pid": "261344240152358912",
+   "tournament": "Máltai 2.",
+   "category": "Málta",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000063074079786",
+   "startTime": "2026-11-21T15:30:00.000Z",
+   "participant1Name": "Vittoriosa Stars",
+   "participant2Name": "Victoria Hotspurs FC",
+   "tournamentId": 630,
+   "tournamentName": "Challenge League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000063074079788": {
+  "tm": {
+   "id": "320393457332985856",
+   "sport": "Labdarúgás",
+   "name": "Zurrieq - Zebbug Rangers FC",
+   "home": "Zurrieq",
+   "away": "Zebbug Rangers FC",
+   "home_pid": "184953681520676864",
+   "away_pid": "789500",
+   "tournament": "Máltai 2.",
+   "category": "Málta",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000063074079788",
+   "startTime": "2026-11-21T15:30:00.000Z",
+   "participant1Name": "Zurrieq",
+   "participant2Name": "Zebbug Rangers FC",
+   "tournamentId": 630,
+   "tournamentName": "Challenge League",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000015272388106": {
   "tm": {
    "id": "318759232849649664",
@@ -10562,7 +10567,12 @@
    "tournamentName": "Premiere Ligue, Women",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5596617,
+   "name": "Le Havre - Nantes",
+   "score": 1.0
+  }
  },
  "id1000017173160472": {
   "tm": {
@@ -11304,6 +11314,31 @@
    "score": 1.0
   }
  },
+ "id1000134776427142": {
+  "tm": {
+   "id": "319554530201116672",
+   "sport": "Labdarúgás",
+   "name": "Deportivo Camioneros - Villa Dalmine",
+   "home": "Deportivo Camioneros",
+   "away": "Villa Dalmine",
+   "home_pid": "1514259",
+   "away_pid": "370496",
+   "tournament": "Argentin 3., Metropolitana",
+   "category": "Argentína",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000134776427142",
+   "startTime": "2026-11-21T18:00:00.000Z",
+   "participant1Name": "Deportivo Camioneros",
+   "participant2Name": "Villa Dalmine",
+   "tournamentId": 1347,
+   "tournamentName": "Primera B",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000015576649190": {
   "tm": {
    "id": "319589924090224640",
@@ -11479,31 +11514,6 @@
    "score": 1.0
   }
  },
- "id1004337172533352": {
-  "tm": {
-   "id": "319426097466908672",
-   "sport": "Labdarúgás",
-   "name": "Mandel United - Royal Knokke FC",
-   "home": "Mandel United",
-   "away": "Royal Knokke FC",
-   "home_pid": "280556550585716736",
-   "away_pid": "1299612",
-   "tournament": "Belga 3., Flandria",
-   "category": "Belgium",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004337172533352",
-   "startTime": "2026-11-21T19:00:00.000Z",
-   "participant1Name": "KFC Mandel United",
-   "participant2Name": "Royal Knokke FC",
-   "tournamentId": 43371,
-   "tournamentName": "Nationale 1 VV",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1004337172533350": {
   "tm": {
    "id": "319426097301233664",
@@ -11523,6 +11533,31 @@
    "startTime": "2026-11-21T19:00:00.000Z",
    "participant1Name": "KVC Houtvenne",
    "participant2Name": "SK Roeselare",
+   "tournamentId": 43371,
+   "tournamentName": "Nationale 1 VV",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004337172533352": {
+  "tm": {
+   "id": "319426097466908672",
+   "sport": "Labdarúgás",
+   "name": "Mandel United - Royal Knokke FC",
+   "home": "Mandel United",
+   "away": "Royal Knokke FC",
+   "home_pid": "280556550585716736",
+   "away_pid": "1299612",
+   "tournament": "Belga 3., Flandria",
+   "category": "Belgium",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004337172533352",
+   "startTime": "2026-11-21T19:00:00.000Z",
+   "participant1Name": "KFC Mandel United",
+   "participant2Name": "Royal Knokke FC",
    "tournamentId": 43371,
    "tournamentName": "Nationale 1 VV",
    "sportName": "Soccer"
@@ -12589,6 +12624,31 @@
   },
   "score": 1.0
  },
+ "id1004795274559458": {
+  "tm": {
+   "id": "320321292034187264",
+   "sport": "Labdarúgás",
+   "name": "Veszprém - Pápa",
+   "home": "Veszprém",
+   "away": "Pápa",
+   "home_pid": "819576395034624",
+   "away_pid": "6305319365525504",
+   "tournament": "NB III",
+   "category": "Magyarország",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T12:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004795274559458",
+   "startTime": "2026-11-21T12:00:00.000Z",
+   "participant1Name": "Veszprem FC",
+   "participant2Name": "Papai Perutz FC",
+   "tournamentId": 47952,
+   "tournamentName": "NB III",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1004795272880070": {
   "tm": {
    "id": "320321265405599744",
@@ -12608,31 +12668,6 @@
    "startTime": "2026-11-21T12:00:00.000Z",
    "participant1Name": "III Keruleti Tve",
    "participant2Name": "Hodmezovasarhelyi FC",
-   "tournamentId": 47952,
-   "tournamentName": "NB III",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1004795272880652": {
-  "tm": {
-   "id": "320327895219249152",
-   "sport": "Labdarúgás",
-   "name": "MTK 2 - Siófok",
-   "home": "MTK 2",
-   "away": "Siófok",
-   "home_pid": "145920145573859328",
-   "away_pid": "1431",
-   "tournament": "NB III",
-   "category": "Magyarország",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004795272880652",
-   "startTime": "2026-11-21T12:00:00.000Z",
-   "participant1Name": "MTK Budapest II",
-   "participant2Name": "BFC Siofok",
    "tournamentId": 47952,
    "tournamentName": "NB III",
    "sportName": "Soccer"
@@ -12664,25 +12699,25 @@
   },
   "score": 1.0
  },
- "id1004795274559458": {
+ "id1004795272880652": {
   "tm": {
-   "id": "320321292034187264",
+   "id": "320327895219249152",
    "sport": "Labdarúgás",
-   "name": "Veszprém - Pápa",
-   "home": "Veszprém",
-   "away": "Pápa",
-   "home_pid": "819576395034624",
-   "away_pid": "6305319365525504",
+   "name": "MTK 2 - Siófok",
+   "home": "MTK 2",
+   "away": "Siófok",
+   "home_pid": "145920145573859328",
+   "away_pid": "1431",
    "tournament": "NB III",
    "category": "Magyarország",
    "tm_sport_id": "1",
    "start": "2026-11-21T12:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1004795274559458",
+   "fixtureId": "id1004795272880652",
    "startTime": "2026-11-21T12:00:00.000Z",
-   "participant1Name": "Veszprem FC",
-   "participant2Name": "Papai Perutz FC",
+   "participant1Name": "MTK Budapest II",
+   "participant2Name": "BFC Siofok",
    "tournamentId": 47952,
    "tournamentName": "NB III",
    "sportName": "Soccer"
@@ -12758,6 +12793,31 @@
    "startTime": "2026-11-21T13:00:00.000Z",
    "participant1Name": "Bicskei Tc",
    "participant2Name": "FC Tatabanya",
+   "tournamentId": 47952,
+   "tournamentName": "NB III",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1004795272880690": {
+  "tm": {
+   "id": "320326035766845440",
+   "sport": "Labdarúgás",
+   "name": "Pécsi MFC - Sárbogárd",
+   "home": "Pécsi MFC",
+   "away": "Sárbogárd",
+   "home_pid": "1501030",
+   "away_pid": "309610672996028416",
+   "tournament": "NB III",
+   "category": "Magyarország",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T16:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004795272880690",
+   "startTime": "2026-11-21T16:00:00.000Z",
+   "participant1Name": "Pecsi MFC",
+   "participant2Name": "Sarbogard SE",
    "tournamentId": 47952,
    "tournamentName": "NB III",
    "sportName": "Soccer"
@@ -12844,6 +12904,31 @@
   },
   "score": 1.0
  },
+ "id1000113173026130": {
+  "tm": {
+   "id": "319423065816637440",
+   "sport": "Labdarúgás",
+   "name": "St. Albans City - AFC Whyteleafe",
+   "home": "St. Albans City",
+   "away": "AFC Whyteleafe",
+   "home_pid": "3483",
+   "away_pid": "269842478626115584",
+   "tournament": "Angol Isthmian Premier Liga",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000113173026130",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "St. Albans City",
+   "participant2Name": "AFC Whyteleafe",
+   "tournamentId": 1131,
+   "tournamentName": "Isthmian League, Pr. Div",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000113173026118": {
   "tm": {
    "id": "319423063716339712",
@@ -12888,6 +12973,31 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Dartford FC",
    "participant2Name": "Leatherhead FC",
+   "tournamentId": 1131,
+   "tournamentName": "Isthmian League, Pr. Div",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000113173026116": {
+  "tm": {
+   "id": "319423062043860992",
+   "sport": "Labdarúgás",
+   "name": "Carshalton Athletic - Aveley",
+   "home": "Carshalton Athletic",
+   "away": "Aveley",
+   "home_pid": "6731",
+   "away_pid": "9037",
+   "tournament": "Angol Isthmian Premier Liga",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000113173026116",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Carshalton Athletic FC",
+   "participant2Name": "Aveley FC",
    "tournamentId": 1131,
    "tournamentName": "Isthmian League, Pr. Div",
    "sportName": "Soccer"
@@ -12969,31 +13079,6 @@
   },
   "score": 1.0
  },
- "id1000113173026116": {
-  "tm": {
-   "id": "319423062043860992",
-   "sport": "Labdarúgás",
-   "name": "Carshalton Athletic - Aveley",
-   "home": "Carshalton Athletic",
-   "away": "Aveley",
-   "home_pid": "6731",
-   "away_pid": "9037",
-   "tournament": "Angol Isthmian Premier Liga",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000113173026116",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Carshalton Athletic FC",
-   "participant2Name": "Aveley FC",
-   "tournamentId": 1131,
-   "tournamentName": "Isthmian League, Pr. Div",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000113173026124": {
   "tm": {
    "id": "319423067586633728",
@@ -13013,31 +13098,6 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Dulwich Hamlet",
    "participant2Name": "Welling United FC",
-   "tournamentId": 1131,
-   "tournamentName": "Isthmian League, Pr. Div",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000113173026130": {
-  "tm": {
-   "id": "319423065816637440",
-   "sport": "Labdarúgás",
-   "name": "St. Albans City - AFC Whyteleafe",
-   "home": "St. Albans City",
-   "away": "AFC Whyteleafe",
-   "home_pid": "3483",
-   "away_pid": "269842478626115584",
-   "tournament": "Angol Isthmian Premier Liga",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000113173026130",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "St. Albans City",
-   "participant2Name": "AFC Whyteleafe",
    "tournamentId": 1131,
    "tournamentName": "Isthmian League, Pr. Div",
    "sportName": "Soccer"
@@ -13194,31 +13254,6 @@
   },
   "score": 1.0
  },
- "id1002470273218546": {
-  "tm": {
-   "id": "320216718133764096",
-   "sport": "Labdarúgás",
-   "name": "U19Sandhausen - U19Augsburg",
-   "home": "U19Sandhausen",
-   "away": "U19Augsburg",
-   "home_pid": "2713923328016384",
-   "away_pid": "785265",
-   "tournament": "U19 Bundesliga",
-   "category": "Németország",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T10:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002470273218546",
-   "startTime": "2026-11-21T10:00:00.000Z",
-   "participant1Name": "SV Sandhausen",
-   "participant2Name": "FC Augsburg",
-   "tournamentId": 24702,
-   "tournamentName": "U19 DFB Nachwuchsliga",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002470273218078": {
   "tm": {
    "id": "320216718523834368",
@@ -13238,6 +13273,31 @@
    "startTime": "2026-11-21T10:00:00.000Z",
    "participant1Name": "SV Babelsberg 03",
    "participant2Name": "Hallescher FC",
+   "tournamentId": 24702,
+   "tournamentName": "U19 DFB Nachwuchsliga",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002470273218546": {
+  "tm": {
+   "id": "320216718133764096",
+   "sport": "Labdarúgás",
+   "name": "U19Sandhausen - U19Augsburg",
+   "home": "U19Sandhausen",
+   "away": "U19Augsburg",
+   "home_pid": "2713923328016384",
+   "away_pid": "785265",
+   "tournament": "U19 Bundesliga",
+   "category": "Németország",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T10:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002470273218546",
+   "startTime": "2026-11-21T10:00:00.000Z",
+   "participant1Name": "SV Sandhausen",
+   "participant2Name": "FC Augsburg",
    "tournamentId": 24702,
    "tournamentName": "U19 DFB Nachwuchsliga",
    "sportName": "Soccer"
@@ -13338,31 +13398,6 @@
    "startTime": "2026-11-21T12:00:00.000Z",
    "participant1Name": "SC Paderborn 07",
    "participant2Name": "SV Meppen",
-   "tournamentId": 24702,
-   "tournamentName": "U19 DFB Nachwuchsliga",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002470273218548": {
-  "tm": {
-   "id": "320216673147756544",
-   "sport": "Labdarúgás",
-   "name": "U19Stuttgarter Kickers - U19Freiburg",
-   "home": "U19Stuttgarter Kickers",
-   "away": "U19Freiburg",
-   "home_pid": "146198690813497344",
-   "away_pid": "598682",
-   "tournament": "U19 Bundesliga",
-   "category": "Németország",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T12:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002470273218548",
-   "startTime": "2026-11-21T12:00:00.000Z",
-   "participant1Name": "Stuttgarter Kickers",
-   "participant2Name": "SC Freiburg",
    "tournamentId": 24702,
    "tournamentName": "U19 DFB Nachwuchsliga",
    "sportName": "Soccer"
@@ -13544,31 +13579,6 @@
   },
   "score": 1.0
  },
- "id1000134776427142": {
-  "tm": {
-   "id": "319554530201116672",
-   "sport": "Labdarúgás",
-   "name": "Deportivo Camioneros - Villa Dalmine",
-   "home": "Deportivo Camioneros",
-   "away": "Villa Dalmine",
-   "home_pid": "1514259",
-   "away_pid": "370496",
-   "tournament": "Argentin 3., Metropolitana",
-   "category": "Argentína",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000134776427142",
-   "startTime": "2026-11-21T18:00:00.000Z",
-   "participant1Name": "Deportivo Camioneros",
-   "participant2Name": "Villa Dalmine",
-   "tournamentId": 1347,
-   "tournamentName": "Primera B",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1005381675478612": {
   "tm": {
    "id": "320387126047875072",
@@ -13669,52 +13679,27 @@
   },
   "score": 1.0
  },
- "id1000063074079788": {
+ "id1005377675481048": {
   "tm": {
-   "id": "320393457332985856",
+   "id": "320405943623950336",
    "sport": "Labdarúgás",
-   "name": "Zurrieq - Zebbug Rangers FC",
-   "home": "Zurrieq",
-   "away": "Zebbug Rangers FC",
-   "home_pid": "184953681520676864",
-   "away_pid": "789500",
-   "tournament": "Máltai 2.",
-   "category": "Málta",
+   "name": "U19Juarez - U19Atlas",
+   "home": "U19Juarez",
+   "away": "U19Atlas",
+   "home_pid": "246963009639542784",
+   "away_pid": "246904834531913728",
+   "tournament": "U19 Mexikói bajnokság",
+   "category": "Mexikó",
    "tm_sport_id": "1",
-   "start": "2026-11-21T15:30:00+00:00"
+   "start": "2026-11-20T18:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000063074079788",
-   "startTime": "2026-11-21T15:30:00.000Z",
-   "participant1Name": "Zurrieq",
-   "participant2Name": "Zebbug Rangers FC",
-   "tournamentId": 630,
-   "tournamentName": "Challenge League",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000063074079786": {
-  "tm": {
-   "id": "320393402552229888",
-   "sport": "Labdarúgás",
-   "name": "Vittoriosa Stars - Victoria Hotspurs",
-   "home": "Vittoriosa Stars",
-   "away": "Victoria Hotspurs",
-   "home_pid": "280347308810440704",
-   "away_pid": "261344240152358912",
-   "tournament": "Máltai 2.",
-   "category": "Málta",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000063074079786",
-   "startTime": "2026-11-21T15:30:00.000Z",
-   "participant1Name": "Vittoriosa Stars",
-   "participant2Name": "Victoria Hotspurs FC",
-   "tournamentId": 630,
-   "tournamentName": "Challenge League",
+   "fixtureId": "id1005377675481048",
+   "startTime": "2026-11-20T18:30:00.000Z",
+   "participant1Name": "FC Juarez",
+   "participant2Name": "Atlas FC",
+   "tournamentId": 53776,
+   "tournamentName": "U19 Liga MX",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -13919,66 +13904,6 @@
   },
   "score": 1.0
  },
- "id1004850774827348": {
-  "tm": {
-   "id": "319414799967526912",
-   "sport": "Labdarúgás",
-   "name": "Oakleigh Cannons - Bayswater City",
-   "home": "Oakleigh Cannons",
-   "away": "Bayswater City",
-   "home_pid": "50715",
-   "away_pid": "48661",
-   "tournament": "Ausztrál Championship",
-   "category": "Ausztrália",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T04:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004850774827348",
-   "startTime": "2026-11-21T04:00:00.000Z",
-   "participant1Name": "Oakleigh Cannons",
-   "participant2Name": "Bayswater City",
-   "tournamentId": 48507,
-   "tournamentName": "Australian Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595617,
-   "name": "Oakleigh Cannons - Bayswater City",
-   "score": 1.0
-  }
- },
- "id1004850774827350": {
-  "tm": {
-   "id": "319414799823872000",
-   "sport": "Labdarúgás",
-   "name": "Marconi Stallions - Sydney Olympic",
-   "home": "Marconi Stallions",
-   "away": "Sydney Olympic",
-   "home_pid": "1261",
-   "away_pid": "1268",
-   "tournament": "Ausztrál Championship",
-   "category": "Ausztrália",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T04:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1004850774827350",
-   "startTime": "2026-11-21T04:00:00.000Z",
-   "participant1Name": "Marconi Stallions",
-   "participant2Name": "Sydney Olympic FC",
-   "tournamentId": 48507,
-   "tournamentName": "Australian Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595619,
-   "name": "Marconi Stallions - Sydney Olympic",
-   "score": 1.0
-  }
- },
  "id1000094773296496": {
   "tm": {
    "id": "319417045454233600",
@@ -14028,36 +13953,6 @@
    "sportName": "Soccer"
   },
   "score": 0.972
- },
- "id1000003971925100": {
-  "tm": {
-   "id": "319407016607031296",
-   "sport": "Labdarúgás",
-   "name": "Aarhus GF - Lyngby",
-   "home": "Aarhus GF",
-   "away": "Lyngby",
-   "home_pid": "132",
-   "away_pid": "137",
-   "tournament": "Dán bajnokság",
-   "category": "Dánia",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000003971925100",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "AGF Aarhus",
-   "participant2Name": "Lyngby BK",
-   "tournamentId": 39,
-   "tournamentName": "Superliga",
-   "sportName": "Soccer"
-  },
-  "score": 0.963,
-  "cl": {
-   "id": 5595135,
-   "name": "Aarhus GF - Lyngby",
-   "score": 1.0
-  }
  },
  "id1000062674090510": {
   "tm": {
@@ -14629,36 +14524,6 @@
    "score": 1.0
   }
  },
- "id1000049172680302": {
-  "tm": {
-   "id": "318803542854934528",
-   "sport": "Labdarúgás",
-   "name": "TSV Havelse - Viktoria Köln",
-   "home": "TSV Havelse",
-   "away": "Viktoria Köln",
-   "home_pid": "318352",
-   "away_pid": "589292",
-   "tournament": "Bundesliga 3.",
-   "category": "Németország",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000049172680302",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "TSV Havelse",
-   "participant2Name": "FC Viktoria Cologne",
-   "tournamentId": 491,
-   "tournamentName": "3. Liga",
-   "sportName": "Soccer"
-  },
-  "score": 0.879,
-  "cl": {
-   "id": 5595113,
-   "name": "Havelse - Viktoria Köln",
-   "score": 1.0
-  }
- },
  "id1002746472055316": {
   "tm": {
    "id": "319412287433678848",
@@ -14932,7 +14797,12 @@
    "tournamentName": "Primera Division Women",
    "sportName": "Soccer"
   },
-  "score": 0.86
+  "score": 0.86,
+  "cl": {
+   "id": 5610945,
+   "name": "Eibar - Atl. Madrid",
+   "score": 1.0
+  }
  },
  "id1004834372884882": {
   "tm": {
@@ -15669,31 +15539,6 @@
   },
   "score": 0.742
  },
- "id1000243673019648": {
-  "tm": {
-   "id": "319407208004657152",
-   "sport": "Labdarúgás",
-   "name": "Azam - Singida BS FC",
-   "home": "Azam",
-   "away": "Singida BS FC",
-   "home_pid": "5333217285505024",
-   "away_pid": "179783244750835712",
-   "tournament": "Tanzániai bajnokság",
-   "category": "Tanzánia",
-   "tm_sport_id": "1",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000243673019648",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Azam FC",
-   "participant2Name": "Singida Black Stars SC",
-   "tournamentId": 2436,
-   "tournamentName": "Premier League",
-   "sportName": "Soccer"
-  },
-  "score": 0.734
- },
  "id1000101573576732": {
   "tm": {
    "id": "319420594453028864",
@@ -15746,146 +15591,6 @@
   "cl": {
    "id": 5655221,
    "name": "D. Medvedev - F. Tiafoe",
-   "score": 1.0
-  }
- },
- "id1100148272629064": {
-  "tm": {
-   "id": "319264041907331072",
-   "sport": "Kosárlabda",
-   "name": "Novy Jicin - Vysoka nad Labem",
-   "home": "Novy Jicin",
-   "away": "Vysoka nad Labem",
-   "home_pid": "163233267005440000",
-   "away_pid": "205089265289424896",
-   "tournament": "Cseh 2.",
-   "category": "Csehország",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100148272629064",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "BC Novy Jicin",
-   "participant2Name": "BK Napos Vysoka Nad Labem",
-   "tournamentId": 1482,
-   "tournamentName": "1. Liga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100148272629068": {
-  "tm": {
-   "id": "319264042138017792",
-   "sport": "Kosárlabda",
-   "name": "Olomouc - MS Academy",
-   "home": "Olomouc",
-   "away": "MS Academy",
-   "home_pid": "162031726504419328",
-   "away_pid": "281532483394211840",
-   "tournament": "Cseh 2.",
-   "category": "Csehország",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100148272629068",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Basketbal Olomouc",
-   "participant2Name": "MS Academy",
-   "tournamentId": 1482,
-   "tournamentName": "1. Liga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100057973860952": {
-  "tm": {
-   "id": "320435886911201280",
-   "sport": "Kosárlabda",
-   "name": "Zabok - Zadar",
-   "home": "Zabok",
-   "away": "Zadar",
-   "home_pid": "83863",
-   "away_pid": "36768",
-   "tournament": "Horvát bajnokság",
-   "category": "Horvátország",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100057973860952",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "KK Zabok",
-   "participant2Name": "KK Zadar",
-   "tournamentId": 579,
-   "tournamentName": "Premijer liga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5671309,
-   "name": "Zabok - Zadar",
-   "score": 1.0
-  }
- },
- "id1100057973860826": {
-  "tm": {
-   "id": "319264051776528384",
-   "sport": "Kosárlabda",
-   "name": "KK Samobor - Dubrovnik",
-   "home": "KK Samobor",
-   "away": "Dubrovnik",
-   "home_pid": "198903336769056768",
-   "away_pid": "162688116991377408",
-   "tournament": "Horvát bajnokság",
-   "category": "Horvátország",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100057973860826",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Kk Samobor",
-   "participant2Name": "KK Dubrovnik",
-   "tournamentId": 579,
-   "tournamentName": "Premijer liga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5594956,
-   "name": "Samobor - Dubrovnik",
-   "score": 1.0
-  }
- },
- "id1100027772016402": {
-  "tm": {
-   "id": "319264051037282304",
-   "sport": "Kosárlabda",
-   "name": "Jämtland - Norrköping",
-   "home": "Jämtland",
-   "away": "Norrköping",
-   "home_pid": "10897",
-   "away_pid": "10903",
-   "tournament": "Svéd bajnokság",
-   "category": "Svédország",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T18:04:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100027772016402",
-   "startTime": "2026-11-20T18:04:00.000Z",
-   "participant1Name": "Jamtland Basket",
-   "participant2Name": "Norrkoping Dolphins",
-   "tournamentId": 277,
-   "tournamentName": "SBL",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595159,
-   "name": "Jamtland - Norrköping",
    "score": 1.0
   }
  },
@@ -16369,36 +16074,6 @@
   },
   "score": 1.0
  },
- "id1104437573810016": {
-  "tm": {
-   "id": "319264047261360128",
-   "sport": "Kosárlabda",
-   "name": "Newcastle - Leicester",
-   "home": "Newcastle",
-   "away": "Leicester",
-   "home_pid": "6430",
-   "away_pid": "182606113322094592",
-   "tournament": "Brit Liga",
-   "category": "Anglia",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T19:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104437573810016",
-   "startTime": "2026-11-20T19:30:00.000Z",
-   "participant1Name": "Newcastle Eagles",
-   "participant2Name": "Leicester Riders",
-   "tournamentId": 44375,
-   "tournamentName": "SLB",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595337,
-   "name": "Newcastle - Leicester",
-   "score": 1.0
-  }
- },
  "id1104437573810012": {
   "tm": {
    "id": "319264047370412032",
@@ -16426,6 +16101,36 @@
   "cl": {
    "id": 5595339,
    "name": "Sheffield - London Lions",
+   "score": 1.0
+  }
+ },
+ "id1104437573810016": {
+  "tm": {
+   "id": "319264047261360128",
+   "sport": "Kosárlabda",
+   "name": "Newcastle - Leicester",
+   "home": "Newcastle",
+   "away": "Leicester",
+   "home_pid": "6430",
+   "away_pid": "182606113322094592",
+   "tournament": "Brit Liga",
+   "category": "Anglia",
+   "tm_sport_id": "8",
+   "start": "2026-11-20T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104437573810016",
+   "startTime": "2026-11-20T19:30:00.000Z",
+   "participant1Name": "Newcastle Eagles",
+   "participant2Name": "Leicester Riders",
+   "tournamentId": 44375,
+   "tournamentName": "SLB",
+   "sportName": "Basketball"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5595337,
+   "name": "Newcastle - Leicester",
    "score": 1.0
   }
  },
@@ -16877,7 +16582,12 @@
    "tournamentName": "NCAA, Regular Season",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5595698,
+   "name": "St Mary's Gaels - Saint Louis Billikens",
+   "score": 0.928
+  }
  },
  "id1100151672703232": {
   "tm": {
@@ -16954,31 +16664,6 @@
   },
   "score": 1.0
  },
- "id1100151672703242": {
-  "tm": {
-   "id": "319354598842245120",
-   "sport": "Kosárlabda",
-   "name": "Fukui Blowwinds - Niigata Albirex BB",
-   "home": "Fukui Blowwinds",
-   "away": "Niigata Albirex BB",
-   "home_pid": "217765137096003584",
-   "away_pid": "85121",
-   "tournament": "Japán 2.",
-   "category": "Japán",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T06:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100151672703242",
-   "startTime": "2026-11-21T06:05:00.000Z",
-   "participant1Name": "Fukui Blowwinds",
-   "participant2Name": "Niigata Albirex BB",
-   "tournamentId": 1516,
-   "tournamentName": "B League One",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
  "id1100151672703240": {
   "tm": {
    "id": "319354599219732480",
@@ -17029,25 +16714,25 @@
   },
   "score": 1.0
  },
- "id1100151672703248": {
+ "id1100151672703242": {
   "tm": {
-   "id": "319354598252945408",
+   "id": "319354598842245120",
    "sport": "Kosárlabda",
-   "name": "Kagoshima Rebnise - Kagawa Five Arrows",
-   "home": "Kagoshima Rebnise",
-   "away": "Kagawa Five Arrows",
-   "home_pid": "183025779640160256",
-   "away_pid": "183448955190824960",
+   "name": "Fukui Blowwinds - Niigata Albirex BB",
+   "home": "Fukui Blowwinds",
+   "away": "Niigata Albirex BB",
+   "home_pid": "217765137096003584",
+   "away_pid": "85121",
    "tournament": "Japán 2.",
    "category": "Japán",
    "tm_sport_id": "8",
    "start": "2026-11-21T06:05:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1100151672703248",
+   "fixtureId": "id1100151672703242",
    "startTime": "2026-11-21T06:05:00.000Z",
-   "participant1Name": "Kagoshima Rebnise",
-   "participant2Name": "Kagawa Five Arrows",
+   "participant1Name": "Fukui Blowwinds",
+   "participant2Name": "Niigata Albirex BB",
    "tournamentId": 1516,
    "tournamentName": "B League One",
    "sportName": "Basketball"
@@ -17073,6 +16758,31 @@
    "startTime": "2026-11-21T06:05:00.000Z",
    "participant1Name": "Tokushima Gambarous",
    "participant2Name": "Iwate Big Bulls",
+   "tournamentId": 1516,
+   "tournamentName": "B League One",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100151672703248": {
+  "tm": {
+   "id": "319354598252945408",
+   "sport": "Kosárlabda",
+   "name": "Kagoshima Rebnise - Kagawa Five Arrows",
+   "home": "Kagoshima Rebnise",
+   "away": "Kagawa Five Arrows",
+   "home_pid": "183025779640160256",
+   "away_pid": "183448955190824960",
+   "tournament": "Japán 2.",
+   "category": "Japán",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T06:05:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100151672703248",
+   "startTime": "2026-11-21T06:05:00.000Z",
+   "participant1Name": "Kagoshima Rebnise",
+   "participant2Name": "Kagawa Five Arrows",
    "tournamentId": 1516,
    "tournamentName": "B League One",
    "sportName": "Basketball"
@@ -17694,6 +17404,31 @@
   },
   "score": 1.0
  },
+ "id1103797373841440": {
+  "tm": {
+   "id": "319354638649335808",
+   "sport": "Kosárlabda",
+   "name": "Bernex - SAV Vacallo",
+   "home": "Bernex",
+   "away": "SAV Vacallo",
+   "home_pid": "194314742295326720",
+   "away_pid": "281342629506060288",
+   "tournament": "Svájci 2.",
+   "category": "Svájc",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T14:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1103797373841440",
+   "startTime": "2026-11-21T14:30:00.000Z",
+   "participant1Name": "Bernex Basket",
+   "participant2Name": "Sav Vacallo Basket",
+   "tournamentId": 37973,
+   "tournamentName": "NLB",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1100097573659022": {
   "tm": {
    "id": "319354413772775424",
@@ -17775,6 +17510,31 @@
    "participant2Name": "Panathinaikos BC",
    "tournamentId": 14554,
    "tournamentName": "Womens Basketball League 1",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1102015473113338": {
+  "tm": {
+   "id": "319354589538230272",
+   "sport": "Kosárlabda",
+   "name": "AEPS Mahitesz Piramatiko - Panerythraikosz",
+   "home": "AEPS Mahitesz Piramatiko",
+   "away": "Panerythraikosz",
+   "home_pid": "269583245984796672",
+   "away_pid": "10390347846651904",
+   "tournament": "Görög 2.",
+   "category": "Görögország",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1102015473113338",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "AEPS Machites Peiramatiko",
+   "participant2Name": "Paneruthraikos AS",
+   "tournamentId": 20154,
+   "tournamentName": "Elite League",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -17909,6 +17669,106 @@
   },
   "score": 1.0
  },
+ "id1104111572965700": {
+  "tm": {
+   "id": "319354590037352448",
+   "sport": "Kosárlabda",
+   "name": "Galomar - Illiabum Clube",
+   "home": "Galomar",
+   "away": "Illiabum Clube",
+   "home_pid": "185576429644206080",
+   "away_pid": "182812497241231360",
+   "tournament": "Portugál 2.",
+   "category": "Portugália",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104111572965700",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "AD Galomar",
+   "participant2Name": "Illiabum Clube",
+   "tournamentId": 41115,
+   "tournamentName": "Proliga",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100075475047970": {
+  "tm": {
+   "id": "319354604321054720",
+   "sport": "Kosárlabda",
+   "name": "Mladost Zemun - Borac Zemun",
+   "home": "Mladost Zemun",
+   "away": "Borac Zemun",
+   "home_pid": "1348275",
+   "away_pid": "119569583603503104",
+   "tournament": "Szerb bajnokság",
+   "category": "Szerbia",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100075475047970",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "KK Mladost Zemun",
+   "participant2Name": "KK Borac Zemun",
+   "tournamentId": 754,
+   "tournamentName": "KLS",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1103533074500982": {
+  "tm": {
+   "id": "319354638337908736",
+   "sport": "Kosárlabda",
+   "name": "Ockelbo - Djurgarden",
+   "home": "Ockelbo",
+   "away": "Djurgarden",
+   "home_pid": "184227389576892416",
+   "away_pid": "215101371955957760",
+   "tournament": "Svéd 2.",
+   "category": "Svédország",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1103533074500982",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Ockelbo Basket",
+   "participant2Name": "Djurgarden Basket",
+   "tournamentId": 35330,
+   "tournamentName": "Superettan",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1103533074500980": {
+  "tm": {
+   "id": "319354638427037696",
+   "sport": "Kosárlabda",
+   "name": "Trelleborg Basket - Fryshuset",
+   "home": "Trelleborg Basket",
+   "away": "Fryshuset",
+   "home_pid": "281342886203756544",
+   "away_pid": "7503580191813632",
+   "tournament": "Svéd 2.",
+   "category": "Svédország",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1103533074500980",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Trelleborg Basket",
+   "participant2Name": "Fryshuset Basketbollklubb",
+   "tournamentId": 35330,
+   "tournamentName": "Superettan",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1100051973495542": {
   "tm": {
    "id": "319354622200324096",
@@ -17955,6 +17815,31 @@
    "participant2Name": "KFUM Umea",
    "tournamentId": 277,
    "tournamentName": "SBL",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1104111572965704": {
+  "tm": {
+   "id": "319354590142210048",
+   "sport": "Kosárlabda",
+   "name": "Lusitania - Sangalhos",
+   "home": "Lusitania",
+   "away": "Sangalhos",
+   "home_pid": "54245",
+   "away_pid": "182268418252132352",
+   "tournament": "Portugál 2.",
+   "category": "Portugália",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T15:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104111572965704",
+   "startTime": "2026-11-21T15:15:00.000Z",
+   "participant1Name": "SC Lusitania",
+   "participant2Name": "Sangalhos DC",
+   "tournamentId": 41115,
+   "tournamentName": "Proliga",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -18259,6 +18144,56 @@
    "score": 1.0
   }
  },
+ "id1104111572965692": {
+  "tm": {
+   "id": "319354589920960512",
+   "sport": "Kosárlabda",
+   "name": "Sampaense - Santo Andre",
+   "home": "Sampaense",
+   "away": "Santo Andre",
+   "home_pid": "182947354232541184",
+   "away_pid": "97440574475337728",
+   "tournament": "Portugál 2.",
+   "category": "Portugália",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T16:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104111572965692",
+   "startTime": "2026-11-21T16:30:00.000Z",
+   "participant1Name": "Sampaense Basket",
+   "participant2Name": "Abc Santo Andre",
+   "tournamentId": 41115,
+   "tournamentName": "Proliga",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1103543073529528": {
+  "tm": {
+   "id": "319354592038035456",
+   "sport": "Kosárlabda",
+   "name": "Kecioren Baglum - Buyukcekmece",
+   "home": "Kecioren Baglum",
+   "away": "Buyukcekmece",
+   "home_pid": "265569672453296128",
+   "away_pid": "1095338",
+   "tournament": "Török 2.",
+   "category": "Törökország",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T16:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1103543073529528",
+   "startTime": "2026-11-21T16:30:00.000Z",
+   "participant1Name": "Kecioren Belediyesi Baglum",
+   "participant2Name": "Buyukcekmece Basketbol",
+   "tournamentId": 35430,
+   "tournamentName": "TBL",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1102669674476636": {
   "tm": {
    "id": "319354631942643712",
@@ -18305,6 +18240,56 @@
    "participant2Name": "Szolnoki Olaj Kk",
    "tournamentId": 20132,
    "tournamentName": "NB I. A",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1103039674238612": {
+  "tm": {
+   "id": "319354654940012544",
+   "sport": "Kosárlabda",
+   "name": "NKA Pécs - BEAC",
+   "home": "NKA Pécs",
+   "away": "BEAC",
+   "home_pid": "1016509",
+   "away_pid": "1512035",
+   "tournament": "NB I, női",
+   "category": "Magyarország",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1103039674238612",
+   "startTime": "2026-11-21T17:00:00.000Z",
+   "participant1Name": "NKA Universitas Pecs",
+   "participant2Name": "BEAC-Ujbuda",
+   "tournamentId": 30396,
+   "tournamentName": "NB I. A, Women",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1103039674238616": {
+  "tm": {
+   "id": "319354654782726144",
+   "sport": "Kosárlabda",
+   "name": "TFSE - Vasas",
+   "home": "TFSE",
+   "away": "Vasas",
+   "home_pid": "182947700731334656",
+   "away_pid": "1382133",
+   "tournament": "NB I, női",
+   "category": "Magyarország",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1103039674238616",
+   "startTime": "2026-11-21T17:00:00.000Z",
+   "participant1Name": "TFSE-MTK Budapest",
+   "participant2Name": "Vasas Akademia",
+   "tournamentId": 30396,
+   "tournamentName": "NB I. A, Women",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -18359,6 +18344,36 @@
   },
   "score": 1.0
  },
+ "id1100055673440918": {
+  "tm": {
+   "id": "319354652058525696",
+   "sport": "Kosárlabda",
+   "name": "Derthona - San Martino di Lupari",
+   "home": "Derthona",
+   "away": "San Martino di Lupari",
+   "home_pid": "3055468978139136",
+   "away_pid": "181108885511262208",
+   "tournament": "Olasz bajnokság, női",
+   "category": "Olaszország",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100055673440918",
+   "startTime": "2026-11-21T17:00:00.000Z",
+   "participant1Name": "Derthona Basket",
+   "participant2Name": "ASD San Martino di Lupari",
+   "tournamentId": 556,
+   "tournamentName": "A1 Women",
+   "sportName": "Basketball"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5596826,
+   "name": "Derthona - San Martino di Lupari",
+   "score": 1.0
+  }
+ },
  "id1100015674295758": {
   "tm": {
    "id": "319354642830008320",
@@ -18389,6 +18404,31 @@
    "score": 1.0
   }
  },
+ "id1100191673496716": {
+  "tm": {
+   "id": "319354654526873600",
+   "sport": "Kosárlabda",
+   "name": "AZS Poznan - Torun",
+   "home": "AZS Poznan",
+   "away": "Torun",
+   "home_pid": "6304229818253312",
+   "away_pid": "184655302904303616",
+   "tournament": "Lengyel bajnokság, női",
+   "category": "Lengyelország",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100191673496716",
+   "startTime": "2026-11-21T17:00:00.000Z",
+   "participant1Name": "AZS Poznan",
+   "participant2Name": "Katarzynki Torun",
+   "tournamentId": 1916,
+   "tournamentName": "Basket Liga, Women",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1102666273659634": {
   "tm": {
    "id": "319354635903115264",
@@ -18410,6 +18450,56 @@
    "participant2Name": "PTG Sokol Lancut",
    "tournamentId": 26662,
    "tournamentName": "1. Liga",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100141072679804": {
+  "tm": {
+   "id": "319354604864217088",
+   "sport": "Kosárlabda",
+   "name": "Nitra Blue Wings - Inter Basket",
+   "home": "Nitra Blue Wings",
+   "away": "Inter Basket",
+   "home_pid": "247385384642277376",
+   "away_pid": "315084187243278336",
+   "tournament": "Szlovák bajnokság",
+   "category": "Szlovákia",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100141072679804",
+   "startTime": "2026-11-21T17:00:00.000Z",
+   "participant1Name": "Nitra Blue Wings",
+   "participant2Name": "Inter Basket",
+   "tournamentId": 1410,
+   "tournamentName": "Extraliga",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100141072679802": {
+  "tm": {
+   "id": "319354604959637504",
+   "sport": "Kosárlabda",
+   "name": "Handlova - Spisski Rytieri",
+   "home": "Handlova",
+   "away": "Spisski Rytieri",
+   "home_pid": "181995684382167040",
+   "away_pid": "73012",
+   "tournament": "Szlovák bajnokság",
+   "category": "Szlovákia",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T17:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100141072679802",
+   "startTime": "2026-11-21T17:00:00.000Z",
+   "participant1Name": "MBK Handlova",
+   "participant2Name": "BK 04 AC LB SNV Spisski Rytieri",
+   "tournamentId": 1410,
+   "tournamentName": "Extraliga",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -18439,27 +18529,27 @@
   },
   "score": 1.0
  },
- "id1100141072679802": {
+ "id1104880373714210": {
   "tm": {
-   "id": "319354604959637504",
+   "id": "319354627408601088",
    "sport": "Kosárlabda",
-   "name": "Handlova - Spisski Rytieri",
-   "home": "Handlova",
-   "away": "Spisski Rytieri",
-   "home_pid": "181995684382167040",
-   "away_pid": "73012",
-   "tournament": "Szlovák bajnokság",
-   "category": "Szlovákia",
+   "name": "Triglav Kranj - Ilirija",
+   "home": "Triglav Kranj",
+   "away": "Ilirija",
+   "home_pid": "184126363059408896",
+   "away_pid": "184712781082185728",
+   "tournament": "Szlovén bajnokság, női",
+   "category": "Szlovénia",
    "tm_sport_id": "8",
    "start": "2026-11-21T17:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1100141072679802",
+   "fixtureId": "id1104880373714210",
    "startTime": "2026-11-21T17:00:00.000Z",
-   "participant1Name": "MBK Handlova",
-   "participant2Name": "BK 04 AC LB SNV Spisski Rytieri",
-   "tournamentId": 1410,
-   "tournamentName": "Extraliga",
+   "participant1Name": "ZKK Triglav Kranj",
+   "participant2Name": "Zkd Ilirija",
+   "tournamentId": 48803,
+   "tournamentName": "1. SKL, Women",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -18598,6 +18688,31 @@
    "name": "Cholet - Boulazac",
    "score": 1.0
   }
+ },
+ "id1103797373841448": {
+  "tm": {
+   "id": "319354638716444672",
+   "sport": "Kosárlabda",
+   "name": "Goldcoast Wallabies - Villars",
+   "home": "Goldcoast Wallabies",
+   "away": "Villars",
+   "home_pid": "140484026745016320",
+   "away_pid": "156714645171785728",
+   "tournament": "Svájci 2.",
+   "category": "Svájc",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T17:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1103797373841448",
+   "startTime": "2026-11-21T17:30:00.000Z",
+   "participant1Name": "Goldcoast Wallabies",
+   "participant2Name": "Villars Basket",
+   "tournamentId": 37973,
+   "tournamentName": "NLB",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
  },
  "id1100051973495554": {
   "tm": {
@@ -18750,6 +18865,56 @@
    "participant2Name": "Swans Gmunden",
    "tournamentId": 297,
    "tournamentName": "Superliga",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1104111572965706": {
+  "tm": {
+   "id": "319354590311030784",
+   "sport": "Kosárlabda",
+   "name": "Barreirense - Vasco da Gama Porto",
+   "home": "Barreirense",
+   "away": "Vasco da Gama Porto",
+   "home_pid": "1388388",
+   "away_pid": "183613457438920704",
+   "tournament": "Portugál 2.",
+   "category": "Portugália",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T18:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104111572965706",
+   "startTime": "2026-11-21T18:30:00.000Z",
+   "participant1Name": "FC Barreirense",
+   "participant2Name": "Vasco Da Gama",
+   "tournamentId": 41115,
+   "tournamentName": "Proliga",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1104111572965696": {
+  "tm": {
+   "id": "319354590234484736",
+   "sport": "Kosárlabda",
+   "name": "Barcelos - CB Queluz",
+   "home": "Barcelos",
+   "away": "CB Queluz",
+   "home_pid": "121334",
+   "away_pid": "188134539167584256",
+   "tournament": "Portugál 2.",
+   "category": "Portugália",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T18:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1104111572965696",
+   "startTime": "2026-11-21T18:30:00.000Z",
+   "participant1Name": "Basquete de Barcelos",
+   "participant2Name": "CB Queluz",
+   "tournamentId": 41115,
+   "tournamentName": "Proliga",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -18939,6 +19104,81 @@
    "score": 1.0
   }
  },
+ "id1100193472816518": {
+  "tm": {
+   "id": "319354643114172416",
+   "sport": "Kosárlabda",
+   "name": "Melsele - United Woluwe",
+   "home": "Melsele",
+   "away": "United Woluwe",
+   "home_pid": "182420791696084992",
+   "away_pid": "248183230961414144",
+   "tournament": "Belga 2.",
+   "category": "Belgium",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100193472816518",
+   "startTime": "2026-11-21T19:30:00.000Z",
+   "participant1Name": "Basics Melsele",
+   "participant2Name": "United Woluwe Basket",
+   "tournamentId": 1934,
+   "tournamentName": "Top Division 1",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100193472816520": {
+  "tm": {
+   "id": "319354643243147264",
+   "sport": "Kosárlabda",
+   "name": "Lommel - Antwerpen 2",
+   "home": "Lommel",
+   "away": "Antwerpen 2",
+   "home_pid": "147260239792623616",
+   "away_pid": "187492787607883776",
+   "tournament": "Belga 2.",
+   "category": "Belgium",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T19:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100193472816520",
+   "startTime": "2026-11-21T19:30:00.000Z",
+   "participant1Name": "Bbc Croonen Lommel",
+   "participant2Name": "Antwerp Giants B",
+   "tournamentId": 1934,
+   "tournamentName": "Top Division 1",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1100193472816526": {
+  "tm": {
+   "id": "319354643325984768",
+   "sport": "Kosárlabda",
+   "name": "Neufchateau - Falco Gent",
+   "home": "Neufchateau",
+   "away": "Falco Gent",
+   "home_pid": "182344165007347712",
+   "away_pid": "217199833305468928",
+   "tournament": "Belga 2.",
+   "category": "Belgium",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T19:45:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100193472816526",
+   "startTime": "2026-11-21T19:45:00.000Z",
+   "participant1Name": "Sfs Bcca Neufchateau",
+   "participant2Name": "Bbc Falco Gent",
+   "tournamentId": 1934,
+   "tournamentName": "Top Division 1",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
  "id1100026473713608": {
   "tm": {
    "id": "319354631606050816",
@@ -18968,56 +19208,6 @@
    "name": "Murcia - Zaragoza",
    "score": 1.0
   }
- },
- "id1103039674238612": {
-  "tm": {
-   "id": "319354654940012544",
-   "sport": "Kosárlabda",
-   "name": "NKA Pécs - BEAC",
-   "home": "NKA Pécs",
-   "away": "BEAC",
-   "home_pid": "1016509",
-   "away_pid": "1512035",
-   "tournament": "NB I, női",
-   "category": "Magyarország",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T17:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103039674238612",
-   "startTime": "2026-11-21T17:00:00.000Z",
-   "participant1Name": "NKA Universitas Pecs",
-   "participant2Name": "BEAC-Ujbuda",
-   "tournamentId": 30396,
-   "tournamentName": "NB I. A, Women",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1103039674238616": {
-  "tm": {
-   "id": "319354654782726144",
-   "sport": "Kosárlabda",
-   "name": "TFSE - Vasas",
-   "home": "TFSE",
-   "away": "Vasas",
-   "home_pid": "182947700731334656",
-   "away_pid": "1382133",
-   "tournament": "NB I, női",
-   "category": "Magyarország",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T17:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103039674238616",
-   "startTime": "2026-11-21T17:00:00.000Z",
-   "participant1Name": "TFSE-MTK Budapest",
-   "participant2Name": "Vasas Akademia",
-   "tournamentId": 30396,
-   "tournamentName": "NB I. A, Women",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1100116572658526": {
   "tm": {
@@ -19065,31 +19255,6 @@
    "participant2Name": "SC Rist Wedel",
    "tournamentId": 48014,
    "tournamentName": "Pro B",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1102015473113338": {
-  "tm": {
-   "id": "319354589538230272",
-   "sport": "Kosárlabda",
-   "name": "AEPS Mahitesz Piramatiko - Panerythraikosz",
-   "home": "AEPS Mahitesz Piramatiko",
-   "away": "Panerythraikosz",
-   "home_pid": "269583245984796672",
-   "away_pid": "10390347846651904",
-   "tournament": "Görög 2.",
-   "category": "Görögország",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1102015473113338",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "AEPS Machites Peiramatiko",
-   "participant2Name": "Paneruthraikos AS",
-   "tournamentId": 20154,
-   "tournamentName": "Elite League",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -19219,36 +19384,6 @@
   },
   "score": 1.0
  },
- "id1100055673440918": {
-  "tm": {
-   "id": "319354652058525696",
-   "sport": "Kosárlabda",
-   "name": "Derthona - San Martino di Lupari",
-   "home": "Derthona",
-   "away": "San Martino di Lupari",
-   "home_pid": "3055468978139136",
-   "away_pid": "181108885511262208",
-   "tournament": "Olasz bajnokság, női",
-   "category": "Olaszország",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T17:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100055673440918",
-   "startTime": "2026-11-21T17:00:00.000Z",
-   "participant1Name": "Derthona Basket",
-   "participant2Name": "ASD San Martino di Lupari",
-   "tournamentId": 556,
-   "tournamentName": "A1 Women",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5596826,
-   "name": "Derthona - San Martino di Lupari",
-   "score": 1.0
-  }
- },
  "id1104853973457060": {
   "tm": {
    "id": "319264036328906752",
@@ -19349,102 +19484,52 @@
   },
   "score": 1.0
  },
- "id1100193472816518": {
+ "id1103546673496002": {
   "tm": {
-   "id": "319354643114172416",
+   "id": "319354639589908480",
    "sport": "Kosárlabda",
-   "name": "Melsele - United Woluwe",
-   "home": "Melsele",
-   "away": "United Woluwe",
-   "home_pid": "182420791696084992",
-   "away_pid": "248183230961414144",
-   "tournament": "Belga 2.",
-   "category": "Belgium",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T19:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100193472816518",
-   "startTime": "2026-11-21T19:30:00.000Z",
-   "participant1Name": "Basics Melsele",
-   "participant2Name": "United Woluwe Basket",
-   "tournamentId": 1934,
-   "tournamentName": "Top Division 1",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100193472816520": {
-  "tm": {
-   "id": "319354643243147264",
-   "sport": "Kosárlabda",
-   "name": "Lommel - Antwerpen 2",
-   "home": "Lommel",
-   "away": "Antwerpen 2",
-   "home_pid": "147260239792623616",
-   "away_pid": "187492787607883776",
-   "tournament": "Belga 2.",
-   "category": "Belgium",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T19:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100193472816520",
-   "startTime": "2026-11-21T19:30:00.000Z",
-   "participant1Name": "Bbc Croonen Lommel",
-   "participant2Name": "Antwerp Giants B",
-   "tournamentId": 1934,
-   "tournamentName": "Top Division 1",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100193472816526": {
-  "tm": {
-   "id": "319354643325984768",
-   "sport": "Kosárlabda",
-   "name": "Neufchateau - Falco Gent",
-   "home": "Neufchateau",
-   "away": "Falco Gent",
-   "home_pid": "182344165007347712",
-   "away_pid": "217199833305468928",
-   "tournament": "Belga 2.",
-   "category": "Belgium",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T19:45:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100193472816526",
-   "startTime": "2026-11-21T19:45:00.000Z",
-   "participant1Name": "Sfs Bcca Neufchateau",
-   "participant2Name": "Bbc Falco Gent",
-   "tournamentId": 1934,
-   "tournamentName": "Top Division 1",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100191673496716": {
-  "tm": {
-   "id": "319354654526873600",
-   "sport": "Kosárlabda",
-   "name": "AZS Poznan - Torun",
-   "home": "AZS Poznan",
-   "away": "Torun",
-   "home_pid": "6304229818253312",
-   "away_pid": "184655302904303616",
-   "tournament": "Lengyel bajnokság, női",
-   "category": "Lengyelország",
+   "name": "Vienna United - UDW Alligators",
+   "home": "Vienna United",
+   "away": "UDW Alligators",
+   "home_pid": "185609873164128256",
+   "away_pid": "183059819276587008",
+   "tournament": "Osztrák 2.",
+   "category": "Ausztria",
    "tm_sport_id": "8",
    "start": "2026-11-21T17:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1100191673496716",
+   "fixtureId": "id1103546673496002",
    "startTime": "2026-11-21T17:00:00.000Z",
-   "participant1Name": "AZS Poznan",
-   "participant2Name": "Katarzynki Torun",
-   "tournamentId": 1916,
-   "tournamentName": "Basket Liga, Women",
+   "participant1Name": "Vienna United PSV",
+   "participant2Name": "Udw Alligators",
+   "tournamentId": 35466,
+   "tournamentName": "Zweite Liga",
+   "sportName": "Basketball"
+  },
+  "score": 1.0
+ },
+ "id1103546673495998": {
+  "tm": {
+   "id": "319354639391727616",
+   "sport": "Kosárlabda",
+   "name": "Gussing - BBU Salzburg",
+   "home": "Gussing",
+   "away": "BBU Salzburg",
+   "home_pid": "183059666435100672",
+   "away_pid": "184897338563678208",
+   "tournament": "Osztrák 2.",
+   "category": "Ausztria",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T18:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1103546673495998",
+   "startTime": "2026-11-21T18:00:00.000Z",
+   "participant1Name": "Gussing Blackbirds",
+   "participant2Name": "BBU Salzburg",
+   "tournamentId": 35466,
+   "tournamentName": "Zweite Liga",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -19474,56 +19559,6 @@
   },
   "score": 1.0
  },
- "id1104111572965700": {
-  "tm": {
-   "id": "319354590037352448",
-   "sport": "Kosárlabda",
-   "name": "Galomar - Illiabum Clube",
-   "home": "Galomar",
-   "away": "Illiabum Clube",
-   "home_pid": "185576429644206080",
-   "away_pid": "182812497241231360",
-   "tournament": "Portugál 2.",
-   "category": "Portugália",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104111572965700",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "AD Galomar",
-   "participant2Name": "Illiabum Clube",
-   "tournamentId": 41115,
-   "tournamentName": "Proliga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1104111572965704": {
-  "tm": {
-   "id": "319354590142210048",
-   "sport": "Kosárlabda",
-   "name": "Lusitania - Sangalhos",
-   "home": "Lusitania",
-   "away": "Sangalhos",
-   "home_pid": "54245",
-   "away_pid": "182268418252132352",
-   "tournament": "Portugál 2.",
-   "category": "Portugália",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T15:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104111572965704",
-   "startTime": "2026-11-21T15:15:00.000Z",
-   "participant1Name": "SC Lusitania",
-   "participant2Name": "Sangalhos DC",
-   "tournamentId": 41115,
-   "tournamentName": "Proliga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
  "id1104111572965702": {
   "tm": {
    "id": "319354589827637248",
@@ -19543,81 +19578,6 @@
    "startTime": "2026-11-21T16:00:00.000Z",
    "participant1Name": "Maia Basket",
    "participant2Name": "Sl Benfica B",
-   "tournamentId": 41115,
-   "tournamentName": "Proliga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1104111572965692": {
-  "tm": {
-   "id": "319354589920960512",
-   "sport": "Kosárlabda",
-   "name": "Sampaense - Santo Andre",
-   "home": "Sampaense",
-   "away": "Santo Andre",
-   "home_pid": "182947354232541184",
-   "away_pid": "97440574475337728",
-   "tournament": "Portugál 2.",
-   "category": "Portugália",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104111572965692",
-   "startTime": "2026-11-21T16:30:00.000Z",
-   "participant1Name": "Sampaense Basket",
-   "participant2Name": "Abc Santo Andre",
-   "tournamentId": 41115,
-   "tournamentName": "Proliga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1104111572965706": {
-  "tm": {
-   "id": "319354590311030784",
-   "sport": "Kosárlabda",
-   "name": "Barreirense - Vasco da Gama Porto",
-   "home": "Barreirense",
-   "away": "Vasco da Gama Porto",
-   "home_pid": "1388388",
-   "away_pid": "183613457438920704",
-   "tournament": "Portugál 2.",
-   "category": "Portugália",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T18:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104111572965706",
-   "startTime": "2026-11-21T18:30:00.000Z",
-   "participant1Name": "FC Barreirense",
-   "participant2Name": "Vasco Da Gama",
-   "tournamentId": 41115,
-   "tournamentName": "Proliga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1104111572965696": {
-  "tm": {
-   "id": "319354590234484736",
-   "sport": "Kosárlabda",
-   "name": "Barcelos - CB Queluz",
-   "home": "Barcelos",
-   "away": "CB Queluz",
-   "home_pid": "121334",
-   "away_pid": "188134539167584256",
-   "tournament": "Portugál 2.",
-   "category": "Portugália",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T18:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104111572965696",
-   "startTime": "2026-11-21T18:30:00.000Z",
-   "participant1Name": "Basquete de Barcelos",
-   "participant2Name": "CB Queluz",
    "tournamentId": 41115,
    "tournamentName": "Proliga",
    "sportName": "Basketball"
@@ -19649,81 +19609,6 @@
   },
   "score": 1.0
  },
- "id1100075475047970": {
-  "tm": {
-   "id": "319354604321054720",
-   "sport": "Kosárlabda",
-   "name": "Mladost Zemun - Borac Zemun",
-   "home": "Mladost Zemun",
-   "away": "Borac Zemun",
-   "home_pid": "1348275",
-   "away_pid": "119569583603503104",
-   "tournament": "Szerb bajnokság",
-   "category": "Szerbia",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100075475047970",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "KK Mladost Zemun",
-   "participant2Name": "KK Borac Zemun",
-   "tournamentId": 754,
-   "tournamentName": "KLS",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1100141072679804": {
-  "tm": {
-   "id": "319354604864217088",
-   "sport": "Kosárlabda",
-   "name": "Nitra Blue Wings - Inter Basket",
-   "home": "Nitra Blue Wings",
-   "away": "Inter Basket",
-   "home_pid": "247385384642277376",
-   "away_pid": "315084187243278336",
-   "tournament": "Szlovák bajnokság",
-   "category": "Szlovákia",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T17:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100141072679804",
-   "startTime": "2026-11-21T17:00:00.000Z",
-   "participant1Name": "Nitra Blue Wings",
-   "participant2Name": "Inter Basket",
-   "tournamentId": 1410,
-   "tournamentName": "Extraliga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1104880373714210": {
-  "tm": {
-   "id": "319354627408601088",
-   "sport": "Kosárlabda",
-   "name": "Triglav Kranj - Ilirija",
-   "home": "Triglav Kranj",
-   "away": "Ilirija",
-   "home_pid": "184126363059408896",
-   "away_pid": "184712781082185728",
-   "tournament": "Szlovén bajnokság, női",
-   "category": "Szlovénia",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T17:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104880373714210",
-   "startTime": "2026-11-21T17:00:00.000Z",
-   "participant1Name": "ZKK Triglav Kranj",
-   "participant2Name": "Zkd Ilirija",
-   "tournamentId": 48803,
-   "tournamentName": "1. SKL, Women",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
  "id1100193873841194": {
   "tm": {
    "id": "319354635751071744",
@@ -19745,131 +19630,6 @@
    "participant2Name": "Lions de Geneve",
    "tournamentId": 1938,
    "tournamentName": "SB League",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1103797373841440": {
-  "tm": {
-   "id": "319354638649335808",
-   "sport": "Kosárlabda",
-   "name": "Bernex - SAV Vacallo",
-   "home": "Bernex",
-   "away": "SAV Vacallo",
-   "home_pid": "194314742295326720",
-   "away_pid": "281342629506060288",
-   "tournament": "Svájci 2.",
-   "category": "Svájc",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T14:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103797373841440",
-   "startTime": "2026-11-21T14:30:00.000Z",
-   "participant1Name": "Bernex Basket",
-   "participant2Name": "Sav Vacallo Basket",
-   "tournamentId": 37973,
-   "tournamentName": "NLB",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1103533074500982": {
-  "tm": {
-   "id": "319354638337908736",
-   "sport": "Kosárlabda",
-   "name": "Ockelbo - Djurgarden",
-   "home": "Ockelbo",
-   "away": "Djurgarden",
-   "home_pid": "184227389576892416",
-   "away_pid": "215101371955957760",
-   "tournament": "Svéd 2.",
-   "category": "Svédország",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103533074500982",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Ockelbo Basket",
-   "participant2Name": "Djurgarden Basket",
-   "tournamentId": 35330,
-   "tournamentName": "Superettan",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1103533074500980": {
-  "tm": {
-   "id": "319354638427037696",
-   "sport": "Kosárlabda",
-   "name": "Trelleborg Basket - Fryshuset",
-   "home": "Trelleborg Basket",
-   "away": "Fryshuset",
-   "home_pid": "281342886203756544",
-   "away_pid": "7503580191813632",
-   "tournament": "Svéd 2.",
-   "category": "Svédország",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103533074500980",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Trelleborg Basket",
-   "participant2Name": "Fryshuset Basketbollklubb",
-   "tournamentId": 35330,
-   "tournamentName": "Superettan",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1103543073529528": {
-  "tm": {
-   "id": "319354592038035456",
-   "sport": "Kosárlabda",
-   "name": "Kecioren Baglum - Buyukcekmece",
-   "home": "Kecioren Baglum",
-   "away": "Buyukcekmece",
-   "home_pid": "265569672453296128",
-   "away_pid": "1095338",
-   "tournament": "Török 2.",
-   "category": "Törökország",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103543073529528",
-   "startTime": "2026-11-21T16:30:00.000Z",
-   "participant1Name": "Kecioren Belediyesi Baglum",
-   "participant2Name": "Buyukcekmece Basketbol",
-   "tournamentId": 35430,
-   "tournamentName": "TBL",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1103797373841448": {
-  "tm": {
-   "id": "319354638716444672",
-   "sport": "Kosárlabda",
-   "name": "Goldcoast Wallabies - Villars",
-   "home": "Goldcoast Wallabies",
-   "away": "Villars",
-   "home_pid": "140484026745016320",
-   "away_pid": "156714645171785728",
-   "tournament": "Svájci 2.",
-   "category": "Svájc",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T17:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103797373841448",
-   "startTime": "2026-11-21T17:30:00.000Z",
-   "participant1Name": "Goldcoast Wallabies",
-   "participant2Name": "Villars Basket",
-   "tournamentId": 37973,
-   "tournamentName": "NLB",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -20004,31 +19764,6 @@
   },
   "score": 0.879
  },
- "id1100057973860828": {
-  "tm": {
-   "id": "319264051591979008",
-   "sport": "Kosárlabda",
-   "name": "Skrljevo - Dinamo Zágráb",
-   "home": "Skrljevo",
-   "away": "Dinamo Zágráb",
-   "home_pid": "182789705311506432",
-   "away_pid": "183525486609092608",
-   "tournament": "Horvát bajnokság",
-   "category": "Horvátország",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T19:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100057973860828",
-   "startTime": "2026-11-21T19:00:00.000Z",
-   "participant1Name": "KK Skrljevo",
-   "participant2Name": "KK Dinamo Zagreb",
-   "tournamentId": 579,
-   "tournamentName": "Premijer liga",
-   "sportName": "Basketball"
-  },
-  "score": 0.879
- },
  "id1100057973860830": {
   "tm": {
    "id": "319264051699982336",
@@ -20048,6 +19783,31 @@
    "startTime": "2026-11-21T19:00:00.000Z",
    "participant1Name": "Kk Virtus Zagreb",
    "participant2Name": "Kk Split",
+   "tournamentId": 579,
+   "tournamentName": "Premijer liga",
+   "sportName": "Basketball"
+  },
+  "score": 0.879
+ },
+ "id1100057973860828": {
+  "tm": {
+   "id": "319264051591979008",
+   "sport": "Kosárlabda",
+   "name": "Skrljevo - Dinamo Zágráb",
+   "home": "Skrljevo",
+   "away": "Dinamo Zágráb",
+   "home_pid": "182789705311506432",
+   "away_pid": "183525486609092608",
+   "tournament": "Horvát bajnokság",
+   "category": "Horvátország",
+   "tm_sport_id": "8",
+   "start": "2026-11-21T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1100057973860828",
+   "startTime": "2026-11-21T19:00:00.000Z",
+   "participant1Name": "KK Skrljevo",
+   "participant2Name": "KK Dinamo Zagreb",
    "tournamentId": 579,
    "tournamentName": "Premijer liga",
    "sportName": "Basketball"
@@ -20644,36 +20404,6 @@
   },
   "score": 0.748
  },
- "id1100057973860824": {
-  "tm": {
-   "id": "319264051935911936",
-   "sport": "Kosárlabda",
-   "name": "Cibona Zágráb - KK Kvarner 2010",
-   "home": "Cibona Zágráb",
-   "away": "KK Kvarner 2010",
-   "home_pid": "6373",
-   "away_pid": "162868007822082048",
-   "tournament": "Horvát bajnokság",
-   "category": "Horvátország",
-   "tm_sport_id": "8",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100057973860824",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "KK Cibona",
-   "participant2Name": "KK Kvarner 2010",
-   "tournamentId": 579,
-   "tournamentName": "Premijer liga",
-   "sportName": "Basketball"
-  },
-  "score": 0.745,
-  "cl": {
-   "id": 5594959,
-   "name": "Cibona Zágráb - Kvarner",
-   "score": 1.0
-  }
- },
  "id1100015674295752": {
   "tm": {
    "id": "319354642907602944",
@@ -21109,36 +20839,6 @@
    "score": 1.0
   }
  },
- "id1500025773350482": {
-  "tm": {
-   "id": "319263965620281344",
-   "sport": "Jégkorong",
-   "name": "Odense - Sönderjyske",
-   "home": "Odense",
-   "away": "Sönderjyske",
-   "home_pid": "37245",
-   "away_pid": "37247",
-   "tournament": "Dán bajnokság",
-   "category": "Dánia",
-   "tm_sport_id": "6",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500025773350482",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Odense Bulldogs",
-   "participant2Name": "SoenderjyskE Ishockey",
-   "tournamentId": 257,
-   "tournamentName": "Superisligaen",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595198,
-   "name": "Odense - Sönderjyske",
-   "score": 1.0
-  }
- },
  "id1500025773350484": {
   "tm": {
    "id": "319263965536395264",
@@ -21319,36 +21019,6 @@
    "score": 1.0
   }
  },
- "id1500026772677612": {
-  "tm": {
-   "id": "319263969115185152",
-   "sport": "Jégkorong",
-   "name": "Kassel - Bad Nauheim",
-   "home": "Kassel",
-   "away": "Bad Nauheim",
-   "home_pid": "37308",
-   "away_pid": "435659",
-   "tournament": "Német 2.",
-   "category": "Németország",
-   "tm_sport_id": "6",
-   "start": "2026-11-20T18:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500026772677612",
-   "startTime": "2026-11-20T18:30:00.000Z",
-   "participant1Name": "EC Kassel Huskies",
-   "participant2Name": "EC Bad Nauheim",
-   "tournamentId": 267,
-   "tournamentName": "DEL 2",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595178,
-   "name": "Kassel - Bad Nauheim",
-   "score": 1.0
-  }
- },
  "id1500026772677614": {
   "tm": {
    "id": "319263969466458112",
@@ -21376,6 +21046,36 @@
   "cl": {
    "id": 5595175,
    "name": "Landshut - Memmingen Indians",
+   "score": 1.0
+  }
+ },
+ "id1500026772677612": {
+  "tm": {
+   "id": "319263969115185152",
+   "sport": "Jégkorong",
+   "name": "Kassel - Bad Nauheim",
+   "home": "Kassel",
+   "away": "Bad Nauheim",
+   "home_pid": "37308",
+   "away_pid": "435659",
+   "tournament": "Német 2.",
+   "category": "Németország",
+   "tm_sport_id": "6",
+   "start": "2026-11-20T18:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500026772677612",
+   "startTime": "2026-11-20T18:30:00.000Z",
+   "participant1Name": "EC Kassel Huskies",
+   "participant2Name": "EC Bad Nauheim",
+   "tournamentId": 267,
+   "tournamentName": "DEL 2",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5595178,
+   "name": "Kassel - Bad Nauheim",
    "score": 1.0
   }
  },
@@ -22004,31 +21704,6 @@
   },
   "score": 1.0
  },
- "id1501436172712560": {
-  "tm": {
-   "id": "319354609255653376",
-   "sport": "Jégkorong",
-   "name": "Everett Silvertips - Kamloops Blazers",
-   "home": "Everett Silvertips",
-   "away": "Kamloops Blazers",
-   "home_pid": "184072122159648768",
-   "away_pid": "151554648331833344",
-   "tournament": "WHL",
-   "category": "Kanada",
-   "tm_sport_id": "6",
-   "start": "2026-11-21T03:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1501436172712560",
-   "startTime": "2026-11-21T03:05:00.000Z",
-   "participant1Name": "Everett Silvertips",
-   "participant2Name": "Kamloops Blazers",
-   "tournamentId": 14361,
-   "tournamentName": "WHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
  "id1501436172712558": {
   "tm": {
    "id": "319354609616363520",
@@ -22048,6 +21723,31 @@
    "startTime": "2026-11-21T03:05:00.000Z",
    "participant1Name": "Spokane Chiefs",
    "participant2Name": "Victoria Royals",
+   "tournamentId": 14361,
+   "tournamentName": "WHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0
+ },
+ "id1501436172712560": {
+  "tm": {
+   "id": "319354609255653376",
+   "sport": "Jégkorong",
+   "name": "Everett Silvertips - Kamloops Blazers",
+   "home": "Everett Silvertips",
+   "away": "Kamloops Blazers",
+   "home_pid": "184072122159648768",
+   "away_pid": "151554648331833344",
+   "tournament": "WHL",
+   "category": "Kanada",
+   "tm_sport_id": "6",
+   "start": "2026-11-21T03:05:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1501436172712560",
+   "startTime": "2026-11-21T03:05:00.000Z",
+   "participant1Name": "Everett Silvertips",
+   "participant2Name": "Kamloops Blazers",
    "tournamentId": 14361,
    "tournamentName": "WHL",
    "sportName": "Ice Hockey"
@@ -22279,36 +21979,6 @@
   },
   "score": 1.0
  },
- "id1500026072122186": {
-  "tm": {
-   "id": "319263973016936448",
-   "sport": "Jégkorong",
-   "name": "Frisk/Asker - Storhamar",
-   "home": "Frisk/Asker",
-   "away": "Storhamar",
-   "home_pid": "508366",
-   "away_pid": "37327",
-   "tournament": "Norvég bajnokság",
-   "category": "Norvégia",
-   "tm_sport_id": "6",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500026072122186",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Frisk Asker",
-   "participant2Name": "Storhamar Hockey",
-   "tournamentId": 260,
-   "tournamentName": "EHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595180,
-   "name": "Frisk/Asker - Storhamar",
-   "score": 1.0
-  }
- },
  "id1500082872124126": {
   "tm": {
    "id": "319354621203128320",
@@ -22467,7 +22137,12 @@
    "tournamentName": "National League",
    "sportName": "Ice Hockey"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5595208,
+   "name": "Zug - Servette",
+   "score": 1.0
+  }
  },
  "id1500012872123556": {
   "tm": {
@@ -22679,36 +22354,6 @@
    "score": 1.0
   }
  },
- "id1500026171696598": {
-  "tm": {
-   "id": "319354616885092352",
-   "sport": "Jégkorong",
-   "name": "Rögle - Timra",
-   "home": "Rögle",
-   "away": "Timra",
-   "home_pid": "37260",
-   "away_pid": "37250",
-   "tournament": "Svéd bajnokság",
-   "category": "Svédország",
-   "tm_sport_id": "6",
-   "start": "2026-11-21T14:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500026171696598",
-   "startTime": "2026-11-21T14:15:00.000Z",
-   "participant1Name": "Rogle BK",
-   "participant2Name": "Timraa IK",
-   "tournamentId": 261,
-   "tournamentName": "SHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5596199,
-   "name": "Rögle - Timra",
-   "score": 1.0
-  }
- },
  "id1500026171696600": {
   "tm": {
    "id": "319354616973172736",
@@ -22766,6 +22411,36 @@
   "cl": {
    "id": 5596200,
    "name": "Frölunda - Brynäs",
+   "score": 1.0
+  }
+ },
+ "id1500026171696598": {
+  "tm": {
+   "id": "319354616885092352",
+   "sport": "Jégkorong",
+   "name": "Rögle - Timra",
+   "home": "Rögle",
+   "away": "Timra",
+   "home_pid": "37260",
+   "away_pid": "37250",
+   "tournament": "Svéd bajnokság",
+   "category": "Svédország",
+   "tm_sport_id": "6",
+   "start": "2026-11-21T14:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1500026171696598",
+   "startTime": "2026-11-21T14:15:00.000Z",
+   "participant1Name": "Rogle BK",
+   "participant2Name": "Timraa IK",
+   "tournamentId": 261,
+   "tournamentName": "SHL",
+   "sportName": "Ice Hockey"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5596199,
+   "name": "Rögle - Timra",
    "score": 1.0
   }
  },
@@ -22856,216 +22531,6 @@
   "cl": {
    "id": 5596699,
    "name": "Björklöven - Linköping",
-   "score": 1.0
-  }
- },
- "id1500041672005254": {
-  "tm": {
-   "id": "319263980325511168",
-   "sport": "Jégkorong",
-   "name": "Mora - MODO",
-   "home": "Mora",
-   "away": "MODO",
-   "home_pid": "182412488925564928",
-   "away_pid": "37254",
-   "tournament": "Svéd 2.",
-   "category": "Svédország",
-   "tm_sport_id": "6",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500041672005254",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Mora IK",
-   "participant2Name": "MODO Hockey",
-   "tournamentId": 416,
-   "tournamentName": "Allsvenskan",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595190,
-   "name": "Mora - MODO",
-   "score": 1.0
-  }
- },
- "id1500041672005244": {
-  "tm": {
-   "id": "319263979941732352",
-   "sport": "Jégkorong",
-   "name": "Kalmar - Almtuna",
-   "home": "Kalmar",
-   "away": "Almtuna",
-   "home_pid": "184508860146438144",
-   "away_pid": "37279",
-   "tournament": "Svéd 2.",
-   "category": "Svédország",
-   "tm_sport_id": "6",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500041672005244",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Kalmar HC",
-   "participant2Name": "Almtuna IS",
-   "tournamentId": 416,
-   "tournamentName": "Allsvenskan",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595187,
-   "name": "Kalmar - Almtuna",
-   "score": 1.0
-  }
- },
- "id1500041672005246": {
-  "tm": {
-   "id": "319263980501671936",
-   "sport": "Jégkorong",
-   "name": "Östersund - Vimmerby",
-   "home": "Östersund",
-   "away": "Vimmerby",
-   "home_pid": "182412542696542208",
-   "away_pid": "184508881946333184",
-   "tournament": "Svéd 2.",
-   "category": "Svédország",
-   "tm_sport_id": "6",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500041672005246",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Ostersunds IK",
-   "participant2Name": "Vimmerby HC",
-   "tournamentId": 416,
-   "tournamentName": "Allsvenskan",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595191,
-   "name": "Östersund - Vimmerby",
-   "score": 1.0
-  }
- },
- "id1500041672005252": {
-  "tm": {
-   "id": "319263980226945024",
-   "sport": "Jégkorong",
-   "name": "Leksand - Visby-Roma",
-   "home": "Leksand",
-   "away": "Visby-Roma",
-   "home_pid": "37271",
-   "away_pid": "185877534469050368",
-   "tournament": "Svéd 2.",
-   "category": "Svédország",
-   "tm_sport_id": "6",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500041672005252",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Leksands IF",
-   "participant2Name": "Visby-Roma HK",
-   "tournamentId": 416,
-   "tournamentName": "Allsvenskan",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595189,
-   "name": "Leksand - Visby-Roma",
-   "score": 1.0
-  }
- },
- "id1500041672005242": {
-  "tm": {
-   "id": "319263980133621760",
-   "sport": "Jégkorong",
-   "name": "Oskarshamn - Nybro",
-   "home": "Oskarshamn",
-   "away": "Nybro",
-   "home_pid": "37261",
-   "away_pid": "37268",
-   "tournament": "Svéd 2.",
-   "category": "Svédország",
-   "tm_sport_id": "6",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500041672005242",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "IK Oskarshamn",
-   "participant2Name": "Nybro Vikings IF",
-   "tournamentId": 416,
-   "tournamentName": "Allsvenskan",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595188,
-   "name": "Oskarshamn - Nybro",
-   "score": 1.0
-  }
- },
- "id1500041672005248": {
-  "tm": {
-   "id": "319263980414640128",
-   "sport": "Jégkorong",
-   "name": "Västeras - Karlskoga",
-   "home": "Västeras",
-   "away": "Karlskoga",
-   "home_pid": "181493",
-   "away_pid": "182412324465856512",
-   "tournament": "Svéd 2.",
-   "category": "Svédország",
-   "tm_sport_id": "6",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500041672005248",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Vasteras IK",
-   "participant2Name": "BIK Karlskoga",
-   "tournamentId": 416,
-   "tournamentName": "Allsvenskan",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595186,
-   "name": "Västeras - Karlskoga",
-   "score": 1.0
-  }
- },
- "id1500041672005250": {
-  "tm": {
-   "id": "319263980049735680",
-   "sport": "Jégkorong",
-   "name": "AIK - Södertälje",
-   "home": "AIK",
-   "away": "Södertälje",
-   "home_pid": "68479",
-   "away_pid": "37258",
-   "tournament": "Svéd 2.",
-   "category": "Svédország",
-   "tm_sport_id": "6",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1500041672005250",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "AIK IF",
-   "participant2Name": "Sodertalje SK",
-   "tournamentId": 416,
-   "tournamentName": "Allsvenskan",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595192,
-   "name": "AIK - Södertälje",
    "score": 1.0
   }
  },
@@ -23318,121 +22783,6 @@
    "sportName": "Ice Hockey"
   },
   "score": 0.72
- },
- "id2200014972473280": {
-  "tm": {
-   "id": "319898097841938432",
-   "sport": "Kézilabda",
-   "name": "Burgdorf-Hannover - Stuttgart",
-   "home": "Burgdorf-Hannover",
-   "away": "Stuttgart",
-   "home_pid": "53385",
-   "away_pid": "66071",
-   "tournament": "Német bajnokság",
-   "category": "Németország",
-   "tm_sport_id": "7",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2200014972473280",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "TSV Hannover-Burgdorf",
-   "participant2Name": "TVB Stuttgart",
-   "tournamentId": 149,
-   "tournamentName": "Bundesliga",
-   "sportName": "Handball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5590173,
-   "name": "Burgdorf-Hannover - Stuttgart",
-   "score": 1.0
-  }
- },
- "id2200092172473876": {
-  "tm": {
-   "id": "319898083033948160",
-   "sport": "Kézilabda",
-   "name": "TUSEM Essen - Hagen",
-   "home": "TUSEM Essen",
-   "away": "Hagen",
-   "home_pid": "36902",
-   "away_pid": "146106713093754880",
-   "tournament": "Német 2.",
-   "category": "Németország",
-   "tm_sport_id": "7",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2200092172473876",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "TuSEM Essen",
-   "participant2Name": "VfL Eintracht Hagen",
-   "tournamentId": 921,
-   "tournamentName": "2. HBL",
-   "sportName": "Handball"
-  },
-  "score": 1.0
- },
- "id2200016173731726": {
-  "tm": {
-   "id": "319898099339304960",
-   "sport": "Kézilabda",
-   "name": "Hallby - Skövde",
-   "home": "Hallby",
-   "away": "Skövde",
-   "home_pid": "38736",
-   "away_pid": "36870",
-   "tournament": "Svéd bajnokság",
-   "category": "Svédország",
-   "tm_sport_id": "7",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2200016173731726",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "IF Hallby",
-   "participant2Name": "IFK Skovde",
-   "tournamentId": 161,
-   "tournamentName": "Handbollsligan",
-   "sportName": "Handball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595222,
-   "name": "Hallby - Skövde",
-   "score": 1.0
-  }
- },
- "id2200016173731728": {
-  "tm": {
-   "id": "319898099422142464",
-   "sport": "Kézilabda",
-   "name": "Sävehof - Malmö",
-   "home": "Sävehof",
-   "away": "Malmö",
-   "home_pid": "36872",
-   "away_pid": "124779921001205760",
-   "tournament": "Svéd bajnokság",
-   "category": "Svédország",
-   "tm_sport_id": "7",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2200016173731728",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "IK Savehof",
-   "participant2Name": "HK Malmo",
-   "tournamentId": 161,
-   "tournamentName": "Handbollsligan",
-   "sportName": "Handball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595226,
-   "name": "Sävehof - Malmö",
-   "score": 1.0
-  }
  },
  "id2200092172473882": {
   "tm": {
@@ -24129,36 +23479,6 @@
   },
   "score": 1.0
  },
- "id2200016173731724": {
-  "tm": {
-   "id": "319898099268001792",
-   "sport": "Kézilabda",
-   "name": "Helsingborg - IFK Karlskrona",
-   "home": "Helsingborg",
-   "away": "IFK Karlskrona",
-   "home_pid": "42413",
-   "away_pid": "186751553191858176",
-   "tournament": "Svéd bajnokság",
-   "category": "Svédország",
-   "tm_sport_id": "7",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2200016173731724",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "OV Helsingborg HK",
-   "participant2Name": "HF Karlskrona",
-   "tournamentId": 161,
-   "tournamentName": "Handbollsligan",
-   "sportName": "Handball"
-  },
-  "score": 0.922,
-  "cl": {
-   "id": 5595223,
-   "name": "Helsingborg - HIF Karlskrona",
-   "score": 0.95
-  }
- },
  "id2201432374319338": {
   "tm": {
    "id": "319898082015780864",
@@ -24246,36 +23566,6 @@
   "cl": {
    "id": 5596036,
    "name": "Nava - AX Puente Genil",
-   "score": 1.0
-  }
- },
- "id2200024872982646": {
-  "tm": {
-   "id": "319898083350618112",
-   "sport": "Kézilabda",
-   "name": "Granollers - Atl. Valladolid",
-   "home": "Granollers",
-   "away": "Atl. Valladolid",
-   "home_pid": "36979",
-   "away_pid": "36978",
-   "tournament": "Spanyol bajnokság",
-   "category": "Spanyolország",
-   "tm_sport_id": "7",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2200024872982646",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "BM Granollers",
-   "participant2Name": "BM Atletico Valladolid",
-   "tournamentId": 248,
-   "tournamentName": "Liga Asobal",
-   "sportName": "Handball"
-  },
-  "score": 0.844,
-  "cl": {
-   "id": 5596035,
-   "name": "Granollers - Atl. Valladolid",
    "score": 1.0
   }
  },
@@ -24497,7 +23787,12 @@
    "tournamentName": "Liga Siatkowki",
    "sportName": "Volleyball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5596795,
+   "name": "Zawiercie - Slepsk Suwalki",
+   "score": 1.0
+  }
  },
  "id2300083172764976": {
   "tm": {
@@ -24523,36 +23818,6 @@
    "sportName": "Volleyball"
   },
   "score": 1.0
- },
- "id2300117372775296": {
-  "tm": {
-   "id": "319898173163249664",
-   "sport": "Röplabda",
-   "name": "Wroclaw - Sokol Mogilno",
-   "home": "Wroclaw",
-   "away": "Sokol Mogilno",
-   "home_pid": "149274901497303040",
-   "away_pid": "215834408200065024",
-   "tournament": "Lengyel bajnokság, női",
-   "category": "Lengyelország",
-   "tm_sport_id": "20",
-   "start": "2026-11-20T18:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2300117372775296",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Volley Wroclaw",
-   "participant2Name": "MKS Sokol Mogilno",
-   "tournamentId": 1173,
-   "tournamentName": "Liga Siatkowki, Women",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595063,
-   "name": "Wroclaw - Sokol Mogilno",
-   "score": 1.0
-  }
  },
  "id2300117372775424": {
   "tm": {
@@ -24727,6 +23992,126 @@
    "id": 5595401,
    "name": "Cannes - Plessis-Robinson",
    "score": 1.0
+  }
+ },
+ "id2503634976956870": {
+  "tm": {
+   "id": "320403520657367040",
+   "sport": "Asztalitenisz",
+   "name": "Martin Biolek - Ondrej Paril",
+   "home": "Martin Biolek",
+   "away": "Ondrej Paril",
+   "home_pid": "166722033420390400",
+   "away_pid": "167402877649735936",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956870",
+   "startTime": "2026-11-20T19:00:00.000Z",
+   "participant1Name": "Biolek, Martin",
+   "participant2Name": "Paril, Ondrej",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5672667,
+   "name": "M. Biolek - O. Paril",
+   "score": 1.0
+  }
+ },
+ "id2503634976956938": {
+  "tm": {
+   "id": "320403897475735552",
+   "sport": "Asztalitenisz",
+   "name": "Jaromir Benek - Jakub Simecek",
+   "home": "Jaromir Benek",
+   "away": "Jakub Simecek",
+   "home_pid": "318312091843895296",
+   "away_pid": "274758198321352704",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956938",
+   "startTime": "2026-11-20T19:00:00.000Z",
+   "participant1Name": "Benek, Jaromir",
+   "participant2Name": "Simecek, Jakub",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5672671,
+   "name": "Jaromir Benek - Jakub Simecek",
+   "score": 1.0
+  }
+ },
+ "id2503634976956900": {
+  "tm": {
+   "id": "320403807485894656",
+   "sport": "Asztalitenisz",
+   "name": "Radek Rose - David Szotek",
+   "home": "Radek Rose",
+   "away": "David Szotek",
+   "home_pid": "107027290643386368",
+   "away_pid": "169718539420225536",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956900",
+   "startTime": "2026-11-20T19:00:00.000Z",
+   "participant1Name": "Rose, Radek",
+   "participant2Name": "Szotek, David",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5672665,
+   "name": "Radek Rose - D. Szotek",
+   "score": 1.0
+  }
+ },
+ "id2503634976956776": {
+  "tm": {
+   "id": "320403897714810880",
+   "sport": "Asztalitenisz",
+   "name": "Simon Kadavy - Alesh Bayer",
+   "home": "Simon Kadavy",
+   "away": "Alesh Bayer",
+   "home_pid": "188832931008008192",
+   "away_pid": "105042522788745216",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-20T19:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956776",
+   "startTime": "2026-11-20T19:00:00.000Z",
+   "participant1Name": "Kadavy, Simon",
+   "participant2Name": "Bayer, Ales",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5672666,
+   "name": "S. Kadavy - Ale. Bayer",
+   "score": 0.93
   }
  },
  "id2702157075326646": {
@@ -25929,90 +25314,6 @@
    "home": "Melbourne Demons",
    "away": "Carlton",
    "tournament": "AFL, női, rájátszás"
-  }
- },
- "id4100044473164992": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id4100044473164992",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Bollnas GIF",
-   "participant2Name": "Sandvikens AIK",
-   "tournamentId": 444,
-   "tournamentName": "Elitserien",
-   "sportName": "Bandy"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595255,
-   "name": "Bollnäs - Sandviken",
-   "score": 1.0,
-   "home": "Bollnäs",
-   "away": "Sandviken",
-   "tournament": "Svéd bajnokság"
-  }
- },
- "id4100044473164994": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id4100044473164994",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Frillesaas BK",
-   "participant2Name": "Vasteraas SK",
-   "tournamentId": 444,
-   "tournamentName": "Elitserien",
-   "sportName": "Bandy"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595256,
-   "name": "Frillesas - Västeras",
-   "score": 1.0,
-   "home": "Frillesas",
-   "away": "Västeras",
-   "tournament": "Svéd bajnokság"
-  }
- },
- "id4100044473165000": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id4100044473165000",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "IFK Vanersborg",
-   "participant2Name": "Villa-Lidkoping BK",
-   "tournamentId": 444,
-   "tournamentName": "Elitserien",
-   "sportName": "Bandy"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595257,
-   "name": "Vanersborg - Villa Lidköping",
-   "score": 1.0,
-   "home": "Vanersborg",
-   "away": "Villa Lidköping",
-   "tournament": "Svéd bajnokság"
-  }
- },
- "id4100031774486618": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id4100031774486618",
-   "startTime": "2026-11-20T18:00:00.000Z",
-   "participant1Name": "Mjoendalen",
-   "participant2Name": "NTNUI",
-   "tournamentId": 317,
-   "tournamentName": "Eliteserien",
-   "sportName": "Bandy"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595260,
-   "name": "Mjöndalen - NTNUI",
-   "score": 1.0,
-   "home": "Mjöndalen",
-   "away": "NTNUI",
-   "tournament": "Norvég bajnokság"
   }
  }
 }
