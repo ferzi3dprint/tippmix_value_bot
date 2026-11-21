@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-19T13:44:47.956366+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "-1.5% Al-Ahli (QAT) – Al-Shamal · Gólszám 1.5: Több @1.13 (fair 1.148)",
-   "-2.8% Al-Masry – Asyut Petroleum · 1X2: Al-Masry győz @1.59 (fair 1.635)",
-   "-2.8% Al-Mokawloon Arab – El Qanah · Gólszám 2.5: Kevesebb @1.42 (fair 1.461)",
-   "-2.8% Al-Ain (UAE) – Al-Dharfa · 1X2: Al-Ain (UAE) győz @1.11 (fair 1.142)",
-   "-3.0% Al-Ain (UAE) – Al-Dharfa · Gólszám 4.5: Kevesebb @1.51 (fair 1.557)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 3,
-  "fast": true,
-  "fixtures_checked": 22,
-  "fixtures_both": 12,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 6,
-  "classic_checked": 16,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.1% Al-Ain (UAE) – Al-Dharfa · Gólszám 5.5: Kevesebb @1.23 (fair 1.231)",
-   "-1.4% Al-Mokawloon Arab – El Qanah · Gólszám 2.5: Kevesebb @1.44 (fair 1.461)",
-   "-1.7% Al-Ain (UAE) – Al-Dharfa · Gólszám 4.5: Kevesebb @1.53 (fair 1.557)",
-   "-3.0% Al-Ain (UAE) – Al-Dharfa · Gólszám 4.25: Kevesebb @1.63 (fair 1.68)",
-   "-3.5% Al-Ahli (QAT) – Al-Shamal · Mindkét csapat szerez gólt: Igen @1.39 (fair 1.44)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 28
- },
- {
-  "time": "2026-11-19T13:50:07.795652+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 539,
-   "paired": 281,
-   "classic_only": 22
-  },
-  "tippmix_matches": 1073,
-  "pinnacle_fixtures": 1073,
-  "paired": 443,
-  "by_sport": {
-   "Soccer": [
-    253,
-    166
-   ],
-   "Tennis": [
-    226,
-    26
-   ],
-   "Basketball": [
-    162,
-    82
-   ],
-   "Ice Hockey": [
-    119,
-    100
-   ],
-   "Handball": [
-    44,
-    16
-   ],
-   "Volleyball": [
-    40,
-    4
-   ],
-   "Table Tennis": [
-    32,
-    7
-   ],
-   "Cricket": [
-    29,
-    9
-   ],
-   "Badminton": [
-    40,
-    0
-   ],
-   "Darts": [
-    28,
-    26
-   ],
-   "Futsal": [
-    3,
-    0
-   ],
-   "Waterpolo": [
-    9,
-    5
-   ],
-   "ESport Counter-Strike": [
-    22,
-    0
-   ],
-   "ESport Dota": [
-    7,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    52,
-    0
-   ],
-   "eBasketball": [
-    7,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    0,
-    1
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+1.1% Växjö – Björklöven · Győztes (hosszabbítással): Växjö győz @1.27 (fair 1.256)",
-   "+0.3% Caen – Nimes · Hendikep (rendes játékidő): Nimes (-2.5) @2.19 (fair 2.184)",
-   "+0.3% Tappara – Vaasan Sport · Győztes (hosszabbítással): Tappara győz @1.31 (fair 1.307)",
-   "-0.1% Caen – Nimes · Hendikep (rendes játékidő): Nimes (-1.5) @1.85 (fair 1.852)",
-   "-0.3% Ystad IF – Alingsas · Gólszám 58.5: Kevesebb @1.85 (fair 1.856)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 29,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 102,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 24,
-  "classic_checked": 102,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.1% Al-Ain (UAE) – Al-Dharfa · Gólszám 5.5: Kevesebb @1.23 (fair 1.231)",
-   "-0.8% Czestochowa – Projekt Warszawa · Győztes: Projekt Warszawa győz @1.58 (fair 1.593)",
-   "-1.0% Shabab Al-Ahli (UAE) – Ajman · Gólszám 4.5: Kevesebb @1.26 (fair 1.272)",
-   "-1.4% Botosani – Voluntari · 1X2: Botosani győz @1.69 (fair 1.714)",
-   "-1.6% Al-Mokawloon Arab – El Qanah · Gólszám 2.5: Kevesebb @1.44 (fair 1.464)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
   "time": "2026-11-19T14:06:52.290710+00:00",
   "mode": "hu",
   "settled": 0,
@@ -24376,6 +24185,173 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 152,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T16:58:46.045774+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 106,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 106,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T17:07:53.206556+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 737,
+   "paired": 380,
+   "classic_only": 51
+  },
+  "tippmix_matches": 1603,
+  "pinnacle_fixtures": 2467,
+  "paired": 714,
+  "by_sport": {
+   "Soccer": [
+    641,
+    371
+   ],
+   "Tennis": [
+    93,
+    1
+   ],
+   "Basketball": [
+    359,
+    183
+   ],
+   "Ice Hockey": [
+    123,
+    70
+   ],
+   "Handball": [
+    85,
+    29
+   ],
+   "Volleyball": [
+    133,
+    20
+   ],
+   "Table Tennis": [
+    27,
+    3
+   ],
+   "Cricket": [
+    47,
+    7
+   ],
+   "Badminton": [
+    5,
+    0
+   ],
+   "Darts": [
+    9,
+    2
+   ],
+   "Futsal": [
+    13,
+    2
+   ],
+   "Waterpolo": [
+    9,
+    1
+   ],
+   "ESport Counter-Strike": [
+    13,
+    0
+   ],
+   "ESport Dota": [
+    4,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    38,
+    0
+   ],
+   "eBasketball": [
+    2,
+    0
+   ],
+   "American Football": [
+    0,
+    10
+   ],
+   "Boxing": [
+    0,
+    1
+   ],
+   "MMA": [
+    0,
+    5
+   ],
+   "Snooker": [
+    0,
+    5
+   ],
+   "Rugby": [
+    0,
+    2
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    2,
+    2
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 150,
   "free_calls": 0
  }
 ]
