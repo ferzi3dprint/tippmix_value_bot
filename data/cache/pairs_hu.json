@@ -20024,6 +20024,31 @@
   },
   "score": 1.0
  },
+ "id1002627872594676": {
+  "tm": {
+   "id": "319421962029965312",
+   "sport": "Labdarúgás",
+   "name": "Hoek - Gvvv",
+   "home": "Hoek",
+   "away": "Gvvv",
+   "home_pid": "997753",
+   "away_pid": "110469",
+   "tournament": "Holland 3.",
+   "category": "Hollandia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002627872594676",
+   "startTime": "2026-11-21T13:30:00.000Z",
+   "participant1Name": "Hoek",
+   "participant2Name": "GVVV Veenendaal",
+   "tournamentId": 26278,
+   "tournamentName": "Tweede Divisie",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000094773296496": {
   "tm": {
    "id": "319417045454233600",
@@ -21213,6 +21238,31 @@
    "name": "Trinec - Dukla Praha",
    "score": 1.0
   }
+ },
+ "id1002627872594678": {
+  "tm": {
+   "id": "319421961873727488",
+   "sport": "Labdarúgás",
+   "name": "RKAV Volendam - FC Amszterdam",
+   "home": "RKAV Volendam",
+   "away": "FC Amszterdam",
+   "home_pid": "182669108064604160",
+   "away_pid": "762756",
+   "tournament": "Holland 3.",
+   "category": "Hollandia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T13:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002627872594678",
+   "startTime": "2026-11-21T13:30:00.000Z",
+   "participant1Name": "Rkav Volendam",
+   "participant2Name": "Amsterdamsche FC",
+   "tournamentId": 26278,
+   "tournamentName": "Tweede Divisie",
+   "sportName": "Soccer"
+  },
+  "score": 0.848
  },
  "id1000209472152204": {
   "tm": {
@@ -22613,36 +22663,6 @@
    "sportName": "Soccer"
   },
   "score": 0.72
- },
- "id1200946176687406": {
-  "tm": {
-   "id": "320459800098971648",
-   "sport": "Tenisz",
-   "name": "Omar Jasika - Philip Sekulic",
-   "home": "Omar Jasika",
-   "away": "Philip Sekulic",
-   "home_pid": "98695165111173120",
-   "away_pid": "109287358810181632",
-   "tournament": "Sydney, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-21T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200946176687406",
-   "startTime": "2026-11-21T01:30:00.000Z",
-   "participant1Name": "Jasika, Omar",
-   "participant2Name": "Sekulic, Philip",
-   "tournamentId": 9461,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5656178,
-   "name": "O. Jasika - P. Sekulic",
-   "score": 1.0
-  }
  },
  "id1201316776695070": {
   "tm": {
@@ -29300,31 +29320,6 @@
    "participant2Name": "Sl Benfica B",
    "tournamentId": 41115,
    "tournamentName": "Proliga",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
- },
- "id1103447276974512": {
-  "tm": {
-   "id": "320462819186253824",
-   "sport": "Kosárlabda",
-   "name": "Santa Ana - A Lobos BKB Chalchuapa",
-   "home": "Santa Ana",
-   "away": "A Lobos BKB Chalchuapa",
-   "home_pid": "182420893071364096",
-   "away_pid": "182257912985473024",
-   "tournament": "Salvadori bajnokság",
-   "category": "Salvador",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T01:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1103447276974512",
-   "startTime": "2026-11-21T01:15:00.000Z",
-   "participant1Name": "Santa Ana BC",
-   "participant2Name": "A Lobos BKB Chalchuapa",
-   "tournamentId": 34472,
-   "tournamentName": "Liga Mayor de Baloncesto",
    "sportName": "Basketball"
   },
   "score": 1.0
@@ -36689,81 +36684,6 @@
    "score": 1.0
   }
  },
- "id2503634976957348": {
-  "tm": {
-   "id": "320404180824039424",
-   "sport": "Asztalitenisz",
-   "name": "Patrik Pycha - Alesh Bayer",
-   "home": "Patrik Pycha",
-   "away": "Alesh Bayer",
-   "home_pid": "131044481783877632",
-   "away_pid": "105042522788745216",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-21T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976957348",
-   "startTime": "2026-11-21T01:30:00.000Z",
-   "participant1Name": "Pycha, Patrik",
-   "participant2Name": "Bayer, Ales",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976956874": {
-  "tm": {
-   "id": "320404322717343744",
-   "sport": "Asztalitenisz",
-   "name": "Michal Chalupa - David Szotek",
-   "home": "Michal Chalupa",
-   "away": "David Szotek",
-   "home_pid": "274550333304344576",
-   "away_pid": "169718539420225536",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-21T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956874",
-   "startTime": "2026-11-21T01:30:00.000Z",
-   "participant1Name": "Chalupa, Michal",
-   "participant2Name": "Szotek, David",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976957354": {
-  "tm": {
-   "id": "320404523838414848",
-   "sport": "Asztalitenisz",
-   "name": "Jakub Pilch - Tadeas Zika",
-   "home": "Jakub Pilch",
-   "away": "Tadeas Zika",
-   "home_pid": "274550304688705536",
-   "away_pid": "168097491692081152",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-21T01:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976957354",
-   "startTime": "2026-11-21T01:30:00.000Z",
-   "participant1Name": "Pilch, Jakub",
-   "participant2Name": "Zika, Tadeas",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976956762": {
   "tm": {
    "id": "320404237557243904",
@@ -36813,6 +36733,81 @@
    "sportName": "Table Tennis"
   },
   "score": 1.0
+ },
+ "id2503634976956876": {
+  "tm": {
+   "id": "320404237633789952",
+   "sport": "Asztalitenisz",
+   "name": "David Szotek - Radim Urbaniec",
+   "home": "David Szotek",
+   "away": "Radim Urbaniec",
+   "home_pid": "169718539420225536",
+   "away_pid": "167634919836667904",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-21T02:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956876",
+   "startTime": "2026-11-21T02:30:00.000Z",
+   "participant1Name": "Szotek, David",
+   "participant2Name": "Urbaniec, Radim",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976957346": {
+  "tm": {
+   "id": "320404181104009216",
+   "sport": "Asztalitenisz",
+   "name": "Alesh Bayer - Simon Kadavy",
+   "home": "Alesh Bayer",
+   "away": "Simon Kadavy",
+   "home_pid": "105042522788745216",
+   "away_pid": "188832931008008192",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-21T02:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976957346",
+   "startTime": "2026-11-21T02:30:00.000Z",
+   "participant1Name": "Bayer, Ales",
+   "participant2Name": "Kadavy, Simon",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976957352": {
+  "tm": {
+   "id": "320404524397305856",
+   "sport": "Asztalitenisz",
+   "name": "Tadeas Zika - Eric Maresh",
+   "home": "Tadeas Zika",
+   "away": "Eric Maresh",
+   "home_pid": "168097491692081152",
+   "away_pid": "104575284237455360",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-21T02:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976957352",
+   "startTime": "2026-11-21T02:30:00.000Z",
+   "participant1Name": "Zika, Tadeas",
+   "participant2Name": "Mares, Erik",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.9
  },
  "id2702157075326648": {
   "tm": {
