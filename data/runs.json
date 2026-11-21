@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-19T22:22:19.560974+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 3,
-  "top_ev": [
-   "-3.9% Daniel Milavsky – Liam Draxl · Győztes: Liam Draxl győz @1.55 (fair 1.613)",
-   "-5.2% Franco Roncadelli – Juan Manuel La Serna · Győztes: Franco Roncadelli győz @1.97 (fair 2.078)",
-   "-5.3% Franco Roncadelli – Juan Manuel La Serna · Játékszám 20.5: Több @1.62 (fair 1.711)",
-   "-5.7% Daniel Milavsky – Liam Draxl · Játékszám 23.5: Kevesebb @1.61 (fair 1.708)",
-   "-6.6% Barrie Colts – Flint Firebirds · Hendikep (rendes játékidő): Flint Firebirds (-0) @1.45 (fair 1.553)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 27,
-  "fixtures_both": 7,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 3,
-  "classic_checked": 18,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-3.3% Fallon Sherrock – Mayumi Ouchi · Győztes: Fallon Sherrock győz @1.25 (fair 1.292)",
-   "-3.5% Carolina – Montreal · Győztes (hosszabbítással): Carolina győz @1.29 (fair 1.336)",
-   "-4.3% Carolina – Montreal · Hendikep (rendes játékidő): Carolina (-0.5) @1.5 (fair 1.567)",
-   "-5.2% Mayumi Ouchi – Emine Dursun · Győztes: Emine Dursun győz @1.93 (fair 2.035)",
-   "-5.2% Washington – Buffalo · Hendikep (rendes játékidő): Washington (+0.5) @1.4 (fair 1.477)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 30
- },
- {
   "time": "2026-11-19T22:27:55.017001+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22938,6 +22904,16 @@
  },
  {
   "time": "2026-11-21T23:47:16.797892+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T23:52:16.798129+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
