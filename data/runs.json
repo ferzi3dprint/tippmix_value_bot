@@ -1,325 +1,5 @@
 [
  {
-  "time": "2026-11-19T17:25:50.035991+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 999,
-  "pinnacle_fixtures": 1073,
-  "paired": 364,
-  "by_sport": {
-   "Soccer": [
-    274,
-    149
-   ],
-   "Tennis": [
-    173,
-    13
-   ],
-   "Basketball": [
-    165,
-    74
-   ],
-   "Ice Hockey": [
-    113,
-    83
-   ],
-   "Handball": [
-    46,
-    14
-   ],
-   "Volleyball": [
-    29,
-    2
-   ],
-   "Table Tennis": [
-    33,
-    3
-   ],
-   "Cricket": [
-    29,
-    8
-   ],
-   "Badminton": [
-    42,
-    0
-   ],
-   "Darts": [
-    16,
-    14
-   ],
-   "Futsal": [
-    3,
-    0
-   ],
-   "Waterpolo": [
-    7,
-    4
-   ],
-   "ESport Counter-Strike": [
-    30,
-    0
-   ],
-   "ESport Dota": [
-    6,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    27,
-    0
-   ],
-   "eBasketball": [
-    3,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    3,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+1.5% ZED FC – Smouha · Gólszám 1.5: Több @1.62 (fair 1.595)",
-   "+1.1% Färjestad – Frölunda · Győztes (hosszabbítással): Färjestad győz @1.46 (fair 1.444)",
-   "+0.3% Växjö – Björklöven · Győztes (hosszabbítással): Växjö győz @1.27 (fair 1.266)",
-   "+0.3% Caen – Nimes · Hendikep (rendes játékidő): Nimes (-2.5) @2.19 (fair 2.184)",
-   "+0.2% ZED FC – Smouha · Ázsiai hendikep: ZED FC (+0.5) @1.31 (fair 1.308)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 17,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 106,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 23,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
-  "time": "2026-11-19T17:42:40.260255+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "+0.3% Caen – Nimes · Hendikep (rendes játékidő): Nimes (-2.5) @2.19 (fair 2.184)",
-   "-0.1% Dunkerque – Cesson · Gólszám 58.5: Kevesebb @1.77 (fair 1.772)",
-   "-0.1% Caen – Nimes · Hendikep (rendes játékidő): Nimes (-1.5) @1.85 (fair 1.852)",
-   "-0.9% Penarol Montevideo – Cerro Largo Melo · Gólszám 3.5: Kevesebb @1.27 (fair 1.282)",
-   "-1.0% Lausanne – Zürich Lions · Hendikep (rendes játékidő): Lausanne (+2) @1.49 (fair 1.505)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 6,
-  "fast": true,
-  "fixtures_checked": 25,
-  "fixtures_both": 15,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 7,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 31
- },
- {
-  "time": "2026-11-19T17:48:27.415329+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "tippmix_matches": 987,
-  "pinnacle_fixtures": 1073,
-  "paired": 355,
-  "by_sport": {
-   "Soccer": [
-    271,
-    147
-   ],
-   "Tennis": [
-    164,
-    12
-   ],
-   "Basketball": [
-    164,
-    73
-   ],
-   "Ice Hockey": [
-    113,
-    83
-   ],
-   "Handball": [
-    49,
-    12
-   ],
-   "Volleyball": [
-    28,
-    2
-   ],
-   "Table Tennis": [
-    28,
-    0
-   ],
-   "Cricket": [
-    29,
-    8
-   ],
-   "Badminton": [
-    42,
-    0
-   ],
-   "Darts": [
-    16,
-    14
-   ],
-   "Futsal": [
-    3,
-    0
-   ],
-   "Waterpolo": [
-    7,
-    4
-   ],
-   "ESport Counter-Strike": [
-    29,
-    0
-   ],
-   "ESport Dota": [
-    6,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    31,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    3,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+0.3% Caen – Nimes · Hendikep (rendes játékidő): Nimes (-2.5) @2.19 (fair 2.184)",
-   "-0.1% Dunkerque – Cesson · Gólszám 58.5: Kevesebb @1.77 (fair 1.772)",
-   "-0.1% Caen – Nimes · Hendikep (rendes játékidő): Nimes (-1.5) @1.85 (fair 1.852)",
-   "-0.6% Aarhus Fremad – Hobro · 1X2: Aarhus Fremad győz @1.81 (fair 1.821)",
-   "-0.6% Barnsley – Sheffield Wed. · Gólszám 1.5: Több @1.15 (fair 1.157)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 12,
-  "fast": false,
-  "fixtures_checked": 134,
-  "fixtures_both": 87,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 20,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 140
- },
- {
   "time": "2026-11-19T18:03:48.767757+00:00",
   "mode": "hu",
   "settled": 0,
@@ -24130,6 +23810,195 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 150,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T20:06:58.413759+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 25,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 25,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T20:11:58.414105+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 17,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 17,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T20:16:58.414244+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 523,
+   "paired": 267,
+   "classic_only": 31
+  },
+  "tippmix_matches": 1282,
+  "pinnacle_fixtures": 2467,
+  "paired": 539,
+  "by_sport": {
+   "Soccer": [
+    545,
+    302
+   ],
+   "Tennis": [
+    77,
+    0
+   ],
+   "Basketball": [
+    260,
+    133
+   ],
+   "Ice Hockey": [
+    101,
+    54
+   ],
+   "Handball": [
+    37,
+    10
+   ],
+   "Volleyball": [
+    70,
+    9
+   ],
+   "Table Tennis": [
+    23,
+    7
+   ],
+   "Cricket": [
+    55,
+    7
+   ],
+   "Badminton": [
+    6,
+    0
+   ],
+   "Darts": [
+    6,
+    1
+   ],
+   "Futsal": [
+    6,
+    2
+   ],
+   "Waterpolo": [
+    0,
+    0
+   ],
+   "ESport Counter-Strike": [
+    10,
+    0
+   ],
+   "ESport Dota": [
+    3,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    68,
+    0
+   ],
+   "eBasketball": [
+    11,
+    0
+   ],
+   "American Football": [
+    0,
+    10
+   ],
+   "Boxing": [
+    0,
+    0
+   ],
+   "MMA": [
+    0,
+    0
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    4,
+    4
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 151,
   "free_calls": 0
  }
 ]
