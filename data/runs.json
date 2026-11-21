@@ -1,162 +1,5 @@
 [
  {
-  "time": "2026-11-19T22:14:40.997104+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 5,
-  "boosts": 0,
-  "classic": {
-   "events": 397,
-   "paired": 186,
-   "classic_only": 20
-  },
-  "tippmix_matches": 949,
-  "pinnacle_fixtures": 1073,
-  "paired": 318,
-  "by_sport": {
-   "Soccer": [
-    257,
-    135
-   ],
-   "Tennis": [
-    182,
-    8
-   ],
-   "Basketball": [
-    162,
-    59
-   ],
-   "Ice Hockey": [
-    100,
-    84
-   ],
-   "Handball": [
-    36,
-    6
-   ],
-   "Volleyball": [
-    37,
-    2
-   ],
-   "Table Tennis": [
-    29,
-    2
-   ],
-   "Cricket": [
-    31,
-    8
-   ],
-   "Badminton": [
-    41,
-    0
-   ],
-   "Darts": [
-    11,
-    10
-   ],
-   "Futsal": [
-    0,
-    0
-   ],
-   "Waterpolo": [
-    1,
-    0
-   ],
-   "ESport Counter-Strike": [
-    25,
-    0
-   ],
-   "ESport Dota": [
-    5,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    23,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    5,
-    3
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "-1.9% Cartagena – Tigres Bogota · 1X2: Cartagena győz @1.2 (fair 1.223)",
-   "-2.0% Real Soacha Cundinamarca – Dep. Quindio · Ázsiai hendikep: Dep. Quindio (+0.5) @1.27 (fair 1.296)",
-   "-2.0% Orlando – Cincinnati · Gólszám 2.5: Több @1.29 (fair 1.316)",
-   "-2.3% Orlando – Cincinnati · Mindkét csapat szerez gólt: Igen @1.28 (fair 1.31)",
-   "-2.3% Seattle – Salt Lake · Gólszám 1.5: Több @1.18 (fair 1.208)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": false,
-  "fixtures_checked": 45,
-  "fixtures_both": 12,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 5,
-  "classic_checked": 33,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.9% Cartagena – Tigres Bogota · 1X2: Cartagena győz @1.2 (fair 1.223)",
-   "-2.9% Fallon Sherrock – Mayumi Ouchi · Győztes: Fallon Sherrock győz @1.25 (fair 1.287)",
-   "-2.9% Sao Paulo SP – Fluminense RJ · Gólszám 3.5: Kevesebb @1.25 (fair 1.288)",
-   "-3.0% Orlando – Cincinnati · Mindkét csapat szerez gólt: Igen @1.27 (fair 1.31)",
-   "-3.1% Seattle – Salt Lake · Gólszám 4.5: Kevesebb @1.21 (fair 1.249)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 50
- },
- {
   "time": "2026-11-19T22:22:19.560974+00:00",
   "mode": "hu",
   "settled": 0,
@@ -23085,6 +22928,16 @@
  },
  {
   "time": "2026-11-21T23:42:16.797778+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T23:47:16.797892+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
