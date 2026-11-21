@@ -22,7 +22,12 @@
    "tournamentName": "Premier League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5595651,
+   "name": "Tai Po - Kitchee Kowloon",
+   "score": 1.0
+  }
  },
  "id1000019672149886": {
   "tm": {
@@ -247,7 +252,12 @@
    "tournamentName": "Super League",
    "sportName": "Soccer"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5595692,
+   "name": "Persik Kediri - PSIM Yogyakarta",
+   "score": 1.0
+  }
  },
  "id1000013672897436": {
   "tm": {
@@ -20849,6 +20859,31 @@
   },
   "score": 1.0
  },
+ "id1002602073555420": {
+  "tm": {
+   "id": "320411497093210112",
+   "sport": "Labdarúgás",
+   "name": "Club Siero - Caudal Deportivo",
+   "home": "Club Siero",
+   "away": "Caudal Deportivo",
+   "home_pid": "280462921250770944",
+   "away_pid": "77105",
+   "tournament": "Spanyol 5., 2. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T18:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002602073555420",
+   "startTime": "2026-11-21T18:15:00.000Z",
+   "participant1Name": "Club Siero",
+   "participant2Name": "Caudal Deportivo",
+   "tournamentId": 26020,
+   "tournamentName": "Tercera Federacion, Group 2",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1003705172525980": {
   "tm": {
    "id": "320324734683258880",
@@ -20897,7 +20932,12 @@
    "tournamentName": "Premier League",
    "sportName": "Soccer"
   },
-  "score": 0.979
+  "score": 0.979,
+  "cl": {
+   "id": 5595650,
+   "name": "Southern District - Hongkong Rangers",
+   "score": 1.0
+  }
  },
  "id1001923273075912": {
   "tm": {
@@ -23602,7 +23642,12 @@
    "tournamentName": "UTR PTT Carvoeiro Men 09",
    "sportName": "Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5665612,
+   "name": "P. Galus - D. Jeanne-Grandinot",
+   "score": 1.0
+  }
  },
  "id1205404476773212": {
   "tm": {
@@ -23663,61 +23708,6 @@
    "name": "D. Molokova Ferreira - Felix Romeo",
    "score": 1.0
   }
- },
- "id1100152472016902": {
-  "tm": {
-   "id": "319354650405969920",
-   "sport": "Kosárlabda",
-   "name": "Tasmania Jackjumpers - Illawarra Hawks",
-   "home": "Tasmania Jackjumpers",
-   "away": "Illawarra Hawks",
-   "home_pid": "154662358496628736",
-   "away_pid": "1170510",
-   "tournament": "Ausztrál bajnokság",
-   "category": "Ausztrália",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T06:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100152472016902",
-   "startTime": "2026-11-21T06:30:00.000Z",
-   "participant1Name": "Tasmania Jackjumpers",
-   "participant2Name": "Illawarra Hawks",
-   "tournamentId": 1524,
-   "tournamentName": "NBL",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5583833,
-   "name": "Tasmania Jackjumpers - Illawarra Hawks",
-   "score": 1.0
-  }
- },
- "id1104467575020374": {
-  "tm": {
-   "id": "319354623484829696",
-   "sport": "Kosárlabda",
-   "name": "Formosa Dreamers BC - Kaohsiung Aquas",
-   "home": "Formosa Dreamers BC",
-   "away": "Kaohsiung Aquas",
-   "home_pid": "183959821652905984",
-   "away_pid": "156316084205731840",
-   "tournament": "Tajvani bajnokság",
-   "category": "Tajvan",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T06:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1104467575020374",
-   "startTime": "2026-11-21T06:30:00.000Z",
-   "participant1Name": "Formosa Dreamers",
-   "participant2Name": "Kaohsiung Poseidon Aquas",
-   "tournamentId": 44675,
-   "tournamentName": "TPBL",
-   "sportName": "Basketball"
-  },
-  "score": 1.0
  },
  "id1100150672704688": {
   "tm": {
@@ -36107,32 +36097,12 @@
    "tournamentName": "V League, Women",
    "sportName": "Volleyball"
   },
-  "score": 0.734
- },
- "id2503634976982382": {
-  "tm": {
-   "id": "320491683357728768",
-   "sport": "Asztalitenisz",
-   "name": "Vojtech Stach - Ladislav Novotny",
-   "home": "Vojtech Stach",
-   "away": "Ladislav Novotny",
-   "home_pid": "274261919294164992",
-   "away_pid": "219268601318887424",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-21T07:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976982382",
-   "startTime": "2026-11-21T07:00:00.000Z",
-   "participant1Name": "Stach, Vojtech",
-   "participant2Name": "Novotny, Ladislav",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
+  "score": 0.734,
+  "cl": {
+   "id": 5595758,
+   "name": "Gwangju Soopers - Daejeon KGC",
+   "score": 1.0
+  }
  },
  "id2503634976982606": {
   "tm": {
@@ -36157,7 +36127,72 @@
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5676814,
+   "name": "F. Laburda - R. Skacelik",
+   "score": 1.0
+  }
+ },
+ "id2503634976982382": {
+  "tm": {
+   "id": "320491683357728768",
+   "sport": "Asztalitenisz",
+   "name": "Vojtech Stach - Ladislav Novotny",
+   "home": "Vojtech Stach",
+   "away": "Ladislav Novotny",
+   "home_pid": "274261919294164992",
+   "away_pid": "219268601318887424",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-21T07:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976982382",
+   "startTime": "2026-11-21T07:00:00.000Z",
+   "participant1Name": "Stach, Vojtech",
+   "participant2Name": "Novotny, Ladislav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5676815,
+   "name": "V. Stach - Lad. Novotny",
+   "score": 0.87
+  }
+ },
+ "id2503634976982502": {
+  "tm": {
+   "id": "320491028056449024",
+   "sport": "Asztalitenisz",
+   "name": "Jaroslav Martinek - Leos Havrda",
+   "home": "Jaroslav Martinek",
+   "away": "Leos Havrda",
+   "home_pid": "193723147321765888",
+   "away_pid": "172161932769415168",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-21T07:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976982502",
+   "startTime": "2026-11-21T07:30:00.000Z",
+   "participant1Name": "Martinek, Jaroslav",
+   "participant2Name": "Havrda, Leos",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5676811,
+   "name": "Jaroslav Martinek - L. Havrda",
+   "score": 1.0
+  }
  },
  "id2704036576189080": {
   "tm": {
@@ -36412,7 +36447,12 @@
    "tournamentName": "Scottish Open, WS",
    "sportName": "Badminton"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5674168,
+   "name": "A.S. Ryberg - Min Ji Kim",
+   "score": 1.0
+  }
  },
  "id4902156277000234": {
   "tm": {
@@ -36437,7 +36477,12 @@
    "tournamentName": "Scottish Open, WS",
    "sportName": "Badminton"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5674166,
+   "name": "Ga Eun Park - P. Maixnerova",
+   "score": 1.0
+  }
  },
  "id4902156076998256": {
   "tm": {
@@ -36522,7 +36567,12 @@
    "tournamentName": "Turkiye International Future Series, MS",
    "sportName": "Badminton"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5674173,
+   "name": "M.C. Toremis - S. Padmanabhan Vasudevan",
+   "score": 1.0
+  }
  },
  "id1900059776636518": {
   "tm": {
@@ -36607,7 +36657,12 @@
    "tournamentName": "Ekstraklasa",
    "sportName": "Futsal"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5596945,
+   "name": "AZS Katowice - Slask Wroclaw",
+   "score": 1.0
+  }
  },
  "id2902644473322056": {
   "tm": {
@@ -37764,6 +37819,90 @@
    "home": "Altekma Izmir",
    "away": "Corum Sungurlu Bld. Spor",
    "tournament": "Török bajnokság"
+  }
+ },
+ "id2503634976982578": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976982578",
+   "startTime": "2026-11-21T07:30:00.000Z",
+   "participant1Name": "Byrtus, Samuel",
+   "participant2Name": "Rinka, Alfred",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5676809,
+   "name": "Samuel Byrtus - A. Rinka",
+   "score": 1.0,
+   "home": "Samuel Byrtus",
+   "away": "A. Rinka",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976982300": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976982300",
+   "startTime": "2026-11-21T08:00:00.000Z",
+   "participant1Name": "Skacelik, Richard",
+   "participant2Name": "Byrtus, Samuel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5676855,
+   "name": "R. Skacelik - Samuel Byrtus",
+   "score": 1.0,
+   "home": "R. Skacelik",
+   "away": "Samuel Byrtus",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976982494": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976982494",
+   "startTime": "2026-11-21T08:00:00.000Z",
+   "participant1Name": "Schneider, Pavel",
+   "participant2Name": "Derco, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5676860,
+   "name": "Pavel Schneider - M. Derco",
+   "score": 1.0,
+   "home": "Pavel Schneider",
+   "away": "M. Derco",
+   "tournament": "Cseh Liga Pro"
+  }
+ },
+ "id2503634976982586": {
+  "tm": null,
+  "fx": {
+   "fixtureId": "id2503634976982586",
+   "startTime": "2026-11-21T08:00:00.000Z",
+   "participant1Name": "Novotny, Ladislav",
+   "participant2Name": "Martinek, Jaroslav",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 0.87,
+  "cl": {
+   "id": 5676857,
+   "name": "Lad. Novotny - Jaroslav Martinek",
+   "score": 0.87,
+   "home": "Lad. Novotny",
+   "away": "Jaroslav Martinek",
+   "tournament": "Cseh Liga Pro"
   }
  },
  "id2804495774113222": {
