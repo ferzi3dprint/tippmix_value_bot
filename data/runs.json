@@ -1,230 +1,5 @@
 [
  {
-  "time": "2026-11-18T21:55:49.515995+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 3,
-  "top_ev": [
-   "-1.4% Cruzeiro MG – Palmeiras SP · Gólszám 2.25: Több @1.51 (fair 1.531)",
-   "-1.5% Cruzeiro MG – Palmeiras SP · Gólszám 1.5: Több @1.21 (fair 1.228)",
-   "-1.9% Coritiba – Santos SP · Gólszám 1.5: Több @1.21 (fair 1.234)",
-   "-2.0% Cruzeiro MG – Palmeiras SP · Gólszám 2.75: Több @1.88 (fair 1.918)",
-   "-2.3% Remo – Chapecoense · Gólszám 4.5: Kevesebb @1.15 (fair 1.177)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 10,
-  "fixtures_both": 10,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 3,
-  "classic_checked": 10,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.2% Coritiba – Santos SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.207)",
-   "-2.3% Remo – Chapecoense · Gólszám 4.5: Kevesebb @1.15 (fair 1.177)",
-   "-2.5% Coritiba – Santos SP · Gólszám 3.5: Kevesebb @1.48 (fair 1.518)",
-   "-2.7% Cruzeiro MG – Palmeiras SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.213)",
-   "-3.2% Christian Langmo – Florian Broska · Játékszám 21.5: Több @1.54 (fair 1.591)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 13
- },
- {
-  "time": "2026-11-18T22:00:49.517776+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "top_ev": [
-   "-1.4% Cruzeiro MG – Palmeiras SP · Gólszám 2.25: Több @1.51 (fair 1.531)",
-   "-1.5% Cruzeiro MG – Palmeiras SP · Gólszám 1.5: Több @1.21 (fair 1.228)",
-   "-2.0% Cruzeiro MG – Palmeiras SP · Gólszám 2.75: Több @1.88 (fair 1.918)",
-   "-2.3% Remo – Chapecoense · Gólszám 4.5: Kevesebb @1.15 (fair 1.177)",
-   "-2.5% Remo – Chapecoense · 1X2: Remo győz @1.45 (fair 1.486)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 16,
-  "fixtures_both": 14,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 4,
-  "classic_checked": 12,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.0% Coritiba – Santos SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.204)",
-   "-2.0% Coritiba – Santos SP · 1X2: Döntetlen @3.6 (fair 3.674)",
-   "-2.3% Coritiba – Santos SP · Gólszám 3.5: Kevesebb @1.48 (fair 1.515)",
-   "-2.3% Remo – Chapecoense · Gólszám 4.5: Kevesebb @1.15 (fair 1.177)",
-   "-2.7% Cruzeiro MG – Palmeiras SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.213)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 20
- },
- {
-  "time": "2026-11-18T22:05:49.516039+00:00",
-  "mode": "hu",
-  "settled": 2,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 293,
-   "paired": 63,
-   "classic_only": 2
-  },
-  "tippmix_matches": 852,
-  "pinnacle_fixtures": 976,
-  "paired": 117,
-  "by_sport": {
-   "Soccer": [
-    115,
-    45
-   ],
-   "Tennis": [
-    301,
-    6
-   ],
-   "Basketball": [
-    131,
-    26
-   ],
-   "Ice Hockey": [
-    40,
-    26
-   ],
-   "Handball": [
-    16,
-    6
-   ],
-   "Volleyball": [
-    32,
-    0
-   ],
-   "Table Tennis": [
-    61,
-    2
-   ],
-   "Cricket": [
-    16,
-    2
-   ],
-   "Badminton": [
-    62,
-    0
-   ],
-   "Darts": [
-    23,
-    1
-   ],
-   "Futsal": [
-    4,
-    0
-   ],
-   "Waterpolo": [
-    8,
-    3
-   ],
-   "ESport Counter-Strike": [
-    11,
-    0
-   ],
-   "ESport Dota": [
-    5,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    23,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "-0.9% Detroit – Boston · Hendikep (rendes játékidő): Detroit (+1) @1.43 (fair 1.443)",
-   "-1.2% Remo – Chapecoense · 1X2: Remo győz @1.43 (fair 1.447)",
-   "-1.3% Utah – Colorado · Hendikep (rendes játékidő): Colorado (+1) @1.44 (fair 1.458)",
-   "-1.4% Cruzeiro MG – Palmeiras SP · Gólszám 2.25: Több @1.51 (fair 1.531)",
-   "-1.5% Detroit – Boston · Hendikep (rendes játékidő): Boston (+1) @1.44 (fair 1.461)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": false,
-  "fixtures_checked": 40,
-  "fixtures_both": 29,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 6,
-  "classic_checked": 25,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.4% Coritiba – Santos SP · Gólszám 3.5: Kevesebb @1.48 (fair 1.487)",
-   "-1.0% Coritiba – Santos SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.192)",
-   "-1.0% Coritiba – Santos SP · Gólszám 3.25: Kevesebb @1.57 (fair 1.586)",
-   "-1.1% Coritiba – Santos SP · Gólszám 3: Kevesebb @1.72 (fair 1.739)",
-   "-1.5% Coritiba – Santos SP · 1X2: Döntetlen @3.6 (fair 3.656)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 46
- },
- {
   "time": "2026-11-18T22:14:34.664837+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25354,6 +25129,195 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 152,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T00:57:09.704521+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 31,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 32,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T01:02:09.703684+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 38,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 38,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T01:07:09.703784+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 755,
+   "paired": 569,
+   "classic_only": 67
+  },
+  "tippmix_matches": 2273,
+  "pinnacle_fixtures": 2467,
+  "paired": 1471,
+  "by_sport": {
+   "Soccer": [
+    1094,
+    829
+   ],
+   "Tennis": [
+    109,
+    22
+   ],
+   "Basketball": [
+    478,
+    307
+   ],
+   "Ice Hockey": [
+    117,
+    115
+   ],
+   "Handball": [
+    82,
+    57
+   ],
+   "Volleyball": [
+    187,
+    64
+   ],
+   "Table Tennis": [
+    15,
+    5
+   ],
+   "Cricket": [
+    72,
+    11
+   ],
+   "Badminton": [
+    24,
+    8
+   ],
+   "Darts": [
+    11,
+    2
+   ],
+   "Futsal": [
+    10,
+    3
+   ],
+   "Waterpolo": [
+    18,
+    8
+   ],
+   "ESport Counter-Strike": [
+    12,
+    0
+   ],
+   "ESport Dota": [
+    6,
+    2
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    20,
+    0
+   ],
+   "eBasketball": [
+    5,
+    0
+   ],
+   "American Football": [
+    0,
+    10
+   ],
+   "Boxing": [
+    3,
+    7
+   ],
+   "MMA": [
+    0,
+    12
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    2
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    10,
+    7
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 151,
   "free_calls": 0
  }
 ]
