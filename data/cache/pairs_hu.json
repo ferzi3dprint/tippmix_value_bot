@@ -20039,6 +20039,31 @@
   },
   "score": 1.0
  },
+ "id1002991273436614": {
+  "tm": {
+   "id": "320490123045183488",
+   "sport": "Labdarúgás",
+   "name": "U19Amed Sportif Faaliyetler - U19Rizespor",
+   "home": "U19Amed Sportif Faaliyetler",
+   "away": "U19Rizespor",
+   "home_pid": "311211146732007424",
+   "away_pid": "1374821",
+   "tournament": "U19 Török bajnokság",
+   "category": "Törökország",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T09:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002991273436614",
+   "startTime": "2026-11-21T09:00:00.000Z",
+   "participant1Name": "Amed Sportif Faaliyetler",
+   "participant2Name": "Caykur Rizespor",
+   "tournamentId": 29912,
+   "tournamentName": "U19 PAF Ligi",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1002604675024580": {
   "tm": {
    "id": "320403545076604928",
@@ -20064,25 +20089,50 @@
   },
   "score": 1.0
  },
- "id1000111173018736": {
+ "id1000111173018720": {
   "tm": {
-   "id": "319423060966973440",
+   "id": "319423068150767616",
    "sport": "Labdarúgás",
-   "name": "Workington - Gainsborough Trinity",
-   "home": "Workington",
-   "away": "Gainsborough Trinity",
-   "home_pid": "9124",
-   "away_pid": "3509",
+   "name": "Bury - Redcar Athletic",
+   "home": "Bury",
+   "away": "Redcar Athletic",
+   "home_pid": "69",
+   "away_pid": "275804237368266752",
    "tournament": "Angol NPL",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000111173018736",
+   "fixtureId": "id1000111173018720",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Workington AFC",
-   "participant2Name": "Gainsborough Trinity",
+   "participant1Name": "Bury FC",
+   "participant2Name": "Redcar Athletic FC",
+   "tournamentId": 1111,
+   "tournamentName": "Northern Premier League Premier",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000111173018718": {
+  "tm": {
+   "id": "319423066614603776",
+   "sport": "Labdarúgás",
+   "name": "Bamber Bridge - Cleethorpes Town",
+   "home": "Bamber Bridge",
+   "away": "Cleethorpes Town",
+   "home_pid": "3511",
+   "away_pid": "1307488",
+   "tournament": "Angol NPL",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000111173018718",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Bamber Bridge",
+   "participant2Name": "Cleethorpes Town FC",
    "tournamentId": 1111,
    "tournamentName": "Northern Premier League Premier",
    "sportName": "Soccer"
@@ -20114,25 +20164,50 @@
   },
   "score": 1.0
  },
- "id1000111173018730": {
+ "id1000111173018734": {
   "tm": {
-   "id": "319423069029474304",
+   "id": "319423062110969856",
    "sport": "Labdarúgás",
-   "name": "Stockton Town - Ilkeston",
-   "home": "Stockton Town",
-   "away": "Ilkeston",
-   "home_pid": "4886242224111616",
-   "away_pid": "757402",
+   "name": "Whitby Town - Leek Town",
+   "home": "Whitby Town",
+   "away": "Leek Town",
+   "home_pid": "3501",
+   "away_pid": "3513",
    "tournament": "Angol NPL",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000111173018730",
+   "fixtureId": "id1000111173018734",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Stockton Town",
-   "participant2Name": "Ilkeston Town FC",
+   "participant1Name": "Whitby Town",
+   "participant2Name": "Leek Town FC",
+   "tournamentId": 1111,
+   "tournamentName": "Northern Premier League Premier",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000111173018736": {
+  "tm": {
+   "id": "319423060966973440",
+   "sport": "Labdarúgás",
+   "name": "Workington - Gainsborough Trinity",
+   "home": "Workington",
+   "away": "Gainsborough Trinity",
+   "home_pid": "9124",
+   "away_pid": "3509",
+   "tournament": "Angol NPL",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000111173018736",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Workington AFC",
+   "participant2Name": "Gainsborough Trinity",
    "tournamentId": 1111,
    "tournamentName": "Northern Premier League Premier",
    "sportName": "Soccer"
@@ -20158,6 +20233,56 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "AFC Emley",
    "participant2Name": "Hyde United FC",
+   "tournamentId": 1111,
+   "tournamentName": "Northern Premier League Premier",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000111173018732": {
+  "tm": {
+   "id": "319423062214778880",
+   "sport": "Labdarúgás",
+   "name": "Warrington Town - Guiseley AFC",
+   "home": "Warrington Town",
+   "away": "Guiseley AFC",
+   "home_pid": "16968",
+   "away_pid": "9071",
+   "tournament": "Angol NPL",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000111173018732",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Warrington Town",
+   "participant2Name": "Guiseley FC",
+   "tournamentId": 1111,
+   "tournamentName": "Northern Premier League Premier",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000111173018730": {
+  "tm": {
+   "id": "319423069029474304",
+   "sport": "Labdarúgás",
+   "name": "Stockton Town - Ilkeston",
+   "home": "Stockton Town",
+   "away": "Ilkeston",
+   "home_pid": "4886242224111616",
+   "away_pid": "757402",
+   "tournament": "Angol NPL",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000111173018730",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Stockton Town",
+   "participant2Name": "Ilkeston Town FC",
    "tournamentId": 1111,
    "tournamentName": "Northern Premier League Premier",
    "sportName": "Soccer"
@@ -20239,102 +20364,102 @@
   },
   "score": 1.0
  },
- "id1000111173018720": {
+ "id1002605873025196": {
   "tm": {
-   "id": "319423068150767616",
+   "id": "319423062960316416",
    "sport": "Labdarúgás",
-   "name": "Bury - Redcar Athletic",
-   "home": "Bury",
-   "away": "Redcar Athletic",
-   "home_pid": "69",
-   "away_pid": "275804237368266752",
-   "tournament": "Angol NPL",
+   "name": "Uxbridge - Gloucester",
+   "home": "Uxbridge",
+   "away": "Gloucester",
+   "home_pid": "757774",
+   "away_pid": "122828",
+   "tournament": "Angol Southern League, Premier Dél",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000111173018720",
+   "fixtureId": "id1002605873025196",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Bury FC",
-   "participant2Name": "Redcar Athletic FC",
-   "tournamentId": 1111,
-   "tournamentName": "Northern Premier League Premier",
+   "participant1Name": "Uxbridge FC",
+   "participant2Name": "Gloucester City",
+   "tournamentId": 26058,
+   "tournamentName": "Southern League Premier South",
    "sportName": "Soccer"
   },
   "score": 1.0
  },
- "id1000111173018718": {
+ "id1002605873025180": {
   "tm": {
-   "id": "319423066614603776",
+   "id": "319423062671958016",
    "sport": "Labdarúgás",
-   "name": "Bamber Bridge - Cleethorpes Town",
-   "home": "Bamber Bridge",
-   "away": "Cleethorpes Town",
-   "home_pid": "3511",
-   "away_pid": "1307488",
-   "tournament": "Angol NPL",
+   "name": "Berkhamsted - Frome Town",
+   "home": "Berkhamsted",
+   "away": "Frome Town",
+   "home_pid": "1908631773540352",
+   "away_pid": "269284",
+   "tournament": "Angol Southern League, Premier Dél",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000111173018718",
+   "fixtureId": "id1002605873025180",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Bamber Bridge",
-   "participant2Name": "Cleethorpes Town FC",
-   "tournamentId": 1111,
-   "tournamentName": "Northern Premier League Premier",
+   "participant1Name": "Berkhamsted FC",
+   "participant2Name": "Frome Town FC",
+   "tournamentId": 26058,
+   "tournamentName": "Southern League Premier South",
    "sportName": "Soccer"
   },
   "score": 1.0
  },
- "id1000111173018734": {
+ "id1002605873025192": {
   "tm": {
-   "id": "319423062110969856",
+   "id": "319423062798835712",
    "sport": "Labdarúgás",
-   "name": "Whitby Town - Leek Town",
-   "home": "Whitby Town",
-   "away": "Leek Town",
-   "home_pid": "3501",
-   "away_pid": "3513",
-   "tournament": "Angol NPL",
+   "name": "Sholing - Evesham Utd.",
+   "home": "Sholing",
+   "away": "Evesham Utd.",
+   "home_pid": "1495096",
+   "away_pid": "953129",
+   "tournament": "Angol Southern League, Premier Dél",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000111173018734",
+   "fixtureId": "id1002605873025192",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Whitby Town",
-   "participant2Name": "Leek Town FC",
-   "tournamentId": 1111,
-   "tournamentName": "Northern Premier League Premier",
+   "participant1Name": "Sholing FC",
+   "participant2Name": "Evesham United",
+   "tournamentId": 26058,
+   "tournamentName": "Southern League Premier South",
    "sportName": "Soccer"
   },
   "score": 1.0
  },
- "id1000111173018732": {
+ "id1002605873025198": {
   "tm": {
-   "id": "319423062214778880",
+   "id": "319423061970460672",
    "sport": "Labdarúgás",
-   "name": "Warrington Town - Guiseley AFC",
-   "home": "Warrington Town",
-   "away": "Guiseley AFC",
-   "home_pid": "16968",
-   "away_pid": "9071",
-   "tournament": "Angol NPL",
+   "name": "Wimborne Town - Bath City",
+   "home": "Wimborne Town",
+   "away": "Bath City",
+   "home_pid": "36391",
+   "away_pid": "9041",
+   "tournament": "Angol Southern League, Premier Dél",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1000111173018732",
+   "fixtureId": "id1002605873025198",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Warrington Town",
-   "participant2Name": "Guiseley FC",
-   "tournamentId": 1111,
-   "tournamentName": "Northern Premier League Premier",
+   "participant1Name": "Wimborne Town",
+   "participant2Name": "Bath City FC",
+   "tournamentId": 26058,
+   "tournamentName": "Southern League Premier South",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -20358,31 +20483,6 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Chippenham Town FC",
    "participant2Name": "Bracknell Town FC",
-   "tournamentId": 26058,
-   "tournamentName": "Southern League Premier South",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002605873025186": {
-  "tm": {
-   "id": "319423064636989440",
-   "sport": "Labdarúgás",
-   "name": "Gosport Borough - Havant & Waterlooville",
-   "home": "Gosport Borough",
-   "away": "Havant & Waterlooville",
-   "home_pid": "16923",
-   "away_pid": "5609",
-   "tournament": "Angol Southern League, Premier Dél",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002605873025186",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Gosport Borough",
-   "participant2Name": "Havant & Waterlooville",
    "tournamentId": 26058,
    "tournamentName": "Southern League Premier South",
    "sportName": "Soccer"
@@ -20439,50 +20539,25 @@
   },
   "score": 1.0
  },
- "id1002605873025196": {
+ "id1002605873025200": {
   "tm": {
-   "id": "319423062960316416",
+   "id": "319423066181541888",
    "sport": "Labdarúgás",
-   "name": "Uxbridge - Gloucester",
-   "home": "Uxbridge",
-   "away": "Gloucester",
-   "home_pid": "757774",
-   "away_pid": "122828",
+   "name": "Yate Town - Hanwell Town",
+   "home": "Yate Town",
+   "away": "Hanwell Town",
+   "home_pid": "16445",
+   "away_pid": "979797",
    "tournament": "Angol Southern League, Premier Dél",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1002605873025196",
+   "fixtureId": "id1002605873025200",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Uxbridge FC",
-   "participant2Name": "Gloucester City",
-   "tournamentId": 26058,
-   "tournamentName": "Southern League Premier South",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002605873025180": {
-  "tm": {
-   "id": "319423062671958016",
-   "sport": "Labdarúgás",
-   "name": "Berkhamsted - Frome Town",
-   "home": "Berkhamsted",
-   "away": "Frome Town",
-   "home_pid": "1908631773540352",
-   "away_pid": "269284",
-   "tournament": "Angol Southern League, Premier Dél",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002605873025180",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Berkhamsted FC",
-   "participant2Name": "Frome Town FC",
+   "participant1Name": "Yate Town",
+   "participant2Name": "Hanwell Town FC",
    "tournamentId": 26058,
    "tournamentName": "Southern League Premier South",
    "sportName": "Soccer"
@@ -20514,31 +20589,6 @@
   },
   "score": 1.0
  },
- "id1002605873025192": {
-  "tm": {
-   "id": "319423062798835712",
-   "sport": "Labdarúgás",
-   "name": "Sholing - Evesham Utd.",
-   "home": "Sholing",
-   "away": "Evesham Utd.",
-   "home_pid": "1495096",
-   "away_pid": "953129",
-   "tournament": "Angol Southern League, Premier Dél",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002605873025192",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Sholing FC",
-   "participant2Name": "Evesham United",
-   "tournamentId": 26058,
-   "tournamentName": "Southern League Premier South",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1002605873025188": {
   "tm": {
    "id": "319423066308419584",
@@ -20564,50 +20614,25 @@
   },
   "score": 1.0
  },
- "id1002605873025198": {
+ "id1002605873025186": {
   "tm": {
-   "id": "319423061970460672",
+   "id": "319423064636989440",
    "sport": "Labdarúgás",
-   "name": "Wimborne Town - Bath City",
-   "home": "Wimborne Town",
-   "away": "Bath City",
-   "home_pid": "36391",
-   "away_pid": "9041",
+   "name": "Gosport Borough - Havant & Waterlooville",
+   "home": "Gosport Borough",
+   "away": "Havant & Waterlooville",
+   "home_pid": "16923",
+   "away_pid": "5609",
    "tournament": "Angol Southern League, Premier Dél",
    "category": "Anglia",
    "tm_sport_id": "1",
    "start": "2026-11-21T15:00:00+00:00"
   },
   "fx": {
-   "fixtureId": "id1002605873025198",
+   "fixtureId": "id1002605873025186",
    "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Wimborne Town",
-   "participant2Name": "Bath City FC",
-   "tournamentId": 26058,
-   "tournamentName": "Southern League Premier South",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002605873025200": {
-  "tm": {
-   "id": "319423066181541888",
-   "sport": "Labdarúgás",
-   "name": "Yate Town - Hanwell Town",
-   "home": "Yate Town",
-   "away": "Hanwell Town",
-   "home_pid": "16445",
-   "away_pid": "979797",
-   "tournament": "Angol Southern League, Premier Dél",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002605873025200",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Yate Town",
-   "participant2Name": "Hanwell Town FC",
+   "participant1Name": "Gosport Borough",
+   "participant2Name": "Havant & Waterlooville",
    "tournamentId": 26058,
    "tournamentName": "Southern League Premier South",
    "sportName": "Soccer"
@@ -20633,81 +20658,6 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Worcester City",
    "participant2Name": "Bury Town FC",
-   "tournamentId": 26056,
-   "tournamentName": "Southern League Premier Central",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002605673022144": {
-  "tm": {
-   "id": "319423065325903872",
-   "sport": "Labdarúgás",
-   "name": "Peterborough Sports - Bromsgrove Sporting",
-   "home": "Peterborough Sports",
-   "away": "Bromsgrove Sporting",
-   "home_pid": "1339156",
-   "away_pid": "5985015376046080",
-   "tournament": "Angol Southern League, Premier Közép",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002605673022144",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Peterborough Sports",
-   "participant2Name": "Bromsgrove Sporting",
-   "tournamentId": 26056,
-   "tournamentName": "Southern League Premier Central",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002605673022150": {
-  "tm": {
-   "id": "319423065229434880",
-   "sport": "Labdarúgás",
-   "name": "Stamford - Leamington",
-   "home": "Stamford",
-   "away": "Leamington",
-   "home_pid": "9104",
-   "away_pid": "16935",
-   "tournament": "Angol Southern League, Premier Közép",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002605673022150",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Stamford AFC",
-   "participant2Name": "Leamington FC",
-   "tournamentId": 26056,
-   "tournamentName": "Southern League Premier Central",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002605673022148": {
-  "tm": {
-   "id": "319423065474801664",
-   "sport": "Labdarúgás",
-   "name": "Rushall Olympic - Bishop's Stortford",
-   "home": "Rushall Olympic",
-   "away": "Bishop's Stortford",
-   "home_pid": "23306",
-   "away_pid": "9045",
-   "tournament": "Angol Southern League, Premier Közép",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002605673022148",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Rushall Olympic",
-   "participant2Name": "Bishop's Stortford",
    "tournamentId": 26056,
    "tournamentName": "Southern League Premier Central",
    "sportName": "Soccer"
@@ -20789,6 +20739,106 @@
   },
   "score": 1.0
  },
+ "id1002605673022142": {
+  "tm": {
+   "id": "319423061589827584",
+   "sport": "Labdarúgás",
+   "name": "Leiston - Leighton Town",
+   "home": "Leiston",
+   "away": "Leighton Town",
+   "home_pid": "125710",
+   "away_pid": "10265311966924800",
+   "tournament": "Angol Southern League, Premier Közép",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002605673022142",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Leiston FC",
+   "participant2Name": "Leighton Town",
+   "tournamentId": 26056,
+   "tournamentName": "Southern League Premier Central",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002605673022144": {
+  "tm": {
+   "id": "319423065325903872",
+   "sport": "Labdarúgás",
+   "name": "Peterborough Sports - Bromsgrove Sporting",
+   "home": "Peterborough Sports",
+   "away": "Bromsgrove Sporting",
+   "home_pid": "1339156",
+   "away_pid": "5985015376046080",
+   "tournament": "Angol Southern League, Premier Közép",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002605673022144",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Peterborough Sports",
+   "participant2Name": "Bromsgrove Sporting",
+   "tournamentId": 26056,
+   "tournamentName": "Southern League Premier Central",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002605673022150": {
+  "tm": {
+   "id": "319423065229434880",
+   "sport": "Labdarúgás",
+   "name": "Stamford - Leamington",
+   "home": "Stamford",
+   "away": "Leamington",
+   "home_pid": "9104",
+   "away_pid": "16935",
+   "tournament": "Angol Southern League, Premier Közép",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002605673022150",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Stamford AFC",
+   "participant2Name": "Leamington FC",
+   "tournamentId": 26056,
+   "tournamentName": "Southern League Premier Central",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002605673022148": {
+  "tm": {
+   "id": "319423065474801664",
+   "sport": "Labdarúgás",
+   "name": "Rushall Olympic - Bishop's Stortford",
+   "home": "Rushall Olympic",
+   "away": "Bishop's Stortford",
+   "home_pid": "23306",
+   "away_pid": "9045",
+   "tournament": "Angol Southern League, Premier Közép",
+   "category": "Anglia",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002605673022148",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Rushall Olympic",
+   "participant2Name": "Bishop's Stortford",
+   "tournamentId": 26056,
+   "tournamentName": "Southern League Premier Central",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1002605673022138": {
   "tm": {
    "id": "319423067250040832",
@@ -20833,31 +20883,6 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Stourbridge FC",
    "participant2Name": "Redditch United",
-   "tournamentId": 26056,
-   "tournamentName": "Southern League Premier Central",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1002605673022142": {
-  "tm": {
-   "id": "319423061589827584",
-   "sport": "Labdarúgás",
-   "name": "Leiston - Leighton Town",
-   "home": "Leiston",
-   "away": "Leighton Town",
-   "home_pid": "125710",
-   "away_pid": "10265311966924800",
-   "tournament": "Angol Southern League, Premier Közép",
-   "category": "Anglia",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002605673022142",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Leiston FC",
-   "participant2Name": "Leighton Town",
    "tournamentId": 26056,
    "tournamentName": "Southern League Premier Central",
    "sportName": "Soccer"
@@ -20964,6 +20989,31 @@
   },
   "score": 1.0
  },
+ "id1000070172347018": {
+  "tm": {
+   "id": "319423061167251456",
+   "sport": "Labdarúgás",
+   "name": "Armagh City - Rathfriland Rangers",
+   "home": "Armagh City",
+   "away": "Rathfriland Rangers",
+   "home_pid": "124916951568928768",
+   "away_pid": "213659180810260480",
+   "tournament": "Észak-Ír 2.",
+   "category": "Észak-Írország",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000070172347018",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Armagh City FC",
+   "participant2Name": "Rathfriland Rangers",
+   "tournamentId": 701,
+   "tournamentName": "Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000070172347030": {
   "tm": {
    "id": "319423064712486912",
@@ -20989,31 +21039,6 @@
   },
   "score": 1.0
  },
- "id1000070172347026": {
-  "tm": {
-   "id": "319423068844924928",
-   "sport": "Labdarúgás",
-   "name": "Moyola Park - Queens University Belfast",
-   "home": "Moyola Park",
-   "away": "Queens University Belfast",
-   "home_pid": "148978207492722688",
-   "away_pid": "353774",
-   "tournament": "Észak-Ír 2.",
-   "category": "Észak-Írország",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000070172347026",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Moyola Park FC",
-   "participant2Name": "Queens University",
-   "tournamentId": 701,
-   "tournamentName": "Championship",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
  "id1000070172347022": {
   "tm": {
    "id": "319423066718412800",
@@ -21033,6 +21058,31 @@
    "startTime": "2026-11-21T15:00:00.000Z",
    "participant1Name": "Glenavon FC",
    "participant2Name": "Newry City AFC",
+   "tournamentId": 701,
+   "tournamentName": "Championship",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000070172347026": {
+  "tm": {
+   "id": "319423068844924928",
+   "sport": "Labdarúgás",
+   "name": "Moyola Park - Queens University Belfast",
+   "home": "Moyola Park",
+   "away": "Queens University Belfast",
+   "home_pid": "148978207492722688",
+   "away_pid": "353774",
+   "tournament": "Észak-Ír 2.",
+   "category": "Észak-Írország",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T15:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000070172347026",
+   "startTime": "2026-11-21T15:00:00.000Z",
+   "participant1Name": "Moyola Park FC",
+   "participant2Name": "Queens University",
    "tournamentId": 701,
    "tournamentName": "Championship",
    "sportName": "Soccer"
@@ -21085,31 +21135,6 @@
    "participant2Name": "Odra Bytom Odrzanski",
    "tournamentId": 25839,
    "tournamentName": "III Liga, Group 3",
-   "sportName": "Soccer"
-  },
-  "score": 1.0
- },
- "id1000211274886164": {
-  "tm": {
-   "id": "319423060637720576",
-   "sport": "Labdarúgás",
-   "name": "Ikorodu City - Kano Pillars",
-   "home": "Ikorodu City",
-   "away": "Kano Pillars",
-   "home_pid": "199099223685361664",
-   "away_pid": "879883",
-   "tournament": "Nigériai bajnokság",
-   "category": "Nigéria",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T15:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1000211274886164",
-   "startTime": "2026-11-21T15:00:00.000Z",
-   "participant1Name": "Ikorodu City",
-   "participant2Name": "Kano Pillars FC",
-   "tournamentId": 2112,
-   "tournamentName": "Premier League",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -24042,36 +24067,6 @@
    "id": 5665638,
    "name": "D. Molokova Ferreira - Felix Romeo",
    "score": 1.0
-  }
- },
- "id1201316776695072": {
-  "tm": {
-   "id": "320461791051194368",
-   "sport": "Tenisz",
-   "name": "Benjamin Hassan - Yusuke Watanuki",
-   "home": "Benjamin Hassan",
-   "away": "Yusuke Watanuki",
-   "home_pid": "1146171",
-   "away_pid": "715533",
-   "tournament": "Kobe, férfi egyes",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-21T03:10:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1201316776695072",
-   "startTime": "2026-11-21T03:10:00.000Z",
-   "participant1Name": "Hassan, Benjamin",
-   "participant2Name": "Watanuki, Yosuke",
-   "tournamentId": 13167,
-   "tournamentName": "ATP Challenger Kobe, Japan Men Singles",
-   "sportName": "Tennis"
-  },
-  "score": 0.953,
-  "cl": {
-   "id": 5655958,
-   "name": "Ben. Hassan - Yos. Watanuki",
-   "score": 0.804
   }
  },
  "id1100064874270450": {
@@ -32884,81 +32879,6 @@
   },
   "score": 1.0
  },
- "id1501436172712556": {
-  "tm": {
-   "id": "319354609177010176",
-   "sport": "Jégkorong",
-   "name": "Seattle Thunderbirds - Tri-City Americans",
-   "home": "Seattle Thunderbirds",
-   "away": "Tri-City Americans",
-   "home_pid": "184072134028480512",
-   "away_pid": "154388446750916608",
-   "tournament": "WHL",
-   "category": "Kanada",
-   "tm_sport_id": "6",
-   "start": "2026-11-21T03:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1501436172712556",
-   "startTime": "2026-11-21T03:05:00.000Z",
-   "participant1Name": "Seattle Thunderbirds",
-   "participant2Name": "Tri-City Americans",
-   "tournamentId": 14361,
-   "tournamentName": "WHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
- "id1501436172712558": {
-  "tm": {
-   "id": "319354609616363520",
-   "sport": "Jégkorong",
-   "name": "Spokane Chiefs - Victoria Royals",
-   "home": "Spokane Chiefs",
-   "away": "Victoria Royals",
-   "home_pid": "184072139439132672",
-   "away_pid": "151554721366200320",
-   "tournament": "WHL",
-   "category": "Kanada",
-   "tm_sport_id": "6",
-   "start": "2026-11-21T03:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1501436172712558",
-   "startTime": "2026-11-21T03:05:00.000Z",
-   "participant1Name": "Spokane Chiefs",
-   "participant2Name": "Victoria Royals",
-   "tournamentId": 14361,
-   "tournamentName": "WHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
- "id1501436172712560": {
-  "tm": {
-   "id": "319354609255653376",
-   "sport": "Jégkorong",
-   "name": "Everett Silvertips - Kamloops Blazers",
-   "home": "Everett Silvertips",
-   "away": "Kamloops Blazers",
-   "home_pid": "184072122159648768",
-   "away_pid": "151554648331833344",
-   "tournament": "WHL",
-   "category": "Kanada",
-   "tm_sport_id": "6",
-   "start": "2026-11-21T03:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1501436172712560",
-   "startTime": "2026-11-21T03:05:00.000Z",
-   "participant1Name": "Everett Silvertips",
-   "participant2Name": "Kamloops Blazers",
-   "tournamentId": 14361,
-   "tournamentName": "WHL",
-   "sportName": "Ice Hockey"
-  },
-  "score": 1.0
- },
  "id1500024373739522": {
   "tm": {
    "id": "319445004893364224",
@@ -35713,36 +35633,6 @@
    "sportName": "Handball"
   },
   "score": 0.731
- },
- "id2304409972779774": {
-  "tm": {
-   "id": "319988716607184896",
-   "sport": "Röplabda",
-   "name": "JTEKT Stings - Tokyo Great Bears",
-   "home": "JTEKT Stings",
-   "away": "Tokyo Great Bears",
-   "home_pid": "185558877434073088",
-   "away_pid": "185469694867722240",
-   "tournament": "Japán bajnokság",
-   "category": "Japán",
-   "tm_sport_id": "20",
-   "start": "2026-11-21T03:05:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2304409972779774",
-   "startTime": "2026-11-21T03:05:00.000Z",
-   "participant1Name": "Stings",
-   "participant2Name": "Tokyo Great Bears",
-   "tournamentId": 44099,
-   "tournamentName": "SV League",
-   "sportName": "Volleyball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595770,
-   "name": "JTEKT Stings - Tokyo Great Bears",
-   "score": 1.0
-  }
  },
  "id2304410172636486": {
   "tm": {
