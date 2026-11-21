@@ -1,61 +1,5 @@
 [
  {
-  "time": "2026-11-19T03:12:21.490489+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-8.8% Anders Antonsen – Jason Gunawan · Győztes: Anders Antonsen győz @1.18 (fair 1.294)",
-   "-25.1% Anders Antonsen – Jason Gunawan · Győztes: Jason Gunawan győz @3.3 (fair 4.405)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 5,
-  "fixtures_both": 2,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 3,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-5.7% Anders Antonsen – Jason Gunawan · Győztes: Anders Antonsen győz @1.22 (fair 1.294)",
-   "-30.8% Anders Antonsen – Jason Gunawan · Győztes: Jason Gunawan győz @3.05 (fair 4.405)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 5
- },
- {
-  "time": "2026-11-19T03:17:21.490032+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-8.8% Anders Antonsen – Jason Gunawan · Győztes: Anders Antonsen győz @1.18 (fair 1.294)",
-   "-25.1% Anders Antonsen – Jason Gunawan · Győztes: Jason Gunawan győz @3.3 (fair 4.405)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 2,
-  "fast": true,
-  "fixtures_checked": 5,
-  "fixtures_both": 2,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 3,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-5.7% Anders Antonsen – Jason Gunawan · Győztes: Anders Antonsen győz @1.22 (fair 1.294)",
-   "-30.8% Anders Antonsen – Jason Gunawan · Győztes: Jason Gunawan győz @3.05 (fair 4.405)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 5
- },
- {
   "time": "2026-11-19T03:17:58.526406+00:00",
   "mode": "hu",
   "settled": 0,
@@ -24823,6 +24767,173 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 151,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T05:48:34.878376+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 12,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 12,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T05:53:34.876799+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 662,
+   "paired": 509,
+   "classic_only": 62
+  },
+  "tippmix_matches": 2533,
+  "pinnacle_fixtures": 2467,
+  "paired": 1453,
+  "by_sport": {
+   "Soccer": [
+    1234,
+    870
+   ],
+   "Tennis": [
+    154,
+    9
+   ],
+   "Basketball": [
+    507,
+    291
+   ],
+   "Ice Hockey": [
+    154,
+    112
+   ],
+   "Handball": [
+    86,
+    56
+   ],
+   "Volleyball": [
+    174,
+    53
+   ],
+   "Table Tennis": [
+    26,
+    0
+   ],
+   "Cricket": [
+    54,
+    10
+   ],
+   "Badminton": [
+    24,
+    5
+   ],
+   "Darts": [
+    11,
+    2
+   ],
+   "Futsal": [
+    12,
+    3
+   ],
+   "Waterpolo": [
+    18,
+    8
+   ],
+   "ESport Counter-Strike": [
+    15,
+    0
+   ],
+   "ESport Dota": [
+    9,
+    2
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    37,
+    0
+   ],
+   "eBasketball": [
+    10,
+    0
+   ],
+   "American Football": [
+    0,
+    10
+   ],
+   "Boxing": [
+    0,
+    5
+   ],
+   "MMA": [
+    0,
+    12
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    8,
+    5
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 152,
   "free_calls": 0
  }
 ]
