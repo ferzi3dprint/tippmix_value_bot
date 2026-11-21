@@ -36214,31 +36214,6 @@
   },
   "score": 1.0
  },
- "id2503634976982574": {
-  "tm": {
-   "id": "320491619254083584",
-   "sport": "Asztalitenisz",
-   "name": "Vojtech Stach - Jaroslav Martinek",
-   "home": "Vojtech Stach",
-   "away": "Jaroslav Martinek",
-   "home_pid": "274261919294164992",
-   "away_pid": "193723147321765888",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-21T09:00:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976982574",
-   "startTime": "2026-11-21T09:00:00.000Z",
-   "participant1Name": "Stach, Vojtech",
-   "participant2Name": "Martinek, Jaroslav",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976982362": {
   "tm": {
    "id": "320491100309626880",
@@ -36258,6 +36233,31 @@
    "startTime": "2026-11-21T09:00:00.000Z",
    "participant1Name": "Zientek, Zbynek",
    "participant2Name": "Derco, Michal",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976982574": {
+  "tm": {
+   "id": "320491619254083584",
+   "sport": "Asztalitenisz",
+   "name": "Vojtech Stach - Jaroslav Martinek",
+   "home": "Vojtech Stach",
+   "away": "Jaroslav Martinek",
+   "home_pid": "274261919294164992",
+   "away_pid": "193723147321765888",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-21T09:00:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976982574",
+   "startTime": "2026-11-21T09:00:00.000Z",
+   "participant1Name": "Stach, Vojtech",
+   "participant2Name": "Martinek, Jaroslav",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -36463,36 +36463,6 @@
    "sportName": "Cricket"
   },
   "score": 1.0
- },
- "id2703806175363880": {
-  "tm": {
-   "id": "320305631198257152",
-   "sport": "Krikett",
-   "name": "Ausztrália - Anglia",
-   "home": "Ausztrália",
-   "away": "Anglia",
-   "home_pid": "38157",
-   "away_pid": "38152",
-   "tournament": "T20 Series",
-   "category": "Világ",
-   "tm_sport_id": "26",
-   "start": "2026-11-21T08:15:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2703806175363880",
-   "startTime": "2026-11-21T08:15:00.000Z",
-   "participant1Name": "Australia",
-   "participant2Name": "England",
-   "tournamentId": 38061,
-   "tournamentName": "T20 Series Australia vs. England",
-   "sportName": "Cricket"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595613,
-   "name": "Ausztrália - Anglia",
-   "score": 1.0
-  }
  },
  "id4902156277000108": {
   "tm": {
@@ -38231,27 +38201,6 @@
    "score": 1.0,
    "home": "Adian Williamson",
    "away": "R. Glackin",
-   "tournament": "Profi mérkőzés"
-  }
- },
- "id2102432776969808": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id2102432776969808",
-   "startTime": "2026-11-21T08:15:00.000Z",
-   "participant1Name": "Iimura, Jukiya",
-   "participant2Name": "Paciones, Arvin Jhon",
-   "tournamentId": 24327,
-   "tournamentName": "International Matchups",
-   "sportName": "Boxing"
-  },
-  "score": 0.825,
-  "cl": {
-   "id": 5672422,
-   "name": "Jukiya Limura - Arvin Jhon Paciones",
-   "score": 0.825,
-   "home": "Jukiya Limura",
-   "away": "Arvin Jhon Paciones",
    "tournament": "Profi mérkőzés"
   }
  },
