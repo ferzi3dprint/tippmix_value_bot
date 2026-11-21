@@ -1,184 +1,5 @@
 [
  {
-  "time": "2026-11-19T04:23:00.416597+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 1,
-  "fast": true,
-  "fixtures_checked": 3,
-  "fixtures_both": 1,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 3
- },
- {
-  "time": "2026-11-19T04:28:00.417253+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 273,
-   "paired": 208,
-   "classic_only": 20
-  },
-  "tippmix_matches": 1155,
-  "pinnacle_fixtures": 1073,
-  "paired": 548,
-  "by_sport": {
-   "Soccer": [
-    255,
-    188
-   ],
-   "Tennis": [
-    326,
-    57
-   ],
-   "Basketball": [
-    142,
-    94
-   ],
-   "Ice Hockey": [
-    110,
-    99
-   ],
-   "Handball": [
-    22,
-    16
-   ],
-   "Volleyball": [
-    31,
-    5
-   ],
-   "Table Tennis": [
-    40,
-    35
-   ],
-   "Cricket": [
-    25,
-    16
-   ],
-   "Badminton": [
-    57,
-    5
-   ],
-   "Darts": [
-    29,
-    27
-   ],
-   "Futsal": [
-    1,
-    0
-   ],
-   "Waterpolo": [
-    9,
-    5
-   ],
-   "ESport Counter-Strike": [
-    14,
-    0
-   ],
-   "ESport Dota": [
-    11,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    81,
-    0
-   ],
-   "eBasketball": [
-    2,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+18.5% Brynäs – Lulea · Hendikep (rendes játékidő): Brynäs (-1.5) @2.24 (fair 1.891)",
-   "+0.8% Nancy – Dijon · Gólszám 4.5: Kevesebb @1.16 (fair 1.15)",
-   "+0.2% Vasco da Gama RJ – Internacional RS · 1X2: Vasco da Gama RJ győz @1.63 (fair 1.627)",
-   "+0.1% Nancy – Dijon · Gólszám 3.5: Kevesebb @1.43 (fair 1.428)",
-   "+0.1% Nancy – Dijon · Gólszám 3.25: Kevesebb @1.53 (fair 1.528)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 34,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 79,
-  "rejected_mismatch": 0,
-  "candidates": 1,
-  "steam_fixtures": 6,
-  "classic_checked": 69,
-  "classic_candidates": 1,
-  "top_ev_classic": [
-   "+14.2% Brynäs – Lulea · Hendikep (rendes játékidő): Brynäs (-1.5) @2.16 (fair 1.891)",
-   "-0.5% Alexander Zverev – Arthur Fils · Győztes: Alexander Zverev győz @1.39 (fair 1.397)",
-   "-0.8% Preston Lions – South Hobart · Gólszám 4.5: Kevesebb @1.51 (fair 1.521)",
-   "-0.9% Nancy – Dijon · Gólszám 4.5: Kevesebb @1.14 (fair 1.15)",
-   "-1.8% CA Progreso Montevideo – Montevideo City Torque · Gólszám 4.5: Kevesebb @1.2 (fair 1.222)"
-  ],
-  "placed": 2,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 155
- },
- {
   "time": "2026-11-19T04:44:52.124382+00:00",
   "mode": "hu",
   "settled": 0,
@@ -24830,6 +24651,173 @@
    ],
    "eBasketball": [
     4,
+    0
+   ],
+   "American Football": [
+    0,
+    10
+   ],
+   "Boxing": [
+    0,
+    5
+   ],
+   "MMA": [
+    0,
+    12
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    13,
+    9
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 151,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T07:04:57.624057+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 37,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 37,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T07:09:57.622478+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 690,
+   "paired": 510,
+   "classic_only": 62
+  },
+  "tippmix_matches": 2514,
+  "pinnacle_fixtures": 2467,
+  "paired": 1449,
+  "by_sport": {
+   "Soccer": [
+    1248,
+    871
+   ],
+   "Tennis": [
+    147,
+    9
+   ],
+   "Basketball": [
+    494,
+    279
+   ],
+   "Ice Hockey": [
+    154,
+    112
+   ],
+   "Handball": [
+    89,
+    57
+   ],
+   "Volleyball": [
+    171,
+    51
+   ],
+   "Table Tennis": [
+    25,
+    5
+   ],
+   "Cricket": [
+    53,
+    9
+   ],
+   "Badminton": [
+    21,
+    5
+   ],
+   "Darts": [
+    11,
+    2
+   ],
+   "Futsal": [
+    10,
+    3
+   ],
+   "Waterpolo": [
+    18,
+    8
+   ],
+   "ESport Counter-Strike": [
+    16,
+    0
+   ],
+   "ESport Dota": [
+    9,
+    2
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    29,
+    0
+   ],
+   "eBasketball": [
+    6,
     0
    ],
    "American Football": [
