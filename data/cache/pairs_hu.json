@@ -6869,6 +6869,81 @@
   },
   "score": 1.0
  },
+ "id1000054472507596": {
+  "tm": {
+   "id": "320401121308909568",
+   "sport": "Labdarúgás",
+   "name": "Pena Deportiva - Lorca Deportiva",
+   "home": "Pena Deportiva",
+   "away": "Lorca Deportiva",
+   "home_pid": "118000775497568256",
+   "away_pid": "1951440797200384",
+   "tournament": "Spanyol 4., 3. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-22T10:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000054472507596",
+   "startTime": "2026-11-22T10:30:00.000Z",
+   "participant1Name": "SCR Pena Deportiva",
+   "participant2Name": "CF Lorca Deportiva",
+   "tournamentId": 544,
+   "tournamentName": "Segunda Federacion",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002604273586682": {
+  "tm": {
+   "id": "320208882959982592",
+   "sport": "Labdarúgás",
+   "name": "Santomera - Alcantarilla FC",
+   "home": "Santomera",
+   "away": "Alcantarilla FC",
+   "home_pid": "247536836332351488",
+   "away_pid": "181589735834177536",
+   "tournament": "Spanyol 5., 13. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-22T10:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002604273586682",
+   "startTime": "2026-11-22T10:30:00.000Z",
+   "participant1Name": "CF Santomera",
+   "participant2Name": "Alcantarilla FC",
+   "tournamentId": 26042,
+   "tournamentName": "Tercera Federacion, Group 13",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002602873578998": {
+  "tm": {
+   "id": "320404961879990272",
+   "sport": "Labdarúgás",
+   "name": "Torrevieja - CD Bunol",
+   "home": "Torrevieja",
+   "away": "CD Bunol",
+   "home_pid": "257184022076448768",
+   "away_pid": "110413366981447680",
+   "tournament": "Spanyol 5., 6. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-22T10:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002602873578998",
+   "startTime": "2026-11-22T10:30:00.000Z",
+   "participant1Name": "SC Torrevieja CF",
+   "participant2Name": "CD Bunol",
+   "tournamentId": 26028,
+   "tournamentName": "Tercera Federacion, Group 6",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
  "id1000137473627188": {
   "tm": {
    "id": "320395707262509056",
@@ -7440,6 +7515,31 @@
    "participant2Name": "US Vibonese Calcio",
    "tournamentId": 1390,
    "tournamentName": "Serie D, Group I",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1000137473627192": {
+  "tm": {
+   "id": "320395550789804032",
+   "sport": "Labdarúgás",
+   "name": "Fezzanese - Sanremese",
+   "home": "Fezzanese",
+   "away": "Sanremese",
+   "home_pid": "181226528960466944",
+   "away_pid": "1391758",
+   "tournament": "Olasz D, A csoport",
+   "category": "Olaszország",
+   "tm_sport_id": "1",
+   "start": "2026-11-22T14:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000137473627192",
+   "startTime": "2026-11-22T14:30:00.000Z",
+   "participant1Name": "US Fezzanese 1930",
+   "participant2Name": "SSD Sanremese Calcio",
+   "tournamentId": 1374,
+   "tournamentName": "Serie D, Group A",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -8288,6 +8388,31 @@
    "name": "Churchill Brothers - ATK Mohun Bagan",
    "score": 1.0
   }
+ },
+ "id1000054472509494": {
+  "tm": {
+   "id": "320214214768664576",
+   "sport": "Labdarúgás",
+   "name": "Getafe 2 - RSD Alcala Henares",
+   "home": "Getafe 2",
+   "away": "RSD Alcala Henares",
+   "home_pid": "77285",
+   "away_pid": "77259",
+   "tournament": "Spanyol 4., 5. csoport",
+   "category": "Spanyolország",
+   "tm_sport_id": "1",
+   "start": "2026-11-22T10:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1000054472509494",
+   "startTime": "2026-11-22T10:30:00.000Z",
+   "participant1Name": "Getafe CF B",
+   "participant2Name": "RSD Alcala SAD",
+   "tournamentId": 544,
+   "tournamentName": "Segunda Federacion",
+   "sportName": "Soccer"
+  },
+  "score": 0.767
  },
  "id1002738276911552": {
   "tm": {
@@ -9797,7 +9922,12 @@
    "tournamentName": "BBL",
    "sportName": "Basketball"
   },
-  "score": 1.0
+  "score": 1.0,
+  "cl": {
+   "id": 5611364,
+   "name": "Hamburg - Hagen",
+   "score": 1.0
+  }
  },
  "id1100025172905680": {
   "tm": {
@@ -13629,6 +13759,31 @@
    "score": 1.0
   }
  },
+ "id2503634976982336": {
+  "tm": {
+   "id": "320494046103543808",
+   "sport": "Asztalitenisz",
+   "name": "Marek Placek - Frantisek Briza",
+   "home": "Marek Placek",
+   "away": "Frantisek Briza",
+   "home_pid": "165384457800437760",
+   "away_pid": "191461277224300544",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-21T23:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976982336",
+   "startTime": "2026-11-21T23:30:00.000Z",
+   "participant1Name": "Placek, Marek",
+   "participant2Name": "Briza, Frantisek",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
  "id2702157075326650": {
   "tm": {
    "id": "320079124626481152",
@@ -13963,27 +14118,6 @@
    "sportName": "Floorball"
   },
   "score": 0.767
- },
- "id1000048075884780": {
-  "tm": null,
-  "fx": {
-   "fixtureId": "id1000048075884780",
-   "startTime": "2026-11-21T22:30:00.000Z",
-   "participant1Name": "Atletico Mineiro MG",
-   "participant2Name": "Boca Juniors",
-   "tournamentId": 480,
-   "tournamentName": "CONMEBOL Sudamericana",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5587318,
-   "name": "Atlético MG - Boca Juniors",
-   "score": 1.0,
-   "home": "Atlético MG",
-   "away": "Boca Juniors",
-   "tournament": "Copa Sudamericana"
-  }
  },
  "id1000018572936140": {
   "tm": null,
