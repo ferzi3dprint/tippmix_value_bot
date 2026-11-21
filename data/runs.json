@@ -1,196 +1,5 @@
 [
  {
-  "time": "2026-11-19T09:09:37.871579+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 1,
-  "top_ev": [
-   "-0.9% Arevalo M./Pavic M. – Luz O./Matos R. · Győztes: Arevalo M./Pavic M. győz @1.32 (fair 1.333)",
-   "-3.5% Dempo SC – Shilong Lajong · Gólszám 2: Több @1.33 (fair 1.378)",
-   "-4.9% Dempo SC – Shilong Lajong · 1X2: Shilong Lajong győz @2.07 (fair 2.176)",
-   "-5.0% Dempo SC – Shilong Lajong · Gólszám 3.5: Kevesebb @1.39 (fair 1.463)",
-   "-5.0% Dempo SC – Shilong Lajong · Gólszám 2.25: Több @1.52 (fair 1.6)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 6,
-  "fast": true,
-  "fixtures_checked": 20,
-  "fixtures_both": 8,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 1,
-  "classic_checked": 14,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.9% Arevalo M./Pavic M. – Luz O./Matos R. · Győztes: Arevalo M./Pavic M. győz @1.32 (fair 1.333)",
-   "-1.6% Anyang – KCC Egis · Hendikep (hosszabbítással): KCC Egis (+5.5) @1.66 (fair 1.687)",
-   "-2.5% Anyang – KCC Egis · Hendikep (hosszabbítással): KCC Egis (+4.5) @1.75 (fair 1.796)",
-   "-4.3% Anyang – KCC Egis · Hendikep (hosszabbítással): KCC Egis (+3.5) @1.86 (fair 1.944)",
-   "-4.3% Dempo SC – Shilong Lajong · Gólszám 3.5: Kevesebb @1.4 (fair 1.463)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 21
- },
- {
-  "time": "2026-11-19T09:14:37.871154+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 310,
-   "paired": 224,
-   "classic_only": 27
-  },
-  "tippmix_matches": 1173,
-  "pinnacle_fixtures": 1073,
-  "paired": 523,
-  "by_sport": {
-   "Soccer": [
-    276,
-    186
-   ],
-   "Tennis": [
-    313,
-    53
-   ],
-   "Basketball": [
-    154,
-    88
-   ],
-   "Ice Hockey": [
-    117,
-    99
-   ],
-   "Handball": [
-    29,
-    16
-   ],
-   "Volleyball": [
-    35,
-    5
-   ],
-   "Table Tennis": [
-    54,
-    26
-   ],
-   "Cricket": [
-    22,
-    12
-   ],
-   "Badminton": [
-    55,
-    3
-   ],
-   "Darts": [
-    31,
-    29
-   ],
-   "Futsal": [
-    2,
-    0
-   ],
-   "Waterpolo": [
-    9,
-    5
-   ],
-   "ESport Counter-Strike": [
-    19,
-    0
-   ],
-   "ESport Dota": [
-    12,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    41,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "-0.1% La Viena – Al-Sekka · Ázsiai hendikep: Al-Sekka (+0.5) @1.37 (fair 1.372)",
-   "-0.2% Samaleswari SC – Nagaland United SC · Gólszám 2: Több @1.34 (fair 1.342)",
-   "-0.3% La Viena – Al-Sekka · Ázsiai hendikep: Al-Sekka (+0.25) @1.51 (fair 1.514)",
-   "-0.5% Tersana SC – WE SC · Ázsiai hendikep: Tersana SC (+0.25) @1.41 (fair 1.416)",
-   "-0.7% Tersana SC – WE SC · Ázsiai hendikep: Tersana SC (+0.5) @1.3 (fair 1.309)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 25,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 82,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 14,
-  "classic_checked": 78,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.7% Kashiwa Reysol – JEF United Chiba · Gólszám 4.5: Kevesebb @1.21 (fair 1.231)",
-   "-1.7% Arevalo M./Pavic M. – Luz O./Matos R. · Győztes: Arevalo M./Pavic M. győz @1.31 (fair 1.333)",
-   "-1.8% Al-Wasl – Hatta · Gólszám 5.5: Kevesebb @1.25 (fair 1.273)",
-   "-2.1% Vissel Kobe – Mito · Gólszám 4.5: Kevesebb @1.13 (fair 1.155)",
-   "-2.8% Orlando – Cincinnati · Gólszám 5.5: Kevesebb @1.16 (fair 1.193)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
   "time": "2026-11-19T09:31:14.840307+00:00",
   "mode": "hu",
   "settled": 0,
@@ -24652,6 +24461,173 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 151,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T11:41:30.476061+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 121,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 121,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T11:51:45.602193+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 1144,
+   "paired": 723,
+   "classic_only": 96
+  },
+  "tippmix_matches": 2682,
+  "pinnacle_fixtures": 2467,
+  "paired": 1392,
+  "by_sport": {
+   "Soccer": [
+    1260,
+    803
+   ],
+   "Tennis": [
+    131,
+    7
+   ],
+   "Basketball": [
+    511,
+    279
+   ],
+   "Ice Hockey": [
+    177,
+    108
+   ],
+   "Handball": [
+    141,
+    58
+   ],
+   "Volleyball": [
+    197,
+    48
+   ],
+   "Table Tennis": [
+    49,
+    7
+   ],
+   "Cricket": [
+    50,
+    7
+   ],
+   "Badminton": [
+    6,
+    0
+   ],
+   "Darts": [
+    17,
+    2
+   ],
+   "Futsal": [
+    16,
+    3
+   ],
+   "Waterpolo": [
+    25,
+    8
+   ],
+   "ESport Counter-Strike": [
+    12,
+    0
+   ],
+   "ESport Dota": [
+    6,
+    0
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    66,
+    0
+   ],
+   "eBasketball": [
+    5,
+    0
+   ],
+   "American Football": [
+    0,
+    10
+   ],
+   "Boxing": [
+    0,
+    4
+   ],
+   "MMA": [
+    0,
+    12
+   ],
+   "Snooker": [
+    0,
+    12
+   ],
+   "Rugby": [
+    0,
+    5
+   ],
+   "Aussie Rules": [
+    0,
+    0
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    1
+   ],
+   "Floorball": [
+    13,
+    18
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 154,
   "free_calls": 0
  }
 ]
