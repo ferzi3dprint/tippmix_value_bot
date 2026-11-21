@@ -19874,36 +19874,6 @@
    "score": 1.0
   }
  },
- "id1002655673294098": {
-  "tm": {
-   "id": "319423969481531392",
-   "sport": "Labdarúgás",
-   "name": "Campobasso - Pesaro",
-   "home": "Campobasso",
-   "away": "Pesaro",
-   "home_pid": "1172613",
-   "away_pid": "983652",
-   "tournament": "Olasz C, B csoport",
-   "category": "Olaszország",
-   "tm_sport_id": "1",
-   "start": "2026-11-21T16:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1002655673294098",
-   "startTime": "2026-11-21T16:30:00.000Z",
-   "participant1Name": "Campobasso FC",
-   "participant2Name": "Vis Pesaro 1898",
-   "tournamentId": 26556,
-   "tournamentName": "Serie C, Group B",
-   "sportName": "Soccer"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5596624,
-   "name": "Campobasso - Pesaro",
-   "score": 1.0
-  }
- },
  "id1002655673294110": {
   "tm": {
    "id": "319423968225337344",
@@ -19931,6 +19901,36 @@
   "cl": {
    "id": 5596627,
    "name": "Pineto - Pescara",
+   "score": 1.0
+  }
+ },
+ "id1002655673294098": {
+  "tm": {
+   "id": "319423969481531392",
+   "sport": "Labdarúgás",
+   "name": "Campobasso - Pesaro",
+   "home": "Campobasso",
+   "away": "Pesaro",
+   "home_pid": "1172613",
+   "away_pid": "983652",
+   "tournament": "Olasz C, B csoport",
+   "category": "Olaszország",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T16:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002655673294098",
+   "startTime": "2026-11-21T16:30:00.000Z",
+   "participant1Name": "Campobasso FC",
+   "participant2Name": "Vis Pesaro 1898",
+   "tournamentId": 26556,
+   "tournamentName": "Serie C, Group B",
+   "sportName": "Soccer"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5596624,
+   "name": "Campobasso - Pesaro",
    "score": 1.0
   }
  },
@@ -20040,6 +20040,31 @@
    "participant2Name": "Indigenas de Matagalpa FC",
    "tournamentId": 19242,
    "tournamentName": "Primera Division",
+   "sportName": "Soccer"
+  },
+  "score": 1.0
+ },
+ "id1002741476409738": {
+  "tm": {
+   "id": "319429123452772352",
+   "sport": "Labdarúgás",
+   "name": "Estrella Roja - Lobos UPNFM",
+   "home": "Estrella Roja",
+   "away": "Lobos UPNFM",
+   "home_pid": "215428241613279232",
+   "away_pid": "1481694760693760",
+   "tournament": "Hondurasi bajnokság",
+   "category": "Honduras",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T23:15:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1002741476409738",
+   "startTime": "2026-11-21T23:15:00.000Z",
+   "participant1Name": "CD Estrella Roja",
+   "participant2Name": "Lobos UPNFM",
+   "tournamentId": 27414,
+   "tournamentName": "Liga Nacional",
    "sportName": "Soccer"
   },
   "score": 1.0
@@ -35329,36 +35354,6 @@
    "score": 1.0
   }
  },
- "id2503634976982306": {
-  "tm": {
-   "id": "320491828825628672",
-   "sport": "Asztalitenisz",
-   "name": "Jakub Stolfa - Karel Schopf",
-   "home": "Jakub Stolfa",
-   "away": "Karel Schopf",
-   "home_pid": "172793253541761024",
-   "away_pid": "257798482170339328",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-21T11:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976982306",
-   "startTime": "2026-11-21T11:30:00.000Z",
-   "participant1Name": "Stolfa, Jakub",
-   "participant2Name": "Schopf, Karel",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5676962,
-   "name": "J. Stolfa - K. Schopf",
-   "score": 1.0
-  }
- },
  "id2503634976984440": {
   "tm": {
    "id": "320492211875684352",
@@ -35386,6 +35381,36 @@
   "cl": {
    "id": 5676963,
    "name": "E. Rychlik - David Heczko",
+   "score": 1.0
+  }
+ },
+ "id2503634976982306": {
+  "tm": {
+   "id": "320491828825628672",
+   "sport": "Asztalitenisz",
+   "name": "Jakub Stolfa - Karel Schopf",
+   "home": "Jakub Stolfa",
+   "away": "Karel Schopf",
+   "home_pid": "172793253541761024",
+   "away_pid": "257798482170339328",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-21T11:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976982306",
+   "startTime": "2026-11-21T11:30:00.000Z",
+   "participant1Name": "Stolfa, Jakub",
+   "participant2Name": "Schopf, Karel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0,
+  "cl": {
+   "id": 5676962,
+   "name": "J. Stolfa - K. Schopf",
    "score": 1.0
   }
  },
