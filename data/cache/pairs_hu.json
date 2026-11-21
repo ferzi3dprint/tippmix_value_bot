@@ -21009,6 +21009,31 @@
   },
   "score": 0.867
  },
+ "id1004337372595218": {
+  "tm": {
+   "id": "320451079486644224",
+   "sport": "Labdarúgás",
+   "name": "RU Saint-Gilloise 2 - Meux",
+   "home": "RU Saint-Gilloise 2",
+   "away": "Meux",
+   "home_pid": "214023140261646336",
+   "away_pid": "6850411646812160",
+   "tournament": "Belga 3., Vallónia",
+   "category": "Belgium",
+   "tm_sport_id": "1",
+   "start": "2026-11-21T18:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id1004337372595218",
+   "startTime": "2026-11-21T18:30:00.000Z",
+   "participant1Name": "Union Saint-Gilloise B",
+   "participant2Name": "RFC Meux",
+   "tournamentId": 43373,
+   "tournamentName": "Nationale 1 ACFF",
+   "sportName": "Soccer"
+  },
+  "score": 0.866
+ },
  "id1000051572398834": {
   "tm": {
    "id": "319420466334867456",
@@ -22709,36 +22734,6 @@
   },
   "score": 0.72
  },
- "id1200946376688054": {
-  "tm": {
-   "id": "320468034449907712",
-   "sport": "Tenisz",
-   "name": "Hoeyeraal H./Padgham E. - Jung J./Rai A.",
-   "home": "Hoeyeraal H./Padgham E.",
-   "away": "Jung J./Rai A.",
-   "home_pid": "315676009233981440",
-   "away_pid": "319289282743312384",
-   "tournament": "Sydney, férfi páros",
-   "category": "Challenger",
-   "tm_sport_id": "3",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1200946376688054",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Hoeyeraal H / Padgham E",
-   "participant2Name": "Jung J / Rai A",
-   "tournamentId": 9463,
-   "tournamentName": "ATP Challenger Sydney, Australia Men Doubles",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5667833,
-   "name": "Hoeyeraal H / Padgham E - Jung J / Rai A",
-   "score": 1.0
-  }
- },
  "id1201316976695092": {
   "tm": {
    "id": "320467475355475968",
@@ -22899,216 +22894,6 @@
   },
   "score": 1.0
  },
- "id1205408476775998": {
-  "tm": {
-   "id": "320476392776081408",
-   "sport": "Tenisz",
-   "name": "Samuel Pohl - Adam Jones",
-   "home": "Samuel Pohl",
-   "away": "Adam Jones",
-   "home_pid": "296309528967024640",
-   "away_pid": "1521943",
-   "tournament": "Newport Beach, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205408476775998",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Pohl, Samuel",
-   "participant2Name": "Jones, Adam",
-   "tournamentId": 54084,
-   "tournamentName": "UTR PTT Newport Beach Men 27",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666216,
-   "name": "S. Pohl - Adam Jones",
-   "score": 1.0
-  }
- },
- "id1205408476841360": {
-  "tm": {
-   "id": "320478679460290560",
-   "sport": "Tenisz",
-   "name": "Aubin Rouillon - Antreas Djakouris",
-   "home": "Aubin Rouillon",
-   "away": "Antreas Djakouris",
-   "home_pid": "292112655930658816",
-   "away_pid": "208488280788979712",
-   "tournament": "Newport Beach, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205408476841360",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Rouillon, Aubin",
-   "participant2Name": "Djakouris, Antreas",
-   "tournamentId": 54084,
-   "tournamentName": "UTR PTT Newport Beach Men 27",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666221,
-   "name": "A. Rouillon - A. Djakouris",
-   "score": 1.0
-  }
- },
- "id1205408476838976": {
-  "tm": {
-   "id": "320446467099664384",
-   "sport": "Tenisz",
-   "name": "Alessandro-Damiano Ventre - Max Fardanesh",
-   "home": "Alessandro-Damiano Ventre",
-   "away": "Max Fardanesh",
-   "home_pid": "1179186",
-   "away_pid": "208488340539985920",
-   "tournament": "Newport Beach, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205408476838976",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Ventre, Alessandro-Damiano",
-   "participant2Name": "Fardanesh, Max",
-   "tournamentId": 54084,
-   "tournamentName": "UTR PTT Newport Beach Men 27",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666245,
-   "name": "A-D. Ventre - M. Fardanesh",
-   "score": 1.0
-  }
- },
- "id1205408476969962": {
-  "tm": {
-   "id": "320473536201302016",
-   "sport": "Tenisz",
-   "name": "John Cross - Constantinos Djakouris",
-   "home": "John Cross",
-   "away": "Constantinos Djakouris",
-   "home_pid": "320473512440569856",
-   "away_pid": "208488295255134208",
-   "tournament": "Newport Beach, férfi egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205408476969962",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Cross, John",
-   "participant2Name": "Djakouris, Constantinos",
-   "tournamentId": 54084,
-   "tournamentName": "UTR PTT Newport Beach Men 27",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5672923,
-   "name": "John Cross - C. Djakouris",
-   "score": 1.0
-  }
- },
- "id1205410076776562": {
-  "tm": {
-   "id": "320526467695976448",
-   "sport": "Tenisz",
-   "name": "Ruby Ward - Allegra van der Walt",
-   "home": "Ruby Ward",
-   "away": "Allegra van der Walt",
-   "home_pid": "244726962503413760",
-   "away_pid": "319880384200384512",
-   "tournament": "Newport Beach, női egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205410076776562",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Ward, Ruby",
-   "participant2Name": "van der Walt, Allegra",
-   "tournamentId": 54100,
-   "tournamentName": "UTR PTT Newport Beach Women 27",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666137,
-   "name": "Ruby Ward - A. van der Walt",
-   "score": 1.0
-  }
- },
- "id1205410076776564": {
-  "tm": {
-   "id": "320526472439734272",
-   "sport": "Tenisz",
-   "name": "Caroline Beard - Sofia Cohen Perovani",
-   "home": "Caroline Beard",
-   "away": "Sofia Cohen Perovani",
-   "home_pid": "319880401163198464",
-   "away_pid": "231952279137587200",
-   "tournament": "Newport Beach, női egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205410076776564",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Beard, Caroline",
-   "participant2Name": "Cohen Perovani, Sofia",
-   "tournamentId": 54100,
-   "tournamentName": "UTR PTT Newport Beach Women 27",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5665836,
-   "name": "Car. Beard - S. Cohen Perovani",
-   "score": 0.848
-  }
- },
- "id1205410076776530": {
-  "tm": {
-   "id": "320526462060929024",
-   "sport": "Tenisz",
-   "name": "Ekua Youri - Helene Schnack",
-   "home": "Ekua Youri",
-   "away": "Helene Schnack",
-   "home_pid": "148785946735726592",
-   "away_pid": "318670503731601408",
-   "tournament": "Newport Beach, női egyes",
-   "category": "UTR Pro Tennis",
-   "tm_sport_id": "3",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1205410076776530",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Youri, Ekua",
-   "participant2Name": "Schnack, Helene",
-   "tournamentId": 54100,
-   "tournamentName": "UTR PTT Newport Beach Women 27",
-   "sportName": "Tennis"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5666136,
-   "name": "E. Youri - H. Schnack",
-   "score": 1.0
-  }
- },
  "id1205404476775130": {
   "tm": {
    "id": "320501571644366848",
@@ -23222,36 +23007,6 @@
    "id": 5655958,
    "name": "Ben. Hassan - Yos. Watanuki",
    "score": 0.804
-  }
- },
- "id1100013273697008": {
-  "tm": {
-   "id": "319354628405796864",
-   "sport": "Kosárlabda",
-   "name": "Utah - Phoenix",
-   "home": "Utah",
-   "away": "Phoenix",
-   "home_pid": "2188",
-   "away_pid": "2201",
-   "tournament": "NBA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100013273697008",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Utah Jazz",
-   "participant2Name": "Phoenix Suns",
-   "tournamentId": 132,
-   "tournamentName": "NBA",
-   "sportName": "Basketball"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5595432,
-   "name": "Utah - Phoenix",
-   "score": 1.0
   }
  },
  "id1100013273697010": {
@@ -30379,36 +30134,6 @@
   },
   "score": 0.79
  },
- "id1100064876972170": {
-  "tm": {
-   "id": "320493813462278144",
-   "sport": "Kosárlabda",
-   "name": "Seton Hall Pirates - North Carolina State Wolfpack",
-   "home": "Seton Hall Pirates",
-   "away": "North Carolina State Wolfpack",
-   "home_pid": "38096",
-   "away_pid": "38032",
-   "tournament": "NCAA",
-   "category": "USA",
-   "tm_sport_id": "8",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id1100064876972170",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Seton Hall Pirates",
-   "participant2Name": "NC State Wolfpack",
-   "tournamentId": 648,
-   "tournamentName": "NCAA, Regular Season",
-   "sportName": "Basketball"
-  },
-  "score": 0.787,
-  "cl": {
-   "id": 5674078,
-   "name": "Seton Hall Pirates - North Carolina State Wolfpack",
-   "score": 0.948
-  }
- },
  "id1100119774527804": {
   "tm": {
    "id": "319354648837300224",
@@ -36664,56 +36389,6 @@
    "score": 1.0
   }
  },
- "id2503634976956876": {
-  "tm": {
-   "id": "320404237633789952",
-   "sport": "Asztalitenisz",
-   "name": "David Szotek - Radim Urbaniec",
-   "home": "David Szotek",
-   "away": "Radim Urbaniec",
-   "home_pid": "169718539420225536",
-   "away_pid": "167634919836667904",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976956876",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Szotek, David",
-   "participant2Name": "Urbaniec, Radim",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503634976957346": {
-  "tm": {
-   "id": "320404181104009216",
-   "sport": "Asztalitenisz",
-   "name": "Alesh Bayer - Simon Kadavy",
-   "home": "Alesh Bayer",
-   "away": "Simon Kadavy",
-   "home_pid": "105042522788745216",
-   "away_pid": "188832931008008192",
-   "tournament": "Cseh Liga Pro",
-   "category": "Csehország",
-   "tm_sport_id": "63",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503634976957346",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Bayer, Ales",
-   "participant2Name": "Kadavy, Simon",
-   "tournamentId": 36349,
-   "tournamentName": "Czech Liga Pro",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503634976957338": {
   "tm": {
    "id": "320404524106850304",
@@ -36764,56 +36439,6 @@
   },
   "score": 1.0
  },
- "id2503637776960204": {
-  "tm": {
-   "id": "320530690268536832",
-   "sport": "Asztalitenisz",
-   "name": "Adam Ruszkiewicz - Milosz Cesarz",
-   "home": "Adam Ruszkiewicz",
-   "away": "Milosz Cesarz",
-   "home_pid": "274567792899002368",
-   "away_pid": "219574243145437184",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-21T02:25:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776960204",
-   "startTime": "2026-11-21T02:25:00.000Z",
-   "participant1Name": "Ruszkiewicz, Adam",
-   "participant2Name": "Cesarz, Milosz",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
- "id2503637776960206": {
-  "tm": {
-   "id": "320530735750520832",
-   "sport": "Asztalitenisz",
-   "name": "Radoslaw Malinowski - Jakub Wozniak",
-   "home": "Radoslaw Malinowski",
-   "away": "Jakub Wozniak",
-   "home_pid": "167716004808413184",
-   "away_pid": "170793328285110272",
-   "tournament": "TT Elite Series",
-   "category": "Lengyelország",
-   "tm_sport_id": "63",
-   "start": "2026-11-21T02:30:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id2503637776960206",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Malinowski, Radoslaw",
-   "participant2Name": "Wozniak, Jakub",
-   "tournamentId": 36377,
-   "tournamentName": "TT Elite Series",
-   "sportName": "Table Tennis"
-  },
-  "score": 1.0
- },
  "id2503637776960212": {
   "tm": {
    "id": "320532290519244800",
@@ -36839,25 +36464,75 @@
   },
   "score": 1.0
  },
- "id2503634976957352": {
+ "id2503634976957370": {
   "tm": {
-   "id": "320404524397305856",
+   "id": "320404094959296512",
    "sport": "Asztalitenisz",
-   "name": "Tadeas Zika - Eric Maresh",
-   "home": "Tadeas Zika",
-   "away": "Eric Maresh",
-   "home_pid": "168097491692081152",
-   "away_pid": "104575284237455360",
+   "name": "Simon Kadavy - Daniel Tuma",
+   "home": "Simon Kadavy",
+   "away": "Daniel Tuma",
+   "home_pid": "188832931008008192",
+   "away_pid": "135496075040575488",
    "tournament": "Cseh Liga Pro",
    "category": "Csehország",
    "tm_sport_id": "63",
-   "start": "2026-11-21T02:30:00+00:00"
+   "start": "2026-11-21T03:30:00+00:00"
   },
   "fx": {
-   "fixtureId": "id2503634976957352",
-   "startTime": "2026-11-21T02:30:00.000Z",
-   "participant1Name": "Zika, Tadeas",
-   "participant2Name": "Mares, Erik",
+   "fixtureId": "id2503634976957370",
+   "startTime": "2026-11-21T03:30:00.000Z",
+   "participant1Name": "Kadavy, Simon",
+   "participant2Name": "Tuma, Daniel",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976956800": {
+  "tm": {
+   "id": "320404322260164608",
+   "sport": "Asztalitenisz",
+   "name": "Radim Urbaniec - Jiri Louda",
+   "home": "Radim Urbaniec",
+   "away": "Jiri Louda",
+   "home_pid": "167634919836667904",
+   "away_pid": "113870749359558656",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-21T03:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976956800",
+   "startTime": "2026-11-21T03:30:00.000Z",
+   "participant1Name": "Urbaniec, Radim",
+   "participant2Name": "Louda, Jiri",
+   "tournamentId": 36349,
+   "tournamentName": "Czech Liga Pro",
+   "sportName": "Table Tennis"
+  },
+  "score": 1.0
+ },
+ "id2503634976957374": {
+  "tm": {
+   "id": "320404463815827456",
+   "sport": "Asztalitenisz",
+   "name": "Eric Maresh - Jan Szotkowski",
+   "home": "Eric Maresh",
+   "away": "Jan Szotkowski",
+   "home_pid": "104575284237455360",
+   "away_pid": "274533435302875136",
+   "tournament": "Cseh Liga Pro",
+   "category": "Csehország",
+   "tm_sport_id": "63",
+   "start": "2026-11-21T03:30:00+00:00"
+  },
+  "fx": {
+   "fixtureId": "id2503634976957374",
+   "startTime": "2026-11-21T03:30:00.000Z",
+   "participant1Name": "Mares, Erik",
+   "participant2Name": "Szotkowski, Jan",
    "tournamentId": 36349,
    "tournamentName": "Czech Liga Pro",
    "sportName": "Table Tennis"
@@ -37143,36 +36818,6 @@
    "sportName": "Cricket"
   },
   "score": 0.787
- },
- "id4902150476979572": {
-  "tm": {
-   "id": "320514562791120896",
-   "sport": "Tollaslabda",
-   "name": "Man W.C./Tee K.W. - Rankireddy S./Shetty C.",
-   "home": "Man W.C./Tee K.W.",
-   "away": "Rankireddy S./Shetty C.",
-   "home_pid": "133408293192257536",
-   "away_pid": "1549977",
-   "tournament": "Hongkong Open, férfi páros",
-   "category": "Hongkong",
-   "tm_sport_id": "14",
-   "start": "2026-11-21T02:20:00+00:00"
-  },
-  "fx": {
-   "fixtureId": "id4902150476979572",
-   "startTime": "2026-11-21T02:20:00.000Z",
-   "participant1Name": "Man W C / Tee K W",
-   "participant2Name": "Rankireddy S / Shetty C",
-   "tournamentId": 21504,
-   "tournamentName": "Hong Kong Open, MD",
-   "sportName": "Badminton"
-  },
-  "score": 1.0,
-  "cl": {
-   "id": 5673889,
-   "name": "Man W C / Tee K W - Rankireddy S / Shetty C",
-   "score": 1.0
-  }
  },
  "id4902156277000108": {
   "tm": {
