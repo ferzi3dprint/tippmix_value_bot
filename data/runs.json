@@ -1,230 +1,5 @@
 [
  {
-  "time": "2026-11-18T22:46:35.961672+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "top_ev": [
-   "-0.9% Detroit – Boston · Hendikep (rendes játékidő): Detroit (+1) @1.43 (fair 1.443)",
-   "-1.2% Corinthians SP – Botafogo RJ · 1X2: Corinthians SP győz @1.71 (fair 1.73)",
-   "-1.2% Cruzeiro MG – Palmeiras SP · 1X2: Cruzeiro MG győz @2.45 (fair 2.48)",
-   "-1.5% Detroit – Boston · Hendikep (rendes játékidő): Boston (+1) @1.44 (fair 1.461)",
-   "-1.9% Gremio RS – Bahia BA · Gólszám 1.5: Több @1.2 (fair 1.223)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 17,
-  "fixtures_both": 13,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 4,
-  "classic_checked": 9,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.2% Corinthians SP – Botafogo RJ · Gólszám 4.5: Kevesebb @1.13 (fair 1.155)",
-   "-2.7% Cruzeiro MG – Palmeiras SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.212)",
-   "-2.9% Gremio RS – Bahia BA · Gólszám 4.5: Kevesebb @1.19 (fair 1.226)",
-   "-3.2% Corinthians SP – Botafogo RJ · Gólszám 3.5: Kevesebb @1.36 (fair 1.404)",
-   "-3.6% Cruzeiro MG – Palmeiras SP · Gólszám 3.5: Kevesebb @1.47 (fair 1.525)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 21
- },
- {
-  "time": "2026-11-18T22:51:35.961031+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "boosts": 0,
-  "classic": {
-   "events": 282,
-   "paired": 60,
-   "classic_only": 2
-  },
-  "tippmix_matches": 824,
-  "pinnacle_fixtures": 976,
-  "paired": 115,
-  "by_sport": {
-   "Soccer": [
-    112,
-    43
-   ],
-   "Tennis": [
-    295,
-    6
-   ],
-   "Basketball": [
-    132,
-    26
-   ],
-   "Ice Hockey": [
-    40,
-    26
-   ],
-   "Handball": [
-    16,
-    6
-   ],
-   "Volleyball": [
-    31,
-    0
-   ],
-   "Table Tennis": [
-    50,
-    3
-   ],
-   "Cricket": [
-    16,
-    2
-   ],
-   "Badminton": [
-    62,
-    0
-   ],
-   "Darts": [
-    22,
-    0
-   ],
-   "Futsal": [
-    4,
-    0
-   ],
-   "Waterpolo": [
-    8,
-    3
-   ],
-   "ESport Counter-Strike": [
-    11,
-    0
-   ],
-   "ESport Dota": [
-    6,
-    0
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    15,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    0,
-    0
-   ],
-   "MMA": [
-    0,
-    0
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    0
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "-0.9% Detroit – Boston · Hendikep (rendes játékidő): Detroit (+1) @1.43 (fair 1.443)",
-   "-1.1% Tersana SC – WE SC · Ázsiai hendikep: Tersana SC (+0.25) @1.4 (fair 1.415)",
-   "-1.1% Utah – Colorado · Hendikep (rendes játékidő): Colorado (+1) @1.44 (fair 1.456)",
-   "-1.2% Corinthians SP – Botafogo RJ · 1X2: Corinthians SP győz @1.71 (fair 1.73)",
-   "-1.2% Tersana SC – WE SC · Ázsiai hendikep: Tersana SC (+0.5) @1.29 (fair 1.306)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 8,
-  "fast": false,
-  "fixtures_checked": 69,
-  "fixtures_both": 51,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 4,
-  "classic_checked": 32,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.5% Al-Wasl – Hatta · Gólszám 5.5: Kevesebb @1.23 (fair 1.237)",
-   "-0.9% Al-Ain (UAE) – Al-Dharfa · Gólszám 4.5: Kevesebb @1.4 (fair 1.413)",
-   "-1.9% Al-Ain (UAE) – Al-Dharfa · Gólszám 4: Kevesebb @1.57 (fair 1.6)",
-   "-2.1% Al-Wasl – Hatta · Gólszám 4.5: Kevesebb @1.52 (fair 1.553)",
-   "-2.2% Corinthians SP – Botafogo RJ · Gólszám 4.5: Kevesebb @1.13 (fair 1.155)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 73
- },
- {
-  "time": "2026-11-18T23:01:07.483141+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 2,
-  "top_ev": [
-   "+1.7% Sudbury Wolves – Kitchener Rangers · Hendikep (rendes játékidő): Sudbury Wolves (+0) @2.07 (fair 2.036)",
-   "+1.1% Sudbury Wolves – Kitchener Rangers · 1X2 (rendes játékidő): Sudbury Wolves győz @2.61 (fair 2.583)",
-   "-0.1% Sudbury Wolves – Kitchener Rangers · Győztes (hosszabbítással): Sudbury Wolves győz @2.05 (fair 2.052)",
-   "-0.9% Corinthians SP – Botafogo RJ · 1X2: Corinthians SP győz @1.71 (fair 1.725)",
-   "-1.1% Detroit – Boston · Hendikep (rendes játékidő): Boston (+1) @1.44 (fair 1.456)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 18,
-  "fixtures_both": 13,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 2,
-  "classic_checked": 9,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.2% Corinthians SP – Botafogo RJ · Gólszám 4.5: Kevesebb @1.13 (fair 1.155)",
-   "-2.5% Cruzeiro MG – Palmeiras SP · Gólszám 4.5: Kevesebb @1.18 (fair 1.21)",
-   "-2.9% Gremio RS – Bahia BA · Gólszám 4.5: Kevesebb @1.19 (fair 1.226)",
-   "-3.2% Corinthians SP – Botafogo RJ · Gólszám 3.5: Kevesebb @1.36 (fair 1.405)",
-   "-3.5% Cruzeiro MG – Palmeiras SP · Gólszám 3.5: Kevesebb @1.47 (fair 1.523)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 20
- },
- {
   "time": "2026-11-18T23:06:07.482334+00:00",
   "mode": "hu",
   "settled": 0,
@@ -25369,6 +25144,195 @@
   "placed": 0,
   "not_executable": 0,
   "api_calls": 150,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T02:08:26.888396+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 39,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 40,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T02:13:26.889556+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": true,
+  "fixtures_checked": 26,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 26,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-21T02:18:26.888944+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "classic": {
+   "events": 733,
+   "paired": 561,
+   "classic_only": 66
+  },
+  "tippmix_matches": 2396,
+  "pinnacle_fixtures": 2467,
+  "paired": 1470,
+  "by_sport": {
+   "Soccer": [
+    1153,
+    833
+   ],
+   "Tennis": [
+    139,
+    20
+   ],
+   "Basketball": [
+    486,
+    302
+   ],
+   "Ice Hockey": [
+    122,
+    117
+   ],
+   "Handball": [
+    83,
+    57
+   ],
+   "Volleyball": [
+    191,
+    63
+   ],
+   "Table Tennis": [
+    22,
+    8
+   ],
+   "Cricket": [
+    65,
+    11
+   ],
+   "Badminton": [
+    28,
+    7
+   ],
+   "Darts": [
+    11,
+    2
+   ],
+   "Futsal": [
+    10,
+    3
+   ],
+   "Waterpolo": [
+    18,
+    8
+   ],
+   "ESport Counter-Strike": [
+    14,
+    0
+   ],
+   "ESport Dota": [
+    7,
+    2
+   ],
+   "ESport League of Legends": [
+    0,
+    0
+   ],
+   "eSoccer": [
+    30,
+    0
+   ],
+   "eBasketball": [
+    6,
+    0
+   ],
+   "American Football": [
+    0,
+    10
+   ],
+   "Boxing": [
+    1,
+    7
+   ],
+   "MMA": [
+    0,
+    12
+   ],
+   "Snooker": [
+    0,
+    0
+   ],
+   "Rugby": [
+    0,
+    0
+   ],
+   "Aussie Rules": [
+    0,
+    1
+   ],
+   "Squash": [
+    0,
+    0
+   ],
+   "Baseball": [
+    0,
+    0
+   ],
+   "Beach Volley": [
+    0,
+    0
+   ],
+   "Bandy": [
+    0,
+    0
+   ],
+   "Floorball": [
+    10,
+    7
+   ]
+  },
+  "top_ev": [],
+  "rejected_examples": [],
+  "no_main_market": 0,
+  "fast": false,
+  "fixtures_checked": 150,
+  "fixtures_both": 0,
+  "rejected_mismatch": 0,
+  "candidates": 0,
+  "steam_fixtures": 0,
+  "classic_checked": 0,
+  "classic_candidates": 0,
+  "top_ev_classic": [],
+  "placed": 0,
+  "not_executable": 0,
+  "api_calls": 151,
   "free_calls": 0
  }
 ]
