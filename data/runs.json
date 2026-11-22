@@ -1,33 +1,5 @@
 [
  {
-  "time": "2026-11-20T03:03:49.492667+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 3,
-  "fast": true,
-  "fixtures_checked": 15,
-  "fixtures_both": 3,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 5,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-6.1% Houston Cougars – Kansas Jayhawks · Hendikep (hosszabbítással): Kansas Jayhawks (+3.5) @1.81 (fair 1.928)",
-   "-7.7% Santa Clara Broncos – VCU Rams · Hendikep (hosszabbítással): Santa Clara Broncos (-1.5) @1.78 (fair 1.928)",
-   "-8.2% Santa Clara Broncos – VCU Rams · Győztes (hosszabbítással): Santa Clara Broncos győz @1.71 (fair 1.863)",
-   "-8.8% Houston Cougars – Kansas Jayhawks · Győztes (hosszabbítással): Houston Cougars győz @1.51 (fair 1.655)",
-   "-9.4% Santa Clara Broncos – VCU Rams · Összpontszám (hosszabbítással) 163.5: Több @1.78 (fair 1.964)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 4,
-  "free_calls": 12
- },
- {
   "time": "2026-11-20T03:08:49.492693+00:00",
   "mode": "hu",
   "settled": 0,
@@ -20862,6 +20834,16 @@
  },
  {
   "time": "2026-11-22T01:52:16.801036+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T01:57:16.801186+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
