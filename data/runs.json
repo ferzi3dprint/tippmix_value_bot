@@ -1,162 +1,5 @@
 [
  {
-  "time": "2026-11-20T06:04:56.184457+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 627,
-   "paired": 412,
-   "classic_only": 36
-  },
-  "tippmix_matches": 1920,
-  "pinnacle_fixtures": 2042,
-  "paired": 1155,
-  "by_sport": {
-   "Soccer": [
-    794,
-    658
-   ],
-   "Tennis": [
-    232,
-    15
-   ],
-   "Basketball": [
-    354,
-    214
-   ],
-   "Ice Hockey": [
-    187,
-    147
-   ],
-   "Handball": [
-    71,
-    38
-   ],
-   "Volleyball": [
-    61,
-    19
-   ],
-   "Table Tennis": [
-    37,
-    9
-   ],
-   "Cricket": [
-    31,
-    11
-   ],
-   "Badminton": [
-    44,
-    7
-   ],
-   "Darts": [
-    19,
-    17
-   ],
-   "Futsal": [
-    2,
-    1
-   ],
-   "Waterpolo": [
-    3,
-    1
-   ],
-   "ESport Counter-Strike": [
-    24,
-    1
-   ],
-   "ESport Dota": [
-    10,
-    3
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    36,
-    0
-   ],
-   "eBasketball": [
-    8,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    7,
-    7
-   ],
-   "MMA": [
-    0,
-    5
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    2
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "-0.1% Igdir FK – Ümraniyespor · 1X2: Igdir FK győz @1.85 (fair 1.852)",
-   "-0.6% JYP – HIFK · Győztes (hosszabbítással): JYP győz @1.57 (fair 1.579)",
-   "-0.9% Western Sydney Wanderers – Adelaide Utd. · 1X2: Western Sydney Wanderers győz @1.66 (fair 1.674)",
-   "-1.0% Piast Gliwice – Korona Kielce · Gólszám 1.5: Több @1.22 (fair 1.232)",
-   "-1.1% St. Pölten – Voitsberg · 1X2: St. Pölten győz @1.88 (fair 1.901)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 15,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 89,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 18,
-  "classic_checked": 69,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.0% East Bengal – SC Delhi · Gólszám 4.5: Kevesebb @1.39 (fair 1.39)",
-   "-0.0% East Bengal – SC Delhi · Gólszám 4: Kevesebb @1.56 (fair 1.561)",
-   "-1.0% Beijing Guoan – Shanghai Port · Gólszám 3.5: Kevesebb @1.49 (fair 1.505)",
-   "-1.2% Beijing Guoan – Shanghai Port · Gólszám 3.25: Kevesebb @1.59 (fair 1.609)",
-   "-1.2% Piast Gliwice – Korona Kielce · 1X2: Korona Kielce győz @2.6 (fair 2.632)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 2,
-  "free_calls": 156
- },
- {
   "time": "2026-11-20T06:22:21.040334+00:00",
   "mode": "hu",
   "settled": 0,
@@ -19506,6 +19349,16 @@
  },
  {
   "time": "2026-11-22T03:12:35.730370+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T03:17:35.730151+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
