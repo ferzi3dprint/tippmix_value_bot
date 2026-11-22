@@ -1,162 +1,5 @@
 [
  {
-  "time": "2026-11-19T23:48:11.308872+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 640,
-   "paired": 465,
-   "classic_only": 58
-  },
-  "tippmix_matches": 1820,
-  "pinnacle_fixtures": 2042,
-  "paired": 1227,
-  "by_sport": {
-   "Soccer": [
-    745,
-    625
-   ],
-   "Tennis": [
-    196,
-    45
-   ],
-   "Basketball": [
-    345,
-    255
-   ],
-   "Ice Hockey": [
-    172,
-    153
-   ],
-   "Handball": [
-    69,
-    38
-   ],
-   "Volleyball": [
-    66,
-    19
-   ],
-   "Table Tennis": [
-    37,
-    12
-   ],
-   "Cricket": [
-    43,
-    18
-   ],
-   "Badminton": [
-    47,
-    14
-   ],
-   "Darts": [
-    22,
-    21
-   ],
-   "Futsal": [
-    2,
-    1
-   ],
-   "Waterpolo": [
-    3,
-    1
-   ],
-   "ESport Counter-Strike": [
-    28,
-    1
-   ],
-   "ESport Dota": [
-    8,
-    3
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    24,
-    0
-   ],
-   "eBasketball": [
-    6,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    7,
-    7
-   ],
-   "MMA": [
-    0,
-    11
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    2
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "-1.5% Al Duhail – Qatar SC · 1X2: Al Duhail győz @1.36 (fair 1.381)",
-   "-1.6% Al-Sadd – Lusail City · 1X2: Al-Sadd győz @1.28 (fair 1.301)",
-   "-1.7% East Bengal – SC Delhi · 1X2: East Bengal győz @1.43 (fair 1.455)",
-   "-2.1% Cartagena – Tigres Bogota · 1X2: Cartagena győz @1.2 (fair 1.226)",
-   "-2.2% East Bengal – SC Delhi · Gólszám 4.5: Kevesebb @1.26 (fair 1.289)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 39,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 73,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 8,
-  "classic_checked": 80,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.5% East Bengal – SC Delhi · Gólszám 4.5: Kevesebb @1.27 (fair 1.289)",
-   "-2.1% Cartagena – Tigres Bogota · 1X2: Cartagena győz @1.2 (fair 1.226)",
-   "-2.7% Al-Ittihad (UAE) – Al-Sharjah · Gólszám 3.5: Kevesebb @1.37 (fair 1.409)",
-   "-2.8% Orlando – Cincinnati · Gólszám 5.5: Kevesebb @1.21 (fair 1.245)",
-   "-2.8% East Bengal – SC Delhi · Gólszám 3.75: Kevesebb @1.52 (fair 1.564)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 6,
-  "free_calls": 150
- },
- {
   "time": "2026-11-20T00:05:46.327975+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22377,6 +22220,16 @@
  },
  {
   "time": "2026-11-22T00:27:16.802720+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T00:32:16.799042+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
