@@ -1,33 +1,5 @@
 [
  {
-  "time": "2026-11-20T03:22:41.630312+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 3,
-  "fast": true,
-  "fixtures_checked": 8,
-  "fixtures_both": 3,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 4,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-6.1% Houston Cougars – Kansas Jayhawks · Hendikep (hosszabbítással): Kansas Jayhawks (+3.5) @1.81 (fair 1.928)",
-   "-8.8% Houston Cougars – Kansas Jayhawks · Győztes (hosszabbítással): Houston Cougars győz @1.51 (fair 1.655)",
-   "-9.5% Houston Cougars – Kansas Jayhawks · Összpontszám (hosszabbítással) 151.5: Több @1.81 (fair 2.0)",
-   "-10.0% Houston Cougars – Kansas Jayhawks · Összpontszám (hosszabbítással) 151.5: Kevesebb @1.8 (fair 2.0)",
-   "-11.4% Houston Cougars – Kansas Jayhawks · Győztes (hosszabbítással): Kansas Jayhawks győz @2.24 (fair 2.527)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 3,
-  "free_calls": 6
- },
- {
   "time": "2026-11-20T03:27:41.628838+00:00",
   "mode": "hu",
   "settled": 0,
@@ -20697,6 +20669,16 @@
  },
  {
   "time": "2026-11-22T02:02:16.800935+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T02:07:16.801301+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
