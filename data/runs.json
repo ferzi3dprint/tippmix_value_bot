@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-20T02:20:17.556234+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-2.6% Seattle – Salt Lake · Gólszám 1.5: Több @1.18 (fair 1.211)",
-   "-2.9% Seattle – Salt Lake · Ázsiai hendikep: Seattle (+0.5) @1.31 (fair 1.35)",
-   "-3.9% Seattle – Salt Lake · Ázsiai hendikep: Seattle (+0) @1.49 (fair 1.55)",
-   "-4.0% Billy Harris – Benjamin Hassan · Győztes: Billy Harris győz @1.38 (fair 1.437)",
-   "-4.0% Seattle – Salt Lake · Ázsiai hendikep: Seattle (+0.25) @1.37 (fair 1.428)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 7,
-  "fast": true,
-  "fixtures_checked": 23,
-  "fixtures_both": 9,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 14,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.8% Seattle – Salt Lake · Gólszám 4.5: Kevesebb @1.21 (fair 1.245)",
-   "-3.7% California Golden Bears – Texas A&M Commerce Lions · Győztes (hosszabbítással): California Golden Bears győz @1.06 (fair 1.101)",
-   "-3.8% Seattle – Salt Lake · Gólszám 3.5: Kevesebb @1.54 (fair 1.601)",
-   "-4.1% Seattle – Salt Lake · Gólszám 3.25: Kevesebb @1.66 (fair 1.73)",
-   "-4.5% Stanford Cardinal – Sacramento State Hornets · Összpontszám (hosszabbítással) 153.5: Kevesebb @1.78 (fair 1.864)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 2,
-  "free_calls": 21
- },
- {
   "time": "2026-11-20T02:25:17.555238+00:00",
   "mode": "hu",
   "settled": 0,
@@ -21204,6 +21170,16 @@
  },
  {
   "time": "2026-11-22T01:32:16.800780+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T01:37:16.800546+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
