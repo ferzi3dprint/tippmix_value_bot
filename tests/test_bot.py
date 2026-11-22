@@ -222,8 +222,8 @@ def test_free_mode_daily_cap_and_signals(tmp_path, monkeypatch):
     assert len(sig) > len(bets) and any(x.get("clv") is not None for x in sig)
     runs = json.load(open(tmp_path / "runs.json"))
     paid = sum(r["api_calls"] for r in runs)
-    assert paid / 5 < 250 / 30 + 8,  # a demó sok tippet zár le (1 kérés / meccs)
-        f"túl sok fizetős kérés: {paid} 5 nap alatt"
+    # a demó sok tippet zár le (1 kérés / meccs)
+    assert paid / 5 < 250 / 30 + 8, f"túl sok fizetős kérés: {paid} 5 nap alatt"
 
 
 def test_tippmix_market_parsing_hockey_and_soccer():
