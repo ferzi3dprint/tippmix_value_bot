@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-20T00:30:43.423124+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-3.9% Kasidit Samrej – Liam Broady · Győztes: Liam Broady győz @1.39 (fair 1.447)",
-   "-5.6% Kasidit Samrej – Liam Broady · Játékszám 22.5: Kevesebb @1.66 (fair 1.759)",
-   "-5.8% Kasidit Samrej – Liam Broady · Játékszám 20.5: Több @1.62 (fair 1.72)",
-   "-5.9% Yi Zhou – Jay Dylan Hara Friend · Győztes: Yi Zhou győz @1.81 (fair 1.923)",
-   "-6.2% Yi Zhou – Jay Dylan Hara Friend · Játékszám 21.5: Több @1.58 (fair 1.684)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 12,
-  "fast": true,
-  "fixtures_checked": 50,
-  "fixtures_both": 14,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 39,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-3.8% Washington Huskies – Utah Tech Trailblazers · Hendikep (hosszabbítással): Utah Tech Trailblazers (+17.5) @1.83 (fair 1.903)",
-   "-4.2% Houston – Indianapolis · Győztes (hosszabbítással): Houston győz @1.11 (fair 1.158)",
-   "-4.3% San Antonio – LA Clippers · Győztes (hosszabbítással): San Antonio győz @1.07 (fair 1.119)",
-   "-4.8% San Antonio – LA Clippers · Hendikep (hosszabbítással): LA Clippers (+17.5) @1.64 (fair 1.722)",
-   "-5.3% Memphis – Golden State · Hendikep (hosszabbítással): Memphis (-3.5) @1.61 (fair 1.699)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 49
- },
- {
   "time": "2026-11-20T00:35:43.423753+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22059,6 +22025,16 @@
  },
  {
   "time": "2026-11-22T00:42:16.799530+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T00:47:16.799138+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
