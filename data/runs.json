@@ -1,27 +1,5 @@
 [
  {
-  "time": "2026-11-21T04:28:21.517266+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 60,
-  "fixtures_both": 0,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 61,
-  "free_calls": 0
- },
- {
   "time": "2026-11-21T04:33:34.962322+00:00",
   "mode": "hu",
   "settled": 0,
@@ -10351,6 +10329,15 @@
  },
  {
   "time": "2026-11-22T14:43:19.693900+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T14:48:19.694291+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
