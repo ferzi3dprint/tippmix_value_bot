@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-20T06:44:28.231580+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "top_ev": [
-   "-1.9% Western Sydney Wanderers – Adelaide Utd. · 1X2: Western Sydney Wanderers győz @1.61 (fair 1.641)",
-   "-2.7% Western Sydney Wanderers – Adelaide Utd. · Gólszám 2.5: Több @1.38 (fair 1.418)",
-   "-2.8% Western Sydney Wanderers – Adelaide Utd. · Gólszám 1.5: Több @1.1 (fair 1.132)",
-   "-3.2% Western Sydney Wanderers – Adelaide Utd. · Gólszám 3: Több @1.55 (fair 1.601)",
-   "-3.4% South Melbourne – Canberra Croatia · 1X2: South Melbourne győz @1.13 (fair 1.169)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 15,
-  "fixtures_both": 5,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 4,
-  "classic_checked": 7,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-3.5% Sydney Utd. – Sutherland Sharks · Gólszám 2.5: Kevesebb @1.93 (fair 2.0)",
-   "-3.5% Western Sydney Wanderers – Adelaide Utd. · Gólszám 4.5: Kevesebb @1.36 (fair 1.41)",
-   "-3.9% South Melbourne – Canberra Croatia · Gólszám 3.5: Kevesebb @1.95 (fair 2.028)",
-   "-4.2% Western Sydney Wanderers – Adelaide Utd. · Gólszám 4: Kevesebb @1.51 (fair 1.576)",
-   "-4.4% South Melbourne – Canberra Croatia · Mindkét csapat szerez gólt: Nem @1.78 (fair 1.861)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 19
- },
- {
   "time": "2026-11-20T06:49:18.245397+00:00",
   "mode": "hu",
   "settled": 0,
@@ -19200,6 +19166,16 @@
   "boosts": 0,
   "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
   "api_calls": 3,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T03:32:35.730614+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
   "free_calls": 0
  }
 ]
