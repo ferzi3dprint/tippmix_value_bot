@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-19T22:33:34.462425+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 5,
-  "top_ev": [
-   "+0.5% Barrie Colts – Flint Firebirds · 1X2 (rendes játékidő): Flint Firebirds győz @1.77 (fair 1.761)",
-   "-0.2% Barrie Colts – Flint Firebirds · Győztes (hosszabbítással): Flint Firebirds győz @1.46 (fair 1.462)",
-   "-0.5% Barrie Colts – Flint Firebirds · Hendikep (rendes játékidő): Flint Firebirds (-0.5) @1.75 (fair 1.759)",
-   "-2.2% Orlando – Cincinnati · Gólszám 2.5: Több @1.29 (fair 1.319)",
-   "-2.3% Orlando – Cincinnati · Mindkét csapat szerez gólt: Igen @1.28 (fair 1.31)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 33,
-  "fixtures_both": 9,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 5,
-  "classic_checked": 22,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.6% Osasco – Minas Tenis Clube · Összpontszám (hosszabbítással) 163.5: Kevesebb @1.8 (fair 1.83)",
-   "-3.0% Sao Paulo SP – Fluminense RJ · Gólszám 3.5: Kevesebb @1.25 (fair 1.289)",
-   "-3.0% Orlando – Cincinnati · Mindkét csapat szerez gólt: Igen @1.27 (fair 1.31)",
-   "-3.3% Fallon Sherrock – Mayumi Ouchi · Győztes: Fallon Sherrock győz @1.25 (fair 1.292)",
-   "-3.3% Orlando – Cincinnati · Gólszám 5.5: Kevesebb @1.2 (fair 1.241)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 38
- },
- {
   "time": "2026-11-19T22:40:06.136458+00:00",
   "mode": "hu",
   "settled": 1,
@@ -22890,6 +22856,16 @@
  },
  {
   "time": "2026-11-21T23:57:16.798223+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T00:02:16.798432+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
