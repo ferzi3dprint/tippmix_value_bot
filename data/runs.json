@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-20T09:42:53.609958+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 4,
-  "top_ev": [
-   "+0.8% Karlovy Vary – Vitkovice · Hendikep (rendes játékidő): Karlovy Vary (-1.5) @2.34 (fair 2.322)",
-   "+0.1% Karlovy Vary – Vitkovice · Győztes (hosszabbítással): Karlovy Vary győz @1.45 (fair 1.449)",
-   "-1.6% Karlovy Vary – Vitkovice · 1X2 (rendes játékidő): Karlovy Vary győz @1.74 (fair 1.768)",
-   "-2.1% East Bengal – SC Delhi · Gólszám 4.5: Kevesebb @1.37 (fair 1.399)",
-   "-2.4% Karlovy Vary – Vitkovice · Gólszám 4.5: Kevesebb @1.8 (fair 1.845)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 3,
-  "fast": true,
-  "fixtures_checked": 28,
-  "fixtures_both": 13,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 4,
-  "classic_checked": 11,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.6% East Bengal – SC Delhi · Gólszám 4.5: Kevesebb @1.39 (fair 1.399)",
-   "-0.8% East Bengal – SC Delhi · Gólszám 4: Kevesebb @1.56 (fair 1.572)",
-   "-1.9% Beijing Guoan – Shanghai Port · Ázsiai hendikep: Shanghai Port (-0.25) @1.81 (fair 1.845)",
-   "-3.0% East Bengal – SC Delhi · Gólszám 3.75: Kevesebb @1.73 (fair 1.784)",
-   "-3.4% Karlovy Vary – Vitkovice · Győztes (hosszabbítással): Karlovy Vary győz @1.4 (fair 1.449)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 32
- },
- {
   "time": "2026-11-20T09:48:35.844084+00:00",
   "mode": "hu",
   "settled": 0,
@@ -17850,6 +17816,16 @@
  },
  {
   "time": "2026-11-22T04:42:35.731981+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T04:47:35.732190+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
