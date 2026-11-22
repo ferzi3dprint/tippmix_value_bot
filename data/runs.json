@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-20T08:14:02.086600+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 5,
-  "top_ev": [
-   "-0.4% Western Sydney Wanderers – Adelaide Utd. · 1X2: Western Sydney Wanderers győz @1.56 (fair 1.566)",
-   "-1.4% Kashiwa Reysol – JEF United Chiba · Gólszám 4.5: Kevesebb @1.17 (fair 1.187)",
-   "-1.7% Kashiwa Reysol – JEF United Chiba · Gólszám 3: Kevesebb @1.72 (fair 1.75)",
-   "-2.3% Kashiwa Reysol – JEF United Chiba · Gólszám 3.5: Kevesebb @1.45 (fair 1.484)",
-   "-2.3% Vissel Kobe – Mito · Ázsiai hendikep: Mito (+2) @1.28 (fair 1.31)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 4,
-  "fast": true,
-  "fixtures_checked": 23,
-  "fixtures_both": 12,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 5,
-  "classic_checked": 13,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.4% Kashiwa Reysol – JEF United Chiba · Gólszám 4.5: Kevesebb @1.17 (fair 1.187)",
-   "-1.7% Kashima Antlers – Shimizu SP · Gólszám 2.75: Kevesebb @1.64 (fair 1.669)",
-   "-2.0% Western Sydney Wanderers – Adelaide Utd. · Gólszám 5.5: Kevesebb @1.17 (fair 1.194)",
-   "-2.0% Kashima Antlers – Shimizu SP · Gólszám 2.5: Kevesebb @1.82 (fair 1.858)",
-   "-2.2% Vissel Kobe – Mito · Gólszám 4.5: Kevesebb @1.14 (fair 1.165)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 28
- },
- {
   "time": "2026-11-20T08:19:25.558662+00:00",
   "mode": "hu",
   "settled": 0,
@@ -18510,6 +18476,16 @@
  },
  {
   "time": "2026-11-22T04:07:35.731358+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T04:12:35.731678+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
