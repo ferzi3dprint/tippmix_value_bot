@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-20T07:51:38.555183+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 3,
-  "top_ev": [
-   "+1.0% Western Sydney Wanderers – Adelaide Utd. · 1X2: Western Sydney Wanderers győz @1.6 (fair 1.585)",
-   "-1.6% Western Sydney Wanderers – Adelaide Utd. · Ázsiai hendikep: Western Sydney Wanderers (+0) @1.25 (fair 1.27)",
-   "-2.6% Western Sydney Wanderers – Adelaide Utd. · Ázsiai hendikep: Western Sydney Wanderers (-1) @1.86 (fair 1.909)",
-   "-3.0% Western Sydney Wanderers – Adelaide Utd. · Gólszám 1.5: Több @1.09 (fair 1.124)",
-   "-3.2% Western Sydney Wanderers – Adelaide Utd. · Ázsiai hendikep: Western Sydney Wanderers (-0.75) @1.66 (fair 1.715)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 4,
-  "fast": true,
-  "fixtures_checked": 22,
-  "fixtures_both": 11,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 3,
-  "classic_checked": 12,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.5% Fragolad Kagoshima – Wolfdogs Nagoya · Győztes: Wolfdogs Nagoya győz @1.03 (fair 1.057)",
-   "-3.1% Rajasthan Utd. – Chanmari · Gólszám 3.5: Kevesebb @1.41 (fair 1.455)",
-   "-3.5% Sydney Utd. – Sutherland Sharks · Gólszám 2.5: Kevesebb @1.93 (fair 2.0)",
-   "-3.7% Rajasthan Utd. – Chanmari · Gólszám 3.25: Kevesebb @1.49 (fair 1.547)",
-   "-3.8% Western Sydney Wanderers – Adelaide Utd. · Gólszám 4.5: Kevesebb @1.38 (fair 1.435)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 25
- },
- {
   "time": "2026-11-20T07:56:43.681397+00:00",
   "mode": "hu",
   "settled": 0,
@@ -18681,6 +18647,16 @@
  },
  {
   "time": "2026-11-22T03:57:35.731154+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T04:02:35.731373+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
