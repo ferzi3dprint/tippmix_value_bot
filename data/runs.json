@@ -1,162 +1,5 @@
 [
  {
-  "time": "2026-11-20T09:02:00.305322+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 967,
-   "paired": 631,
-   "classic_only": 47
-  },
-  "tippmix_matches": 2017,
-  "pinnacle_fixtures": 2042,
-  "paired": 1170,
-  "by_sport": {
-   "Soccer": [
-    817,
-    663
-   ],
-   "Tennis": [
-    239,
-    12
-   ],
-   "Basketball": [
-    364,
-    220
-   ],
-   "Ice Hockey": [
-    191,
-    150
-   ],
-   "Handball": [
-    89,
-    40
-   ],
-   "Volleyball": [
-    70,
-    19
-   ],
-   "Table Tennis": [
-    36,
-    9
-   ],
-   "Cricket": [
-    29,
-    7
-   ],
-   "Badminton": [
-    54,
-    7
-   ],
-   "Darts": [
-    19,
-    17
-   ],
-   "Futsal": [
-    7,
-    1
-   ],
-   "Waterpolo": [
-    22,
-    1
-   ],
-   "ESport Counter-Strike": [
-    27,
-    1
-   ],
-   "ESport Dota": [
-    9,
-    3
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    32,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    7,
-    8
-   ],
-   "MMA": [
-    0,
-    5
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    2
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    3
-   ],
-   "Floorball": [
-    1,
-    2
-   ]
-  },
-  "top_ev": [
-   "+0.5% Bengaluru – Mumbai City · 1X2: Bengaluru győz @1.77 (fair 1.761)",
-   "+0.5% Navbahor Namangan – Neftcsi Fargona · Ázsiai hendikep: Navbahor Namangan (+0.5) @1.36 (fair 1.354)",
-   "+0.4% Navbahor Namangan – Neftcsi Fargona · Gólszám 2: Több @1.5 (fair 1.494)",
-   "+0.2% Karlovy Vary – Vitkovice · Gólszám 4.5: Kevesebb @1.95 (fair 1.946)",
-   "-0.4% Navbahor Namangan – Neftcsi Fargona · Ázsiai hendikep: Navbahor Namangan (+0) @1.65 (fair 1.657)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 25,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 102,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 22,
-  "classic_checked": 80,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.1% Hammam-Lif – ES Metlaoui · Gólszám 2.5: Kevesebb @1.33 (fair 1.345)",
-   "-1.2% Kashiwa Reysol – JEF United Chiba · Gólszám 4.5: Kevesebb @1.16 (fair 1.174)",
-   "-1.2% East Bengal – SC Delhi · Gólszám 4.5: Kevesebb @1.39 (fair 1.407)",
-   "-1.3% Olympique de Beja – AS Marsa · Gólszám 2.5: Kevesebb @1.39 (fair 1.408)",
-   "-1.7% East Bengal – SC Delhi · Gólszám 4: Kevesebb @1.56 (fair 1.588)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 156
- },
- {
   "time": "2026-11-20T09:19:36.854598+00:00",
   "mode": "hu",
   "settled": 0,
@@ -18168,6 +18011,16 @@
  },
  {
   "time": "2026-11-22T04:27:35.731704+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T04:32:35.731910+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
