@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-20T04:56:20.161192+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-1.2% Western Sydney Wanderers – Wellington Phoenix · Gólszám 4.5: Kevesebb @1.17 (fair 1.184)",
-   "-1.4% Western Sydney Wanderers – Wellington Phoenix · Gólszám 3.5: Kevesebb @1.46 (fair 1.481)",
-   "-2.6% Western Sydney Wanderers – Wellington Phoenix · Gólszám 3: Kevesebb @1.7 (fair 1.745)",
-   "-2.6% Western Sydney Wanderers – Wellington Phoenix · 1X2: Wellington Phoenix győz @1.46 (fair 1.499)",
-   "-3.6% Western Sydney Wanderers – Wellington Phoenix · Ázsiai hendikep: Western Sydney Wanderers (+2) @1.27 (fair 1.317)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": true,
-  "fixtures_checked": 4,
-  "fixtures_both": 1,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 1,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.1% Western Sydney Wanderers – Wellington Phoenix · Gólszám 3.5: Kevesebb @1.45 (fair 1.481)",
-   "-2.1% Western Sydney Wanderers – Wellington Phoenix · Gólszám 3.25: Kevesebb @1.55 (fair 1.584)",
-   "-3.2% Western Sydney Wanderers – Wellington Phoenix · Gólszám 3: Kevesebb @1.69 (fair 1.745)",
-   "-4.9% Western Sydney Wanderers – Wellington Phoenix · Gólszám 2.75: Kevesebb @1.92 (fair 2.019)",
-   "-6.0% Western Sydney Wanderers – Wellington Phoenix · Ázsiai hendikep: Wellington Phoenix (-0.75) @1.53 (fair 1.628)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 4
- },
- {
   "time": "2026-11-20T05:01:20.161751+00:00",
   "mode": "hu",
   "settled": 0,
@@ -20013,6 +19979,16 @@
  },
  {
   "time": "2026-11-22T02:47:16.802073+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T02:52:16.802321+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
