@@ -54,7 +54,9 @@ def scan_sports(cfg):
 
 def sport_ids(client, cfg, now):
     rows = cached("sports", 24 * 30, client.sports, now)
-    want = {s.lower() for s in scan_sports(cfg)}
+    # sportáganként 1 fizetős kérés (free mód) – "all" esetén csak a négy fő sportág
+    want = {s.lower() for s in (scan_sports(cfg) if cfg["scan"]["sports"] not in ("all", ["all"])
+                                else ["Soccer", "Tennis", "Basketball", "Ice Hockey"])}
     return {int(s["sportId"]): s.get("sportName") or s.get("sportSlug") for s in rows
             if str(s.get("sportName") or s.get("sportSlug") or "").lower() in want}
 
@@ -942,6 +944,14 @@ def run(cfg):
     except Exception as e:
         stats["error"] = f"{e.__class__.__name__}: {str(e)[:200]}"
         traceback.print_exc()
+        if e.__class__.__name__ == "QuotaExceeded":       # naponta egyszer szól, ha az odds-API nem elérhető
+            sent = load_json("sent.json", {})
+            today = to_local(now, cfg).date().isoformat()
+            if sent.get("api_alert") != today:
+                why = "elfogyott a havi keret" if "LIMIT" in str(e) else "a Pinnacle-odds végpontot lezárták"
+                notify.send(f"⚠️ A bot most nem tud tippet keresni: az odds-API-nál {why}. "
+                            "Amíg ez így van, nem jön ajánlás. A nyitott tippek a dashboardon maradnak.")
+                save_json("sent.json", {**sent, "api_alert": today})
     finally:
         close_tm()
         ledger.save(bets)

@@ -47,6 +47,8 @@ class OddsPapi:
                     raise QuotaExceeded(body)
                 time.sleep(COOLDOWN.get(path, 1.0) * 2)
                 continue
+            if r.status_code == 403 and "RESTRICTED_ACCESS" in r.text:
+                raise QuotaExceeded(r.text[:300])      # a végpont le van zárva a csomagban: a kör azonnal leáll
             if r.status_code >= 400:
                 raise RuntimeError(f"{path} HTTP {r.status_code}: {r.text[:200].replace(self.key, '***')}")
             return r.json()
