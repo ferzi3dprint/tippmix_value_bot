@@ -1,162 +1,5 @@
 [
  {
-  "time": "2026-11-20T06:27:21.041031+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 622,
-   "paired": 412,
-   "classic_only": 36
-  },
-  "tippmix_matches": 1909,
-  "pinnacle_fixtures": 2042,
-  "paired": 1156,
-  "by_sport": {
-   "Soccer": [
-    795,
-    658
-   ],
-   "Tennis": [
-    233,
-    15
-   ],
-   "Basketball": [
-    354,
-    214
-   ],
-   "Ice Hockey": [
-    187,
-    147
-   ],
-   "Handball": [
-    71,
-    38
-   ],
-   "Volleyball": [
-    61,
-    19
-   ],
-   "Table Tennis": [
-    34,
-    9
-   ],
-   "Cricket": [
-    31,
-    11
-   ],
-   "Badminton": [
-    41,
-    7
-   ],
-   "Darts": [
-    19,
-    17
-   ],
-   "Futsal": [
-    2,
-    1
-   ],
-   "Waterpolo": [
-    3,
-    1
-   ],
-   "ESport Counter-Strike": [
-    24,
-    1
-   ],
-   "ESport Dota": [
-    10,
-    3
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    30,
-    0
-   ],
-   "eBasketball": [
-    6,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    7,
-    7
-   ],
-   "MMA": [
-    0,
-    5
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    2
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    1,
-    1
-   ]
-  },
-  "top_ev": [
-   "+1.7% Sävehof – Malmö · Gólszám 61.5: Több @1.82 (fair 1.79)",
-   "-0.3% Fribourg – Rapperswil · 1X2 (rendes játékidő): Rapperswil győz @3.55 (fair 3.562)",
-   "-0.9% Burgdorf-Hannover – Stuttgart · Gólszám 58.5: Több @1.7 (fair 1.715)",
-   "-1.1% Karlovy Vary – Vitkovice · Győztes (hosszabbítással): Karlovy Vary győz @1.48 (fair 1.497)",
-   "-1.2% Kolding IF – Aalborg · Gólszám 1.5: Több @1.22 (fair 1.235)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 21,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 95,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 23,
-  "classic_checked": 73,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.0% East Bengal – SC Delhi · Gólszám 4.5: Kevesebb @1.39 (fair 1.39)",
-   "-0.0% East Bengal – SC Delhi · Gólszám 4: Kevesebb @1.56 (fair 1.561)",
-   "-1.4% Kashiwa Reysol – JEF United Chiba · Gólszám 4.5: Kevesebb @1.2 (fair 1.217)",
-   "-2.0% Stade Ouchy – Kriens · Gólszám 4.5: Kevesebb @1.29 (fair 1.316)",
-   "-2.0% Aarhus GF – Lyngby · Gólszám 4.5: Kevesebb @1.22 (fair 1.246)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
   "time": "2026-11-20T06:44:28.231580+00:00",
   "mode": "hu",
   "settled": 0,
@@ -19347,6 +19190,16 @@
   "boosts": 0,
   "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
   "api_calls": 5,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T03:27:35.730976+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 3,
   "free_calls": 0
  }
 ]
