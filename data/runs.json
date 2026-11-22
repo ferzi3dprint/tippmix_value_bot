@@ -1,162 +1,5 @@
 [
  {
-  "time": "2026-11-20T11:30:10.466661+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "boosts": 0,
-  "classic": {
-   "events": 909,
-   "paired": 607,
-   "classic_only": 47
-  },
-  "tippmix_matches": 1918,
-  "pinnacle_fixtures": 2042,
-  "paired": 1132,
-  "by_sport": {
-   "Soccer": [
-    800,
-    650
-   ],
-   "Tennis": [
-    179,
-    9
-   ],
-   "Basketball": [
-    353,
-    210
-   ],
-   "Ice Hockey": [
-    190,
-    149
-   ],
-   "Handball": [
-    90,
-    40
-   ],
-   "Volleyball": [
-    64,
-    16
-   ],
-   "Table Tennis": [
-    32,
-    3
-   ],
-   "Cricket": [
-    22,
-    3
-   ],
-   "Badminton": [
-    28,
-    4
-   ],
-   "Darts": [
-    19,
-    17
-   ],
-   "Futsal": [
-    9,
-    1
-   ],
-   "Waterpolo": [
-    22,
-    1
-   ],
-   "ESport Counter-Strike": [
-    26,
-    1
-   ],
-   "ESport Dota": [
-    7,
-    2
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    54,
-    0
-   ],
-   "eBasketball": [
-    8,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    7,
-    8
-   ],
-   "MMA": [
-    0,
-    5
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    2
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    3
-   ],
-   "Floorball": [
-    8,
-    8
-   ]
-  },
-  "top_ev": [
-   "+0.6% Al Duhail – Qatar SC · 1X2: Al Duhail győz @1.33 (fair 1.322)",
-   "-0.1% Bengaluru – Mumbai City · 1X2: Bengaluru győz @1.75 (fair 1.751)",
-   "-0.2% Al-Sadd – Lusail City · 1X2: Al-Sadd győz @1.33 (fair 1.333)",
-   "-0.5% Mohammedan SC – Gokulam Kerala · 1X2: Gokulam Kerala győz @1.58 (fair 1.588)",
-   "-1.0% Shabab Al-Ahli (UAE) – Ajman · 1X2: Shabab Al-Ahli (UAE) győz @1.32 (fair 1.333)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 15,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 65,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 15,
-  "classic_checked": 42,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.4% Hammam-Lif – ES Metlaoui · Gólszám 2.5: Kevesebb @1.32 (fair 1.338)",
-   "-1.5% Olympique de Beja – AS Marsa · Gólszám 2.5: Kevesebb @1.39 (fair 1.411)",
-   "-1.7% Terengganu – DPMM FC · Gólszám 3.5: Kevesebb @1.48 (fair 1.506)",
-   "-1.8% Shirak Gyumri – Gandzasar Kapan · Gólszám 3.5: Kevesebb @1.39 (fair 1.416)",
-   "-2.1% Navbahor Namangan – Neftcsi Fargona · Mindkét csapat szerez gólt: Igen @1.7 (fair 1.737)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 70,
-  "free_calls": 86
- },
- {
   "time": "2026-11-20T11:47:25.701155+00:00",
   "mode": "hu",
   "settled": 0,
@@ -17148,6 +16991,16 @@
   "boosts": 0,
   "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
   "api_calls": 3,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T05:32:35.733456+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
   "free_calls": 0
  }
 ]
