@@ -1,150 +1,5 @@
 [
  {
-  "time": "2026-11-20T15:44:05.845371+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "boosts": 0,
-  "classic": {
-   "events": 946,
-   "paired": 566,
-   "classic_only": 46
-  },
-  "tippmix_matches": 1982,
-  "pinnacle_fixtures": 2042,
-  "paired": 1059,
-  "by_sport": {
-   "Soccer": [
-    819,
-    602
-   ],
-   "Tennis": [
-    155,
-    6
-   ],
-   "Basketball": [
-    386,
-    208
-   ],
-   "Ice Hockey": [
-    190,
-    144
-   ],
-   "Handball": [
-    88,
-    39
-   ],
-   "Volleyball": [
-    127,
-    15
-   ],
-   "Table Tennis": [
-    39,
-    3
-   ],
-   "Cricket": [
-    35,
-    3
-   ],
-   "Badminton": [
-    22,
-    0
-   ],
-   "Darts": [
-    15,
-    8
-   ],
-   "Futsal": [
-    15,
-    1
-   ],
-   "Waterpolo": [
-    23,
-    1
-   ],
-   "ESport Counter-Strike": [
-    21,
-    0
-   ],
-   "ESport Dota": [
-    5,
-    1
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    21,
-    0
-   ],
-   "eBasketball": [
-    3,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    7,
-    6
-   ],
-   "MMA": [
-    0,
-    5
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    2
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    4
-   ],
-   "Floorball": [
-    11,
-    11
-   ]
-  },
-  "top_ev": [],
-  "rejected_examples": [],
-  "no_main_market": 0,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 0,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 0,
-  "classic_candidates": 0,
-  "top_ev_classic": [],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 151,
-  "free_calls": 0
- },
- {
   "time": "2026-11-20T15:57:36.412197+00:00",
   "mode": "hu",
   "settled": 0,
@@ -15429,6 +15284,16 @@
  },
  {
   "time": "2026-11-22T07:52:35.736605+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T07:57:35.736174+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
