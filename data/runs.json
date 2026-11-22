@@ -1,162 +1,5 @@
 [
  {
-  "time": "2026-11-20T00:13:44.375163+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 3,
-  "boosts": 0,
-  "classic": {
-   "events": 618,
-   "paired": 452,
-   "classic_only": 52
-  },
-  "tippmix_matches": 1796,
-  "pinnacle_fixtures": 2042,
-  "paired": 1197,
-  "by_sport": {
-   "Soccer": [
-    748,
-    627
-   ],
-   "Tennis": [
-    192,
-    41
-   ],
-   "Basketball": [
-    337,
-    245
-   ],
-   "Ice Hockey": [
-    164,
-    139
-   ],
-   "Handball": [
-    69,
-    38
-   ],
-   "Volleyball": [
-    66,
-    19
-   ],
-   "Table Tennis": [
-    32,
-    9
-   ],
-   "Cricket": [
-    43,
-    18
-   ],
-   "Badminton": [
-    47,
-    14
-   ],
-   "Darts": [
-    21,
-    20
-   ],
-   "Futsal": [
-    2,
-    1
-   ],
-   "Waterpolo": [
-    3,
-    1
-   ],
-   "ESport Counter-Strike": [
-    28,
-    1
-   ],
-   "ESport Dota": [
-    8,
-    3
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    25,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    1
-   ],
-   "Boxing": [
-    7,
-    7
-   ],
-   "MMA": [
-    0,
-    11
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    2
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+0.6% Sahtar Doneck – Levy Bereg Kijev · 1X2: Sahtar Doneck győz @1.24 (fair 1.233)",
-   "-0.2% Navbahor Namangan – Neftcsi Fargona · Gólszám 2: Több @1.5 (fair 1.503)",
-   "-0.6% Western Sydney Wanderers – Wellington Phoenix · 1X2: Wellington Phoenix győz @1.33 (fair 1.338)",
-   "-0.7% Navbahor Namangan – Neftcsi Fargona · Ázsiai hendikep: Navbahor Namangan (+0.5) @1.38 (fair 1.39)",
-   "-1.2% Western Sydney Wanderers – Wellington Phoenix · Gólszám 4.5: Kevesebb @1.22 (fair 1.235)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 36,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 68,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 3,
-  "classic_checked": 75,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-0.5% Shabab Al-Ahli (UAE) – Ajman · Gólszám 4.5: Kevesebb @1.26 (fair 1.266)",
-   "-1.6% Botosani – Voluntari · 1X2: Botosani győz @1.69 (fair 1.718)",
-   "-1.8% Olympique de Beja – AS Marsa · Gólszám 2.5: Kevesebb @1.41 (fair 1.436)",
-   "-1.9% Szeptemvri Szófia – Lokomotív Plovdiv · Gólszám 3.5: Kevesebb @1.2 (fair 1.223)",
-   "-2.0% ASO Chlef – USM Khenchela · Gólszám 2.5: Kevesebb @1.43 (fair 1.459)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 20,
-  "free_calls": 133
- },
- {
   "time": "2026-11-20T00:30:43.423124+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22212,6 +22055,16 @@
   "boosts": 0,
   "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
   "api_calls": 2,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T00:42:16.799530+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
   "free_calls": 0
  }
 ]
