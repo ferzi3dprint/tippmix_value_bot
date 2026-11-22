@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-20T01:15:06.684421+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "top_ev": [
-   "-2.3% Seattle – Salt Lake · Gólszám 1.5: Több @1.18 (fair 1.208)",
-   "-3.0% Seattle – Salt Lake · Ázsiai hendikep: Seattle (+0.5) @1.31 (fair 1.351)",
-   "-3.7% Seattle – Salt Lake · Gólszám 2.5: Több @1.6 (fair 1.662)",
-   "-3.9% Seattle – Salt Lake · Ázsiai hendikep: Seattle (+0) @1.49 (fair 1.55)",
-   "-3.9% Kasidit Samrej – Liam Broady · Győztes: Liam Broady győz @1.39 (fair 1.447)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 9,
-  "fast": true,
-  "fixtures_checked": 28,
-  "fixtures_both": 12,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 0,
-  "classic_checked": 25,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-3.0% Seattle – Salt Lake · Gólszám 4.5: Kevesebb @1.21 (fair 1.248)",
-   "-3.7% California Golden Bears – Texas A&M Commerce Lions · Győztes (hosszabbítással): California Golden Bears győz @1.06 (fair 1.101)",
-   "-3.8% Washington Huskies – Utah Tech Trailblazers · Hendikep (hosszabbítással): Utah Tech Trailblazers (+17.5) @1.83 (fair 1.903)",
-   "-4.5% Seattle – Salt Lake · Gólszám 3.5: Kevesebb @1.54 (fair 1.612)",
-   "-4.8% Seattle – Salt Lake · Ázsiai hendikep: Seattle (+0.25) @1.36 (fair 1.429)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 1,
-  "free_calls": 27
- },
- {
   "time": "2026-11-20T01:17:50.036539+00:00",
   "mode": "hu",
   "settled": 0,
@@ -21717,6 +21683,16 @@
  },
  {
   "time": "2026-11-22T01:02:16.799535+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T01:07:16.800286+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
