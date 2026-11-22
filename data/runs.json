@@ -1,39 +1,5 @@
 [
  {
-  "time": "2026-11-19T23:38:10.480314+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "top_ev": [
-   "-2.1% Cartagena – Tigres Bogota · 1X2: Cartagena győz @1.2 (fair 1.226)",
-   "-2.5% Orlando – Cincinnati · Mindkét csapat szerez gólt: Igen @1.27 (fair 1.302)",
-   "-2.5% Real Soacha Cundinamarca – Dep. Quindio · Ázsiai hendikep: Dep. Quindio (+0.5) @1.26 (fair 1.293)",
-   "-2.9% Orlando – Cincinnati · Gólszám 2.5: Több @1.28 (fair 1.318)",
-   "-2.9% Sao Paulo SP – Fluminense RJ · Gólszám 1.5: Több @1.37 (fair 1.411)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 8,
-  "fast": true,
-  "fixtures_checked": 73,
-  "fixtures_both": 19,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 6,
-  "classic_checked": 49,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-2.0% Butler Bulldogs – Northeastern Huskies · Győztes (hosszabbítással): Butler Bulldogs győz @1.04 (fair 1.061)",
-   "-2.1% Cartagena – Tigres Bogota · 1X2: Cartagena győz @1.2 (fair 1.226)",
-   "-2.8% Orlando – Cincinnati · Gólszám 5.5: Kevesebb @1.21 (fair 1.244)",
-   "-3.0% Sao Paulo SP – Fluminense RJ · Gólszám 3.5: Kevesebb @1.25 (fair 1.289)",
-   "-3.2% Orlando – Cincinnati · 1X2: Döntetlen @4.0 (fair 4.133)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 3,
-  "free_calls": 76
- },
- {
   "time": "2026-11-19T23:48:11.308872+00:00",
   "mode": "hu",
   "settled": 0,
@@ -22401,6 +22367,16 @@
  },
  {
   "time": "2026-11-22T00:22:16.798691+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T00:27:16.802720+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
