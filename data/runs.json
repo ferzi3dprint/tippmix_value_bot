@@ -1,162 +1,5 @@
 [
  {
-  "time": "2026-11-20T02:47:04.958785+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 2,
-  "boosts": 0,
-  "classic": {
-   "events": 552,
-   "paired": 410,
-   "classic_only": 34
-  },
-  "tippmix_matches": 1843,
-  "pinnacle_fixtures": 2042,
-  "paired": 1141,
-  "by_sport": {
-   "Soccer": [
-    756,
-    632
-   ],
-   "Tennis": [
-    217,
-    18
-   ],
-   "Basketball": [
-    343,
-    220
-   ],
-   "Ice Hockey": [
-    166,
-    136
-   ],
-   "Handball": [
-    68,
-    38
-   ],
-   "Volleyball": [
-    60,
-    19
-   ],
-   "Table Tennis": [
-    33,
-    10
-   ],
-   "Cricket": [
-    39,
-    17
-   ],
-   "Badminton": [
-    52,
-    14
-   ],
-   "Darts": [
-    19,
-    17
-   ],
-   "Futsal": [
-    2,
-    1
-   ],
-   "Waterpolo": [
-    3,
-    1
-   ],
-   "ESport Counter-Strike": [
-    25,
-    1
-   ],
-   "ESport Dota": [
-    8,
-    3
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    41,
-    0
-   ],
-   "eBasketball": [
-    4,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    7,
-    7
-   ],
-   "MMA": [
-    0,
-    5
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    2
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    0,
-    0
-   ]
-  },
-  "top_ev": [
-   "+0.2% Western Sydney Wanderers – Wellington Phoenix · Gólszám 4.5: Kevesebb @1.2 (fair 1.197)",
-   "+0.0% Western Sydney Wanderers – Wellington Phoenix · Gólszám 3.5: Kevesebb @1.51 (fair 1.51)",
-   "-0.2% Western Sydney Wanderers – Wellington Phoenix · Gólszám 3: Kevesebb @1.8 (fair 1.803)",
-   "-0.4% Karlovy Vary – Vitkovice · Győztes (hosszabbítással): Karlovy Vary győz @1.47 (fair 1.476)",
-   "-0.5% Molde – Bodö/Glimt · 1X2: Bodö/Glimt győz @1.84 (fair 1.85)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 15,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 73,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 2,
-  "classic_checked": 57,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "+0.2% Western Sydney Wanderers – Wellington Phoenix · Gólszám 4.5: Kevesebb @1.2 (fair 1.197)",
-   "-0.1% Leonardo Sanchez – Victor Morales Jr. · Győztes: Leonardo Sanchez győz @1.2 (fair 1.202)",
-   "-0.7% Western Sydney Wanderers – Wellington Phoenix · Gólszám 3.5: Kevesebb @1.5 (fair 1.51)",
-   "-1.0% Western Sydney Wanderers – Wellington Phoenix · Gólszám 3.25: Kevesebb @1.61 (fair 1.626)",
-   "-1.3% Western Sydney Wanderers – Wellington Phoenix · Gólszám 3: Kevesebb @1.78 (fair 1.803)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 26,
-  "free_calls": 126
- },
- {
   "time": "2026-11-20T03:03:49.492667+00:00",
   "mode": "hu",
   "settled": 0,
@@ -21009,6 +20852,16 @@
  },
  {
   "time": "2026-11-22T01:47:16.800798+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T01:52:16.801036+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
