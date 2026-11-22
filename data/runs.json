@@ -1,162 +1,5 @@
 [
  {
-  "time": "2026-11-20T06:49:18.245397+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 6,
-  "boosts": 0,
-  "classic": {
-   "events": 619,
-   "paired": 412,
-   "classic_only": 36
-  },
-  "tippmix_matches": 1914,
-  "pinnacle_fixtures": 2042,
-  "paired": 1158,
-  "by_sport": {
-   "Soccer": [
-    795,
-    658
-   ],
-   "Tennis": [
-    232,
-    15
-   ],
-   "Basketball": [
-    353,
-    213
-   ],
-   "Ice Hockey": [
-    187,
-    147
-   ],
-   "Handball": [
-    73,
-    38
-   ],
-   "Volleyball": [
-    61,
-    19
-   ],
-   "Table Tennis": [
-    38,
-    12
-   ],
-   "Cricket": [
-    30,
-    11
-   ],
-   "Badminton": [
-    39,
-    7
-   ],
-   "Darts": [
-    19,
-    17
-   ],
-   "Futsal": [
-    2,
-    1
-   ],
-   "Waterpolo": [
-    3,
-    1
-   ],
-   "ESport Counter-Strike": [
-    27,
-    1
-   ],
-   "ESport Dota": [
-    10,
-    3
-   ],
-   "ESport League of Legends": [
-    0,
-    0
-   ],
-   "eSoccer": [
-    32,
-    0
-   ],
-   "eBasketball": [
-    5,
-    0
-   ],
-   "American Football": [
-    0,
-    0
-   ],
-   "Boxing": [
-    7,
-    7
-   ],
-   "MMA": [
-    0,
-    5
-   ],
-   "Snooker": [
-    0,
-    0
-   ],
-   "Rugby": [
-    0,
-    0
-   ],
-   "Aussie Rules": [
-    0,
-    2
-   ],
-   "Squash": [
-    0,
-    0
-   ],
-   "Baseball": [
-    0,
-    0
-   ],
-   "Beach Volley": [
-    0,
-    0
-   ],
-   "Bandy": [
-    0,
-    0
-   ],
-   "Floorball": [
-    1,
-    1
-   ]
-  },
-  "top_ev": [
-   "-0.4% Nancy – Dijon · Gólszám 4.5: Kevesebb @1.15 (fair 1.155)",
-   "-0.9% Annecy – Clermont · Gólszám 1.5: Több @1.33 (fair 1.342)",
-   "-1.0% Helmond – Dordrecht · Gólszám 1.5: Több @1.17 (fair 1.181)",
-   "-1.0% MC Oran – Saoura · 1X2: MC Oran győz @1.52 (fair 1.535)",
-   "-1.0% Racing Montevideo – Central Espanyol · 1X2: Racing Montevideo győz @1.97 (fair 1.99)"
-  ],
-  "rejected_examples": [],
-  "no_main_market": 14,
-  "fast": false,
-  "fixtures_checked": 150,
-  "fixtures_both": 89,
-  "rejected_mismatch": 0,
-  "candidates": 0,
-  "steam_fixtures": 19,
-  "classic_checked": 65,
-  "classic_candidates": 0,
-  "top_ev_classic": [
-   "-1.2% Vissel Kobe – Mito · Gólszám 4.5: Kevesebb @1.16 (fair 1.174)",
-   "-1.3% Nancy – Dijon · Gólszám 4.5: Kevesebb @1.14 (fair 1.155)",
-   "-1.3% East Bengal – SC Delhi · Gólszám 4.5: Kevesebb @1.39 (fair 1.409)",
-   "-1.5% Kashiwa Reysol – JEF United Chiba · Gólszám 4.5: Kevesebb @1.2 (fair 1.218)",
-   "-1.8% East Bengal – SC Delhi · Gólszám 4: Kevesebb @1.56 (fair 1.589)"
-  ],
-  "placed": 0,
-  "not_executable": 0,
-  "api_calls": 0,
-  "free_calls": 156
- },
- {
   "time": "2026-11-20T07:06:44.453234+00:00",
   "mode": "hu",
   "settled": 0,
@@ -19170,6 +19013,16 @@
  },
  {
   "time": "2026-11-22T03:32:35.730614+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-22T03:37:35.730696+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
