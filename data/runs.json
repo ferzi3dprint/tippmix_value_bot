@@ -1,14 +1,5 @@
 [
  {
-  "time": "2026-11-22T16:23:19.696646+00:00",
-  "mode": "hu",
-  "settled": 0,
-  "rechecked": 0,
-  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
-  "api_calls": 1,
-  "free_calls": 0
- },
- {
   "time": "2026-11-22T16:28:19.696795+00:00",
   "mode": "hu",
   "settled": 0,
@@ -2957,6 +2948,16 @@
  },
  {
   "time": "2026-11-23T16:54:54.250873+00:00",
+  "mode": "hu",
+  "settled": 0,
+  "rechecked": 0,
+  "boosts": 0,
+  "error": "QuotaExceeded: {\"error\":{\"message\":\"Request limit exceeded\",\"code\":\"REQUEST_LIMIT_EXCEEDED\",\"details\":\"You have exceeded your request limit of 250 requests.\"}}",
+  "api_calls": 1,
+  "free_calls": 0
+ },
+ {
+  "time": "2026-11-23T16:59:54.250613+00:00",
   "mode": "hu",
   "settled": 0,
   "rechecked": 0,
